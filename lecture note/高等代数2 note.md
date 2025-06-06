@@ -1037,3 +1037,51 @@ when $n! \in F^{\times}$ they restric to $V^{\otimes n}_{sym} \stackrel{\sim}{\l
 
 *Proof*:
 Consider only $sym^n$ and take $Avg:x \mapsto \sum_{\sigma}\frac{\sigma x}{n!}$ is a projection $V^{\otimes n} \twoheadrightarrow V^{\otimes n}_{sym}$, so we can split $V^{\otimes n}=V^{\otimes n}_{sym} \oplus ker(Avg)$. note that $ker(Avg) \subset ker(q^n_{sym})$, also the intersection of $V^{\otimes n}$ and $ker(q^{n}_{sym})$ are $\{0\}$, then we are done.
+
+Symmetric algebra: $charF=0$ cases/exterior
+The quotient maps $q^n_{sym}:V^{\otimes n} \twoheadrightarrow Sym^nV$ and $q^n_{\wedge}:V^{\otimes n} \twoheadrightarrow \wedge^n(V)$ restrict to isomorphism $V^{\otimes n}_{sym} \stackrel{\sim}{\longrightarrow} Sym^nV$ and $V^{\otimes n}_\wedge \stackrel{\sim}{\longrightarrow} \wedge^n(V)$. $p^n_{sym}$ and $p^{n}_{\wedge}$ be its inverse.
+
+**Proposition**:
+$\forall x \in V^{\otimes a}_{sym}\ y \in V^{\otimes b}_{sym}$, $char F \not{\vert} (a+b)!$ then $p^{a+b}_{sym}(q^a_{sym}(x)q^b_{sym}(y))=\frac{a!b!}{(a+b)!}\sum_{\sigma \in S_{a+b}/S_a \times S_b}\sigma(x \otimes y)$. $S_a \times S_b \hookrightarrow S_{a+b}$ i.e. multiplication in $T_{sym}(V)$ is $\otimes$ + symmetrication
+
+*Proof*: Omit the idea of averaging.
+
+**Corollary**:
+$dim V< \infty$, $n \in \mathbb{Z}_{\geq 0}$, $n! \in F^{\times}$, => there are canonical $\simeq$ of vector spaces $Sym^n(V^v) \simeq Sym^n(V)^v$ where $V^v:=Hom(V,F)$.
+
+*Proof*:
+$(V^v)^{\otimes n} \stackrel{\Psi}{\longrightarrow} (V^{\otimes n})^v \stackrel{\Phi}{\longrightarrow} Mul(V, \cdots,V;F)$. and $S_n$ acts on $(V^v)^{\otimes n}$. $S_n$ acts on $Mul(V,\cdots,V;F)$ by $(\sigma C)(x_1,\cdots,x_n)=C(x_{\sigma(1)},\cdots,x_{\sigma(n)})$ and they match under $\Phi\Psi$! the rest is clear. 
+# Another application:Change of field
+
+**Idea**: $E$ a field and $F \subset E$ a subfield, given a $F$-v.s $V$ want to construct a $V_E$ as E-v.s.
+
+Write $\otimes_F:= \otimes$ as $F$-v.s. One obviously can view $E$ as an $F$-v.s., then we define $V_E:=V \otimes_F E$, the one immediately check that it is what we want.
+
+**observation**:
+Let $f:V \rightarrow W$ be a linear map of $F$-vector space, then $id_E \otimes f:V_E \rightarrow W_E$ is an E-linear 
+
+If $V$ has a basis $\{v_i\}_{i \in I}$, then $V_E=E \otimes_F(\bigoplus_{i \in I}Fv_i) \simeq \bigoplus_{i \in I}(E\otimes_FFv_i) \simeq \bigoplus_{i \in I} E$ => $V_E$ has basis $\{\tilde{v_i}:=1_E \otimes v_i\}$, in particular $dim_FV=dim_EV_E$.
+
+Consider the $F$-linear mao $i:V \rightarrow V_E$ by $v \mapsto 1_E \otimes v$, the $i$ is injective as it is the composite of $V \simeq F \otimes_F V \hookrightarrow E \otimes_FV=V_E$. 
+
+**Remark**:THis characterized up to a unique isomorphic when $V$ is given.
+
+# Some words about categories
+A category contains:
+- $Ob(e)$: a class of "objects" in $\mathcal{C}$.
+- morphism : $\forall x,y \in Ob(e)$, a set $Hom_{\mathcal{C}}(x,y)=Hom(x,y)$, in particular $id_x \in Hom(x,x)$.
+- $\forall x,y,x$ $o:Hom(y,z) \times Hom(x,y) \rightarrow Hom(x,z)$ such that $o$ is associative.
+Example:everything learned before in this class (morphism -> homomorphism)
+
+In a generated category, we have:
+- commutative diagram: $x \stackrel{h}{\longrightarrow}z$, $x \stackrel{f}{\longrightarrow} y$, $y \stackrel{g}{\longrightarrow} z$ such that $gf=h$, then we may draw a diagram 
+```tikz
+\usepackage{tikz-cd}
+\begin{document}
+\begin{tikzcd}
+&x \arrow[r,"f"] \arrow[d,"h"] &y \arrow[dl,"g"]\\
+&z 
+\end{tikzcd}
+\end{document}
+```
+- isomorphism: we say $f \in Hom(X,Y)$ is an isomorphism if there is a $f^{-1} \in Hom(Y,X)$ such that $f \circ f^{-1}=id_Y$ and $f^{-1} \circ f=id_X$.
