@@ -1,4 +1,4 @@
-# adjoint function
+j adjoint function
 Let $T:V \rightarrow W$ be a linear transformation and $V$ has a symmetric bilinear measures, then $T^*:W \rightarrow V$ is called the adjoint function if and only if $(Tv_1|v_2)=(v_1|T^*v_2)$ for all $v_1,v_2 \in V$.
 Recall that $ker(T)=ker(T^*T:V \rightarrow V)$, and that $T^*T \in End(V),TT^* \in End(W)$, both are self-adjoint and positive semidefinite.
 
@@ -407,7 +407,7 @@ Common featrues: "identtity" Multiplication/Composition.
 $\exists$ other math objects sharing these featrues!
 
 **Definition**:
-Group:=$deta(G,\cdot)$, where $G$ is a set $\neq \varnothing$ and $\cdot:G \times G \rightarrow G$ such that
+Group:=$data(G,\cdot)$, where $G$ is a set $\neq \varnothing$ and $\cdot:G \times G \rightarrow G$ such that
 - $xyz=x(yz)$ $\forall x,y,z \in G$.
 - $\exists 1_G \in G$ s.t. $1_gx=x1_g=x$ $\forall x \in G$.
 - $\forall x \in G$ $\exists x^{-1} \in G$ s.t. $xx^{-1}=x^{-1}x=1_G$.
@@ -800,7 +800,7 @@ Now assume$t \in R-\{0\}$ and $R:PID$ then $t \sim p_1^{a_1}\cdots p_m^{a_m}$.
 *Proof*:
 Suffice to show $t=ab$, $a,b \in R$ coprime then $M[t]=M[a]\oplus M[b]$. In fact, there is $u,v \in R$ such that $au+bv=1$, hence $x=aux+bvx$, then $M[t]=M[a]+M[b]$, and if $x \in M[a]\cap M[b]$ then $x=uax+vbx=0$.
 
-Let $p$ be a prime in $R$, and $M:R$-module, then $M[p] \subset M[p^2] \cdots$. Write $M[p^\infty]=\bigcup M[p_i]$. So if $M[t]=M$, then $M=\bigoplus_p M[p^\infty]$. 
+Let $p$ be a prime in $R$, and $M:R$-module, then $M[p] \subset M[p^2] \cdots$. Write $M[p^\infty]=\bigcup M[p^i]$. So if $M[t]=M$, then $M=\bigoplus_p M[p^\infty]$. 
 
 **Second** form of structure theorem for $M:f.g$ $R$-module, $R:PID$. $M \simeq R/(f_1) \oplus \cdots \oplus R/(f_k) \oplus (free)$ where $f_1|\cdots|f_k$ and for all $p \in R$ prime $p|f_k$ take $b_i(p)=sup_j\{p^j|f_i\}$, then $R/(f_1) \simeq \bigoplus R/(p^{b_i(p)})$, then $M_{tors} \simeq \bigoplus_{p|f_k}\bigoplus R/(p^{b_i(p)})$. Now take $R=F[x]$, we obtain the second form of rational canonical forms: $A \in M_{n \times n}(F),n \in \mathbb{Z}_{\geq 1}$, $Min_A=p_1^{a_1} \cdots p_m^{a_m}$, where $p_i$ are monic irreducible in $F[x]$, then $A \sim diag(A_1,\cdots,A_m)$, where $A_j=diag(C_{P_j^{b_1j}},\cdots,C_{P_j^{b_{r_j}j}})$. These data are uniquely determined by $A/conj$, up to permutation of $p_1,\cdots,p_m$.
 
