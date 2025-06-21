@@ -166,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,7 +180,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d503bcf68d546058",
+  "active": "e443007b56521e01",
   "lastOpenFiles": [
     "rep theory/block theory",
     "templet/tikz.md",
