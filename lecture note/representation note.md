@@ -215,7 +215,7 @@ Clearly, $k[G]$ is an associative algebra with identity.
 **Definition**:
 Let $A$ be an $F$-algebra. A matrix representation of $A$ is a algebra homomorphism $A \rightarrow M_{n \times n}(F)$. 
 
-**Wesserburn's theorem**(c.f.[[Block theory]])
+**Wesserburn's theorem**(c.f.[[Block theory ch1]])
 The complex group algebra $\mathbb{C}[G]$ of finite group $G$ is isomorphic to $A$, a direct sum of full matrix algebra.
 *Proof*:
 Let $R_1,\cdots,R_n$ be all irreducible representations of $G$, and $A=\bigoplus_iR_i$ be their direct sum (in the form of matrix). Then $\mathbb{C}[G] \rightarrow A$ is natural. Note that the dimension on both side are the same, so we only need to check that is is surjective.
@@ -230,7 +230,7 @@ An $F$-algebra homomorphism is a map $A \rightarrow B$ preserving the structure 
 **Definition**:
 Let $A$ be an $F$-algebra, then the regular module of $A$ is $A \times A \rightarrow A$, sending $(a,b) \rightarrow ab$.
 
-Using the language of algebra, one can extend the maochke's theorem(c.f.[[Block theory]]).
+Using the language of algebra, one can extend the maochke's theorem(c.f.[[Block theory ch1]]).
 
 Example:
 - The space $F^d$ is an irreducible left module for the complete matrix algebra $Mat_d(F)$ by the natural multiplication.

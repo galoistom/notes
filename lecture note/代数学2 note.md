@@ -66,7 +66,7 @@ In general it is not correct, consider $\mathbb{Z}[\sqrt{-1}]$ as an example: $(
 
 **Definition**: Free modules are modules that are isomorphic to $A^I:= \bigoplus_{i \in I} A$. 
 
-**Theorem**(Nakayama Lemma):(c.f.[[Block theory]]])
+**Theorem**(Nakayama Lemma):(c.f.[[Block theory ch1]]])
 Let $M$ be a finiely generated A-module, assume $I \subseteq A$, is a ideal, and if $I$ is contained in the jacobradical of $A$, then if $IM=M$, we have $M=0$.
 
 ---
