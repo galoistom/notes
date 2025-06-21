@@ -1,0 +1,10 @@
+{
+  "textFontFamily": "Cascadia Code",
+  "monospaceFontFamily": "Cascadia Code",
+  "baseFontSize": 18,
+  "theme": "obsidian",
+  "interfaceFontFamily": "Cascadia Code",
+  "showViewHeader": true,
+  "showRibbon": true,
+  "baseFontSizeAction": true
+}

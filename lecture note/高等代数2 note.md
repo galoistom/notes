@@ -787,7 +787,7 @@ Another application of the theorem: take $R=\mathbb{Z}$, then any abelian group 
 
 **Definition**:
 $R$: commutative ring $I \subset R$ be ideal and $M:R$-module then $M[I]:=\{x \in M| \forall a \in I,ax=0\}$. When $I=(h)$ then write $M[I]=M[h]$. If $R$ is integal and $x \in M$ $x \in M[h]$ for some $h \in R-\{0\}$ then $x$ is a torsion element of $M$. Otherwise we say $x$ is torsion-free.
-**Example** $R$:integal domainthen there are No torsion emelents $\neq 0$ in free $R$-modules. For integal domain $R$ and $R$-module $M$ then $M_{tors}:=\{x \in M:\text{torsion element}\}$ is a submodule of $M$.
+**Example** $R$:integal domain then there are No torsion emelents $\neq 0$ in free $R$-modules. For integal domain $R$ and $R$-module $M$ then $M_{tors}:=\{x \in M:\text{torsion element}\}$ is a submodule of $M$.
 
 **Definition**:
 Let $M_{tf}:=M/M_{tors}$ called the torsion-free quotient of $M$. Check that $M_{tf}$ has not torsion elements$\neq 0$.

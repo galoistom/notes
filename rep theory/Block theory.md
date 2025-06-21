@@ -631,3 +631,10 @@ Let $A$ be a k-algebra and $X$ a complex of $A$-modules.
 *Proof*:
 Denote the differential of $X$ as $\delta$, then using the definition of split, we can find $\delta \circ s \circ \delta=\delta$ and $s \circ \delta \circ s=s$. Note that $ker(\delta) \subseteq ker(s \circ \delta) \subseteq ker(\delta \circ s \circ \delta) =ker(\delta)$ and $X=im(\delta \circ s) \oplus ker(\delta \circ s)=im(s \circ \delta) \oplus ker(s \circ \delta)$, so we have $X=im(s \circ \delta) \oplus ker(\delta)=im(s \circ \delta) \oplus im(\delta) \oplus H$, hance taking $Y=im(s \circ \delta) \oplus im(\delta)$, to proof the first statment, we still need to check that $Y$ is contradictable. In fact, take homotopy to be $s \circ \delta$, then we are done.
 For the converse it suffices to note that a contradictable complex $(Y,\epsilon)$ is split acyclic. Indeed, $Y$ is acyclic and if $h$ is a homotopy on $Y$ such that $\epsilon \circ h+h \circ \epsilon =id_Y$, then composing by $\epsilon$ on the right yields $\epsilon \circ h \circ \epsilon=\epsilon$ hence $Y$ is split. 
+
+**Theorem**:
+Let $\mathcal{C}$ be an abelian categroy and let $0 \longrightarrow X \stackrel{f}{\longrightarrow} Y \stackrel{g}{\longrightarrow} Z \longrightarrow 0$ be a degreewise split short exact sequence of chain complex over $\mathcal{C}$.
+1. THe chain map $f$ is a homotopy equivalence if and only if $Z \simeq 0$. In that case, $f$ is a split monomorphism.
+2. The chain map $g$ is a homotopy equivalence if and only if $X \simeq 0$. In that case, $g$ is a epimorphism.
+*Proof*:
+suppose that $f$ is indeed a homotopy equivalence, take $f':Y \rightarrow X$ such that $f \circ f'=id_X$. then we have the differece $id_X-f'\circ f$ factors through $f$ since $f$ is a degree wise split monomorphism. Let $t:Y \rightarrow X$ be a chain map such that  
