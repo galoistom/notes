@@ -151,9 +151,19 @@
               "icon": "lucide-list",
               "title": "Outline of 高等代数2 note"
             }
+          },
+          {
+            "id": "f3a631e328ff8b46",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
