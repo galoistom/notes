@@ -637,4 +637,4 @@ Let $\mathcal{C}$ be an abelian categroy and let $0 \longrightarrow X \stackrel{
 1. THe chain map $f$ is a homotopy equivalence if and only if $Z \simeq 0$. In that case, $f$ is a split monomorphism.
 2. The chain map $g$ is a homotopy equivalence if and only if $X \simeq 0$. In that case, $g$ is a epimorphism.
 *Proof*:
-suppose that $f$ is indeed a homotopy equivalence, take $f':Y \rightarrow X$ such that $f \circ f'=id_X$. then we have the differece $id_X-f'\circ f$ factors through $f$ since $f$ is a degree wise split monomorphism. Let $t:Y \rightarrow X$ be a chain map such that $id_X-f' \circ f=t \circ f$, then we have $id_X=(f'+t)\circ f$, hence $f$ split. This shows that $f$
+suppose that $f$ is indeed a homotopy equivalence, take $f':Y \rightarrow X$ such that $f \circ f'=id_X$. then we have the differece $id_X-f'\circ f$ factors through $f$ since $f$ is a degree wise split monomorphism. Let $t:Y \rightarrow X$ be a chain map such that $id_X-f' \circ f=t \circ f$, then we have $id_X=(f'+t)\circ f$, hence $f$ split. This shows that $f$ and $g$ induces an isomorphism $Y \simeq X \oplus Z$. It follows that 
