@@ -35,7 +35,8 @@
               "title": "Block theory ch2"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -195,10 +196,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e443007b56521e01",
+  "active": "8520084f1ab46284",
   "lastOpenFiles": [
-    "rep theory/block theory/Block theory ch2.md",
     "rep theory/block theory/Block theory ch1.md",
+    "rep theory/block theory/Block theory ch2.md",
     "rep theory/block theory",
     "templet/tikz.md",
     "templet/latex.md",
