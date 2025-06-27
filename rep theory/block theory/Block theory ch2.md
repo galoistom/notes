@@ -10,4 +10,5 @@ Let $G$ be a finite group and let $H,L$ be subgroups of $G$ such that $L \leq H 
 **Theorem**:
 Let $G$ be a group and let $H$ be a subgroup of $G$. The covariant functors $Ind_H^G:Mod(k[H]) \rightarrow Mod(k[G])$ and $Res_H^G:Mod(k[G]) \rightarrow Mod(k[H])$ are k-linear exact. Moreover, both functors sends projective moudules to projective modules.
 
-*Proof*
+*Proof*:
+Take a exact sequence of $k[G]$ $U$
