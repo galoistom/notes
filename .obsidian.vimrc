@@ -1,1 +1,1 @@
-inoremap jj <ESC>
+nmap C-\ <ESC>

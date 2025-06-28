@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8af4cacc97a2a725",
+        "id": "551c1d3dda7ff864",
         "type": "tabs",
         "children": [
           {
-            "id": "8520084f1ab46284",
+            "id": "ee0c1e851e929884",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -181,10 +181,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8520084f1ab46284",
+  "active": "ee0c1e851e929884",
   "lastOpenFiles": [
-    "README.md",
     "rep theory/block theory/Block theory ch2.md",
+    "README.md",
     "rep theory/block theory/Block theory ch1.md",
     "the block theory of finite group 1.pdf",
     "rep theory/block theory",
