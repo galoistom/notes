@@ -45,5 +45,24 @@ simple, one immediately check that the maps are all well defined, and that the m
 **Theorem**:
 Let $G$ be a finite group and $H$ a subgroup of $G$. Let $U$ be a $k[G]$-module and $V$ a $k[H]$-module. There is a natural isomorphism if $k[G]$-modules
 $$
-
+\begin{cases}U \otimes_k Ind_{H}^G(V) &\simeq Ind_H^G(Res_H^G(U) \otimes_kV)\\
+u \otimes (x \otimes v) &\mapsto x \otimes (x^{-1}u \otimes v)
+\end{cases}
 $$
+where $u \in U$ and $v \in V$.
+
+*Proof*:easy.
+
+**Theorem**:
+Let $A$ be a k-algebra and $B$ a subalgebra of $A$. For any $A$-module $U$ and any $B$-module $V$ we have natural inverse isomorphism of k-modules
+$$
+\begin{cases}
+Hom_A(A \otimes_BV,U) &\simeq Hom_B(V,Res_B^A(U))\\
+\phi &\mapsto (v \mapsto \phi(1 \otimes v))\\
+(a \otimes v \mapsto a \psi(v)) &\leftarrowtail \psi
+\end{cases}
+$$
+
+This is easy to varify but there is a more general case.
+
+Consider the following two functors: $M \otimes_B-:Mod(B) \rightarrow Mod(A)$ and $Hom_A(M,-):Mod(A) \rightarrow Mod(B)$. Now if $B$ is a subalgebra of $A$ and $M=A$, viewed as $A,B$-bimodule, then  
