@@ -65,4 +65,17 @@ $$
 
 This is easy to varify but there is a more general case.
 
-Consider the following two functors: $M \otimes_B-:Mod(B) \rightarrow Mod(A)$ and $Hom_A(M,-):Mod(A) \rightarrow Mod(B)$. Now if $B$ is a subalgebra of $A$ and $M=A$, viewed as $A,B$-bimodule, then  
+Consider the following two functors: $M \otimes_B-:Mod(B) \rightarrow Mod(A)$ and $Hom_A(M,-):Mod(A) \rightarrow Mod(B)$. Now if $B$ is a subalgebra of $A$ and $M=A$, viewed as $A,B$-bimodule, then $M \otimes_B -$ is the induction functor $Ind_B^A$ and $Hom_A(M,-)$ is the functor $Res_B^A$. 
+
+**Theorem**:
+Let $A,B$ be k-algebra and let $M$ be an $A-B$-bimodule. For any $A$-module $U$ anf any $B$-module $V$ we have natural inverse isomorphism of $k$-modules
+$$
+\begin{cases}
+Hom_A(M\otimes_BV,U) &\simeq Hom_B(V,Hom(M,U))\\
+\phi &\mapsto (v\mapsto(m\mapsto \phi(m,\otimes v)))\\
+(m \otimes v \mapsto \psi(v)(m) &\leftarrowtail \psi
+\end{cases}
+$$
+
+*Proof*:
+rutine
