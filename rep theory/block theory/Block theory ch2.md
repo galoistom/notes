@@ -28,5 +28,22 @@ let $G$ be a finite group, and let $H,L$ be subgroups of $G$. Let $V,V'$ be $k[H
 Let $G$ be a finite group and $H$ a subgroup of $G$. Let $U$ be a $k[G]$-module and $V$ a $k[H]$-module.
 - we have a natural k-linear isomorphism
 $$
-\begin{cases}Hom_{k[G]}(Ind_H^G(V), U) \simeq Hom_{k[]}\end{cases}
+\begin{cases}Hom_{k[G]}(Ind_H^G(V), U) &\simeq Hom_{k[H]}(V,Res_H^G(N))\\
+\phi &\mapsto (v \mapsto \phi(1_G \otimes v))\end{cases}
+$$
+- we have a natural k-linear isomorphism
+$$
+\begin{cases}
+Hom_{k[H]}(Res_H^G(V),U) \simeq Hom_{k[H]}(V,Res_H^G(U))\\
+\psi \mapsto (u \mapsto \sum_{x \in [G/H]}x \otimes \psi (x^{-1}u)).
+\end{cases}
+$$
+
+*Proof*:
+simple, one immediately check that the maps are all well defined, and that the map sending $\psi \in Hom_{k[H]}(V,Res_H^G(U))$ to be the unique linear map $\phi$ refinded by $\phi(x \otimes v) = x\psi (v)$ for $x \in G$ and $v \in V$ is its inverse. The other way is similiar.
+
+**Theorem**:
+Let $G$ be a finite group and $H$ a subgroup of $G$. Let $U$ be a $k[G]$-module and $V$ a $k[H]$-module. There is a natural isomorphism if $k[G]$-modules
+$$
+
 $$
