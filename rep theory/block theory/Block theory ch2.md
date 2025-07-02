@@ -82,3 +82,9 @@ rutine
 
 **Theorem**:
 Let $A,B,C$ be k-algebras, ket $M$ be an $A-B$-bimodule, $U$ an $A-C$-bimodule and $V$ a $B-C$-bimodule. We have a natural isomorphism of $k$-modules $$Hom_{A \otimes_k C^{op}}(M \otimes_B V, U) \simeq Hom_{B \otimes_k C^{op}}(V,Hom_A(M,U))$$
+*Proof*:
+just the same as above. 
+
+# Adjoint functors
+**Definition**:
+Let $\mathcal{C},\mathcal{D}$ be categoties and let $\mathcal{F}: \mathcal{C} \rightarrow \mathcal{D}$, $\mathcal{G}: \mathcal{D} \rightarrow \mathcal{C}$ be covariant functors. We say that $\mathcal{G}$ is *left adjoint* to $\mathcal{F}$ and that $\mathcal{F}$ is *right adjoint* to $\mathcal{G}$, if there is an isomorphism of bifuntors 
