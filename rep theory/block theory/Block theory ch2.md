@@ -91,4 +91,5 @@ Let $\mathcal{C},\mathcal{D}$ be categoties and let $\mathcal{F}: \mathcal{C} \r
 
 **Theorem**:
 Let $\mathcal{C},\mathcal{D}$ be categoties and let $\mathcal{F} :\mathcal{C} \rightarrow \mathcal{D}$, $\mathcal{G}: \mathcal{D} \rightarrow \mathcal{C}$ be covariant functors.
-1) Suppose there is an adjunction isomorphism $\Phi: Hom_{}$
+1) Suppose there is an adjunction isomorphism $\Phi: Hom_{\mathcal{C}}(\mathcal{G}(-),-) \simeq Hom_{\mathcal{D}}(-,\mathcal{F}(-))$. The unit $f$ and counit $g$ of $\Phi$ satisfy $(\mathcal{F}g)\circ (f\mathcal{F})= id_{\mathcal{F}}$ and $(g \mathcal{G})\circ (\mathcal{G} f)=id_{\mathcal{G}}$.
+2) Let $f:id_{\mathcal{D}} \rightarrow \mathcal{F} \circ \mathcal{G}$ and $g:id_{\mathcal{C}}:\mathcal{G}\circ \mathcal{F} \rightarrow id_{\mathcal{C}}$ be two natural transformation satisfying $(\mathcal{F}g)\circ (f\mathcal{F})= id_{\mathcal{F}}$ and $(g \mathcal{G})\circ (\mathcal{G} f)=id_{\mathcal{G}}$. There is a unique adjunction isomorphism $\Phi: Hom_{\mathcal{C}}(\mathcal{G}(-),-) \simeq Hom_{\mathcal{D}}(-,\mathcal{F}(-))$ such that $f$ is the unit of $\Phi$ and $g$ is the counit.
