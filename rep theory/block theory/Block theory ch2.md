@@ -87,4 +87,5 @@ just the same as above.
 
 # Adjoint functors
 **Definition**:
-Let $\mathcal{C},\mathcal{D}$ be categoties and let $\mathcal{F}: \mathcal{C} \rightarrow \mathcal{D}$, $\mathcal{G}: \mathcal{D} \rightarrow \mathcal{C}$ be covariant functors. We say that $\mathcal{G}$ is *left adjoint* to $\mathcal{F}$ and that $\mathcal{F}$ is *right adjoint* to $\mathcal{G}$, if there is an isomorphism of bifuntors 
+Let $\mathcal{C},\mathcal{D}$ be categoties and let $\mathcal{F}: \mathcal{C} \rightarrow \mathcal{D}$, $\mathcal{G}: \mathcal{D} \rightarrow \mathcal{C}$ be covariant functors. We say that $\mathcal{G}$ is *left adjoint* to $\mathcal{F}$ and that $\mathcal{F}$ is *right adjoint* to $\mathcal{G}$, if there is an isomorphism of bifuntors $Hom_\mathcal{C}(\mathcal{G}(-),-) \simeq Hom_{\mathcal{D}}(-,\mathcal{F}(-))$. If $\mathcal{G}$ if left and right adjoint to $\mathcal{F}$ we say that $\mathcal{F}$ and $\mathcal{G}$ are *biadjoint*.
+
