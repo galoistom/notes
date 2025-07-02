@@ -31,7 +31,7 @@
     "select": [
       {
         "modifiers": [],
-        "key": "Tab",
+        "key": "Enter",
         "hideHotkeyGuide": false
       }
     ],
