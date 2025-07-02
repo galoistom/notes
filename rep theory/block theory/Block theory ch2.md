@@ -79,3 +79,6 @@ $$
 
 *Proof*:
 rutine
+
+**Theorem**:
+Let $A,B,C$ be k-algebras, ket $M$ be an $A-B$-bimodule, $U$ an $A-C$-bimodule and $V$ a $B-C$-bimodule. We have a natural isomorphism of $k$-modules $$Hom_{A \otimes_k C^{op}}(M \otimes_B V, U) \simeq Hom_{B \otimes_k C^{op}}(V,Hom_A(M,U))$$
