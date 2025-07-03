@@ -101,3 +101,9 @@ Let $\mathcal{C}$, $\mathcal{D}$ be abelian categories. Let $\mathcal{F}:\mathca
 1) $\mathcal{G}$ is right exact and $\mathcal{F}$ is left adjoint.
 2) If $\mathcal{F}$ is exact then $\mathcal{G}$ preserve projectivity.
 3) If $\mathcal{G}$ is exact then $\mathcal{F}$ preserve injectivity.
+
+# Mackley's formula
+Mackley's formula discribes the ecomposition of the induction functor $Ind_L^G$ from a subgroup $L$ of a finte group $G$ followed by restriction functor $Res_H^G$ to some possibly different subgroup $H$ of $G$. 
+
+**Theorem**(Mackley's formula):
+Let $G$ be a finite g
