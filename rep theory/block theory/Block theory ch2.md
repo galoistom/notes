@@ -97,4 +97,7 @@ Let $\mathcal{C},\mathcal{D}$ be categories and let $\mathcal{F} :\mathcal{C} \r
 
 
 **Theorem**:
-Let $\mathcal{C}$, $\mathcal{D}$ be abelian categories. Let $\mathcal{F}:\math$
+Let $\mathcal{C}$, $\mathcal{D}$ be abelian categories. Let $\mathcal{F}:\mathcal{C} \rightarrow \mathcal{D}$ and $\mathcal{G}:\mathcal{D} \rightarrow \mathcal{C}$ be additive covariant functors. Suppose that $\mathcal{G}$ is left adjoint to $\mathcal{F}$. 
+1) $\mathcal{G}$ is right exact and $\mathcal{F}$ is left adjoint.
+2) If $\mathcal{F}$ is exact then $\mathcal{G}$ preserve projectivity.
+3) If $\mathcal{G}$ is exact then $\mathcal{F}$ preserve injectivity.
