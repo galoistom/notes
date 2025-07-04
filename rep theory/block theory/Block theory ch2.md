@@ -110,4 +110,5 @@ Let $G$ be a finite group and let $H,L$ be subgroups of $G$.
 1) We have $k[G]=\bigoplus_{x\in [H\backslash G / L]} k[HxL]$ as $k[HxL]$ as $k[H]-k[L]$-bimodules.
 2) For any $x \in G$ we have an isomorphism of $k[H]-k[L]$-bimodules $k[HxL] \simeq k[H]\otimes_{k[H \,\cap \,^xL]}k[xL]$ mapping $yxz$ to $y \otimes xz$ where $y \in H$ and $z \in L$.
 3) Let $B$ be a k-algebra, and let $W$ be a $k[L]-B$-bimidule or a complex of $k[L]-B$-bimidules. There is a natural isomorphism of $k[H]-B$-bimidules $Res_H^G Ind_L^G(W) \simeq \bigoplus){x \in [H\backslash G / L]} Ind_{H\,\cap\,^xL}^H Res_{x \in [H\backslash G/ L]}^{^xL}(^xW)$.
-
+*Proof*:
+The statement 1 follows from the partition of $G$ into $H-L$-double coset. For the second statement, 
