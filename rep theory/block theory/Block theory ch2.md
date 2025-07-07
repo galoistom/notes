@@ -117,3 +117,7 @@ This tells us that $V$ is a direct summand of $Res_{H}^G(Ind_H^G(V))$ as $RHS = 
 
 **Proprsition**:
 Let $G$ be a finte group and $G$ and $H$ a subgroup of $G$. For any $k[G]$-module $U$ and any $k[H]$-module $V$ we have a natural isomorphism of $k[G]$-modules $$Ind_H^G(V) \otimes_k U \simeq Ind_H^G(V \otimes_k Res_H^G(U))$$sending $(x \otimes v) \otimes u$ to $x \otimes (v \otimes(x^{-1}u))$, where $x \in G, u \in U, v \in V$. 
+
+**Theorem**
+Let $G$ be a finite group, $N$ a normal subgroup of $G$. Suppose that $k$ is a splittin field for both $G$ and $N$, and that $|G:N|$ is invertable in $k$. Let $S$ be a simple $k[N]$-module. Then $Ind_N^G(S)$ is simple if and only if $S\, \not\simeq \,^xS$ for all $x\in G\backslash N$. 
+
