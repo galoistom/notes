@@ -109,11 +109,11 @@ Mackley's formula discribes the ecomposition of the induction functor $Ind_L^G$ 
 Let $G$ be a finite group and let $H,L$ be subgroups of $G$.
 1) We have $k[G]=\bigoplus_{x\in [H\backslash G / L]} k[HxL]$ as $k[HxL]$ as $k[H]-k[L]$-bimodules.
 2) For any $x \in G$ we have an isomorphism of $k[H]-k[L]$-bimodules $k[HxL] \simeq k[H]\otimes_{k[H \,\cap \,^xL]}k[xL]$ mapping $yxz$ to $y \otimes xz$ where $y \in H$ and $z \in L$.
-3) Let $B$ be a k-algebra, and let $W$ be a $k[L]-B$-bimidule or a complex of $k[L]-B$-bimidules. There is a natural isomorphism of $k[H]-B$-bimidules $Res_H^G Ind_L^G(W) \simeq \bigoplus){x \in [H\backslash G / L]} Ind_{H\,\cap\,^xL}^H Res_{x \in [H\backslash G/ L]}^{^xL}(^xW)$.
+3) Let $B$ be a k-algebra, and let $W$ be a $k[L]-B$-bimidule or a complex of $k[L]-B$-bimidules. There is a natural isomorphism of $k[H]-B$-bimidules $$Res_H^G Ind_L^G(W) \simeq \bigoplus_{x \in [H\backslash G / L]} Ind_{H\,\cap\,^xL}^H Res_{H\, \cap \,^xL}^{^xL}(^xW)$$
 *Proof*:
 The statement 1 follows from the partition of $G$ into $H-L$-double coset. For the second statement, we first check that the assignment sending $yxz$ to $y \otimes xz$ is well defined. Let $y,y' \in H$ and $z,z' \in L$ such that $yxz=y'xz'$. We need to show that $y \otimes xz= y' \otimes xz'$ are equal. Multiplying by $y^{-1}$ on the left and by $(xz')^{-1}$ then we have $y^{-1}y'=xz(z')^{-1}x^{-1} \in H\, \cap \,^x L$. Thus setting $w=y^{-1}y'$, and using the tensor product on the right side in 2 is taken over $k(H\, \cap \,^xL)$, we can easily check $y \otimes xz= y' \otimes xz'$. Statement 3 follows from tensoring the formulae in 1,2 with $- \otimes_{k[L]} W$. 
 
 This tells us that $V$ is a direct summand of $Res_{H}^G(Ind_H^G(V))$ as $RHS = (k[H] \otimes_{k[H]} V) \oplus (k[G\backslash H] \otimes_{k[H]} V)$, in fact, $Res_{N}^G(Ind_H^G(V)) = \bigoplus_{x \in [G/N]} \,^xV$ if $N \triangleleft G$. 
 
-**Proprsition**:j
-Let $G$ be a finte group and $G$ and $H$ a subgroup of $G$. For any $G$
+**Proprsition**:
+Let $G$ be a finte group and $G$ and $H$ a subgroup of $G$. For any $k[G]$-module $U$ and any $k[H]$-module $V$ we have a natural isomorphism of $k[G]$-modules $$Ind_H^G(V) \otimes_k U \simeq Ind_H^G(V \otimes_k Res_H^G(U))$$sending $(x \otimes v) \otimes u$ to $x \otimes (v \otimes(x^{-1}u))$, where $x \in G, u \in U, v \in V$. 
