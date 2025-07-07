@@ -121,3 +121,4 @@ Let $G$ be a finte group and $G$ and $H$ a subgroup of $G$. For any $k[G]$-modul
 **Theorem**
 Let $G$ be a finite group, $N$ a normal subgroup of $G$. Suppose that $k$ is a splittin field for both $G$ and $N$, and that $|G:N|$ is invertable in $k$. Let $S$ be a simple $k[N]$-module. Then $Ind_N^G(S)$ is simple if and only if $S\, \not\simeq \,^xS$ for all $x\in G\backslash N$. 
 
+*Proof*:
