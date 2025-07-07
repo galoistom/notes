@@ -112,3 +112,5 @@ Let $G$ be a finite group and let $H,L$ be subgroups of $G$.
 3) Let $B$ be a k-algebra, and let $W$ be a $k[L]-B$-bimidule or a complex of $k[L]-B$-bimidules. There is a natural isomorphism of $k[H]-B$-bimidules $Res_H^G Ind_L^G(W) \simeq \bigoplus){x \in [H\backslash G / L]} Ind_{H\,\cap\,^xL}^H Res_{x \in [H\backslash G/ L]}^{^xL}(^xW)$.
 *Proof*:
 The statement 1 follows from the partition of $G$ into $H-L$-double coset. For the second statement, we first check that the assignment sending $yxz$ to $y \otimes xz$ is well defined. Let $y,y' \in H$ and $z,z' \in L$ such that $yxz=y'xz'$. We need to show that $y \otimes xz= y' \otimes xz'$ are equal. Multiplying by $y^{-1}$ on the left and by $(xz')^{-1}$ then we have $y^{-1}y'=xz(z')^{-1}x^{-1} \in H\, \cap \,^x L$. Thus setting $w=y^{-1}y'$, and using the tensor product on the right side in 2 is taken over $k(H\, \cap \,^xL)$, we can easily check $y \otimes xz= y' \otimes xz'$. Statement 3 follows from tensoring the formulae in 1,2 with $- \otimes_{k[L]} W$. 
+
+This tells us that $V$ is a direct summand of 
