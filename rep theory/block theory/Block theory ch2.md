@@ -113,4 +113,7 @@ Let $G$ be a finite group and let $H,L$ be subgroups of $G$.
 *Proof*:
 The statement 1 follows from the partition of $G$ into $H-L$-double coset. For the second statement, we first check that the assignment sending $yxz$ to $y \otimes xz$ is well defined. Let $y,y' \in H$ and $z,z' \in L$ such that $yxz=y'xz'$. We need to show that $y \otimes xz= y' \otimes xz'$ are equal. Multiplying by $y^{-1}$ on the left and by $(xz')^{-1}$ then we have $y^{-1}y'=xz(z')^{-1}x^{-1} \in H\, \cap \,^x L$. Thus setting $w=y^{-1}y'$, and using the tensor product on the right side in 2 is taken over $k(H\, \cap \,^xL)$, we can easily check $y \otimes xz= y' \otimes xz'$. Statement 3 follows from tensoring the formulae in 1,2 with $- \otimes_{k[L]} W$. 
 
-This tells us that $V$ is a direct summand of 
+This tells us that $V$ is a direct summand of $Res_{H}^G(Ind_H^G(V))$ as $RHS = (k[H] \otimes_{k[H]} V) \oplus (k[G\backslash H] \otimes_{k[H]} V)$, in fact, $Res_{N}^G(Ind_H^G(V)) = \bigoplus_{x \in [G/N]} \,^xV$ if $N \triangleleft G$. 
+
+**Proprsition**:j
+Let $G$ be a finte group and $G$ and $H$ a subgroup of $G$. For any $G$
