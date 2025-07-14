@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实分析/积分.md",
+                "file": "algebraic number theory/Absolute value.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "积分"
+              "title": "Absolute value"
             }
           }
         ]
@@ -183,8 +183,9 @@
   },
   "active": "ee0c1e851e929884",
   "lastOpenFiles": [
-    "rep theory/block theory/Block theory ch2.md",
+    "algebraic number theory/Minkowski Lattice Therorem.md",
     "实分析/积分.md",
+    "rep theory/block theory/Block theory ch2.md",
     "lecture note/高等代数2 note.md",
     "实分析/可测函数.md",
     "rep theory/Basic Definitions of representation.md",

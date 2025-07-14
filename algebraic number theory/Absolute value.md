@@ -27,6 +27,7 @@ We extend the definition of primes to a number field $K$ by letting a prime to b
 1. Each prime ideal $\mathfrak{p}$ of $\mathcal{O}_K$, $|a|_{\mathfrak{p}}=(\frac{1}{\mathbb{N}\mathfrak{p}})^{ord_{\mathfrak{p}}}=(\mathcal{O}_K:(a))^{-1}$.(c.f.[[Finiteness of class number]])
 2. Each real embedding $\sigma:K \hookrightarrow \mathbb{R}$, $|a|=|\sigma a|$.
 3. Each nonreal complex embedding $\sigma:K \hookrightarrow \mathbb{C}$, $|a|=|\sigma a|^2$.
+
 One might notice that the product formula exists for general number field as well.
 
 >[!note] Weak approximation theorem
