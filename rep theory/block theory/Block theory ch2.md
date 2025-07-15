@@ -122,4 +122,10 @@ Let $G$ be a finte group and $G$ and $H$ a subgroup of $G$. For any $k[G]$-modul
 Let $G$ be a finite group, $N$ a normal subgroup of $G$. Suppose that $k$ is a splitting field for both $G$ and $N$, and that $|G:N|$ is invertible in $k$. Let $S$ be a simple $k[N]$-module. Then $Ind_N^G(S)$ is simple if and only if $S\, \not\simeq \,^xS$ for all $x\in G\backslash N$. 
 
 *Proof*:
-Note that $^xS$ is a simple $k[N]$-module for any $x \in G$. It follows that $Res_N^GInd_N^G(S) = \bigoplus_{x \in [G/N]}\,^xS$ is semisimple. Since $|G:N|$ is assumed to be invertible in $k$, we know that $Ind_N^G(S)$ is semisimple. Since $k$ is a splitting field for $G$, the module $Ind_N^G(S)$ is semisimple if ant only if $End_{k[G]}(Ind_N^G(S))$ has $k$-dimension 1. Using the forbenius reciprocity, we have $$End_{k[G]}(Ind_N^G(S)) = Hom_{k[G]}(Ind_N^G(S),Ind_N^G(S)) \simeq Hom_{k[N]}(S, Res_N^GInd_N^G(S)) = \bigoplus_{x \in [G/N]}Hom_{k[N]}(S,\,^xS)$$. Then by [[Schur's lemma]], the right side is 1-dimensional if and only if $S\, \not\simeq \,^xS$ for all $x \in G \backslash N$.   
+Note that $^xS$ is a simple $k[N]$-module for any $x \in G$. It follows that $Res_N^GInd_N^G(S) = \bigoplus_{x \in [G/N]}\,^xS$ is semisimple. Since $|G:N|$ is assumed to be invertible in $k$, we know that $Ind_N^G(S)$ is semisimple. Since $k$ is a splitting field for $G$, the module $Ind_N^G(S)$ is semisimple if ant only if $End_{k[G]}(Ind_N^G(S))$ has $k$-dimension 1. Using the forbenius reciprocity, we have $$End_{k[G]}(Ind_N^G(S)) = Hom_{k[G]}(Ind_N^G(S),Ind_N^G(S)) \simeq Hom_{k[N]}(S, Res_N^GInd_N^G(S)) = \bigoplus_{x \in [G/N]}Hom_{k[N]}(S,\,^xS)$$. Then by [[Schur's lemma]], the right side is 1-dimensional if and only if $S\, \not\simeq \,^xS$ for all $x \in G \backslash N$. 
+
+# Relative traces
+As seen in the earlier course in [[representation note]], the character of representations are very useful. We hope the extend it to the more general case of module representations. 
+
+**Definition**: 
+Let $G$ be a group and $U$ a $k[G]$-module. Let $H$ be a su
