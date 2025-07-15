@@ -1,24 +1,20 @@
 {
   "main": {
-    "id": "69d0586d3cfb6a9f",
+    "id": "c54f2cae2c50c686",
     "type": "split",
     "children": [
       {
-        "id": "551c1d3dda7ff864",
+        "id": "cf0dd081f3446857",
         "type": "tabs",
         "children": [
           {
-            "id": "ee0c1e851e929884",
+            "id": "0a324752becd79ee",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "algebraic number theory/Absolute value.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Absolute value"
+              "title": "New tab"
             }
           }
         ]
@@ -27,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "ab3c544c15f1ee20",
+    "id": "7cce33db84098b16",
     "type": "split",
     "children": [
       {
-        "id": "f225b50a025276a3",
+        "id": "d1803c97b69bd8a5",
         "type": "tabs",
         "children": [
           {
-            "id": "d503bcf68d546058",
+            "id": "d3fc502f2d176c32",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +44,7 @@
             }
           },
           {
-            "id": "26f9250b1a8196f5",
+            "id": "694ef00191ae70e9",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +61,7 @@
             }
           },
           {
-            "id": "ff5b2030b217871c",
+            "id": "b3664dfa0e760c23",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,24 +74,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "49dc57fa86181f19",
+    "id": "6218cae0885fd46c",
     "type": "split",
     "children": [
       {
-        "id": "b4e5d0ef5ed3617d",
+        "id": "ef3086a3cd9ffaae",
         "type": "tabs",
         "children": [
           {
-            "id": "a5ac3b469ecb812d",
+            "id": "f7499c66dcca01c6",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/lecture note/高等代数2 note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,25 +99,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 高等代数2 note"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "23a07e429b17d4c0",
+            "id": "88621e014526d7ec",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/lecture note/高等代数2 note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 高等代数2 note"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "5c07799c58e249ff",
+            "id": "087122be129c0ceb",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -138,32 +131,20 @@
             }
           },
           {
-            "id": "bbc872952c441d64",
+            "id": "0a1cdf6e423b94a2",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "rep theory/block theory/Block theory ch2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Block theory ch2"
-            }
-          },
-          {
-            "id": "f3a631e328ff8b46",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Outline"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -181,36 +162,6 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ee0c1e851e929884",
-  "lastOpenFiles": [
-    "algebraic number theory/Minkowski Lattice Therorem.md",
-    "实分析/积分.md",
-    "rep theory/block theory/Block theory ch2.md",
-    "lecture note/高等代数2 note.md",
-    "实分析/可测函数.md",
-    "rep theory/Basic Definitions of representation.md",
-    "commutative algebra/noetherian and artinian ring.md",
-    "homo algebra/First extension group.md",
-    "homo algebra/Projective module and injective module.md",
-    "homo algebra/Grothendieck group.md",
-    "实分析/测度.md",
-    "README.md",
-    "rep theory/block theory/Block theory ch1.md",
-    "the block theory of finite group 1.pdf",
-    "rep theory/block theory",
-    "templet/tikz.md",
-    "templet/latex.md",
-    "templet/latex-env.tp",
-    "templet",
-    "Books/表示论/the block theory of finite group 1.pdf",
-    "notes/rep theory/Block theory.md",
-    "notes/物理.md",
-    "notes/lecture note/高等代数2 note.md",
-    "Pasted image 20250603133216.png",
-    "Pasted image 20250603132614.png",
-    "物理.md",
-    "BNDS Fake MO shortlist.md",
-    "UnderstandingDeepLearning.pdf",
-    "notes/lecture note/representation note.md"
-  ]
+  "active": "0a324752becd79ee",
+  "lastOpenFiles": []
 }
