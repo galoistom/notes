@@ -119,7 +119,7 @@ This tells us that $V$ is a direct summand of $Res_{H}^G(Ind_H^G(V))$ as $RHS = 
 Let $G$ be a finte group and $G$ and $H$ a subgroup of $G$. For any $k[G]$-module $U$ and any $k[H]$-module $V$ we have a natural isomorphism of $k[G]$-modules $$Ind_H^G(V) \otimes_k U \simeq Ind_H^G(V \otimes_k Res_H^G(U))$$sending $(x \otimes v) \otimes u$ to $x \otimes (v \otimes(x^{-1}u))$, where $x \in G, u \in U, v \in V$. 
 
 **Theorem**
-Let $G$ be a finite group, $N$ a normal subgroup of $G$. Suppose that $k$ is a splittin field for both $G$ and $N$, and that $|G:N|$ is invertible in $k$. Let $S$ be a simple $k[N]$-module. Then $Ind_N^G(S)$ is simple if and only if $S\, \not\simeq \,^xS$ for all $x\in G\backslash N$. 
+Let $G$ be a finite group, $N$ a normal subgroup of $G$. Suppose that $k$ is a splitting field for both $G$ and $N$, and that $|G:N|$ is invertible in $k$. Let $S$ be a simple $k[N]$-module. Then $Ind_N^G(S)$ is simple if and only if $S\, \not\simeq \,^xS$ for all $x\in G\backslash N$. 
 
 *Proof*:
-Note that $^xS$ is a simple $k[N]$-module for any $x \in G$. It follows that $Res_N^GInd_N^G(S) = \bigoplus_{x \in [G/N]}\,^xS$ is semisimple. Since $|G:N|$ is assumed to be invertible in $k$, we know that $$
+Note that $^xS$ is a simple $k[N]$-module for any $x \in G$. It follows that $Res_N^GInd_N^G(S) = \bigoplus_{x \in [G/N]}\,^xS$ is semisimple. Since $|G:N|$ is assumed to be invertible in $k$, we know that $Ind_N^G(S)$ is semisimple. Since $k$ is a splitting field for $G$, the module $Ind_N^G(S)$ is semisimple if ant only if $End_{k[G]}(Ind_N^G(S))$ has $k$-dimension 1. Using the forbenius reciprocity, we have $$End_{k[G]}(Ind_N^G(S)) = Hom_{k[G]}(Ind_N^G(S),Ind_N^G(S)) \simeq Hom_{k[N]}(S, Res_N^GInd_N^G(S)) = \bigoplus_{x \in [G/N]}Hom_{k[N]}(S,\,^xS)$$. Then by [[Schur's lemma]], the wit
