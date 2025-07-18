@@ -135,3 +135,6 @@ Let $G$ be a group and $U$ a $k[G]$-module. Let $H$ be a subgroup of $G$. We set
 2) We have a canonical k-linear isomorphism $Hom_{k[H]}(k,M) \simeq M^H$ sending $\phi \mapsto \phi(1_{k})$. So the functor $M \rightarrow M^H$ is isomorphic to $Hom_{k[H]}(k,-)$.
 
 One immediately notice that the conclusion and theorem above for induction functors can be transfered easily into the case of $Tr_{H}^G$. 
+
+**Proposition**:
+Let $G$ be a finite group and $H$ a subgroup of $G$. Let $V$ be a $k[H]$-module, and set $U = Ind_{H}^G(V)$. We have a canonical k-linear isomorphism phism $V^H \simeq U^G$ mapping $v \in V^H$ to $\sum_{x \in [G/H]} x \otimes v$. In particular 
