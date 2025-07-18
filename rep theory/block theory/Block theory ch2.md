@@ -134,3 +134,4 @@ Let $G$ be a group and $U$ a $k[G]$-module. Let $H$ be a subgroup of $G$. We set
 1) Let $M$ be a $k[G]$-module. The action of $G$ on $M$ induces an actions of $N_{G}(H)$ on $M^{H}$, we can consider $M^H$ as a $k[N_{G}(H)]$-module. In particular, is can also be considered as $k[N_{G}(H)]/H$-module. Thus the map sending $M$ to $M^H$ can be regarded as a functor from $Mod(k[G])$ to $Mod(k[N_{G}(H)]/H)$.
 2) We have a canonical k-linear isomorphism $Hom_{k[H]}(k,M) \simeq M^H$ sending $\phi \mapsto \phi(1_{k})$. So the functor $M \rightarrow M^H$ is isomorphic to $Hom_{k[H]}(k,-)$.
 
+One immediately notice that the conclusion and theorem above for induction functors can be transfered easily into the case of $Tr_{H}^G$. 
