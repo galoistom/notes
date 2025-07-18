@@ -142,3 +142,5 @@ Let $G$ be a finite group and $H$ a subgroup of $G$. Let $V$ be a $k[H]$-module,
 *Proof*:
 In fact, we have $V^{H}\simeq Hom_{k[H]}(k,V) \simeq Hom_{k[G]}(k,Ind^{G}_{H}(V)) \simeq (Ind^{G}_{H}(V))^{G}$. Using explicit form of the isomorphism above, one gets the isomorphism we want.
 
+**Proprsition**:
+Let $G$ be a finite group, let $A$ be a $G$-algebra over $k$, and let $H$ be a subgroup of $G$. For any $a \in A^{H}$ and $b \in A^{G}$ we have $\mathrm{Tr}_{H}^{G}(a)b= \mathrm{Tr}_{H}^{G}$ 
