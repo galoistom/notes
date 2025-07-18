@@ -137,4 +137,8 @@ Let $G$ be a group and $U$ a $k[G]$-module. Let $H$ be a subgroup of $G$. We set
 One immediately notice that the conclusion and theorem above for induction functors can be transfered easily into the case of $Tr_{H}^G$. 
 
 **Proposition**:
-Let $G$ be a finite group and $H$ a subgroup of $G$. Let $V$ be a $k[H]$-module, and set $U = Ind_{H}^G(V)$. We have a canonical k-linear isomorphism phism $V^H \simeq U^G$ mapping $v \in V^H$ to $\sum_{x \in [G/H]} x \otimes v$. In particular 
+Let $G$ be a finite group and $H$ a subgroup of $G$. Let $V$ be a $k[H]$-module, and set $U = Ind_{H}^G(V)$. We have a canonical k-linear isomorphism phism $V^H \simeq U^G$ mapping $v \in V^H$ to $\sum_{x \in [G/H]} x \otimes v$. In particular, we have $U^G = U^{G}_{H}$.
+
+*Proof*:
+In fact, we have $V^{H}\simeq Hom_{k[H]}(k,V) \simeq Hom_{k[G]}(k,Ind^{G}_{H}(V)) \simeq (Ind^{G}_{H}(V))^{G}$. Using explicit form of the isomorphism above, one gets the isomorphism we want.
+
