@@ -1,0 +1,13 @@
+/* 隐藏窗口控制按钮 */
+/* Hide window control buttons */
+
+/* 针对 macOS 和 Linux 的自定义标题栏按钮 */
+/* For macOS and Linux custom title bar buttons */
+.obsidian-app.is-electron .titlebar-button-container {
+  display: none !important;
+}
+
+
+/* 如果你的 Obsidian 标题栏是操作系统原生的 (通常不会有这三个按钮在Obsidian内部控制)，
+   或者上述代码不起作用，这可能意味着你使用的不是Obsidian的自定义标题栏。
+   这种情况下，这三个按钮是由操作系统的窗口管理器控制的，CSS无法直接隐藏。 */

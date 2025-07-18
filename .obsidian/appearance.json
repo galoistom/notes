@@ -6,5 +6,9 @@
   "interfaceFontFamily": "Cascadia Code",
   "showViewHeader": true,
   "showRibbon": true,
-  "baseFontSizeAction": true
+  "baseFontSizeAction": true,
+  "enabledCssSnippets": [
+    "hide"
+  ],
+  "nativeMenus": true
 }
