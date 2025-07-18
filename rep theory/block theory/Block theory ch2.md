@@ -131,4 +131,6 @@ As seen in the earlier course in [[representation note]], the character of repre
 Let $G$ be a group and $U$ a $k[G]$-module. Let $H$ be a subgroup of $G$. We set $U^H = \{u \in U : yu=u,\ \forall y \in  H\}$ and call $U^H$ the set of $H$-fixed points in $U$. If $H$ finite index in $G$, we define a map $Tr_H^G: U^H \rightarrow U^G$ by $Tr_H^G(u) = \sum_{x \in [G/H]}xu$. for all $u \in U$, and we set $U_H^G = Im(Tr_H^G)$. The map $Tr_H^G$ is called  the *relative trace map frome $H$-fixed points to $G$-fixed points in $U$*. 
 
 **Remark**:
-1) Let $M$ be a $k[G]$-module. The action of $G$ on $M$ induces an actions of $N_{G}(H)$ on $M^{H}$, we can consider $M^H$ as a $k[N_{G}(H)]$-module. In particular, is can also be considered as $k[N_{G}(H)]/H$-module. Thus the map sending $M$ to $M^H$ can be regarded as a functor for 
+1) Let $M$ be a $k[G]$-module. The action of $G$ on $M$ induces an actions of $N_{G}(H)$ on $M^{H}$, we can consider $M^H$ as a $k[N_{G}(H)]$-module. In particular, is can also be considered as $k[N_{G}(H)]/H$-module. Thus the map sending $M$ to $M^H$ can be regarded as a functor from $Mod(k[G])$ to $Mod(k[N_{G}(H)]/H)$.
+2) We have a canonical k-linear isomorphism $Hom_{k[H]}(k,M) \simeq M^H$ sending $\phi \mapsto \phi(1_{k})$. So the functor $M \rightarrow M^H$ is isomorphic to $Hom_{k[H]}(k,-)$.
+
