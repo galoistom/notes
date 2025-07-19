@@ -155,4 +155,8 @@ $$
 Let $G$ be a finite group and $H$ a subgroup of $G$. Let $U$ be a $k[G]$-module or a complex of $k[G]$-modules. We say that $U$ is *relatively $H$-projective* if there exists a $k[H]$-module or a complex of $k[H]$-modules $V$ such that $U$ is isomorphic to a direct summand of $Ind_{H}^{G}(V)$.
 
 **Theorem**(Higman's criterion)
-Let $G$ be a finite group, $H$ a subgroup of $G$, and $B$ a k-algebra. Let $$
+Let $G$ be a finite group, $H$ a subgroup of $G$, and $B$ a k-algebra. Let $U$ be a $k[G]-B$-bimidule or a complex of $k[G]-B$-bimidules. The following statement are equivalent. 
+1) $U$ is relatively $H$-projective.
+2) $U$ is isomorphic to a direct summand of the (complex of) $k[G]-B$-bimidule(s) $Ind_{H}^{G}(Res_{H}^{G}(U))$.
+3) The canonical map $Ind_{H}^{G}(Res_{H}^{G}(U)) \to U$ of $k[G]-B$-bimidules sending $x \otimes u$ to $xu$ for $x \in G$, $u \in U$ is split.
+4) For any $k[G]-B$-bimidule or complex of bimodules $M$ and any surjective $k[H]-B$-bimidule homomorphism $\pi :M \to U$ or chain map, 
