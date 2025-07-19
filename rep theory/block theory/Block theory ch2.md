@@ -153,3 +153,6 @@ $$
 # Higman's criterion
 **Definition**:
 Let $G$ be a finite group and $H$ a subgroup of $G$. Let $U$ be a $k[G]$-module or a complex of $k[G]$-modules. We say that $U$ is *relatively $H$-projective* if there exists a $k[H]$-module or a complex of $k[H]$-modules $V$ such that $U$ is isomorphic to a direct summand of $Ind_{H}^{G}(V)$.
+
+**Theorem**(Higman's criterion)
+Let $G$ be a finite group, $H$ a subgroup of $G$, and $B$ a k-algebra. Let $$
