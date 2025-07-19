@@ -147,5 +147,9 @@ Let $G$ be a finite group, let $A$ be a $G$-algebra over $k$, and let $H$ be a s
 
 *Proof*:
 easy, note that $\mathrm{Tr}_{H}^{G}(a)b = \sum_{x \in [G / H]}(^{x}a)b$ and $b$ is fixed by $G$, we clearly have $$
-\sum_{x \in [G / H]} (^{x}a)(^{x}b) = \sum _{x \in }
+\sum_{x \in [G / H]} (^{x}a)(^{x}b) = \sum _{x \in [G / H]}{^{x}(ab)} =  \mathrm{Tr}_{H}^{G}.
 $$
+
+# Higman's criterion
+**Definition**:
+Let $G$ be a finite group and $H$ a subgroup of $G$. Let $U$ be a $k[G]$-module or a complex of $k[G]$-modules. We say that $U$ is *relatively $H$-projective* if there exists a $k[H]$-module or a complex of $k[H]$-modules $V$ such that $U$ is isomorphic to a direct summand of $Ind_{H}^{G}(V)$.
