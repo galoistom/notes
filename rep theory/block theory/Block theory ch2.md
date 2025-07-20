@@ -163,4 +163,4 @@ Let $G$ be a finite group, $H$ a subgroup of $G$, and $B$ a k-algebra. Let $U$ b
 
 *Proof*:
 We will proof the case of $U$ a bimodule, if $U$ is a complex, just replace the morphism of bimodules with morphism of complex.
-1. we proof 5 -> 3. Take $\phi \in (End_{B^{op}}(U))^{H}= End_{{k[H] \otimes_{k} B^{op}}}(U)$ such that $Id_{U} = Tr_{H}^{G}(\phi)$. 
+1. we proof 5 -> 3. Take $\phi \in (End_{B^{op}}(U))^{H}= End_{{k[H] \otimes_{k} B^{op}}}(U)$ such that $Id_{U} = Tr_{H}^{G}(\phi)$. Then we have $\sum_{y \in [G / H]} y \phi (y^{-1}u)=u$ for all $u$. Taking $\mu := u \mapsto \sum_{y \in [G / H]} y \otimes \phi(y^{-1}u)$, we  proof that $\mu$ is the inverse of $\pi$. In fact, $\pi \circ \mu (u) = \pi(\sum_{y \in [G / H]}y\otimes \phi(y^{-1}u)) = \sum_{y \in [G / H]} y \otimes \phi(y^{-1}u) = u$. In particular, $U \simeq \mu(U)$ is isomorphic to a direct summand of $k[G]$ 
