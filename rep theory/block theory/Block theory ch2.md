@@ -163,4 +163,4 @@ Let $G$ be a finite group, $H$ a subgroup of $G$, and $B$ a k-algebra. Let $U$ b
 
 *Proof*:
 We will proof the case of $U$ a bimodule, if $U$ is a complex, just replace the morphism of bimodules with morphism of complex.
-1. we proof 5 -> 3. Take $\phi \in (End_{B^{op}}(U))^{H}= End_{{k[H] \otimes_{k} B^{op}}}(U)$ such that $Id_{U} = $
+1. we proof 5 -> 3. Take $\phi \in (End_{B^{op}}(U))^{H}= End_{{k[H] \otimes_{k} B^{op}}}(U)$ such that $Id_{U} = Tr_{H}^{G}(\phi)$. 
