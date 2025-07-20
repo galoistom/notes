@@ -159,4 +159,6 @@ Let $G$ be a finite group, $H$ a subgroup of $G$, and $B$ a k-algebra. Let $U$ b
 1) $U$ is relatively $H$-projective.
 2) $U$ is isomorphic to a direct summand of the (complex of) $k[G]-B$-bimidule(s) $Ind_{H}^{G}(Res_{H}^{G}(U))$.
 3) The canonical map $Ind_{H}^{G}(Res_{H}^{G}(U)) \to U$ of $k[G]-B$-bimidules sending $x \otimes u$ to $xu$ for $x \in G$, $u \in U$ is split.
-4) For any $k[G]-B$-bimidule or complex of bimodules $M$ and any surjective $k[H]-B$-bimidule homomorphism $\pi :M \rightarrow U$ or chain map, 
+4) For any $k[G]-B$-bimidule or complex of bimodules $M$ and any surjective $k[H]-B$-bimidule homomorphism $\pi :M \rightarrow U$ or chain map, respectively, the following holds: if $\pi$ splits as a $k[H]-B$-bimidule homomorphism, then $\pi$ splits as a $k[G]-B$-bimidule homomorphism.
+5) We have $Id_{U} = \mathrm{Tr}_{H}^{G}(\phi)$ for some $k[H]-B$-bimidule endomorphism of $U$.
+*Proof*:
