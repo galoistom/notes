@@ -151,13 +151,23 @@
               "icon": "lucide-list",
               "title": "Outline of Block theory ch2"
             }
+          },
+          {
+            "id": "af8e6cd753171a2c",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
