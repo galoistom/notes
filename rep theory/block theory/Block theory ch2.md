@@ -186,4 +186,12 @@ Let $A,C$ be k-algebras, let $B$ a subalgebra of $A$ and let $M$ be an $A-C$-bim
 If 2 holds then 1 holds by taking $N = M$ as $B-C$-bimodule. Suppose 1 holds, let $N$ be a $B-C$-bimodule such that $A \otimes_{B} N = M \oplus M'$ for some $A-C$-bimodule $M'$. Consider the map $\beta: A \otimes_{B} N \rightarrow A \otimes_{B} M$ by $\beta(m) = \begin{cases}1\otimes m &\text{if } m \in M \\ 0 &\text{if} m \in M'\end{cases}$. And $\tau:A\otimes_{B}N \rightarrow M$ be the canonical map, then we have $\mu \circ \beta = \tau$. Define another $A-C$-bimidule homomorphism $\alpha:A\otimes_{B}N \rightarrow A \otimes_{B}M$ by setting $\alpha(a \otimes n) = a\beta(1\otimes n)$ for all $a \in A$ and $n \in N$. Then, for $a \in A$ and $m \in M$ we have $$(\mu \circ \alpha)(a \otimes n) = \mu(a\beta(1 \otimes n)) = a\tau(1 \otimes n) = \tau(a \otimes  n)$$ Since $\tau$ restricts to identity on $M$ we get that $\mu \circ \alpha|_{M} = Id_{M}$, whence the result.
 
 **Definition**:
-Let $A$ be a k-algebra and $B$ a subalgebra of $A$. An A-module $U$ is called *relatively $B$-projective* if there is a $B$-module $V$ such that $U$ is isomorphic to a direct summand of $A\otimes_{B}V$. Dually, $U$ is called *relatively B*
+Let $A$ be a k-algebra and $B$ a subalgebra of $A$. An A-module $U$ is called *relatively $B$-projective* if there is a $B$-module $V$ such that $U$ is isomorphic to a direct summand of $A\otimes_{B}V$. Dually, $U$ is called *relatively $B$-injective* if there is a $B$-module $V$ such that $U$ is isomorphic to a  direct summand of $Hom_{B}(A,V)$, viewed as $A$-module via $(a \cdot \phi)(a') = \phi(a'a)$ for $a,a' \in A$ and $\phi \in Hom_{B}(A,V)$. 
+
+**Theorem**:
+Let $A$ be a k-algebra, $B$ a subalgebra of $A$ and $U$ an $A$-module. The following are equivalent:
+1) $U$ is relatively $B$-projective.
+2) The map $A\otimes_{B}U \rightarrow U$ sending $a \otimes u$ to $au$ is split surjective as an $A$-homomorphism.
+3) Any short sequence of $A$-modules ending in $U$ whose restriction to $B$ splits is already as a sequence of $A$-modules.
+
+*Proof*:
