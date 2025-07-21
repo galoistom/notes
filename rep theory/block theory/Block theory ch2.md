@@ -172,4 +172,7 @@ We will proof the case of $U$ a bimodule, if $U$ is a complex, just replace the 
 In most instance, we have $B = k$. The following consiquences of Higman's criterion are formulated using the case $B=k$, but they admit the obvious bimodule versions.
 
 **Corollary**:
-Let $G$ be a fint
+Let $G$ be a finite group and $H$ a subgroup of $G$. Suppose that $|G:H|$ is invertible in $k$. Then every $k[G]$-module and every complex of $k[G]$-modules is relatively $H$-projective. In particular, if $M$ is a $k[G]$-module such that $Res_{H}^{G}(M)$ is projective, then $M$ is projective.
+
+*Proof*:
+Using the theorem above, because $|G:H|$ is invertible, we have $Id_{M} = Tr_{H}^{G}\left( \frac{1}{|G:H|} Id_{M} \right)$, so $M$ is isomorphic to a direct summand of $Ind_{H}^{G}(Res_{H}^{G}(M))$. Since induction preserves projective modules, this implies the last statement. 
