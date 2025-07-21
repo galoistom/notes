@@ -183,4 +183,4 @@ Let $A,C$ be k-algebras, let $B$ a subalgebra of $A$ and let $M$ be an $A-C$-bim
 2) The canonical surjective $A-C$-bimodule homomorphism $\mu:A \otimes_{B} M \rightarrow M$ sending $a \otimes m$ to $am$ for any $a \in A$ and any $m \in M$ is split.
 
 *Proof*:
-If 2 holds then 1 holds by taking $N = M$ as $B-C$-bimodule. Suppose 1 holds, let $N$ be a $B-C$-bimodule such that $A \otimes_{B} N = M \oplus M'$ for some $A-C$-bimodule $M'$. 
+If 2 holds then 1 holds by taking $N = M$ as $B-C$-bimodule. Suppose 1 holds, let $N$ be a $B-C$-bimodule such that $A \otimes_{B} N = M \oplus M'$ for some $A-C$-bimodule $M'$. Consider the map $\beta: A \otimes_{B} N \rightarrow A \otimes_{B} M$ by $\beta(m) = \begin{cases}1\otimes m &\text{if } m \in M \\ 0 &\text{if} m \in M'\end{cases}$. And $\tau:A\otimes_{B}N \rightarrow M$ be the canonical map, then we have $\mu \circ \beta = \tau$. Define another $A-C$-B$-bimidule homomorphism $\alpha:A\otimes_{B}$
