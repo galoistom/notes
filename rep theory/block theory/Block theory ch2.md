@@ -180,3 +180,7 @@ Using the theorem above, because $|G:H|$ is invertible, we have $Id_{M} = Tr_{H}
 **Theorem**:
 Let $A,C$ be k-algebras, let $B$ a subalgebra of $A$ and let $M$ be an $A-C$-bimodule. The following are equivalent:
 1) There exists a $B-C$-bimodule $N$ such that $M$ is isomorphic to a direct summand of the $A-C$-bimodule $A \otimes_{B} N$. 
+2) The canonical surjective $A-C$-bimodule homomorphism $\mu:A \otimes_{B} M \rightarrow M$ sending $a \otimes m$ to $am$ for any $a \in A$ and any $m \in M$ is split.
+
+*Proof*:
+If 2 holds then 1 holds by taking $N = M$ as $B-C$-bimodule. Suppose 1 holds, let $N$ be a $B-C$-bimodule such that $A \otimes_{B} N = M \oplus M'$ for some $A-C$-bimodule $M'$. 
