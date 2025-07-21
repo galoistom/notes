@@ -176,3 +176,7 @@ Let $G$ be a finite group and $H$ a subgroup of $G$. Suppose that $|G:H|$ is inv
 
 *Proof*:
 Using the theorem above, because $|G:H|$ is invertible, we have $Id_{M} = Tr_{H}^{G}\left( \frac{1}{|G:H|} Id_{M} \right)$, so $M$ is isomorphic to a direct summand of $Ind_{H}^{G}(Res_{H}^{G}(M))$. Since induction preserves projective modules, this implies the last statement. 
+
+**Theorem**:
+Let $A,C$ be k-algebras, let $B$ a subalgebra of $A$ and let $M$ be an $A-C$-bimodule. The following are equivalent:
+1) There exists a $B-C$-bimodule $N$ such that $M$ is isomorphic to a direct summand of the $A-C$-bimodule $A \otimes_{B} N$. 
