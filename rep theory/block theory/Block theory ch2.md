@@ -195,3 +195,4 @@ Let $A$ be a k-algebra, $B$ a subalgebra of $A$ and $U$ an $A$-module. The follo
 3) Any short sequence of $A$-modules ending in $U$ whose restriction to $B$ splits is already as a sequence of $A$-modules.
 
 *Proof*:
+The equivalence of 1,2 are already proved above (the special case of $C=0$). The map 
