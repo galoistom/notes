@@ -198,4 +198,7 @@ Let $A$ be a k-algebra, $B$ a subalgebra of $A$ and $U$ an $A$-module. The follo
 The equivalence of 1,2 are already proved above (the special case of $C=0$). The map $A \otimes_{B} U \rightarrow U$ has a section as $B$-homomorphism, namely the map sending $u \in U$ to $1 \otimes u$. Thus 3 implies 2. We need to show that 2 implies 3. Let $\psi:W \rightarrow U$ be surjective $A$-homomorphism such that there is a $B$-homomorphism $\rho:U\rightarrow W$ satisfying $\psi \circ \rho = Id_{U}$. Denote by $\pi:A\otimes_{B}U \rightarrow U$ the canonical $A$-homomorphism sending $a\otimes u$ to $au$. If 2 holds, we can find a $\sigma:U\rightarrow A\otimes_{B}U$ such that $\pi \circ \sigma = id_{U}$. Define an $A$-homomorphism $\tau:A\otimes_{B}U \rightarrow W$ by $\tau(a\otimes u) = a\rho(u)$. Then $\psi \circ \tau(a\otimes u) = \psi(a\rho(u))= a\psi(\rho(u)) = au = \pi(a\otimes u)$, thus $\psi \circ \tau = \pi$. Precomposion with $\sigma$ yields $\psi \circ\tau \circ \sigma = \pi \circ \sigma = Id_{U}$, and hence $\tau \circ \sigma$ is a section of $\psi$ as and $A$-homomorphism. This completes the proof. 
 
 **Remark**:
-The situation considered above can be extended easyly using 
+The situation considered above can be extended easiy to the case of $B$ a subalgebra of $A$. 
+
+**Definition**:
+Let $A$ be a k-algebra and $B$ a subalgebra of $A$. We say that $A$ is *relatively $B$-seperable* if $A$ is isomorphic to a direct summand of $A \otimes_{B} A$ as an $A-A$-bimodule.
