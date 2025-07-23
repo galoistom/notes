@@ -15,4 +15,5 @@ Despite their origin in function-theoretic ideas, the p-adic live up to their de
 Let $F(x_{1},\cdots,x_{n})$ be a polynomial with integer coefficents, and fix a prime number $p$. The congruence $F(x_{1},\cdots,x_{n})\equiv 0 \pmod{p^{v}}$ is solvable for arbitrary $v\geq 1$ if and only if the equation $F(x_{1},\cdots x_{n})=0$ is solvable in p-adic integers.
 
 *Proof*:
-We view $\mathbb{Z}_{p}$ as the projective limit of 
+We view $\mathbb{Z}_{p}$ as the projective limit $\lim\limits_{\longleftarrow}\mathbb{Z} /\mathbb{Z}_{p^{n}}$, then it is obvious for the <== direction. On the other hand, if we are able to find a solution in $\lim\limits_{\longleftarrow}\mathbb{Z} /\mathbb{Z}_{p^{n}}$ then we are done, but it is not always the case. 
+We will now only proof the verison of $n=1$ as it is basicially the same. 
