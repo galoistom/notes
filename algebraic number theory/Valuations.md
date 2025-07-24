@@ -37,4 +37,4 @@ For every rational number $a \neq 0$, one has $\prod_{p}|a|_{p}=1$, where $p$ va
 In the prime factorization $a = \pm \prod_{p \neq \infty} p^{v_{p}}$ of $a$, the exponent $v_{p}$ is precisely the exponential valuation $v_{p}(a)$ and the sign equals to $\frac{a}{|a|_{\infty}}$. The equation holds obviously.
 
 **Remark**:
-The notion of $|\ |_{\infty}$ is motivated by the analogy of the field of rational numbers $\mathbb{Q}$ with the rational function field $k(t)$ over a field $k$, with which we started our consideration.  
+The notion of $|\ |_{\infty}$ is motivated by the analogy of the field of rational numbers $\mathbb{Q}$ with the rational function field $k(t)$ over a field $k$, with which we started our consideration. Take $\mathfrak{p}$ be a prime ideal (in this case $(p(x))$ where $p$ prime), and if $f$ contains $m$ $p$, we say $v_{\mathfrak{p}}(f)=m$, and $|f|_{\infty}$ is $-deg(f)$. 
