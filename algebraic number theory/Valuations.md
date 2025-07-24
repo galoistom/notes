@@ -37,4 +37,9 @@ For every rational number $a \neq 0$, one has $\prod_{p}|a|_{p}=1$, where $p$ va
 In the prime factorization $a = \pm \prod_{p \neq \infty} p^{v_{p}}$ of $a$, the exponent $v_{p}$ is precisely the exponential valuation $v_{p}(a)$ and the sign equals to $\frac{a}{|a|_{\infty}}$. The equation holds obviously.
 
 **Remark**:
-The notion of $|\ |_{\infty}$ is motivated by the analogy of the field of rational numbers $\mathbb{Q}$ with the rational function field $k(t)$ over a field $k$, with which we started our consideration. Take $\mathfrak{p}$ be a prime ideal (in this case $(p(x))$ where $p$ prime), and if $f$ contains $m$ $p$, we say $v_{\mathfrak{p}}(f)=m$, and $|f|_{\infty}$ is $-deg(f)$. 
+The notion of $|\ |_{\infty}$ is motivated by the analogy of the field of rational numbers $\mathbb{Q}$ with the rational function field $k(t)$ over a field $k$, with which we started our consideration. Take $\mathfrak{p}$ be a prime ideal (in this case $(p(x))$ where $p$ prime), and if $f$ contains $m$ $p$, we say $v_{\mathfrak{p}}(f)=m$, and $|f|_{\infty}$ is $-deg(f)$. And we are still able to get the same result $\prod_{\mathfrak{p}}|f|_{\mathfrak{p}}=1$. 
+
+A sequence $\{x_{n}\}$ in $\mathbb{Q}$ is called *nullsequence* with respect to $|\ |_{\mathfrak{p}}$ if $|x_{n}|_{\mathfrak{p}}$ is a sequence converging to 0 in the usral sense.
+
+**Definition**:
+Let the Cauchy sequences form a ring $R$, the null sequences form a maximal ideal $\mathfrak{m}$, and we define afresh the field of p-adic numbers to be residue class field $\mathbb{Q}_{p}:R / \mathfrak{m}$. 
