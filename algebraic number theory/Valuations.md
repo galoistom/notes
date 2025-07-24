@@ -21,4 +21,11 @@ We will now only proof the verison of $n=1$ as it is basicially the same. take $
 # The p-adic [[Absolute value]]
 One immediately notice that the formal series $a_{0}+a_{1}p+\cdots$ does not converge in general. To solve this, we are now introducing another Valuation for p-adic numbers. In fact, the way of writing the p-adic numbers is vary similiar to $a_{0} + a_{1}\left( \frac{1}{10} \right)+a_{2}\left( \frac{1}{10} \right)^{2} + \cdots$ of real numbers $\leq 10$. 
 
-Let $a=\frac{b}{c}$ with $b,c \in \mathbb{Z}$ be a nonzero rational number. We extract from $b$ and $c$ as high a power of the prime number $p$a as possible, $a=p^{m} \frac{b'}{c'}$ with $(b'c',p)=1$, and set $|a|_{p} = \frac{1}{p^{m}}$. Thus the measures nolonger represent how large the 
+Let $a=\frac{b}{c}$ with $b,c \in \mathbb{Z}$ be a nonzero rational number. We extract from $b$ and $c$ as high a power of the prime number $p$a as possible, $a=p^{m} \frac{b'}{c'}$ with $(b'c',p)=1$, and set $|a|_{p} = \frac{1}{p^{m}}$. Thus the measures nolonger represent how large the number is but rather how many $p$ is contains, and in this way, the formal series converges.
+
+To be more specific, we define $v_{p}:\mathbb{Q} \rightarrow \mathbb{Z} \cup \{\infty\}$, with:
+1. $v_{p}(a) = 0 \Longleftrightarrow a=0$,
+2. $v_{p}(ab)=v_{p}(a)+ v_{p}(b)$,
+3. $v_{p}(a+b)\geq \min\{v_{p}(a),v_{p}(b)\}$,
+
+Then define $|a_{p}| = p^{-v_{p}(a)}$. Moreover, we define $|a|_{p}$ to be the natural alsolute 
