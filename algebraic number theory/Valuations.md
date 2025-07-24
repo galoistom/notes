@@ -28,4 +28,10 @@ To be more specific, we define $v_{p}:\mathbb{Q} \rightarrow \mathbb{Z} \cup \{\
 2. $v_{p}(ab)=v_{p}(a)+ v_{p}(b)$,
 3. $v_{p}(a+b)\geq \min\{v_{p}(a),v_{p}(b)\}$,
 
-Then define $|a_{p}| = p^{-v_{p}(a)}$. Moreover, we define $|a|_{p}$ to be the natural alsolute 
+Then define $|a_{p}| = p^{-v_{p}(a)}$. Moreover, we define $|a|_{p}$ to be the natural absolute value.
+
+**Proposition**:
+For every rational number $a \neq 0$, one has $\prod_{p}|a|_{p}=1$, where $p$ varies over all prime numbers as well as the symbol $\infty$. 
+
+*Proof*:
+In the prime factorization $a = \pm \prod_{p \neq \infty} p^{v_{p}}$ of $a$, the exponent $v_{p}$ is precisely the exponential valuation $v_{p}(a)$ and the sign equals to $\frac{a}{|a|_{\infty}}$. The equation holds obviously.
