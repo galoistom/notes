@@ -18,3 +18,7 @@ Let $F(x_{1},\cdots,x_{n})$ be a polynomial with integer coefficents, and fix a 
 We view $\mathbb{Z}_{p}$ as the projective limit $\lim\limits_{\longleftarrow}\mathbb{Z} /p^{n}\mathbb{Z}$, then it is obvious for the <== direction. On the other hand, if we are able to find a solution in $\lim\limits_{\longleftarrow}\mathbb{Z} /p^{n}\mathbb{Z}$ then we are done, but it is not always the case. 
 We will now only proof the verison of $n=1$ as it is basicially the same. take $x_{v}:=\{x:x \in \mathbb{Z} / p^{v}\mathbb{Z}\}$ and view $(x_{v})$ as a sequence, choose a $x_{1}$ to be an element appeared infinite times, and creat a sub "sequence" $\{x_{v}^{(1)}\}$ such that all $x_{v}^{(1)}\equiv x_{1} \pmod{p}$ and $F(x^{(1)}_{v})\equiv 0 \pmod{p}$, like wise choose for 2,3,..., and we are able to find an element in $\lim\limits_{\longleftarrow}\mathbb{Z} / p^{n}\mathbb{Z}$. 
 
+# The p-adic [[Absolute value]]
+One immediately notice that the formal series $a_{0}+a_{1}p+\cdots$ does not converge in general. To solve this, we are now introducing another Valuation for p-adic numbers. In fact, the way of writing the p-adic numbers is vary similiar to $a_{0} + a_{1}\left( \frac{1}{10} \right)+a_{2}\left( \frac{1}{10} \right)^{2} + \cdots$ of real numbers $\leq 10$. 
+
+Let $a=\frac{b}{c}$ with $b,c \in \mathbb{Z}$ be a nonzero rational number. We extract from $b$ and $c$ as high a power of the prime number $p$a as possible, $a=p^{m} \frac{b'}{c'}$ with $(b'c',p)=1$, and set $|a|_{p} = \frac{1}{p^{m}}$. Thus the measures nolonger represent how large the 
