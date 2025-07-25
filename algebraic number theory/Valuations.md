@@ -69,6 +69,7 @@ Two valuations $|\ |_{1}$ and $|\ |_{2}$ on $K$ are equivalent (the topology are
 <== is simple, so we have to proof ==>. Note that for $x \in K$ if $\{x^{n}\}$ converges into $0$ if and only if $|x|<0$, so we have $|x|_{1}<1 \Longleftrightarrow |x|_{2}<1$. Now fix a $y \in K$ with $|y|_{1}>1$ and $s:=\frac{\log|y|_{1}}{\log|y|_{2}}$. We proof that this $s$ is what we want. For any $x \in K$, suppose $|x|_{1}=|y|_{1}^{\alpha}$, then we use $\frac{m_{i}}{n_{i}}$ to approach to $\alpha$ from above, then $|\frac{x^{n_{i}}}{y^{m_{i}}}|_{1}<1$, so we have $| \frac{x^{n_{i}}}{y^{m_{i}}} |_{2}<1$, hence $|x|_{2} \leq |y|_{2}^{\alpha}$, and let $\frac{m_{i}}{n_{i}}$ converge from below, then $|x|_{2} \geq |y|_{2}^{\alpha}$. Thus $|x|_{1} = |x|_{2}^{s}$. 
 
 **Appoximation Theorem**:
-Let $|\ |_{1},\cdots, |\ |_{n}$ be pairwise inequivalentvalustions of the field $K$ and let $a_{1},\cdots, a_{n}\in K$ be given elements. Then for every $\epsilon>0$ there exists an $x \in K$ such that $|x-a_{i}|_{i}<\epsilon$ for all $i$.
+Let $|\ |_{1},\cdots, |\ |_{n}$ be pairwise inequivalent valuastions of the field $K$ and let $a_{1},\cdots, a_{n}\in K$ be given elements. Then for every $\epsilon>0$ there exists an $x \in K$ such that $|x-a_{i}|_{i}<\epsilon$ for all $i$.
 
 *Proof*:
+WOLG, we assume $a_{i}=0$ $i=2,\cdots,n$, and using the fact the the measures are pairwise inequivalent, we are able to find a $z \in K$ such that $|z|_{1}>1$ and $|z|_{i}<1$ (using induction to find $\frac{z^{m}}{1+z^{m}}y$ where $z$ is for the case $n-1$, and $y$ such that $|y|_{1}>1$ and $|y|_{n}<1$).  
