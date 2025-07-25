@@ -42,4 +42,15 @@ The notion of $|\ |_{\infty}$ is motivated by the analogy of the field of ration
 A sequence $\{x_{n}\}$ in $\mathbb{Q}$ is called *nullsequence* with respect to $|\ |_{\mathfrak{p}}$ if $|x_{n}|_{\mathfrak{p}}$ is a sequence converging to 0 in the usral sense.
 
 **Definition**:
-Let the Cauchy sequences form a ring $R$, the null sequences form a maximal ideal $\mathfrak{m}$, and we define afresh the field of p-adic numbers to be residue class field $\mathbb{Q}_{p}:R / \mathfrak{m}$. And $\mathbb{Q}$ is embed into $\mathbb{Q}_{p}$ by associating to every $a \in \mathbb{Q}$ with constant sequence $(a,a,a,\cdots)$. Taking $|x|_{p}:= \lim_{ n \to \infty }|x_{n}|_{p}$, we extend the p-adic valuation to $\mathbb{Q}_{p}$. In this case, the exponential valuation $v_{p}:\mathbb{Q}_{p} \longrightarrow \mathbb{Z} \cup \{\infty\}$ will be $v_{p}(x_{n}) = -\log_{p}|x_{n}|_{p}$, and $v_{p}(x)=v_{p}(x_{n})$ for large enough $n$.
+Let the Cauchy sequences form a ring $R$, the null sequences form a maximal ideal $\mathfrak{m}$, and we define afresh the field of p-adic numbers to be residue class field $\mathbb{Q}_{p}:R / \mathfrak{m}$. And $\mathbb{Q}$ is embed into $\mathbb{Q}_{p}$ by associating to every $a \in \mathbb{Q}$ with constant sequence $(a,a,a,\cdots)$. Taking $|x|_{p}:= \lim_{ n \to \infty }|x_{n}|_{p}$, we extend the p-adic valuation to $\mathbb{Q}_{p}$. In this case, the exponential valuation $v_{p}:\mathbb{Q}_{p} \longrightarrow \mathbb{Z} \cup \{\infty\}$ will be $v_{p}(x_{n}) = -\log_{p}|x_{n}|_{p}$, and $v_{p}(x)=v_{p}(x_{n})$ for large enough $n$. 
+
+**Proposition**:
+The set $\mathbb{Z}_{p}:=\{x \in \mathbb{Q}_{p} : |x|_{p} \leq 1\}$ is a subring of $\mathbb{Q}_{p}$. It is the closure with respect to $|\ |_{p}$ of the ring $\mathbb{Z}$ in the field $\mathbb{Q}_{p}$. 
+
+*Proof*:
+It is clear that $\mathbb{Z}_{p}$ is closed under addition and multiplication. If $\{x_{n}\}$ is a Cauchy sequence in $Z$ and $x=\lim_{ n \to \infty }x_{n}$, then $|x|_{p} \leq 1$. Conversly, if $x=\lim_{ n \to \infty }x_{n} \in \mathbb{Z}_{p}$, $|x_{n}|_{p}\leq 1$ for large enough $n$. Choosing $y_{n}\equiv x_{n}\pmod{p^{n}}$ and $y_{n} \in \mathbb{Z}$, we know that $x_{n}$ is in the closure of $\mathbb{Z}$. 
+
+**Proposition**:
+The homomorphism $\mathbb{Z}_{p} \longrightarrow \lim\limits_{\longleftarrow} \mathbb{Z} / p^{n}\mathbb{Z}$ is an isomorphism.
+
+*Proof*:
