@@ -51,6 +51,5 @@ The set $\mathbb{Z}_{p}:=\{x \in \mathbb{Q}_{p} : |x|_{p} \leq 1\}$ is a subring
 It is clear that $\mathbb{Z}_{p}$ is closed under addition and multiplication. If $\{x_{n}\}$ is a Cauchy sequence in $Z$ and $x=\lim_{ n \to \infty }x_{n}$, then $|x|_{p} \leq 1$. Conversly, if $x=\lim_{ n \to \infty }x_{n} \in \mathbb{Z}_{p}$, $|x_{n}|_{p}\leq 1$ for large enough $n$. Choosing $y_{n}\equiv x_{n}\pmod{p^{n}}$ and $y_{n} \in \mathbb{Z}$, we know that $x_{n}$ is in the closure of $\mathbb{Z}$. 
 
 **Proposition**:
-The homomorphism $\mathbb{Z}_{p} \longrightarrow \lim\limits_{\longleftarrow} \mathbb{Z} / p^{n}\mathbb{Z}$ is an isomorphism.
+The homomorphism $\mathbb{Z}_{p} \longrightarrow \lim\limits_{\longleftarrow} \mathbb{Z} / p^{n}\mathbb{Z}$ is an isomorphism. Moreover, $\mathbb{Z}_{p} \simeq \mathbb{Z}[[X]] / (X-p)$. 
 
-*Proof*:
