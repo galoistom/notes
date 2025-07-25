@@ -77,4 +77,10 @@ WOLG, we assume $a_{1}=1$ and $a_{i}=0$ $i=2,\cdots,n$, and using the fact the t
 **Definition**:
 The valuation $|\ |$ is called *nonarchimedean* is $|n|$ stays bounded, for all $n \in \mathbb{N}$. Otherwise it is called *archimedean*. In fact, the valuation is nonarchimedean if and only if $|x+y|\leq \max\{|x|,|y|\}|$ (the *strong triangle inequality*) holds. 
 
-The proof is not so difficult, suppose $|n|\leq N<1$, then $$|x+y|^{n} \leq \sum_{v=0}^{n}\left\lvert\begin{pmatrix}n\\v\end{pmatrix}\right\rvert|x|^{v}|y|^{n-v} \leq N(n+1)|x|^{n}$$. So $|x+|$
+The proof is not so difficult, suppose $|n|\leq N<1$, then $$|x+y|^{n} \leq \sum_{v=0}^{n}\left\lvert\begin{pmatrix}n\\v\end{pmatrix}\right\rvert|x|^{v}|y|^{n-v} \leq N(n+1)|x|^{n}$$. So $|x+y| \leq N^{1/n}(1+n)^{1/n}\max\{|x|,|y|\}$, hence $|x+y|\leq \max\{|x|,|y|\}$. One might also notice that this inequality implies that if $|x| \neq |y|$, then $|x+y| = \max\{|x|,|y|\}$. 
+
+**Proposition**:
+Every valuation of $\mathbb{Q}$ is equivalent to one of $|\ |_{p}$ or $|\ |_{\infty}$. 
+
+*Proof*:
+If $|\ |$ is nonarchimedean, then take $\mathfrak{a}:=\{a \in \mathbb{Z} : \Vert a \Vert <1 \}$, because it is an nonzero ideal, so we are able to find $p\mathbb{Z}=\mathfrak{a}$. Then it is easy to check that $\Vert a \Vert = |a|_{p}^{s}$ for some $s$. 
