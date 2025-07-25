@@ -63,4 +63,7 @@ A *Valuation* of a field $K$ is a function $|\ |:K \rightarrow R$ enjoying the p
 We tacitly exclude the sequel the case where $|\ |$ is the trivial valuation of $K$ which satisfied $|x|=1$ for all $x \neq0$. Define the distance bewteen two points $x,y$ to be $d(x,y) = |x-y|$ makes $K$ into a metric space, hence a topological space.
 
 **Proposition**:
-Two valuations $|\ |_{1}$ and $|\ |_{2}$ on $L$
+Two valuations $|\ |_{1}$ and $|\ |_{2}$ on $K$ are equivalent (the topology are the same) if and only if there is a real number $s>0$ such that one has $|x|_{1} = |x|_{2}^{s}$ for all $x \in K$. 
+
+*Proof*:
+<== is simple, so we have to proof ==>. Note that for $x \in K$ if $\{x^{n}\}$ converges into $0$ if and only if $|x|<0$, so we have $|x|_{1}<1 \Longleftrightarrow |x|_{2}<1$. Now fix a $y \in K$ with $|y|_{1}>1$ and $s:=\frac{\log|y|_{1}}{\log|y|_{2}}$. We proof that this $s$ is what we want. For any $x \in K$, suppose $|x|_{1}=|y|_{1}^{\alpha}$, then we use $\frac{m_{1i}{n_{i}}$ tot 
