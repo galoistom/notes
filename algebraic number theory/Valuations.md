@@ -84,3 +84,4 @@ Every valuation of $\mathbb{Q}$ is equivalent to one of $|\ |_{p}$ or $|\ |_{\in
 
 *Proof*:
 If $|\ |$ is nonarchimedean, then take $\mathfrak{a}:=\{a \in \mathbb{Z} : \Vert a \Vert <1 \}$, because it is an nonzero ideal, so we are able to find $p\mathbb{Z}=\mathfrak{a}$. Then it is easy to check that $\Vert a \Vert = |a|_{p}^{s}$ for some $s$. 
+If $|\ |$ is archimedean, take two $m,n \in \mathbb{Z}$ and write $m=a_{0}+a_{1}n+\cdots+a_{r}n^{r}$. Hence $\|m\| \leq \sum \|a_{i}\| \cdot \|n\|^{r} \leq \left( 1+ \frac{\log m}{\log n} \right)n \cdot \|n\|^{\log m/\log n}$ and perform the same trick above, we have $\|m\| \leq \|n\|$ and $\|n\| \leq \|m\|$.  
