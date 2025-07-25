@@ -72,4 +72,9 @@ Two valuations $|\ |_{1}$ and $|\ |_{2}$ on $K$ are equivalent (the topology are
 Let $|\ |_{1},\cdots, |\ |_{n}$ be pairwise inequivalent valuastions of the field $K$ and let $a_{1},\cdots, a_{n}\in K$ be given elements. Then for every $\epsilon>0$ there exists an $x \in K$ such that $|x-a_{i}|_{i}<\epsilon$ for all $i$.
 
 *Proof*:
-WOLG, we assume $a_{i}=0$ $i=2,\cdots,n$, and using the fact the the measures are pairwise inequivalent, we are able to find a $z \in K$ such that $|z|_{1}>1$ and $|z|_{i}<1$ (using induction to find $\frac{z^{m}}{1+z^{m}}y$ where $z$ is for the case $n-1$, and $y$ such that $|y|_{1}>1$ and $|y|_{n}<1$).  
+WOLG, we assume $a_{1}=1$ and $a_{i}=0$ $i=2,\cdots,n$, and using the fact the the measures are pairwise inequivalent, we are able to find a $z \in K$ such that $|z|_{1}>1$ and $|z|_{i}<1$ (using induction to find $\frac{z^{m}}{1+z^{m}}y$ where $z$ is for the case $n-1$, and $y$ such that $|y|_{1}>1$ and $|y|_{n}<1$). Then we are able to find $\frac{z^{m}}{1+z^{m}}$ that satisfied the properties we want.
+
+**Definition**:
+The valuation $|\ |$ is called *nonarchimedean* is $|n|$ stays bounded, for all $n \in \mathbb{N}$. Otherwise it is called *archimedean*. In fact, the valuation is nonarchimedean if and only if $|x+y|\leq \max\{|x|,|y|\}|$ (the *strong triangle inequality*) holds. 
+
+The proof is not so difficult, suppose $|n|\leq N<1$, then $$|x+y|^{n} \leq \sum_{v=0}^{n}\left\lvert\begin{pmatrix}n\\v\end{pmatrix}\right\rvert|x|^{v}|y|^{n-v} \leq N(n+1)|x|^{n}$$. So $|x+|$
