@@ -42,4 +42,4 @@ The notion of $|\ |_{\infty}$ is motivated by the analogy of the field of ration
 A sequence $\{x_{n}\}$ in $\mathbb{Q}$ is called *nullsequence* with respect to $|\ |_{\mathfrak{p}}$ if $|x_{n}|_{\mathfrak{p}}$ is a sequence converging to 0 in the usral sense.
 
 **Definition**:
-Let the Cauchy sequences form a ring $R$, the null sequences form a maximal ideal $\mathfrak{m}$, and we define afresh the field of p-adic numbers to be residue class field $\mathbb{Q}_{p}:R / \mathfrak{m}$. 
+Let the Cauchy sequences form a ring $R$, the null sequences form a maximal ideal $\mathfrak{m}$, and we define afresh the field of p-adic numbers to be residue class field $\mathbb{Q}_{p}:R / \mathfrak{m}$. And $\mathbb{Q}$ is embed into $\mathbb{Q}_{p}$ by 
