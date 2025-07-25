@@ -53,3 +53,14 @@ It is clear that $\mathbb{Z}_{p}$ is closed under addition and multiplication. I
 **Proposition**:
 The homomorphism $\mathbb{Z}_{p} \longrightarrow \lim\limits_{\longleftarrow} \mathbb{Z} / p^{n}\mathbb{Z}$ is an isomorphism. Moreover, $\mathbb{Z}_{p} \simeq \mathbb{Z}[[X]] / (X-p)$. 
 
+# Valuations
+**Definition**:
+A *Valuation* of a field $K$ is a function $|\ |:K \rightarrow R$ enjoying the properties:
+1) $|x|>0$, and $|x|=0$ $\Longleftrightarrow$ $x=0$,
+2) $|xy| = |x||y|$,
+3) $|x+y| \leq |x|+|y|$.
+
+We tacitly exclude the sequel the case where $|\ |$ is the trivial valuation of $K$ which satisfied $|x|=1$ for all $x \neq0$. Define the distance bewteen two points $x,y$ to be $d(x,y) = |x-y|$ makes $K$ into a metric space, hence a topological space.
+
+**Proposition**:
+Two valuations $|\ |_{1}$ and $|\ |_{2}$ on $L$
