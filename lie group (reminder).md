@@ -3,6 +3,16 @@ Some easy examples would be $GL(V)$, $SL(V)$ the group of element with $\det=1$,
 
 Unfortunately, general lie group is vary hard to study. People then notice that the neiberhood of $1_{G}$ genertate $G$, so we can know many information of $G$ by studying the tangent space of $G$ at $1_{G}$ which we call *lie algebra* (though it is wrong to say that lie algebra determines lie group). 
 
+>[!note] First Principle
+> Let $G$ and $H$ be lie groups, $G$ connected. A map $\rho :G\rightarrow H$ is uniquely determined by its differential $d\rho_{e}:T_{e}G \rightarrow T_{e}H$.  
+
 As we know, the key of group is the morphism $m_{g}:G \rightarrow G$ sending $x \mapsto gx$. The problem is, $m_{g}$ does not fix any point, so it is hard to assoicate it to the tangent space. To solve this problem, people consider the inner automorphism $\Psi_{g} \in Aut(G)$ with $x \mapsto gxg^{-1}$. Thus by taking differential, we get $Ad(g):=(d\Psi_{g})_{e}$, but this still need the information of lie group to compute, so we go another step further the compute the differential of $Ad$, getting $ad(g):=(d(Ad(g)))_{e}:T_{e}G \rightarrow End(T_{e}(G))$.
 
-Now let $X,Y$ be two vectors tangent to $G$ at $e$. Define the lie bracket $[X,Y]:=ad(X)(Y)$. Easy computation shows that in words of linear transformation (embeding it into a $GL(V)$), $[X,Y]=XY-YX$. The reason why not define the lie bracket in the firs 
+Now let $X,Y$ be two vectors tangent to $G$ at $e$. Define the lie bracket $[X,Y]:=ad(X)(Y)$. Easy computation shows that in words of linear transformation (embeding it into a $GL(V)$), $[X,Y]=XY-YX$. The reason why not define the lie bracket in the first place is clear now, as we do not have a multiplication for $X$ and $Y$. 
+
+One might notice that $[X,[Y,Z]]+[Y,[Z,X]]+[Z,[X,Y]]=0$, together with the skew-symmetric property, we now have all the property a lie bracket need to have.
+
+Now a lie algebra is a vector space with a skew-symmetric bileaner map $[\ ,\ ]:\mathfrak{g} \times \mathfrak{g} \rightarrow \mathfrak{g}$ satisfying $[X,[Y,Z]]+[Y,[Z,X]]+[Z,[X,Y]]=0$. 
+
+>[!note]Second 
+>Let $G$ and $H$ be 
