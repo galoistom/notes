@@ -14,5 +14,6 @@ One might notice that $[X,[Y,Z]]+[Y,[Z,X]]+[Z,[X,Y]]=0$, together with the skew-
 
 Now a lie algebra is a vector space with a skew-symmetric bileaner map $[\ ,\ ]:\mathfrak{g} \times \mathfrak{g} \rightarrow \mathfrak{g}$ satisfying $[X,[Y,Z]]+[Y,[Z,X]]+[Z,[X,Y]]=0$. 
 
->[!note]Second 
->Let $G$ and $H$ be 
+>[!note] Second Principle
+> Let $G$ and $H$ be lie groups, with $G$ connected and simply connected. A linear map $T_{e}G \rightarrow T_{e}H$ is the differential of a homorphism $\rho:G \rightarrow H$ if and only if it preserves the bracket operation.
+
