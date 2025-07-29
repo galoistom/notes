@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Valuations"
             }
+          },
+          {
+            "id": "4eaad058bde19f2b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "lie group (reminder).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "lie group (reminder)"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "6218cae0885fd46c",
@@ -181,10 +195,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7ea4d33d35f3979e",
+  "active": "4eaad058bde19f2b",
   "lastOpenFiles": [
-    "algebraic number theory/Dedekind domain.md",
     "algebraic number theory/Valuations.md",
+    "lie group (reminder).md",
+    "algebraic number theory/Dedekind domain.md",
     "homo algebra/First extension group.md",
     "algebraic number theory/Absolute value.md",
     "rep theory/block theory/Block theory ch2.md"
