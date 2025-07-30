@@ -18,3 +18,7 @@ Now a lie algebra is a vector space with a skew-symmetric bileaner map $[\ ,\ ]:
 > Let $G$ and $H$ be lie groups, with $G$ connected and simply connected. A linear map $T_{e}G \rightarrow T_{e}H$ is the differential of a homorphism $\rho:G \rightarrow H$ if and only if it preserves the bracket operation.
 
 The *reprentation* of a lie algebra $\mathfrak{g}$ on a vector space $V$ is simply a map $\rho: \mathfrak{g}\rightarrow \mathfrak{gl}(V)=End(V)$. In order to satisfy the differential form, we define the tensor product to be $X(v \otimes w) = X(v) \otimes w + v \otimes X(w)$. 
+
+For further classification. The *ideal* of a lie algebra $\mathfrak{h} \subseteq \mathfrak{g}$ is a subalgebra with $[\mathfrak{h},\mathfrak{g}] \subseteq \mathfrak{h}$ (one can proof that $H \triangleleft G$ if and only if the corresponding $\mathfrak{h}$ is an ideal of $\mathfrak{g}$). 
+
+we also define the *lower central series* $\mathfrak{D}_{1}\mathfrak{g} = [\mathfrak{g},\mathfrak{g}]$, $\mathfrak{D}_{k}=[\mathfrak{g},\mathfrak{D}_{k-1}\mathfrak{g}]$. As well as the *drived series* $\mathfrak{D}^{1}\mathfrak{g}=[\mathfrak{g},\mathfrak{g}]$ ans
