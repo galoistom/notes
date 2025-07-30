@@ -27,4 +27,4 @@ we also define the *lower central series* $\mathfrak{D}_{1}\mathfrak{g} = [\math
 3. It is *perfact* if $\mathfrak{D} \mathfrak{g} = \mathfrak{g}$.
 4. It is *semisimple*l if $\mathfrak{g}$ has no nonzero solvable ideals.
 
-One can check the fein
+One can check the definition of solvable coinside with the usual definition of having a sequence $\mathfrak{g} = \mathfrak{g}_{0} \supset \mathfrak{g}_{1} \supset \cdots \supset \mathfrak{g}=0$ such that $\mathfrak{g}_{i}$ is ideal and $\mathfrak{g}_{i} / \mathfrak{g}_{i+1}$ is abelian.
