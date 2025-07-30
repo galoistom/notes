@@ -17,7 +17,7 @@ Now a lie algebra is a vector space with a skew-symmetric bileaner map $[\ ,\ ]:
 >[!note] Second Principle
 > Let $G$ and $H$ be lie groups, with $G$ connected and simply connected. A linear map $T_{e}G \rightarrow T_{e}H$ is the differential of a homorphism $\rho:G \rightarrow H$ if and only if it preserves the bracket operation.
 
-The *reprentation* of a lie algebra $\mathfrak{g}$ on a vector space $V$ is simply a map $\rho: \mathfrak{g}\rightarrow \mathfrak{gl}(V)=End(V)$. In order to satisfy the differential form, we define the tensor product to be $X(v \otimes w) = X(v) \otimes w + v \otimes X(w)$. 
+The *representation* of a lie algebra $\mathfrak{g}$ on a vector space $V$ is simply a map $\rho: \mathfrak{g}\rightarrow \mathfrak{gl}(V)=End(V)$. In order to satisfy the differential form, we define the tensor product to be $X(v \otimes w) = X(v) \otimes w + v \otimes X(w)$. 
 
 For further classification. The *ideal* of a lie algebra $\mathfrak{h} \subseteq \mathfrak{g}$ is a subalgebra with $[\mathfrak{h},\mathfrak{g}] \subseteq \mathfrak{h}$ (one can proof that $H \triangleleft G$ if and only if the corresponding $\mathfrak{h}$ is an ideal of $\mathfrak{g}$). And say $\mathfrak{g}$ is *simple* if it has no nontrivial ideals and $dim\mathfrak{g}>1$
 
@@ -29,8 +29,8 @@ we also define the *lower central series* $\mathfrak{D}_{1}\mathfrak{g} = [\math
 
 One can check the definition of solvable coinside with the usual definition of having a sequence $\mathfrak{g} = \mathfrak{g}_{0} \supset \mathfrak{g}_{1} \supset \cdots \supset \mathfrak{g}=0$ such that $\mathfrak{g}_{i}$ is ideal and $\mathfrak{g}_{i} / \mathfrak{g}_{i+1}$ is abelian. Similar to regular algerbas, we can define the radical of $\mathfrak{g}$, simply by letting it denote the maximal solvable ideal of $\mathfrak{g}$. 
 
-In classification of lie algebra, one first build the faithful reprentation of the center, and building it up setp by setp to the rardical. Then one ues a splitting to get from the faithful reprentation of the radical to some reprentation on all of $\mathfrak{g}$. 
+In classification of lie algebra, one first build the faithful representation of the center, and building it up setp by setp to the rardical. Then one ues a splitting to get from the faithful representation of the radical to some representation on all of $\mathfrak{g}$. 
 
 **Engel's Theorem**: Let $\mathfrak{g} \subset \mathfrak{gl}(V)$ be a lie subalgebra, and every $X \in \mathfrak{g}$ is a nilpotent endomorphism of $V$. Then is a nonzero $v \in V$ such that $X(v)=0$ for all $X \in V$. 
 
-*sketch of the proof*: We first find the maximal proper subalgebra $\mathfrak{h}$, split the problem into two part $\mathfrak{h}$ and $\mathfrak{g} / \mathfrak{h}$, unsing indeuction 
+*sketch of the proof*: We first find the maximal proper subalgebra $\mathfrak{h}$, split the problem into two part $\mathfrak{h}$ and $\mathfrak{g} / \mathfrak{h}$ (to see why $h$ is ideal, one consider the adjoint action $ad(\mathfrak{h})$ which preserver $\mathfrak{h}$ and hence act on $\mathfrak{g} / \mathfrak{h}$), unsing indeuction we can find a $\overline{Y} \in \mathfrak{g} / \mathfrak{h}$ such that killed by $ad(X)$ for all $X \in \mathfrak{h}$. Take $Y$ be an element in $\mathfrak{g}$ such that $[\mathfrak{h},Y] \in \mathfrak{h}$. 
