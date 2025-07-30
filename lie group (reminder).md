@@ -33,4 +33,4 @@ In classification of lie algebra, one first build the faithful reprentation of t
 
 **Engel's Theorem**: Let $\mathfrak{g} \subset \mathfrak{gl}(V)$ be a lie subalgebra, and every $X \in \mathfrak{g}$ is a nilpotent endomorphism of $V$. Then is a nonzero $v \in V$ such that $X(v)=0$ for all $X \in V$. 
 
-	*sketch of the proof*: 
+*sketch of the proof*: We first find the maximal proper subalgebra $\mathfrak{h}$, split the problem into two part $\mathfrak{h}$ and $\mathfrak{g} / \mathfrak{h}$, unsing indeuction 
