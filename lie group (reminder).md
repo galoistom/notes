@@ -29,4 +29,4 @@ we also define the *lower central series* $\mathfrak{D}_{1}\mathfrak{g} = [\math
 
 One can check the definition of solvable coinside with the usual definition of having a sequence $\mathfrak{g} = \mathfrak{g}_{0} \supset \mathfrak{g}_{1} \supset \cdots \supset \mathfrak{g}=0$ such that $\mathfrak{g}_{i}$ is ideal and $\mathfrak{g}_{i} / \mathfrak{g}_{i+1}$ is abelian. Similar to regular algerbas, we can define the radical of $\mathfrak{g}$, simply by letting it denote the maximal solvable ideal of $\mathfrak{g}$. 
 
-In classification of lie algebra, 
+In classification of lie algebra, one first build the faithful reprentation of the center, and building it up setp by setp to the rardical. Then one 
