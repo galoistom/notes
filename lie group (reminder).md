@@ -19,6 +19,12 @@ Now a lie algebra is a vector space with a skew-symmetric bileaner map $[\ ,\ ]:
 
 The *reprentation* of a lie algebra $\mathfrak{g}$ on a vector space $V$ is simply a map $\rho: \mathfrak{g}\rightarrow \mathfrak{gl}(V)=End(V)$. In order to satisfy the differential form, we define the tensor product to be $X(v \otimes w) = X(v) \otimes w + v \otimes X(w)$. 
 
-For further classification. The *ideal* of a lie algebra $\mathfrak{h} \subseteq \mathfrak{g}$ is a subalgebra with $[\mathfrak{h},\mathfrak{g}] \subseteq \mathfrak{h}$ (one can proof that $H \triangleleft G$ if and only if the corresponding $\mathfrak{h}$ is an ideal of $\mathfrak{g}$). 
+For further classification. The *ideal* of a lie algebra $\mathfrak{h} \subseteq \mathfrak{g}$ is a subalgebra with $[\mathfrak{h},\mathfrak{g}] \subseteq \mathfrak{h}$ (one can proof that $H \triangleleft G$ if and only if the corresponding $\mathfrak{h}$ is an ideal of $\mathfrak{g}$). And say $\mathfrak{g}$ is *simple* if it has no nontrivial ideals and $dim\mathfrak{g}>1$
 
-we also define the *lower central series* $\mathfrak{D}_{1}\mathfrak{g} = [\mathfrak{g},\mathfrak{g}]$, $\mathfrak{D}_{k}=[\mathfrak{g},\mathfrak{D}_{k-1}\mathfrak{g}]$. As well as the *drived series* $\mathfrak{D}^{1}\mathfrak{g}=[\mathfrak{g},\mathfrak{g}]$ ans
+we also define the *lower central series* $\mathfrak{D}_{1}\mathfrak{g} = [\mathfrak{g},\mathfrak{g}]$, $\mathfrak{D}_{k}=[\mathfrak{g},\mathfrak{D}_{k-1}\mathfrak{g}]$. As well as the *drived series* $\mathfrak{D}^{1}\mathfrak{g}=[\mathfrak{g},\mathfrak{g}]$, $\mathfrak{D}^{k}=[\mathfrak{D}^{k-1} \mathfrak{g}, \mathfrak{D}^{k-1} \mathfrak{g}]$.  
+1. We then say $\mathfrak{g}$ is *nilpotent* if $\mathfrak{D}_{k} \mathfrak{g} =0$ for some $k$ 
+2. And is *solvable* if $\mathfrak{D}^{k} \mathfrak{g}=0$ for some $k$. 
+3. It is *perfact* if $\mathfrak{D} \mathfrak{g} = \mathfrak{g}$.
+4. It is *semisimple*l if $\mathfrak{g}$ has no nonzero solvable ideals.
+
+One can check the fein
