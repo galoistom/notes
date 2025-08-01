@@ -1,4 +1,4 @@
-j adjoint function
+# adjoint function
 Let $T:V \rightarrow W$ be a linear transformation and $V$ has a symmetric bilinear measures, then $T^*:W \rightarrow V$ is called the adjoint function if and only if $(Tv_1|v_2)=(v_1|T^*v_2)$ for all $v_1,v_2 \in V$.
 Recall that $ker(T)=ker(T^*T:V \rightarrow V)$, and that $T^*T \in End(V),TT^* \in End(W)$, both are self-adjoint and positive semidefinite.
 
