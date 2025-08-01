@@ -53,5 +53,7 @@ As the the diagnalizable problem. One may hope the Jordan decomposition (i.e. ev
 
 **Theorem**: Let $\mathfrak{g}$ be semisimple complex lie algebra. For any element $X \in \mathfrak{g}$, there is $X_{s}$ and $X_{t} \in \mathfrak{g}$, such that $\rho(X_{s}) = \rho(X)_{s}$ and $\rho(X_{t})= \rho(X)_{t}$, where $\rho(X)_{s}$ and $\rho(X)_{t}$ is the corresponding parts in the jordan decomposition of $\rho(X)$.   
 
->[!note] The unitrary trick
->
+>[!note] The unitary trick
+>By assoicating the lie algebra we want to study to a representation of a compact lie group and working with that. 
+
+This is the two main rutine in proving problems of lie algebras. The other is algebarically, using the property of lie algebra only. 
