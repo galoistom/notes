@@ -61,7 +61,7 @@
     "completion": [],
     "insert as text": []
   },
-  "propagateEsc": false,
+  "propagateEsc": true,
   "enableCurrentFileComplement": true,
   "currentFileMinNumberOfCharacters": 0,
   "onlyComplementEnglishOnCurrentFileComplement": false,

@@ -51,4 +51,4 @@ But if we restrict our attention to those semisimple lie algebras, then every th
 
 As the the diagnalizable problem. One may hope the Jordan decomposition (i.e. every endomorphism $X$ can be uniquely written in the form $X=X_{s}+X_{t}$ where $X_{s}$ diagnalizable and $X_{t}$ nilpotent). Sadly this is not true either. But in the case of semisimple lie algebra, it is true in some way:
 
-**Theorem**: Let $\mathfrak{g}$ be semisimple complex lie algebra. For any element $X \in \mathfrak{g}$ 
+**Theorem**: Let $\mathfrak{g}$ be semisimple complex lie algebra. For any element $X \in \mathfrak{g}$   
