@@ -43,4 +43,10 @@ The persedure is similar, we still use the induction, hoping to find an ideal wi
 
 Using lie's theorem, we get the following property for complex lie algebra: Take $\mathfrak{g}_{ss}=\mathfrak{g} / Rad(\mathfrak{g})$. Then every irreducible representation of $\mathfrak{g}$ is of the form $V=V_{0} \otimes L$, where $V$ is an irreducible representation of $\mathfrak{g}_{ss}$ and $L$ a one dimensional representation. 
 
-One might already notice that may theorem and property in representation of finite group is no longer valid in lie groups, 
+One might already notice that may theorem and property in representation of finite group is no longer valid in lie groups (for example the complete reducibility) . Another important different is that the openator is not always diagnalizable for representations. It might also be diagnalizable for some and none diagnalizable for others. 
+
+But if we restrict our attention to those semisimple lie algebras, then every thing is well behaved again. 
+
+**Theorem**: Let $\mathfrak{g}$ be a semisimple lie algebra, and $V$ a representation. If $W \subset V$ be a invariant subspace, there is a compelition of $W'$ of $W$ that is invariant as well. (proof of this can be found in [[Block theory ch1]] for general groups). 
+
+As the the diagnalizable problem.
