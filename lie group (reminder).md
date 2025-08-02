@@ -17,7 +17,7 @@ Now a lie algebra is a vector space with a skew-symmetric bileaner map $[\ ,\ ]:
 >[!note] Second Principle
 > Let $G$ and $H$ be lie groups, with $G$ connected and simply connected. A linear map $T_{e}G \rightarrow T_{e}H$ is the differential of a homorphism $\rho:G \rightarrow H$ if and only if it preserves the bracket operation.
 
-Now we have a natural mapping from $G$ to $\mathfrak{g}$, but dose is have "inverse"? The answers is yes. We define the exponential map 
+Now we have a natural mapping from $G$ to $\mathfrak{g}$, but dose is have "inverse"? The answers is yes. We define the exponential map. We assoicate $g$ with a vector $v_{X}(g) = m_{g}(X)$. Note that given any vector field $v$ on manifold $M$ and a $p \in M$, there is a differential map $\phi:I \rightarrow M$ where $I$ is an open interval containing 0. $\phi$ has the property $\phi'(t)=v(\phi(t))$ for all $t \in I$. One can varify that $\phi(s+t)=\phi(s)\cdot \phi(t)$. The lie group map $\phi_{X}:\mathbb{R} \rightarrow G$ is called the *one-paramenter subgroup of $G$ with tangent vector $X$ at the identity*. Taking 
 
 The *representation* of a lie algebra $\mathfrak{g}$ on a vector space $V$ is simply a map $\rho: \mathfrak{g}\rightarrow \mathfrak{gl}(V)=End(V)$. In order to satisfy the differential form, we define the tensor product to be $X(v \otimes w) = X(v) \otimes w + v \otimes X(w)$. 
 
