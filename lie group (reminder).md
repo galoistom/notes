@@ -59,3 +59,5 @@ As the the diagnalizable problem. One may hope the Jordan decomposition (i.e. ev
 >By assoicating the lie algebra we want to study to a representation of a compact lie group and working with that. 
 
 This is the two main rutine in proving problems of lie algebras. The other is algebarically, using the property of lie algebra only. Written is formal language, the case would be a complex lie algebra $\mathfrak{g}$ is more or less the same as $\mathfrak{g}_{0} \otimes \mathbb{C}$ for some real lie algbra, hence a complex lie algbra is assoicate to a compact real lie group.
+
+Luckily, mathmaticians are albe to classify all complex simple lie groups. In fact, almost all of them are of the form $\mathfrak{sl}_{n}\mathbb{C}$, $\mathfrak{so}_{n}\mathbb{C}$ or $\mathfrak{sp}_{2n} \mathbb{C}$ of some $n$ with only five exception. The five exception can all be explicitly described, though none is simple expect in name; they are denoted $\mathfrak{g}_{2}, \mathfrak{f}_{4}, \mathfrak{e}_{6}, \mathfrak{e}_{7}, \mathfrak{e}_{8}$. 
