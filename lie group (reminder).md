@@ -56,4 +56,4 @@ As the the diagnalizable problem. One may hope the Jordan decomposition (i.e. ev
 >[!note] The unitary trick
 >By assoicating the lie algebra we want to study to a representation of a compact lie group and working with that. 
 
-This is the two main rutine in proving problems of lie algebras. The other is algebarically, using the property of lie algebra only. 
+This is the two main rutine in proving problems of lie algebras. The other is algebarically, using the property of lie algebra only. Written is formal language, the case would be a complex lie algebra $\mathfrak{g}$ is more or less the same as $\mathfrak{g}_{0} \otimes \mathbb{C}$ for some real lie algbra, hence a complex lie algbra is assoicate to a compact real lie group.
