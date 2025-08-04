@@ -91,8 +91,29 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "b94a267b048fa1bb",
+            "type": "leaf",
+            "state": {
+              "type": "zhihu-slides-view",
+              "state": {},
+              "icon": "zhihu-icon",
+              "title": "Zhihu slides"
+            }
+          },
+          {
+            "id": "256a8d02b1fba6da",
+            "type": "leaf",
+            "state": {
+              "type": "zhihu-slides-view",
+              "state": {},
+              "icon": "zhihu-icon",
+              "title": "Zhihu slides"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -196,7 +217,8 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "zhihu:Open Zhihu side view": false
     }
   },
   "active": "3496eaf60d303f3e",
