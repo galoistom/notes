@@ -22,6 +22,24 @@
             }
           }
         ]
+      },
+      {
+        "id": "f45f1cbacc34be1a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3496eaf60d303f3e",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Books/表示论/GTM129 representation theory.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "GTM129 representation theory"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -181,10 +199,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7ea4d33d35f3979e",
+  "active": "3496eaf60d303f3e",
   "lastOpenFiles": [
-    "Books/表示论/GTM129 representation theory.pdf",
     "lie group (reminder).md",
+    "Books/表示论/GTM129 representation theory.pdf",
     "algebraic number theory/Valuations.md",
     "Untitled 1.md",
     "Untitled.md",
