@@ -64,4 +64,4 @@ Luckily, mathmaticians are able to classify all complex simple lie groups. In fa
 
 We now classify lie group of dimension 1,2,3.
 
-Fist, the 1 case is trivial, as any one-dimensional lie algebra is clearly abelian, that is $\mathbb{C}$ with bracket 0. Thus all simply connected lie group must be $(\mathbb{C},+)$, and all other lie group with the same lie algebra must all be quotient of $\mathbb{C}$ by an descrete subgroup $\Lambda \subset \mathbb{C}$ 
+Fist, the 1 case is trivial, as any one-dimensional lie algebra is clearly abelian, that is $\mathbb{C}$ with bracket 0. Thus all simply connected lie group must be $(\mathbb{C},+)$, and all other lie group with the same lie algebra must all be quotient of $\mathbb{C}$ by an descrete subgroup $\Lambda \subset \mathbb{C}$. If $\Lambda$ has rank 1, then the quotient must be $\mathbb{C}^{*}$. If $\Lambda$ has rank 2, however, the result may be any one of a continuously varying family of complex tori of dimension one (or Riemann surfaces of genus one, or elliptic curves over $\mathbb{C}$). Over the real numbers, the situation is completely straight forward: the only real dimensional 
