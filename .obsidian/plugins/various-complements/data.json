@@ -39,7 +39,8 @@
     "up": [
       {
         "modifiers": [],
-        "key": "ArrowUp"
+        "key": "ArrowUp",
+        "hideHotkeyGuide": false
       }
     ],
     "down": [
