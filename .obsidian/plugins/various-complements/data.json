@@ -45,7 +45,8 @@
     "down": [
       {
         "modifiers": [],
-        "key": "ArrowDown"
+        "key": "Tab",
+        "hideHotkeyGuide": false
       }
     ],
     "select 1st": [],
