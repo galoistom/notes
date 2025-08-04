@@ -63,3 +63,5 @@ This is the two main rutine in proving problems of lie algebras. The other is al
 Luckily, mathmaticians are able to classify all complex simple lie groups. In fact, almost all of them are of the form $\mathfrak{sl}_{n}\mathbb{C}$, $\mathfrak{so}_{n}\mathbb{C}$ or $\mathfrak{sp}_{2n} \mathbb{C}$ of some $n$ with only five exception. The five exception can all be explicitly described, though none is simple expect in name; they are denoted $\mathfrak{g}_{2}, \mathfrak{f}_{4}, \mathfrak{e}_{6}, \mathfrak{e}_{7}, \mathfrak{e}_{8}$. 
 
 We now classify lie group of dimension 1,2,3.
+
+Fist, the 1 case is trivial, as any one-dimensional lie algebra is clearly abelian, that is $\mathbb{C}$ with bracket 0. Thus all simply connected lie group must be $(\mathbb{C},+)$, and all other lie group with the same lie algebra must all be quotient of $\mathbb{C}$ by an descrete subgroup $\Lambda \subset \mathbb{C}$ 
