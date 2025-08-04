@@ -44,15 +44,6 @@
       "key": "S"
     }
   ],
-  "workspace:split-vertical": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "Z"
-    }
-  ],
   "obsidian-completr:completr-insert-selected-suggestion": [
     {
       "modifiers": [
@@ -68,6 +59,24 @@
         "Mod"
       ],
       "key": "["
+    }
+  ],
+  "workspace:split-horizontal": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "L"
+    }
+  ],
+  "workspace:split-vertical": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "J"
     }
   ]
 }
