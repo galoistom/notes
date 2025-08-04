@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "6218cae0885fd46c",
@@ -182,10 +183,11 @@
   },
   "active": "7ea4d33d35f3979e",
   "lastOpenFiles": [
+    "Books/表示论/GTM129 representation theory.pdf",
+    "algebraic number theory/Valuations.md",
     "lie group (reminder).md",
     "Untitled 1.md",
     "Untitled.md",
-    "algebraic number theory/Valuations.md",
     "algebraic number theory/Dedekind domain.md",
     "homo algebra/First extension group.md",
     "algebraic number theory/Absolute value.md",

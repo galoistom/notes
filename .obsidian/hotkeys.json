@@ -61,22 +61,13 @@
       "key": "["
     }
   ],
-  "workspace:split-horizontal": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "L"
-    }
-  ],
   "workspace:split-vertical": [
     {
       "modifiers": [
         "Mod",
         "Shift"
       ],
-      "key": "J"
+      "key": "L"
     }
   ],
   "editor:focus-top": [
@@ -96,7 +87,8 @@
       "key": "J"
     }
   ],
-  "editor:focus-left": [
+  "editor:toggle-checklist-status": [],
+  "editor:focus-right": [
     {
       "modifiers": [
         "Mod"
@@ -104,14 +96,22 @@
       "key": "L"
     }
   ],
-  "editor:toggle-checklist-status": [],
-  "editor:focus-right": [
+  "editor:open-search-replace": [],
+  "workspace:split-horizontal": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "J"
+    }
+  ],
+  "editor:focus-left": [
     {
       "modifiers": [
         "Mod"
       ],
       "key": "H"
     }
-  ],
-  "editor:open-search-replace": []
+  ]
 }
