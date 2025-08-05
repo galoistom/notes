@@ -66,4 +66,19 @@ We now classify lie group of dimension 1,2,3.
 
 Fist, the 1 case is trivial, as any one-dimensional lie algebra is clearly abelian, that is $\mathbb{C}$ with bracket 0. Thus all simply connected lie group must be $(\mathbb{C},+)$, and all other lie group with the same lie algebra must all be quotient of $\mathbb{C}$ by an descrete subgroup $\Lambda \subset \mathbb{C}$. If $\Lambda$ has rank 1, then the quotient must be $\mathbb{C}^{*}$. If $\Lambda$ has rank 2, however, the result may be any one of a continuously varying family of complex tori of dimension one (or Riemann surfaces of genus one, or elliptic curves over $\mathbb{C}$). Over the real numbers, the situation is completely straight forward: the only one dimensional real lie algebra is again $\mathbb{R}$ with trivial barket; the simply connected lie group assoicated to it is $\mathbb{R}$ under addition; and the only other connected real lie group with this lie algebra is $\mathbb{R} / \mathbb{Z} \simeq S^{1}$. 
 
-Now we take care of the case of dimension 2.
+Now we take care of the case of dimension 2. We have two take care of two case, depending on whether $\mathfrak{g}$ is abelian or not. 
+
+Case1: $\mathfrak{g}$ is abelian. This is vary much like the previous one. The simply connected two-dimensional lie group is just $\mathbb{C}^{2}$ under addition, and other lie groups are just $\mathbb{C}^{2}$ quotient out by some descrete subgroup $\Lambda \subset \mathbb{C}^{2}$ with rank 1,2,3 or 4. 
+
+If the rank is 1. Then $\Lambda$ must be of the form $\mathbb{Z}e_{1} \subset \mathbb{C}e_{1} \oplus \mathbb{C}e_{2}$ and $G \simeq \mathbb{C}^{*} \times \mathbb{C}$. If the rank of $\Lambda$ is 2, there are two possibilities: either $\Lambda$ lies in a one dimensional subspace of $\mathbb{C}^{2}$ or it does not. If it does not, then $\Lambda=\mathbb{Z}e_{1}\oplus \mathbb{Z}e_{2}$ with $\mathbb{C}^{2} \simeq \mathbb{C}e_{1}\oplus \mathbb{C}e_{2}$, then $G \simeq \mathbb{C}^{*}\times \mathbb{C}^{*}$. On the other hand, if it does, then we have $\Lambda=\mathbb{Z}e_{1} \oplus \mathbb{Z}\tau e_{1}$ for some $\tau \in \mathbb{C} \backslash \mathbb{R}$, then $G=E\times \mathbb{C}$ will be the prouct of the torus $\mathbb{C} / (\mathbb{Z}\oplus \mathbb{Z}\tau)$ and $\mathbb{C}$; the remarks above apply to the classification of these. 
+
+The cases where $\Lambda$ has rank 3 or 4 are less clear. To begin with, if the rank is 3, the main idea is hoping to find a rank 2 sublattice $\Lambda' \subset \Lambda$ lies in a complex line. If it does, then we can assume this sublattice is saturtated and write $\Lambda= \mathbb{Z}e_{1}\oplus \mathbb{Z}\tau e_{1} \oplus \mathbb{Z}e_{2}$, so that we will have $G=E\times \mathbb{C}^{*}$, where $E$ is a torus as above. If on the other hand, if no such sublattice exists, the situation is much more mysterious. One possibile way is to write $\Lambda$ as $\mathbb{Z}e_{1}\oplus \mathbb{Z}e_{2}\oplus \mathbb{Z}(\alpha e_{1}+\beta e_{2})$ and use the maps 
+```tikz
+\usepackage{tikz-cd}
+\begin{document}
+\begin{tikzcd}
+&C^2 \arrow[d] \arrow[r] &C^2/Ce_1=C \arrow[d]\\
+&C^2/Ze_1 \oplus Ze_2 \oplus Z(\alpha e_1+\beta e_2) \arrow[r] &C /(Z\oplus Z\beta)
+\end{tikzcd}
+\end{document}
+```

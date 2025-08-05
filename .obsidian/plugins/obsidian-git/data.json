@@ -1,13 +1,16 @@
 {
   "commitMessage": "note update: {{date}}",
+  "autoCommitMessage": "note update: {{date}}",
+  "commitMessageScript": "",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
-  "autoSaveInterval": 10,
+  "autoSaveInterval": 0,
   "autoPushInterval": 0,
   "autoPullInterval": 0,
   "autoPullOnBoot": true,
   "disablePush": false,
   "pullBeforePush": false,
   "disablePopups": false,
+  "showErrorNotices": true,
   "disablePopupsForNoChanges": false,
   "listChangedFilesInMessageBody": false,
   "showStatusBar": true,
@@ -54,6 +57,5 @@
     "gutterSpacingFallbackLength": 12,
     "lastShownAuthorDisplay": "initials",
     "lastShownDateTimeFormatOptions": "date"
-  },
-  "autoCommitMessage": "note update: {{date}}"
+  }
 }

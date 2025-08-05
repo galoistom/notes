@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cf0dd081f3446857",
+        "id": "83ae35f634bfb178",
         "type": "tabs",
         "children": [
           {
-            "id": "7ea4d33d35f3979e",
+            "id": "65759cb334693d2a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -188,8 +188,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,7 +201,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7ea4d33d35f3979e",
+  "active": "65759cb334693d2a",
   "lastOpenFiles": [
     "Books/表示论/GTM129 representation theory.pdf",
     "lie group (reminder).md",
