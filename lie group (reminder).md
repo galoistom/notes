@@ -82,3 +82,9 @@ The cases where $\Lambda$ has rank 3 or 4 are less clear. To begin with, if the 
 \end{tikzcd}
 \end{document}
 ```
+
+expressing $G$ as a bundle over a torus $E=\mathbb{C} / (\mathbb{Z}\oplus \mathbb{Z}\beta)$, with fibers isomorphic to $\mathbb{C}^{*}$. This expression of $G$ does not, however, help us much in discribing the family of all such groups. For example, the elliptic curve $E$ is not determined by the data of $G$: if we exchange $e_{1}$ and $e_{2}$, we replace $E$ by $\mathbb{C} / (\mathbb{Z}\oplus \mathbb{Z}\alpha)$, which, of course, need not even be isogenous to $E$. 
+
+Finally, the case where $\Lambda$ has rank 4 remains completely mysterious, among such two-dimensional complex tori are abelian varities; these are just the tori that may be embedded in complex projective space. 
+
+The second case: $\mathfrak{g}$ is not abelian. Viewing the lie bracket as a linear map $[\ ,\ ]:\wedge^{2}\mathfrak{g}\rightarrow \mathfrak{g}$, we see that if it is not zero, it mus have one-dimensional image. We can thus choose a basis $\{  X,Y \}$ for $\mathfrak{g}$ as vector space with $X$ spanning the image of $[\ ,\ ]$; after multiplying $Y$ by appropriate scalar we will have $[X,Y]=X$, which of course determines $\mathfrak{g}$ completely. There is thus a unique nonabelian two-dimensional lie algebra $\mathfrak{g}$ over either $\mathbb{R}$ or $\mathbb{C}$. 
