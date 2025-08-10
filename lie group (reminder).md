@@ -103,4 +103,4 @@ As to the case of rank 2. The key observation is that $\mathfrak{Dg}$ is abelian
 
 The next condition is $ad(X)$ is not diagnalizable. Then it is natural to make $ad(X)$ in Jordan form, i.e. let $[X,Y]=Y$, $[X,Z]=Y+Z$ and $[Y,Z]=0$. 
 
-Last, we consider the case of rank 3. In this case, we first proof that we can always find a $X \in \mathfrak{g}$ such that $ad(X)$ has a nonzero eigenvalue 
+Last, we consider the case of rank 3. In this case, we first proof that we can always find a $X \in \mathfrak{g}$ such that $ad(X)$ has a nonzero eigenvalue. In fact, taking $X$ randomly, if $X$ is not what we want, then $ad(X)$ must be nilpotent, and taking $Y$ in $ker(ad(X)^{2})$ but not in $kl$
