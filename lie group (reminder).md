@@ -103,4 +103,14 @@ As to the case of rank 2. The key observation is that $\mathfrak{Dg}$ is abelian
 
 The next condition is $ad(X)$ is not diagnalizable. Then it is natural to make $ad(X)$ in Jordan form, i.e. let $[X,Y]=Y$, $[X,Z]=Y+Z$ and $[Y,Z]=0$. 
 
-Last, we consider the case of rank 3. In this case, we first proof that we can always find a $X \in \mathfrak{g}$ such that $ad(X)$ has a nonzero eigenvalue. In fact, taking $X$ randomly, if $X$ is not what we want, then $ad(X)$ must be nilpotent, and taking $Y$ in $ker(ad(X)^{2})$ but not in $kl$
+Last, we consider the case of rank 3. In this case, we first proof that we can always find a $X \in \mathfrak{g}$ such that $ad(X)$ has a nonzero eigenvalue. In fact, taking $X$ randomly, if $X$ is not what we want, then $ad(X)$ must be nilpotent, and taking $Y$ in $ker(ad(X)^{2})$ but not in $ker(ad(X))$, we have $ad(X)(Y)=\alpha X$ for some $\alpha \in \mathbb{C}$ as $ker(ad(X))=\mathbb{C}X$, so $ad(Y)(X)=-\alpha X$ and $Y$ is what we want. Now take $H,X$ such that $X$ is a eigenvector of $ad(H)$ with eigenvalue $\neq$ 0. By computating the trace, we know that there must be a eigenvalue $\alpha$ for $ad(H)$ if we denote $-\alpha$ as the eigenvalue of $X$. Consider $[H,[X,Y]]=-[X,[Y,H]]-[Y,[H,X]]=0$, so we discovers that $[X,Y]$ must be the miltiple of $H$, and we may assume it to be 1. We are able to construct $H,X,Y$ in $\mathfrak{sl}_{2}\mathbb{C}$ as $$
+H=\begin{pmatrix}
+1&0\\0&01
+\end{pmatrix},\ 
+X=\begin{pmatrix}
+0&1\\0&0
+\end{pmatrix},\ 
+Y=\begin{pmatrix}
+0&0\\1&0
+\end{pmatrix}
+$$whose lie algebra is given 
