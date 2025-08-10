@@ -1,4 +1,4 @@
-ie group is a manifold with a group structure (one need the operation $g$ has to be differential, of course). 
+lie group is a manifold with a group structure (one need the operation $g$ has to be differential, of course). 
 Some easy examples would be $GL(V)$, $SL(V)$ the group of element with $\det=1$, $SO(V)$ the goup of element keeps orthognality as well, etc. 
 
 Unfortunately, general lie group is vary hard to study. People then notice that the neiberhood of $1_{G}$ genertate $G$ (if $G$ is connected of course), so we can know many information of $G$ by studying the tangent space of $G$ at $1_{G}$ which we call *lie algebra* (though it is wrong to say that lie algebra determines lie group). 
@@ -103,4 +103,4 @@ As to the case of rank 2. The key observation is that $\mathfrak{Dg}$ is abelian
 
 The next condition is $ad(X)$ is not diagnalizable. Then it is natural to make $ad(X)$ in Jordan form, i.e. let $[X,Y]=Y$, $[X,Z]=Y+Z$ and $[Y,Z]=0$. 
 
-Last, we consider the case of rank 3.
+Last, we consider the case of rank 3. In this case, we first proof that we can always find a $X \in \mathfrak{g}$ such that $ad(X)$ has a nonzero eigenvalue 
