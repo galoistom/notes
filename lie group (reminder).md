@@ -113,4 +113,4 @@ X=\begin{pmatrix}
 Y=\begin{pmatrix}
 0&0\\1&0
 \end{pmatrix}
-$$whose lie algebra is given by $[H,X]=2X,\ [H,Y]=-2Y$ and $[X,Y]=H$. 
+$$whose lie algebra is given by $[H,X]=2X,\ [H,Y]=-2Y$ and $[X,Y]=H$. Then the question be
