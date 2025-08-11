@@ -114,3 +114,4 @@ Y=\begin{pmatrix}
 0&0\\1&0
 \end{pmatrix}
 $$whose lie algebra is given by $[H,X]=2X,\ [H,Y]=-2Y$ and $[X,Y]=H$. Then the question becomes what lie groups other than $SL_{2}(\mathbb{C})$ has lie algebra $\mathfrak{sl}_{2}\mathbb{C}$ ?. Firstly, $SL_{2}\mathbb{C}$ is simply connected with center $\{ \pm I \}$, so the only connected group with $\mathfrak{sl}_{2}\mathbb{C}$ as their lie algebra is $PSL_{2}\mathbb{C}=SL_{2}\mathbb{C} / \{ \pm I \}$. 
+
