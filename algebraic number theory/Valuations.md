@@ -101,4 +101,4 @@ Next, we will focous on completions. The definition is simple, just making all c
 
 **Theorem**:(Ostrowski) Let $K$ be a field which is complete with respect toe an archimedean valuation $|\ |$. Then there is a isomorphism $\sigma$ from $K$ to $\mathbb{R}$ or $\mathbb{C}$ satisfying $|a|=|\sigma a|^{s}$ for all $a \in K$ for some fixed $s$. 
 
-*Proof*: We may assume with out loss that $\mathbb{R} \subseteq K$ and that $||$
+*Proof*: We may assume with out loss that $\mathbb{R} \subseteq K$ and that $|\ |$ is an extension of the usual absolute value of $\mathbb{R}$. 
