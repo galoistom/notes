@@ -91,3 +91,5 @@ Moreover, we will have the folllowing notion:
 2. $\mathcal{O}^{*} = \{x \in K : v(x)=0\} = \{x \in K : |x|=1\}$,
 3. $\mathfrak{p}= \{x \in K : v(x)>0\} = \{x \in K : |x|<1\}$.
 With $v(x) = -\log|x|$. 
+
+The next 
