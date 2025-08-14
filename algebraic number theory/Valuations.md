@@ -108,4 +108,4 @@ So the proof is this: take $g'(x)=g(x)-\epsilon$, with root $z_{1}$, so we have 
 Now with the help of the theorem, we can focous on the cases of nonarchimedean valuations. We first have a simple proposition $\widehat{\mathcal{O}} / \widehat{\mathfrak{p}} \simeq \mathcal{O} / \mathfrak{p}$. Moreover, we can see the completion as adding elements that is of the form of infinite power series $x=\pi ^{m}(a_{0}+a_{1}\pi+a_{2}\pi ^{2}+\cdots)$. As in the case of p-adic numbers, we are now able to acquire similiar result in general valuation theory. The construction is similiar, we first have $$
 \mathcal{O} / \mathfrak{p} \stackrel{\lambda_{1}}{\longleftarrow} \mathcal{O} / \mathfrak{p}^{2} \stackrel{\lambda_{2}}{\longleftarrow} \cdots 
 $$
-and this gives 
+and this gives  us a homomorphism $\mathcal{O} \rightarrow \lim\limits_{\longleftarrow} \mathcal{O} / \mathfrak{p}^{n}$, in fact, the mapping is a isomorphism and a homeomorphism. The same is true for $\mathcal{O}^{*} \rightarrow \lim\limits_{\longleftarrow} \mathcal{O}^{*} / U^{(n)}$. The proof is clear, and notice that $\mathcal{O}^{*}\simeq(\lim\limits_{\longleftarrow})$
