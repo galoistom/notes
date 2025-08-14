@@ -113,4 +113,6 @@ and this gives  us a homomorphism $\mathcal{O} \rightarrow \lim\limits_{\longlef
 
 Now we introduce the important hensel's lemma:
 
-**hensel's lemma**: If a primitive polynomial $f(x) \in \mathcal{O}[x]$ admits modulo $\mathfrak{p}$ a factorization $f(x)\equiv \overline{g}(x)\overline{h}(x)\pmod{\mathfrak{p}}$ into relatively prime polynomials $\overline{g},\overline{h} \in K[x]$
+**hensel's lemma**: If a primitive polynomial $f(x) \in \mathcal{O}[x]$ admits modulo $\mathfrak{p}$ a factorization $f(x)\equiv \overline{g}(x)\overline{h}(x)\pmod{\mathfrak{p}}$ into relatively prime polynomials $\overline{g},\overline{h} \in k[x]$, then $f(x)$ admits a factorization $f(x)=g(x)h(x)$ into polynomial $g,h \in \mathcal{O}[x]$ such that $deg(g)=deg(\overline{g})$ ad $g(x)\equiv \overline{g}(x)\pmod{\mathfrak{p}}$ and $h(x)\equiv \overline{h}(x)\pmod{\mathfrak{p}}$. Here $k= \mathcal{O} / \mathfrak{p}$. 
+
+*proof*: using induction, adding a bit of $\pi ^{n}$ each time, amounting to $g=g_{0}+p_{1}\pi+p_{2}p^{2}+\cdots$ and $h=h_{0}+q_{1}\pi+q_{2}\pi ^{2}+\cdots$. 
