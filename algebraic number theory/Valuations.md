@@ -105,4 +105,7 @@ Next, we will focous on completions. The definition is simple, just making all c
 
 So the proof is this: take $g'(x)=g(x)-\epsilon$, with root $z_{1}$, so we have $f(z_{1})>m$. Consider $P_{n}=x^{n}-\epsilon ^{n}$, and we know that $|P(g(\xi))|^{2}=f(z_{1})m^{2n-1}$. But $|P(g(\xi))|\leq g(\xi)^{n}+|\epsilon|^{n} = m^{n}+|\epsilon|^{n}$, letting $n$ goes to $\infty$, we know that $f(z_{1})$ cannot be greater than $m$, thus a contradiction.
 
-Now with the help of the theorem, we can focous on the cases of nonarchimedean valuations. We first have a simple proposition $\widehat{\mathcal{O}} / \widehat{\mathfrak{p}} \simeq \mathcal{O} / \mathfrak{p}$. Moreover, we can see the completion as adding elements that is of the form of infinite power series $x=\pi ^{m}(a_{0}+a_{1}\pi+a_{2}\pi ^{2}+\cdots)$. 
+Now with the help of the theorem, we can focous on the cases of nonarchimedean valuations. We first have a simple proposition $\widehat{\mathcal{O}} / \widehat{\mathfrak{p}} \simeq \mathcal{O} / \mathfrak{p}$. Moreover, we can see the completion as adding elements that is of the form of infinite power series $x=\pi ^{m}(a_{0}+a_{1}\pi+a_{2}\pi ^{2}+\cdots)$. As in the case of p-adic numbers, we are now able to acquire similiar result in general valuation theory. The construction is similiar, we first have $$
+\mathcal{O} / \mathfrak{p} \stackrel{\lambda_{1}}{\longleftarrow} \mathcal{O} / \mathfrak{p}^{2} \stackrel{\lambda_{2}}{\longleftarrow} \cdots 
+$$
+and this gives 
