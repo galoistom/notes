@@ -90,9 +90,10 @@ Moreover, we will have the folllowing notion:
 1. $\mathcal{O}=\{x \in K:v(x)\geq 0\} = \{x \in K : |x|\leq 1\}$,
 2. $\mathcal{O}^{*} = \{x \in K : v(x)=0\} = \{x \in K : |x|=1\}$,
 3. $\mathfrak{p}= \{x \in K : v(x)>0\} = \{x \in K : |x|<1\}$.
+4. $U=1+\mathfrak{p}=\left\{  x \in K : |1-x| < \frac{1}{q^{n-1}} \right\}$.
 With $v(x) = -\log|x|$. 
 
-So we are now able to change our view, let $\mathcal{O}$ is an integral domain with field of fraction $K$ and has property that for all $x \in K$, either $x \in \mathcal{O}$ or $x^{-1} \in \mathcal{O}$. Such a ring is called a *valuation ring* as it can be seen as a valuation if a field. We are also able to define the maximal ideal $\mathfrak{p}$ in the sence of $\{ x \in \mathcal{O} : x^{-1} \not\in \mathcal{O} \}$. In particular, an exponential valuation $v$ is called *descrete* if and only if $v(K^{*}) \simeq s\mathbb{Z}$ for some $s$, in other words, it admits a smallest prositive value $s$. One can easily normalize it (which is lettin $s=1$) then we are able to find a $\pi \in \mathcal{O}$ such that $v(\pi)=1$, and $(\pi)$ is then the ideal $\mathfrak{p}$ and $\pi$ is the *prime element*, and we are able to write all $x \in K$  in the form of $u\pi ^{m}$ where $u \in \mathcal{O}^{*}$. 
+So we are now able to change our view, let $\mathcal{O}$ is an integral domain with field of fraction $K$ and has property that for all $x \in K$, either $x \in \mathcal{O}$ or $x^{-1} \in \mathcal{O}$. Such a ring is called a *valuation ring* as it can be seen as a valuation if a field. We are also able to define the maximal ideal $\mathfrak{p}$ in the sence of $\{ x \in \mathcal{O} : x^{-1} \not\in \mathcal{O} \}$. In particular, an exponential valuation $v$ is called *descrete* if and only if $v(K^{*}) \simeq s\mathbb{Z}$ for some $s$, in other words, it admits a smallest prositive value $s$. One can easily normalize it (which is lettin $s=1$) then we are able to find a $\pi \in \mathcal{O}$ such that $v(\pi)=1$, and $(\pi)$ is then the ideal $\mathfrak{p}$ and $\pi$ is the *prime element*, and we are able to write all $x \in K$  in the form of $u\pi ^{m}$ where $u \in \mathcal{O}^{*}$. Moreover, we define $U^{(n)}=1+\mathfrak{p}^{n}=\left\{  x \in K^{*} : |1-x|< \frac{1}{q^{n-1}}  \right\}$
 
 A simple fact is that $\mathfrak{p}^{n} / \mathfrak{p}^{n+1} \simeq \mathcal{O} / \mathfrak{p}$. 
 
@@ -108,4 +109,8 @@ So the proof is this: take $g'(x)=g(x)-\epsilon$, with root $z_{1}$, so we have 
 Now with the help of the theorem, we can focous on the cases of nonarchimedean valuations. We first have a simple proposition $\widehat{\mathcal{O}} / \widehat{\mathfrak{p}} \simeq \mathcal{O} / \mathfrak{p}$. Moreover, we can see the completion as adding elements that is of the form of infinite power series $x=\pi ^{m}(a_{0}+a_{1}\pi+a_{2}\pi ^{2}+\cdots)$. As in the case of p-adic numbers, we are now able to acquire similiar result in general valuation theory. The construction is similiar, we first have $$
 \mathcal{O} / \mathfrak{p} \stackrel{\lambda_{1}}{\longleftarrow} \mathcal{O} / \mathfrak{p}^{2} \stackrel{\lambda_{2}}{\longleftarrow} \cdots 
 $$
-and this gives  us a homomorphism $\mathcal{O} \rightarrow \lim\limits_{\longleftarrow} \mathcal{O} / \mathfrak{p}^{n}$, in fact, the mapping is a isomorphism and a homeomorphism. The same is true for $\mathcal{O}^{*} \rightarrow \lim\limits_{\longleftarrow} \mathcal{O}^{*} / U^{(n)}$. The proof is clear, and notice that $\mathcal{O}^{*}\simeq(\lim\limits_{\longleftarrow})$
+and this gives  us a homomorphism $\mathcal{O} \rightarrow \lim\limits_{\longleftarrow} \mathcal{O} / \mathfrak{p}^{n}$, in fact, the mapping is a isomorphism and a homeomorphism. The same is true for $\mathcal{O}^{*} \rightarrow \lim\limits_{\longleftarrow} \mathcal{O}^{*} / U^{(n)}$. The proof is clear, and notice that $\mathcal{O}^{*}\simeq(\lim\limits_{\longleftarrow} \mathcal{O} / \mathfrak{p}^{n})^{*}$, then the rest is simple. 
+
+Now we introduce the important hensel's lemma:
+
+**hensel's lemma**: If a primitive polynomial $f(x) \in \mathcal{O}[x]$ admits modulo $\mathfrak{p}$ a factorization $f(x)\equiv \overline{g}(x)\overline{h}(x)\pmod{\mathfrak{p}}$ into relatively prime polynomials $\overline{g},\overline{h} \in K[x]$
