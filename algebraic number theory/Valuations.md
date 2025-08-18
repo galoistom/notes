@@ -129,4 +129,4 @@ Among all complete (nonarchimedean) valued fields, those arising as completions 
 **Proposition**: all local fields are precisely the finite extension of the fields $\mathbb{Q}_{p}$ and $\mathbb{F}_{p}((t))$. 
 
 *Proof*:
-A finite extension $K$ of $k=\mathbb{Q}_{p}$ or $k=\mathbb{F}_{p}((t))$ is again complete, with respect to the extened valuation $|\alpha|=\sqrt[n]{ |N_{K|k}(\alpha)| }$
+A finite extension $K$ of $k=\mathbb{Q}_{p}$ or $k=\mathbb{F}_{p}((t))$ is again complete, with respect to the extened valuation $|\alpha|=\sqrt[n]{ |N_{K|k}(\alpha)| }$ 
