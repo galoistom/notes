@@ -13,28 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algebraic number theory/Valuations.md",
+                "file": "lie group (reminder).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Valuations"
-            }
-          },
-          {
-            "id": "b1a8024c0e9cde91",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.9.10"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.10"
+              "title": "lie group (reminder)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -86,29 +73,8 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
-          },
-          {
-            "id": "b94a267b048fa1bb",
-            "type": "leaf",
-            "state": {
-              "type": "zhihu-slides-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "zhihu-slides-view"
-            }
-          },
-          {
-            "id": "256a8d02b1fba6da",
-            "type": "leaf",
-            "state": {
-              "type": "zhihu-slides-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "zhihu-slides-view"
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -216,11 +182,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b1a8024c0e9cde91",
+  "active": "65759cb334693d2a",
   "lastOpenFiles": [
+    "algebraic number theory/Valuations.md",
     "lie group (reminder).md",
     "Books/表示论/GTM129 representation theory.pdf",
-    "algebraic number theory/Valuations.md",
     "Untitled 1.md",
     "Untitled.md",
     "algebraic number theory/Dedekind domain.md",
