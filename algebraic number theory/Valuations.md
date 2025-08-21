@@ -134,4 +134,4 @@ A finite extension $K$ of $k=\mathbb{Q}_{p}$ or $k=\mathbb{F}_{p}((t))$ is again
 Conversly, if $K$ is local, let $v$ be the descrete exponential valuation and $p$ the chararteristic of its residue class field $\small\mathcal{K}$. If $K$ has chararteristic 0, then $v$ is equivalent to to p-adic valuation $v_{p}$ of $\mathbb{Q}$, moreover, as $K$ is complete, we have $\mathbb{Q}_{p}\subseteq K$. If $K$ has chararteristic $p$ greater than 0, then we are able to find $K=\small\mathcal{K}((t))$ for a prime number $t$ in $K$. 
 
 **Proposition**:
-The multiplicative group of a local field $K$ admits the decomposition $K^{*}=(\pi)\times \mu_{q-1}\times U^{(1)}$. Here $\pi$ is a prime emelent $(\pi)=\{ \pi ^{k}|:k  \}$
+The multiplicative group of a local field $K$ admits the decomposition $K^{*}=(\pi)\times \mu_{q-1}\times U^{(1)}$. Here $\pi$ is a prime emelent $(\pi)=\{ \pi ^{k}|:k \in \mathbb{Z} \}$ and $q=\# \small\mathcal{K}$ is the number of elements in the residue class field ${\small\mathcal{K}}={\small\mathcal{O}} / \mathfrak{p}$, and $U^{(1)}=1+\mathfrak{p}$ is the group of principal units.
