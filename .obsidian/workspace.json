@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lie group (reminder).md",
+                "file": "algebraic number theory/Valuations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "lie group (reminder)"
+              "title": "Valuations"
             }
           }
         ]
@@ -184,8 +184,8 @@
   },
   "active": "65759cb334693d2a",
   "lastOpenFiles": [
-    "algebraic number theory/Valuations.md",
     "lie group (reminder).md",
+    "algebraic number theory/Valuations.md",
     "Books/表示论/GTM129 representation theory.pdf",
     "Untitled 1.md",
     "Untitled.md",
