@@ -128,4 +128,4 @@ Y=\begin{pmatrix}
 0 & 0 \\ 1 & 0
 \end{pmatrix}
 $$
-then we have $[H,X]=2X$, $[H,Y]=-2Y$, and $[X,Y]=H$.
+then we have $[H,X]=2X$, $[H,Y]=-2Y$, and $[X,Y]=H$. We know use the fact that the action $H$ is diagnalizable. We are thus able to get the decomposition $V=\bigoplus V_{\alpha}$, where the $\alpha$ run over a collection of complex numbers, such that for any vector $v \in V_{\alpha}$ we have $H(v)=\alpha \cdot v$. We then note that $H(X(v))=(\alpha+2)X(v)$, where $v \in V_{\alpha}$, so $X:V_{\alpha} \rightarrow V_{\alpha+2}$, similarly, we have $Y(V_{\alpha})\subset V_{\alpha-2}$. Thus we know that $V$ must be contained in  $\bigoplus_{n \in \mathbb{Z}}V_{\alpha_{0}+2n}$. As the dimension is finie, we are able to write all $\alpha$ in the form of $\beta,\,\beta+2,\cdots,\,\beta+2k$. 
