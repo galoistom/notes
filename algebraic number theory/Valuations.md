@@ -135,3 +135,5 @@ Conversly, if $K$ is local, let $v$ be the descrete exponential valuation and $p
 
 **Proposition**:
 The multiplicative group of a local field $K$ admits the decomposition $K^{*}=(\pi)\times \mu_{q-1}\times U^{(1)}$. Here $\pi$ is a prime emelent $(\pi)=\{ \pi ^{k}|:k \in \mathbb{Z} \}$ and $q=\# \small\mathcal{K}$ is the number of elements in the residue class field ${\small\mathcal{K}}={\small\mathcal{O}} / \mathfrak{p}$, and $U^{(1)}=1+\mathfrak{p}$ is the group of principal units.
+
+*Proof*: For every $\alpha\in K^{*}$, one has a unique representation $\alpha=\pi ^{n}u$ with $n \in \mathbb{Z}$ and $u \in \small\mathcal{O}^{*}$ so that $K^{*}=(\pi)\times \small\mathcal{O}^{*}$. Moreover, on note that $X^{q-1}-1$ splits into linear factors over $K$ by Hensel's lemma, $\small\mathcal{O}^{*}$ contains the group $\mu_{q-1}$ of $(q-1)$-th roots of unity. The homomorphism ${\small\mathcal{O}^{*}} \rightarrow \small\mathcal{K}^{*}$ mapping $u \mapsto u\pmod{\mathfrak{p}}$, has kernel $U^{(1)}$ and maps $\mu_{q-1}$ bijectively onto $\small\mathcal{K}^{*}$. Hence ${\small\mathcal{O}}^{*}=\mu_{q-1}\times U^{(1)}$.   
