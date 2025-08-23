@@ -150,4 +150,4 @@ Let $K$ be a local field and $q=p^{f}$ the number of element in the residue clas
 2) If $K$ has chararteristic $p$, then one has (both algebraically and topologically) $$K^{*}\simeq\mathbb{Z} \oplus (q-1)\mathbb{Z}\oplus \mathbb{Z}^{\mathbb{N}}_{p}$$.
 
 *Proof*: We know immediately that $K^{*}=(\pi)\times \mu_{q-1}\times U^{(1)} \simeq \mathbb{Z}\oplus \mathbb{Z} / (q-1)\mathbb{Z}\oplus U^{(1)}$. So we only have to compute the $\mathbb{Z}_{p}$-module $U^{(1)}$.
-1) $char(K)=0$. 
+1) $char(K)=0$. For $n$ sufficiently large, we hve the homomorphism 
