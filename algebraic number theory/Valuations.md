@@ -142,4 +142,11 @@ The multiplicative group of a local field $K$ admits the decomposition $K^{*}=(\
 
 *Proof*: We think of the p-adic valuation $v_{p}$ of $\mathbb{Q}_{p}$ as extended to $K$. Observing that $v_{p}(x)>0$, take $c=p^{v_{p}(x)}>1$, and $p^{v_{p}(t)}\leq t$, we have $v_{p}\left( \frac{x^{t}}{t} \right) = tv_{p}(x)-v_{p}(v)\geq t \frac{\ln c}{\ln p} - \frac{\ln t}{\ln p} = \frac{c^{t} / t}{\ln p}$ so the series do converge. As to $K$, let $\alpha=\pi ^{v_{\mathfrak{p}}(\alpha)}\omega(\alpha)\langle \alpha \rangle$ where $v_{\mathfrak{p}}=ev_{p}$ is normalized valuation of $K$, $\omega(\alpha)\in \mu_{q-1}$, $\langle \alpha \rangle\in U^{(1)}$. We define $\log \pi= - \frac{1}{e}\log \langle p \rangle$ and thus obtain the homomorphism $\log:K^{*}\rightarrow K$ by $\log\alpha=v_{\mathfrak{p}}\log \pi+\log \langle \alpha \rangle$. 
 
+In fact, one can view $U^{(1)} = \lim\limits_{\longleftarrow}U^{(1)} / U^{(n+1)}$ as the  
 
+**Proposition**:
+Let $K$ be a local field and $q=p^{f}$ the number of element in the residue class field. Then the following hold.
+1) If $K$ has chararteristic 0, then one has (both algebraically and topologically) $$K^{*}\simeq \mathbb{Z}\oplus \mathbb{Z} / (q-1)\mathbb{Z}\oplus \mathbb{Z} /p^{a}\mathbb{Z}\oplus \mathbb{Z}^{d}_{p}$$, where $a\geq 0$ and $d=[K:\mathbb{Q}_{p}]$.
+2) If $K$ has chararteristic $p$, then one has (both algebraically and topologically) $$K^{*}\simeq\mathbb{Z} \oplus (q-1)\mathbb{Z}\oplus \mathbb{Z}^{\mathbb{N}}_{p}$$.
+
+*Proof*: We know immediately that $K^{*}=(\pi)\times \mu_{q-1}\times U^{(1)} \simeq \mathbb{Z}\oplus \mathbb{Z} / (q-1)\mathbb{Z}\oplus U^{(1)}$. So we only have to compute the $\mathbb{Z}_{p}$-module $U^{(1)}$.
