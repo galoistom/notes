@@ -113,7 +113,7 @@ and this gives  us a homomorphism $\small\small\mathcal{O} \rightarrow \lim\limi
 
 Now we introduce the important hensel's lemma:
 
-**hensel's lemma**: If a primitive polynomial $f(x) \in \small\small\mathcal{O}[x]$ admits modulo $\mathfrak{p}$ a factorization $f(x)\equiv \overline{g}(x)\overline{h}(x)\pmod{\mathfrak{p}}$ into relatively prime polynomials $\overline{g},\overline{h} \in k[x]$, then $f(x)$ admits a factorization $f(x)=g(x)h(x)$ into polynomial $g,h \in \small\mathcal{O}[x]$ such that $deg(g)=deg(\overline{g})$ ad $g(x)\equiv \overline{g}(x)\pmod{\mathfrak{p}}$ and $h(x)\equiv \overline{h}(x)\pmod{\mathfrak{p}}$. Here $k= \small\mathcal{O} / \mathfrak{p}$. 
+**hensel's lemma**: If a primitive polynomial $f(x) \in \small\small\mathcal{O}[x]$ admits module $\mathfrak{p}$ a factorization $f(x)\equiv \overline{g}(x)\overline{h}(x)\pmod{\mathfrak{p}}$ into relatively prime polynomials $\overline{g},\overline{h} \in k[x]$, then $f(x)$ admits a factorization $f(x)=g(x)h(x)$ into polynomial $g,h \in \small\mathcal{O}[x]$ such that $deg(g)=deg(\overline{g})$ ad $g(x)\equiv \overline{g}(x)\pmod{\mathfrak{p}}$ and $h(x)\equiv \overline{h}(x)\pmod{\mathfrak{p}}$. Here $k= \small\mathcal{O} / \mathfrak{p}$. 
 
 *proof*: using induction, adding a bit of $\pi ^{n}$ each time, amounting to $g=g_{0}+p_{1}\pi+p_{2}p^{2}+\cdots$ and $h=h_{0}+q_{1}\pi+q_{2}\pi ^{2}+\cdots$. First take $g_{0}$ with dimension $m=deg(\overline{g})$, and $h_{0}$ dimension small such that $g_{0}\equiv g\pmod{\mathfrak{p}}$ and $h\equiv h_{0}\pmod{\mathfrak{p}}$. Then using induction, we have $f-g_{n-1}h_{n-1}\equiv(g_{n-1}q_{n}+h_{n-1}p_{n})\pi ^{n}\pmod{\pi ^{n+1}}$, so we need $g_{n-1}q_{n}+h_{n-1}p_{n}\equiv g_{0}q_{n}+h_{0}p_{n}\equiv f_{n}\pmod{\pi}$, where $f_{n}=\pi ^{-n}(f-g_{n-1}h_{n-1}) \in \small\small\mathcal{O}[x]$. Choosing $g_{0}a+h_{0}b\equiv{1}\pmod{\pi}$, we can easily construct the desired $p_{n},q_{n}$. 
 
@@ -142,7 +142,7 @@ The multiplicative group of a local field $K$ admits the decomposition $K^{*}=(\
 
 *Proof*: We think of the p-adic valuation $v_{p}$ of $\mathbb{Q}_{p}$ as extended to $K$. Observing that $v_{p}(x)>0$, take $c=p^{v_{p}(x)}>1$, and $p^{v_{p}(t)}\leq t$, we have $v_{p}\left( \frac{x^{t}}{t} \right) = tv_{p}(x)-v_{p}(v)\geq t \frac{\ln c}{\ln p} - \frac{\ln t}{\ln p} = \frac{c^{t} / t}{\ln p}$ so the series do converge. As to $K$, let $\alpha=\pi ^{v_{\mathfrak{p}}(\alpha)}\omega(\alpha)\langle \alpha \rangle$ where $v_{\mathfrak{p}}=ev_{p}$ is normalized valuation of $K$, $\omega(\alpha)\in \mu_{q-1}$, $\langle \alpha \rangle\in U^{(1)}$. We define $\log \pi= - \frac{1}{e}\log \langle p \rangle$ and thus obtain the homomorphism $\log:K^{*}\rightarrow K$ by $\log\alpha=v_{\mathfrak{p}}\log \pi+\log \langle \alpha \rangle$. 
 
-In fact, one can view $U^{(1)} = \lim\limits_{\longleftarrow}U^{(1)} / U^{(n+1)}$ as the  
+In fact, one can view $U^{(1)} = \lim\limits_{\longleftarrow}U^{(1)} / U^{(n+1)}$ as a module of $\mathbb{Z}_{p}=\lim\limits_{\longleftarrow}\mathbb{Z} / q^{n}\mathbb{Z}$ by $z\in \mathbb{Z}_{p}$ acting on $U^{(1)}$ as $(1+x)\mapsto(1+x)^{z}$.
 
 **Proposition**:
 Let $K$ be a local field and $q=p^{f}$ the number of element in the residue class field. Then the following hold.
@@ -150,3 +150,4 @@ Let $K$ be a local field and $q=p^{f}$ the number of element in the residue clas
 2) If $K$ has chararteristic $p$, then one has (both algebraically and topologically) $$K^{*}\simeq\mathbb{Z} \oplus (q-1)\mathbb{Z}\oplus \mathbb{Z}^{\mathbb{N}}_{p}$$.
 
 *Proof*: We know immediately that $K^{*}=(\pi)\times \mu_{q-1}\times U^{(1)} \simeq \mathbb{Z}\oplus \mathbb{Z} / (q-1)\mathbb{Z}\oplus U^{(1)}$. So we only have to compute the $\mathbb{Z}_{p}$-module $U^{(1)}$.
+1) $char(K)=0$. 
