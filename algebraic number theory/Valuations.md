@@ -140,4 +140,6 @@ The multiplicative group of a local field $K$ admits the decomposition $K^{*}=(\
 
 **Proposition**: For a $\mathfrak{p}$-adic number field $K$ there is a uniquely determined continuous homomorphism $\log:K^{*}\rightarrow K$ such that $\log p=0$ which on principal units $(1+x) \in U^{(1)}$ is given by the series $\log(x)=x- \frac{x^{2}}{2} + \frac{x^{3}}{3} - \cdots$. 
 
-*Proof*: We think of the p-adic valuation $v_{p}$ of $\mathbb{Q}_{p}$ as extended to $K$. Observing that $v_{p}(x)>0$, take $c=p^{v_{p}(x)}>1$, and $p^{v_{p}(t)}\leq t$, we have $v_{p}\left( \frac{x^{t}}{t} \right) = tv_{p}(x)-v_{p}(v)\geq t \frac{\ln c}{\ln p} - \frac{\ln t}{\ln p} = \frac{\ln \frac{c^{t}}{t}}{\ln p}$  
+*Proof*: We think of the p-adic valuation $v_{p}$ of $\mathbb{Q}_{p}$ as extended to $K$. Observing that $v_{p}(x)>0$, take $c=p^{v_{p}(x)}>1$, and $p^{v_{p}(t)}\leq t$, we have $v_{p}\left( \frac{x^{t}}{t} \right) = tv_{p}(x)-v_{p}(v)\geq t \frac{\ln c}{\ln p} - \frac{\ln t}{\ln p} = \frac{c^{t} / t}{\ln p}$ so the series do converge. As to $K$, let $\alpha=\pi ^{v_{\mathfrak{p}}(\alpha)}\omega(\alpha)\langle \alpha \rangle$ where $v_{\mathfrak{p}}=ev_{p}$ is normalized valuation of $K$, $\omega(\alpha)\in \mu_{q-1}$, $\langle \alpha \rangle\in U^{(1)}$. We define $\log \pi= - \frac{1}{e}\log \langle p \rangle$ and thus obtain the homomorphism $\log:K^{*}\rightarrow K$ by $\log\alpha=v_{\mathfrak{p}}\log \pi+\log \langle \alpha \rangle$. 
+
+
