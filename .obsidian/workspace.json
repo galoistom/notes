@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lie algebra.md",
+                "file": "lie algebra (based on gtm9).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "lie algebra"
+              "title": "lie algebra (based on gtm9)"
             }
           }
         ]
@@ -184,8 +184,8 @@
   },
   "active": "88fef015c663a38a",
   "lastOpenFiles": [
+    "lie algebra (based on gtm9).md",
     "lie group and their representation (reminder).md",
-    "lie algebra.md",
     "algebraic number theory/Valuations.md",
     "Books/表示论/GTM129 representation theory.pdf",
     "Untitled 1.md",
