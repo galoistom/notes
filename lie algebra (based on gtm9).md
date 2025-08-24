@@ -10,4 +10,4 @@ We use the terminology used in linear alebgra, by an **F-algebra** we mean a vec
 
 The most natural special case of lie algebra is the abelian lie algebra, i.e. the bracket $[x,y]=0$ for all $x,y \in \mathfrak{g}$. 
 
-A subspace $I$ of $\mathfrak{g}$ is called an **ideal** of $\mathfrak{g}$ if $x \in \mathfrak{g}$, $y \in I$ together imply $[x,y] \in I$. The **center** $Z(\mathfrak{g})=\{ z \in \mathfrak{g}: [x,z]=0,\ \forall x \in \mathfrak{g} \}$ and the drieved 
+A subspace $I$ of $\mathfrak{g}$ is called an **ideal** of $\mathfrak{g}$ if $x \in \mathfrak{g}$, $y \in I$ together imply $[x,y] \in I$. The **center** $Z(\mathfrak{g})=\{ z \in \mathfrak{g}: [x,z]=0,\ \forall x \in \mathfrak{g} \}$ and the **derived algebra** of $L$, denoted as $[L,L]:=\{ [x,y]:x,y \in L \}$. One easily varify that $I+J$ and $[I,J]$ are both ideals. A lie algebra is called **simple** if $L$ has no nontrival ideals and $[L,L]\neq 0$. 
