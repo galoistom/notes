@@ -1,4 +1,4 @@
-nmap H 0
+nmap H ^
 nmap L $
 nmap j gj
 nmap k gk
