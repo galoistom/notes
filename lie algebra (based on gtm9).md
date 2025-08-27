@@ -19,10 +19,11 @@ An **automorphism** of $\mathfrak{g}$ is the isomorphism from $\mathfrak{g}$ to 
 Let $\mathfrak{g}^{(0)}=\mathfrak{g}$ and $\mathfrak{g}^{(n)}=[\mathfrak{g}^{n-1},\mathfrak{g}^{(n-1)}]$, we say $\mathfrak{g}$ is **solvable** if $\mathfrak{g}^{(n)}=0$ for some $n \in \mathbb{N}$. One ca easily varify that if $\mathfrak{g}$ is solvable, so is all its subalgebra and ideals; If $I,J$ are solvable ideal of $\mathfrak{g}$, then so is $I+J$; If $I$ is solvable ideals of $\mathfrak{g}$ and the quotient $\mathfrak{g} / I$ is solvable too, then $\mathfrak{g}$ is solvable. Similar definition of **nilpotent** work too, let $\mathfrak{g}^{0}=\mathfrak{g}$, $\mathfrak{g}^{n}=[\mathfrak{g},\mathfrak{g}^{n-1}]$ and $\mathfrak{g}$ is nilpotent if $\mathfrak{g}^{n}$ for some $n$. Then one know that of $\mathfrak{g}$ is nilpotent, so is all its ideals and subalgebras; If $\mathfrak{g} / Z(\mathfrak{g})$ is nilpotent, so is $\mathfrak{g}$; If $\mathfrak{g}$ is nilpotent and nonzero, then $Z(\mathfrak{g})\neq 0$. 
 
 **Theorem**(Engel). If all elements of $\mathfrak{g}$ are ad-nilpotent, then $L$ is nilpotent. 
+
 *Proof*: Use the result in [[lie group and their representation (reminder)]], we know that: Let $\mathfrak{g} \subset \mathfrak{gl}(V)$ be a lie subalgebra, and every $X \in \mathfrak{g}$ is a nilpotent endomorphism of $V$. Then is a nonzero $v \in V$ such that $X(v)=0$ for all $X \in V$. 
 
 Then consider $\mathfrak{g}$ acts on $\mathfrak{g}$ as $ad(x)$, then there is a $x \in \mathfrak{g}$ such that $[\mathfrak{g}x]=0$, hence $Z(\mathfrak{g})\neq 0$, then consider $\mathfrak{g} / Z(\mathfrak{g})$ and use induction. 
 
 **Theorem**(Lie's theorem): Let $\mathfrak{g}$ be a solvable subalgebra of $\mathfrak{gl}(V)$, $V$ finite dimensional. If $V\neq 0$, then $V$ contains a common eigenvector for all the endomorphisms in $\mathfrak{g}$. (proof see in [[lie group and their representation (reminder)]])
 
-We know that $\mathfrak{g}$ will be solvable if $[\mathfrak{g},\mathfrak{g}]$ is nilpotent, and the 
+We know that $\mathfrak{g}$ will be solvable if $[\mathfrak{g},\mathfrak{g}]$ is nilpotent, and the Engel's theorem told us that $[\mathfrak{g},\mathfrak{g}]$ is nilpotent if and only if $ad(x)$ is nilpotent for all $x\in [\mathfrak{g},\mathfrak{g}]$. 
