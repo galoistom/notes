@@ -25,3 +25,4 @@ Then consider $\mathfrak{g}$ acts on $\mathfrak{g}$ as $ad(x)$, then there is a 
 
 **Theorem**(Lie's theorem): Let $\mathfrak{g}$ be a solvable subalgebra of $\mathfrak{gl}(V)$, $V$ finite dimensional. If $V\neq 0$, then $V$ contains a common eigenvector for all the endomorphisms in $\mathfrak{g}$. (proof see in [[lie group and their representation (reminder)]])
 
+We know that $\mathfrak{g}$ will be solvable if $[\mathfrak{g},\mathfrak{g}]$ is nilpotent, and the 
