@@ -21,4 +21,7 @@ Let $\mathfrak{g}^{(0)}=\mathfrak{g}$ and $\mathfrak{g}^{(n)}=[\mathfrak{g}^{n-1
 **Theorem**(Engel). If all elements of $\mathfrak{g}$ are ad-nilpotent, then $L$ is nilpotent. 
 *Proof*: Use the result in [[lie group and their representation (reminder)]], we know that: Let $\mathfrak{g} \subset \mathfrak{gl}(V)$ be a lie subalgebra, and every $X \in \mathfrak{g}$ is a nilpotent endomorphism of $V$. Then is a nonzero $v \in V$ such that $X(v)=0$ for all $X \in V$. 
 
-Then consider $\mathfrak{g}$ acts on $\mathfrak{g}$ as $ad(x)$, then 
+Then consider $\mathfrak{g}$ acts on $\mathfrak{g}$ as $ad(x)$, then there is a $x \in \mathfrak{g}$ such that $[\mathfrak{g}x]=0$, hence $Z(\mathfrak{g})\neq 0$, then consider $\mathfrak{g} / Z(\mathfrak{g})$ and use induction. 
+
+**Theorem**(Lie's theorem): Let $\mathfrak{g}$ be a solvable subalgebra of $\mathfrak{gl}(V)$, $V$ finite dimensional. If $V\neq 0$, then $V$ contains a common eigenvector for all the endomorphisms in $\mathfrak{g}$. (proof see in [[lie group and their representation (reminder)]])
+
