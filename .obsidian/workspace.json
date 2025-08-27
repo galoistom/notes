@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "lie algebra (based on gtm9)"
             }
+          },
+          {
+            "id": "b00e8f7c9a0a1873",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.12"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.12"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -182,7 +195,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "88fef015c663a38a",
+  "active": "b00e8f7c9a0a1873",
   "lastOpenFiles": [
     "lie algebra (based on gtm9).md",
     "lie group and their representation (reminder).md",
