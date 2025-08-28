@@ -29,3 +29,4 @@ Then consider $\mathfrak{g}$ acts on $\mathfrak{g}$ as $ad(x)$, then there is a 
 We know that $\mathfrak{g}$ will be solvable if $[\mathfrak{g},\mathfrak{g}]$ is nilpotent, and the Engel's theorem told us that $[\mathfrak{g},\mathfrak{g}]$ is nilpotent if and only if $ad(x)$ is nilpotent for all $x\in [\mathfrak{g},\mathfrak{g}]$. Then we begin, therefore, with a "trace" criterion for nilpotent of an endomorphism.
 
 **lemma**: Let $A\subset B$ be two subspaces of $\mathfrak{gl}(V)$, $dim\,V<\infty$. Set $M=\{ x\in \mathfrak{gl}(V):[x,B]\subset A \}$. Suppose $x\in M$ satisfies $\mathrm{Tr}(xy)=0$ for all $y\in M$. Then $x$ is nilpotent.
+
