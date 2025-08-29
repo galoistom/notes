@@ -30,3 +30,6 @@ We know that $\mathfrak{g}$ will be solvable if $[\mathfrak{g},\mathfrak{g}]$ is
 
 **lemma**: Let $A\subset B$ be two subspaces of $\mathfrak{gl}(V)$, $dim\,V<\infty$. Set $M=\{ x\in \mathfrak{gl}(V):[x,B]\subset A \}$. Suppose $x\in M$ satisfies $\mathrm{Tr}(xy)=0$ for all $y\in M$. Then $x$ is nilpotent.
 
+*Proof*: We will use the Jordan decomposition of $x=s+n$. Fix a basis $v_{1},\cdots, v_{m}$ of $V$ so that $s=diag(a_{1}, \cdots , a_{m})$ is diagonal. The $E$ be the vector space of $F$(over prime field $\mathbb{Q}$) spanned by the eigenvalues $a_{1}, \cdots, a_{m}$. We have to show that $s=0$, or equivalently, that $E=0$. Since $E$ is finite dimensional over $\mathbb{Q}$, it will suffice to show that the dual space $E^{*}=0$, i.e. that any $f:E\rightarrow \mathbb{Q}$ is zero.
+
+Now given $f$, let $y$ be that element of $\mathfrak{gl}(V)$ whose matrix to our given basis is $diag(f(a_{1}), \cdots, f(a_{m}))$. If $\{ e_{ij} \}$ is the corresponding basis of $\mathfrak{gl}(V)$, we knew that: $ad\,(e_{ij})=(a_{i}-a_{j})e_{ij}$, $ad\,y(e_{ij})=(f(a_{i})-f(a_{j}))e_{ij}$. Now let $r(T)\in F[T]$ be a polynomial without constant term s
