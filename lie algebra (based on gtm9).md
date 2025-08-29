@@ -35,6 +35,10 @@ We know that $\mathfrak{g}$ will be solvable if $[\mathfrak{g},\mathfrak{g}]$ is
 
 Now given $f$, let $y$ be that element of $\mathfrak{gl}(V)$ whose matrix to our given basis is $diag(f(a_{1}), \cdots, f(a_{m}))$. If $\{ e_{ij} \}$ is the corresponding basis of $\mathfrak{gl}(V)$, we knew that: $ad\,(e_{ij})=(a_{i}-a_{j})e_{ij}$, $ad\,y(e_{ij})=(f(a_{i})-f(a_{j}))e_{ij}$. Now let $r(T)\in F[T]$ be a polynomial without constant term satisfying $r(a_{i}-a_{j})=f(a_{i})-f(a_{j})$ for all pairs $i,j$. The existence of such $r(T)$ follows from Lagrange interpolation; since $a_{i}-a_{j}=a_{k}-a_{l}$ implies $f(a_{i})-f(a_{j})=f(a_{k})-f(a_{l})$. Evidently $ad\,y=r(ad\,s)$.
 
-Now $ad\,s$ is the semisimple part of $ad\,x$, so it can be written as a polynomial in $ad\,x$ without constant term. Therefore, $ad\,y$ is also a polynomial in $ad\,x$ without constant term. By hypothesis, $ad\,x$ maps $B$ into $A$, so we also have $ad\,y(B)\subset A$, i.e. $y \in M$. Using the hypothesis of the lemma, $Tr(xy)=0$, we get $\sum_{i}a_{i}f(a_{i})=0$. The left side is a $Q$-linear combination of elements of $E$; applying $f$, we obtain $\sum f(a_{i})^{2}=0$. But the numbers $f(a_{i})$ are reational, so this forces all of them to be 0. finally, $f$ must be identically 0, because $a_{i}$ span $E$.
+Now $ad\,s$ is the semisimple part of $ad\,x$, so it can be written as a polynomial in $ad\,x$ without constant term. Therefore, $ad\,y$ is also a polynomial in $ad\,x$ without constant term. By hypothesis, $ad\,x$ maps $B$ into $A$, so we also have $ad\,y(B)\subset A$, i.e. $y \in M$. Using the hypothesis of the lemma, $Tr(xy)=0$, we get $\sum_{i}a_{i}f(a_{i})=0$. The left side is a $Q$-linear combination of elements of $E$; applying $f$, we obtain $\sum f(a_{i})^{2}=0$. But the numbers $f(a_{i})$ are reational, so this forces all of them to be 0. finally, $f$ must be identically 0, because $a_{i}$ span $E$. $\square$
 
-The idea is as follow, we split $x$ into $s+n$ (jordan decomposition), we will proof $s=0$. 
+Then we are ready to proof the criterion
+
+**Theorem**(Cartan's Criterion): Let $L$ be a subalgebra of $\mathfrak{gl}(V)$, $V$ finite dimensional. Suppose that $Tr(xy)=0$ for all $x \in [\mathfrak{g},\mathfrak{g}],\ y \in \mathfrak{g}$. Then $\mathfrak{g}$ is solvable. 
+
+*Proof*: As we know, we only have to proof that all $x\in [L,L]$ are nilpotent endomorphisms. For this we ap
