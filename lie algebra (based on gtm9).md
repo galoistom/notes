@@ -42,3 +42,5 @@ Then we are ready to proof the criterion
 **Theorem**(Cartan's Criterion): Let $L$ be a subalgebra of $\mathfrak{gl}(V)$, $V$ finite dimensional. Suppose that $Tr(xy)=0$ for all $x \in [\mathfrak{g},\mathfrak{g}],\ y \in \mathfrak{g}$. Then $\mathfrak{g}$ is solvable. 
 
 *Proof*: As we know, we only have to proof that all $x\in [\mathfrak{g},\mathfrak{g}]$ are nilpotent endomorphisms. For this we apply the above lemma: $V$ as given, $A=[\mathfrak{g},\mathfrak{g}]$, $B=\mathfrak{g}$, so $M=\{ x\in \mathfrak{gl}(V):[X,\mathfrak{g}]\subset [\mathfrak{g},\mathfrak{g}] \}$. We only have to check $Tr(xy)=0$ for $x\in[\mathfrak{g},\mathfrak{g}]$, $y\in M$, but we only have the case of $y\in \mathfrak{g}$. To solve this problem, we notice that if $[x,y]$ is a typical generator of $[\mathfrak{g},\mathfrak{g}]$, and if $z \in M$, then we have $\mathrm{Tr}([x,y]z)=\mathrm{Tr}(x[y,z])$. By definition of $M$, $[y,z]\in[\mathfrak{g},\mathfrak{g}]$, so the right side is $0$ by hypothesis.
+
+Let $L$ be an lie algebra. If $x,y\in L$, define ${\small\mathcal{K}}(x,y)=Tr(ad\,x\ ad\,y)$. Then ${\small\mathcal{K}}$ is a symetric bilinear form on $L$, called the **Killing form** 
