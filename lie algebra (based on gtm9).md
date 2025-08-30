@@ -47,3 +47,4 @@ Let $\mathfrak{g}$ be an lie algebra. If $x,y\in L$, define ${\small\mathcal{K}}
 
 **Theorem**: Let $\mathfrak{g}$ be a lie algebra. Then $\mathfrak{g}$ is semisimple if and only if its killing form is nondegenerated.
 
+*Proof*: If $Rad\,\mathfrak{g}=0$, let $S$ be the radical of ${\small\mathcal{K}}$, then we know that $S$ is an ideal of $\mathfrak{g}$. Moreover, as we have $Tr(xy)=0$ for all $x\in S$ and $y \in L$, we know by the cartan's criterion, we know that $S$ is solvable, hance $S \subseteq Rad\,\mathfrak{g}$ (see in [[lie group and their representation (reminder)]], $Rad$ is the largest solvable ideal of $\mathfrak{g}$). On the other hand, if $S=0$, we proof that all abelian ideals are 0. 
