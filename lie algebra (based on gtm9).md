@@ -52,3 +52,4 @@ Let $\mathfrak{g}$ be an lie algebra. If $x,y\in L$, define ${\small\mathcal{K}}
 The direct sum of ideals of $\mathfrak{g}$ is pretty much the same as the usual algebra, but with condition $[I_{i},I_{j}]\subseteq I_{i}\cap I_{j}=0$. 
 
 **Theorem**: Let $\mathfrak{g}$ be semisimple. Then there exist ideals $\mathfrak{g}_{1}, \cdots, \mathfrak{g}_{n}$ of $\mathfrak{g}$ which are simple, such that $\mathfrak{g}=\mathfrak{g}_{1}\oplus\cdots\oplus \mathfrak{g}_{n}$. Every simple ideal of $\mathfrak{g}$ coinsides with one of the $\mathfrak{g}_{i}$. Moreover, the killing form of $\mathfrak{g}_{i}$ is the restriction of ${\small\mathcal{K}}$ to $\mathfrak{g}_{i}\times \mathfrak{g}_{j}$. 
+
