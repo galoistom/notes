@@ -1,4 +1,4 @@
-This is the same topic of [[lie gaoup and their representation (reminder)]] but focous more on the algebra structure iteslf
+This is the same topic of [[lie group and their representation (reminder)]] but focous more on the algebra structure iteslf
 
 Lie algebra is a vector space $\mathfrak{g}$ with a bilinear form which we will call **Lie bracket or commuator** $[\ ,\ ]:\mathfrak{g}\times \mathfrak{g}\rightarrow \mathfrak{g}$  such that: 
 1. $[x,x]=0$ for all $x \in L$.
@@ -47,4 +47,4 @@ Let $\mathfrak{g}$ be an lie algebra. If $x,y\in L$, define ${\small\mathcal{K}}
 
 **Theorem**: Let $\mathfrak{g}$ be a lie algebra. Then $\mathfrak{g}$ is semisimple if and only if its killing form is nondegenerated.
 
-*Proof*: If $Rad\,\mathfrak{g}=0$, let $S$ be the radical of ${\small\mathcal{K}}$, then we know that $S$ is an ideal of $\mathfrak{g}$. Moreover, as we have $Tr(xy)=0$ for all $x\in S$ and $y \in L$, we know by the cartan's criterion, we know that $S$ is solvable, hance $S \subseteq Rad\,\mathfrak{g}$ (see in [[lie group and their representation (reminder)]], $Rad$ is the largest solvable ideal of $\mathfrak{g}$). On the other hand, if $S=0$, we proof that all abelian ideals are 0. 
+*Proof*: If $Rad\,\mathfrak{g}=0$, let $S$ be the radical of ${\small\mathcal{K}}$, then we know that $S$ is an ideal of $\mathfrak{g}$. Moreover, as we have $Tr(xy)=0$ for all $x\in S$ and $y \in L$, we know by the cartan's criterion, we know that $S$ is solvable, hance $S \subseteq Rad\,\mathfrak{g}$ (see in [[lie group and their representation (reminder)]], $Rad$ is the largest solvable ideal of $\mathfrak{g}$). On the other hand, if $S=0$, we proof that all abelian ideals are 0. In fact, consider $I$ a abelian ideal, take $x \in I$, $y \in \mathfrak{g}$, we have $(ad\,x\ ad\,y):L\rightarrow I$, and $(ad\,x\ ad\,y)^{2}:L\rightarrow[I,I]=0$, so $\mathrm{Tr}(ad\,x\ ad\,y)=0$, hence $I\subseteq S=0$. 
