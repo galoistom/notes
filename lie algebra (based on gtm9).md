@@ -1,4 +1,4 @@
-This is the same topic of [[lie group and their representation (reminder)]] but focous more on the algebra structure iteslf
+This is the same topic of [[lie gaoup and their representation (reminder)]] but focous more on the algebra structure iteslf
 
 Lie algebra is a vector space $\mathfrak{g}$ with a bilinear form which we will call **Lie bracket or commuator** $[\ ,\ ]:\mathfrak{g}\times \mathfrak{g}\rightarrow \mathfrak{g}$  such that: 
 1. $[x,x]=0$ for all $x \in L$.
