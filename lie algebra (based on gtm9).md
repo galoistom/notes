@@ -48,3 +48,7 @@ Let $\mathfrak{g}$ be an lie algebra. If $x,y\in L$, define ${\small\mathcal{K}}
 **Theorem**: Let $\mathfrak{g}$ be a lie algebra. Then $\mathfrak{g}$ is semisimple if and only if its killing form is nondegenerated.
 
 *Proof*: If $Rad\,\mathfrak{g}=0$, let $S$ be the radical of ${\small\mathcal{K}}$, then we know that $S$ is an ideal of $\mathfrak{g}$. Moreover, as we have $Tr(xy)=0$ for all $x\in S$ and $y \in L$, we know by the cartan's criterion, we know that $S$ is solvable, hance $S \subseteq Rad\,\mathfrak{g}$ (see in [[lie group and their representation (reminder)]], $Rad$ is the largest solvable ideal of $\mathfrak{g}$). On the other hand, if $S=0$, we proof that all abelian ideals are 0. In fact, consider $I$ a abelian ideal, take $x \in I$, $y \in \mathfrak{g}$, we have $(ad\,x\ ad\,y):L\rightarrow I$, and $(ad\,x\ ad\,y)^{2}:L\rightarrow[I,I]=0$, so $\mathrm{Tr}(ad\,x\ ad\,y)=0$, hence $I\subseteq S=0$. 
+
+The direct sum of ideals of $\mathfrak{g}$ is pretty much the same as the usual algebra, but with condition $[I_{i},I_{j}]\subseteq I_{i}\cap I_{j}=0$. 
+
+**Theorem**: Let $\mathfrak{g}$ be semisimple. Then there exist ideals $\mathfrak{g}_{1}, \cdots, \mathfrak{g}_{n}$ of $\mathfrak{g}$ which are simple, such that $\mathfrak{g}=\mathfrak{g}_{1}\oplus\cdots\oplus \mathfrak{g}_{n}$. Every simple ideal of $\mathfrak{g}$ coinsides with one of the $\mathfrak{g}_{i}$. Moreover, the killing form of $\mathfrak{g}_{i}$ is the restriction of ${\small\mathcal{K}}$ to $\mathfrak{g}_{i}\times \mathfrak{g}_{j}$. 
