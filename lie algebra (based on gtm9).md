@@ -53,4 +53,8 @@ The direct sum of ideals of $\mathfrak{g}$ is pretty much the same as the usual 
 
 **Theorem**: Let $\mathfrak{g}$ be semisimple. Then there exist ideals $\mathfrak{g}_{1}, \cdots, \mathfrak{g}_{n}$ of $\mathfrak{g}$ which are simple, such that $\mathfrak{g}=\mathfrak{g}_{1}\oplus\cdots\oplus \mathfrak{g}_{n}$. Every simple ideal of $\mathfrak{g}$ coinsides with one of the $\mathfrak{g}_{i}$. Moreover, the killing form of $\mathfrak{g}_{i}$ is the restriction of ${\small\mathcal{K}}$ to $\mathfrak{g}_{i}\times \mathfrak{g}_{j}$. 
 
-*Proof*: The proof is simple, one must notice that take any $I$ be any ideal of $\mathfrak{g}$, then take $I^{\perp}$, using the Cartan's Criterion, $I\cap I^{\perp}$ is solvable (so is 0). With $dim\,I+dim\,I^{\perp}=dim\,\mathfrak{g}$, we know that $I \oplus I^{\perp}=\mathfrak{g}$. Thus we know that $\mathfrak{g}$ are able to decompose into simple ideals. We know check that the decomposition is unique 
+*Proof*: The proof is simple, one must notice that take any $I$ be any ideal of $\mathfrak{g}$, then take $I^{\perp}$, using the Cartan's Criterion, $I\cap I^{\perp}$ is solvable (so is 0). With $dim\,I+dim\,I^{\perp}=dim\,\mathfrak{g}$, we know that $I \oplus I^{\perp}=\mathfrak{g}$. Thus we know that $\mathfrak{g}$ are able to decompose into simple ideals. We know check that the decomposition is unique. Take $I$ a simple ideal of $\mathfrak{g}$, consider $[I,\mathfrak{g}]$, which must be $I$ as it cannot be 0, and now decompose it into $[I,\mathfrak{g}]=\bigoplus[I,\mathfrak{g}_{i}]$, so there must be one $I$ and all others are 0. 
+
+There is another criterion for semisimple:
+
+**Theorem**: If $\mathfrak{g}$ is semisimple, then $ad\,\mathfrak{g}=Der\,\mathfrak{g}$. 
