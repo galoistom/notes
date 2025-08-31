@@ -27,3 +27,6 @@ There is alse a module version of the lemma:
 
 **Proof**:
 	Let $S,T$ be simple A-modules, and suppose there is a nonzero A-homomorphism $\phi:S \rightarrow T$. Then $ker(\phi) \neq S$, hence $ker(\phi)=\{0\}$ because $S$ is simple. Thus $\phi$ is injective. In particular, $im(\phi) \neq \{0\}$. Since $T$ is simple this implies $im(\phi)=T$. Thus $\phi$ is an isomorphism. The result follows.
+
+>[!note] Schur's Lemma (Lie algebra version)
+> Let $\phi:L\rightarrow \mathfrak{gl}(V)$ be irreducible. Then this only endomorphism of $V$ commuting with all $\phi(x)$ are the scalars

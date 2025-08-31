@@ -5,4 +5,5 @@ nmap k gk
 nmap J G
 nmap K gg
 nmap [ f$
+nmap <Space>s :w<CR>
 nmap <ESC> :nohl<CR>

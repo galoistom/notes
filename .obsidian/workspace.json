@@ -167,8 +167,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,8 +183,9 @@
   },
   "active": "29476e1a2df9692f",
   "lastOpenFiles": [
-    "lie gaoup and their representation (reminder).md",
+    "rep theory/Schur's lemma.md",
     "lie algebra (based on gtm9).md",
+    "lie gaoup and their representation (reminder).md",
     "lie group and their representation (reminder).md",
     "Books/代数/lie_group_and_lie_algebra.pdf",
     "rep theory/block theory/Block theory ch1.md",
