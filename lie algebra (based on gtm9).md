@@ -67,4 +67,6 @@ We define the module of lie algebra $\mathfrak{g}$ to be a vector space with a h
 
 One can easily varify that the tensor product also keep the representation structure. In particular, we consider the $V\otimes V^{*}$, we have $xf(v)=(xf)(v)+f(xv)$. 
 
-If $\phi:L\rightarrow \mathfrak{gl}(V)$ is 1 to 1, we call them faithful representation of $L$. Define a symetric bilinear form $\beta(x,y)=\mathrm{Tr}(\phi(x)\phi(y))$ on $L$. Define the **Casimir elment of $\phi$** to be $\sum_{i}\phi(x_{i})\phi(y_{i})$, with $x_{i},y_{i}$ running over dual bases realtive to $\beta$. With simple computation, we know that $\mathrm{Tr}(c_{\phi})$
+If $\phi:L\rightarrow \mathfrak{gl}(V)$ is 1 to 1, we call them faithful representation of $L$. Define a symetric bilinear form $\beta(x,y)=\mathrm{Tr}(\phi(x)\phi(y))$ on $L$. Define the **Casimir elment $c_{\phi}(\beta)$ of $\phi$** (or $c_{\phi}$ in short) to be $\sum_{i}\phi(x_{i})\phi(y_{i})$, with $x_{i},y_{i}$ running over dual bases realtive to $\beta$. With simple computation, we know that $\mathrm{Tr}(c_{\phi})$ is $dim\,L$, so $c_{\phi}=dim\,L / dim\,V$.
+
+**Weyl's** Theorem: Let $\phi:L \rightarrow \mathfrak{gl}(V)$ be a representation of a semisimple lie algebra. Then $\phi$ is completely reducible.
