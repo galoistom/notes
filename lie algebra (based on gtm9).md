@@ -64,3 +64,5 @@ using this theorem, we are able to generalize the jordan decomposition in an arb
 We define the module of lie algebra $\mathfrak{g}$ to be a vector space with a homomorphism $\rho:\mathfrak{g}\rightarrow \mathfrak{gl}(V)$ as lie algebra (i.e. $(ax+by)v=a(xv)+b(yv)$, $x(av+bu)=a(xv)+b(xu)$, and $[x,y]v=x(yv)-y(xv)$). The homomorphism is easy to under stand, just a map $V\rightarrow W$, making $\mathfrak{g}\rightarrow \mathfrak{gl}(V)\rightarrow \mathfrak{gl}(W)$ coinside with $\mathfrak{g}\rightarrow \mathfrak{gl}(W)$. A $\mathfrak{g}$-module $V$ is **irreducible** if it has precisly 2 modules (to rule out 0), $V$ is complete reducible if for all $W$ a submodule of $V$, there is always $W'$ such that $V=W\oplus W'$. 
 
 **[[Schur's lemma]]**: Let $\phi:L\rightarrow \mathfrak{gl}(V)$ be irreducible. Then this only endomorphism of $V$ commuting with all $\phi(x)$ are the scalars.
+
+One can easily varify that the tensor product also keep the representation structure
