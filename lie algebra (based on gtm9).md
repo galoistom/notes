@@ -65,4 +65,4 @@ We define the module of lie algebra $\mathfrak{g}$ to be a vector space with a h
 
 **[[Schur's lemma]]**: Let $\phi:L\rightarrow \mathfrak{gl}(V)$ be irreducible. Then this only endomorphism of $V$ commuting with all $\phi(x)$ are the scalars.
 
-One can easily varify that the tensor product also keep the representation structure.
+One can easily varify that the tensor product also keep the representation structure. In particular, we consider the $V\otimes V^{*}$, we have $xf(v)=(xf)(v)+f(xv)$. 
