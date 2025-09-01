@@ -70,3 +70,8 @@ One can easily varify that the tensor product also keep the representation struc
 If $\phi:L\rightarrow \mathfrak{gl}(V)$ is 1 to 1, we call them faithful representation of $L$. Define a symetric bilinear form $\beta(x,y)=\mathrm{Tr}(\phi(x)\phi(y))$ on $L$. Define the **Casimir elment $c_{\phi}(\beta)$ of $\phi$** (or $c_{\phi}$ in short) to be $\sum_{i}\phi(x_{i})\phi(y_{i})$, with $x_{i},y_{i}$ running over dual bases realtive to $\beta$. With simple computation, we know that $\mathrm{Tr}(c_{\phi})$ is $dim\,L$, so $c_{\phi}=dim\,L / dim\,V$.
 
 **Weyl's** Theorem: Let $\phi:L \rightarrow \mathfrak{gl}(V)$ be a representation of a semisimple lie algebra. Then $\phi$ is completely reducible.
+
+*Proof*: Assume we can take a $\mathfrak{g}$-submodule $W$ of codimension 1. Then we have $$
+0 \longrightarrow W \longrightarrow V \longrightarrow F \longrightarrow 0
+$$
+and we only have to proof the case of $W$ irreducible (induction told us $0\longrightarrow W / W' \longrightarrow V / W' \longrightarrow F \longrightarrow 0$ splits). We may also assume $L$ acts faithfully on $V$. Note that $\mathfrak{g}$ acts trivially on any one dimensional modules as $\mathfrak{g}=[\mathfrak{g},\mathfrak{g}]$ and $\mathfrak{sl}(V)=[\mathfrak{gl}(V),\mathfrak{gl}(V)]$. 
