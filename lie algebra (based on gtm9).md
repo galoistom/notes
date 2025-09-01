@@ -74,4 +74,6 @@ If $\phi:L\rightarrow \mathfrak{gl}(V)$ is 1 to 1, we call them faithful represe
 *Proof*: Assume we can take a $\mathfrak{g}$-submodule $W$ of codimension 1. Then we have $$
 0 \longrightarrow W \longrightarrow V \longrightarrow F \longrightarrow 0
 $$
-and we only have to proof the case of $W$ irreducible (induction told us $0\longrightarrow W / W' \longrightarrow V / W' \longrightarrow F \longrightarrow 0$ splits). We may also assume $L$ acts faithfully on $V$. Note that $\mathfrak{g}$ acts trivially on any one dimensional modules as $\mathfrak{g}=[\mathfrak{g},\mathfrak{g}]$ and $\mathfrak{sl}(V)=[\mathfrak{gl}(V),\mathfrak{gl}(V)]$. 
+and we only have to proof the case of $W$ irreducible (induction told us $0\longrightarrow W / W' \longrightarrow V / W' \longrightarrow F \longrightarrow 0$ splits). We may also assume $L$ acts faithfully on $V$. Note that $\mathfrak{g}$ acts trivially on any one dimensional modules as $\mathfrak{g}=[\mathfrak{g},\mathfrak{g}]$ and $\mathfrak{sl}(V)=[\mathfrak{gl}(V),\mathfrak{gl}(V)]$. Let $c=c_{\phi}$ be the Casimir element of $\phi$. Since $c$ commutes with $\phi(\mathfrak{g})$, $c \in End(V)$ as a $\mathfrak{g}$-module. As $\mathfrak{g}$ acts trivially on $V / W$, so $c$ is as well. On the other hand, $c|_{W}$ must be a scalars $\neq 0$. Then $ker(c)$ must be the complement to $W$. 
+
+As to the general case. 
