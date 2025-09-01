@@ -77,3 +77,7 @@ $$
 and we only have to proof the case of $W$ irreducible (induction told us $0\longrightarrow W / W' \longrightarrow V / W' \longrightarrow F \longrightarrow 0$ splits). We may also assume $L$ acts faithfully on $V$. Note that $\mathfrak{g}$ acts trivially on any one dimensional modules as $\mathfrak{g}=[\mathfrak{g},\mathfrak{g}]$ and $\mathfrak{sl}(V)=[\mathfrak{gl}(V),\mathfrak{gl}(V)]$. Let $c=c_{\phi}$ be the Casimir element of $\phi$. Since $c$ commutes with $\phi(\mathfrak{g})$, $c \in End(V)$ as a $\mathfrak{g}$-module. As $\mathfrak{g}$ acts trivially on $V / W$, so $c$ is as well. On the other hand, $c|_{W}$ must be a scalars $\neq 0$. Then $ker(c)$ must be the complement to $W$. 
 
 As to the general case. Take $W$ a submodule of $V$. Assume $\mathcal{V}$ to be the submodule of $Hom(V,W)$, containing $f$ with $f|_{W}$ a scalar, and $\mathcal{W}$ it those $f|_{W}=0$. Then $\mathcal{W}$ is a submodule of $\mathcal{V}$ of codimension 1, let $f$ to be the generator of the complement of $\mathcal{W}$, then $ker(f)$ is the complement of $W$. 
+
+An insteresting application of this is that by using this, we are able to show why the abstract Jordan decomposition is compatible with the various linear representation of $L$.
+
+**Theorem**: Let $\mathfrak{g}\subset \mathfrak{gl}(V)$ be b semisimple linear Lie algebra ($dim\,V<\infty$). Then $\mathfrak{g}$ contins the semisimple and nilpotent parts in $\mathfrak{gl}(V)$ of all its elements. In particular, the abstract and usual Jordan decompositions in $\mathfrak{g}$.  
