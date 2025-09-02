@@ -101,6 +101,8 @@ $$  is the **root space decomposistion**. Where $C_{\mathfrak{g}}(\mathfrak{h})$
 6. $C$ is abelian. Otherwise $[C,C]\neq0$. $C$ being nilpotent, hence $Z(C)\cap[C,C]\neq 0$. Suppose $z$ is in the intersection. We know that $z$ cannot be semisimple. Its nilpotent part $n$ is therefore nonzero and lies in $C$, hand hence in $Z(C)$. But then our lemma implies ${\small\mathcal{K}}(n,C)=0$, a contradition.
 7. $C=\mathfrak{h}$. Otherwise $C$ contains a nonzero nilpotent element, $x$. We then have ${\small\mathcal{K}}(x,y)=\mathrm{Tr}(ad\,x,ad\,y)=0$ for all $y \in C$, a contradition.
 
+**Proposition**: For all $\alpha,\beta \in \mathfrak{h}^{*}$, $[\mathfrak{g}_{\alpha},\mathfrak{g}_{\beta}] \subseteq \mathfrak{g}_{\alpha+\beta}$. If $x \in \mathfrak{g}_{\alpha}$, $\alpha\neq 0$, then $ad\, x$ is nilpotent. If $\alpha,\beta \in \mathfrak{h}^{*}$, and $\alpha+\beta\neq 0$, then $\mathfrak{g}_{\alpha}$ is orthogonal to $\mathfrak{g}_{\beta}$, relative to the killing form ${\small\mathcal{K}}$ of $\mathfrak{g}$. 
+
 We will obtain some precise information about the root space decomposition, using the Killing form. We know that ${\small\mathcal{K}}$ is nondegenerated, and for $\phi\in H^{*}$ corresponds to the unique element $t_{\phi}\in \mathfrak{h}$ satisfying $\phi(\mathfrak{h})= {\small\mathcal{K}}(t_{\phi};\alpha \in \Phi)$ of $H$. 
 
 **Proposition**:
@@ -114,3 +116,4 @@ We will obtain some precise information about the root space decomposition, usin
 
 *Proof*: 
 1) If $\Phi$ fails to span $H^{*}$, then there exists nonzero $h \in \mathfrak{h}$ such that $\alpha(h)=0$ for all $\alpha \in \Phi$. But this means that $[h,\mathfrak{g}_{\alpha}]=0$ for all $\alpha \in \Phi$. Since $[h,\mathfrak{h}]=0$, this in turn forces $[h,\mathfrak{g}]$, or $h \in Z(\mathfrak{g})=0$, which is absurd. 
+2) If not, then $\mathfrak{g}_{\alpha}$ is orthogonal to all $\mathfrak{g}_{\beta}$, hence ${\small\mathcal{K}}(\mathfrak{g}_{\alpha},\mathfrak{g})=0$, contraditing the nondegenerated 
