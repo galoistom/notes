@@ -95,4 +95,7 @@ $$ where $C_{\mathfrak{g}}(\mathfrak{h})$ is in fact $\mathfrak{g}_{0}=\mathfrak
 *Proof*: Write $C=C_{\mathfrak{g}}(\mathfrak{h})$
 1. $C$ contains the semisimple and nilpotent parts of its elements. Note that $x \in C_{\mathfrak{g}}(\mathfrak{h})$ $\Longleftrightarrow$ $ad\,x:H\rightarrow 0$. Hence $(ad\,x)_{s}=ad\,x_{s}$, $(ad\,x)_{n}=ad\,x_{n}$. 
 2. All semisimple elements of $C$ lies in $\mathfrak{h}$. If $x$ is semisimple, then $H+Fx$ is toral as well, so $x \in H$. 
-3. The restriction of ${\small\mathcal{K}}$ to $\mathfrak{h}$ is nondegenerated. Let ${\small\mathcal{k}}(h,\mathfrak{h})=0$ for some $h \in \mathfrak{h}$; we must show that $h=0$. If $x$. 
+3. The restriction of ${\small\mathcal{K}}$ to $\mathfrak{h}$ is nondegenerated. Let ${\small\mathcal{k}}(h,\mathfrak{h})=0$ for some $h \in \mathfrak{h}$; we must show that $h=0$. We split $h$ into $n+s$, then we only have to focous on $h$ nilpotent. In fact, $[n,\mathfrak{h}]=0$ and ${\small\mathcal{k}}(n,\mathfrak{h})=0$, so ${\small\mathcal{k}}(n,C)=0$, hence $n=0$. 
+4. $C$ is nilpotent. If $x \in C$ is semisimple, then $x \in \mathfrak{h}$ is certainly nilpotent. On the other hand, if $x \in C$ is nilpotent, then $ad_{C}\,x$ is a fortiori nilpotent. Now let $x \in C$ be arbitrary, $x=x_{s}+x_{n}$. Since both $x_{n},x_{s}$ lie in $C$, $ad_{C}\,x$ is the sum of commuting nilpotents and is therefore itself nilpotent. Thus $C$ is nilpotent. 
+5. $\mathfrak{h}\cap[C,C]=0$. Since ${\small\mathcal{k}}$ is associative and $[\mathfrak{h},C]=0$, ${\small\mathcal{k}}(\mathfrak{h},[C,C])=0$. Then use 3
+6. $C$ is abelian. Otherwise $[C,C]\neq0$. $C$ being nilpotent, hence $Z(C)\cap[C,C]$ 
