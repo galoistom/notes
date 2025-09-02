@@ -87,5 +87,5 @@ An insteresting application of this is that by using this, we are able to show w
 If $\mathfrak{g}$ is coinsisted entirely of nilpotent elements, then $\mathfrak{g}$ would be nilpotent. This is not being the case, we can find $x \in \mathfrak{g}$ with $x_{s}\neq 0$. This shows that $\mathfrak{g}$ has nonzero subalgebras consisting of semisimple elements. We call such subalgebra **toral**. One can proof that the toral $T$ must be abelian. 
 
 Fix a maximal toral subalgebra $\mathfrak{h}$, then $ad_{\mathfrak{g}}\,\mathfrak{h}$ is a commuting family of semisimple endomorphisms of $\mathfrak{g}$. Note that $\mathfrak{h}$ can be simultaneously diagonalizable, hance $\mathfrak{g}$ can be decomposed into $\mathfrak{g}_{\alpha}=\{ x\in \mathfrak{g}:[h,x]=\alpha(h)x \text{ for all } h\in \mathfrak{h} \}$, where $\alpha\in \mathfrak{h}^{*}$. Written formally, $$
-\mathfrak{g}= C_{\mathfrak{g}}(\mathfrak{h})\oplus \cup
-$$
+\mathfrak{g}= C_{\mathfrak{g}}(\mathfrak{h})\oplus \bigsqcup_{\alpha\in \Phi} \mathfrak{g}_{\alpha}. 
+$$ where $C_{\mathfrak{g}}(\mathfrak{h})$ is in fact $\mathfrak{g}_{0}$. 
