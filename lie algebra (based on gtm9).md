@@ -88,4 +88,8 @@ If $\mathfrak{g}$ is coinsisted entirely of nilpotent elements, then $\mathfrak{
 
 Fix a maximal toral subalgebra $\mathfrak{h}$, then $ad_{\mathfrak{g}}\,\mathfrak{h}$ is a commuting family of semisimple endomorphisms of $\mathfrak{g}$. Note that $\mathfrak{h}$ can be simultaneously diagonalizable, hance $\mathfrak{g}$ can be decomposed into $\mathfrak{g}_{\alpha}=\{ x\in \mathfrak{g}:[h,x]=\alpha(h)x \text{ for all } h\in \mathfrak{h} \}$, where $\alpha\in \mathfrak{h}^{*}$. Written formally, $$
 \mathfrak{g}= C_{\mathfrak{g}}(\mathfrak{h})\oplus \bigsqcup_{\alpha\in \Phi} \mathfrak{g}_{\alpha}. 
-$$ where $C_{\mathfrak{g}}(\mathfrak{h})$ is in fact $\mathfrak{g}_{0}$. 
+$$ where $C_{\mathfrak{g}}(\mathfrak{h})$ is in fact $\mathfrak{g}_{0}=\mathfrak{h}$. 
+
+**Proposition**: Let $\mathfrak{h}$ be maximal toral subalgebra of $\mathfrak{g}$. Then $\mathfrak{h}=C_{\mathfrak{g}}(\mathfrak{h})$. 
+
+*Prof*
