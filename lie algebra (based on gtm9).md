@@ -82,4 +82,4 @@ An insteresting application of this is that by using this, we are able to show w
 
 **Theorem**: Let $\mathfrak{g}\subset \mathfrak{gl}(V)$ be b semisimple linear Lie algebra ($dim\,V<\infty$). Then $\mathfrak{g}$ contins the semisimple and nilpotent parts in $\mathfrak{gl}(V)$ of all its elements. In particular, the abstract and usual Jordan decompositions in $\mathfrak{g}$.  
 
-*Proof*: 
+*Proof*: WE 
