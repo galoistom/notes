@@ -92,4 +92,7 @@ $$ where $C_{\mathfrak{g}}(\mathfrak{h})$ is in fact $\mathfrak{g}_{0}=\mathfrak
 
 **Proposition**: Let $\mathfrak{h}$ be maximal toral subalgebra of $\mathfrak{g}$. Then $\mathfrak{h}=C_{\mathfrak{g}}(\mathfrak{h})$. 
 
-*Prof*
+*Proof*: Write $C=C_{\mathfrak{g}}(\mathfrak{h})$
+1. $C$ contains the semisimple and nilpotent parts of its elements. Note that $x \in C_{\mathfrak{g}}(\mathfrak{h})$ $\Longleftrightarrow$ $ad\,x:H\rightarrow 0$. Hence $(ad\,x)_{s}=ad\,x_{s}$, $(ad\,x)_{n}=ad\,x_{n}$. 
+2. All semisimple elements of $C$ lies in $\mathfrak{h}$. If $x$ is semisimple, then $H+Fx$ is toral as well, so $x \in H$. 
+3. The restriction of ${\small\mathcal{K}}$ to $\mathfrak{h}$ is nondegenerated. Let ${\small\mathcal{k}}(h,\mathfrak{h})=0$ for some $h \in \mathfrak{h}$; we must show that $h=0$. If $x$. 
