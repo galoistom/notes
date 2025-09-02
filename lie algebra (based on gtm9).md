@@ -81,3 +81,5 @@ As to the general case. Take $W$ a submodule of $V$. Assume $\mathcal{V}$ to be 
 An insteresting application of this is that by using this, we are able to show why the abstract Jordan decomposition is compatible with the various linear representation of $L$.
 
 **Theorem**: Let $\mathfrak{g}\subset \mathfrak{gl}(V)$ be b semisimple linear Lie algebra ($dim\,V<\infty$). Then $\mathfrak{g}$ contins the semisimple and nilpotent parts in $\mathfrak{gl}(V)$ of all its elements. In particular, the abstract and usual Jordan decompositions in $\mathfrak{g}$.  
+
+*Proof*: 
