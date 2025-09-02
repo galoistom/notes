@@ -107,4 +107,10 @@ We will obtain some precise information about the root space decomposition, usin
 1) $\Phi$ spans $H^{*}$.
 2) If $\alpha\in \Phi$, then $-\alpha \in \Phi$.
 3) Let $\alpha \in \Phi$, $x \in \mathfrak{g}_{\alpha}$, $y \in \mathfrak{g}_{-\alpha}$. Then $[x,y]={\small\mathcal{K}}(x,y)t_{\alpha}$. 
-4) If $\alpha \in \Phi$, then $[\mathfrak{g}_{\alpha},g]$
+4) If $\alpha \in \Phi$, then $[\mathfrak{g}_{\alpha},\mathfrak{g}_{-\alpha}]$ is one dimensional, with basis $t_{\alpha}$. 
+5) $\alpha(t_{\alpha})={\small\mathcal{K}}(t_{\alpha}mt_{\alpha})\neq 0$, for $\alpha \not\in \Phi$. 
+6) If $\alpha \in \Phi$ and $x_{\alpha}$ is any nonzero element of $\mathfrak{g}_{\alpha}$, then exists $y_{\alpha}\in \mathfrak{g}_{-\alpha}$ such that $x_{\alpha},y_{\alpha},h_{\alpha}[x_{\alpha},y_{\alpha}]$ span a three dimensional simple subalgebra of $\mathfrak{g}$ isomorphic to $\mathfrak{sl}(2,F)$ via $x_{\alpha}\mapsto \begin{pmatrix}0&1\\0&0\end{pmatrix}$, $y_{\alpha}\mapsto \begin{pmatrix}0&0\\1&0\end{pmatrix}$, $h_{\alpha}\mapsto \begin{pmatrix}1&0\\0&-1\end{pmatrix}$. 
+7) $h_{\alpha}= \frac{2t_{\alpha}}{\small\mathcal{K}(t_{\alpha},t_{\alpha})}$; $h_{\alpha}=-h_{-\alpha}$. 
+
+*Proof*: 
+1) If $\Phi$ fails to span $H^{*}$, then there exists nonzero $h \in \mathfrak{h}$ such that $\alpha(h)=0$ for all $\alpha \in \Phi$. But this means that $[h,\mathfrak{g}_{\alpha}]=0$ for all $\alpha \in \Phi$. Since $[h,\mathfrak{h}]=0$, this in turn forces $[h,\mathfrak{g}]$, or $h \in Z(\mathfrak{g})=0$, which is absurd. 
