@@ -116,4 +116,4 @@ We will obtain some precise information about the root space decomposition, usin
 
 *Proof*: 
 1) If $\Phi$ fails to span $H^{*}$, then there exists nonzero $h \in \mathfrak{h}$ such that $\alpha(h)=0$ for all $\alpha \in \Phi$. But this means that $[h,\mathfrak{g}_{\alpha}]=0$ for all $\alpha \in \Phi$. Since $[h,\mathfrak{h}]=0$, this in turn forces $[h,\mathfrak{g}]$, or $h \in Z(\mathfrak{g})=0$, which is absurd. 
-2) If not, then $\mathfrak{g}_{\alpha}$ is orthogonal to all $\mathfrak{g}_{\beta}$, hence ${\small\mathcal{K}}(\mathfrak{g}_{\alpha},\mathfrak{g})=0$, contraditing the nondegenerated 
+2) If not, then $\mathfrak{g}_{\alpha}$ is orthogonal to all $\mathfrak{g}_{\beta}$, hence ${\small\mathcal{K}}(\mathfrak{g}_{\alpha},\mathfrak{g})=0$, contraditing the nondegeneracy of ${\small\mathcal{K}}$. 
