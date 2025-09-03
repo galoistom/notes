@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algebraic number theory/Valuations.md",
+                "file": "lie algebra (based on gtm9).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Valuations"
+              "title": "lie algebra (based on gtm9)"
             }
           }
         ]
@@ -73,29 +73,8 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
-          },
-          {
-            "id": "b94a267b048fa1bb",
-            "type": "leaf",
-            "state": {
-              "type": "zhihu-slides-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "256a8d02b1fba6da",
-            "type": "leaf",
-            "state": {
-              "type": "zhihu-slides-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -188,10 +167,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -203,11 +184,11 @@
   },
   "active": "65759cb334693d2a",
   "lastOpenFiles": [
+    "algebraic number theory/Valuations.md",
     "lie group and their representation (reminder).md",
     "lie algebra (based on gtm9).md",
     "lie group (reminder).md",
     "Books/表示论/GTM129 representation theory.pdf",
-    "algebraic number theory/Valuations.md",
     "Untitled 1.md",
     "Untitled.md",
     "algebraic number theory/Dedekind domain.md",
