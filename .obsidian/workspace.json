@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "83ae35f634bfb178",
+        "id": "53f9b2789bb6df43",
         "type": "tabs",
         "children": [
           {
-            "id": "65759cb334693d2a",
+            "id": "1817e5d3835c49c4",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "conflict-files-obsidian-git.md",
-                "bFile": "conflict-files-obsidian-git.md",
-                "aRef": ""
+                "file": "lie algebra (based on gtm9).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: conflict-files-obsidian-git"
+              "icon": "lucide-file",
+              "title": "lie algebra (based on gtm9)"
             }
           }
         ]
@@ -73,29 +73,8 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
-          },
-          {
-            "id": "b94a267b048fa1bb",
-            "type": "leaf",
-            "state": {
-              "type": "zhihu-slides-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "zhihu-slides-view"
-            }
-          },
-          {
-            "id": "256a8d02b1fba6da",
-            "type": "leaf",
-            "state": {
-              "type": "zhihu-slides-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "zhihu-slides-view"
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -202,10 +181,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "65759cb334693d2a",
+  "active": "1817e5d3835c49c4",
   "lastOpenFiles": [
-    "lie algebra (based on gtm9).md",
     "conflict-files-obsidian-git.md",
+    "lie algebra (based on gtm9).md",
     "algebraic number theory/Valuations.md",
     "lie group and their representation (reminder).md",
     "lie group (reminder).md",
