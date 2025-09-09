@@ -163,4 +163,6 @@ $$
 
 **Therefore**: Let $K$ be a henselian field with respect to the vualuation $|\ |$. Then $|\ |$ admits one and only one extension to any given algebraic extension $L|K$. It is given by $|\alpha|=\sqrt[n]{ |N_{L|K}(\alpha)| }$, if $L|K$ has finite degree $n$. In any case, the valuation ring of the extended valuation is the integral closure of the valuation ring of $K$ in $L$. 
 
-The proof is almost the same as the case of complete fields. The most remarkable of the theorem is that this also chararterizes henselian feilds. In order to proof this we will use the [[Newton polygon]]
+The proof is almost the same as the case of complete fields. The most remarkable of the theorem is that this also chararterizes henselian feilds. In order to proof this we will use the [[Newton polygon]]. 
+
+**Theorem**: A nonarchimedean valued field $(K,\lvert \  \rvert)$a is henselian if and only if $\lvert \  \rvert$  can be uniquely extended to any algebraic extension. 

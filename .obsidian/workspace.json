@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Newton polygon.md",
+                "file": "algebraic number theory/Valuations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Newton polygon"
+              "title": "Valuations"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "代数学1 note"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "6218cae0885fd46c",
@@ -181,8 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,7 +195,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a3c716bfc6f8e762",
+  "active": "861ed9fbedd80588",
   "lastOpenFiles": [
     "Newton polygon.md",
     "lecture note/代数学1 note.md",
