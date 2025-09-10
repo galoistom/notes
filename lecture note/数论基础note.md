@@ -13,3 +13,9 @@ $n=1$, $p=x^{2}+y^{2}$.
 Euler then deal with the problem $p=x^{2}+2y^{2}$ and $p=x^{2}+3y^{2}$. 
 
 **Theorem**: 
+1) If $p\equiv1\text{ or } 3\pmod{8}$ then $p=x^{2}+2y^{2}$ for some $x,y \in \mathbb{Z}$. 
+2) 
+
+>[!note] Quadraic reaprocity
+>$m,n \in \mathbb{Z}$, $n\neq0$, then define $\left( \frac{m}{n} \right)=\begin{cases}0\qquad&\text{if } m=0 \\ 1 \qquad &\text{if } m\equiv a^{2}\pmod{n} \\ -1 \qquad &\text{otherwise}\end{cases}$ be the 
+
