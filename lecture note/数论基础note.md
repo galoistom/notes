@@ -10,3 +10,6 @@ $n=1$, $p=x^{2}+y^{2}$.
 
 **Theorem**: And odd prime $p$ can be written in the form $x^{2}+y^{2}$ if and only if $p\equiv1\pmod{4}$. (regular problem)
 
+Euler then deal with the problem $p=x^{2}+2y^{2}$ and $p=x^{2}+3y^{2}$. 
+
+**Theorem**: 
