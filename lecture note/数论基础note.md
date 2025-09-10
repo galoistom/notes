@@ -14,8 +14,9 @@ Euler then deal with the problem $p=x^{2}+2y^{2}$ and $p=x^{2}+3y^{2}$.
 
 **Theorem**: 
 1) If $p\equiv1\text{ or } 3\pmod{8}$ then $p=x^{2}+2y^{2}$ for some $x,y \in \mathbb{Z}$. 
-2) 
+2) If $p\equiv1$
 
 >[!note] Quadraic reaprocity
->$m,n \in \mathbb{Z}$, $n\neq0$, then define $\left( \frac{m}{n} \right)=\begin{cases}0\qquad&\text{if } m=0 \\ 1 \qquad &\text{if } m\equiv a^{2}\pmod{n} \\ -1 \qquad &\text{otherwise}\end{cases}$ be the 
+>$m,q \in \mathbb{Z}$, then define $\left( \frac{m}{q} \right)=\begin{cases}0\qquad&\text{if } m=0 \\ 1 \qquad &\text{if } m\equiv a^{2}\pmod{q} \\ -1 \qquad &\text{otherwise}\end{cases}$ be the Jacobi sumbol for prime $q$. As to general $n=\prod_{i}p_{i}^{\alpha_{i}}$, $\left( \frac{m}{n} \right)=\prod_{i}\left( \frac{m}{p_{i}} \right)^{\alpha_{i}}$
 
+In fact, $p|x^{2}+ny^{2}$ for some $x,y$ if and only of $\left( \frac{-n}{p} \right)=1$. 
