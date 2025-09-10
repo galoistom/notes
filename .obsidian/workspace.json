@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algebraic number theory/Valuations.md",
+                "file": "rep theory/block theory/Block theory ch1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Valuations"
+              "title": "Block theory ch1"
             }
           }
         ]
@@ -180,14 +180,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "af8e6cd753171a2c",
+  "active": "1817e5d3835c49c4",
   "lastOpenFiles": [
+    "algebraic number theory/Valuations.md",
     "lecture note/拓扑学note.md",
     "lecture note/代数学1 note.md",
     "Newton polygon.md",
     "lie algebra (based on gtm9).md",
     "conflict-files-obsidian-git.md",
-    "algebraic number theory/Valuations.md",
     "lie group and their representation (reminder).md",
     "lie group (reminder).md",
     "Books/表示论/GTM129 representation theory.pdf",
