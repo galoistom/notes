@@ -125,4 +125,4 @@ We will obtain some precise information about the root space decomposition, usin
 6) Given $0\neq x_{\alpha}\in \mathfrak{g}_{\alpha}$m find $y_{\alpha}\in \mathfrak{g}_{-\alpha}$ such that $h_{\alpha}=t_{\alpha}{\small\mathcal{K}}(x_{\alpha},y_{\alpha})= \frac{2t_{\alpha}}{{\small\mathcal{K}}(t_{\alpha},t_{\alpha})}$. '
 7) simple, check the definition of $h_{\alpha}$ and $t_{\alpha}$. 
 
-Now consider
+Now consider $M\subseteq \mathfrak{g}$ spanned by $\mathfrak{h}$ along with all roots spaces of the form $\mathfrak{g}_{c\alpha}$  
