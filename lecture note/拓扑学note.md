@@ -23,4 +23,6 @@
 
 **Proposition**: $A$ is closed if and only if $A=\overline{A}$. 
 
-对于 $X$ 的子集 $A$, 若 $X=\overline{A}$, 则称 $A$ 在 $X$ 中稠密. 若 $X$ 存在可数的稠密集, 则称其为可分空间. 对于这样的一个$X$, 若有一族开集 $\beta$ s.t. $X$ 中任一开集都是 $\beta$ 中一些开集的并, 则称 $\beta$ 生成 $\tau$
+对于 $X$ 的子集 $A$, 若 $X=\overline{A}$, 则称 $A$ 在 $X$ 中稠密. 若 $X$ 存在可数的稠密集, 则称其为可分空间. 对于这样的一个$X$, 若有一族开集 $\beta$ s.t. $X$ 中任一开集都是 $\beta$ 中一些开集的并, 则称 $\beta$ 生成 $\tau$. 
+
+**Theorem**: Let $\beta \subseteq \tau$, if $\forall U,V \in \beta$, and $x \in U\cap V$, there is a $W \in \beta$ such that $x \in W \subset U\cap V$. 
