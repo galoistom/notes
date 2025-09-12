@@ -125,4 +125,4 @@ We will obtain some precise information about the root space decomposition, usin
 6) Given $0\neq x_{\alpha}\in \mathfrak{g}_{\alpha}$m find $y_{\alpha}\in \mathfrak{g}_{-\alpha}$ such that $h_{\alpha}=t_{\alpha}{\small\mathcal{K}}(x_{\alpha},y_{\alpha})= \frac{2t_{\alpha}}{{\small\mathcal{K}}(t_{\alpha},t_{\alpha})}$. '
 7) simple, check the definition of $h_{\alpha}$ and $t_{\alpha}$. 
 
-Now consider $M\subseteq \mathfrak{g}$ spanned by $\mathfrak{h}$ along with all roots spaces of the form $\mathfrak{g}_{c\alpha}$. This is an $S_{\alpha}$-submodule of $\mathfrak{g}$, with weight 0, $2c=c\alpha(h_{\alpha})$ of $h_{\alpha}$. 
+Now consider $M\subseteq \mathfrak{g}$ spanned by $\mathfrak{h}$ along with all roots spaces of the form $\mathfrak{g}_{c\alpha}$. This is an $S_{\alpha}$-submodule of $\mathfrak{g}$, with weight 0, $2c=c\alpha(h_{\alpha})$ of $h_{\alpha}$. In particular, all $c$ occurring here must be integral multiples of $\frac{1}{2}$. Now $S_{\alpha}$ acts trivially on $Ker(\alpha)$, a subspace of codimension one in $H$, and $S_{\alpha}$ is iteslf irreducible as $S_{\alpha}$-submodule of $M$. Together, $Ker(\alpha)$ and $S_{\alpha}$ take up 
