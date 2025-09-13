@@ -1,3 +1,4 @@
+#topology #lectureNote 
 >[!note] 拓扑的定义
 >$(X,\tau)$ 是一个二元对, $X$ 是一个集合, $\tau \subseteq 2^{X}$, 满足:
 >1. $X,\varnothing \in \tau$

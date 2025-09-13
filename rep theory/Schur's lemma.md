@@ -1,3 +1,4 @@
+#rp #algebra 
 [[Basic Definitions of representation]]
 
 >[!note] Schur's lemma

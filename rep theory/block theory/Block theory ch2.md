@@ -1,3 +1,4 @@
+#rp #algebra 
 # Induction and restirction
 **Definition**:
 Let $G$ be a finite group and let $H$ be a subgroup of $G$. 

@@ -1,3 +1,4 @@
+#nt #algebra 
 >[!note] Absolute value
 >An absolute value of a field $K$ is a function $K \rightarrow \mathbb{R}$ such that:
 >1. $|x|>0$ except for $|0|=0$.

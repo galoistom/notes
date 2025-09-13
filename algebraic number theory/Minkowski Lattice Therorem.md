@@ -1,3 +1,4 @@
+#nt #algebra 
 >[!note] Minkowski Lattice Therorem
 >Let $T$ be a subsey of $V$ that is compact, convex, and symmetric in the origin. If $\mu(T) \geq 2^n \mu(D)$ then $T$ contains a point of the lattice other that the origin.
 

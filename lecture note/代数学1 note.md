@@ -1,3 +1,4 @@
+#algebra #lectureNote 
 why group/ring/fields?
 - Describe symmetry uniformly
 - Compose subsymmetry in different context (e.g. 正二十面体 vs symmetry group of roots of 五次方程) and extract the key(fundmantal) property of the objects we are studying. 

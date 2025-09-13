@@ -1,3 +1,4 @@
+#algebra #rp #lie
 This is the same topic of [[lie group and their representation (reminder)]] but focous more on the algebra structure iteslf
 
 lie algebra is a vector space $\mathfrak{g}$ with a bilinear form which we will call **lie bracket or commuator** $[\ ,\ ]:\mathfrak{g}\times \mathfrak{g}\rightarrow \mathfrak{g}$  such that: 

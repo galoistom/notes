@@ -1,3 +1,4 @@
+#rp #algebra
 We extend the ideal of [[Basic Definitions of representation]] to the modules of group algebra $k[G]$.
 
 # Definitions

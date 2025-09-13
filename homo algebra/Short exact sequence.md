@@ -1,3 +1,4 @@
+#algebra #homo
 >[!note] Short exact sequence
 >Let $A$ , $B$ , $C$ , be three $R-module$ , a short exact sequence $0 \longrightarrow A \stackrel{f}{\longrightarrow} B \stackrel{g}{\longrightarrow} C \longrightarrow 0$ must satisfies the following conditions:
 >1. $f$ is injective, $g$ is surjective

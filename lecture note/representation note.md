@@ -1,3 +1,4 @@
+#rp #algebra #lectureNote 
 Let G be a group, and X a set with a G action, then X is a permutation set of G. A representation is $\rho:G \rightarrow GL(V)$ where V is usually a finite dimensional vector space. We can also cal it a G-module(whihc is more or less the module of the group ring R\[G\]).(see more in [[Basic Definitions of representation]])
 
 some example:
