@@ -8,5 +8,8 @@ Let $G$ be a finite group and let $\chi_{1},\dots,\chi_{h}$ be its distinct irrd
 In this case, if $H\leq G$, then the *restriction* operation of defins a $R(G)\rightarrow R(H)$, denoted by $Res_{H}^{G}$ or $Res$ in short. And the *induction* operation $R(H)\rightarrow R(G)$ denoted by  $Ind_{H}^{G}$ or $Ind$ in short. In particular, consider the bilinear form $\langle \phi,\psi \rangle_{H}$ and $\langle \phi,\psi \rangle_{G}$, especially with $Ind(\phi \cdot Res(\psi))=Ind(\phi)\cdot \psi$. 
 
 >[!throrem] Artin's Theorem
->Let $X$ be a family iof subgroups of a finite group $G$. Let $IndL$
+>Let $X$ be a family iof subgroups of a finite group $G$. Let $Ind:\bigoplus_{H \in X} R(H)\rightarrow R(G)$ be the homomorphism defined by the family of $Ind_{H}^{G}$, $H\in X$. Then the following propperties are equivalent:
+>1. $G$ is the union of teh conjugates of the subgroups belonging  to $X$.
+>2. The cokernel of $Ind:\bigoplus_{H\in X}R(H)\rightarrow R(G)$ is finite.
 
+The second part can also be written as: For each character $\chi$ of $G$, there exist virtual characters  $\chi_{H}\in R(H)$, $H\in X$, and an integer $d\geq1$ such that $d_{\chi}=\sum Ind_{H}^{G}(\chi_{H})$. 
