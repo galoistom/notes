@@ -6,3 +6,7 @@ Let $G$ be a finite group and let $\chi_{1},\dots,\chi_{h}$ be its distinct irrd
 **Remark**: It can also be viewed as the [[Grothendieck group]] of the category of finite generated $\mathbb{C}[G]$-modules. 
 
 In this case, if $H\leq G$, then the *restriction* operation of defins a $R(G)\rightarrow R(H)$, denoted by $Res_{H}^{G}$ or $Res$ in short. And the *induction* operation $R(H)\rightarrow R(G)$ denoted by  $Ind_{H}^{G}$ or $Ind$ in short. In particular, consider the bilinear form $\langle \phi,\psi \rangle_{H}$ and $\langle \phi,\psi \rangle_{G}$, especially with $Ind(\phi \cdot Res(\psi))=Ind(\phi)\cdot \psi$. 
+
+>[!throrem] Artin's Theorem
+>Let $X$ be a family iof subgroups of a finite group $G$. Let $IndL$
+
