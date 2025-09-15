@@ -38,3 +38,13 @@ $$
 **Proposition**: Two left cosets $g_{1}H$ and $g_{2}H$ are either the same or disjoint. (trivial)
 
 **Definition**: $H<G$, subgroup, define **left quitient** $G/H:=\{ gH:g \in G \}$. Right quotient can also be defined similiarly.
+
+**Theorem**(Langurange): If $H<G$, finite group, then $\lvert H \rvert$ divides $\lvert G \rvert$. 
+
+*Proof*: $G=\bigsqcup_{g \in G / H}gH$. Note that $H$ and $gH$ has a natural bijction $g,\,g^{-1}$, so $\lvert H \rvert=\lvert gH \rvert$. In particular, $\lvert G \rvert=\lvert H \rvert\cdot \lvert G / H \rvert$. 
+
+**Corollary**: 
+1. If $G$ is finite, $g \in G$, then $\lvert g \rvert$ devides $\lvert G \rvert$.
+2. $g^{\lvert G \rvert}=1_{G}$.
+
+**Remark**: Let $n,a \in \mathbb{N}$. Eula function $\phi(n):=\lvert (\mathbb{Z} / n\mathbb{Z})^{\times} \rvert$, then if $gcd(a,n)=1$, we have $a^{\phi(n)}\equiv1\pmod{n}$. In particular, if $n$ is prime, then $\phi(n)=n-1$, and we get the Femart's little theorem. The proof is similar to the theorem above, in fact, if you see $G=(\mathbb{Z} / n \mathbb{Z})^{\times}$ as a group, then the order of $a \in G$ must be a divisor of $\phi(n)=\lvert G \rvert$. 
