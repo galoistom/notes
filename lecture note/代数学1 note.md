@@ -33,3 +33,4 @@ $$
 **Definition**: Define the order of $x \in G$, denoted by $\lvert x \rvert = \lvert \langle x \rangle \rvert$. 
 
 # 2 Cosets, Langurange theorem, quotient
+**Definition**: $H<G$ be a subgroup, a **left coset** is a subset of $G$ of the form $gH:=\{ gh:h \in H \}$, $g \in G$. (similar for right coset), in particular, we say $g$ is the **representative** of the coset. In the future, we use coset to denote the right coset by the abuse of notion. 
