@@ -18,3 +18,13 @@ The second part can also be written as: For each character $\chi$ of $G$, there 
 # First Proof
 First show that 2 implies 1. Let $S=\bigcup_{H \in X,\,g\in G} gHg^{-1}$, then the function of the form $\sum Ind^{G}_{H}(f_{H})$ for $f_{H} \in R(H)$ vanishes off $S$. Now if 2 satisfied, we know that all class function on $G$ vanishes off $S$, hence $G=S$, so 1 holds.
 
+Conversly, if 1 is satisfied. It is suffices to show that the $\mathbb{C}$-linear map 
+$$
+\mathbb{C}\otimes Ind:\bigoplus_{H\in X}\mathbb{C}\otimes R(H) \longrightarrow \mathbb{C}\otimes R(G)
+$$
+is surjective. By duality, it is equivalent to the injectivity of the adjoint map
+$$
+\mathbb{C}\otimes Res:\mathbb{C}\otimes R(G)\longrightarrow \bigoplus_{H\in X}\mathbb{C}\otimes R(H)
+$$
+which is obvious as it amounts to saying that if a class function on $G$ restricts to 0 on each cyclic subgroup, then it is zero. 
+
