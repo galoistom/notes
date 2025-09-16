@@ -28,3 +28,10 @@ $$
 $$
 which is obvious as it amounts to saying that if a class function on $G$ restricts to 0 on each cyclic subgroup, then it is zero. 
 
+# Second proof
+Let $A$ be a cyclic group with order $a$. Define a function $\theta_{A}$ on $A$ with:
+$$
+\theta_{A}(x)=\begin{cases}a\qquad \text{if } x \text{ generates } A \\
+0 \qquad\text{otherwise}\end{cases}
+$$
+
