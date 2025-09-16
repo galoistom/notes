@@ -1,3 +1,4 @@
+#rp #algebra 
 # The theorem
 
 >[!note] Burnside's theorem

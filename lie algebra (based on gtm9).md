@@ -1,3 +1,4 @@
+#algebra #rp #lie
 This is the same topic of [[lie group and their representation (reminder)]] but focous more on the algebra structure iteslf
 
 lie algebra is a vector space $\mathfrak{g}$ with a bilinear form which we will call **lie bracket or commuator** $[\ ,\ ]:\mathfrak{g}\times \mathfrak{g}\rightarrow \mathfrak{g}$  such that: 
@@ -86,6 +87,8 @@ An insteresting application of this is that by using this, we are able to show w
 
 If $\mathfrak{g}$ is coinsisted entirely of nilpotent elements, then $\mathfrak{g}$ would be nilpotent. This is not being the case, we can find $x \in \mathfrak{g}$ with $x_{s}\neq 0$. This shows that $\mathfrak{g}$ has nonzero subalgebras consisting of semisimple elements. We call such subalgebra **toral**. One can proof that the toral $T$ must be abelian. 
 
+**Definition**:($\mathfrak{g}:=\mathfrak{sl}(2,F)$)  Let $V$ be an arbitrary $\mathfrak{g}$-module. Since $h=\begin{pmatrix}1&0\\0&-1\end{pmatrix}$ is semisimple, we know that $h$ acts diagonally on $V$. This yields a decomposition of $V$ as direct sum of eigenspaces $V_{\lambda}=\{ v \in V : hv=\lambda v\}$, $\lambda \in F$. This subspace $V_{\lambda}$ still makes sence when $\lambda$ is note an eigenvalue for the endomorphism of $V$ which represents $h$. Whenever $V_{\lambda}\neq0$. we call $\lambda$ as **weight** of $h$ in $V$ and we call $V_{\lambda}$ a **weight space**. 
+
 Fix a maximal toral subalgebra $\mathfrak{h}$, then $ad_{\mathfrak{g}}\,\mathfrak{h}$ is a commuting family of semisimple endomorphisms of $\mathfrak{g}$. Note that $\mathfrak{h}$ can be simultaneously diagonalizable, hance $\mathfrak{g}$ can be decomposed into $\mathfrak{g}_{\alpha}=\{ x\in \mathfrak{g}:[h,x]=\alpha(h)x \text{ for all } h\in \mathfrak{h} \}$, where $\alpha\in \mathfrak{h}^{*}$. Written formally, $$
 \mathfrak{g}= C_{\mathfrak{g}}(\mathfrak{h})\oplus \bigsqcup_{\alpha\in \Phi} \mathfrak{g}_{\alpha}. 
 $$  is the **root space decomposistion**. Where $C_{\mathfrak{g}}(\mathfrak{h})$ is in fact $\mathfrak{g}_{0}=\mathfrak{h}$. (One can easily realize that the killing form of this is nondegenerated)
@@ -122,3 +125,5 @@ We will obtain some precise information about the root space decomposition, usin
 5) Suppose $\alpha(t_{\alpha})=0$, then $[t_{\alpha},x]=0=[t_{\alpha},y]$ for all $x \in \mathfrak{g}_{\alpha},\ y \in \mathfrak{g}_{-\alpha}$. We are able to find $x,y$ such that ${\small\mathcal{K}}(x,y)\neq0$. Then $S$ the space spanned by $x,y,t_{\alpha}$ is solvable, hance $ad\,t_{\alpha} \in ad\,[S,S]$ is nilpotent. Recall that $ad\,t_{\alpha}$ is semisimple, so $t_{\alpha}=0$, a contradition. 
 6) Given $0\neq x_{\alpha}\in \mathfrak{g}_{\alpha}$m find $y_{\alpha}\in \mathfrak{g}_{-\alpha}$ such that $h_{\alpha}=t_{\alpha}{\small\mathcal{K}}(x_{\alpha},y_{\alpha})= \frac{2t_{\alpha}}{{\small\mathcal{K}}(t_{\alpha},t_{\alpha})}$. '
 7) simple, check the definition of $h_{\alpha}$ and $t_{\alpha}$. 
+
+Now consider $M\subseteq \mathfrak{g}$ spanned by $\mathfrak{h}$ along with all roots spaces of the form $\mathfrak{g}_{c\alpha}$. This is an $S_{\alpha}$-submodule of $\mathfrak{g}$, with weight 0, $2c=c\alpha(h_{\alpha})$ of $h_{\alpha}$. In particular, all $c$ occurring here must be integral multiples of $\frac{1}{2}$. Now $S_{\alpha}$ acts trivially on $Ker(\alpha)$, a subspace of codimension one in $H$, and $S_{\alpha}$ is iteslf irreducible as $S_{\alpha}$-submodule of $M$. Together, $Ker(\alpha)$ and $S_{\alpha}$ take up the occurrence of the weight 0 of $h_{\alpha}$. Therefore, the only even weights occurring in $M$ is 0, $\pm2$. Hence $2\alpha$ is not a root, and $\frac{1}{2}\alpha$ cannot be a root either. 

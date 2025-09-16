@@ -1,3 +1,4 @@
+#algebra #lectureNote
 >in the following notes all ring will be assumed to be commutative with unit(unless stated otherwise)
 
 **Definition 1.1**: Let $A$ be a ring, a abilian group $M$ is said to be an $A-module$ if $A$ acts on $M$ linearly (i.e. there is a ring homomorphism $A \rightarrow End(M)$)

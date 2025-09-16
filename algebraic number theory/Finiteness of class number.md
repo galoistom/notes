@@ -1,3 +1,4 @@
+#nt #algebra 
 >[!note] Main Theorem
 >Let $K$ be an extension of degree $n$ of $\mathbb{Q}$, and let $\Delta_K$ be the discriminant of $K/\mathbb{Q}$. Let $2s$ be the number of nonreal complex embedings of $K$. Then there exists a set of representatives of the ideal calss group of $K$ consisting of integeral ideals $\mathfrak{a}$ with 
 >$$\mathbb{N}(\mathfrak{a}) \leq \frac{n!}{n^n} (\frac{4}{\pi})^s |\Delta_K|^{\frac{1}{2}}$$

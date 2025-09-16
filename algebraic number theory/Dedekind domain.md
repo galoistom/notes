@@ -1,3 +1,4 @@
+#nt #algebra 
 >[!note] Definition
 >An integral domain $A$ is called a dedekin domain if:
 >1. $A$ is noetherain.(c.f.[[noetherian and artinian ring]])

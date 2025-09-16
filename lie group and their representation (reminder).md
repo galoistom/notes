@@ -1,3 +1,4 @@
+#algebra #rp #lie
 lie group is a manifold with a group structure (one need the operation $g$ has to be differential, of course). 
 Some easy examples would be $GL(V)$, $SL(V)$ the group of element with $\det=1$, $SO(V)$ the goup of element keeps orthognality as well, etc. 
 

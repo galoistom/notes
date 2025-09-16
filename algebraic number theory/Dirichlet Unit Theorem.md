@@ -1,3 +1,4 @@
+#nt #algebra 
 >[!note] Theorem
 >Let $K$ be a number field, we use $U_K$ to denote the group of units in $\mathcal{O}_K$, then there exists $r+s-1$ units $u_1,\cdots,u_{r+s-1}$ and a finite set $\mu(K)$ of units such that for all $u \in U_K$ there exists $m_1, \cdots, m_{r+s-1}$ such that $u=\xi\,u_1^{m_1}\cdots u_{r+s-1}^{m_{r+s-1}}$, where $\xi \in \mu(K)$
 

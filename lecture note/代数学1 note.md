@@ -1,3 +1,5 @@
+#algebra #lectureNote 
+
 why group/ring/fields?
 - Describe symmetry uniformly
 - Compose subsymmetry in different context (e.g. 正二十面体 vs symmetry group of roots of 五次方程) and extract the key(fundmantal) property of the objects we are studying. 
@@ -7,7 +9,7 @@ why group/ring/fields?
 - Elliphc curve $F:=\{ (x,y) : y^{2} = x^{3} - Dx \} \cup \{ \infty \}$. Define $A,B,C \in F$ have the property $A+B+C=0$ if $A,B,C$ share a line (the group is indeed abelian). 
 
 ---
-
+# Group,example and isomorphism
 **Definition**: A group is a pair of $(G,*)$, where $G$ is a nonempty set and $*$ a binary operation $G\times G \rightarrow G$ such that $(a*b)*c=a*(b*c)$, and there is a $1_{G}$ (the identity) s.t. $1_{G}*a=a*1_{G}$, and there is always an $a^{-1} \in G$ s.t. $a*a^{-1}=a^{-1}*a=1_{G}$. (also see in [[高等代数2 note]]). A group is alled **abelian** if $a*b=b*a$ for all $a,b \in G$. 
 
 Given a group $(G,*)$ and $(H,\circ)$ be two groups, define $\times:(G\times H)\times(G\times H)\rightarrow G\times H$ with $(g,h)\times(g',h')=(g*g',h\circ h')$ to be the **direct product** of groups. 
@@ -30,3 +32,37 @@ $$
 **Definition**: Let $H$ be a subset of $G$, we say $H$ is a **subgroup** of $G$ (denoted by $H\leq G$) if $1_{G} \in H$, and $*$ is closed under with inverse $H$ (in fact one only need to check $ab^{-1} \in H$). 
 
 **Definition**: Define the order of $x \in G$, denoted by $\lvert x \rvert = \lvert \langle x \rangle \rvert$. 
+
+# 2 Cosets, Langurange theorem, quotient
+**Definition**: $H<G$ be a subgroup, a **left coset** is a subset of $G$ of the form $gH:=\{ gh:h \in H \}$, $g \in G$. (similar for right coset), in particular, we say $g$ is the **representative** of the coset. In the future, we use coset to denote the right coset by the abuse of notion. 
+
+**Proposition**: Two left cosets $g_{1}H$ and $g_{2}H$ are either the same or disjoint. (trivial)
+
+**Definition**: $H<G$, subgroup, define **left quitient** $G/H:=\{ gH:g \in G \}$. Right quotient can also be defined similiarly.
+
+**Theorem**(Langurange): If $H<G$, finite group, then $\lvert H \rvert$ divides $\lvert G \rvert$. 
+
+*Proof*: $G=\bigsqcup_{g \in G / H}gH$. Note that $H$ and $gH$ has a natural bijction $g,\,g^{-1}$, so $\lvert H \rvert=\lvert gH \rvert$. In particular, $\lvert G \rvert=\lvert H \rvert\cdot \lvert G / H \rvert$. 
+
+**Corollary**: 
+1. If $G$ is finite, $g \in G$, then $\lvert g \rvert$ devides $\lvert G \rvert$.
+2. $g^{\lvert G \rvert}=1_{G}$.
+
+**Remark**: Let $n,a \in \mathbb{N}$. Eula function $\phi(n):=\lvert (\mathbb{Z} / n\mathbb{Z})^{\times} \rvert$, then if $gcd(a,n)=1$, we have $a^{\phi(n)}\equiv1\pmod{n}$. In particular, if $n$ is prime, then $\phi(n)=n-1$, and we get the Femart's little theorem. The proof is similar to the theorem above, in fact, if you see $G=(\mathbb{Z} / n \mathbb{Z})^{\times}$ as a group, then the order of $a \in G$ must be a divisor of $\phi(n)=\lvert G \rvert$. 
+
+**Theorem**: If $G$ finite of order $p$, where $p$ prime, then $G$ is cyclic. 
+
+*Proof*: Take $g \in G - \{ 1_{G} \}$, then $\lvert g \rvert\neq1$, hence $\lvert g \rvert=p$. Take $\langle g \rangle\leq G$, we have $G\simeq C_{p}$ cyclic. 
+
+**Definition**: 
+1. $a,g \in G$, call $gag^{-1}$ the **conjugate** of $a$ by $g$. 
+2. $H<G$ subgroup, $gHg^{-1}=\{ ghg^{-1}:h \in H \}$ is the conjugate of $H$ by $g$. One immediately notice that $gHg^{-1}$ is a subgroup of $H$ too. 
+3. $H<G$ is **normal** if $H=gHg^{-1}$ for all $g \in G$. In particular, if $G$ is abelian, then all subgroups are normal.
+
+**Notion**: $H<G$ or $H\leq G$ denote $H$ is the subgroup of $G$. $H\triangleleft G$ or $H\trianglelefteq G$ is denote $H$ is the normal subgroup of $G$. 
+
+**Definition**: Now we are ready to define the group structure of $G / H$. What we need is multiplication, we hope that $abH=aH\cdot bH = ab(b^{-1}Hb)\cdot H$, so we want $b^{-1}Hb=H$, which is percisly the property of normal subgroup $H \triangleleft G$. Written formally, the multiplication is as above, and the identity $1_{G /H}$ is $1_{G}H$, and $(gH)^{-1}=g^{-1}H$. 
+
+**Lemma**: $H,K$ subgroups of $G$. 
+1. If $K$ normal, then $HK=KH=\{ kh:k\in K,\,h\in H \}$, is as subgroup of $G$.
+2. If $H,K$ both normal, then $HK=KH$ normal. 

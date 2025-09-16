@@ -1,3 +1,4 @@
+#algebra #homo
 >[!note] Grothendieck group
 >Consider an abilian categroy, its Grothendieck group is the "smallest" abilian group $G$ with a morphism such that for every [[Short exact sequence]] $0 \longrightarrow A \stackrel{f}{\longrightarrow} B \stackrel{g}{\longrightarrow} C \longrightarrow 0$, one heve $[B]=[A]+[C]$ in which $[X]$ denote the image of $X$ in $G$. To be more specific, for every group $G'$ satisfying the former contition, there is a natural surjective homomorphism $G' \rightarrow G$.
 

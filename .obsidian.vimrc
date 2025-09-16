@@ -4,6 +4,6 @@ nmap j gj
 nmap k gk
 nmap J G
 nmap K gg
-nmap [ f$
+nmap [ t$
 nmap <Space>s :w<CR>
 nmap <ESC> :nohl<CR>

@@ -1,3 +1,5 @@
+#algebra #nt
+[[Valuations]]
 Let $v$ be an arbitrary exponential valustion of the field $K$ and let $f(x)=a_{0}+a_{1}x+\cdots+a_{n}x^{n} \in K[x]$ be a polynomial satisfying $a_{0}a_{n}\neq0$. To each term $a_{i}x^{i}$ we associate a point $(i,v(a_{i}))\in \mathbb{R}^{2}$, ignoring however the point $(i,\infty)$ if $a_{i}=0$. We now take the lower convex envelpoe of the set of points $\{ (0,v(a_{0})), (1,v(a_{1})), \cdots, (n,v(a_{n})) \}$. This produces a polygonal chain which is called the **Newton polygon** of $f(x)$. 
 
 The importance can be seen in the follow proposition: 

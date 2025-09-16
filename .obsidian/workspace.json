@@ -20,8 +20,23 @@
               "icon": "diff",
               "title": "Diff: Newton polygon"
             }
+          },
+          {
+            "id": "ed42d472bb5b3035",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: workspace.json"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -180,8 +195,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1817e5d3835c49c4",
+  "active": "ed42d472bb5b3035",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "rep theory/Artin's theorem.md",
+    "lecture note/数论基础note.md",
     "algebraic number theory/Valuations.md",
     "rep theory/Cohomology on groups.md",
     "Pasted image 20250603133216.png",
@@ -193,7 +211,6 @@
     "lecture note/拓扑学note.md",
     "lecture note/代数学1 note.md",
     "lie algebra (based on gtm9).md",
-    "conflict-files-obsidian-git.md",
     "lie group and their representation (reminder).md",
     "lie group (reminder).md",
     "Books/表示论/GTM129 representation theory.pdf",

@@ -1,4 +1,4 @@
-
+#rp #algebra 
 >[!note] representation
 >A representation $(V,\rho)$ of an algebra $A$ contains a vector space $V$ and a homomorphism $\rho: A \rightarrow GL(V)$ , and the character of the representation $\chi(a)=tr(\rho(a))$ 
 >Moreover, the definition can be extended to the modules over a ring.
