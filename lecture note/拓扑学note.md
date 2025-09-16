@@ -27,3 +27,28 @@
 对于 $X$ 的子集 $A$, 若 $X=\overline{A}$, 则称 $A$ 在 $X$ 中稠密. 若 $X$ 存在可数的稠密集, 则称其为可分空间. 对于这样的一个$X$, 若有一族开集 $\beta$ s.t. $X$ 中任一开集都是 $\beta$ 中一些开集的并, 则称 $\beta$ 生成 $\tau$. 
 
 **Theorem**: Let $\beta \subseteq \tau$, if $\forall U,V \in \beta$, and $x \in U\cap V$, there is a $W \in \beta$ such that $x \in W \subset U\cap V$. 
+
+*Proof*: let $T=\left\{  \bigcup_{V\in B}V:B\in\beta  \right\}$, then $T$ is a topology on $X$. Taking $B$ to be $\varnothing$ and $X$, we know $X$ and $\varnothing$ is in $T$. Let $\beta_{\alpha} \in \beta$, $\alpha \in A$, and $U_{\alpha}=\bigcup_{v \in \beta_{\alpha}}V$. Let $\beta'=\bigcup_{\alpha \in A}\beta_{\alpha}$. then $U=\bigcup_{V\in\beta'}v=\bigcup_{\alpha \in A}\bigcup_{V\in\beta_{\alpha}}V=\bigcup_{\alpha \in A}U_{\alpha}\in T$. Similarly, we can check that if $\beta_{\alpha},\beta_{\theta}\in\beta$, then $\beta_{\alpha}\cap\beta_{\theta}\in T$. 
+
+# 连续映射
+**Definition**: $X,Y$ topological space, $f:X\rightarrow Y$ be morphism. 
+1. $f$ is **continuous(连续的)** at $x$ if 所有 $f(x)$ 的邻域 $V$ 有 $f^{-1}(V)$ is open.
+2. $f$ is continuous, if $f$ is continuous at all $x \in X$. 
+3. $f$ is 同胚, if $f$ is a bijection and $f,f^{-1}$ both continuous. 此时, 我们也称 $X,Y$ 同胚. 
+
+**Proposition**: $f:X\rightarrow Y$ continuous <==> for all $V$ open in $Y$, $U:=f^{-1}(V)$ is open in $X$. (proof is simple)
+
+**Proposition**: suppose $f:X\rightarrow Y$ be a morphism, $A\subseteq X$ be a subspace, $f|_{A}:A\rightarrow Y$, then 
+1. If $f$ is continuous on $A$ at $x \in A$, then $f|_{A}$ is continuous at $x$.
+2. If $A$ is a neighbor for $x_{0} \in A$, $f|_{A}$ is continuous at $x_{0}$, then $f$ is continuous at $x_{0}$.
+
+**Proposition**: the composition of continuous morphism is also a continuous. 
+
+**Proposition**: TFAE
+1. $f:X\rightarrow Y$ continuous.
+2. suppose $B$ is a topological bases, then $f^{-1}(V)$ is open for all $V \in B$.
+3. for all $A\subseteq X$, we have $f(\overline{A})\subset\overline{f(A)}$. 
+4. for all $B\subset Y$, we have $\overline{f^{-1}(B)}\subset f^{-1}(\overline{B})$. 
+5. $f^{-1}(V)$ is closed for all $V\subset Y$ closed. 
+
+*Proof*:left as exercise 
