@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ed42d472bb5b3035",
+            "id": "251465cfb02f50ec",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -180,32 +180,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
+<<<<<<< Updated upstream
   "active": "ed42d472bb5b3035",
   "lastOpenFiles": [
     "algebraic number theory/Minkowski Lattice Therorem.md",
     "algebraic number theory/Dirichlet Unit Theorem.md",
     "conflict-files-obsidian-git.md",
+=======
+  "active": "251465cfb02f50ec",
+  "lastOpenFiles": [
+    "rep theory/Basic Definitions of representation.md",
+>>>>>>> Stashed changes
     "rep theory/Artin's theorem.md",
+    "lecture note/高等代数2 note.md",
+    "lecture note/代数学1 note.md",
+    "lecture note/代数学2 note.md",
     "lecture note/数论基础note.md",
     "algebraic number theory/Valuations.md",
-    "rep theory/Cohomology on groups.md",
-    "Pasted image 20250603133216.png",
-    "Pasted image 20250603132614.png",
     "algebraic number theory/Newton polygon.md",
-    "rep theory/representation of symmetric group.md",
-    "rep theory/Schur's lemma.md",
-    "rep theory/block theory/Block theory ch1.md",
-    "lecture note/拓扑学note.md",
-    "lecture note/代数学1 note.md",
-    "lie algebra (based on gtm9).md",
+    "algebraic number theory/Minkowski Lattice Therorem.md",
     "lie group and their representation (reminder).md",
-    "lie group (reminder).md",
-    "Books/表示论/GTM129 representation theory.pdf",
-    "Untitled 1.md",
-    "Untitled.md",
-    "algebraic number theory/Dedekind domain.md",
+    "lie algebra (based on gtm9).md",
+    "实分析/积分.md",
+    "实分析/测度.md",
+    "实分析/可测函数.md",
+    "rep theory/representation of symmetric group.md",
+    "homo algebra/Short exact sequence.md",
+    "homo algebra/Projective module and injective module.md",
+    "homo algebra/Grothendieck group.md",
     "homo algebra/First extension group.md",
+    "algebraic number theory/Dedekind domain.md",
+    "rep theory/Cohomology on groups.md",
+    "algebraic number theory/Finiteness of class number.md",
+    "algebraic number theory/Dirichlet Unit Theorem.md",
     "algebraic number theory/Absolute value.md",
-    "rep theory/block theory/Block theory ch2.md"
+    "rep theory/Schur's lemma.md",
+    "rep theory/Property of the character table.md",
+    "Books/GTM84.pdf",
+    "Books/表示论/GTM129 representation theory.pdf"
   ]
 }
