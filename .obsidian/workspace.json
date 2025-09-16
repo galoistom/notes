@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1817e5d3835c49c4",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "Newton polygon.md",
-                "bFile": "Newton polygon.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: Newton polygon"
-            }
-          },
-          {
             "id": "ed42d472bb5b3035",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "algebraic number theory/Minkowski Lattice Therorem.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "icon": "lucide-file",
+              "title": "Minkowski Lattice Therorem"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -195,8 +180,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ed42d472bb5b3035",
+  "active": "d3fc502f2d176c32",
   "lastOpenFiles": [
+    "algebraic number theory/Dirichlet Unit Theorem.md",
     "conflict-files-obsidian-git.md",
     "rep theory/Artin's theorem.md",
     "lecture note/数论基础note.md",
