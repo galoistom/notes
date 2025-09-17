@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lecture note/拓扑学note.md",
+                "file": "lecture note/数论基础note.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "拓扑学note"
+              "title": "数论基础note"
             }
           }
         ]
@@ -183,6 +183,7 @@
   },
   "active": "ed42d472bb5b3035",
   "lastOpenFiles": [
+    "lecture note/拓扑学note.md",
     "rep theory/Artin's theorem.md",
     "algebraic number theory/Minkowski Lattice Therorem.md",
     "algebraic number theory/Dirichlet Unit Theorem.md",
@@ -196,7 +197,6 @@
     "rep theory/representation of symmetric group.md",
     "rep theory/Schur's lemma.md",
     "rep theory/block theory/Block theory ch1.md",
-    "lecture note/拓扑学note.md",
     "lecture note/代数学1 note.md",
     "lie algebra (based on gtm9).md",
     "lie group and their representation (reminder).md",

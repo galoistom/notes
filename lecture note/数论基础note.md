@@ -58,3 +58,11 @@ Suppose $s,r\in \mathbb{Z}$, with $gcd(s,r)=1$ and $f(s,r)=1$. Take $ps-qr=1$, a
 *Proof*:
 1. $m$ is properly represented by $f$, then $f$ is properly equivalent to $mx^{2}+bxy+cy^{2}$, then $D=b^{2}-4mc$. With $gcd(m,D)=1$, we know $gcd(b,m)=1$, hence $D\equiv b^{2}\pmod{m}$. 
 2. If there is a $b^{2}\equiv D\pmod{m}$, we may assume that $B\equiv D\pmod{2}$, hence $b^{2}-D\equiv0\pmod{4m}$. Take $4mc=b^{2}-D$, and let $f(x,y)=mx^{2}+bxy+cy^{2}$. Then $f(1,0)=m$ with discriminant $D$. 
+
+**Definition**: A primitive positive define form $ax^{2}+bxy +cy^{2}$ is said to be "reduced" if $\lvert b \rvert\leq a\leq c$ and $b\geq0$ if $\lvert b \rvert=a$ and $a=c$. 
+
+**Theorem**: Every positive define form is properly equivalent to a unique reduced form
+
+*Proof*: 
+1. Let $a=\min\{ a'x^{2}+b'xy+c'y^{2}:(x,y)\neq(0,0) \}$. Then $a'x^{2}+b'xy+c'y^{2}$ is properly equivalent to a form $ax^{2}+b''xy+c''y^{2}$. There exists $k\in \mathbb{Z}$ such that $\lvert 2ak+b'' \rvert\leq a$, let $b=2ak+b''$, $c=ak^{2}+b''k+c''$. Get $ax^{2}+bxy+cy^{2}$ with $\lvert b \rvert\leq a$ and $a\leq c$. 
+2. Let $ax^{2}+bxy+cy^{2}$ and $a'x^{2}+b'xy+c'y^{2}$ are reduced forms. Suppose they are properly equivalent $\lvert b \rvert\leq a\leq c$. Then $ax^{2}+bxy+cy^{2}=a\left( x+\frac{b}{2a}y \right)^{2}+\left( c-\frac{b^{2}}{4a} \right)y^{2}$. If $\lvert y \rvert\geq2$, then $ax^{2}+bxy+cy^{2}> c\geq a$. If $\lvert y \rvert=1$, may assume that $y=1$, when $x\neq0$, $\left\lvert  x+\frac{b}{2a}  \right\rvert\geq \frac{\lvert b\rvert}{2a}$, so $ax^{2}+bxy+cy^{2}\geq a\left( \frac{\lvert b \rvert}{2a} \right)^{2}+\left( c-\frac{b^{2}}{2a} \right)=c$. Therefore $a=\min\{ ax^{2}+bxy+cy^{2} \}$, $ax^{2}+bxy+cy^{2}=a$ if and only if $(x,y)=(\pm1,0)$, (and $(0,\pm1)$ if $a=c$). Note that $c=\min\{ ax^{2}+bxy+cy^{2}:(x,y)\in \mathbb{Z}-\mathbb{Z}(0,1) \}$. 

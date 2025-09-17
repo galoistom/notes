@@ -51,4 +51,10 @@
 4. for all $B\subset Y$, we have $\overline{f^{-1}(B)}\subset f^{-1}(\overline{B})$. 
 5. $f^{-1}(V)$ is closed for all $V\subset Y$ closed. 
 
-*Proof*:left as exercise 
+*Proof*:left as exercise.
+
+**Definition**: Let $C\subset 2^{X}$, we call $C$ a **cover** if $X=\bigcup_{c\in C}c$. In particular, if $C$ is finite and consists of only open sets, we say it is 有限开覆盖. 
+
+**Theorem**: let $\{ A_{1},\dots, A_{n} \}$ be a finite closed covering. If $f:X\rightarrow Y$, is continuous on all restrictions to $A_{i}$, then $f$ is continuous. 
+
+*Proof*: we only need to check $f^{-1}(V)$ is cloed for all $V\subset Y$ closed. Suppose $B\subset Y$ closed, then $f^{-1}(B)=\bigcup_{i=1}^{n}f_{A_{i}}^{-1}(B)$, note that $f^{-1}_{A_{i}}(B)=f^{-1}(B)\cap A_{i}$, we know that $f^{-1}(B)$ is closed. 
