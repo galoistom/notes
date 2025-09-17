@@ -59,10 +59,41 @@ Suppose $s,r\in \mathbb{Z}$, with $gcd(s,r)=1$ and $f(s,r)=1$. Take $ps-qr=1$, a
 1. $m$ is properly represented by $f$, then $f$ is properly equivalent to $mx^{2}+bxy+cy^{2}$, then $D=b^{2}-4mc$. With $gcd(m,D)=1$, we know $gcd(b,m)=1$, hence $D\equiv b^{2}\pmod{m}$. 
 2. If there is a $b^{2}\equiv D\pmod{m}$, we may assume that $B\equiv D\pmod{2}$, hence $b^{2}-D\equiv0\pmod{4m}$. Take $4mc=b^{2}-D$, and let $f(x,y)=mx^{2}+bxy+cy^{2}$. Then $f(1,0)=m$ with discriminant $D$. 
 
-**Definition**: A primitive positive define form $ax^{2}+bxy +cy^{2}$ is said to be "reduced" if $\lvert b \rvert\leq a\leq c$ and $b\geq0$ if $\lvert b \rvert=a$ and $a=c$. 
+**Definition**: A primitive positive defintie form $ax^{2}+bxy +cy^{2}$ is said to be "reduced" if $\lvert b \rvert\leq a\leq c$ and $b\geq0$ if $\lvert b \rvert=a$ and $a=c$. 
 
-**Theorem**: Every positive define form is properly equivalent to a unique reduced form
+**Theorem**: Every positive definte form is properly equivalent to a unique reduced form
 
 *Proof*: 
 1. Let $a=\min\{ a'x^{2}+b'xy+c'y^{2}:(x,y)\neq(0,0) \}$. Then $a'x^{2}+b'xy+c'y^{2}$ is properly equivalent to a form $ax^{2}+b''xy+c''y^{2}$. There exists $k\in \mathbb{Z}$ such that $\lvert 2ak+b'' \rvert\leq a$, let $b=2ak+b''$, $c=ak^{2}+b''k+c''$. Get $ax^{2}+bxy+cy^{2}$ with $\lvert b \rvert\leq a$ and $a\leq c$. 
 2. Let $ax^{2}+bxy+cy^{2}$ and $a'x^{2}+b'xy+c'y^{2}$ are reduced forms. Suppose they are properly equivalent $\lvert b \rvert\leq a\leq c$. Then $ax^{2}+bxy+cy^{2}=a\left( x+\frac{b}{2a}y \right)^{2}+\left( c-\frac{b^{2}}{4a} \right)y^{2}$. If $\lvert y \rvert\geq2$, then $ax^{2}+bxy+cy^{2}> c\geq a$. If $\lvert y \rvert=1$, may assume that $y=1$, when $x\neq0$, $\left\lvert  x+\frac{b}{2a}  \right\rvert\geq \frac{\lvert b\rvert}{2a}$, so $ax^{2}+bxy+cy^{2}\geq a\left( \frac{\lvert b \rvert}{2a} \right)^{2}+\left( c-\frac{b^{2}}{2a} \right)=c$. Therefore $a=\min\{ ax^{2}+bxy+cy^{2} \}$, $ax^{2}+bxy+cy^{2}=a$ if and only if $(x,y)=(\pm1,0)$, (and $(0,\pm1)$ if $a=c$). Note that $c=\min\{ ax^{2}+bxy+cy^{2}:(x,y)\in \mathbb{Z}-\mathbb{Z}(0,1) \}$. 
+3. With this, we are able to distinguish $a,c$, but can $ax^{2}+bxy+cy^{2}\sim ax^{2}-bxy+cy^{2}$? In fact, it cannot be true, if they can, consider $(x,y)=(\pm1,0)\&(0,\pm1)$, then we know that the matrix must be $I$ or $-I$. 
+
+**Definition**: Say two forms in the same **class** if thay are properly equivalent. Let $h(D)$ to be the number of classes of primitive positive definite forms. 
+
+**Theorem**:
+1. $h(D)<+\infty$.
+2. $h(D)=$ the number of reduced form of discriminant $D$. 
+
+*Proof*: $-D=4ac-b^{2}\geq4ac-a^{2}\geq3ac$, so $c< -D$, hance $(a,b,c)$ can only take finite many values.
+
+We consider some small cases:
+
+| $D$  |                                                                 |
+| ---- | --------------------------------------------------------------- |
+| -3   | $x^{2}+xy+y^2$                                                  |
+| -4   | $x^{2}+y^{2}$                                                   |
+| -7   | $x^{2}+xy+2y^{2}$                                               |
+| -8   | $x^{2}+2y^{2}$                                                  |
+| -11  | $x^{2}+xy+3y^{2}$                                               |
+| -12  | $x^{2}+3y^{2}$                                                  |
+| -15  | $x^{2}+xy+4y^{2}$, $2x^{2}+xy+2y^{2}$                           |
+| -16  | $x^{2}+4y^{2}$                                                  |
+| -20  | $x^{2}+5y^{2}$, $2x^{2}+2xy+3y^{2}$                             |
+| -28  | $x^{2}+7y^{2}$                                                  |
+| -56  | $x^{2}+14y^{2}$, $2x^{2}+7y^{2}$, $3x^{2}\pm2xy+5y^{2}$         |
+| -108 | $x+27y^{2}$, $4x^{2}\pm2xy+7y^{2}$                              |
+| -256 | $x^{2}+64y^{2}$, $5x^{2}\pm2xy+13y^{2}$, "$4x^{2}+4xy+17y^{2}$" |
+
+Back to $p=x^{2}+ny^{2}$:
+
+**Proposition**: If $h(-4n)=1$, then $\exists x,y\in \mathbb{Z}$, $p=x^{2}+ny^{2}$ <==> $\frac{-n}{p}=1$. 
