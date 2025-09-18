@@ -66,3 +66,24 @@ $$
 **Lemma**: $H,K$ subgroups of $G$. 
 1. If $K$ normal, then $HK=KH=\{ kh:k\in K,\,h\in H \}$, is as subgroup of $G$.
 2. If $H,K$ both normal, then $HK=KH$ normal. 
+
+# Group homomorphism(同态)
+>[!note] Homomorphism 
+>**Definition**: $G,H$ groups, a map $\phi:G\rightarrow H$ is a **homomorphism** if:
+>1. $\phi(xy)=\phi(x)\phi(y)$, for all $x,y\in G$. ($\phi$ is multiplicative)
+>2. $\phi(1_{G})=1_{H}$. Though not necessary
+
+Isomorphism = bijection + homomorphism
+
+**Example**: $H \triangleleft G$, then $G\rightarrow G/H$ is homomorphism (c.f. [[高等代数2 note]]). In particular, $\mathbb{Z}\rightarrow C_{n}$ is a surjective homomorphism, as $C_{n}\simeq \mathbb{Z} / n\mathbb{Z}$. 
+
+**Lemma**: $\phi:G\rightarrow H$, $\psi:H\rightarrow K$, then $\psi \circ \psi:G\rightarrow K$ is also a homomorphism. 
+
+**Lemma**: $\phi:G\rightarrow H$ a homomorphism, then $\phi(G)$ and $ker(\phi):=\phi ^{-1}(1_{H})=\{ g\in G:\phi(g)=1_{H} \}$ are subgroup of $H$ and $G$ (ni fact, these subgroups are all normal). Moreover, $\phi ^{-1}(h)$ is a coset of $ker$ on $G$. 
+
+# Isomorphism Theorem, composition series, hölder theorem
+**Theorem** 1: $\phi :G\rightarrow H$ homomorphism. Then $ker(\phi)\triangleleft G$, and $G / ker(\phi)\simeq \phi(G)$. 
+
+*Proof*: Define a map $\psi:G /ker(\psi)\rightarrow \phi(G)$, $g\cdot ker(\phi)\mapsto \phi(g)$. We first check $\psi$ is well defined: In fact, if $g,g'$ are in the same coset, suppose $g'=gk$, $k\in ker(\phi)$, then $\phi(g')=\phi(g)\cdot \phi(k)=\phi(g)$. It is also clear that it is indeed a homomorphism.
+One immediately note that $\psi$ is surjective, so we only have to check that it is injective. In fact, $\psi(g\cdot ker(\phi))=1_{H}$ if and only if $g\in ker(\phi)$, i.e. $g\cdot ker(\phi)=ker(\phi)$. 
+
