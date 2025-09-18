@@ -87,3 +87,4 @@ Isomorphism = bijection + homomorphism
 *Proof*: Define a map $\psi:G /ker(\psi)\rightarrow \phi(G)$, $g\cdot ker(\phi)\mapsto \phi(g)$. We first check $\psi$ is well defined: In fact, if $g,g'$ are in the same coset, suppose $g'=gk$, $k\in ker(\phi)$, then $\phi(g')=\phi(g)\cdot \phi(k)=\phi(g)$. It is also clear that it is indeed a homomorphism.
 One immediately note that $\psi$ is surjective, so we only have to check that it is injective. In fact, $\psi(g\cdot ker(\phi))=1_{H}$ if and only if $g\in ker(\phi)$, i.e. $g\cdot ker(\phi)=ker(\phi)$. 
 
+**Theorem** 2: $A<G$, $B\triangleleft G$. Then $AB<G$, $B\triangleleft AB$, $A\cap B\triangleleft A$, and $(AB) / B\simeq A/(A\cap B)$. 
