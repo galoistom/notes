@@ -92,3 +92,5 @@ One immediately note that $\psi$ is surjective, so we only have to check that it
 *Proof*: Normal is easy to check. Consider $A\rightarrow AB\rightarrow(AB) / B$, $a\in A$ is in the kernel is when $a \in B$ is in $B$ as well, i.e. $a\in A\cap B$, and use the theorem 1.
 
 **Theorem** 3: $H\triangleleft K\triangleleft G$. Then $K / H \triangleleft G /H$, and $(G / H)/(K / H)\simeq G / K$. 
+
+*Proof*: Consider $G / H\rightarrow G / K$, $gH\mapsto gK$, we need to check it has kernel $K / H$. As if $gH$ s.t. $gK=K$, then $g\in K$, so $ker=\{ gH:g\in K \}=K / H$. 
