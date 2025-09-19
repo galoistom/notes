@@ -47,4 +47,4 @@ $$
 
 As to the second one, we proof it by induction. We know that $a=\sum_{b\subset A}Ind_{B}^{A}(\theta_{B})=\theta_{A}+\sum_{B\neq A}Ind_{B}^{A}(\theta_{B})$. The induction hypothesis gives $\theta_{B}\in R(B)$ for $B\neq A$, hence $Ind_{B}^{A}(\theta_{B})$ belongs to $R(A)$; on hte other hand. It is clear that $a\in R(A)$ and so it follows that $\theta_{A}$ belongs to $R(A)$. 
 
-How those this helps us the proof the Artin's theorem? In fact, on note that If $A'$ is contained in $gAg^{-1}$ for some $g$, then $Ind_{A'}^{G}$ is contained in $Ind_{A}^{G}$, 
+How those this helps us the proof the Artin's theorem? In fact, on note that If $A'$ is contained in $gAg^{-1}$ for some $g$, then $Ind_{A'}^{G}$ is contained in $Ind_{A}^{G}$, so we may assume without loss that $X$ is consists of only cyclic subgroups. Using the proposition above, we know that $g=\sum_{A\in X}Ind_{A}^{G}(\theta_{A})$ belongs to the image of $Ind$, which is in fact an ideal, so it proof the second sersion of 2.  
