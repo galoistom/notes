@@ -35,3 +35,8 @@ $$
 0 \qquad\text{otherwise}\end{cases}
 $$
 
+We then notice the two following proposition:
+1. If $G$ is a finite group of order $g$, then $g=\sum_{A\subset G}Ind_{A}^{G}(\theta_{A})$, where $A$ runs through all the cyclic subgroups of $G$.
+2. If $A$ is a cyclic group, then $\theta_{A}\in R(A)$. 
+
+For the first, put $\theta_{A}'=Ind^{G}_{A}(\theta_{A})$. For $x \in G$. 
