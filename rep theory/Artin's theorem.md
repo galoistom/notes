@@ -49,5 +49,5 @@ As to the second one, we proof it by induction. We know that $a=\sum_{b\subset A
 
 How those this helps us the proof the Artin's theorem? In fact, on note that If $A'$ is contained in $gAg^{-1}$ for some $g$, then $Ind_{A'}^{G}$ is contained in $Ind_{A}^{G}$, so we may assume without loss that $X$ is consists of only cyclic subgroups. Using the proposition above, we know that $g=\sum_{A\in X}Ind_{A}^{G}(\theta_{A})$ belongs to the image of $Ind$, which is in fact an ideal, so it proof the second sersion of 2.  
 
+**Proposition**: If $A$ is cyclic of order $a$, put $\lambda_{A}=\phi(a)r_{A}-\theta_{A}$, where $\phi(a)$ is the number of generators of $A$ and $r_{A}$ is the character of regular representation of $A$ (c.f. [[Basic Definitions of representation]]). Then $\lambda_{A}$ is orthogonal to the unit character. Show that, if $A$ runs over the set of cyclic subgroups of a group $G$ of order $g$, we have $\sum_{A\subset G}Ind_{A}^{G}(\lambda_{A})=g(r_{G}-1)$, where $r_{G}$ is the character of the regular representation of $G$. 
 
-**Proposition**: If $A$ is cyclic of order $a$, put $\lambda_{A}=\phi(a)r_{A}-\theta_{A}$, where $\phi(a)$ is the number of generators of $A$ and $r_{A}$ is the character of regular representation of $A$ (c.f. [[Basic Definitions of representation]]). Then $\lambda_{A}$ is orthogonal to the unit character. 
