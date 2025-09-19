@@ -51,3 +51,4 @@ How those this helps us the proof the Artin's theorem? In fact, on note that If 
 
 **Proposition**: If $A$ is cyclic of order $a$, put $\lambda_{A}=\phi(a)r_{A}-\theta_{A}$, where $\phi(a)$ is the number of generators of $A$ and $r_{A}$ is the character of regular representation of $A$ (c.f. [[Basic Definitions of representation]]). Then $\lambda_{A}$ is orthogonal to the unit character. Show that, if $A$ runs over the set of cyclic subgroups of a group $G$ of order $g$, we have $\sum_{A\subset G}Ind_{A}^{G}(\lambda_{A})=g(r_{G}-1)$, where $r_{G}$ is the character of the regular representation of $G$. 
 
+*proof*: $\frac{1}{a}\sum_{g}\overline{T(g)}(\phi(a)\cdot r_{A}(g)-\theta_{A})=\frac{1}{a}\sum_{g}(\phi(a)r_{A}(g)-\theta_{A}(g))$, note that $\frac{1}{a}\sum_{g}\theta_{A}=\phi(a)$, and $$ 
