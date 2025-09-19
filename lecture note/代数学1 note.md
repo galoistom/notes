@@ -81,7 +81,7 @@ Isomorphism = bijection + homomorphism
 
 **Lemma**: $\phi:G\rightarrow H$ a homomorphism, then $\phi(G)$ and $ker(\phi):=\phi ^{-1}(1_{H})=\{ g\in G:\phi(g)=1_{H} \}$ are subgroup of $H$ and $G$ (ni fact, these subgroups are all normal). Moreover, $\phi ^{-1}(h)$ is a coset of $ker$ on $G$. 
 
-# Isomorphism Theorem, composition series, hölder theorem
+# Isomorphism Theorem, composition series, Hölder theorem
 **Theorem** 1: $\phi :G\rightarrow H$ homomorphism. Then $ker(\phi)\triangleleft G$, and $G / ker(\phi)\simeq \phi(G)$. 
 
 *Proof*: Define a map $\psi:G /ker(\psi)\rightarrow \phi(G)$, $g\cdot ker(\phi)\mapsto \phi(g)$. We first check $\psi$ is well defined: In fact, if $g,g'$ are in the same coset, suppose $g'=gk$, $k\in ker(\phi)$, then $\phi(g')=\phi(g)\cdot \phi(k)=\phi(g)$. It is also clear that it is indeed a homomorphism.
@@ -96,3 +96,9 @@ One immediately note that $\psi$ is surjective, so we only have to check that it
 *Proof*: Consider $G / H\rightarrow G / K$, $gH\mapsto gK$, we need to check it has kernel $K / H$. As if $gH$ s.t. $gK=K$, then $g\in K$, so $ker=\{ gH:g\in K \}=K / H$. 
 
 **Theorem** 4: $N\triangleleft G$ normal, then there is a bijection {subgroups of $G$ containing $N$} <--> {subgroups of $G / N$}, with $A\mapsto A / N$ and $\overline{A}\mapsto \pi ^{-1}(\overline{A})$, where $\pi:G\rightarrow G / N$ is the quotient map. In fact, the bijection preserves intersection, index, normal, quotient.
+
+**Definition**: A group $G$ is **simple** if it has no nontrivial normal subgroup. This definition is important because we can some how split the question into two part, first split $G$ intn parts of simple groups, and glue then together into $G$. 
+
+>[!note] Hölder's program
+>Classify all finite groups. (People have already solve the case of simple groups)
+
