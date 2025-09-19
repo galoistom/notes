@@ -1,0 +1,1 @@
+For a prime number $p$, we divide $x \in G$ into parts that is a $p$-element (has order a power of $p$), and a $p'$-element part (has order )
