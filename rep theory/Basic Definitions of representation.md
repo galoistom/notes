@@ -3,6 +3,10 @@
 >A representation $(V,\rho)$ of an algebra $A$ contains a vector space $V$ and a homomorphism $\rho: A \rightarrow GL(V)$ , and the character of the representation $\chi(a)=tr(\rho(a))$ 
 >Moreover, the definition can be extended to the modules over a ring.
 
+Example:
+1. Trivial homomorphism construct a basic representation, thought it is too trivial, so we will not pay much attention to it.
+2. The regular representation is another example. It is seeing the elements in $G$ as basis, and the group action  on $G$ itself is then the "rotation" of basis, which is also a representation. This is important, many of the result we have is based on this representation. One know the character $r_{G}$ is simple, just take $\lvert G \rvert$ on $1_{G}$ and $0$ on all *others*. 
+
 Further definition: $(V,\rho)$ is said to be irreducible if $V$ do not have a non-trivial subspace(resp. submodule) that is stable under $\rho$.  We will see that the character $\chi$ of the representation $\rho$ more of less determined the whole representation. A group homomorphism $f:G \rightarrow k$ ($k$ a field) is called a class function if $f(tst^{-1})=f(s)$ for all $s,t \in G$, it is easy to see that $\chi$ is a class function over $G$.
 
 >[!note] induced representation and restriction(especially over finite group)
