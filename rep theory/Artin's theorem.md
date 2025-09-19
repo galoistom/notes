@@ -45,3 +45,6 @@ $$
 $$
 , taking sum over $A\subset G$, then we notice that $yxy^{-1}$ generates a unique cyclic subgroup of $G$ for each $y\in G$, we have $LHS=g$. 
 
+As to the second one, we proof it by induction. We know that $a=\sum_{b\subset A}Ind_{B}^{A}(\theta_{B})=\theta_{A}+\sum_{B\neq A}Ind_{B}^{A}(\theta_{B})$. The induction hypothesis gives $\theta_{B}\in R(B)$ for $B\neq A$, hence $Ind_{B}^{A}(\theta_{B})$ belongs to $R(A)$; on hte other hand. It is clear that $a\in R(A)$ and so it follows that $\theta_{A}$ belongs to $R(A)$. 
+
+How those this helps us the proof the Artin's theorem? In fact, on note that If $A'$ is contained in $gAg^{-1}$ for some $g$, then $Ind_{A'}^{G}$ is contained in $Ind_{A}^{G}$, 
