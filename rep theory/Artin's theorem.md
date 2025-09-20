@@ -59,3 +59,7 @@ $$
 \Phi(s)^{g}=\prod_{A}L_{F / F_{A}}(s,\lambda_{A})
 $$
 , where $F_{A}$s denotes the subfield of $F$ corresponding to the cyclic subgroup $A$. The functions $L_{F / F_{A}}(s,\lambda_{A})$ are "abelian" $L$-functions, and  hence holomorphic. So we see that this result still holds for non-Galois extensions. 
+
+---
+# How do we interpret this?
+One should see the artin's throrem as the tool telling us $Ind_{H}^{G}$ "spans" $R(G)$, if $\{ H \}$ is big enough, in particular, $\{ C \}$ consists of all cyclic subgroups is the one that is big enough. 

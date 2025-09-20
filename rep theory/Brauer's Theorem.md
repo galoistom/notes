@@ -1,5 +1,5 @@
 #rep #algebra 
-[[[Basic Definitions of representation]]]
+[[Basic Definitions of representation]]
 
 For a prime number $p$, we divide $x \in G$ into parts that is a $p$-element (has order a power of $p$), and a $p'$-element part (has order prime to $p$). Written formally, let $x=x_{u}x_{r}=x_{r}x_{u}$, with $\lvert x_{u} \rvert=p^{\alpha}$ for some $\alpha \in \mathbb{N}$, and $gcd(\lvert x_{r} \rvert,p)=1$. Moreover, a group $H$ is said to be $p$-elementary if it is the direct product of a cyclic group of order prime to $p$ with a $p$-group $P$. Such a group is nilpotent and unique. 
 
