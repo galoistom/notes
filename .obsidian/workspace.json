@@ -167,7 +167,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,7 +182,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "af8e6cd753171a2c",
+  "active": "ed42d472bb5b3035",
   "lastOpenFiles": [
     "rep theory/Artin's theorem.md",
     "rep theory/Brauer's Theorem.md",
