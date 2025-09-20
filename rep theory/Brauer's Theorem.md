@@ -1,3 +1,6 @@
+#rep #algebra 
+[[[Basic Definitions of representation]]]
+
 For a prime number $p$, we divide $x \in G$ into parts that is a $p$-element (has order a power of $p$), and a $p'$-element part (has order prime to $p$). Written formally, let $x=x_{u}x_{r}=x_{r}x_{u}$, with $\lvert x_{u} \rvert=p^{\alpha}$ for some $\alpha \in \mathbb{N}$, and $gcd(\lvert x_{r} \rvert,p)=1$. Moreover, a group $H$ is said to be $p$-elementary if it is the direct product of a cyclic group of order prime to $p$ with a $p$-group $P$. Such a group is nilpotent and unique. 
 
 >[!note] Brauer's Theorem
@@ -8,3 +11,5 @@ Let $X(p)$ be the family of $p$-elementary subgroups of $G$. The group $V_{p}$ i
 > [!note] Another version
 > Let $g=p^{n}l$ be the order of $G$, with $gcd(p,l)=1$. Then $l\in V_{p}$. 
 
+*Proof*: 
+We first guess what we should do. First we notice that $\mathbb{Z}$ is far to rigid, as $\chi$ may not have values in $\mathbb{Z}$. It is not so difficule to handle this, simply change the base ring from $\mathbb{Z}$ to  $A=\mathbb{Z}[\zeta]$ where $\zeta$ is the n-th root of unity, and with $\mathbb{Q}\cap A=\mathbb{Z}$, we are perfactly sure that this will work. In fact,  consider the tensoring mentioned in [[Artin's theorem]] together with $A$ is a finitly generated $\mathbb{Z}$ module, we know that $(A\otimes V_{p})\cap R(G)=V_{p}$.  
