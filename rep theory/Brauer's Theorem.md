@@ -43,4 +43,8 @@ First, this helps us charaterize characters.
 **Theorem**: Let $\phi$ be a class function on $G$ such that, for each elementary subgroup $H$ of $G$, we have $Res^{G}_{H}(\phi)\in B\otimes R(H)$. 
 (Just consider $\phi=\sum_{H}\phi \cdot Ind_{H}^{G}f_{H}=\sum_{H}Ind_{H}^{G}(f_{H}\cdot Res_{H}^{G}\phi)$)
 
-**Theorem**: Let $\phi$ be a calss function on $G$ such that, for each elementary subgroup $H$ of $G$, and each character
+**Theorem**: Let $\phi$ be a calss function on $G$ such that, for each elementary subgroup $H$ of $G$, and each character $\chi$ of degree 1 of $H$, the number 
+$$
+\langle \chi,Res_{H}\phi \rangle_{H}=\frac{1}{\#H} \sum_{s \in H} \chi(s^{-1})\phi(s)
+$$
+belongs to $B$. Then $\phi$ belongs to $B\otimes R(G)$. 
