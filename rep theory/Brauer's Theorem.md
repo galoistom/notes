@@ -48,3 +48,5 @@ $$
 \langle \chi,Res_{H}\phi \rangle_{H}=\frac{1}{\#H} \sum_{s \in H} \chi(s^{-1})\phi(s)
 $$
 belongs to $B$. Then $\phi$ belongs to $B\otimes R(G)$. 
+
+**A theorem of Forbenius**: Let $n\in \mathbb{Z}_{\geq1}$, $f$ a class function on $G$, then $\Psi^{n}f$
