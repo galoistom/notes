@@ -34,3 +34,13 @@ From this theorem, we know that:
 **Theorem**: Each character of $G$ is a linear combination with integer coefficients of characters induced from characters of elementary subgroups. 
 
 **Theorem**s: Each character of $G$ is a linear combination with integer coefficients of monomial characters. 
+
+---
+# Applications
+
+First, this helps us charaterize characters.
+
+**Theorem**: Let $\phi$ be a class function on $G$ such that, for each elementary subgroup $H$ of $G$, we have $Res^{G}_{H}(\phi)\in B\otimes R(H)$. 
+(Just consider $\phi=\sum_{H}\phi \cdot Ind_{H}^{G}f_{H}=\sum_{H}Ind_{H}^{G}(f_{H}\cdot Res_{H}^{G}\phi)$)
+
+**Theorem**: Let $\phi$ be a calss function on $G$ such that, for each elementary subgroup $H$ of $G$, and each character
