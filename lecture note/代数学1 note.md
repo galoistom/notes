@@ -143,3 +143,15 @@ $$
 sgn(\sigma)=\frac{\prod_{1\leq i<j\leq n}(x_{i}-x_{j})}{\prod_{1\leq i<j\leq n}(x_{i}-x_{j})} \in \{ \pm1 \}
 $$
 where $x_{i}$ are indefinite, this defines a sign of $\sigma$. Now let $A_{n}=\ker(sgn)$. 
+
+**Theorem**: if $n\geq 5$, then $A_{n}$ is simple.
+
+**Idea**: 
+1. $A_{n}$ is gen by all 3-cycles
+2. If $N\triangleleft A_{n}$ contains a 3-cycles, then is contains all 3-cycles
+3. Proof $N$ contians all 3-cycles.
+
+**Theorem**: (a stronger version of the one in [[高等代数2 note]])
+Any finitly generated abelian group $G$ is of the form $$
+
+$$
