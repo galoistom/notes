@@ -122,4 +122,4 @@ $$
 \{ 1_{G} \}\triangleleft B_{1} \triangleleft B_{2}\triangleleft \cdots \triangleleft B_{n-1} \triangleleft G
 \end{align}
 $$ 
-then if $A_{m-1}=B_{n-1}$, use induction; if $A_{m-1}\neq B_{n-1}$, then notice $A\triangleleft AB\triangleleft G$, so we must have $AB=G$. 
+then if $A_{m-1}=B_{n-1}$, use induction; if $A_{m-1}\neq B_{n-1}$, then notice $A\triangleleft AB\triangleleft G$, so we must have $AB=G$. Now we change it to $1\triangleleft(A\cap B)\triangleleft A\triangleleft AB=G$ and $1\triangleleft(A\cap B)\triangleleft B\triangleleft AB=G$, and use induction to fill up $1\triangleleft(A\cap B)$, then we have $G / A=AB / A\simeq B / (A\cap B)$, $G / B = AB /B\simeq A /(A\cap B)$. 
