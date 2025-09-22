@@ -102,3 +102,5 @@ One immediately note that $\psi$ is surjective, so we only have to check that it
 >[!note] Hölder's program
 >Classify all finite groups. (People have already solve the case of simple groups)
 
+# composition series
+**Definition**: In a group $G$, 
