@@ -102,5 +102,14 @@ One immediately note that $\psi$ is surjective, so we only have to check that it
 >[!note] Hölder's program
 >Classify all finite groups. (People have already solve the case of simple groups)
 
-# composition series
-**Definition**: In a group $G$, 
+## composition series
+**Definition**: In a group $G$, a sequence of subgroups
+$$
+\{ 1_{G} \} = N_{0} \triangleleft N_{1} \triangleleft \cdots \triangleleft N_{k}=G
+$$
+is a **composition series** if $N_{i} / N_{i-1}$ is simple. In fact, the $\{ N_{i} / N_{i-1} \}$ is called the **composition factors**. 
+
+**Theorem**(Jordan-Hölder): $G$ a finite group, then:
+1. $G$ has a composition series
+2. The composition serires factors are unique up to permutation. 
+
