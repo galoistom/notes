@@ -139,3 +139,7 @@ $S_{n}$ symmctric group of $n$ elements $\{ 1,2,\cdots,n \}$. Our goal is to int
 3. $\forall\sigma \in S_{n}$, $\sigma(a_{1}a_{2}\cdots a_{m})\sigma^{-1}=(\sigma(a_{1})\sigma(a_{2})\cdots\sigma(a_{m}))$. 
 
 **Definition**: $\forall\sigma \in G$, define
+$$
+sgn(\sigma)=\frac{\prod_{1\leq i<j\leq n}(x_{i}-x_{j})}{\prod_{1\leq i<j\leq n}(x_{i}-x_{j})} \in \{ \pm1 \}
+$$
+where $x_{i}$ are indefinite, this defines a sign of $\sigma$. Now let $A_{n}=\ker(sgn)$. 
