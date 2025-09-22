@@ -49,4 +49,4 @@ $$
 $$
 belongs to $B$. Then $\phi$ belongs to $B\otimes R(G)$. 
 
-**A theorem of Forbenius**: Let $n\in \mathbb{Z}_{\geq1}$, $f$ a class function on $G$, then $\Psi^{n}f$
+**A theorem of Forbenius**: Let $n\in \mathbb{Z}_{\geq1}$, $f$ a class function on $G$, then $\Psi^{n}f$ be the function $x\mapsto f(x^{n})$. One can check that the operator $\Psi^{n}$ send $R(G)$ to itself. If $f$ has values in $A$, the function $(g / gcd(g,n))\Psi^{n}f$ belongs tto $A\otimes R(G)$. 
