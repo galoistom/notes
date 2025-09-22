@@ -129,3 +129,6 @@ $$
 \{ 1_{G} \}=G_{0}\triangleleft G_{1}\triangleleft \cdots \triangleleft G_{s} = G
 $$
 such that $G_{i} / G_{i-1}$ is **abelian**. In fact, $G$ is solvable if and only if all composition factors of $G$ are isomorphic to $\mathbb{Z} / p\mathbb{Z}$ for some prime $p$. (Take a chain above, then fill up $G_{i-1}\triangleleft G_{i}$ with their decomposition series, as they are abelian, so all its factors must be $\mathbb{Z} / p\mathbb{Z}$). 
+
+# alternating group
+$S_{n}$ symmctric group of $n$ elements $\{ 1,2,\cdots,n \}$. Our goal is to introduce a subgroup $A_{n}$
