@@ -131,4 +131,11 @@ $$
 such that $G_{i} / G_{i-1}$ is **abelian**. In fact, $G$ is solvable if and only if all composition factors of $G$ are isomorphic to $\mathbb{Z} / p\mathbb{Z}$ for some prime $p$. (Take a chain above, then fill up $G_{i-1}\triangleleft G_{i}$ with their decomposition series, as they are abelian, so all its factors must be $\mathbb{Z} / p\mathbb{Z}$). 
 
 # alternating group
-$S_{n}$ symmctric group of $n$ elements $\{ 1,2,\cdots,n \}$. Our goal is to introduce a subgroup $A_{n}$
+$S_{n}$ symmctric group of $n$ elements $\{ 1,2,\cdots,n \}$. Our goal is to introduce a subgroup $A_{n}\triangleleft S_{n}$, normal of index 2. 
+
+**Definition**: 
+1. In $S_{n}$, for distinct $a_{1},\dots,a_{m}\in \{ 1,2,\dots,n \}$ the $m$-cycle $\sigma=(a_{1}a_{2}\cdots a_{m})$ sending $a_{i}\mapsto a_{i+1}$. In fact, all $\sigma \in S_{n}$ can be decomposed into disjoint union of cycles.
+2. A 2-cycle $(ab)$ is called a **transposition**. One can easily decompose cycles into transposition. 
+3. $\forall\sigma \in S_{n}$, $\sigma(a_{1}a_{2}\cdots a_{m})\sigma^{-1}=(\sigma(a_{1})\sigma(a_{2})\cdots\sigma(a_{m}))$. 
+
+**Definition**: $\forall\sigma \in G$, define
