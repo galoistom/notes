@@ -123,3 +123,9 @@ $$
 \end{align}
 $$ 
 then if $A_{m-1}=B_{n-1}$, use induction; if $A_{m-1}\neq B_{n-1}$, then notice $A\triangleleft AB\triangleleft G$, so we must have $AB=G$. Now we change it to $1\triangleleft(A\cap B)\triangleleft A\triangleleft AB=G$ and $1\triangleleft(A\cap B)\triangleleft B\triangleleft AB=G$, and use induction to fill up $1\triangleleft(A\cap B)$, then we have $G / A=AB / A\simeq B / (A\cap B)$, $G / B = AB /B\simeq A /(A\cap B)$. 
+
+**Definition**: A group $G$ is **solvable** if $\exists$ a chain of subgroups 
+$$
+\{ 1_{G} \}=G_{0}\triangleleft G_{1}\triangleleft \cdots \triangleleft G_{s} = G
+$$
+such that $G_{i} / G_{i-1}$ is **abelian**. In fact, $G$ is solvable if and only if all composition factors of $G$ are isomorphic to $\mathbb{Z} / p\mathbb{Z}$ for some prime $p$. (Take a chain above, then fill up $G_{i-1}\triangleleft G_{i}$ with their decomposition series, as they are abelian, so all its factors must be $\mathbb{Z} / p\mathbb{Z}$). 
