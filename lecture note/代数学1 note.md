@@ -151,7 +151,14 @@ where $x_{i}$ are indefinite, this defines a sign of $\sigma$. Now let $A_{n}=\k
 2. If $N\triangleleft A_{n}$ contains a 3-cycles, then is contains all 3-cycles
 3. Proof $N$ contians all 3-cycles.
 
-**Theorem**: (a stronger version of the one in [[高等代数2 note]])
-Any finitly generated abelian group $G$ is of the form $$
+# Direct product
+**Definition**: Let $G_{i}$ ($i\in I$) be a set of groups, the direct product of $\{ G_{i} \}$ is $\prod_{i\in I}G_{i}$, with product $(g_{i})_{i\in I}\cdot(g'_{i})_{i\in I}=(g_{i}g'_{i})_{i\in I}$. 
 
+**Theorem**: (a stronger version of the one in [[高等代数2 note]])
+Any finitly generated abelian group $G$ is of the form 
 $$
+G\simeq \mathbb{Z}^{r}\times(\mathbb{Z} / n_{1}\mathbb{Z}) \times \cdots \times (\mathbb{Z} / n_{s}\mathbb{Z})
+$$
+with $r\geq0$ and $2\leq n_{1}|n_{2}|\cdots|n_{s}$, moreover they are unique.
+
+**Remark**: we can see the direct product as the unique (up to isomorphism) $G$ (together wit $G_{i}\rightarrow G$) such that if there is a $H$ with $G_{i}\rightarrow H$, then there is a unique map $G\rightarrow H$ making the diagram commute. 
