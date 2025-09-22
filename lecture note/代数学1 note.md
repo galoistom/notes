@@ -115,3 +115,11 @@ is a **composition series** if $N_{i} / N_{i-1}$ is simple. In fact, the $\{ N_{
 
 *Proof*: 
 1. IF $G$ simple, done; if $G$ not simple, then $G$ has a normal subgroup $H\neq \{ 1_{G} \},G$, consider $\{ 1_{G} \}\triangleleft H \triangleleft G$, and use induction, and consider finite group $H$ and $G /H$, then (with the help of the isomorphism theorem 4) we are able to fill up the space on both side. 
+2. Induction on $\lvert G \rvert$. Consider 
+$$
+\begin{align} 
+\{ 1_{G} \}\triangleleft A_{1} \triangleleft A_{2}\triangleleft \cdots \triangleleft A_{m-1} \triangleleft G  \\
+\{ 1_{G} \}\triangleleft B_{1} \triangleleft B_{2}\triangleleft \cdots \triangleleft B_{n-1} \triangleleft G
+\end{align}
+$$ 
+then if $A_{m-1}=B_{n-1}$, use induction; if $A_{m-1}\neq B_{n-1}$, then notice $A\triangleleft AB\triangleleft G$, so we must have $AB=G$. 
