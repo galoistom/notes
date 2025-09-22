@@ -113,3 +113,5 @@ is a **composition series** if $N_{i} / N_{i-1}$ is simple. In fact, the $\{ N_{
 1. $G$ has a composition series
 2. The composition serires factors are unique up to permutation. 
 
+*Proof*: 
+1. IF $G$ simple, done; if $G$ not simple, then $G$ has a normal subgroup $H\neq \{ 1_{G} \},G$, consider $\{ 1_{G} \}\triangleleft H \triangleleft G$, and use induction, and consider finite group $H$ and $G /H$, then (with the help of the isomorphism theorem 4) we are able to fill up the space on both side. 
