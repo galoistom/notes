@@ -71,5 +71,11 @@ $X,Y$ be two topology, then $X\times Y=\{ (x,y):x \in X,\,y \in Y \}$ with open 
 
 # Some kinds of topological space
 **Definition**: Let $X$ be a topological space
-1. $X$ is **$T_{1}$ space** if $\forall x\neq y \in X$, there is neighbor $O_{x},O_{y}$ such that $x\not\in O_{y}$ and $y\not\in O_{x}$. 
+1. $X$ is $T_{1}$if $\forall x\neq y \in X$, there is neighbor $O_{x},O_{y}$ such that $x\not\in O_{y}$ and $y\not\in O_{x}$. 
 2. $X$ is **Hausdoff** if $\forall x\neq y\in X$, there is neighbor $O_{x},O_{y}$ such that $O_{x}\cap O_{y}=\varnothing$. 
+3. $X$ is $T_{3}$ or **regular** if for all $x$ and a closed set $A$ not containing $x$, there is a $O_{x}$ such that $O_{x}\cap A=\varnothing$.
+4. $X$ is $T_{4}$ or **normal** if for all nonintersected closed set $A_{1},A_{2}$, there are two open set $B_{1},B_{2}$ containing then and $B_{1}\cap B_{2}=\varnothing$. 
+
+**Proposition**: $X$ is $T_{1}$ <==> $\{ x \}$ is closed for all $x \in X$. 
+
+*Proof*: For all $y\neq x$, and $y \in X$, there is a neighbor $O_{y}\subset X$ such that $x\not\in O_{y}$, then consider $\bigcup_{y\neq x}O_{y}$ contains every element of $X$ except $x$, and it is in fact open, so $\{ x \}$ is closed. 
