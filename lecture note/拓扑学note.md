@@ -65,4 +65,11 @@ $X,Y$ be two topology, then $X\times Y=\{ (x,y):x \in X,\,y \in Y \}$ with open 
 **Proposition**: Let $X,Y,Z$ be topological space, $f:Z\rightarrow X\times Y$ then $f$ continuous <==> $f|_{X}$ and $f|_{Y}$ are both continuous. 
 
 *Proof*: 
-==> is straight forward, we will focous on <== . In fact, we only need to consider the open set $U\times V$, then $f^{-1}(U\times V)=f^{-1}()$ 
+==> is straight forward, we will focous on <== . In fact, we only need to consider the open set $U\times V$, then $f^{-1}(U\times V)=f^{-1}(U\times Y)\cap f^{-1}(X\times V)$ is open. 
+
+**Peano曲线**: $\mathbb{R}\simeq \mathbb{R}^{2}$, **Hilbrt曲线** 
+
+# Some kinds of topological space
+**Definition**: Let $X$ be a topological space
+1. $X$ is **$T_{1}$ space** if $\forall x\neq y \in X$, there is neighbor $O_{x},O_{y}$ such that $x\not\in O_{y}$ and $y\not\in O_{x}$. 
+2. $X$ is **Hausdoff** if $\forall x\neq y\in X$, there is neighbor $O_{x},O_{y}$ such that $O_{x}\cap O_{y}=\varnothing$. 
