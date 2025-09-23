@@ -60,4 +60,4 @@
 *Proof*: we only need to check $f^{-1}(V)$ is cloed for all $V\subset Y$ closed. Suppose $B\subset Y$ closed, then $f^{-1}(B)=\bigcup_{i=1}^{n}f_{A_{i}}^{-1}(B)$, note that $f^{-1}_{A_{i}}(B)=f^{-1}(B)\cap A_{i}$, we know that $f^{-1}(B)$ is closed. 
 
 # 乘积空间
-$X,Y$ be two topology, then $X\times Y=\{ (x,y):x \in X,\,y \in Y \}$ with open set spanned by $B=\tau_{X}\times \tau_{Y}$.
+$X,Y$ be two topology, then $X\times Y=\{ (x,y):x \in X,\,y \in Y \}$ with open set spanned by $B=\tau_{X}\times \tau_{Y}$ (one can varify this using $(U_{1}\times U_{2})\cap(V_{1}\times V_{2})=(U_{1}\cap U_{2})\times(V_{1}\cap V_{2})$). The finite case is fine, but in infinite case, there will be box topology $B_{1}=\left\{  \prod_{i\in \Lambda} U_{i}: U_{i}\in \tau_{i},\,\forall i\in\Lambda \right\}$ and $B_{2}=\left\{  \prod_{\in \Lambda}U_{i}: U_{i}\in \tau_{i},\,\forall i \in A \text{ with only finitly many} U_{i}\neq X_{i} \right\}$. 
