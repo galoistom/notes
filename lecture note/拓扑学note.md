@@ -58,3 +58,6 @@
 **Theorem**: let $\{ A_{1},\dots, A_{n} \}$ be a finite closed covering. If $f:X\rightarrow Y$, is continuous on all restrictions to $A_{i}$, then $f$ is continuous. 
 
 *Proof*: we only need to check $f^{-1}(V)$ is cloed for all $V\subset Y$ closed. Suppose $B\subset Y$ closed, then $f^{-1}(B)=\bigcup_{i=1}^{n}f_{A_{i}}^{-1}(B)$, note that $f^{-1}_{A_{i}}(B)=f^{-1}(B)\cap A_{i}$, we know that $f^{-1}(B)$ is closed. 
+
+# 乘积空间
+$X,Y$ be two topology, then $X\times Y=\{ (x,y):x \in X,\,y \in Y \}$ with open set spanned by $B=\tau_{X}\times \tau_{Y}$.
