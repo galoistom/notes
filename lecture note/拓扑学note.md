@@ -61,3 +61,8 @@
 
 # 乘积空间
 $X,Y$ be two topology, then $X\times Y=\{ (x,y):x \in X,\,y \in Y \}$ with open set spanned by $B=\tau_{X}\times \tau_{Y}$ (one can varify this using $(U_{1}\times U_{2})\cap(V_{1}\times V_{2})=(U_{1}\cap U_{2})\times(V_{1}\cap V_{2})$). The finite case is fine, but in infinite case, there will be box topology $B_{1}=\left\{  \prod_{i\in \Lambda} U_{i}: U_{i}\in \tau_{i},\,\forall i\in\Lambda \right\}$ and $B_{2}=\left\{  \prod_{\in \Lambda}U_{i}: U_{i}\in \tau_{i},\,\forall i \in A \text{ with only finitly many} U_{i}\neq X_{i} \right\}$. 
+
+**Proposition**: Let $X,Y,Z$ be topological space, $f:Z\rightarrow X\times Y$ then $f$ continuous <==> $f|_{X}$ and $f|_{Y}$ are both continuous. 
+
+*Proof*: 
+==> is straight forward, we will focous on <== . In fact, we only need to consider the open set $U\times V$, then $f^{-1}(U\times V)=f^{-1}()$ 
