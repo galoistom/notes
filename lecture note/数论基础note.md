@@ -106,4 +106,4 @@ Back to $p=x^{2}+ny^{2}$:
 1. $n$ must be a prime power. Otherwise, therer exists positive integers $1<a<b$. $gcd(a,b)=1$, $ax^{2}+by^{2}$ is a reduced form different from $x^{2}+ny^{2}$, discriminant=-4ab=-4n. Thus $h(-4n)\geq2$. 
 2. Assume that $n=2^{r}$, $r\geq3$. When $r\geq4$, $4x^{2}\pm4xy+(2^{r-1}+1)y^{2}$, thus $h(-4n)\geq3$. In the case $r=3$, $3x^{2}\pm2xy+3y^{2}$ are reduced form, so $h(-4n)\geq3$. 
 3. Assume that $n=p^{r}$, $r>1$, $p$ odd prime. Let $b=\pm2$, then $ac=p^{r}+1$, it is immediately clear that $p^{r}+1$ cannot be a power of 2 (if $r$ even, then $ac\equiv2\pmod{4}$; if not, $p+1|p^{r}+1$). So $p^{r}$ failed when $r>1$.
-4. $n=p$ a odd prime. Similar argument tells us that $p$ must be of the form $2^{q}+1$. 
+4. $n=p$ a odd prime. Similar argument tells us that $p$ must be of the form $2^{q}-1$. Take $b=6$, we know that $ac=2^{q}+8$, which cannot be a prime or a $2^{k}$, the only exception is that the factor are too small, i.e. $2^{q-3}+1<6$, $q=0,1,2,3,4,5$, so $p=3,7,31$. To rule out $p=31$, $5x^{2}\pm4xy+7y^{2}$ 
