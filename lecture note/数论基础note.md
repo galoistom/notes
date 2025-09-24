@@ -116,3 +116,9 @@ $$
 \begin{cases}x^{2}-\frac{D}{4}y^{2} \qquad &\text{if } D\equiv0\pmod{4} \\
 x^{2}+xy+\frac{1-D}{4}y^{2}\qquad &\text{if } D\equiv1\pmod{4}\end{cases}
 $$
+
+**Lemma**: Let $f(x,y)$ be a primitive form and $M\in \mathbb{Z}_{>0}$. Then $\exists x,y\in \mathbb{Z}$ such that $gcd(f(x,y),M)=1$. 
+
+*Proof*: We can reduce it to the case of $M$ prime. Put $f(x,y)=ax^{2}+bxy+cy^{2}$, $a,b,c\in \mathbb{Z}$, $gcd(a,b,c)=1$, $f(1,0)=a$, $f(0,1)=c$, $f(1,1)=a+b+c$, as $gcd(a,b,c)=1$, one of them must be prime to $p$. 
+
+**Lemma**: $D\in \mathbb{Z}_{<0}$, $D\equiv0,1\pmod{4}$, $\chi:(\mathbb{Z} / D\mathbb{Z})^{\times}\rightarrow \{ \pm1 \}$, $\chi([p])=\left( \frac{D}{p} \right)$, then $ker(\chi)\subset$
