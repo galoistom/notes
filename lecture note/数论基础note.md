@@ -96,7 +96,7 @@ We consider some small cases:
 
 Back to $p=x^{2}+ny^{2}$:
 
-**Proposition**: If $h(-4n)=1$, then $\exists x,y\in \mathbb{Z}$, $p=x^{2}+ny^{2}$ <==> $\frac{-n}{p}=1$. 
+**Proposition**: If $h(-4n)=1$, then $\exists x,y\in \mathbb{Z}$, $p=x^{2}+ny^{2}$ <==> $\left(\frac{-n}{p}\right)=1$. 
 
 **Theorem**: let $n$ be a positive integer, then $h(-4m)=1$ <==> $n=1,2,3,4,7$.
 
@@ -109,4 +109,10 @@ Back to $p=x^{2}+ny^{2}$:
 4. $n=p$ a odd prime. Similar argument tells us that $p$ must be of the form $2^{q}-1$. Take $b=6$, we know that $ac=2^{q}+8$, which cannot be a prime or a $2^{k}$, the only exception is that the factors are too small, i.e. $2^{q-3}+1<6$, $q=0,1,2,3,4,5$, so $p=3,7,31$. To rule out $p=31$, $5x^{2}\pm4xy+7y^{2}$ is reduced form, hance $h(-124)\geq3$.
 
 # Elementry genus group
-Two primitive prositive definite forms of discriminant $D$ are said to be in the same genus if they represent the same value in $(\mathbb{Z} / D\mathbb{Z})^{\times}$. 
+Two primitive prositive definite forms of discriminant $D$ are said to be in the same genus if they represent the same value in $(\mathbb{Z} / D\mathbb{Z})^{\times}$, $D\equiv0,1\pmod{4}$
+
+**Definition**: Let **Principle form** be:
+$$
+\begin{cases}x^{2}-\frac{D}{4}y^{2} \qquad &\text{if } D\equiv0\pmod{4} \\
+x^{2}+xy+\frac{1-D}{4}y^{2}\qquad &\text{if } D\equiv1\pmod{4}\end{cases}
+$$
