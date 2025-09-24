@@ -79,3 +79,5 @@ $X,Y$ be two topology, then $X\times Y=\{ (x,y):x \in X,\,y \in Y \}$ with open 
 **Proposition**: $X$ is $T_{1}$ <==> $\{ x \}$ is closed for all $x \in X$. 
 
 *Proof*: For all $y\neq x$, and $y \in X$, there is a neighbor $O_{y}\subset X$ such that $x\not\in O_{y}$, then consider $\bigcup_{y\neq x}O_{y}$ contains every element of $X$ except $x$, and it is in fact open, so $\{ x \}$ is closed. 
+
+**Proposition**: In a Hausdoff space $X$, a sequence will not converge to two point. (if not, all $x_{n}$ will be in neighbor of both $x$ and $y$) 
