@@ -97,3 +97,11 @@ We consider some small cases:
 Back to $p=x^{2}+ny^{2}$:
 
 **Proposition**: If $h(-4n)=1$, then $\exists x,y\in \mathbb{Z}$, $p=x^{2}+ny^{2}$ <==> $\frac{-n}{p}=1$. 
+
+**Theorem**: let $n$ be a positive integer, then $h(-4m)=1$ <==> $n=1,2,3,4,7$.
+
+*Proof*: 
+" ==> " is simple. 
+" <== ", assume that $h(-4n)=-1$. 
+1. $n$ must be a prime power. Otherwise, therer exists positive integers $1<a<b$. $gcd(a,b)=1$, $ax^{2}+by^{2}$ is a reduced form different from $x^{2}+ny^{2}$, discriminant=-4ab=-4n. Thus $h(-4n)\geq2$. 
+2. Assume that $n=2^{r}$, $r\geq3$. When $r\geq4$, $4x^{2}\pm4xy+(2^{r-1}+1)y^{2}$, thus $h(-4n)\geq3$. 

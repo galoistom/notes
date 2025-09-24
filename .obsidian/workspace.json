@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lecture note/拓扑学note.md",
+                "file": "lecture note/数论基础note.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "拓扑学note"
+              "title": "数论基础note"
             }
           }
         ]
@@ -184,13 +184,13 @@
   },
   "active": "ed42d472bb5b3035",
   "lastOpenFiles": [
+    "lecture note/拓扑学note.md",
     "lecture note/代数学1 note.md",
     "rep theory/Brauer's Theorem.md",
     "Books/代数/Abstract Algebra Second Edition (Pierre Antoine Grillet) (Z-Library).pdf",
     "rep theory/Artin's theorem.md",
     "rep theory/Basic Definitions of representation.md",
     "lecture note/数论基础note.md",
-    "lecture note/拓扑学note.md",
     "algebraic number theory/Minkowski Lattice Therorem.md",
     "algebraic number theory/Dirichlet Unit Theorem.md",
     "conflict-files-obsidian-git.md",
