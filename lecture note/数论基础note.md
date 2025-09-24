@@ -121,4 +121,9 @@ $$
 
 *Proof*: We can reduce it to the case of $M$ prime. Put $f(x,y)=ax^{2}+bxy+cy^{2}$, $a,b,c\in \mathbb{Z}$, $gcd(a,b,c)=1$, $f(1,0)=a$, $f(0,1)=c$, $f(1,1)=a+b+c$, as $gcd(a,b,c)=1$, one of them must be prime to $p$. 
 
-**Lemma**: $D\in \mathbb{Z}_{<0}$, $D\equiv0,1\pmod{4}$, $\chi:(\mathbb{Z} / D\mathbb{Z})^{\times}\rightarrow \{ \pm1 \}$, $\chi([p])=\left( \frac{D}{p} \right)$, then $ker(\chi)\subset$
+**Lemma**: $D\in \mathbb{Z}_{<0}$, $D\equiv0,1\pmod{4}$, $\chi:(\mathbb{Z} / D\mathbb{Z})^{\times}\rightarrow \{ \pm1 \}$, $\chi([p])=\left( \frac{D}{p} \right)$, $ker(\chi)\subset \mathbb{Z}$, then:
+1. The values in $(\mathbb{Z} / D\mathbb{Z})^{\times}$ represented by principle form a subgroup $H$ of $ker(\chi)$.
+2. The values in $(\mathbb{Z} / D\mathbb{Z})^{\times}$ represented by $f(x,y)$ form a coset of $H$ in $ker(\chi)$. 
+
+*Proof*:
+1. If $m$ is represented by $f(x,y)$ of discriminant $D$, then $[m]\in ker(\chi)$. Assume $D\equiv0\pmod{4}$, there exists $x,y\in \mathbb{Z}$ $m=ax^{2}+bxy+cy^{2}=f(x,y)$. PUt $d=gcd(x,y)$l, $x'=\frac{x}{d}$, $y'=\frac{y}{d}$, $m'=\frac{m}{d^{}}$
