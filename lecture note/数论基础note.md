@@ -41,7 +41,7 @@ In fact, $p|x^{2}+ny^{2}$ for some $x,y$ if and only of $\left( \frac{-n}{p} \ri
 For "$x^{2}+ny^{2}$", consider $D=-4n$ $\rightsquigarrow$ $\chi:(\mathbb{Z} / D\mathbb{Z})^{\times} \rightarrow \{ \pm1 \}$. Then if there is a $x,y \in \mathbb{Z}$, $gcd(x,y)=1$ such that $p|x^{2}+ny^{2}$, then we have $\chi([p])=1$. 
 
 cases of $n=5,27,64$:
-1. $n=5$, $p$ odd prime $\neq5$. Then $p=x^{2}+2y^{2}$ <==> $p\equiv1\text{ or } 9\pmod{20}$, $2p=x^{2}+5y^{2}$ <==> $p=2u^{2}+2uv+3v^{2}$ <==> $p\equiv3\text{ or }7\pmod{20}$. In this case, $\left( \frac{-5}{p} \right)=1$ <==> $p\equiv1,3,7,9\pmod{20}$. 
+1. $n=5$, $p$ odd prime $\neq5$. Then $p=x^{2}+2y^{2}$ <\==> $p\equiv1\text{ or } 9\pmod{20}$, $2p=x^{2}+5y^{2}$ <\==> $p=2u^{2}+2uv+3v^{2}$ <\==> $p\equiv3\text{ or }7\pmod{20}$. In this case, $\left( \frac{-5}{p} \right)=1$ <\==> $p\equiv1,3,7,9\pmod{20}$. 
 2. $n=27$, $p$ odd prime $\neq3$. Then $p=x^{2}+27y^{2}$ <==> $p\equiv1\pmod{(3)}$, and $2$ is a cubic residue module $p$. 
 3. $n=64$, $p$ odd prime. Then $p=x^{2}+64y^{2}$ <==> $p\equiv1\pmod{4}$ and $2,5$ a biquadratic residue module $p$. 
 
