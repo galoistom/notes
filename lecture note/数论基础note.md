@@ -139,5 +139,13 @@ $$
 **Corollary**: $n$ positive integer $D=-4n$, $p$ odd prime, $gcd(p,n)=1$. Then $[p]\in H$ <==> $p\equiv\beta ^{2}$ or $\beta ^{2}+n\pmod{4n}$. 
 
 # Gauss, composition and genera
-**lemma**: let $p_{1},q_{2},\dots,p_{r},q_{r},m \in \mathbb{Z}$ with $gcd(p_{1},p_{2},\dots,p_{r},m)=1$. Then the congruences $p_{i}B\equiv q_{i}\pmod{m}$ have a unique solution modulo $m$ if and only if $\forall i,j$ $p_{i}q_{j}-p_{j}q_{i}\equiv0\pmod{m}$. (easy)
+**lemma**: let $p_{1},q_{2},\dots,p_{r},q_{r},m \in \mathbb{Z}$ with $gcd(p_{1},p_{2},\dots,p_{r},m)=1$. Then the congruences $p_{i}B\equiv q_{i}\pmod{m}$ have a unique solution modulo $m$ if and only if $\forall i,j$ $p_{i}q_{j}-p_{j}q_{i}\equiv0\pmod{m}$. (easy, suppose $\sum_{i}a_{i}p_{i}\equiv1\pmod{m}$, then $B\equiv \sum_{i}a_{i}q_{i}\pmod{m}$)
 
+**Lemma**: $f(x,y)=ax^{2}+bxy+cy^{2}$, $g(x,y)=a'x^{2}+b'xy+c'y^{2}$ with discriminant $D$, $gcd\left( a,a', \frac{b+b'}{2} \right)=1$. Then there is a unique integerr $B\pmod{2aa'}$ such that 
+$$
+\begin{cases}B&\equiv b&\pmod{2a} \\
+B&\equiv b'&\pmod{2a'} \\
+B^{2}&\equiv D&\pmod{4aa'}\end{cases}
+$$
+
+*Proof*: Notice that $4aa'|(B-b)(B-b')$, so $(b+b')B\equiv bb'+D\pmod{4aa'}$. 
