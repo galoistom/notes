@@ -139,3 +139,5 @@ $$
 **Corollary**: $n$ positive integer $D=-4n$, $p$ odd prime, $gcd(p,n)=1$. Then $[p]\in H$ <==> $p\equiv\beta ^{2}$ or $\beta ^{2}+n\pmod{4n}$. 
 
 # Gauss, composition and genera
+**lemma**: let $p_{1},q_{2},\dots,p_{r},q_{r},m \in \mathbb{Z}$ with $gcd(p_{1},p_{2},\dots,p_{r},m)=1$. Then the congruences $p_{i}B\equiv q_{i}\pmod{m}$ have a unique solution modulo $m$ if and only if $\forall i,j$ $p_{i}q_{j}-p_{j}q_{i}\equiv0\pmod{m}$. (easy)
+
