@@ -63,3 +63,5 @@ $$
 Consequently $a_{c}(x)$ is divisible by $p^{a}$, and a fortiori by $gcd(g,n)$. 
 
 **Lemma**: Let $p$ be a prime number. Let $x$ be a $p'$-element of $G$, $C$ the genreated by $x$, and $P$ a Sylow $p$-subgroup of the centralizer $Z(x)$ of $x$ in $G$. Let $H$ be a subgroup of $G$ containing no conjugate $C\times P$, let $\psi$ be a class function on $H$ with values in $A$, and let $\psi'=Ind_{H}^{G}\psi$. Then $\psi'(x)\equiv0\pmod{pA}$. 
+
+*Proof*: Let $S(x)$ be the set of conjugates of $x$. Then $\psi'(x)=\frac{\#Z(x)}{\#H}\sum_{y \in S(x)\cap H}\psi(y)$. Let $(Y_{i})_{i\in I}$  be the distinct $H$-conjugazy classes contined in $S(x)\cap H$, and choose an element $y_{i}$ in each $Y_{i}$. The number of conjugates of $y_{i}$ in $H$ is equal to $\#Y_{i}$ and also equal to $(H:H\cap Z(y_{i}))$. Therefore $\psi'(x)=\sum_{i\in I}\psi(y_{i})$, with $n_{i}=\frac{\#Z(y_{i})}{\#(H\cap Z(y_{i}))}$. Suppose we have $n_{i}\not\equiv0\pmod{p}$ for some $i\in I$. Then $\#Z(y_{i})$ and $\#(H)$ 
