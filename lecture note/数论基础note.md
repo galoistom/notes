@@ -130,6 +130,12 @@ $$
 2. $f_{0}(x,y)=x^{2}+ny^{2}$, $D=-4n$, let $(x,y)\in \mathbb{Z}-\{ (0,0) \}$, $(u,v)\in \mathbb{Z}-\{ (0,0) \}$, $gcd(f_{0}(x,y),D)=1$, then $(x^{2}+ny^{2})(u^{2}+nv^{2})=(xu-nyv)^{2}+n(xv+yu)^{2}$. So it is cloed under multiplication, hance a subgroup of $H$. 
 3. Let $a>0$, be represented by $f(x,y)$ and $gcd(a,D)=1$. Then $f(x,y)$ is properly equivalent to some $ax^{2}+bxy+cy^{2}$, $x,y\in \mathbb{Z}$, and $gcd(ax^{2}+bxy+cy^{2},D)=1$, then $a(ax^{2}+bxy+cy^{2})=\left( a+\frac{b}{2}y \right)+ny^{2}$. Thus $[a]H_{f}\subset H$, let $u,v\in \mathbb{Z}$, $gcd(u^{2}+nv^{2},D)=1$, $a(u^{2}+nv^{2})=a\left( u-\frac{b}{2}v \right)+b\left( u-\frac{b}{2}v \right)+c(av)^{2}$. Thus $[a]H\subset H_{f}$, now we have $[a]H\subset H_{f}\subset[a]^{-1}H$. Therefore $[a]^{2}\in H$ or $[a]H=[a]^{-1}H$. 
 
+**Definition**: Since distinct cosets of $H$ are disjoint, we know that different genera represent disjoint values in $(\mathbb{Z} / D\mathbb{Z})^{*}$. This allows us to describe genera cosets $H'$ of $H$ in $ker(\chi)$. We define the **genus** of $H'$ to consist of all forms of discriminant $D$ which represent the values of $H'$ modulo $D$. Then we have the following therorem:
+
+**Theorem**: Assume that $D\equiv0,1\pmod{4}$ is negative, and let $H\subset ker(\chi)$ be the values in $(\mathbb{Z} / D\mathbb{Z})^{*}$ represented by the principle form of discriminant $D$. If $H'$ is a coset of $H$ in $ker(\chi)$ and $p$ is a nodd prime not dividing $D$, then $[p]\in H'$ if and only if $p$ is represented by a reduced form of discriminant $D$ in the genus of $H'$.
+
 **Proposition**: $D\equiv0,1\pmod{4}$, $p$ prime, $gcd(p,D)=1$, $p \in Ker\chi$, then $[p]\in H'$ <==> $\exists f$ in the genus of $H'$ such that $f$ represents $p$. 
 
 **Corollary**: $n$ positive integer $D=-4n$, $p$ odd prime, $gcd(p,n)=1$. Then $[p]\in H$ <==> $p\equiv\beta ^{2}$ or $\beta ^{2}+n\pmod{4n}$. 
+
+# Gauss, composition and genera
