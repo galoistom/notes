@@ -148,4 +148,6 @@ B&\equiv b'&\pmod{2a'} \\
 B^{2}&\equiv D&\pmod{4aa'}\end{cases}
 $$
 
-*Proof*: Notice that $4aa'|(B-b)(B-b')$, so $(b+b')B\equiv bb'+D\pmod{4aa'}$. 
+*Proof*: Notice that $4aa'|(B-b)(B-b')$, so $\frac{1}{2} (b+b')B\equiv bb'+D\pmod{2aa'}$. One check the condition of above lemma, so $B$ exists. 
+
+With the lemma, we are now able to transfer $f,g$ into $ax^{2}+Bxy+\frac{B^{2}-D}{4a}y^{2}$ and $a'x^{2}+Bxy+\frac{B^{2}-D}{4a'}y^{2}$, and a new quadraic form $F(x,y)=aa'x^{2}+Bxy+\frac{B^{2}-D}{2aa'}y^{2}$ whose discriminant is also $D$. 
