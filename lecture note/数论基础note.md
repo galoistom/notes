@@ -154,4 +154,6 @@ With the lemma, we are now able to transfer $f,g$ into $ax^{2}+Bxy+\frac{B^{2}-D
 
 Written formaly, let $f,g,F$ be quadraic form with discriminant $D$, then we call $F$ a **composition** of $f$ and $g$ if there are bilinear form $u=B_{1}(x,t,z,w)=a_{1}xz+b_{1}xw+c_{1}yz+d_{1}yw$ and $v=B_{2}(x,y,z,w)=a_{2}xz+b_{2}xw+c_{2}yz+d_{2}yw$, such that $f(x,y)g(z,w)=F(u,v)$. 
 
-**Lemma**: If $F$ is a composition of $f$ and $g$, then $a_{1}b_{2}-a_{2}b_{1}=\pm f(1,0)=\pm a$, $a_{1}c_{2}-a_{2}c_{1}=\pm g(1,0)=\pm a'$. (taking in turns $(x,y)=$)
+**Lemma**: If $F$ is a composition of $f$ and $g$, then $a_{1}b_{2}-a_{2}b_{1}=\pm f(1,0)=\pm a$, $a_{1}c_{2}-a_{2}c_{1}=\pm g(1,0)=\pm a'$. (taking in turns $(x,y)=(1,0)$ and $(z,w)=(1,0)$)
+
+We hope that the composition is unique (up to equivalence?). Unfortunately, this is not true in general. But if we ask $a_{1}b_{2}-a_{2}b_{1}=f(1,0)$ and $a_{1}c_{2}-a_{2}c_{1}=g(1,0)$, then we call $F$ is a **direct composition**, and its properly equivalent class is unique. 
