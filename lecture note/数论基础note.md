@@ -151,3 +151,7 @@ $$
 *Proof*: Notice that $4aa'|(B-b)(B-b')$, so $\frac{1}{2} (b+b')B\equiv bb'+D\pmod{2aa'}$. One check the condition of above lemma, so $B$ exists. 
 
 With the lemma, we are now able to transfer $f,g$ into $ax^{2}+Bxy+\frac{B^{2}-D}{4a}y^{2}$ and $a'x^{2}+Bxy+\frac{B^{2}-D}{4a'}y^{2}$, and a new quadraic form $F(x,y)=aa'x^{2}+Bxy+\frac{B^{2}-D}{2aa'}y^{2}$ whose discriminant is also $D$. 
+
+Written formaly, let $f,g,F$ be quadraic form with discriminant $D$, then we call $F$ a **composition** of $f$ and $g$ if there are bilinear form $u=B_{1}(x,t,z,w)=a_{1}xz+b_{1}xw+c_{1}yz+d_{1}yw$ and $v=B_{2}(x,y,z,w)=a_{2}xz+b_{2}xw+c_{2}yz+d_{2}yw$, such that $f(x,y)g(z,w)=F(u,v)$. 
+
+**Lemma**: If $F$ is a composition of $f$ and $g$, then $a_{1}b_{2}-a_{2}b_{1}=\pm f(1,0)=\pm a$, $a_{1}c_{2}-a_{2}c_{1}=\pm g(1,0)=\pm a'$. (taking in turns $(x,y)=$)
