@@ -75,5 +75,7 @@ Spec(A^{Cl(G)}) \rightarrow Spec(A\otimes R(G))\rightarrow Spec(A)
 $$
 surjective. 
 
-**Propsition**: If
-1. with each class $c \in Cl(G)$ we asscoiated
+**Propsition**: We obtain once and only once each prime ideal of $A\otimes R(G)$ if: 
+1. with each class $c \in Cl(G)$ we asscoiate $P_{0,c}$,
+2. with each $p$-regular class $c$ and each maximal  ideal $M$ of $A$ with residual characteristic $p$ we asscoiate $P_{M,c}$, 
+
