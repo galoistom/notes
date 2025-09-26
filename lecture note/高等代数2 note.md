@@ -633,7 +633,7 @@ Let $x \in H \cap K$, $h \in H$ $hxh{-1} \in H$, $H \subseteq N_G(K) \Rightarrow
 
 # Semidirect prouct
 Already show $G_1,G_2$ are groups, then $G_1 \times G_2$ are groups. Now we consider a "twist version".
-Given $H,N$ groups and $Aut(N)$ be the group of automorphisms $N \rightarrow N$, and a homomorphism $H \rightarrow Aut(N)$. On the set $N \times H$, define the multiplication $(n,h)(n'h')=(n \phi_h(n),hh')$. Then the group will be denoted by $N \rtimes_\phi H$, and $N \rtimes H$ in short.
+Given $H,N$ groups and $Aut(N)$ be the group of automorphisms $N \rightarrow N$, and a homomorphism $H \rightarrow Aut(N)$. On the set $N \times H$, define the multiplication $(n,h)(n'h')=(n \phi_h(n'),hh')$. Then the group will be denoted by $N \rtimes_\phi H$, and $N \rtimes H$ in short.
 *Idea*: To find a group $G$ with $N \hookrightarrow G \hookleftarrow H$, $N \triangleleft G$ and all $g \in G$ can be uniquely written in the from $nh$. One can check that the above definition indeed works.
 
 Internal case: Given a group $G$ and subgroup $N,H$ when can we identify $G$ with $N \rtimes H$ for suitable $\phi$ such that $N \rtimes H \simeq G$ ? In fact, If $N \cap H =\{1\}$ and $N \triangleleft G$ then $G=NH$.

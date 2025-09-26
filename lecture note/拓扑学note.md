@@ -81,3 +81,23 @@ $X,Y$ be two topology, then $X\times Y=\{ (x,y):x \in X,\,y \in Y \}$ with open 
 *Proof*: For all $y\neq x$, and $y \in X$, there is a neighbor $O_{y}\subset X$ such that $x\not\in O_{y}$, then consider $\bigcup_{y\neq x}O_{y}$ contains every element of $X$ except $x$, and it is in fact open, so $\{ x \}$ is closed. 
 
 **Proposition**: In a Hausdoff space $X$, a sequence will not converge to two point. (if not, all $x_{n}$ will be in neighbor of both $x$ and $y$) 
+
+反例: $X=(\mathbb{R} / \{ 0 \})\cup \{ z_{1},z_{2} \}$, $p_{i}=\begin{cases}x\ &\text{ if } x\neq0\\ z_{i}\ &\text{ if }x=0\end{cases}$, choose topology making $p_{1},p_{2}$ continuous, then $X$ is neither $T_{1}$ nor $T_{2}$. 
+
+**Proposition**: $X$ is $T_{3}$ if and only if $\forall x \in X$ and open neighbor $W$, there is another open neighbor $U$ s.t. $x \in U\subset \overline{U}\subset W$. $X$ is $T_{4}$ if and only if for all closed set $A$ and a open neighbor $W$, there is a open set $U$, s.t. $A\subset U\subset \overline{U}\subset W$. 
+
+*Proof*: \==>, take $A$ a point or a set, we have $A\subset U\subset \overline{U}\subset W$, take $W=B^{c}$ for $B$ closed and disjoint with $A$, so $B$ is contained in $V=(\overline{U})^{c}$, so $X$ is $T_{3}$ or $T_{4}$. As to <== , take $B=W^{c}$, then $B$ range over all closed set disjoint $A$, and take $U,V$ be neighbor of $A,B$, then $U\subset V^{c}$, so $A\subset U\subset \overline{U}\subset V^{c}\subset B^{c}=W$. 
+
+In fact, for all nonnormal space, we are able to "normalize" it by adding a point to the space. 
+
+**Proposition**: the product of Hausdoff space is again hausdoff.
+
+**Definition**: $(X,T)$ is $C_{1}$ if $\forall x \in X$, there is countable 邻域基, i.e. $\forall x \in X$, therer is a countable many open neighbor $U_{i}$ s.t. for all open neighbor $V$ of $x$, there is a $i\in \mathbb{N}$ s.t. $x \in U_{i}\subset V$. 
+
+**Definition**: $X$ is $C_{2}$ if it has countable topological basis; and $X$ is **serperable** if 
+
+We have $C_{2}$ \==> $C_{1}$ + serperable. 
+
+**Theorem**:(lindelof) $T_{3}+C_{2} \implies T_{4}$. 
+
+We focous no 度量空间, in fact, $(X,d)$ satisfies $T_{i}$, i=1,2,3,4

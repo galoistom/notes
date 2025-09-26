@@ -154,7 +154,7 @@ where $x_{i}$ are indefinite, this defines a sign of $\sigma$. Now let $A_{n}=\k
 # Direct product
 **Definition**: Let $G_{i}$ ($i\in I$) be a set of groups, the direct product of $\{ G_{i} \}$ is $\prod_{i\in I}G_{i}$, with product $(g_{i})_{i\in I}\cdot(g'_{i})_{i\in I}=(g_{i}g'_{i})_{i\in I}$. 
 
-**Theorem**: (a stronger version of the one in [[高等代数2 note]])
+**Theorem**: (a corollary of the one in [[高等代数2 note]])
 Any finitly generated abelian group $G$ is of the form 
 $$
 G\simeq \mathbb{Z}^{r}\times(\mathbb{Z} / n_{1}\mathbb{Z}) \times \cdots \times (\mathbb{Z} / n_{s}\mathbb{Z})
@@ -162,3 +162,37 @@ $$
 with $r\geq0$ and $2\leq n_{1}|n_{2}|\cdots|n_{s}$, moreover they are unique.
 
 **Remark**: we can see the direct product as the unique (up to isomorphism) $G$ (together wit $G_{i}\rightarrow G$) such that if there is a $H$ with $G_{i}\rightarrow H$, then there is a unique map $G\rightarrow H$ making the diagram commute. 
+
+**lemma**: If $m,n\in \mathbb{Z}$, $gcd(m,n)=1$, then $\mathbb{Z} / mn\mathbb{Z}\simeq \mathbb{Z} / m\mathbb{Z}\times \mathbb{Z} / n\mathbb{Z}$. 
+
+*Proof*: Chinese Remainder theorem. 
+
+**Theorem**: (criterion of direct product) $G$ group, $H,K$ subgroup of $G$ s.t. $H,K$ normal and $H\cap K=\{ 1_{G} \}$, then $HK\simeq H\times K$. 
+
+*Proof*: We first check that $hk=kh$ for all $h\in H,k \in K$, in fact, $hkh^{-1}k^{-1}=(hkh^{-1})k^{-1}=h(kh^{-1}k^{-1})\in H\cap K=\{ 1_{G} \}$. Now set $f:H\times K\rightarrow HK\subset G$ to be $(h,k)\mapsto hk$, as $H,K$ commute, one immediately know that $f$ is a homomorphism. One may also check that $f$ is injective and surjective.
+
+# Group action
+see also in [[高等代数2 note]]
+
+**Definition**: Let $G$ be a group, $X$ a set, A **left $G$ action** on $X$ is a homomorphism $\rho :G\rightarrow S_{X}$, where $S_{X}$ is the group of permutation of $X$. 
+
+**Example**: 
+1. $S_{n}$ acting on $\{ 1,\dots,n \}$.
+2. $GL_{n}(\mathbb{C})$ acting on $\mathbb{C}^{n}$.
+3. $G$ acting on $G$ by left multiplication $x\mapsto gx$, right reanslation $x\mapsto xg^{-1}$ and conjugationg $x\mapsto gxg^{-1}$. 
+
+**Definition**:
+1. The action is called **faithful** if $ker(\rho)=\{ 1_{G} \}$.
+2. The action is trivial if $Im(\rho)=\{ id \}$. 
+
+**Theorem**: Every group is isomorphic to a subgroup of a permutation group. In particular, if $\lvert G \rvert=n<\infty$, then $G<S_{n}$. 
+
+## Semidirect product
+motive: take $N\triangleleft G$, and $H<G$, with $N\cap H=\{ e \}$, then $NH$ is a subgroup of $G$.
+
+**Definition**: Let $H,N$ be groups, $\phi:H\rightarrow Aut(N)$ be homomorphism, then $N\rtimes_{\phi}H$ be the **semidirect product** related to $\phi$. In fact, as a set, it is just $N\times H$ as set, and the multiplication is $(n_{1},h_{1})\cdot(n_{2},h_{2})=(n_{1},\phi(h_{1})(n_{2}),h_{1}h_{2})$. (One check that this is indeed a group). One can see it as $G$ such that 
+$$
+1\longrightarrow H \longrightarrow G \longrightarrow N \longrightarrow1
+$$
+
+For example $D_{2m}=\mathbb{Z} / m\mathbb{Z} \rtimes \mathbb{Z} / 2\mathbb{Z}$. 

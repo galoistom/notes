@@ -49,4 +49,17 @@ $$
 $$
 belongs to $B$. Then $\phi$ belongs to $B\otimes R(G)$. 
 
-**A theorem of Forbenius**: Let $n\in \mathbb{Z}_{\geq1}$, $f$ a class function on $G$, then $\Psi^{n}f$ be the function $x\mapsto f(x^{n})$. One can check that the operator $\Psi^{n}$ send $R(G)$ to itself. If $f$ has values in $A$, the function $(g / gcd(g,n))\Psi^{n}f$ belongs tto $A\otimes R(G)$. 
+**A theorem of Forbenius**: Let $n\in \mathbb{Z}_{\geq1}$, $f$ a class function on $G$, then $\Psi^{n}f$ be the function $x\mapsto f(x^{n})$. One can check that the operator $\Psi^{n}$ send $R(G)$ to itself. If $f$ has values in $A$, the function $(g / gcd(g,n))\Psi^{n}f$ belongs to $A\otimes R(G)$. 
+
+*Proof*: To proof $(g / gcd(g,n))\Psi^{n}f$ belong s to $A\otimes R(G)$, we only have to check that it is true for all it restriction to each elementary subgoup $H\subset G$. Now if $H$ have order $h$, the n$g / gcd(g,n)$ is divisible by $h / gcd(h,n)$. So it suffice to show that $h / gcd(h,n)\Psi^{n}(Res_{H}f)$ belongs to $A\otimes R(H)$, hence the proof is now reduced to the case of elementary groups. Since an elementary group is a product of $p$-groups, so we only have to check the case of $p$-groups. Since all irrducible characters are induced by a character of degree 1, we come down to proof the following lemma:
+
+**Lemma**: Let $c$ be a conjugacy class of a $p$-group $G$, let $\chi$ be a character of degree 1 of $G$, and let $a_{c}=\sum_{x^{n}\in c}\chi(x)$. Then $a_{c}\equiv0\pmod{gcd(g,n)A}$. 
+
+*Proof*: We may assume that $c$ is note the unit class. Suppose that $n=p^{a}m$, $gcd(m,p)=1$ and let $C$ be the set of $x \in G$ such that $x^{n}\in c$. Since $x^{n}=x^{p^{a}m}$ has order $p^{b}>1$, and since $C$ is a $p$-group, the order of $x$ is $p^{a+b}$. It follows that, if $z\equiv1\pmod{p^{b}}$, then $(x^{z})^{n}=x^{n}$, since $x \in C$; moreover, we have equality $x^{z}=x$ if and only if $z\equiv1\pmod{p^{a+b}}$. In other words, the subgroup $\Gamma$ of $(\mathbb{Z} / p^{a+b}\mathbb{Z})^{*}$ consisting of elements congruent to 1 $\pmod{p^{b}}$ freely on $C$. Now the set $C$ if partitioned into orbits under the action of $\Gamma$, and it suffices to show that the sum of the $\chi(x)$ over each orbit is divisible by $gcd(g,n)$ in the ring $A$. Such an orbit consists of elements $x^{1+p^{b}t}$, with $t\in \mathbb{Z} / p^{a}\mathbb{Z}$. The sum of the values of $\chi$ on this orbit is therefore equal to $a_{c}(x)=\chi(x)\sum_{t\pmod{p^{a}}}z^{t}$, where $z=\chi(x^{p^{b}})$. But $\chi(x)$ is a $p^{a+b}$-th root of unity, and $z$ is a $p^{a}$-th root of unity. Therefore 
+$$
+\sum_{t\pmod{p^{a}}}z^{t}=\begin{cases}p^{a}&\text{if } z=1 \\
+0&\text{if } z\neq1\end{cases}
+$$
+Consequently $a_{c}(x)$ is divisible by $p^{a}$, and a fortiori by $gcd(g,n)$. 
+
+**Lemma**: Let $p$ be a prime number. Let $x$ be a $p'$-element of $G$, $C$ the genreated by $x$, and $P$ a Sylow $p$-subgroup of the centralizer $Z(x)$ of $x$ in $G$. Let $H$ be a subgroup of $G$ containing no conjugate $C\times P$, let $\psi$ be a class function on $H$ with values in $A$, and let $\psi'=Ind_{H}^{G}\psi$. Then $\psi'(x)\equiv0\pmod{pA}$. 
