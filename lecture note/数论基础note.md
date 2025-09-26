@@ -157,3 +157,5 @@ Written formaly, let $f,g,F$ be quadraic form with discriminant $D$, then we cal
 **Lemma**: If $F$ is a composition of $f$ and $g$, then $a_{1}b_{2}-a_{2}b_{1}=\pm f(1,0)=\pm a$, $a_{1}c_{2}-a_{2}c_{1}=\pm g(1,0)=\pm a'$. (taking in turns $(x,y)=(1,0)$ and $(z,w)=(1,0)$)
 
 We hope that the composition is unique (up to equivalence?). Unfortunately, this is not true in general. But if we ask $a_{1}b_{2}-a_{2}b_{1}=f(1,0)$ and $a_{1}c_{2}-a_{2}c_{1}=g(1,0)$, then we call $F$ is a **direct composition**, and its properly equivalent class is unique. 
+
+In fact, the direct composition defines a multiplication of the class of quadraic forms $[f]*[g]=[F]$, this meas that the choice of representatives does note matter, and in fact, this multiplication is transitive and abelian. So this forms a group $C(D)=ker(\chi) / H$. 
