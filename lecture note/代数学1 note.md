@@ -190,7 +190,7 @@ see also in [[高等代数2 note]]
 ## Semidirect product
 motive: take $N\triangleleft G$, and $H<G$, with $N\cap H=\{ e \}$, then $NH$ is a subgroup of $G$.
 
-**Definition**: Let $H,N$ be groups, $\phi:H\rightarrow Aut(N)$ be homomorphism, then $N\rtimes_{\phi}H$ be the **semidirect product** related to $\phi$. In fact, as a set, it is just $N\times H$ as set, and the multiplication is $(n_{1},h_{1})\cdot(n_{2},h_{2})=(n_{1},\phi(h_{1})(n_{2}),h_{1}h_{2})$. (One check that this is indeed a group). One can see it as $G$ such that 
+**Definition**: Let $H,N$ be groups, $\phi:H\rightarrow Aut(N)$ be homomorphism, then $N\rtimes_{\phi}H$ be the **semidirect product** related to $\phi$. In fact, as a set, it is just $N\times H$ as set, and the multiplication is $(n_{1},h_{1})\cdot(n_{2},h_{2})=(n_{1}\phi(h_{1})(n_{2}),h_{1}h_{2})$. (One check that this is indeed a group). One can see it as $G$ such that 
 $$
 1\longrightarrow H \longrightarrow G \longrightarrow N \longrightarrow1
 $$
