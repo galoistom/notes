@@ -14,4 +14,12 @@ On the other hand, we know that $Spec(A)$ consists of the ideal 0 and the maxima
 
 We can rephrase it as 
 
-**Propsition**: if $M=0$, $P_{0,c_1}=$
+**Propsition**:
+1. if $M=0$, $P_{0,c_1}=P_{0,c_{2}}$ is equivalent to $c_{1}=c_{2}$. 
+2. Suppose that $M\neq0$ with residue characteristic $p$. Let $c'$ be the class consisting of the $p$ prime-components of the elements of $c_{1}$. Then $P_{M,c_{1}'}=P_{M,c_{2}'}$ if and only if $c_{1}'=c_{2}'$. 
+
+**Remark**:
+1. Let $I$ be an ideal of $A\otimes R(G)$. To show that $I$ is equal to $A\otimes R(G)$, it suffice to show that $I$ is not contained in any of the prime ideals $P_{M,c}$; this is the approach tatken in the proof of [[Brauer's Theorem]]. 
+2. We can represent $Spec(A\otimes R(G))$ graphically as a union of "lines" $D_{c}$ corresponding to the various classes $c$, each of these lines representing $Spec(A)$. These lines "intersect" if a maximal ideal $M$ of $A$ with residue characteristic $p$ and the $p'$-component of $c_{1}$ and $c_{2}$ are equal. 
+
+**Propsition**: $Spec(A\otimes R(G))$ is contained in the Zariski topology
