@@ -103,3 +103,5 @@ We have $C_{2}$ \==> $C_{1}$ + serperable.
 We focous no 度量空间, in fact, $(X,d)$ satisfies $T_{i}$, i=1,2,3,4, and a serperable measurable space is $C_{2}$. 
 
 **Urysohn's lemma**: If $X$ is normal, $A,B\subset X$ closed, $A\cap B=\varnothing$ then there is a $f:X\rightarrow[0,1]$ s.t. $f(A)=0$ and $f(B)=1$. 
+
+*Proof*: If $X$ is measurable space, $f(x):=\frac{d(x,A)}{d(x,A)+d(x,B)}$ then $f$ is continuous, 
