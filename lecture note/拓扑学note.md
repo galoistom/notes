@@ -109,3 +109,7 @@ We focous no 度量空间, in fact, $(X,d)$ satisfies $T_{i}$, i=1,2,3,4, and a 
 2. If $f(x)=0$, take $r_{k}\in \mathbb{Q}_{0}$, $0<r_{k}<b$, then $x \in U_{k}\subset f^{-1}(a,b)$.
 3. $f(x)=1$, take $r_{m}\in \mathbb{Q}_{0}$ s.t. $a<r_{k}<1$, then $x \in(\overline{U_{k}})^{c}\subset f^{-1}(a,b)$. Hence $f$ satisfies.
 
+**Tietze's extension theorem**: Continuous function on a closed set of a normal space can be extended continuously to the whole space.
+
+*Proof*: suppose $E\subset X$ closed, $f:E\rightarrow \mathbb{E}^{1}$, continuous
+1: Suppose $f(E)\subset[-1,1]$. Let $A_{1}=f^{-1}\left( \left[ -1,-\frac{1}{3} \right] \right)$, $B_{1}=f^{-1}\left( \left[ \frac{1}{3}, 1 \right] \right)$ then $A_{1}$ $B_{1}$ are closed and disjoint, use the Urysohn's lemma above, there is a $\phi_{1}:X\rightarrow \left[ -\frac{1}{3}, \frac{1}{3} \right]$ s.t. $\phi_{1}(A_{1})=\frac{1}{3}$ $\phi(B_{1})=\frac{1}{3}$
