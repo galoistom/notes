@@ -94,7 +94,7 @@ In fact, for all nonnormal space, we are able to "normalize" it by adding a poin
 
 **Definition**: $(X,T)$ is $C_{1}$ if $\forall x \in X$, there is countable 邻域基, i.e. $\forall x \in X$, therer is a countable many open neighbor $U_{i}$ s.t. for all open neighbor $V$ of $x$, there is a $i\in \mathbb{N}$ s.t. $x \in U_{i}\subset V$. 
 
-**Definition**: $X$ is $C_{2}$ if it has countable topological basis; and $X$ is **serperable** if 
+**Definition**: $X$ is $C_{2}$ if it has countable topological basis; and $X$ is **serperable** if it has a 可数稠密子集. 
 
 We have $C_{2}$ \==> $C_{1}$ + serperable. 
 
