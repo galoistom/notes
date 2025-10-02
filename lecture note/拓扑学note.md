@@ -117,4 +117,4 @@ Suppose $f(E)\subset[-1,1]$. Let $A_{1}=f^{-1}\left( \left[ -1,-\frac{1}{3} \rig
 **Urysohn's measure theorem**: $C_{2}+T_{4}+T_{2}\implies measurable$. 
 
 # compactness
-**Heine-Borel theorem**: 
+**Heine-Borel theorem**: On space $[0,1]$, all open cover is finite covered. 
