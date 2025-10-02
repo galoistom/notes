@@ -16,4 +16,5 @@ In addition to $R_{K}(G)$, we will also consider the subring $\overline{R}_{K}(G
 
 **Proposition**: The group $R_{K}(G)$ has finite index in $R_{K}(G)$.  
 
-*Proof*: First note that all irreducible representations of $G$ over $C$ can be realized over a finite extension $K|L$, suppose $$
+*Proof*: First note that all irreducible representations of $G$ over $C$ can be realized over a finite extension $K|L$, suppose $d=[L:K]$, we state that $d\cdot \overline{R}_{K}(G)\subset R_{K}(G)$. In fact, let $V$ be a linear representation of $G$ over $L$ with character $\chi$, then we are able to see it as a vector space over $K$ (with dimension $d\cdot dim_{L}V$), so the trace is evidently $Tr_{L / K}(\chi)$, which is actually $d\cdot \chi$. 
+
