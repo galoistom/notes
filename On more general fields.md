@@ -16,3 +16,4 @@ In addition to $R_{K}(G)$, we will also consider the subring $\overline{R}_{K}(G
 
 **Proposition**: The group $R_{K}(G)$ has finite index in $R_{K}(G)$.  
 
+*Proof*: First note that all irreducible representations of $G$ over $C$ can be realized over a finite extension $K|L$, suppose $$
