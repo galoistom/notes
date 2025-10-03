@@ -18,5 +18,10 @@ In addition to $R_{K}(G)$, we will also consider the subring $\overline{R}_{K}(G
 
 *Proof*: First note that all irreducible representations of $G$ over $C$ can be realized over a finite extension $K|L$, suppose $d=[L:K]$, we state that $d\cdot \overline{R}_{K}(G)\subset R_{K}(G)$. In fact, let $V$ be a linear representation of $G$ over $L$ with character $\chi$, then we are able to see it as a vector space over $K$ (with dimension $d\cdot dim_{L}V$), so the trace is evidently $Tr_{L / K}(\chi)$, which is actually $d\cdot \chi$. 
 
-Now consider $K[G]$ as the product of simple algrbras $A_{i}$, corresponding to the distinct irreducible representations $V_{i}$ of $G$ over $K$. If $D_{i}=Hom^{G}(V_{i},V_{i})$, is the commuting algebraically of $G$ in $End(V_{i})$, then $D_{i}$ is a field(not commutative), and $A_{i}$ can be identified with the algebra $End_{D_{i}}(V_{i})$ of endomorphisms of the $D_{i}$-vector space $V_{i}$. If $[V_{i}:D_{i}]=n_{i}$, then $A_{i}\simeq M_{n_{i}}(D_{i}^{\circ})$. Moreover, the degree of $D_{i}$ over $K_{i}$ is a square, say $m_{i}^{2}$; the integer $m_{i}$ is called the **schur index** of the representation $V_{i}$. 
+Now consider $K[G]$ as the product of simple algrbras $A_{i}$, corresponding to the distinct irreducible representations $V_{i}$ of $G$ over $K$. If $D_{i}=Hom^{G}(V_{i},V_{i})$, is the commuting algebraically of $G$ in $End(V_{i})$, then $D_{i}$ is a field(not commutative), and $A_{i}$ can be identified with the algebra $End_{D_{i}}(V_{i})$ of endomorphisms of the $D_{i}$-vector space $V_{i}$. If $[V_{i}:D_{i}]=n_{i}$, then $A_{i}\simeq M_{n_{i}}(D_{i}^{\circ})$. Moreover, the degree of $D_{i}$ over its center $K_{i}$ is a square, say $m_{i}^{2}$; the integer $m_{i}$ is called the **schur index** of the representation $V_{i}$. 
+
+Let $g \in G$ and $\rho_{i}(s)$ be the corresponding endomorphisms of $V_{i}$. We have to consider three kinds of "traces" of $\rho_{i}(g)$:
+1. Its trace as a $K$-endomorphism, which is known as $\chi_{i}(g)$.
+2. Its trace as a $K_{i}$-endomorphism, which we will denote by $\phi_{i}(g)$.
+3. Its reduced trace as an element of the simple algebra $A_{i}$; this is aan element of $K_{i}$ which we will denote by $\psi_{i}(g)$. 
 
