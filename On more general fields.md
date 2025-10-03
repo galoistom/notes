@@ -25,3 +25,4 @@ Let $g \in G$ and $\rho_{i}(s)$ be the corresponding endomorphisms of $V_{i}$. W
 2. Its trace as a $K_{i}$-endomorphism, which we will denote by $\phi_{i}(g)$.
 3. Its reduced trace as an element of the simple algebra $A_{i}$; this is aan element of $K_{i}$ which we will denote by $\psi_{i}(g)$. 
 
+The  relation of these three is pretty clear, $\chi_{i}=\mathrm{Tr}_{K_{i} / K}(\phi_{i})$, and $\phi_{i}(s)=m_{i}\psi_{i}(s)$. 
