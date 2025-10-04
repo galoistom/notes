@@ -27,4 +27,8 @@ Let $g \in G$ and $\rho_{i}(s)$ be the corresponding endomorphisms of $V_{i}$. W
 
 The  relation of these three is pretty clear, $\chi_{i}=\mathrm{Tr}_{K_{i} / K}(\phi_{i})$, and $\phi_{i}(s)=m_{i}\psi_{i}(s)$. 
 
-Now let $\Sigma_{i}$ be the set of $K$-homomorphism of the field $K_{i}$ into the algebraically closed field $C$. If $\sigma \in\Sigma_{i}$, scalar extension from $K$ to $C$ by means of $\sigma$ makes $D_{i}$ into a matrix algebra $M_{m_{i}}(C)$, and $A_{i}$ becomes $M_{n_{i}m_{i}}(C)$. Composing $G\rightarrow A_{i}\rightarrow M_{n_{i}m_{i}}(C)$, we obtains an irreducible representation of $G$ over $C$, of degree $n_{i}m_{i}$, and with character $$
+Now let $\Sigma_{i}$ be the set of $K$-homomorphism of the field $K_{i}$ into the algebraically closed field $C$. If $\sigma \in\Sigma_{i}$, scalar extension from $K$ to $C$ by means of $\sigma$ makes $D_{i}$ into a matrix algebra $M_{m_{i}}(C)$, and $A_{i}$ becomes $M_{n_{i}m_{i}}(C)$. Composing $G\rightarrow A_{i}\rightarrow M_{n_{i}m_{i}}(C)$, we obtains an irreducible representation of $G$ over $C$, of degree $n_{i}m_{i}$, and with character $\psi_{i,\sigma}=\sigma(\psi_{i})$. For fixed $i$, th characters $\psi_{i,\sigma}$ are conjugate: the Galois group of $C$ over $K$ permutes them transitively. Moreover, each irreducible character of $G$ over $C$ is equal to one of the $\psi_{i,\sigma}$. We have
+$$
+\chi_{i}=\mathrm{Tr}_{K_{i} / K}(\phi_{i})=\sum_{\sigma \in\Sigma_{i}}(\phi_{i}) = m_{i}\sum_{\sigma \in\Sigma_{i}}\psi_{i,\sigma}
+$$
+So we have $\chi=\sum_{i}d_{i}\psi_{i}=\sum_{i}d_{i}\chi_{i} / m_{i}$ for $\chi=\sum_{i,\sigma}=d_{i,\sigma}\psi_{i,\sigma}\in R(G)$. 
