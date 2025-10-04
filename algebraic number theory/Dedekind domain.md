@@ -16,7 +16,6 @@ Let $A$ be a dedekin domain, and $K$ be its field of fraction, then a fractional
 >[!note] ideal class group
 >We define the calss group $CL(A)$ of $A$ to be the quotient $CL(A)=Id(A)/P(A)$ where $Id(A)$ is the set of fractional ideal of $A$ embedded with the normal multiplication, and $P(A)$ is the set off all pricipal ideals of $A$.
 
-
 This give rises to the following exact sequence of groups:
 $$
 1 \longrightarrow \mathcal{O}^* \longrightarrow K^* \longrightarrow Id_K \longrightarrow CL_K \longrightarrow 1
