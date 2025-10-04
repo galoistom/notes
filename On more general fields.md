@@ -26,3 +26,5 @@ Let $g \in G$ and $\rho_{i}(s)$ be the corresponding endomorphisms of $V_{i}$. W
 3. Its reduced trace as an element of the simple algebra $A_{i}$; this is aan element of $K_{i}$ which we will denote by $\psi_{i}(g)$. 
 
 The  relation of these three is pretty clear, $\chi_{i}=\mathrm{Tr}_{K_{i} / K}(\phi_{i})$, and $\phi_{i}(s)=m_{i}\psi_{i}(s)$. 
+
+Now let $\Sigma_{i}$ be the set of $K$-homomorphism of the field $K_{i}$ into the algebraically closed field $C$. If $\sigma \in\Sigma_{i}$, scalar extension from $K$ to $C$ by means of $\sigma$ makes $D_{i}$ into a matrix algebra $M_{m_{i}}(C)$, and $A_{i}$ becomes $M_{n_{i}m_{i}}(C)$. Composing $G\rightarrow A_{i}\rightarrow M_{n_{i}m_{i}}(C)$, we obtains an irreducible representation of $G$ over $C$, of degree $n_{i}m_{i}$, and with character $$
