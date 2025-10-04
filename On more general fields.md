@@ -31,4 +31,6 @@ Now let $\Sigma_{i}$ be the set of $K$-homomorphism of the field $K_{i}$ into th
 $$
 \chi_{i}=\mathrm{Tr}_{K_{i} / K}(\phi_{i})=\sum_{\sigma \in\Sigma_{i}}(\phi_{i}) = m_{i}\sum_{\sigma \in\Sigma_{i}}\psi_{i,\sigma}
 $$
-So we have $\chi=\sum_{i}d_{i}\psi_{i}=\sum_{i}d_{i}\chi_{i} / m_{i}$ for $\chi=\sum_{i,\sigma}=d_{i,\sigma}\psi_{i,\sigma}\in R(G)$. 
+So we have $\chi=\sum_{i}d_{i}\psi_{i}=\sum_{i}d_{i}\chi_{i} / m_{i}$ for $\chi=\sum_{i,\sigma}=d_{i,\sigma}\psi_{i,\sigma}\in R(G)$. In fact, $\psi_{i}=\chi_{i} / m_{i}$ form a basis of $\overline{R}_{K}(G)$. 
+
+**Theorem**: If $K$ contains the $m$th roots of unity, then $R_{K}(G)=R(G)$. 
