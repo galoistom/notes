@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "物理.md",
-                "mode": "source",
+                "file": "Home.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "物理"
+              "title": "Home"
             }
           }
         ]
@@ -185,11 +185,11 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "物理.md",
     "Books/代数/Algebra Chapter 0.pdf",
     "Home.md",
     "rep theory/On more general fields.md",
     "algebraic number theory/Absolute value.md",
-    "物理.md",
     "Pasted image 20251006124706.png",
     "Books/代数数论/ANT Milne.pdf",
     "algebraic number theory/Dedekind domain.md",
