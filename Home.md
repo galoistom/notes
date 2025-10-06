@@ -1,9 +1,9 @@
-Currently using
-==
-1. [[代数学1 note]]
-2. [[拓扑学note]]
-3. [[数论基础note]]
-4. [[On more general fields]]
+```dataview
+TABLE file.atime AS "访问日期"
+FROM ""
+SORT file.atime DESC
+LIMIT 10
+```
 
 ---
 TODO
