@@ -1,7 +1,7 @@
 ```dataview
-TABLE file.atime AS "访问日期"
+TABLE file.mtime AS "访问日期"
 FROM ""
-SORT file.atime DESC
+SORT file.mtime DESC
 LIMIT 5
 ```
 
