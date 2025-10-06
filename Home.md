@@ -2,7 +2,7 @@
 TABLE file.atime AS "访问日期"
 FROM ""
 SORT file.atime DESC
-LIMIT 10
+LIMIT 5
 ```
 
 ---
