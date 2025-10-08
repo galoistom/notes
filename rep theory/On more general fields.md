@@ -36,3 +36,9 @@ So we have $\chi=\sum_{i}d_{i}\psi_{i}=\sum_{i}d_{i}\chi_{i} / m_{i}$ for $\chi=
 **Theorem**: If $K$ contains the $m$th roots of unity, then $R_{K}(G)=R(G)$. 
 
 **Theorem**: In order that a class function $f$ on $G$, with values in $L$, belongs to $K\otimes_{Z}R(G)$, it is necessary and sufficient that $\sigma_{t}(f(s))=f(s^{t})$ for all $s \in G$ and all $t\in\Gamma_{K}$. 
+
+*Proof*: Let $\rho$ be a representation- of $G$ with character $\chi$. For $s \in G$, the eigenvalues $\omega_{i}$ of $\rho(s)$ are the $m$th root of unity, and the eigenvalues of $\rho(s^{t})$ are the $\omega_{i}^{t}$. Thus we have $\sigma_{t}(\chi(s))=\sigma\left( \sum_{i}\sigma_{i} \right)=\sum_{i}\omega_{i}^{t}=\chi(s^{t})$. Then use the formula $f=\sum \langle f,\chi \rangle\chi$ together with $\langle \Psi^{t}f,\Psi^{t}\chi \rangle$ 
+
+**Theorem**: Let $T$ be the set of cyclic subgroups of $G$. Then the map 
+$$Q\otimes Ind:\bigoplus_{H \in T}Q\otimes R_{K}(H)\rightarrow Q\otimes R_{K}(G)$$
+defined by the maps $Q\otimes Ind^{G}_{H},\ H \in T$, is surjective. 
