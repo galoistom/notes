@@ -132,3 +132,7 @@ In fact, compact space is not necessarily closed, and its closure is not necessa
 **Bolzano-Weierstrass property**: 紧致空间的无穷子集必有聚点. 
 
 **Definition**: $X$ is called **limit point compact** (聚点紧致) if all infinite subset have a limit point. $X$ is **sequentially compact** if all sequence of $X$ have a converges subsequence. 
+
+**Proposition**: $C_{1}$ + compact ==> sequentially comapct.
+
+**Theorem**: measure space is comapct if and only if it is sequentially comapct.
