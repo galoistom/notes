@@ -220,3 +220,6 @@ For example $D_{2m}=\mathbb{Z} / m\mathbb{Z} \rtimes \mathbb{Z} / 2\mathbb{Z}$.
 3. The **normalizer** of $H$ in $G$ is $N_{G}(H)=\{ g \in G : gHg^{-1}=H\}$. 
 
 **Definition**: $G$ acts on $X$ and $Y$. Say map $\phi:X\rightarrow Y$ is **equivariant** if $\phi \circ g=g\circ\phi$. 
+
+**Definition**: The action on $X$ is called **transitive** if $\forall x,y \in X$, $\exists g \in G$ s.t. $y=gx$. 
+
