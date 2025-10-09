@@ -121,5 +121,6 @@ Suppose $f(E)\subset[-1,1]$. Let $A_{1}=f^{-1}\left( \left[ -1,-\frac{1}{3} \rig
 
 *Proof*: suppose $\mathcal{C}$ is an open cover of $[0,1]$, let $F=\{ a\in[0,1]:[0,a] \text{ have a finite subcover} \}$. One immediately know that $F$ is nonempty, and if $a\in F$, then $\forall b\in [0,a]$, $b\in F$. 从而 $F$ 是区间, 设右端点为 $A$, consider the open set that cover $A$, as it is open, we may assume that $\left( A-\frac{\epsilon}{2} , A+\frac{\epsilon}{2}\right) \in U$, so if $A\neq1$, we are able to construct a larger element in $F$, a contradicition, hence $1 \in F$. 
 
-**Definition**: A topological space is called **compact** if all open cover of $X$ have a finite subcover. 
+**Definition**: A topological space is called **compact** if all open cover of $X$ have a finite subcover. for example, $E \in \mathbb{E}^{1}$ is compact if and only if $E$ is closed and finite.
 
+In fact, compact space is not necessarily closed, and its closure is not necessarily compact.
