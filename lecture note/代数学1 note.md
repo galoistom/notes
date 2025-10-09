@@ -233,3 +233,6 @@ $$
 **Definition**: $p$ prime, say $G$ is a **$p$-group**  if $\lvert G \rvert=p^{n}$ for some $n\geq0$. 
 
 **Proposition**: If $G$ is a nontrivial $p$-group, then the center $Z(G)$ is nontrivial. In fact if $\lvert G \rvert=p^{2}$, then $G$ is abelian.
+
+# Automorphism
+
