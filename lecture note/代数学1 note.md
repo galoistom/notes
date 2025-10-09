@@ -204,3 +204,6 @@ For example $D_{2m}=\mathbb{Z} / m\mathbb{Z} \rtimes \mathbb{Z} / 2\mathbb{Z}$.
 2. $\forall x \in X$, the **orbit** of $x$ is $Orb_{G}(x):=\{ gx:g \in G \}$. In particular, we write $G \backslash X$ is the set of orbits, i.e. $\{ Gx:x \in X \}$. 
 
 **Proposition**: 
+1. $Stab_{G}(x)$ is a subgroup of $G$. 
+2. $\forall x,y \in X$, either $Orb_{G}(x)=Orb_{G}(y)$, or $Orb_{G}(x)\cap Orb_{G}(y)=\varnothing$. As a consequence, $X=\bigsqcup Orb$. 
+3. If $y=g\cdot x$, then $Stab_{G}(y)=g\cdot Stab_{G}(x)\cdot g^{-1}$. 
