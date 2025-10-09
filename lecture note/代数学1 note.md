@@ -179,7 +179,7 @@ see also in [[高等代数2 note]]
 **Example**: 
 1. $S_{n}$ acting on $\{ 1,\dots,n \}$.
 2. $GL_{n}(\mathbb{C})$ acting on $\mathbb{C}^{n}$.
-3. $G$ acting on $G$ by left multiplication $x\mapsto gx$, right reanslation $x\mapsto xg^{-1}$ and conjugationg $x\mapsto gxg^{-1}$. 
+3. $G$ acting on $G$ by left multiplication $x\mapsto gx$, right reanslation $x\mapsto xg^{-1}$ and conjugation $x\mapsto gxg^{-1}$. 
 
 **Definition**:
 1. The action is called **faithful** if $ker(\rho)=\{ 1_{G} \}$.
@@ -207,3 +207,8 @@ For example $D_{2m}=\mathbb{Z} / m\mathbb{Z} \rtimes \mathbb{Z} / 2\mathbb{Z}$.
 1. $Stab_{G}(x)$ is a subgroup of $G$. 
 2. $\forall x,y \in X$, either $Orb_{G}(x)=Orb_{G}(y)$, or $Orb_{G}(x)\cap Orb_{G}(y)=\varnothing$. As a consequence, $X=\bigsqcup Orb$. 
 3. If $y=g\cdot x$, then $Stab_{G}(y)=g\cdot Stab_{G}(x)\cdot g^{-1}$. 
+
+**Definition**: $G$ a group on itself by conjugation, $\forall g \in G$, $Ad_{g}:G\rightarrow G$ by $Ad_{g}(x)=gxg^{-1}$.
+1. Two elements $a,b \in G$ are **conjugate** if they lie in the same orbit under the conjugation, i.e. $\exists g \in G$ s.t. $b=gag^{-1}$. 
+2. An **orbit** is called a **conjugacy class** of $G$. (which will become very usefull in [[Basic Definitions of representation]]). 
+
