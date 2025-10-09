@@ -223,3 +223,6 @@ For example $D_{2m}=\mathbb{Z} / m\mathbb{Z} \rtimes \mathbb{Z} / 2\mathbb{Z}$.
 
 **Definition**: The action on $X$ is called **transitive** if $\forall x,y \in X$, $\exists g \in G$ s.t. $y=gx$. 
 
+**Theorem**: $G$ finite group (actin on itself by conjugation)
+1. $\forall g\in G$, $\lvert G \rvert / \lvert C_{G}(g) \rvert=[G:C_{G}(g)]$. 
+2. (classequation) If $g_{1},\dots,g_{r}$ are representation of conjugacy classes of $G$
