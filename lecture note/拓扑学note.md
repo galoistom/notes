@@ -123,4 +123,6 @@ Suppose $f(E)\subset[-1,1]$. Let $A_{1}=f^{-1}\left( \left[ -1,-\frac{1}{3} \rig
 
 **Definition**: A topological space is called **compact** if all open cover of $X$ have a finite subcover. for example, $E \in \mathbb{E}^{1}$ is compact if and only if $E$ is closed and finite.
 
-In fact, compact space is not necessarily closed, and its closure is not necessarily compact.
+In fact, compact space is not necessarily closed, and its closure is not necessarily compact. But if $X$ is hausdoff and compact, then $X$ is closed. 
+
+**Proposition**: $A$ compact, $B$ hausdoff, and $f:A\rightarrow B$ bijective, then $f$ 同胚. 
