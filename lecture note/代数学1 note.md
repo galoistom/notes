@@ -235,4 +235,4 @@ $$
 **Proposition**: If $G$ is a nontrivial $p$-group, then the center $Z(G)$ is nontrivial. In fact if $\lvert G \rvert=p^{2}$, then $G$ is abelian.
 
 # Automorphism
-
+One notice that $G / Z(G) \simeq Ad(G) \hookrightarrow Aut(G)$. Then we define $Inn(G)=Ad(G)$, and $Out(G)=Aut(G) / Inn(G)$. 
