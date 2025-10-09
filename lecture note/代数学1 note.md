@@ -196,3 +196,11 @@ $$
 $$
 
 For example $D_{2m}=\mathbb{Z} / m\mathbb{Z} \rtimes \mathbb{Z} / 2\mathbb{Z}$. 
+
+---
+# Stabilizers, orbits, class equations
+**Definition**:
+1. $\forall x \in X$, the **stabilizer subgroup** of $x$ is $Stab_{G}(x):=\{ g \in G: gx=x \}$. 
+2. $\forall x \in X$, the **orbit** of $x$ is $Orb_{G}(x):=\{ gx:g \in G \}$. In particular, we write $G \backslash X$ is the set of orbits, i.e. $\{ Gx:x \in X \}$. 
+
+**Proposition**: 
