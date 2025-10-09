@@ -125,4 +125,9 @@ Suppose $f(E)\subset[-1,1]$. Let $A_{1}=f^{-1}\left( \left[ -1,-\frac{1}{3} \rig
 
 In fact, compact space is not necessarily closed, and its closure is not necessarily compact. But if $X$ is hausdoff and compact, then $X$ is closed. 
 
-**Proposition**: $A$ compact, $B$ hausdoff, and $f:A\rightarrow B$ bijective, then $f$ 同胚. 
+**Proposition**: $A$ compact, $B$ hausdoff, and $f:A\rightarrow B$ bijective, then $f$ 同胚. (just check $f$ send closed set to closed set)
+
+**Proposition**: In hausdoff space, two compact set have disjoint neighbor.
+
+**Bolzano-Weierstrass property**: 紧致空间的无穷子集必有聚点. 
+
