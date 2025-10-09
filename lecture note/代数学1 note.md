@@ -216,4 +216,7 @@ For example $D_{2m}=\mathbb{Z} / m\mathbb{Z} \rtimes \mathbb{Z} / 2\mathbb{Z}$.
 
 **Definition**: $H<G$, subgroup, $S\subseteq G$.
 1. The **Centralizer** of $S$ in $G$ $C_G(S)=\{ g\in G:gxg^{-1}=x,\forall x \in S$.
-2. The **center** of $G$, 
+2. The **center** of $G$, $Z(G):=\{ g\in G:ghg^{-1},\forall h \in G \}$
+3. The **normalizer** of $H$ in $G$ is $N_{G}(H)=\{ g \in G : gHg^{-1}=H\}$. 
+
+**Definition**: $G$ acts on $X$ and $Y$. Say map $\phi:X\rightarrow Y$ is **equivariant** if $\phi \circ g=g\circ\phi$. 
