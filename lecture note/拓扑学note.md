@@ -118,3 +118,5 @@ Suppose $f(E)\subset[-1,1]$. Let $A_{1}=f^{-1}\left( \left[ -1,-\frac{1}{3} \rig
 
 # compactness
 **Heine-Borel theorem**: On space $[0,1]$, all open cover is finite covered. 
+
+*Proof*: suppose $\mathcal{C}$ is an open cover of $[0,1]$, let $F=\{ a\in[0,1]:[0,a] \text{ have a finite subcover} \}$. One immediately know that $F$ is nonempty, and if $a\in F$, then $\forall b\in [0,a]$, $b\in F$. 
