@@ -225,4 +225,11 @@ For example $D_{2m}=\mathbb{Z} / m\mathbb{Z} \rtimes \mathbb{Z} / 2\mathbb{Z}$.
 
 **Theorem**: $G$ finite group (actin on itself by conjugation)
 1. $\forall g\in G$, $\lvert G \rvert / \lvert C_{G}(g) \rvert=[G:C_{G}(g)]$. 
-2. (classequation) If $g_{1},\dots,g_{r}$ are representation of conjugacy classes of $G$
+2. (classequation) If $g_{1},\dots,g_{r}$ are representation of conjugacy classes of $G$ not contained in $Z(G)$, then 
+$$
+\lvert G \rvert = \lvert Z(G) \rvert + \sum_{i=1}^{r}[G:C_{G}(g_{i})] 
+$$
+
+**Definition**: $p$ prime, say $G$ is a **$p$-group**  if $\lvert G \rvert=p^{n}$ for some $n\geq0$. 
+
+**Proposition**: If $G$ is a nontrivial $p$-group, then the center $Z(G)$ is nontrivial. In fact if $\lvert G \rvert=p^{2}$, then $G$ is abelian.
