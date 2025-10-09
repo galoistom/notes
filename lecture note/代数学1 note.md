@@ -212,3 +212,8 @@ For example $D_{2m}=\mathbb{Z} / m\mathbb{Z} \rtimes \mathbb{Z} / 2\mathbb{Z}$.
 1. Two elements $a,b \in G$ are **conjugate** if they lie in the same orbit under the conjugation, i.e. $\exists g \in G$ s.t. $b=gag^{-1}$. 
 2. An **orbit** is called a **conjugacy class** of $G$. (which will become very usefull in [[Basic Definitions of representation]]). 
 
+**Example**: In $S_{n}$, we have that $\sigma_{1},\sigma_{2}$ are in the same conjugacy class if and only if they have the same Young diamgra (c.f. [[representation of symmetric group]])
+
+**Definition**: $H<G$, subgroup, $S\subseteq G$.
+1. The **Centralizer** of $S$ in $G$ $C_G(S)=\{ g\in G:gxg^{-1}=x,\forall x \in S$.
+2. The **center** of $G$, 
