@@ -188,3 +188,9 @@ $D<0$, $D\equiv0,1\pmod{4}$, $\chi:(\mathbb{Z} / D\mathbb{Z})^{\times}\rightarro
 
 *proof*: 
 take $p_{1}<p_{2}<\dots<p_{r}$, all odd prime factors of $D$. and $\chi_{i}(a)=\left( \frac{a}{p_{i}} \right)$, $1\leq i\leq r$, $a \in (\mathbb{Z} / p \mathbb{Z})^{\times}$; $\delta(a)=(-1)^{\frac{a-1}{2}}$, $a \in (\mathbb{Z} / 4 \mathbb{Z})^{\times}$; $\epsilon(a)=(-1)^{\frac{a^{2}-1}{8}}$, $a \in(\mathbb{Z} / 8\mathbb{Z})^{\times}$. 
+
+consider the exact sequence:
+$$
+1\longrightarrow\{ x:x^{2}=1\} \longrightarrow C(D) \longrightarrow C(D) \longrightarrow C(D) / C(D)^{2} \longrightarrow1
+$$
+with $C(D)\rightarrow C(D)$ is $x \mapsto x^{2}$. 
