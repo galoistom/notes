@@ -187,4 +187,4 @@ $D<0$, $D\equiv0,1\pmod{4}$, $\chi:(\mathbb{Z} / D\mathbb{Z})^{\times}\rightarro
 2. principle genus = $C(D)^{2}$ = $\{ x^{2}: x \in C(D) \}$
 
 *proof*: 
-take $p_{1}<p_{2}<\dots<p_{r}$, all odd prime factors of $D$. and $\chi_{i}(a)=\left( \frac{a}{p_{i}} \right)$, $1\leq i\leq r$, $a \in (\mathbb{Z} / p \mathbb{Z})^{\times}$. 
+take $p_{1}<p_{2}<\dots<p_{r}$, all odd prime factors of $D$. and $\chi_{i}(a)=\left( \frac{a}{p_{i}} \right)$, $1\leq i\leq r$, $a \in (\mathbb{Z} / p \mathbb{Z})^{\times}$; $\delta(a)=(-1)^{\frac{a-1}{2}}$, $a \in (\mathbb{Z} / 4 \mathbb{Z})^{\times}$; $\epsilon(a)=(-1)^{\frac{a^{2}-1}{8}}$, $a \in(\mathbb{Z} / 8\mathbb{Z})^{\times}$. 
