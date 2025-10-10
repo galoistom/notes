@@ -178,3 +178,6 @@ then $C(D)$ has $2^{\mu-1}$ elements of order $\leq2$.
 1. $b=0$, then $ac=n$, $a\leq c$, if $n=1$, $\#\{ (a,c) \}=1$, $n>1$ odd then $\#\{ (a,c) \}=2^{r-1}$, and if $n$ even then $\#\{ (a,c) \}=2$. 
 2. $a=b$, then $b(4-b)=-D$. 
 3. $a=c$, then $-D=(2c-b)(2c+b)$. Together with 2, we can write it as $-D=b'(4c-b')$, $0<b'\leq2c$, $gcd(b',c)=1$. 
+
+# Genus theory
+$D<0$, $D\equiv0,1\pmod{4}$, $\chi:(\mathbb{Z} / D\mathbb{Z})^{\times}-$
