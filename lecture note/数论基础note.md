@@ -164,7 +164,7 @@ In fact, the direct composition defines a multiplication of the class of quadrai
 
 **lemma**: A reduced form $f(x,y)=ax^{2}+bxy+cy^{2}$ of discriminant $D$ has order $\leq2$ in $C(D)$ if and only if $b=0,a=b\text{ or } a=c$. 
 
-**Proposition**: Let $D<0$, $D\equiv0,1\pmod{4}$, let $r=N_{0}$, odd prime factors of $D$. Define $\mu\geq0$: If $D\equiv1\pmod{4}$, $\mu=r$; if $D\equiv0\pmod{4}$, write $D=-4n$. 
+**Proposition**: Let $D<0$, $D\equiv0,1\pmod{4}$, let $r=$ the numer of odd prime factors of $D$. Define $\mu\geq0$: If $D\equiv1\pmod{4}$, $\mu=r$; if $D\equiv0\pmod{4}$, write $D=-4n$. 
 
 | n                    | $\mu$ |
 | -------------------- | ----- |
@@ -173,3 +173,6 @@ In fact, the direct composition defines a multiplication of the class of quadrai
 | $n\equiv4\pmod{8}$   | $r+1$ |
 | $n\equiv0\pmod{8}$   | $r+2$ |
 then $C(D)$ has $2^{\mu-1}$ elements of order $\leq2$. 
+
+*Proof*: 
+1. $b=0$, then $ac=n$, $a\leq c$, if $n=1$, $\#\{ (a,c) \}=1$, $n>1$ odd then $\#\{ (a,c) \}=2^{r-1}$, and if $n$ even then $$
