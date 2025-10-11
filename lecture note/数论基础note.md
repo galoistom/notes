@@ -132,7 +132,7 @@ $$
 
 **Definition**: Since distinct cosets of $H$ are disjoint, we know that different genera represent disjoint values in $(\mathbb{Z} / D\mathbb{Z})^{*}$. This allows us to describe genera cosets $H'$ of $H$ in $ker(\chi)$. We define the **genus** of $H'$ to consist of all forms of discriminant $D$ which represent the values of $H'$ modulo $D$. Then we have the following therorem:
 
-**Theorem**: Assume that $D\equiv0,1\pmod{4}$ is negative, and let $H\subset ker(\chi)$ be the values in $(\mathbb{Z} / D\mathbb{Z})^{*}$ represented by the principle form of discriminant $D$. If $H'$ is a coset of $H$ in $ker(\chi)$ and $p$ is a nodd prime not dividing $D$, then $[p]\in H'$ if and only if $p$ is represented by a reduced form of discriminant $D$ in the genus of $H'$.
+**Theorem**: Assume that $D\equiv0,1\pmod{4}$ is negative, and let $H\subset ker(\chi)$ be the values in $(\mathbb{Z} / D\mathbb{Z})^{*}$ represented by the principle form of discriminant $D$. If $H'$ is a coset of $H$ in $ker(\chi)$ and $p$ is an odd prime not dividing $D$, then $[p]\in H'$ if and only if $p$ is represented by a reduced form of discriminant $D$ in the genus of $H'$.
 
 **Proposition**: $D\equiv0,1\pmod{4}$, $p$ prime, $gcd(p,D)=1$, $p \in Ker\chi$, then $[p]\in H'$ <==> $\exists f$ in the genus of $H'$ such that $f$ represents $p$. 
 
@@ -180,10 +180,7 @@ then $C(D)$ has $2^{\mu-1}$ elements of order $\leq2$.
 3. $a=c$, then $-D=(2c-b)(2c+b)$. Together with 2, we can write it as $-D=b'(4c-b')$, $0<b'\leq2c$, $gcd(b',c)=1$. 
 
 # Genus theory
-$D<0$, $D\equiv0,1\pmod{4}$, $\chi:(\mathbb{Z} /
-D\mathbb{Z})^{\times}\rightarrow \{ \pm1 \}$ $H\subset Ker\chi
-\subset(\mathbb{Z} / D\mathbb{Z})^{\times}$. "Principle form" $\phi
-:C(D)\rightarrow Ker\chi / H$. then $ker\phi$ is principle genus.
+$D<0$, $D\equiv0,1\pmod{4}$, $\chi:(\mathbb{Z} / D\mathbb{Z})^{\times}\rightarrow \{ \pm1 \}$ $H\subset Ker\chi \subset(\mathbb{Z} / D\mathbb{Z})^{\times}$. "Principle form" $\phi :C(D)\rightarrow Ker\chi / H$. then $ker\phi$ is principle genus.
 
 **Theorem**: 
 1. $\#genera=2^{\mu-1}$
