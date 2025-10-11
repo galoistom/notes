@@ -424,7 +424,7 @@ $G$:group, $H$ a subset of $G$, if:
 1. $1_G \in H$.
 2. $x,y \in H$ $\Rightarrow$ $xy \in H$.
 3. $x \in H$ $\Rightarrow$ $x^{-1} \in H$.
-we say that $H$ is a subgroup of $G, in which case $(H,\cdot)$ is a group.
+we say that $H$ is a subgroup of $G$, in which case $(H,\cdot)$ is a group.
 Boring examples: $\{1_G\}$ and $G$ are subgroup of $G$.
 $\bigcap$ of subgroups are a subgroup.
 another example: $G$ a group, let $Z(G):=\{a:ax=xa,\forall x \in G\}$, be the center of the group $G$. one can check that it id indeed a subgroup. If $G$ is abelian, then $Z(G)=G$.
