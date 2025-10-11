@@ -61,15 +61,6 @@
       "key": "["
     }
   ],
-  "workspace:split-vertical": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "L"
-    }
-  ],
   "editor:focus-top": [
     {
       "modifiers": [
@@ -97,15 +88,6 @@
     }
   ],
   "editor:open-search-replace": [],
-  "workspace:split-horizontal": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "J"
-    }
-  ],
   "editor:focus-left": [
     {
       "modifiers": [
@@ -121,6 +103,24 @@
         "Shift"
       ],
       "key": "A"
+    }
+  ],
+  "workspace:split-horizontal": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "5"
+    }
+  ],
+  "workspace:split-vertical": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "'"
     }
   ]
 }
