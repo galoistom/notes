@@ -160,7 +160,7 @@ We hope that the composition is unique (up to equivalence?). Unfortunately, this
 
 In fact, the direct composition defines a multiplication of the class of quadraic forms $[f]*[g]=[F]$, this meas that the choice of representatives does note matter, and in fact, this multiplication is transitive and abelian. So this forms a group $C(D)=ker(\chi) / H$. 
 
-**Definition**: Let **Principle form** be $x^{2}-\frac{D}{4}y^{2}$ for $4|D$, or $x^{2}+xy+\frac{1-D}{4}y^{2}$ for $D\equiv1\pmod{4}$. One notice that the dirichlet composition of  $ax^{2}+bxy+cy^{2}$ and $cy^{2}-bxy+ax^{2}$ are $acx^{2}+bxy+y^{2}$, which is properly equivalent too $x^{2}-bxt+acy^{2}$, hence properly equivalent to the principle form, so they are invers of each other in $C(D)$. 
+**Definition**: Let **Principle form** be $x^{2}-\frac{D}{4}y^{2}$ for $4|D$, or $x^{2}+xy+\frac{1-D}{4}y^{2}$ for $D\equiv1\pmod{4}$. One notice that the dirichlet composition of  $ax^{2}+bxy+cy^{2}$ and $cx^{2}+bxy+ay^{2}$ are $acx^{2}+bxy+y^{2}$, which is properly equivalent too $x^{2}-bxt+acy^{2}$, hence properly equivalent to the principle form, so they are invers of each other in $C(D)$. 
 
 **lemma**: A reduced form $f(x,y)=ax^{2}+bxy+cy^{2}$ of discriminant $D$ has order $\leq2$ in $C(D)$ if and only if $b=0,a=b\text{ or } a=c$. 
 
