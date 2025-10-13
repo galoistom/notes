@@ -11,12 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Books/代数数论/Primes of the Form X2 + Ny2 Fermat, Class Field Theory, and Complex Multiplication, With Solutions (David A. Cox) (Z-Library).pdf"
+                "file": "Home.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Primes of the Form X2 + Ny2 Fermat, Class Field Theory, and Complex Multiplication, With Solutions (David A. Cox) (Z-Library)"
+              "icon": "lucide-file",
+              "title": "Home"
             }
           }
         ]
@@ -178,15 +180,14 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
-      "homepage:Open homepage": false,
-      "terminal:Open terminal": false
+      "homepage:Open homepage": false
     }
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Books/代数数论/Primes of the Form X2 + Ny2 Fermat, Class Field Theory, and Complex Multiplication, With Solutions (David A. Cox) (Z-Library).pdf",
     "lecture note/数论基础note.md",
     "Home.md",
-    "Books/代数数论/Primes of the Form X2 + Ny2 Fermat, Class Field Theory, and Complex Multiplication, With Solutions (David A. Cox) (Z-Library).pdf",
     "lecture note/数论基础note.html",
     "lecture note/#数论基础note.md#",
     "lecture note/高等代数2 note.md",
