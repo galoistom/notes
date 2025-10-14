@@ -146,3 +146,11 @@ On the other hand, we claim that $\exists \delta>0$, s.t. $\forall x \in X$, $\e
 *Proof*: one direction is easy, on the other hand, we need the following lemma:
 
 **Lemma**: If $A\subset X$ compact, $W\subset X\times Y$ a neighbor of $A\times \{ y_{0} \}$, then there is a $A\subset U\subset X$ and $y_{0} \in V\subset Y$, s.t. $U\times V\subset W$. 
+(Just consider covering $A$ with finite many neighbors $U_{x}$, and each choose a $U_{x}\times V_{x}\subset W$ and combine.)
+
+**Tychonoff Theorem**: let $x_{i}$, $i \in I$, is a set of nonempty comapct space, then $X=\prod_{i \in I}x_{i}$ is also comapct. This theorem is infact equivalent to 选择公理.
+
+# 仿紧空间
+**Definition**: topological space $X$ is called **locally comapct** if all $x \in X$ has a compact neighbor. An opencover of $X$ is called locally finite if it is a finite cover when restrict to a neighbor of any $x \in X$. 
+
+**Definition**: $X$ is **paracompact** (仿紧的) if all opencover of $X$ is locally finite. 
