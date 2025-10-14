@@ -136,3 +136,6 @@ In fact, compact space is not necessarily closed, and its closure is not necessa
 **Proposition**: $C_{1}$ + compact ==> sequentially comapct.
 
 **Theorem**: measure space is comapct if and only if it is sequentially comapct.
+
+*Proof*: 
+"==>", simple, just use Bolzano-Weierstrass property, we know that there is a point $x_{0}$, and take $x_{k}=A\cap B\left( \frac{x_{0},1}{k} \right)$.  
