@@ -154,3 +154,6 @@ On the other hand, we claim that $\exists \delta>0$, s.t. $\forall x \in X$, $\e
 **Definition**: topological space $X$ is called **locally comapct** if all $x \in X$ has a compact neighbor. An opencover of $X$ is called locally finite if it is a finite cover when restrict to a neighbor of any $x \in X$. 
 
 **Definition**: $X$ is **paracompact** (仿紧的) if all opencover of $X$ is locally finite. In fact, paracompact + hausdoff ==> regular
+
+# Connectivity
+**Definition**: $X$ is called connected if foall $X=A\cup B$, $A\cap \overline{B}$ or $A\cap \overline{B}$ $\neq \varnothing$. 
