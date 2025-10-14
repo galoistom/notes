@@ -140,3 +140,9 @@ In fact, compact space is not necessarily closed, and its closure is not necessa
 *Proof*: 
 "==>", simple, just use Bolzano-Weierstrass property, we know that there is a point $x_{0}$, and take $x_{k}=A\cap B\left( \frac{x_{0},1}{k} \right)$. 
 On the other hand, we claim that $\exists \delta>0$, s.t. $\forall x \in X$, $\exists U\in A$, where $A$ is an open cover of $X$. If not, then there is a $x_{n}$ such that $B\left( x_{n}, \frac{1}{n} \right)\backslash U\neq \varnothing$ for all $U$, then there is a converges subsequence, suppose the limit is $x_{*}$, then consider $x \in U$, so $B(x_{*},\delta)\subset U$ for some $\delta$, a contradicition. With this claim, we are able to restrict $A$ to the case of $B(x,\delta)$, in this case, it is vary straight forward, as all sequence all have a converges subsequence, so there will be a contradicition. 
+
+**Proposition**: $X\times Y$ comapct if and only if $X,Y$ both comapct. 
+
+*Proof*: one direction is easy, on the other hand, we need the following lemma:
+
+**Lemma**: If $A\subset X$ compact, $W\subset X\times Y$ a neighbor of $A\times \{ y_{0} \}$, then there is a $A\subset U\subset X$ and $y_{0} \in V\subset Y$, s.t. $U\times V\subset W$. 
