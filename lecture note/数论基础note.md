@@ -208,3 +208,10 @@ We extend the ring $\mathbb{Z}$ to $\mathbb{Z}[\omega]$ where $\omega=-\frac{1}{
 1. if $p=3$, then $1-\omega$ is a prime in $\mathbb{Z}[\omega]$, then $3=-\omega ^{2}(1-\omega)^{2}$. 
 2. If $p\equiv1\pmod{3}$, then there exists a prime $\pi \in \mathbb{Z}[\omega]$ such that $p=\pi \cdot \overline{\pi}$, and $\pi \& \overline{\pi}$ are not associates, $N(\pi)=N(\overline{\pi})=p$. 
 3. If $p\equiv2\pmod{3}$, then $\pi=p$ is prime in $\mathbb{Z}[\omega]$, $N(\pi)=p^{2}$. 
+
+Further more,  every prime of $R$ is associate to one of the primes in 1,2,3. In any case, $\mathbb{Z}[\omega]$ is a finite field with $N(\pi)$ elements. 
+
+*Proof*: 
+1. Clear, as $N(1-\omega)=3$ prime, and one immediately check the other equation.
+2. As $h(-3)=1$, we know that $p=x^{2}+xy+y^{2}$ for some $x,y$, hence $p=(x+\omega y)(x-\omega y)$, and it is clear that $x-\omega y$ are note associate to $x+\omega y$. 
+3. Consider $(p)\subseteq \mathfrak{p}=(\alpha)$, for some $\alpha$, then $N(\alpha)|N(p)=p^{2}$. If $p$ is not a prime in $\mathbb{Z}[\omega]$, then $N(a)<N(p)$, so $N(\alpha)=p$, suppose $\alpha=a+b\omega$, then $p=a^{2}+ab+b^{2}$, a contradiction.
