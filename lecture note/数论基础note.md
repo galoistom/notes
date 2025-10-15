@@ -232,4 +232,8 @@ $$
 
 **Remark**: 
 1. $\left( \frac{-1}{\pi} \right)_{3}=1$.
-2. $\pi=-1+3m+3n\omega$, $m,n \in \mathbb{Z}$, then $\left( \frac{\omega}{\pi} \right)_{3}=\omega ^{m+n}$, and $(1-\omega)$
+2. $\pi=-1+3m+3n\omega$, $m,n \in \mathbb{Z}$, then $\left( \frac{\omega}{\pi} \right)_{3}=\omega ^{m+n}$, and $\left( \frac{1-\omega}{\pi} \right)_{3}=\omega ^{2m}$. 
+
+**Theorem**: Let $p$ be a prime then there exists $x,y \in \mathbb{Z}$ such that $p=x^{2}+27y^{2}$ if and only if $p\equiv1\pmod{3}$ and 2 is a cubic residue module $p$. 
+
+*Proof*: 
