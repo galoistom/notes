@@ -215,3 +215,10 @@ Further more, every prime of $R$ is associate to one of the primes in 1,2,3. In 
 1. Clear, as $N(1-\omega)=3$ prime, and one immediately check the other equation.
 2. As $h(-3)=1$, we know that $p=x^{2}+xy+y^{2}$ for some $x,y$, hence $p=(x+\omega y)(x-\omega y)$, and it is clear that $x-\omega y$ are note associate to $x+\omega y$. 
 3. Consider $(p)\subseteq \mathfrak{p}=(\alpha)$, for some $\alpha$, then $N(\alpha)|N(p)=p^{2}$. If $p$ is not a prime in $\mathbb{Z}[\omega]$, then $N(a)<N(p)$, so $N(\alpha)=p$, suppose $\alpha=a+b\omega$, then $p=a^{2}+ab+b^{2}$, a contradiction.
+
+Now we define the biquadratic character. 
+
+**Definition**: Let $\alpha \in \mathbb{Z}[\omega]$, that is not in $\pi \mathbb{Z}[\omega]$, where $\pi$ is a prime in $\mathbb{Z}[\omega]$ not dividing 3. Then we say 
+$$
+\alpha ^{(N(\pi)-1)/3} \equiv \left( \frac{a}{\pi} \right)\pmod{\pi}
+$$
