@@ -200,4 +200,11 @@ We extend the ring $\mathbb{Z}$ to $\mathbb{Z}[\omega]$ where $\omega=-\frac{1}{
 
 - Call $0\neq\alpha \in R$ a **unit** if $\lvert \alpha \rvert=1$. i.e. $(\alpha)=R$
 - Call $\alpha,\beta \in R$ **associates** if $\alpha=\beta r$ for some unit $r$. i.e. $(\alpha)=(\beta)$. 
-- Call $\alpha\neq0$ irreducible if $\alpha=\beta r$ . i.e. $(\alpha)$ is a prime ideal. 
+- Call $\alpha\neq0$ irreducible if $\alpha=\beta r$ for some $\beta,r \in R$ then one of $\beta,r$ must be a unit. i.e. $(\alpha)$ is a prime ideal. 
+
+**Lemma**: If $N(\alpha)$ is prime for some $\alpha \in R$, then $\alpha$ is a prime
+
+**Proposition**: Let $p$ be a prime in $\mathbb{Z}$. Then
+1. if $p=3$, then $1-\omega$ is a prime in $\mathbb{Z}[\omega]$, then $3=-\omega ^{2}(1-\omega)^{2}$. 
+2. If $p\equiv1\pmod{3}$, then there exists a prime $\pi \in \mathbb{Z}[\omega]$ such that $p=\pi \cdot \overline{\pi}$, and $\pi \& \overline{\pi}$ are not associates, $N(\pi)=N(\overline{\pi})=p$. 
+3. If $p\equiv2\pmod{3}$, then $\pi=p$ is prime in $\mathbb{Z}[\omega]$, $N(\pi)=p^{2}$. 
