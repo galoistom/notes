@@ -194,3 +194,10 @@ $$
 1\longrightarrow\{ x:x^{2}=1\} \longrightarrow C(D) \longrightarrow C(D) \longrightarrow C(D) / C(D)^{2} \longrightarrow1
 $$
 with $C(D)\rightarrow C(D)$ is $x \mapsto x^{2}$. 
+
+# cubic and biquadratic reaprocity
+We extend the ring $\mathbb{Z}$ to $\mathbb{Z}[\omega]$ where $\omega=-\frac{1}{2}+\frac{\sqrt{ 3 }}{2}i$. As one immediately know that $R=\mathbb{Z}[\omega]$ is **Euclidean ring**. 
+
+- Call $0\neq\alpha \in R$ a **unit** if $\lvert \alpha \rvert=1$. i.e. $(\alpha)=R$
+- Call $\alpha,\beta \in R$ **associates** if $\alpha=\beta r$ for some unit $r$. i.e. $(\alpha)=(\beta)$. 
+- Call $\alpha\neq0$ irreducible if $\alpha=\beta r$ . i.e. $(\alpha)$ is a prime ideal. 
