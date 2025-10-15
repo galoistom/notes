@@ -220,5 +220,16 @@ Now we define the biquadratic character.
 
 **Definition**: Let $\alpha \in \mathbb{Z}[\omega]$, that is not in $\pi \mathbb{Z}[\omega]$, where $\pi$ is a prime in $\mathbb{Z}[\omega]$ not dividing 3. Then we say 
 $$
-\alpha ^{(N(\pi)-1)/3} \equiv \left( \frac{a}{\pi} \right)\pmod{\pi}
+\alpha ^{(N(\pi)-1)/3} \equiv \left( \frac{a}{\pi} \right)_{3}\pmod{\pi}
 $$
+
+One immediately know that $\left( \frac{\alpha\beta}{\pi} \right)_{3}= \left( \frac{\alpha}{\pi} \right)_{3}\cdot\left( \frac{\beta}{\pi} \right)_{3}$.
+
+**Theorem**: If $\pi$ and $\theta$ are primary primes in $\mathbb{Z}[\omega]$ of unequal norm, then 
+$$
+\left( \frac{\theta}{\pi} \right)_{3}= \left( \frac{\pi}{\theta} \right)_{3}
+$$
+
+**Remark**: 
+1. $\left( \frac{-1}{\pi} \right)_{3}=1$.
+2. $\pi=-1+3m+3n\omega$, $m,n \in \mathbb{Z}$, then $\left( \frac{\omega}{\pi} \right)_{3}=\omega ^{m+n}$, and $(1-\omega)$

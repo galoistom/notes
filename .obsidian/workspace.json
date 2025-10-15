@@ -22,24 +22,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "53f2f1e0c41db548",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c7f43c626d1b802e",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Books/代数数论/Primes of the Form X2 + Ny2 Fermat, Class Field Theory, and Complex Multiplication, With Solutions (David A. Cox) (Z-Library).pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Primes of the Form X2 + Ny2 Fermat, Class Field Theory, and Complex Multiplication, With Solutions (David A. Cox) (Z-Library)"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
