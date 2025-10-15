@@ -238,3 +238,4 @@ $$
 
 *Proof*: 
 1. We first proof that it is necessary. In fact, one immediately notice that $p\equiv x^{2}\equiv1\pmod{3}$, thus $p=x^{2}+27y^{2}=\pi \cdot \overline{\pi}$, $\pi=(x+3y)+6y\omega$. Now 2 is a qubic residue is equivalent to $1=\left( \frac{2}{\pi} \right)_{3}=\left( \frac{\pi}{2} \right)_{3}$ <==> $\pi\equiv1\pmod{2}$. 
+2. We then proof that the conditions are sufficicent. Since $p\equiv1\pmod{3}$, we are able to write it as $p=a+3b\omega$ for $p=\pi \cdot \overline{\pi}$. We may assume that $\pi\equiv-1\pmod{3}$, then $4p=4(a^{2}-3ab+9b^{2})=(2a-3b)^{2}+27b^{2}$, as 2 a cubic residue, we know that $a\equiv1\pmod{2}$ and $2|b$. 
