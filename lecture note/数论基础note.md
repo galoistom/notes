@@ -237,3 +237,4 @@ $$
 **Theorem**: Let $p$ be a prime then there exists $x,y \in \mathbb{Z}$ such that $p=x^{2}+27y^{2}$ if and only if $p\equiv1\pmod{3}$ and 2 is a cubic residue module $p$. 
 
 *Proof*: 
+1. We first proof that it is necessary. In fact, one immediately notice that $p\equiv x^{2}\equiv1\pmod{3}$, thus $p=x^{2}+27y^{2}=\pi \cdot \overline{\pi}$, $\pi=(x+3y)+6y\omega$. Now 2 is a qubic residue is equivalent to $1=\left( \frac{2}{\pi} \right)_{3}=\left( \frac{\pi}{2} \right)_{3}$ <==> $\pi\equiv1\pmod{2}$. 
