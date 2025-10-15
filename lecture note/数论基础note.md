@@ -209,7 +209,7 @@ We extend the ring $\mathbb{Z}$ to $\mathbb{Z}[\omega]$ where $\omega=-\frac{1}{
 2. If $p\equiv1\pmod{3}$, then there exists a prime $\pi \in \mathbb{Z}[\omega]$ such that $p=\pi \cdot \overline{\pi}$, and $\pi \& \overline{\pi}$ are not associates, $N(\pi)=N(\overline{\pi})=p$. 
 3. If $p\equiv2\pmod{3}$, then $\pi=p$ is prime in $\mathbb{Z}[\omega]$, $N(\pi)=p^{2}$. 
 
-Further more,  every prime of $R$ is associate to one of the primes in 1,2,3. In any case, $\mathbb{Z}[\omega]$ is a finite field with $N(\pi)$ elements. 
+Further more, every prime of $R$ is associate to one of the primes in 1,2,3. In any case, $\mathbb{Z}[\omega]$ is a finite field with $N(\pi)$ elements. 
 
 *Proof*: 
 1. Clear, as $N(1-\omega)=3$ prime, and one immediately check the other equation.
