@@ -247,3 +247,6 @@ One notice that $G / Z(G) \simeq Ad(G) \hookrightarrow Aut(G)$. Then we define $
 1. (First Sylow Theorem) Sylow $p$-subgroup exists.
 2. (Second) If $P,Q$ $p$-subgroups of $G$, and $P$ is a $p$-sylow, then $\exists g \in G$ s.t. $Q\leq gPg^{-1}$. In other words, we have all Sylow $p$-subgroup are conjugate and any $p$-group is contained in a sylow $p$-subgroup. 
 3. (Third) $n_{p}=\lvert Syl_{p}(G) \rvert$ satisfies $\begin{cases}n_{p}\equiv1\pmod{p}\\ n_{p}|m\end{cases}$ (We say that a sylow $p$-subgroup of $G$ is **normal** iff $n_{p}=1$). 
+
+*Proof*:
+1. Recall $Z(G)$ center of $G$. If $p|\lvert Z(G) \rvert$m then by ther structure of finite generated abelian group, $Z(G)$ has a uniq
