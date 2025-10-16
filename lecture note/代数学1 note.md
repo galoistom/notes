@@ -236,3 +236,13 @@ $$
 
 # Automorphism
 One notice that $G / Z(G) \simeq Ad(G) \hookrightarrow Aut(G)$. Then we define $Inn(G)=Ad(G)$, and $Out(G)=Aut(G) / Inn(G)$. 
+
+# Sylow's Theorem
+**Definition**: ($p$ prime)
+1. A **$p$-group** is a finite group of order equal to a power of $p$. 
+2. If $G$ finite group of order $|G|=p^{r}m$ then a subgroup $H$ of $G$ of order $p^{r}$ is called a **Sylow $p$-subgroup** of $G$. 
+3. Denote $Syl_{p}(G)=\{ \text{Sylow p-subgroup of G} \}$, $n_{p}=\lvert Syl_{p} \rvert$. 
+
+**Theorem**: $G$ finite group $\lvert G \rvert=p^{r}m$, $r>0$, then:
+1. (First Sylow Theorem) Sylow $p$-subgroup exists.
+2. 
