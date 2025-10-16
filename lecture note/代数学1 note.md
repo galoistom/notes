@@ -246,3 +246,4 @@ One notice that $G / Z(G) \simeq Ad(G) \hookrightarrow Aut(G)$. Then we define $
 **Theorem**: $G$ finite group $\lvert G \rvert=p^{r}m$, $r>0$, then:
 1. (First Sylow Theorem) Sylow $p$-subgroup exists.
 2. (Second) If $P,Q$ $p$-subgroups of $G$, and $P$ is a $p$-sylow, then $\exists g \in G$ s.t. $Q\leq gPg^{-1}$. In other words, we have all Sylow $p$-subgroup are conjugate and any $p$-group is contained in a sylow $p$-subgroup. 
+3. (Third) $n_{p}=\lvert Syl_{p}(G) \rvert$ satisfies $\begin{cases}n_{p}\equiv1\pmod{p}\\ n_{p}|m\end{cases}$ (We say that a sylow $p$-subgroup of $G$ is **normal** iff $n_{p}=1$). 
