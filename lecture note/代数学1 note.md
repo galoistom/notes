@@ -245,4 +245,4 @@ One notice that $G / Z(G) \simeq Ad(G) \hookrightarrow Aut(G)$. Then we define $
 
 **Theorem**: $G$ finite group $\lvert G \rvert=p^{r}m$, $r>0$, then:
 1. (First Sylow Theorem) Sylow $p$-subgroup exists.
-2. 
+2. (Second) If $P,Q$ $p$-subgroups of $G$, and $P$ is a $p$-sylow, then $\exists g \in G$ s.t. $Q\leq gPg^{-1}$. In other words, we have all Sylow $p$-subgroup are conjugate and any $p$-group is contained in a sylow $p$-subgroup. 
