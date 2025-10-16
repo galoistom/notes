@@ -249,4 +249,5 @@ One notice that $G / Z(G) \simeq Ad(G) \hookrightarrow Aut(G)$. Then we define $
 3. (Third) $n_{p}=\lvert Syl_{p}(G) \rvert$ satisfies $\begin{cases}n_{p}\equiv1\pmod{p}\\ n_{p}|m\end{cases}$ (We say that a sylow $p$-subgroup of $G$ is **normal** iff $n_{p}=1$). 
 
 *Proof*:
-1. Recall $Z(G)$ center of $G$. If $p|\lvert Z(G) \rvert$m then by ther structure of finite generated abelian group, $Z(G)$ has a uniq
+1. Recall $Z(G)$ center of $G$. If $p| \,\lvert Z(G) \rvert$m then by ther structure of finite generated abelian group, $Z(G)$ has a unique sylow $p$-subgroup $W$, congider $G / W$ and use induction. In not, consider $G$ acting on $G$ by conjugation, we know that $\lvert G \rvert=\sum_{O}\lvert O \rvert=\lvert Z(G) \rvert+\sum_{i=1}^{s} \frac{\lvert G \rvert}{|Stab_{G}(x)|}$, as $p$ is not a dividsor of $\lvert Z(G) \rvert$, so there must be a $x$ such that $v_{p}(\lvert G \rvert)=v_{p}(\lvert Stab_{G}(x) \rvert)$ and use induction. 
+2. 
