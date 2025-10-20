@@ -293,4 +293,6 @@ $$
 **Proposition**: $G$ is solvable iff $G^{(n)}=\{ 1 \}$ for some finite $n\geq1$. 
 
 *Proof*: 
-1. $\implies$, clear, as $G^{(i)}\triangleright$ $G^{(i)} / G^{(i+1)}$ is abelian and 
+1. "$\impliedby$", clear, as $G^{(i)}\triangleright G^{(i+1)}$ and $G^{(i)} / G^{(i+1)}$ is abelian.
+2. "$\implies$", notice that $G / H_{1}$ is abelian, so $G^{(1)}\leq H_{1}$, similiarly, we have $H_{2}\geq [H_{1},H_{1}]\geq[G^{(1)},G^{(1)}]=G^{(2)}$. 
+
