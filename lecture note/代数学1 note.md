@@ -304,4 +304,14 @@ $$
 **Proposition**: All $p$-groups are nilpotent
 
 *Proof*:
-$G$ a $p$-group $\implies$ $Z(G)=\{ 1 \}$. 
+$G$ a $p$-group $\implies$ $Z(G)\neq\{ 1 \}$.
+
+**Proposition**: Let $P$ be a $p$-group
+1. $Z(P)\neq \{ 1 \}$.
+2. If $H\trianglelefteq P$ nontrivial normal, then $H\cap Z(P)\neq \{ 1 \}$.
+3. If $H<P$, then $H<N_{P}(H)$. 
+
+*Proof*: 
+1. Clear.
+2. Connsider the conjugate action of $P$ on $H$. Count $\#H$ by orbits, repeat the proof of 1.
+3. If $Z(G)\not\subseteq H$, done as $Z(P)\subseteq N_{G}(H)$. If $Z(P)\subseteq H$, take quotient $\overline{H}=H / Z(P)$, $\overline{P} = P / Z(P)$. By induction, the result holds for $(\overline{H},\overline{P})$ then it holds for $(H,P)$. 
