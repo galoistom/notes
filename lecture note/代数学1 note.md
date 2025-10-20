@@ -1,3 +1,7 @@
+---
+updated_at: 2025-10-20T20:25:36.631+08:00
+edited_seconds: 140
+---
 #algebra #lectureNote 
 
 why group/ring/fields?
@@ -315,3 +319,11 @@ $G$ a $p$-group $\implies$ $Z(G)\neq\{ 1 \}$.
 1. Clear.
 2. Connsider the conjugate action of $P$ on $H$. Count $\#H$ by orbits, repeat the proof of 1.
 3. If $Z(G)\not\subseteq H$, done as $Z(P)\subseteq N_{G}(H)$. If $Z(P)\subseteq H$, take quotient $\overline{H}=H / Z(P)$, $\overline{P} = P / Z(P)$. By induction, the result holds for $(\overline{H},\overline{P})$ then it holds for $(H,P)$. 
+
+In fact, if $H<P$ with index $p$, then $H\triangleleft P$. 
+
+**Theorem**: $\lvert G \rvert=n=p_{1}^{\alpha_{1}}\cdots p_{r}^{\alpha_{r}}$, $P_{i}\in Syl_{p_{i}}(G)$. Then TFAF:
+1. $G$ is nilpotent.
+2. $\forall H<G$, $H<N_{G}(H)$. 
+3. All Sylow subgroups $P_{i}$ are normal.
+4. $G\simeq P_{1}\times\cdots P_{r}$. 
