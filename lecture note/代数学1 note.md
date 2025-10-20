@@ -327,3 +327,7 @@ In fact, if $H<P$ with index $p$, then $H\triangleleft P$.
 2. $\forall H<G$, $H<N_{G}(H)$. 
 3. All Sylow subgroups $P_{i}$ are normal.
 4. $G\simeq P_{1}\times\cdots P_{r}$. 
+
+**Theorem**:(Schur-Zassenhaus)
+$G$ a finite group, $N\triangleleft G$ normal s.t. $gcd(\lvert G \rvert,\lvert G / N \rvert)=1$. $\pi:G\rightarrow G / N$ a quotient map.
+1. Then there exist a subgroup $H\leq G$ s.t. $\pi|_{H}:H\rightarrow G / N$ is isomorphism. Therefore, $G\simeq N \rtimes(G / N)$.
