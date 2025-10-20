@@ -277,9 +277,20 @@ G=\begin{pmatrix}
 $$
 then we have 
 $$
-C^{(1)}=\begin{pmatrix}
+G^{(3)} = \{ 1 \} \ <\ 
+G^{(2)} = \begin{pmatrix}
+1 & 0 & \mathbb{C} \\
+0 & 1 & 0 \\
+0 & 0 & 1
+\end{pmatrix} \ < \ 
+G^{(1)}=\begin{pmatrix}
 1 &\mathbb{C} &\mathbb{C} \\
 0 & 1& \mathbb{C} \\
 0 & 0 & 1
-\end{pmatrix}
+\end{pmatrix}\ <\ G
 $$
+
+**Proposition**: $G$ is solvable iff $G^{(n)}=\{ 1 \}$ for some finite $n\geq1$. 
+
+*Proof*: 
+1. $\implies$, clear, as $G^{(i)}\triangleright$ $G^{(i)} / G^{(i+1)}$ is abelian and 
