@@ -262,4 +262,24 @@ One notice that $G / Z(G) \simeq Ad(G) \hookrightarrow Aut(G)$. Then we define $
 **Fact**:
 1. $xy=yx$ $\Longleftrightarrow$ $[xy]=1_{G}$.
 2. $g[xy]g^{-1}=[gxg^{-1},gyg^{-1}]$ so $G^{der}$ is normal in $G$.
-3. $G / G^{der}$ is **abelian**. 
+3. $G / G^{der}$ is **abelian**, denote it as $G^{ab}$.
+4. In fact, for all $A$ abelian, $G\rightarrow A$, then there is a unique $G^{ab}\rightarrow A$ such that $G\rightarrow G^{ab}\rightarrow A$ commute. (this is the so called "universal property"). 
+
+**Definition**: $G$ group, define $G^{(0)}=G$, $G^{(i+1)}=[G^{(i)},G^{(i)}]$. Then $G=G^{(0)}\geq G^{(1)}\geq G^{2}\geq\cdots$ is called the **derived seires** for $G$. 
+
+**Example**: 
+$$
+G=\begin{pmatrix}
+\mathbb{C}^{\times}&\mathbb{C}& \mathbb{C} \\
+0& \mathbb{C}^{\times} &\mathbb{C} \\
+0 &0 &\mathbb{C}^{\times}
+\end{pmatrix}\ <\  GL_{3}(\mathbb{C})
+$$
+then we have 
+$$
+C^{(1)}=\begin{pmatrix}
+1 &\mathbb{C} &\mathbb{C} \\
+0 & 1& \mathbb{C} \\
+0 & 0 & 1
+\end{pmatrix}
+$$
