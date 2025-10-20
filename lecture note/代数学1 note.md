@@ -2,7 +2,7 @@
 updated_at: 2025-10-20T20:25:36.631+08:00
 edited_seconds: 140
 ---
-#algebra #lectureNote 
+**#algebra #lectureNote 
 
 why group/ring/fields?
 - Describe symmetry uniformly
