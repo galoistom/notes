@@ -297,3 +297,5 @@ $$
 2. "$\implies$", notice that $G / H_{1}$ is abelian, so $G^{(1)}\leq H_{1}$, similiarly, we have $H_{2}\geq [H_{1},H_{1}]\geq[G^{(1)},G^{(1)}]=G^{(2)}$. 
 
 **Definition**: $G$ a group, $G^{0}=0$, $G^{1}=[G,G]$, $G^{i+1}=[G,G^{i}]$. One immediately notice that $G=G^{0}\geq G^{1}\geq G^{2}\geq\cdots$, is called the **Central series** of $G$. One say that $G$ is nilpotent if $G^{n}=\{ 1 \}$ for some $n$. 
+
+**Definition**; $G$ group, $Z_{0}(G)=\{ 1 \}$, for $i\geq1$ , define $Z_{i+1}(G)$ to be the inverse image of $Z(G / Z_{i}(G))$ in $G$. The chain $\{ 1 \} = Z_{0}(G)\leq Z_{1}(G)\leq\cdots$ is called the **upper central series** of 
