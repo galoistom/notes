@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lecture note/代数学1 note.md",
-                "mode": "source",
+                "file": "Home.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "代数学1 note"
+              "title": "Home"
             }
           }
         ]
@@ -167,12 +167,10 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "timethings:Activate view": false,
       "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -185,8 +183,8 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Home.md",
     "lecture note/代数学1 note.md",
+    "Home.md",
     "homo algebra/texfrag/First_20extension_20group.md.prv/tmphA4EPz/pr1-13.png",
     "homo algebra/texfrag/First_20extension_20group.md.prv/tmphA4EPz/pr1-12.png",
     "homo algebra/texfrag/First_20extension_20group.md.prv/tmphA4EPz/pr1-11.png",

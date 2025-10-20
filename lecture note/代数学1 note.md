@@ -331,3 +331,4 @@ In fact, if $H<P$ with index $p$, then $H\triangleleft P$.
 **Theorem**:(Schur-Zassenhaus)
 $G$ a finite group, $N\triangleleft G$ normal s.t. $gcd(\lvert G \rvert,\lvert G / N \rvert)=1$. $\pi:G\rightarrow G / N$ a quotient map.
 1. Then there exist a subgroup $H\leq G$ s.t. $\pi|_{H}:H\rightarrow G / N$ is isomorphism. Therefore, $G\simeq N \rtimes(G / N)$.
+2. If $N$ or $G / N$ are solvable.
