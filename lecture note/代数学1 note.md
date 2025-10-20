@@ -252,3 +252,8 @@ One notice that $G / Z(G) \simeq Ad(G) \hookrightarrow Aut(G)$. Then we define $
 1. Recall $Z(G)$ center of $G$. If $p| \,\lvert Z(G) \rvert$m then by ther structure of finite generated abelian group, $Z(G)$ has a unique sylow $p$-subgroup $W$, congider $G / W$ and use induction. In not, consider $G$ acting on $G$ by conjugation, we know that $\lvert G \rvert=\sum_{O}\lvert O \rvert=\lvert Z(G) \rvert+\sum_{i=1}^{s} \frac{\lvert G \rvert}{|Stab_{G}(x)|}$, as $p$ is not a dividsor of $\lvert Z(G) \rvert$, so there must be a $x$ such that $v_{p}(\lvert G \rvert)=v_{p}(\lvert Stab_{G}(x) \rvert)$ and use induction. 
 2. Consider $Q$ acting on $G / P$ by left multiplication. Then we have $\lvert G / P \rvert=\sum_{g_{i}P}orb_{Q}(g_{i}P)=\sum_{g_{i}P} \frac{\lvert Q \rvert}{\lvert Stab_{Q}(g_{i},P) \rvert}$, as $Stab_{Q}(g_{i}P)=\{ q \in G:q \in g_{i}Pg_{i}^{-1} \}=Q\cap(g_{i}Pg_{i}^{-1})$. As left is not a multiple of $p$, so there must be a 1 on the right side, hance $Q=gPg^{-1}$ for some $g$. 
 3. Consider action $G$ on $Syl_{p}(G)$ by $P\mapsto gPg^{-1}$, then $n_{p}= \frac{\lvert G \rvert}{Stab_{G}(P)}$, so $n_{p}|m$. Consider the conjugate $P$ acting on $Syl_{p}(G)$. Then $\lvert Syl_{p} \rvert=\sum_{P_{i}}\lvert Orb_{P}(P_{i}) \rvert = \sum_{P_{i}} \frac{\lvert P \rvert}{Stab_{P}(P_{i})}$, if there is a $P_i$ such that $Stab_{P}(P_{i})=P$. Then $P\leq N_{G}(P_{i})\leq G$, so $P_{i}=P$, hence $n_{p}\equiv1\pmod{p}$. 
+
+# Commutator subgroups, nilpotent group, $p$-groups
+**Definition**: $G$ groups
+1. $x,y \in G$, define **commutator** $[xy]=x^{-1}y^{-1}xy \in G$. 
+2. If $H_{1},\ H_{2} \in G$, define $[H_{1},H_{2}]$ be the subgroup ge
