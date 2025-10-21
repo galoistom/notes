@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "6218cae0885fd46c",
@@ -184,10 +183,11 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "homo algebra/First extension group.md",
+    "Home.md",
     "lecture note/代数学1 note.md",
     "rep theory/Burnside's theorem.md",
     "rep theory/Property of the character table.md",
-    "Home.md",
     "homo algebra/texfrag/First_20extension_20group.md.prv/tmphA4EPz/pr1-13.png",
     "homo algebra/texfrag/First_20extension_20group.md.prv/tmphA4EPz/pr1-12.png",
     "homo algebra/texfrag/First_20extension_20group.md.prv/tmphA4EPz/pr1-11.png",
@@ -225,7 +225,6 @@
     "rep theory/Brauer's Theorem.md",
     "homo algebra/Projective module and injective module.md",
     "homo algebra/Short exact sequence.md",
-    "homo algebra/First extension group.md",
     "rep theory/lie group and their representation (reminder).md",
     "rep theory/Cohomology on groups.md",
     "rep theory/Artin's theorem.md",
