@@ -177,3 +177,9 @@ On the other hand, we claim that $\exists \delta>0$, s.t. $\forall x \in X$, $\e
 **Proposition**: $X,Y$ connected $\Longleftrightarrow$ $X\times Y$ connected. 
 
 *Proof*: Just take $A=X\times \{ y_{0} \}$, and $C=\{ \{ x \}\times Y:x \in X \}$. And the other direction is easy. 
+
+**Definition**: A subspace of $X$ is a called 联通分支 of $X$ if it is a maximal connected subset of $X$. 
+
+**Proposition**: In a topological space $X$, every connected subset $A$ is contained in a 联通分支.
+
+*Proof*: 
