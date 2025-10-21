@@ -157,3 +157,13 @@ On the other hand, we claim that $\exists \delta>0$, s.t. $\forall x \in X$, $\e
 
 # Connectivity
 **Definition**: $X$ is called connected if foall $X=A\cup B$, $A\cap \overline{B}$ or $A\cap \overline{B}$ $\neq \varnothing$. 
+
+**Proposition**: The image of connected space is also connected.
+
+*Proof*: In fact, connectivity is equivalent to there is no nontrival set that is open and closed. So if $f(X)$ is not connected, then there is a set $A\subset f(X)$ that is both open and closed. So $f^{-1}(A)$ is both open and closed, a contradicition. 
+
+**Lemma**: $X_{0}$ is a subset of $X$ that is both open and closed, and $A$ is a connected subset of $X$, then $A\subset X_{0}$ or $A\cap X_{0}=\varnothing$. 
+
+**Proposition**: If $X$ has a 稠密 connected subset $A$, then $X$ is connected. 
+
+*Proof*: If $X_{0}$ is a subset of $X$ that is both open and closed, then the above lemma tells us that $X_{0}\cap A=\varnothing$ or $A\subset X_{0}$, so $X_{0}$ is either $\varnothing$ or $X$. 
