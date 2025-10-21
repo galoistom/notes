@@ -167,3 +167,5 @@ On the other hand, we claim that $\exists \delta>0$, s.t. $\forall x \in X$, $\e
 **Proposition**: If $X$ has a 稠密 connected subset $A$, then $X$ is connected. 
 
 *Proof*: If $X_{0}$ is a subset of $X$ that is both open and closed, then the above lemma tells us that $X_{0}\cap A=\varnothing$ or $A\subset X_{0}$, so $X_{0}$ is either $\varnothing$ or $X$. 
+
+**Corollary**: 
