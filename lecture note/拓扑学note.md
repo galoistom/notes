@@ -191,3 +191,5 @@ On the other hand, we claim that $\exists \delta>0$, s.t. $\forall x \in X$, $\e
 **Definition**: $X$ is called **locally connected** if $\forall x \in X$ and a neighbor $U$ there is a connected neighbor of $V$ contained in $U$. 
 
 **Proposition**: the 联通分支 of locally connected space is open. 
+
+**Definition**: $X$ is called **locally path connected** if $X$ is path connected locally i.e. for all $x \in X$ and neighbor $U$, there is a neighbor $V\subset U$ that is path connected. 
