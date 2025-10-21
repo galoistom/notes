@@ -184,4 +184,6 @@ On the other hand, we claim that $\exists \delta>0$, s.t. $\forall x \in X$, $\e
 
 *Proof*: Let $\mathcal{F}:=\{ F\subset X:F \text{ connected and have intersection with } A\}$. $X_{0}=\bigcup_{F \in \mathcal{F}}F$, then $A \in \mathcal{F}$, so $A\subset X_{0}$. With proposition above, one know that $X_{0}$ is connected. One immediately check that $X_{0}$ is maximal.
 
-**Definition**: $X$ is called **道路连通** if forall $x_{0},x_{1}\in X$, there i
+**Definition**: $X$ is called **path connected (道路连通)** if forall $x_{0},x_{1}\in X$, there is a path $x_{0}\rightarrow x_{1}$, i.e. there is a continuous map $f:[0,1]\rightarrow X$ with $f(0)=x_{0}$, $f(1)=x_{1}$. One immediately notice that path connected implies connected.
+
+**Proposition**: In Euclidian space, all connected space is path connected. 
