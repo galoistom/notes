@@ -168,4 +168,12 @@ On the other hand, we claim that $\exists \delta>0$, s.t. $\forall x \in X$, $\e
 
 *Proof*: If $X_{0}$ is a subset of $X$ that is both open and closed, then the above lemma tells us that $X_{0}\cap A=\varnothing$ or $A\subset X_{0}$, so $X_{0}$ is either $\varnothing$ or $X$. 
 
-**Corollary**: 
+**Corollary**: $Z$ a connected subset, $Z\subset Y\subset \overline{Z}$, then $Y$ is connected.
+
+**Proposition**: Let $C$ be a covering of $X$ whose components are all connected, $A$ is a connected subspace of $X$ that has nonempty intersection with all parts of $C$, then $X$ is connected. 
+
+*Proof*: Take $X_{0}$ to be a both open and closed subset of $X$. If $X_{0}\neq \varnothing$, then there is a $U \in C$ that have intersection with $X_{0}$, as $X_{0}$ is both open and closed, so $U\subset X_{0}$, hence $A\cap X_{0}\neq \varnothing$, so $A\subset X_{0}$. Now with for all $V \in C$, $V\subset X_{0}$, therefore $X=X_{0}$. 
+
+**Proposition**: $X,Y$ connected $\Longleftrightarrow$ $X\times Y$ connected. 
+
+*Proof*: Just take $A=X\times \{ y_{0} \}$, and $C=\{ \{ x \}\times Y:x \in X \}$. And the other direction is easy. 
