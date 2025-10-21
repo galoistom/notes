@@ -187,3 +187,7 @@ On the other hand, we claim that $\exists \delta>0$, s.t. $\forall x \in X$, $\e
 **Definition**: $X$ is called **path connected (道路连通)** if forall $x_{0},x_{1}\in X$, there is a path $x_{0}\rightarrow x_{1}$, i.e. there is a continuous map $f:[0,1]\rightarrow X$ with $f(0)=x_{0}$, $f(1)=x_{1}$. One immediately notice that path connected implies connected.
 
 **Proposition**: In Euclidian space, all connected space is path connected. 
+
+**Definition**: $X$ is called **locally connected** if $\forall x \in X$ and a neighbor $U$ there is a connected neighbor of $V$ contained in $U$. 
+
+**Proposition**: the 联通分支 of locally connected space is open. 
