@@ -183,3 +183,5 @@ On the other hand, we claim that $\exists \delta>0$, s.t. $\forall x \in X$, $\e
 **Proposition**: In a topological space $X$, every connected subset $A$ is contained in a 联通分支.
 
 *Proof*: Let $\mathcal{F}:=\{ F\subset X:F \text{ connected and have intersection with } A\}$. $X_{0}=\bigcup_{F \in \mathcal{F}}F$, then $A \in \mathcal{F}$, so $A\subset X_{0}$. With proposition above, one know that $X_{0}$ is connected. One immediately check that $X_{0}$ is maximal.
+
+**Definition**: $X$ is called **道路连通** if forall $x_{0},x_{1}\in X$, there i
