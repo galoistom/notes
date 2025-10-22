@@ -1,3 +1,6 @@
+---
+updated_at: 2025-10-22T14:47:45.291+08:00
+---
 #nt #algebra #lectureNote 
 >[!note] Main problem
 >Find all prime of the form $x^{2}+ny^{2}$, i.e. find all $p=x^{2}+ny^{2}$
@@ -277,4 +280,6 @@ And $\left( \frac{1}{\pi} \right)_{4}=1^{- \frac{a-1}{2}}$, $\left( \frac{1+i}{\
 "The Hilbert clas field and $p=x^{2}+ny^{2}$"
 
 >[!note] Main Theorem
->let $n>0$, be a square free positive integer, $n\not\equiv3\pmod{4}$. 
+>let $n>0$, be a square free positive integer, $n\not\equiv3\pmod{4}$. Then there exists a monic irreducible polynomial $f_{n}(x)\in \mathbb{Z}[x]$ of degree $h(-4n)$ s.t. if an odd prime $p$ divides neither $n$ nor the discriminant of $f_{n}(x)$, then $\exists x,y \in \mathbb{Z}$, $p=x^{2}+ny^{2}$ $\Longleftrightarrow$ $\left( \frac{-n}{p} \right)=1$ and $f_{n}(x)\equiv0\pmod{p}$ has a solution. 
+>Further more, $f_{n}(x)$ may be chosen to be the minimal polynomial of a real algebraic integer $\alpha$ for which $L=K(\alpha)$ is the hilbert class field of $K=\mathbb{Q}(\sqrt{ -n })$. 
+

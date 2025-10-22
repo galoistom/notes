@@ -6,5 +6,6 @@
   "homepage",
   "dataview",
   "sample-plugin",
-  "my-tikz-render"
+  "my-tikz-render",
+  "timethings"
 ]
