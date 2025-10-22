@@ -240,7 +240,7 @@ $$
 1. We first proof that it is necessary. In fact, one immediately notice that $p\equiv x^{2}\equiv1\pmod{3}$, thus $p=x^{2}+27y^{2}=\pi \cdot \overline{\pi}$, $\pi=(x+3y)+6y\omega$. Now 2 is a qubic residue is equivalent to $1=\left( \frac{2}{\pi} \right)_{3}=\left( \frac{\pi}{2} \right)_{3}$ <==> $\pi\equiv1\pmod{2}$. 
 2. We then proof that the conditions are sufficicent. Since $p\equiv1\pmod{3}$, we are able to write it as $p=a+3b\omega$ for $p=\pi \cdot \overline{\pi}$. We may assume that $\pi\equiv-1\pmod{3}$, then $4p=4(a^{2}-3ab+9b^{2})=(2a-3b)^{2}+27b^{2}$, as 2 a cubic residue, we know that $a\equiv1\pmod{2}$ and $2|b$. 
 
-# $\mathbb{Z}[i]$ and quadraic reaprocity
+# $\mathbb{Z}[i]$ and biquadraic reaprocity
 Let $R:=\mathbb{Z}[i]$ with $i=\sqrt{ -1 }$. One immediately notice that $R$ is a Euclidean ring, hence a PID and UFD. 
 
 **proposition**: Let $p$ be a prime. Then 
@@ -258,4 +258,7 @@ Now let $\pi$ be a prime in $\mathbb{Z}[i]$, and assume that $\pi$ is note assoc
 
 **Definition**: We call a prime $\pi$ of $\mathbb{Z}[i]$ **primary** if $\pi\equiv1\pmod{(1+i)^{3}}$. Assume that $\pi$ prime and $\pi \not\sim1+i$, then there is a unique associates that is primary.  
 
-If $\pi \&\theta$ are primary primes and $\pi \not\sim\theta$, then $\left( \frac{\theta}{\pi} \right)_{4} \left( \frac{\pi}{\theta} \right) = (-1)^{\frac{(N(\pi)-1)(N(\theta)-1)}{16}}$
+**Theorem**: (biquadratic reciporcity theorem)
+If $\pi \&\theta$ are primary primes and $\pi \not\sim\theta$, then $\left( \frac{\theta}{\pi} \right)_{4}= \left( \frac{\pi}{\theta} \right)_{4} = (-1)^{\frac{(N(\pi)-1)(N(\theta)-1)}{16}}$
+
+And $\left( \frac{1}{\pi} \right)_{4}=1^{- \frac{a-1}{2}}$, $\left( \frac{1+i}{\pi} \right)_{4}=i^{\frac{a-b-1+b^{2}}{4}}$ for $\pi=a+bi$ primary. 
