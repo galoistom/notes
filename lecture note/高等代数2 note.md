@@ -1071,12 +1071,9 @@ Example:everything learned before in this class (morphism -> homomorphism)
 In a generated category, we have:
 - commutative diagram: $x \stackrel{h}{\longrightarrow}z$, $x \stackrel{f}{\longrightarrow} y$, $y \stackrel{g}{\longrightarrow} z$ such that $gf=h$, then we may draw a diagram 
 ```tikz
-\usepackage{tikz-cd}
-\begin{document}
-\begin{tikzcd}
+\begin{tikzcd}[color=white]
 &x \arrow[r,"f"] \arrow[d,"h"] &y \arrow[dl,"g"]\\
 &z 
 \end{tikzcd}
-\end{document}
 ```
 - isomorphism: we say $f \in Hom(X,Y)$ is an isomorphism if there is a $f^{-1} \in Hom(Y,X)$ such that $f \circ f^{-1}=id_Y$ and $f^{-1} \circ f=id_X$.
