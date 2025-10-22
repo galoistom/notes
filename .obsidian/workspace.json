@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "6218cae0885fd46c",
@@ -183,6 +184,7 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "homo algebra/First extension group.md",
     "Home.md",
     "lecture note/代数学1 note.md",
     "lecture note/拓扑学note.md",
@@ -198,7 +200,6 @@
     "homo algebra/texfrag/prv_First_20extension_20group.md.ini",
     "homo algebra/texfrag/First_20extension_20group.md.tex",
     "homo algebra/texfrag",
-    "homo algebra/First extension group.md",
     "rep theory/Burnside's theorem.md",
     "rep theory/Property of the character table.md",
     "homo algebra/texfrag/First_20extension_20group.md.prv/tmphA4EPz/pr1-13.png",
