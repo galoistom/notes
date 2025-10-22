@@ -6,13 +6,10 @@
 
 Another expression of the definition is that there exists a $h$ such that the following diagram commute:
 ```tikz
-\usepackage{tikz-cd}
-\begin{document}
-\begin{tikzcd}
+\begin{tikzcd}[color=white]
 &N \arrow[r,"f"] &M \arrow[r] &0\\
 &p \arrow[u,"\exists h"] \arrow[ur,"g"]
 \end{tikzcd}
-\end{document}
 ```
 
 The point of defining this object is that if $P$ is projective(resp. injective), then $Ext^1(P,\cdot)=0$ (resp.$Ext^1(\cdot,P)=0$) cf.[[First extension group]]
@@ -25,13 +22,10 @@ Here is another property of the projective module: it is a direct summand of a f
 
 1. Let $R$ be a ring and $P$ an $R-module$. Then if every Left ideal $I$ the following diagram commute, then $P$ is injective.
 ```tikz
-\usepackage{tikz-cd}
-\begin{document}
-\begin{tikzcd}
+\begin{tikzcd}[color=white]
 0 \arrow[r] &I \arrow[r] \arrow[d,swap,"\forall f"] &R \arrow[dl,dashed,"\exists g"]\\
 &P
 \end{tikzcd}
-\end{document}
 ```
 2. $R$ a PID, $I$ a $R-module$, if $rI=I$ for all $r \in R$, then $I$ is injective.
 3. $Hom(P,\cdot)$ is an exact functoe(i.e. it keeps the short exact sequence) $\Leftrightarrow$ $P$ is projective 
