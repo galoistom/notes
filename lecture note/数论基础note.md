@@ -254,4 +254,6 @@ Let $R:=\mathbb{Z}[i]$ with $i=\sqrt{ -1 }$. One immediately notice that $R$ is 
 2. As $p=x^{2}+y^{2}$, with $gcd(x,y)=1$, so there is $u,v \in \mathbb{Z}$ such that $ux+vy=1$, then $a+bi-(x+yi)(u+vi)\in \mathbb{Z}$, hence $\mathbb{Z}[i] / (x+yi)\simeq \mathbb{Z} / p\mathbb{Z}$. Thus $\pi=x+yi$ is a prime in $\mathbb{Z}[i]$. 
 3. One note that $x^{2}+1$ is irreducible in $\mathbb{F}_{p}[x]$, so $\mathbb{Z}[i] / (p)$ is a field. 
 
-Now let $\pi$ be a prime in $\mathbb{Z}[i]$, and assume that $\pi$ is note associate to $1+i$. Then $4|N(\pi)-1$. 
+Now let $\pi$ be a prime in $\mathbb{Z}[i]$, and assume that $\pi$ is note associate to $1+i$. Then $4|N(\pi)-1$. Then one notice that $\alpha ^{\frac{N(\pi)-1}{4}}\equiv \eta \pmod{\pi}$ for some $\eta \in \{ \pm1,\pm i \}$, so $\left( \frac{\alpha}{\pi} \right)_{4}\in \{ \pm1,\ \pm i \}$. 
+
+**Definition**: We call a prime $\pi$ of $\mathbb{Z}[i]$ **primary** if $\pi\equiv1\pmod{(1+i)^{3}}$. Assume that $\pi$ prime and $\pi \not\sim1+i$, then there is a unique associates that is primary.  
