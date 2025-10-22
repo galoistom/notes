@@ -591,13 +591,10 @@ The group structure on $G/N$ is the unique one making $q$ into a homomorphism.
 **Proposition**(universal property of quotient):
 Let $f:G \rightarrow G'$ be a homomorphism and $N \triangleleft G$ such that $N \subseteq ker(q)$, then there is a unique $\bar{f}:G/N \rightarrow G'$ making the following diagram commute:
 ```tikz
-\usepackage{tikz-cd}
-\begin{document}
-\begin{tikzcd}
+\begin{tikzcd}[color=white]
 &G \arrow[d,"q"] \arrow[r,"f"] &G'\\
 &G/N \arrow[ur,"\bar{f}"]
 \end{tikzcd}
-\end{document}
 ```
 **Corollary**:
 Let $f:G \rightarrow G'$ be a homomorphism, put $N:=ker(f)$, we get $\bar{f}:F/ker(f) \simeq im(f) \subseteq G'$. In particular, $(G:ker(f))=|im(f)|$
@@ -708,13 +705,10 @@ Leet $f:M \rightarrow M'$ be a homomorphism, define $coker(f):=M'/im(f)$ be the 
 **Proposition**:(universal property of quotient)
 Let $f:M \rightarrow M'$ be a homomorphism, $N \leq M$:submodule $N \subseteq ker(f)$ then there is a unique homomorphism $\bar{f}:M/N \rightarrow M'$ making the diagram commute:
 ```tikz
-\usepackage{tikz-cd}
-\begin{document}
-\begin{tikzcd}
+\begin{tikzcd}[color=white]
 &M \arrow[d,"q"] \arrow[r,"f"] &N'\\
 &M/N \arrow[ur,"\bar{f}"]
 \end{tikzcd}
-\end{document}
 ```
 
 *Proof*:

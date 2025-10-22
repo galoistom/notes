@@ -29,12 +29,9 @@ $$1 \longrightarrow \mathcal{O}^* \longrightarrow \tilde{\mathcal{O}}^* \longrig
 where $Pic(\mathcal{O})=J(\mathcal{O})/P(\mathcal{O})$. 
 The proof is simple, observing the following commutative diagram:
 ```tikz
-\usepackage{tikz-cd}
-\begin{document}
-\begin{tikzcd}
+\begin{tikzcd}[color=white]
 &1 \arrow[r] &K^*/\mathcal{O}^* \arrow[r] \arrow[d,"\alpha"] &\bigoplus_pK^*/\mathcal{O}_p^* \arrow[r] \arrow[d,"\beta"] &Pic(\mathcal{O}) \arrow[r] \arrow[d,"\gamma"] &1\\
 &1 \arrow[r] &K^*/\tilde{\mathcal{O}}^* \arrow[r] &\bigoplus_pK^*/\tilde{\mathcal{O}}_p^* \arrow[r] &Pic(\tilde{\mathcal{O}}) \arrow[r] &1
 \end{tikzcd}
-\end{document}
 ```
 Then use the snake lemma, we get what we want.

@@ -8,13 +8,10 @@ We called the number on the right the **Mikowski bound** which we sometime denot
 There are something left to be explained. 
 1. $\mathbb{N}(\mathfrak{a})=(\mathcal{O}_K:\mathfrak{a})$ is the norm of the fractional ideal $\mathfrak{a}$ (c.f.[[Dedekind domain]]) i.e. Let $A$ be a dedekind domain with field of fraction $K$, and $L$ be a finite extension of $K$ with $B$ the integeral closure of $A$, then the morphism $Nm:Id(B) \longrightarrow Id(A)$ should make the following diagram commute:
 ```tikz
-\usepackage{tikz-cd}
-\begin{document}
-\begin{tikzcd}
+\begin{tikzcd}[color=white]
 &L^{\times} \arrow[r] \arrow[d,"Nm"] &Id(B) \arrow[d,"Nm"]\\
 &K^{\times} \arrow[r] &Id(A)
 \end{tikzcd}
-\end{document}
 ```
 2. $\Delta_K=disc(K/\mathbb{Q})$ is the discriminant of $K/\mathbb{Q}$ i.e. the image of $det(Tr(\beta_i\beta_j))$ in $\mathbb{Q}/\mathbb{Q}^2$ where $\beta_1, \cdots, \beta_n$ is a basis of $K$ as a vector space of $\mathbb{Q}$.
 
