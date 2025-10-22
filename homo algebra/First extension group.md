@@ -4,13 +4,10 @@
 We say that two [[Short exact sequence]] are equivalent if there exists isomorphisms $\phi_x,\phi_y,\phi_z$ making the following diagram commute:
 
 ```tikz
-\usepackage{tikz-cd}
-\begin{document}
-\begin{tikzcd}
+\begin{tikzcd}[color=white]
 &0 \arrow[r] & X \arrow[r, "f_1"] \arrow[d, "\phi_x"] & Y \arrow[r, "g_1"] \arrow[d, "\phi_y"] & Z \arrow[r] \arrow[d, "\phi_z"] & 0\\
 & 0 \arrow[r] & X \arrow[r, "f_2"] & Y' \arrow[r, "g_2"] & Z \arrow[r] & 0
 \end{tikzcd}
-\end{document}
 ```
 It is easily checked that this equivalent relation is indeed an equivalent relation. Now we are going to varify the addition and zero object in the equivalent classes of $Y$ and obtain the definition of $Ext^1(Z,X)$.
 
@@ -26,26 +23,20 @@ It is easily checked that this equivalent relation is indeed an equivalent relat
 >Given $X,Y,Z$ and morphism $s:X\rightarrow Z$ and $t:Y\rightarrow Z$ then the pullback $P$ have two morphism $p_1:P\rightarrow X$, $p_2:P\rightarrow Y$ such that the square commute, and if there are another $P'$ making the square commute, then there exists a unique $\phi:P' \rightarrow P$ making the folloing diagram commute.
 
 ```tikz
-\usepackage{tikz-cd}
-\begin{document}
-\begin{tikzcd}
+\begin{tikzcd}[color=white]
 P' \arrow[ddr,bend right=10,swap,"p'_2"] \arrow[drr,bend left=10,"p'_1"] \arrow[dr, "\exists \phi"]\\
 &P \arrow[d,"p_2"] \arrow[r,swap,"p_1"] &X \arrow[d,"s"]\\
 &Y \arrow[r,"t"] &Z
 \end{tikzcd}
-\end{document}
 ```
 By reversing all arrows we got the definition of "Pushout", or cofiber product.An elementary argument shows that the product exists and is unique up to isomorphism. 
 
 Now we are ready to construct the process of addition.
 
 ```tikz
-\usepackage{tikz-cd}
-\begin{document}
-\begin{tikzcd} & 0 \arrow[r] & X \oplus X \arrow[r, "{(f_1,f_2)}"] \arrow[d] & Y_1 \oplus Y_2 \arrow[r, "{(g_1,g_2)}"] \arrow[d] & Z \oplus Z \arrow[r] \arrow[d, equal] & 0 \\
+\begin{tikzcd}[color=white] & 0 \arrow[r] & X \oplus X \arrow[r, "{(f_1,f_2)}"] \arrow[d] & Y_1 \oplus Y_2 \arrow[r, "{(g_1,g_2)}"] \arrow[d] & Z \oplus Z \arrow[r] \arrow[d, equal] & 0 \\
 & 0 \arrow[r] & X \arrow[r, "f_0"] \arrow[d, equal] & P \arrow[r, "g_0"] & Z \oplus Z \arrow[r] & 0 \\ 
 & 0 \arrow[r] & X \arrow[r, "f"] & Q \arrow[r, "g"] \arrow[u] & Z \arrow[r] \arrow[u] & 0 \end{tikzcd}
-\end{document}
 ```
 
 We say that $\overline{Q}=\overline{Y_1}+\overline{Y_2}$, it is the mix of a pullup and a pushout. It is easy to check that $Ext^1(X,Z)$ is well-defined abilian group.
@@ -60,12 +51,9 @@ Here is an important theorem discribs the structure of $Ext^1(M,X)$:
 Here is some necessary definition:
 1. It is obvious that  $Hom_{R}(_R\!X_S, _R\!Y)$ has the structure of $S-left-module$. And a $X \stackrel{f}{\longrightarrow} Y$ induce a map $Hom(X,Y) \stackrel{f^*}{\longrightarrow} Hom(X,Y')$ by 
 ```tikz
-\usepackage{tikz-cd}
-\begin{document}
-\begin{tikzcd}
+\begin{tikzcd}[color=white]
 X \arrow[r,"f"] \arrow[rr,bend right=20,swap,"f \circ \alpha"] &Y \arrow[r,"\alpha"] &Y'
 \end{tikzcd}
-\end{document}
 ```
 2. By applying the above functor, we induce another exact sequence:$$0 \longrightarrow Hom(M,X) \stackrel{g^*}{\longrightarrow} Hom(P,X) \stackrel{f^*}{\longrightarrow} Hom(E,X) \longrightarrow Coker(f^*) \longrightarrow 0$$
 
@@ -73,24 +61,18 @@ We define the maps $Ext^1(M,X) \leftrightarrows Coker(f^*)$:
 
 1. Let $0 \longrightarrow X \stackrel{\alpha}{\longrightarrow} I \stackrel{\beta}{\longrightarrow} M \longrightarrow 0$ be a short exact sequence, using the definition of [[Projective module and injective module]], there exists $\psi,\phi$ making the following diagram commute. Then we define the image of $I$ in $Coker(f^*)$ as the image of $\psi$ in $Coker(f^*)$.
 ```tikz
-\usepackage{tikz-cd}
-\begin{document}
-\begin{tikzcd}
+\begin{tikzcd}[color=white]
 &0 \arrow[r] & X \arrow[r, "\alpha"] & I \arrow[r, "\beta"] & M \arrow[r] & 0\\
 & 0 \arrow[r] & K \arrow[r, "f"] \arrow[u, "\exists \psi"] & P \arrow[r, "g"] \arrow[u,"\exists \phi"] & M \arrow[r] \arrow[u,equal] & 0 
 
 \end{tikzcd}
-\end{document}
 ```
 2. Given a $\overline{\psi} \in Coker(f^*)$, we use pushout to get the $I$ we want, i.e.
 ```tikz
-\usepackage{tikz-cd}
-\begin{document}
-\begin{tikzcd}
+\begin{tikzcd}[color=white]
 &0 \arrow[r] & K \arrow[r, "f"] \arrow[d,"\psi"] & P \arrow[r, "g"] \arrow[d,"\exists \phi"] & M \arrow[r] & 0\\
 & 0 \arrow[r] & X \arrow[r, "\alpha"] & I \arrow[r, "\beta"] & M \arrow[r] \arrow[u,equal] & 0
 \end{tikzcd}
-\end{document}
 ```
 
 Now we check that the two morphism is indeed a pair of well-defined isomorphisms.
@@ -99,33 +81,24 @@ Now we check that the two morphism is indeed a pair of well-defined isomorphisms
 >In the following commutative diagram with exact rows, then the right square is a pullback square
 
 ```tikz
-\usepackage{tikz-cd}
-\begin{document}
-\begin{tikzcd}
+\begin{tikzcd}[color=white]
 &K \arrow[r,"l"] \arrow[d,equal] &P \arrow[r,"p_1"] \arrow[d,"p_2"] &X \arrow[r] \arrow[d,"s"] &0\\
 &K \arrow[r,"p_2 \circ l"] &Y \arrow[r,"t"] &Z \arrow[r] &0
 \end{tikzcd}
-\end{document}
 ```
  To proof the lemma, we assume (WOLG) that $l$ is injective, and Let $\tilde{P}$ denote the actual pullback of the square. Consider the following diagram:
 ```tikz
-\usepackage{tikz-cd}
-\begin{document}
-\begin{tikzcd}
+\begin{tikzcd}[color=white]
 &0 \arrow[r] &Ker(\alpha) \arrow[r,"k"] \arrow[d,"\overline{\beta}"] &\tilde{P} \arrow[r,"\alpha"] \arrow[d,"\beta"] &X \arrow[r] \arrow[d,"s"] &0\\
 &0 \arrow[r] &Ker(t) \arrow[r,"p_2 \circ l"] &Y \arrow[r,"t"] &Z \arrow[r]&0
 \end{tikzcd}
-\end{document}
 ```
 And by the definition of pullback square, we have a morphism $xi: P \rightarrow \tilde{P}$, which lead us to consider the diagram:
 ```tikz
-\usepackage{tikz-cd}
-\begin{document}
-\begin{tikzcd}
+\begin{tikzcd}[color=white]
 &0 \arrow[r] &K \arrow[r,"l"] \arrow[d] &P \arrow[r,"p_1"] \arrow[d,"\xi"] &X \arrow[r] \arrow[d,equal] &0\\
 &0 \arrow[r] &K \arrow[r,"k \circ \beta^{-1}"] &\tilde{P} \arrow[r,"\alpha"] &X \arrow[r] &0
 \end{tikzcd}
-\end{document}
 ```
 The right square is obviously commutative, note that $p_2$ restricts to tha identity map $K \rightarrow K$, and so does $\beta$, and $p_2=\beta \xi$, hence $\xi$ restricts to an isomorphism $K \rightarrow K$, appling the short five lemma, we have $\xi$ is an isomorphism $P \rightarrow \tilde{P}$, which completes the proof of the lemma.
 
@@ -150,14 +123,11 @@ From the definition of projective modules, we get $\alpha:P\rightarrow P'$ and $
 ```
 Consider $\alpha\alpha'-id_p$, obviously we have $g(\alpha\alpha'-id_p)=0$, hence there exists $\tau:P\rightarrow P$ such that $\alpha \alpha' - id_p=\tau f$, similarly, $\tau':P' \rightarrow P'$ exists. Now we go to the follwoing diagram:
 ```tikz
-\usepackage{tikz-cd}
-\begin{document}
-\begin{tikzcd}
+\begin{tikzcd}[color=white]
 &0 \arrow[r] &Hom_A(M,X) \arrow[r,"g^*"] \arrow[d,equal] &Hom_A(P,X) \arrow[r,"f^*"] \arrow[d,"\alpha^*"] &Hom_A(K,X) \arrow[r] \arrow[d,"\beta^*"] &Coker(f^*) \arrow[r] \arrow[d,"\mu"] &0\\
 &0 \arrow[r] &Hom_A(M,X) \arrow[r,"(g')^*"] \arrow[d,equal] &Hom_A(P',X) \arrow[r,"(f')^*"] \arrow[d,"(\alpha')^*"] &Hom_A(K',X) \arrow[r] \arrow[d,"(\beta')^*"] &Coker(f^*) \arrow[r] \arrow[d,"\mu'"] &0\\
 &0 \arrow[r] &Hom_A(M,X) \arrow[r,"g^*"] &Hom_A(P,X) \arrow[r,"f^*"] &Hon_A(K,X) \arrow[r] &Coker(f^*) \arrow[r] &0
 \end{tikzcd}
-\end{document}
 ```
 Here $\mu,\mu'$ is the induced map making the diagram commute.Note that for $\overline{h} \in Coker(f^*)$, $\mu' \mu \overline{h}=\overline{h \beta \beta'}$, and $\overline{h(\beta \beta'-id_p)}=\overline{h \tau f}=\overline{0}$
 Hence $\mu' \mu=id$, hence $Coker(f^*) \simeq Coker((f')^*)$.

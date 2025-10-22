@@ -1,9 +1,9 @@
 [
-  "obsidian-tikzjax",
   "various-complements",
   "obsidian-vimrc-support",
   "obsidian-git",
   "obsidian-latex-suite",
   "homepage",
-  "dataview"
+  "dataview",
+  "sample-plugin"
 ]
