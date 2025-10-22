@@ -1,0 +1,1387 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=prv_First_20extension_20group.md 2025.10.22)  22 OCT 2025 13:25
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**&prv_First_20extension_20group.md /AUCTEXINPUT{ First_20extension_20group.md.tex }
+(./First_20extension_20group.md.tex (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count282
+\l__pdf_internal_box=\box54
+)
+No file First_20extension_20group.md.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+(/home/galoistom/.emacs.d/elpa/auctex-14.1.0/latex/preview.sty
+Package: preview 2024/06/30 14.0.6 (AUCTeX/preview-latex)
+ (/usr/share/texmf-dist/tex/generic/luatex85/luatex85.sty
+Package: luatex85 2016/06/15 v1.4 pdftex aliases for luatex
+) (/home/galoistom/.emacs.d/elpa/auctex-14.1.0/latex/prtightpage.def
+\PreviewBorder=\dimen151
+) (/home/galoistom/.emacs.d/elpa/auctex-14.1.0/latex/prauctex.def
+No auxiliary output files.
+
+
+\hbadness=\count283
+\hfuzz=\dimen152
+(/home/galoistom/.emacs.d/elpa/auctex-14.1.0/latex/prauctex.cfg)) (/home/galoistom/.emacs.d/elpa/auctex-14.1.0/latex/prfootnotes.def)
+\pr@snippet=\count284
+\pr@box=\box55
+\pr@output=\toks24
+
+Preview: Fontsize 10pt
+Preview: PDFoutput 1
+) (/usr/share/texmf-dist/tex/latex/tikz-cd/tikz-cd.sty
+Package: tikz-cd 2021/05/04 v1.0 Commutative diagrams with TikZ
+ (/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks25
+\pgfutil@tempdima=\dimen153
+\pgfutil@tempdimb=\dimen154
+) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box56
+) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/share/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks26
+) (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+ (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+ (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count285
+\scratchdimen=\dimen155
+\scratchbox=\box57
+\nofMPsegments=\count286
+\nofMParguments=\count287
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count288
+\MPscratchDim=\dimen156
+\MPnumerator=\count289
+\makeMPintoPDFobject=\count290
+\everyMPtoPDFconversion=\toks28
+))) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+\Gin@req@height=\dimen157
+\Gin@req@width=\dimen158
+) (/usr/share/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks29
+\pgfkeys@temptoks=\toks30
+ (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks31
+))
+\pgf@x=\dimen159
+\pgf@y=\dimen160
+\pgf@xa=\dimen161
+\pgf@ya=\dimen162
+\pgf@xb=\dimen163
+\pgf@yb=\dimen164
+\pgf@xc=\dimen165
+\pgf@yc=\dimen166
+\pgf@xd=\dimen167
+\pgf@yd=\dimen168
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count291
+\c@pgf@countb=\count292
+\c@pgf@countc=\count293
+\c@pgf@countd=\count294
+\t@pgf@toka=\toks32
+\t@pgf@tokb=\toks33
+\t@pgf@tokc=\toks34
+\pgf@sys@id@count=\count295
+ (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+))) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count296
+\pgfsyssoftpath@bigbuffer@items=\count297
+) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+ (/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen169
+\pgfmath@count=\count298
+\pgfmath@box=\box58
+\pgfmath@toks=\toks35
+\pgfmath@stack@operand=\toks36
+\pgfmath@stack@operation=\toks37
+) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count299
+)) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen170
+\pgf@picmaxx=\dimen171
+\pgf@picminy=\dimen172
+\pgf@picmaxy=\dimen173
+\pgf@pathminx=\dimen174
+\pgf@pathmaxx=\dimen175
+\pgf@pathminy=\dimen176
+\pgf@pathmaxy=\dimen177
+\pgf@xx=\dimen178
+\pgf@xy=\dimen179
+\pgf@yx=\dimen180
+\pgf@yy=\dimen181
+\pgf@zx=\dimen182
+\pgf@zy=\dimen183
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen184
+\pgf@path@lasty=\dimen185
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen186
+\pgf@shorten@start@additional=\dimen187
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box59
+\pgf@hbox=\box60
+\pgf@layerbox@main=\box61
+\pgf@picture@serial@count=\count300
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen188
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen189
+\pgf@pt@y=\dimen190
+\pgf@pt@temp=\dimen191
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen192
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen193
+\pgf@sys@shading@range@num=\count301
+\pgf@shadingcount=\count302
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box62
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box63
+) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen194
+\pgf@nodesepend=\dimen195
+) (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/share/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen196
+\pgffor@skip=\dimen197
+\pgffor@stack=\toks38
+\pgffor@toks=\toks39
+)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count303
+\pgfplotmarksize=\dimen198
+)
+\tikz@lastx=\dimen199
+\tikz@lasty=\dimen256
+\tikz@lastxsaved=\dimen257
+\tikz@lastysaved=\dimen258
+\tikz@lastmovetox=\dimen259
+\tikz@lastmovetoy=\dimen260
+\tikzleveldistance=\dimen261
+\tikzsiblingdistance=\dimen262
+\tikz@figbox=\box64
+\tikz@figbox@bg=\box65
+\tikz@tempbox=\box66
+\tikz@tempbox@bg=\box67
+\tikztreelevel=\count304
+\tikznumberofchildren=\count305
+\tikznumberofcurrentchild=\count306
+\tikz@fig@count=\count307
+ (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count308
+\pgfmatrixcurrentcolumn=\count309
+\pgf@matrix@numberofcolumns=\count310
+)
+\tikz@expandcount=\count311
+ (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (/usr/share/texmf-dist/tex/generic/tikz-cd/tikzlibrarycd.code.tex (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarymatrix.code.tex
+File: tikzlibrarymatrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryquotes.code.tex
+File: tikzlibraryquotes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowinset=\dimen263
+\pgfarrowlength=\dimen264
+\pgfarrowwidth=\dimen265
+\pgfarrowlinewidth=\dimen266
+)))
+./First_20extension_20group.md.tex:6: Preview: Snippet 1 started.
+<-><->
+      
+l.6 $
+     \phi_x,\phi_y,\phi_z$
+Not a real error.
+
+Preview: Tightpage -32891 -32891 32891 32891
+./First_20extension_20group.md.tex:6: Preview: Snippet 1 ended.(455111+187504x2700936).
+<-><->
+      
+l.6 $\phi_x,\phi_y,\phi_z$
+                          
+Not a real error.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+./First_20extension_20group.md.tex:7: Preview: Snippet 2 started.
+<-><->
+      
+l.7 \begin{tikzcd}
+                  [color=white]
+Not a real error.
+
+./First_20extension_20group.md.tex:10: Preview: Snippet 2 ended.(1718721+1539510x13137338).
+<-><->
+      
+l.10 \end{tikzcd}
+                 
+Not a real error.
+
+[2]
+./First_20extension_20group.md.tex:11: Preview: Snippet 3 started.
+<-><->
+      
+l.11 $
+      Y$
+Not a real error.
+
+./First_20extension_20group.md.tex:11: Preview: Snippet 3 ended.(447828+0x526109).
+<-><->
+      
+l.11 $Y$
+        
+Not a real error.
+
+[3]
+./First_20extension_20group.md.tex:12: Preview: Snippet 4 started.
+<-><->
+      
+l.12 $
+      Ext^1(Z,X)$
+Not a real error.
+
+./First_20extension_20group.md.tex:12: Preview: Snippet 4 ended.(533465+163840x3279984).
+<-><->
+      
+l.12 $Ext^1(Z,X)$
+                 
+Not a real error.
+
+[4]
+./First_20extension_20group.md.tex:13: Preview: Snippet 5 started.
+<-><->
+      
+l.13 $
+      \overline{X \oplus Z}$
+Not a real error.
+
+./First_20extension_20group.md.tex:13: Preview: Snippet 5 ended.(578893+54613x1889615).
+<-><->
+      
+l.13 $\overline{X \oplus Z}$
+                            
+Not a real error.
+
+[5]
+./First_20extension_20group.md.tex:14: Preview: Snippet 6 started.
+<-><->
+      
+l.14 $
+      $0 \longrightarrow X \oplus X \longrightarrow Y_1 \oplus Y_2 \longrigh...
+Not a real error.
+
+
+./First_20extension_20group.md.tex:14: Package amsmath Error: \tag not allowed here.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 ...ightarrow Z \oplus Z \longrightarrow 0\tag
+                                                  {1}$$
+\tag cannot be used at this point. If you don't understand why
+you should consult the documentation.
+But don't worry: just continue, and I'll forget what happened. 
+
+./First_20extension_20group.md.tex:14: Preview: Snippet 6 ended.(884735+0x22609920).
+<-><->
+      
+l.14 ...rrow Z \oplus Z \longrightarrow 0\tag{1}$$
+                                                  
+Not a real error.
+
+[6]
+./First_20extension_20group.md.tex:15: Preview: Snippet 7 started.
+<-><->
+      
+l.15 $
+      0 \longrightarrow X \longrightarrow Q \longrightarrow Z \longrightarro...
+Not a real error.
+
+./First_20extension_20group.md.tex:15: Preview: Snippet 7 ended.(447828+127431x7941857).
+<-><->
+      
+l.15 ...row Q \longrightarrow Z \longrightarrow 0$
+                                                  
+Not a real error.
+
+[7]
+./First_20extension_20group.md.tex:16: Preview: Snippet 8 started.
+<-><->
+      
+l.16 $
+      (1)$
+Not a real error.
+
+./First_20extension_20group.md.tex:16: Preview: Snippet 8 ended.(491520+163840x837407).
+<-><->
+      
+l.16 $(1)$
+          
+Not a real error.
+
+[8]
+./First_20extension_20group.md.tex:17: Preview: Snippet 9 started.
+<-><->
+      
+l.17 $
+      X,Y,Z$
+Not a real error.
+
+./First_20extension_20group.md.tex:17: Preview: Snippet 9 ended.(447828+127431x2051636).
+<-><->
+      
+l.17 $X,Y,Z$
+            
+Not a real error.
+
+[9]
+./First_20extension_20group.md.tex:18: Preview: Snippet 10 started.
+<-><->
+      
+l.18 $
+      s:X\rightarrow Z$
+Not a real error.
+
+./First_20extension_20group.md.tex:18: Preview: Snippet 10 ended.(447828+0x2961391).
+<-><->
+      
+l.18 $s:X\rightarrow Z$
+                       
+Not a real error.
+
+[10]
+./First_20extension_20group.md.tex:19: Preview: Snippet 11 started.
+<-><->
+      
+l.19 $
+      t:Y\rightarrow Z$
+Not a real error.
+
+./First_20extension_20group.md.tex:19: Preview: Snippet 11 ended.(447828+0x2822584).
+<-><->
+      
+l.19 $t:Y\rightarrow Z$
+                       
+Not a real error.
+
+[11]
+./First_20extension_20group.md.tex:20: Preview: Snippet 12 started.
+<-><->
+      
+l.20 $
+      P$
+Not a real error.
+
+./First_20extension_20group.md.tex:20: Preview: Snippet 12 ended.(447828+0x511773).
+<-><->
+      
+l.20 $P$
+        
+Not a real error.
+
+[12]
+./First_20extension_20group.md.tex:21: Preview: Snippet 13 started.
+<-><->
+      
+l.21 $
+      p_1:P\rightarrow X$
+Not a real error.
+
+./First_20extension_20group.md.tex:21: Preview: Snippet 13 ended.(447828+127431x3295444).
+<-><->
+      
+l.21 $p_1:P\rightarrow X$
+                         
+Not a real error.
+
+[13]
+./First_20extension_20group.md.tex:22: Preview: Snippet 14 started.
+<-><->
+      
+l.22 $
+      p_2:P\rightarrow Y$
+Not a real error.
+
+./First_20extension_20group.md.tex:22: Preview: Snippet 14 ended.(447828+127431x3227179).
+<-><->
+      
+l.22 $p_2:P\rightarrow Y$
+                         
+Not a real error.
+
+[14]
+./First_20extension_20group.md.tex:23: Preview: Snippet 15 started.
+<-><->
+      
+l.23 $
+      P'$
+Not a real error.
+
+./First_20extension_20group.md.tex:23: Preview: Snippet 15 ended.(492688+0x695638).
+<-><->
+      
+l.23 $P'$
+         
+Not a real error.
+
+[15]
+./First_20extension_20group.md.tex:24: Preview: Snippet 16 started.
+<-><->
+      
+l.24 $
+      \phi:P' \rightarrow P$
+Not a real error.
+
+./First_20extension_20group.md.tex:24: Preview: Snippet 16 ended.(492688+127431x3163463).
+<-><->
+      
+l.24 $\phi:P' \rightarrow P$
+                            
+Not a real error.
+
+[16]
+./First_20extension_20group.md.tex:25: Preview: Snippet 17 started.
+<-><->
+      
+l.25 \begin{tikzcd}
+                   [color=white]
+Not a real error.
+
+./First_20extension_20group.md.tex:29: Preview: Snippet 17 ended.(2592891+2592891x6653672).
+<-><->
+      
+l.29 \end{tikzcd}
+                 
+Not a real error.
+
+[17]
+./First_20extension_20group.md.tex:30: Preview: Snippet 18 started.
+<-><->
+      
+l.30 \begin{tikzcd}
+                   [color=white] & 0 \arrow[r] & X \oplus X \arrow[r, "{(f_1...
+Not a real error.
+
+./First_20extension_20group.md.tex:32: Preview: Snippet 18 ended.(2940817+2710633x17267912).
+<-><->
+      
+l.32 ...] & Z \arrow[r] \arrow[u] & 0 \end{tikzcd}
+                                                  
+Not a real error.
+
+[18]
+./First_20extension_20group.md.tex:33: Preview: Snippet 19 started.
+<-><->
+      
+l.33 $
+      \overline{Q}=\overline{Y_1}+\overline{Y_2}$
+Not a real error.
+
+./First_20extension_20group.md.tex:33: Preview: Snippet 19 ended.(578893+127431x3541846).
+<-><->
+      
+l.33 $\overline{Q}=\overline{Y_1}+\overline{Y_2}$
+                                                 
+Not a real error.
+
+[19]
+./First_20extension_20group.md.tex:34: Preview: Snippet 20 started.
+<-><->
+      
+l.34 $
+      Ext^1(X,Z)$
+Not a real error.
+
+./First_20extension_20group.md.tex:34: Preview: Snippet 20 ended.(533465+163840x3279984).
+<-><->
+      
+l.34 $Ext^1(X,Z)$
+                 
+Not a real error.
+
+[20]
+./First_20extension_20group.md.tex:35: Preview: Snippet 21 started.
+<-><->
+      
+l.35 $
+      Ext^1(M,X)$
+Not a real error.
+
+./First_20extension_20group.md.tex:35: Preview: Snippet 21 ended.(533465+163840x3492975).
+<-><->
+      
+l.35 $Ext^1(M,X)$
+                 
+Not a real error.
+
+[21]
+./First_20extension_20group.md.tex:36: Preview: Snippet 22 started.
+<-><->
+      
+l.36 $
+      M$
+Not a real error.
+
+./First_20extension_20group.md.tex:36: Preview: Snippet 22 ended.(447828+0x707242).
+<-><->
+      
+l.36 $M$
+        
+Not a real error.
+
+[22]
+./First_20extension_20group.md.tex:37: Preview: Snippet 23 started.
+<-><->
+      
+l.37 $
+      P$
+Not a real error.
+
+./First_20extension_20group.md.tex:37: Preview: Snippet 23 ended.(447828+0x511773).
+<-><->
+      
+l.37 $P$
+        
+Not a real error.
+
+[23]
+./First_20extension_20group.md.tex:38: Preview: Snippet 24 started.
+<-><->
+      
+l.38 $
+      0 \longrightarrow E \stackrel{f}{\longrightarrow} P \stackrel{g}{\long...
+Not a real error.
+
+./First_20extension_20group.md.tex:38: Preview: Snippet 24 ended.(786567+0x8075705).
+<-><->
+      
+l.38 ...l{g}{\longrightarrow} M \longrightarrow 0$
+                                                  
+Not a real error.
+
+[24]
+./First_20extension_20group.md.tex:39: Preview: Snippet 25 started.
+<-><->
+      
+l.39 $
+      Ext^1(M,X) \simeq Coker(f^*)$
+Not a real error.
+
+./First_20extension_20group.md.tex:39: Preview: Snippet 25 ended.(533465+163840x7382976).
+<-><->
+      
+l.39 $Ext^1(M,X) \simeq Coker(f^*)$
+                                   
+Not a real error.
+
+[25]
+./First_20extension_20group.md.tex:40: Preview: Snippet 26 started.
+<-><->
+      
+l.40 $
+      End(X)^{op}-module$
+Not a real error.
+
+./First_20extension_20group.md.tex:40: Preview: Snippet 26 ended.(491520+163840x5845687).
+<-><->
+      
+l.40 $End(X)^{op}-module$
+                         
+Not a real error.
+
+[26]
+./First_20extension_20group.md.tex:41: Preview: Snippet 27 started.
+<-><->
+      
+l.41 $
+      Hom_{R}(_R\!X_S, _R\!Y)$
+Not a real error.
+
+./First_20extension_20group.md.tex:41: Preview: Snippet 27 ended.(491520+163840x4812122).
+<-><->
+      
+l.41 $Hom_{R}(_R\!X_S, _R\!Y)$
+                              
+Not a real error.
+
+[27]
+./First_20extension_20group.md.tex:42: Preview: Snippet 28 started.
+<-><->
+      
+l.42 $
+      S-left-module$
+Not a real error.
+
+./First_20extension_20group.md.tex:42: Preview: Snippet 28 ended.(455111+127431x5306217).
+<-><->
+      
+l.42 $S-left-module$
+                    
+Not a real error.
+
+[28]
+./First_20extension_20group.md.tex:43: Preview: Snippet 29 started.
+<-><->
+      
+l.43 $
+      X \stackrel{f}{\longrightarrow} Y$
+Not a real error.
+
+./First_20extension_20group.md.tex:43: Preview: Snippet 29 ended.(786567+0x2540426).
+<-><->
+      
+l.43 $X \stackrel{f}{\longrightarrow} Y$
+                                        
+Not a real error.
+
+[29]
+./First_20extension_20group.md.tex:44: Preview: Snippet 30 started.
+<-><->
+      
+l.44 $
+      Hom(X,Y) \stackrel{f^*}{\longrightarrow} Hom(X,Y')$
+Not a real error.
+
+./First_20extension_20group.md.tex:44: Preview: Snippet 30 ended.(818225+163840x8356140).
+<-><->
+      
+l.44 ...\stackrel{f^*}{\longrightarrow} Hom(X,Y')$
+                                                  
+Not a real error.
+
+[30]
+./First_20extension_20group.md.tex:45: Preview: Snippet 31 started.
+<-><->
+      
+l.45 \begin{tikzcd}
+                   [color=white]
+Not a real error.
+
+./First_20extension_20group.md.tex:47: Preview: Snippet 31 ended.(866824+1187845x6668008).
+<-><->
+      
+l.47 \end{tikzcd}
+                 
+Not a real error.
+
+[31]
+./First_20extension_20group.md.tex:48: Preview: Snippet 32 started.
+<-><->
+      
+l.48 $
+      $0 \longrightarrow Hom(M,X) \stackrel{g^*}{\longrightarrow} Hom(P,X) \...
+Not a real error.
+
+./First_20extension_20group.md.tex:48: Preview: Snippet 32 ended.(1702961+0x22609920).
+<-><->
+      
+l.48 ...grightarrow Coker(f^*) \longrightarrow 0$$
+                                                  
+Not a real error.
+
+[32]
+./First_20extension_20group.md.tex:49: Preview: Snippet 33 started.
+<-><->
+      
+l.49 $
+      Ext^1(M,X) \leftrightarrows Coker(f^*)$
+Not a real error.
+
+./First_20extension_20group.md.tex:49: Undefined control sequence.
+l.49 $Ext^1(M,X) \leftrightarrows
+                                  Coker(f^*)$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./First_20extension_20group.md.tex:49: Preview: Snippet 33 ended.(533465+163840x6509170).
+<-><->
+      
+l.49 $Ext^1(M,X) \leftrightarrows Coker(f^*)$
+                                             
+Not a real error.
+
+[33]
+./First_20extension_20group.md.tex:50: Preview: Snippet 34 started.
+<-><->
+      
+l.50 $
+      0 \longrightarrow X \stackrel{\alpha}{\longrightarrow} I \stackrel{\be...
+Not a real error.
+
+./First_20extension_20group.md.tex:50: Preview: Snippet 34 ended.(786567+0x7976262).
+<-><->
+      
+l.50 ...eta}{\longrightarrow} M \longrightarrow 0$
+                                                  
+Not a real error.
+
+[34]
+./First_20extension_20group.md.tex:51: Preview: Snippet 35 started.
+<-><->
+      
+l.51 $
+      \psi,\phi$
+Not a real error.
+
+./First_20extension_20group.md.tex:51: Preview: Snippet 35 ended.(455111+127431x1132164).
+<-><->
+      
+l.51 $\psi,\phi$
+                
+Not a real error.
+
+[35]
+./First_20extension_20group.md.tex:52: Preview: Snippet 36 started.
+<-><->
+      
+l.52 $
+      I$
+Not a real error.
+
+./First_20extension_20group.md.tex:52: Preview: Snippet 36 ended.(447828+0x339512).
+<-><->
+      
+l.52 $I$
+        
+Not a real error.
+
+[36]
+./First_20extension_20group.md.tex:53: Preview: Snippet 37 started.
+<-><->
+      
+l.53 $
+      Coker(f^*)$
+Not a real error.
+
+./First_20extension_20group.md.tex:53: Preview: Snippet 37 ended.(491520+163840x3016195).
+<-><->
+      
+l.53 $Coker(f^*)$
+                 
+Not a real error.
+
+[37]
+./First_20extension_20group.md.tex:54: Preview: Snippet 38 started.
+<-><->
+      
+l.54 $
+      \psi$
+Not a real error.
+
+./First_20extension_20group.md.tex:54: Preview: Snippet 38 ended.(455111+127431x450409).
+<-><->
+      
+l.54 $\psi$
+           
+Not a real error.
+
+[38]
+./First_20extension_20group.md.tex:55: Preview: Snippet 39 started.
+<-><->
+      
+l.55 $
+      Coker(f^*)$
+Not a real error.
+
+./First_20extension_20group.md.tex:55: Preview: Snippet 39 ended.(491520+163840x3016195).
+<-><->
+      
+l.55 $Coker(f^*)$
+                 
+Not a real error.
+
+[39]
+./First_20extension_20group.md.tex:56: Preview: Snippet 40 started.
+<-><->
+      
+l.56 \begin{tikzcd}
+                   [color=white]
+Not a real error.
+
+./First_20extension_20group.md.tex:59: Preview: Snippet 40 ended.(1696291+1517080x13161230).
+<-><->
+      
+l.59 \end{tikzcd}
+                 
+Not a real error.
+
+[40]
+./First_20extension_20group.md.tex:60: Preview: Snippet 41 started.
+<-><->
+      
+l.60 $
+      \overline{\psi} \in Coker(f^*)$
+Not a real error.
+
+./First_20extension_20group.md.tex:60: Preview: Snippet 41 ended.(586176+163840x4267592).
+<-><->
+      
+l.60 $\overline{\psi} \in Coker(f^*)$
+                                     
+Not a real error.
+
+[41]
+./First_20extension_20group.md.tex:61: Preview: Snippet 42 started.
+<-><->
+      
+l.61 $
+      I$
+Not a real error.
+
+./First_20extension_20group.md.tex:61: Preview: Snippet 42 ended.(447828+0x339512).
+<-><->
+      
+l.61 $I$
+        
+Not a real error.
+
+[42]
+./First_20extension_20group.md.tex:62: Preview: Snippet 43 started.
+<-><->
+      
+l.62 \begin{tikzcd}
+                   [color=white]
+Not a real error.
+
+./First_20extension_20group.md.tex:65: Preview: Snippet 43 ended.(1696291+1517080x13161230).
+<-><->
+      
+l.65 \end{tikzcd}
+                 
+Not a real error.
+
+[43]
+./First_20extension_20group.md.tex:66: Preview: Snippet 44 started.
+<-><->
+      
+l.66 \begin{tikzcd}
+                   [color=white]
+Not a real error.
+
+./First_20extension_20group.md.tex:69: Preview: Snippet 44 ended.(1607089+1517080x10598342).
+<-><->
+      
+l.69 \end{tikzcd}
+                 
+Not a real error.
+
+[44]
+./First_20extension_20group.md.tex:70: Preview: Snippet 45 started.
+<-><->
+      
+l.70 $
+      l$
+Not a real error.
+
+./First_20extension_20group.md.tex:70: Preview: Snippet 45 ended.(455111+0x208442).
+<-><->
+      
+l.70 $l$
+        
+Not a real error.
+
+[45]
+./First_20extension_20group.md.tex:71: Preview: Snippet 46 started.
+<-><->
+      
+l.71 $
+      \tilde{P}$
+Not a real error.
+
+./First_20extension_20group.md.tex:71: Preview: Snippet 46 ended.(603348+0x511773).
+<-><->
+      
+l.71 $\tilde{P}$
+                
+Not a real error.
+
+[46]
+./First_20extension_20group.md.tex:72: Preview: Snippet 47 started.
+<-><->
+      
+l.72 \begin{tikzcd}
+                   [color=white]
+Not a real error.
+
+./First_20extension_20group.md.tex:75: Preview: Snippet 47 ended.(1780526+1780526x14613114).
+<-><->
+      
+l.75 \end{tikzcd}
+                 
+Not a real error.
+
+[47]
+./First_20extension_20group.md.tex:76: Preview: Snippet 48 started.
+<-><->
+      
+l.76 $
+      \xi: P \rightarrow \tilde{P}$
+Not a real error.
+
+./First_20extension_20group.md.tex:76: Preview: Snippet 48 ended.(603348+127431x2905984).
+<-><->
+      
+l.76 $\xi: P \rightarrow \tilde{P}$
+                                   
+Not a real error.
+
+[48]
+./First_20extension_20group.md.tex:77: Preview: Snippet 49 started.
+<-><->
+      
+l.77 \begin{tikzcd}
+                   [color=white]
+Not a real error.
+
+./First_20extension_20group.md.tex:80: Preview: Snippet 49 ended.(1684849+1594840x13048362).
+<-><->
+      
+l.80 \end{tikzcd}
+                 
+Not a real error.
+
+[49]
+./First_20extension_20group.md.tex:81: Preview: Snippet 50 started.
+<-><->
+      
+l.81 $
+      p_2$
+Not a real error.
+
+./First_20extension_20group.md.tex:81: Preview: Snippet 50 ended.(282168+127431x623731).
+<-><->
+      
+l.81 $p_2$
+          
+Not a real error.
+
+[50]
+./First_20extension_20group.md.tex:82: Preview: Snippet 51 started.
+<-><->
+      
+l.82 $
+      K \rightarrow K$
+Not a real error.
+
+./First_20extension_20group.md.tex:82: Preview: Snippet 51 ended.(447828+0x2226395).
+<-><->
+      
+l.82 $K \rightarrow K$
+                      
+Not a real error.
+
+[51]
+./First_20extension_20group.md.tex:83: Preview: Snippet 52 started.
+<-><->
+      
+l.83 $
+      \beta$
+Not a real error.
+
+./First_20extension_20group.md.tex:83: Preview: Snippet 52 ended.(455111+127431x405276).
+<-><->
+      
+l.83 $\beta$
+            
+Not a real error.
+
+[52]
+./First_20extension_20group.md.tex:84: Preview: Snippet 53 started.
+<-><->
+      
+l.84 $
+      p_2=\beta \xi$
+Not a real error.
+
+./First_20extension_20group.md.tex:84: Preview: Snippet 53 ended.(455111+127431x2219685).
+<-><->
+      
+l.84 $p_2=\beta \xi$
+                    
+Not a real error.
+
+[53]
+./First_20extension_20group.md.tex:85: Preview: Snippet 54 started.
+<-><->
+      
+l.85 $
+      \xi$
+Not a real error.
+
+./First_20extension_20group.md.tex:85: Preview: Snippet 54 ended.(455111+127431x316872).
+<-><->
+      
+l.85 $\xi$
+          
+Not a real error.
+
+[54]
+./First_20extension_20group.md.tex:86: Preview: Snippet 55 started.
+<-><->
+      
+l.86 $
+      K \rightarrow K$
+Not a real error.
+
+./First_20extension_20group.md.tex:86: Preview: Snippet 55 ended.(447828+0x2226395).
+<-><->
+      
+l.86 $K \rightarrow K$
+                      
+Not a real error.
+
+[55]
+./First_20extension_20group.md.tex:87: Preview: Snippet 56 started.
+<-><->
+      
+l.87 $
+      \xi$
+Not a real error.
+
+./First_20extension_20group.md.tex:87: Preview: Snippet 56 ended.(455111+127431x316872).
+<-><->
+      
+l.87 $\xi$
+          
+Not a real error.
+
+[56]
+./First_20extension_20group.md.tex:88: Preview: Snippet 57 started.
+<-><->
+      
+l.88 $
+      P \rightarrow \tilde{P}$
+Not a real error.
+
+./First_20extension_20group.md.tex:88: Preview: Snippet 57 ended.(603348+0x2042987).
+<-><->
+      
+l.88 $P \rightarrow \tilde{P}$
+                              
+Not a real error.
+
+[57]
+./First_20extension_20group.md.tex:89: Preview: Snippet 58 started.
+<-><->
+      
+l.89 $
+      Coker(f^*)$
+Not a real error.
+
+./First_20extension_20group.md.tex:89: Preview: Snippet 58 ended.(491520+163840x3016195).
+<-><->
+      
+l.89 $Coker(f^*)$
+                 
+Not a real error.
+
+[58]
+./First_20extension_20group.md.tex:90: Preview: Snippet 59 started.
+<-><->
+      
+l.90 $
+      P$
+Not a real error.
+
+./First_20extension_20group.md.tex:90: Preview: Snippet 59 ended.(447828+0x511773).
+<-><->
+      
+l.90 $P$
+        
+Not a real error.
+
+[59]
+./First_20extension_20group.md.tex:91: Preview: Snippet 60 started.
+<-><->
+      
+l.91 $
+      0 \longrightarrow K \stackrel{f}{\longrightarrow} P \stackrel{g}{\long...
+Not a real error.
+
+./First_20extension_20group.md.tex:91: Preview: Snippet 60 ended.(786567+0x8157626).
+<-><->
+      
+l.91 ...l{g}{\longrightarrow} M \longrightarrow 0$
+                                                  
+Not a real error.
+
+[60]
+./First_20extension_20group.md.tex:92: Preview: Snippet 61 started.
+<-><->
+      
+l.92 $
+      0 \longrightarrow K' \stackrel{f'}{\longrightarrow} P' \stackrel{g'}{\...
+Not a real error.
+
+./First_20extension_20group.md.tex:92: Preview: Snippet 61 ended.(847809+0x8525356).
+<-><->
+      
+l.92 ...{g'}{\longrightarrow} M \longrightarrow 0$
+                                                  
+Not a real error.
+
+[61]
+./First_20extension_20group.md.tex:93: Preview: Snippet 62 started.
+<-><->
+      
+l.93 $
+      P,P'$
+Not a real error.
+
+./First_20extension_20group.md.tex:93: Preview: Snippet 62 ended.(492688+127431x1425861).
+<-><->
+      
+l.93 $P,P'$
+           
+Not a real error.
+
+[62]
+./First_20extension_20group.md.tex:94: Preview: Snippet 63 started.
+<-><->
+      
+l.94 $
+      Coker(f^*) \simeq Coker((f')^*)$
+Not a real error.
+
+./First_20extension_20group.md.tex:94: Preview: Snippet 63 ended.(492688+163840x7599787).
+<-><->
+      
+l.94 $Coker(f^*) \simeq Coker((f')^*)$
+                                      
+Not a real error.
+
+[63]
+./First_20extension_20group.md.tex:95: Preview: Snippet 64 started.
+<-><->
+      
+l.95 $
+      \alpha:P\rightarrow P'$
+Not a real error.
+
+./First_20extension_20group.md.tex:95: Preview: Snippet 64 ended.(492688+0x3194638).
+<-><->
+      
+l.95 $\alpha:P\rightarrow P'$
+                             
+Not a real error.
+
+[64]
+./First_20extension_20group.md.tex:96: Preview: Snippet 65 started.
+<-><->
+      
+l.96 $
+      \alpha':P' \rightarrow P$
+Not a real error.
+
+./First_20extension_20group.md.tex:96: Preview: Snippet 65 ended.(492688+0x3378503).
+<-><->
+      
+l.96 $\alpha':P' \rightarrow P$
+                               
+Not a real error.
+
+[65]
+./First_20extension_20group.md.tex:97: Preview: Snippet 66 started.
+<-><->
+      
+l.97 $
+      g=\alpha g'$
+Not a real error.
+
+./First_20extension_20group.md.tex:97: Preview: Snippet 66 ended.(492688+127431x2151530).
+<-><->
+      
+l.97 $g=\alpha g'$
+                  
+Not a real error.
+
+[66]
+./First_20extension_20group.md.tex:98: Preview: Snippet 67 started.
+<-><->
+      
+l.98 $
+      g'=\alpha'g$
+Not a real error.
+
+./First_20extension_20group.md.tex:98: Preview: Snippet 67 ended.(492688+127431x2335395).
+<-><->
+      
+l.98 $g'=\alpha'g$
+                  
+Not a real error.
+
+[67]
+./First_20extension_20group.md.tex:99: Preview: Snippet 68 started.
+<-><->
+      
+l.99 $
+      \beta,\beta'$
+Not a real error.
+
+./First_20extension_20group.md.tex:99: Preview: Snippet 68 ended.(492688+127431x1285686).
+<-><->
+      
+l.99 $\beta,\beta'$
+                   
+Not a real error.
+
+[68]
+
+./First_20extension_20group.md.tex:100: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100 \begin{document}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./First_20extension_20group.md.tex:101: Preview: Snippet 69 started.
+<-><->
+      
+l.101 \begin{tikzcd}
+                    [color=white]
+Not a real error.
+
+./First_20extension_20group.md.tex:105: Preview: Snippet 69 ended.(2772101+2592891x13528962).
+<-><->
+      
+l.105 \end{tikzcd}
+                  
+Not a real error.
+
+[69]
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+ ***********
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 100 (\begingroup)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 13626 strings out of 473834
+ 299644 string characters out of 5750446
+ 676710 words of memory out of 5000000
+ 37701 multiletter control sequences out of 15000+600000
+ 566064 words of font info for 52 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 125i,15n,127p,538b,1018s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on First_20extension_20group.md.pdf (69 pages, 117530 bytes).
+PDF statistics:
+ 275 PDF objects out of 1000 (max. 8388607)
+ 184 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+

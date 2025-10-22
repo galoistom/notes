@@ -15,7 +15,8 @@ It is easily checked that this equivalent relation is indeed an equivalent relat
 	It is easy, we define the zero object to be the equivalent class of $\overline{X \oplus Z}$ as it is some how the simplest example we can construct.
 
 2. **The Addition**
-	A trivial idea is simply using the direct sum to add things up. Unfortunately, direct sum only provide the short exact sequence $$0 \longrightarrow X \oplus X \longrightarrow Y_1 \oplus Y_2 \longrightarrow Z \oplus Z \longrightarrow 0\tag{1}$$
+	A trivial idea is simply using the direct sum to add things up. Unfortunately, direct sum only provide the short exact sequence 
+	$$0 \longrightarrow X \oplus X \longrightarrow Y_1 \oplus Y_2 \longrightarrow Z \oplus Z \longrightarrow 0\tag{1}$$
 	So we hope to use it to construct a $0 \longrightarrow X \longrightarrow Q \longrightarrow Z \longrightarrow 0$ from $(1)$.
 	We will use the following two ways of constructing modules:
 
@@ -64,7 +65,6 @@ We define the maps $Ext^1(M,X) \leftrightarrows Coker(f^*)$:
 \begin{tikzcd}[color=white]
 &0 \arrow[r] & X \arrow[r, "\alpha"] & I \arrow[r, "\beta"] & M \arrow[r] & 0\\
 & 0 \arrow[r] & K \arrow[r, "f"] \arrow[u, "\exists \psi"] & P \arrow[r, "g"] \arrow[u,"\exists \phi"] & M \arrow[r] \arrow[u,equal] & 0 
-
 \end{tikzcd}
 ```
 2. Given a $\overline{\psi} \in Coker(f^*)$, we use pushout to get the $I$ we want, i.e.
@@ -93,7 +93,7 @@ Now we check that the two morphism is indeed a pair of well-defined isomorphisms
 &0 \arrow[r] &Ker(t) \arrow[r,"p_2 \circ l"] &Y \arrow[r,"t"] &Z \arrow[r]&0
 \end{tikzcd}
 ```
-And by the definition of pullback square, we have a morphism $xi: P \rightarrow \tilde{P}$, which lead us to consider the diagram:
+And by the definition of pullback square, we have a morphism $\xi: P \rightarrow \tilde{P}$, which lead us to consider the diagram:
 ```tikz
 \begin{tikzcd}[color=white]
 &0 \arrow[r] &K \arrow[r,"l"] \arrow[d] &P \arrow[r,"p_1"] \arrow[d,"\xi"] &X \arrow[r] \arrow[d,equal] &0\\
@@ -114,7 +114,7 @@ From the definition of projective modules, we get $\alpha:P\rightarrow P'$ and $
 ```tikz
 \usepackage{tikz-cd}
 \begin{document}
-\begin{tikzcd}
+\begin{tikzcd}[color=white]
 &0 \arrow[r] &K \arrow[r,"f"] \arrow[d,"\beta'"] &P \arrow[r,"g"] \arrow[d,"\alpha'"] &M \arrow[r] \arrow[d,equal] &0\\
 &0 \arrow[r] &K' \arrow[r,"f'"] \arrow[d,"\beta"] &P' \arrow[r,"g'"] \arrow[d,"\alpha"] &M \arrow[r] \arrow[d,equal] &0\\
 &0 \arrow[r] &K \arrow[r,"f"] &P \arrow[r,"g"] &M \arrow[r] &0
