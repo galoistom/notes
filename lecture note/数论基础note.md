@@ -244,4 +244,11 @@ $$
 Let $R:=\mathbb{Z}[i]$ with $i=\sqrt{ -1 }$. One immediately notice that $R$ is a Euclidean ring, hence a PID and UFD. 
 
 **proposition**: Let $p$ be a prime. Then 
-1. If $p=2$, then $1+i$ is 
+1. If $p=2$, then $1+i$ is a prime and $2=(-1)(1+i)^{2}$. 
+2. If $p\equiv1\pmod{4}$, then there is a prime $\pi=x+yi \in \mathbb{Z}[i]$ such that $p=\pi \cdot \overline{\pi}$. 
+3. If $p\equiv3\pmod{4}$, then $p$ is a prime in $\mathbb{Z}[i]$. 
+4. In fact, any prime in $\mathbb{Z}[i]$ is associate to one in 1,2,3.
+
+*Proof*: 
+1. $\mathbb{Z}[i] / (1+i)\simeq \mathbb{Z} / \mathbb{Z}\cap(1+i)=\mathbb{Z} / 2\mathbb{Z}$. 
+2. As $p=x^{2}+y^{2}$, with $gcd(x,y)=1$, so there is $u,v \in \mathbb{Z}$ such that $ux+vy=1$, then $a+bi-(x+yi)(u+vi)\in \mathbb{Z}$, hence $\mathbb{Z}[i] / (x+yi)\simeq \mathbb{Z} / p\mathbb{Z}$. Thus $\pi=x+yi$ is a prime in $\mathbb{Z}[i]$. 
