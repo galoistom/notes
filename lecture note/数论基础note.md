@@ -270,3 +270,11 @@ And $\left( \frac{1}{\pi} \right)_{4}=1^{- \frac{a-1}{2}}$, $\left( \frac{1+i}{\
 *Proof*: 
 1. Just check that $i^{ab/2}=i^{(a-b-1-b^{2})/2}\cdot i^{(a-1)/2}$, i.e. $8|2(a-1)-(b+b^{2})-ab$, which is easy using the fact that $\pi$ is primary ($a=1+2u,\ b=2v,\ 2|u+v$). 
 2. if $p=x^{2}+64y^{2}$, iff $8|b$, hence $\left( \frac{2}{\pi} \right)_{4}=1$, which is equivalent to $t^{4}-2$ have a solution in $\mathbb{F}_{p}$. 
+
+---
+
+# Chapter 2: Class field theory
+"The Hilbert clas field and $p=x^{2}+ny^{2}$"
+
+>[!note] Main Theorem
+>let $n>0$, be a square free positive integer, $n\not\equiv3\pmod{4}$. 
