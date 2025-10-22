@@ -266,3 +266,5 @@ And $\left( \frac{1}{\pi} \right)_{4}=1^{- \frac{a-1}{2}}$, $\left( \frac{1+i}{\
 **theorem**: 
 1. If $\pi$ is primary prime in $\mathbb{Z}[i]$, $\pi=a+bi$, then $\left( \frac{2}{\pi} \right)_{4}=i^{\frac{ab}{2}}$.
 2. let $p$ be a prime. There exists $x,y \in \mathbb{Z}$ $p=x^{2}+64y^{2}$ if and only if $p\equiv1\pmod{4}$ and $2$ is a biquadratic residue module $p$. 
+
+*Proof*: Just check that $i^{ab/2}=i^{(a-b-1-b^{2})/2}\cdot i^{(a-1)/2}$, i.e. $8|2(a-1)-(b+b^{2})-ab$, which is easy using the fact that $\pi$ is primary ($a=1+2u,\ b=2v,\ 2|u+v$). 
