@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "6218cae0885fd46c",
@@ -184,6 +183,8 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "homo algebra/Short exact sequence.md",
+    "lecture note/数论基础note.md",
     "homo algebra/texfrag/First_20extension_20group.md.pdf",
     "homo algebra/texfrag/prv_First_20extension_20group.md.fmt",
     "homo algebra/texfrag/prv_First_20extension_20group.md.ini",
@@ -195,7 +196,6 @@
     "homo algebra/texfrag/First_20extension_20group.md.tex",
     "homo algebra/texfrag",
     "rep theory/Cohomology on groups.md",
-    "homo algebra/Short exact sequence.md",
     "homo algebra/Grothendieck group.md",
     "homo algebra/Projective module and injective module.md",
     "homo algebra/First extension group.md",
@@ -204,7 +204,6 @@
     "lecture note/拓扑学note.md",
     "homo algebra/texfrag/First_20extension_20group.md.prv/tmpZS3lBC/pr1-2.png",
     "homo algebra/texfrag/First_20extension_20group.md.prv/tmpZS3lBC/pr1-1.png",
-    "homo algebra/texfrag/First_20extension_20group.md.prv/tmpZS3lBC/preview.dsc",
     "rep theory/Burnside's theorem.md",
     "rep theory/Property of the character table.md",
     "homo algebra/texfrag/First_20extension_20group.md.prv/tmphA4EPz/pr1-13.png",
@@ -217,7 +216,6 @@
     "homo algebra/texfrag/First_20extension_20group.md.prv/tmphA4EPz/pr1-6.png",
     "物理.md",
     "lecture note/代数学2 note.md",
-    "lecture note/数论基础note.md",
     "lecture note/高等代数2 note.md",
     "rep theory/Schur's lemma.md",
     "Untitled.md",
