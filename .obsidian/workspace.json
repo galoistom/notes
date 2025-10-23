@@ -167,7 +167,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,6 +184,8 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "lecture note/高等代数2 note.md",
+    "Home.md",
     "lecture note/代数学1 note.md",
     "homo algebra/texfrag/Projective_20module_20and_20injective_20module.md.prv/tmp0XhAgj/pr1-53.png",
     "homo algebra/texfrag/Projective_20module_20and_20injective_20module.md.prv/tmp0XhAgj/pr1-52.png",
@@ -203,11 +206,9 @@
     "homo algebra/texfrag/prv_Projective_20module_20and_20injective_20module.md.log",
     "homo algebra/texfrag/prv_Projective_20module_20and_20injective_20module.md.ini",
     "homo algebra/texfrag/Projective_20module_20and_20injective_20module.md.tex",
-    "Home.md",
     "lecture note/数论基础note.md",
     "Books/代数数论/Primes of the Form X2 + Ny2 Fermat, Class Field Theory, and Complex Multiplication, With Solutions (David A. Cox) (Z-Library).pdf",
     "lecture note/拓扑学note.md",
-    "lecture note/高等代数2 note.md",
     "rep theory/Spectrum.md",
     "templet/tikz.md",
     "lecture note/representation note.md",
