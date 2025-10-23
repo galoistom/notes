@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
-                "mode": "preview",
+                "file": "rep theory/Burnside's theorem.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Burnside's theorem"
             }
           }
         ]
@@ -184,8 +184,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "lecture note/高等代数2 note.md",
     "Home.md",
+    "rep theory/Burnside's theorem.md",
+    "lecture note/高等代数2 note.md",
     "lecture note/代数学1 note.md",
     "homo algebra/texfrag/Projective_20module_20and_20injective_20module.md.prv/tmp0XhAgj/pr1-53.png",
     "homo algebra/texfrag/Projective_20module_20and_20injective_20module.md.prv/tmp0XhAgj/pr1-52.png",
@@ -224,7 +225,6 @@
     "homo algebra/Grothendieck group.md",
     "homo algebra/Projective module and injective module.md",
     "homo algebra/First extension group.md",
-    "rep theory/Burnside's theorem.md",
     "rep theory/Property of the character table.md",
     "物理.md",
     "lecture note/代数学2 note.md",
