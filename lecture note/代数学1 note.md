@@ -382,4 +382,6 @@ An ideal is a two sided ideal, and $I$ is proper if $I\neq R$.
 **Definition**: $R$ a ring, $I\subset R$, ideal, define the **quotient ring** $R / I:=\{ xI:x \in R \}$. 
 
 **Theorem**:
-1. If $\phi:R\rightarrow S$ ring homomorphism, then $ker$ is an ideal of $R$, $\phi(R)$ is a subring of $S$. Moreover, $\phi$ induces a ring isomorphism
+1. If $\phi:R\rightarrow S$ ring homomorphism, then $ker$ is an ideal of $R$, $\phi(R)$ is a subring of $S$. Moreover, $\phi$ induces a ring isomorphism $R / ker\phi\rightarrow \phi(R)$.
+2. $I\subseteq J\subset R$ ideal then $J / I\subset R / I$, as ideals, and $(R / I) / (J / I)\simeq R / J$ is an isomorphism.
+3. $I \subset R$ an ideal. Then there is a 1-1 map $\{ \text{ideals of } R  \text{ containing } I\}$ $\longleftrightarrow$ $\{ \text{ideals } \overline{J} \text{ of } R / I \}$. 
