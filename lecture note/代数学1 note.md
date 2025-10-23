@@ -346,3 +346,10 @@ We say that $R$ is commutative iff $\cdot$ is commutative ($a\cdot b=b\cdot a$).
 **Definition**: 
 1. A ring is called a division ring or a skew field (除环/体/斜域) if there is an inverse for all nonzero element in $R$. 
 2. A **field** is a commutative dividsion ring.
+
+**Example**: 
+1. $\mathbb{Z}$ is clearly a ring.
+2. $\mathbb{Q}$, $\mathbb{R}$, $\mathbb{C}$ are fields, $\mathbb{H}$ (c.f. [[高等代数2 note]]) is a dividsion ring.
+3. $\mathbb{Z}\left[ \frac{1}{N} \right]:=\left\{  \frac{a}{N^{r}}: a \in Z\ r \in \mathbb{Z}_{\geq}  \right\}$ a subring of $\mathbb{Q}$, in fact, this is a localization of $\mathbb{Z}$. 
+4. $R$ a ring, then $R[x]:=\left\{  \sum_{i=0}^{n}a_{i}x^{i}:n \in \mathbb{N}, a_{i}\in R  \right\}$ is also a ring. The polynomial ring can be extended to multiple variabels. 
+5. $R$ a ring, then $M_{n}(R)$ is al
