@@ -370,3 +370,9 @@ We say that $R$ is commutative iff $\cdot$ is commutative ($a\cdot b=b\cdot a$).
 *Proof*: Consider the map $a:R\rightarrow R$, $x\mapsto ax$, is bijective. 
 
 **Definition**: $R$ a integal domain. The **field for fraction** is somehow "adding" inverse to $R$. Formally, it is $R\times R / \sim$, where $(a,b)\sim(c,d)$ iff $ad=bc$ (take it as $\frac{a}{b}=\frac{c}{d}$). Addition is then $(ad+bc,db)$, multiplication is $(ac,bd)$, and unit is $(1,1)$. We will denote it as $Frac(R)$. It is in fact a field which injective ring homomorphism $R \hookrightarrow Frac(R)$. 
+
+**Definition**: $A$ subset $I\subset R$ is called a **left ideal** if
+1. $I$ is a subgroup of $R$ under addition.
+2. $RI\subseteq I$. 
+
+An ideal is a two sided ideal, and $I$ is proper if $I\neq R$. 
