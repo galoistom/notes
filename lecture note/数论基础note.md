@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-22T14:47:45.291+08:00
+updated_at: 2025-10-23T10:40:17.225+08:00
 ---
 #nt #algebra #lectureNote 
 >[!note] Main problem
@@ -264,7 +264,7 @@ Now let $\pi$ be a prime in $\mathbb{Z}[i]$, and assume that $\pi$ is note assoc
 **Theorem**: (biquadratic reciporcity theorem)
 If $\pi \&\theta$ are primary primes and $\pi \not\sim\theta$, then $\left( \frac{\theta}{\pi} \right)_{4}= \left( \frac{\pi}{\theta} \right)_{4} = (-1)^{\frac{(N(\pi)-1)(N(\theta)-1)}{16}}$
 
-And $\left( \frac{1}{\pi} \right)_{4}=1^{- \frac{a-1}{2}}$, $\left( \frac{1+i}{\pi} \right)_{4}=i^{\frac{a-b-1+b^{2}}{4}}$ for $\pi=a+bi$ primary. 
+And $\left( \frac{i}{\pi} \right)_{4}=i^{- \frac{a-1}{2}}$, $\left( \frac{1+i}{\pi} \right)_{4}=i^{\frac{a-b-1+b^{2}}{4}}$ for $\pi=a+bi$ primary. 
 
 **theorem**: 
 1. If $\pi$ is primary prime in $\mathbb{Z}[i]$, $\pi=a+bi$, then $\left( \frac{2}{\pi} \right)_{4}=i^{\frac{ab}{2}}$.
