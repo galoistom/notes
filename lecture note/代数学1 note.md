@@ -363,3 +363,4 @@ We say that $R$ is commutative iff $\cdot$ is commutative ($a\cdot b=b\cdot a$).
 **Definition**: $R$ a ring.
 1. A **zero dividsor** is a nonzero $a \in R$, s,t, $ab=0$ or $ba=0$ for some nonzero $b \in R$.
 2. $A$ **unit** is an element $u \in R^{\times}$. 
+3. $R$ is called an **integal domain** iff it has no zero dividsor
