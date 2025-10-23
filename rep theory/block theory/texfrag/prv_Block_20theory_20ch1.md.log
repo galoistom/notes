@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.10.19)  23 OCT 2025 21:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.10.19)  23 OCT 2025 22:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**&pdflatex prv__9AD8_7B49_4EE3_65702_20note.md.ini \nonstopmode\nofiles\PassOptionsToPackage{active,tightpage,auctex}{preview}\AtBeginDocument{\ifx\ifPreview\undefined\RequirePackage[displaymath,floats,graphics,textmath,sections,footnotes]{preview}[2004/11/05]\usepackage{tikz-cd}\PreviewEnvironment{tikzcd}\PreviewEnvironment{tikzpicture}\fi} \input \detokenize{ _9AD8_7B49_4EE3_65702_20note.md.tex }
-(./prv__9AD8_7B49_4EE3_65702_20note.md.ini
+**&pdflatex prv_Block_20theory_20ch1.md.ini \nonstopmode\nofiles\PassOptionsToPackage{active,tightpage,auctex}{preview}\AtBeginDocument{\ifx\ifPreview\undefined\RequirePackage[displaymath,floats,graphics,textmath,sections,footnotes]{preview}[2004/11/05]\usepackage{tikz-cd}\PreviewEnvironment{tikzcd}\PreviewEnvironment{tikzpicture}\fi} \input \detokenize{ Block_20theory_20ch1.md.tex }
+(./prv_Block_20theory_20ch1.md.ini
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/share/texmf-dist/tex/latex/mylatex/mylatex.ltx)) (/usr/share/texmf-dist/tex/latex/tools/.tex File ignored)
 No auxiliary output files.
 
-(./_9AD8_7B49_4EE3_65702_20note.md.tex (/usr/share/texmf-dist/tex/latex/base/article.cls
+(./Block_20theory_20ch1.md.tex (/usr/share/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
 (/usr/share/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
@@ -111,10 +111,10 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) )
-Beginning to dump on file prv__9AD8_7B49_4EE3_65702_20note.md.fmt
- (preloaded format=prv__9AD8_7B49_4EE3_65702_20note.md 2025.10.23)
-26166 strings of total length 499578
-397262 memory locations dumped; current usage is 386&394624
+Beginning to dump on file prv_Block_20theory_20ch1.md.fmt
+ (preloaded format=prv_Block_20theory_20ch1.md 2025.10.23)
+26166 strings of total length 499514
+397238 memory locations dumped; current usage is 386&394608
 24367 multiletter control sequences
 \font\nullfont=nullfont
 \font\c__fp_exp_intarray=cmr10 at 0.00002pt
