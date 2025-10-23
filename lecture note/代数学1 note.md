@@ -353,4 +353,9 @@ We say that $R$ is commutative iff $\cdot$ is commutative ($a\cdot b=b\cdot a$).
 3. $\mathbb{Z}\left[ \frac{1}{N} \right]:=\left\{  \frac{a}{N^{r}}: a \in Z\ r \in \mathbb{Z}_{\geq}  \right\}$ a subring of $\mathbb{Q}$, in fact, this is a localization of $\mathbb{Z}$. 
 4. $R$ a ring, then $R[x]:=\left\{  \sum_{i=0}^{n}a_{i}x^{i}:n \in \mathbb{N}, a_{i}\in R  \right\}$ is also a ring. The polynomial ring can be extended to multiple variabels. 
 5. $R$ a ring, then $M_{n}(R)$ is also a ring. 
-6. Group ring (c.f.[[Basic Definitions of representation]]), let $R$ be a commutative ring, $G$ be a group, then $R[G]=\{ \sum_{g \in G}a_{g}g: \text{finite sum}, \ a_{g}\in R \}$, with 
+6. Group ring (c.f.[[Basic Definitions of representation]]), let $R$ be a commutative ring, $G$ be a group, then $R[G]=\{ \sum_{g \in G}a_{g}g: \text{finite sum}, \ a_{g}\in R \}$, with regular addition and multiplication ($\left( \sum_{g}a_{g}g \right)\cdot\left( \sum_{g}b_{g}g \right)=\sum_{g,h}a_{g}b_{h}gh$). One immediately notice that $1_{R[G]}=1_{R}\cdot1_{G}$. 
+
+**Definition**: $R,S$ rings
+1. A map $R\rightarrow S$ is called **ring homomorphism** if it keep addition and multiplication as well as $1_{R}\mapsto1_{S}$. 
+2. An **isomorphism** is a bijective homomorphism.
+3. For a homomorphism $\phi:R\rightarrow S$ $ker\phi=\phi ^{-1}(0):=\{ a\in R:\phi(a)=0 \}$.
