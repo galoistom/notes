@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-23T08:23:34.022+08:00
+updated_at: 2025-10-23T08:24:34.888+08:00
 ---
 #topology #lectureNote 
 >[!note] 拓扑的定义
@@ -204,4 +204,4 @@ On the other hand, we claim that $\exists \delta>0$, s.t. $\forall x \in X$, $\e
 
 Now we give $P$ a topology. Consider $\pi :X\rightarrow P$, let the topology be "biggest", i.e. $Q \in2^{P}$ is open iff $\bigcup_{p \in Q}p$ is open in $X$. This will be the quotient of topology. This can also be written as a universal property:
 
-**Definition**: Let $X$ be a topological space, then the quotient is a space $Y$ with map $\pi :X\rightarrow Y$, suc
+**Definition**: Let $X$ be a topological space, then the quotient is a space $Y$ with map $\pi :X\rightarrow Y$, such that forall $Z$ and $f:Y\rightarrow Z$, $f$ continuous $\Longleftrightarrow$ $f\circ\pi$ is continuous. 
