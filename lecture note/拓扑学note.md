@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-23T09:09:30.129+08:00
+updated_at: 2025-10-23T09:51:56.095+08:00
 ---
 #topology #lectureNote 
 >[!note] 拓扑的定义
@@ -215,3 +215,8 @@ On the other hand, a partition also gives a equivalent relation: $x\sim y$ iff $
 a map $X\rightarrow Y$ is **open(closed)** if it send open(closed) set to open(closed) set.
 
 **Proposition**: If continuous surjective morphism $f$ is open(closed) morphism, then $f$ is a quotient map. 
+
+**Theorem**: (Whitehead)
+let $P:X\rightarrow Y$ be a quotient morphism, $Z$ locally compact hausdoff space, then $P\times id:X\times Z\rightarrow Y\times Z$ is a quotient map. 
+
+*Proof*: $f:P\times id$ is obviously surjective and continuous. We ten proof that forall $W \subset Y\times Z$ if $f^{-1}(W)\subset X\times Z$ is open then $W$ is open. take $(y_{0},z)\in W$, we proof that it is 内点. In fact, take $x_{0}\in f^{-1}(y_{0})$, then there is a compact subset $B\subset Z$ containing $z$. 
