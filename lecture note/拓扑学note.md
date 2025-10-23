@@ -1,3 +1,6 @@
+---
+updated_at: 2025-10-23T08:23:34.022+08:00
+---
 #topology #lectureNote 
 >[!note] 拓扑的定义
 >$(X,\tau)$ 是一个二元对, $X$ 是一个集合, $\tau \subseteq 2^{X}$, 满足:
@@ -193,3 +196,12 @@ On the other hand, we claim that $\exists \delta>0$, s.t. $\forall x \in X$, $\e
 **Proposition**: the 联通分支 of locally connected space is open. 
 
 **Definition**: $X$ is called **locally path connected** if $X$ is path connected locally i.e. for all $x \in X$ and neighbor $U$, there is a neighbor $V\subset U$ that is path connected. 
+
+# quotient
+**Definition**: Let $X$ be a topological space, $P\subset2^{X}$, nonempty, then $P$ is a **Partition** iff:
+1. $A\cap B=\varnothing$ for $A,B\in P$.
+2. $X=\bigcup_{A \in P}A$. 
+
+Now we give $P$ a topology. Consider $\pi :X\rightarrow P$, let the topology be "biggest", i.e. $Q \in2^{P}$ is open iff $\bigcup_{p \in Q}p$ is open in $X$. This will be the quotient of topology. This can also be written as a universal property:
+
+**Definition**: Let $X$ be a topological space, then the quotient is a space $Y$ with map $\pi :X\rightarrow Y$, suc
