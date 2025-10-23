@@ -359,3 +359,7 @@ We say that $R$ is commutative iff $\cdot$ is commutative ($a\cdot b=b\cdot a$).
 1. A map $R\rightarrow S$ is called **ring homomorphism** if it keep addition and multiplication as well as $1_{R}\mapsto1_{S}$. 
 2. An **isomorphism** is a bijective homomorphism.
 3. For a homomorphism $\phi:R\rightarrow S$ $ker\phi=\phi ^{-1}(0):=\{ a\in R:\phi(a)=0 \}$.
+
+**Definition**: $R$ a ring.
+1. A **zero dividsor** is a nonzero $a \in R$, s,t, $ab=0$ or $ba=0$ for some nonzero $b \in R$.
+2. $A$ **unit** is an element $u \in R^{\times}$. 
