@@ -340,3 +340,9 @@ $G$ a finite group, $N\triangleleft G$ normal s.t. $gcd(\lvert G \rvert,\lvert G
 2. $\cdot$ is **asscoiative**, i.e. $a\cdot b\cdot c=a\cdot(b\cdot c)$. 
 3. The operation is **asscoiative** $(a+b)\cdot c=a\cdot c+b\cdot c$ and $a\cdot(b+c)=a\cdot b+a\cdot c$. 
 4. $R$ is **unital**, i.e. the multiplication has a unit $1 \in R$, s.t. $1\cdot a=a\cdot1=a$ forall $a \in R$. Generally, we suppose $1\neq0$. 
+
+We say that $R$ is commutative iff $\cdot$ is commutative ($a\cdot b=b\cdot a$). 
+
+**Definition**: 
+1. A ring is called a division ring or a skew field (除环/体/斜域) if there is an inverse for all nonzero element in $R$. 
+2. A **field** is a commutative dividsion ring.
