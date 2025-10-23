@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-23T08:41:05.469+08:00
+updated_at: 2025-10-23T09:09:30.129+08:00
 ---
 #topology #lectureNote 
 >[!note] 拓扑的定义
@@ -209,3 +209,9 @@ Now we give $P$ a topology. Consider $\pi :X\rightarrow P$, let the topology be 
 On the other hand, a partition also gives a equivalent relation: $x\sim y$ iff $\exists U \in P$ s.t. $x,y\in U$. An the quotient can also be seen as $X / \sim$. 
 
 **Proposition**: the composition of quotient is another quotient. 
+
+*Proof*: Clear, just use the universal property of quotient.
+
+a map $X\rightarrow Y$ is **open(closed)** if it send open(closed) set to open(closed) set.
+
+**Proposition**: If continuous surjective morphism $f$ is open(closed) morphism, then $f$ is a quotient map. 
