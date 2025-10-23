@@ -363,4 +363,10 @@ We say that $R$ is commutative iff $\cdot$ is commutative ($a\cdot b=b\cdot a$).
 **Definition**: $R$ a ring.
 1. A **zero dividsor** is a nonzero $a \in R$, s,t, $ab=0$ or $ba=0$ for some nonzero $b \in R$.
 2. $A$ **unit** is an element $u \in R^{\times}$. 
-3. $R$ is called an **integal domain** iff it has no zero dividsor
+3. $R$ is called an **integal domain** iff it has no zero dividsor. In fact, integal domain has cancellation law.
+
+**lemma**: a finite integal domain is a field
+
+*Proof*: Consider the map $a:R\rightarrow R$, $x\mapsto ax$, is bijective. 
+
+**Definition**: $R$ a integal domain. The **field for fraction** is somehow "adding" inverse to $R$. Formally, it is $R\times R / \sim$, where $(a,b)\sim(c,d)$ iff $ad=bc$ (take it as $\frac{a}{b}=\frac{c}{d}$). Addition is then $(ad+bc,db)$, multiplication is $(ac,bd)$, and unit is $(1,1)$. We will denote it as $Frac(R)$. It is in fact a field which injective ring homomorphism $R \hookrightarrow Frac(R)$. 
