@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-20T20:25:36.631+08:00
+updated_at: 2025-10-23T15:15:43.233+08:00
 edited_seconds: 140
 ---
 **#algebra #lectureNote 
@@ -332,3 +332,11 @@ In fact, if $H<P$ with index $p$, then $H\triangleleft P$.
 $G$ a finite group, $N\triangleleft G$ normal s.t. $gcd(\lvert G \rvert,\lvert G / N \rvert)=1$. $\pi:G\rightarrow G / N$ a quotient map.
 1. Then there exist a subgroup $H\leq G$ s.t. $\pi|_{H}:H\rightarrow G / N$ is isomorphism. Therefore, $G\simeq N \rtimes(G / N)$.
 2. If $N$ or $G / N$ are solvable, then 
+
+---
+# Ring, ideals, quotient rings
+**Definition**: A **ring** is a set with two binary operations: addition $+$ and multiplication $\cdot$ such that:
+1. $(R,+)$ is an **abelian group,** with unit $0$ and inverse is $-$.
+2. $\cdot$ is **asscoiative**, i.e. $a\cdot b\cdot c=a\cdot(b\cdot c)$. 
+3. The operation is **asscoiative** $(a+b)\cdot c=a\cdot c+b\cdot c$ and $a\cdot(b+c)=a\cdot b+a\cdot c$. 
+4. $R$ is **unital**, i.e. the multiplication has a unit $1 \in R$, s.t. $1\cdot a=a\cdot1=a$ forall $a \in R$. Generally, we suppose $1\neq0$. 
