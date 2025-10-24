@@ -291,3 +291,5 @@ Fact:
 3. If $\mathfrak{a}\subset O_{K}$, is a nonzero ideal, then $O_{K} / \mathfrak{a}$ is finite
 4. $O_{K}$ is a [[Dedekind domain]]. 
 5. Any nonzero ideal $\mathfrak{a}$ of $O_{K}$ can be written as a product $\mathfrak{a}=\mathfrak{p}_{1}^{\alpha_{1}}\cdots\mathfrak{p}_{r}^{\alpha ^{r}}$ where $\mathfrak{p}_{i}$ are distinct prime ideals of $O_{K}$. 
+
+One notice that the residue field $O_{K} / \mathfrak{p}$ is a finite field. 
