@@ -293,3 +293,11 @@ Fact:
 5. Any nonzero ideal $\mathfrak{a}$ of $O_{K}$ can be written as a product $\mathfrak{a}=\mathfrak{p}_{1}^{\alpha_{1}}\cdots\mathfrak{p}_{r}^{\alpha ^{r}}$ where $\mathfrak{p}_{i}$ are distinct prime ideals of $O_{K}$. 
 
 One notice that the residue field $O_{K} / \mathfrak{p}$ is a finite field. 
+
+**Definition**: $\mathfrak{a}\subset K$ is called **fraction ideal** if:
+ 1. $\mathfrak{a}$ is an additive subgroup.
+ 2. $O_{k}\cdot \mathfrak{a}\subseteq \mathfrak{a}$. 
+ 3. As an $O_{k}$-module, $\mathfrak{a}$ is finitely generated. 
+
+**Proposition**: let $\mathfrak{a}$ be a fractional ideal,
+1. $\mathfrak{a}$ is invertable, i.e. there exists a fractional ideal $\mathfrak{b}$ s.t. $\mathfrak{a}\cdot \mathfrak{b}=O_{K}$. 
