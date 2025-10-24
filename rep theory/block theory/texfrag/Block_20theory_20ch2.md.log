@@ -1,0 +1,8929 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=prv_Block_20theory_20ch2.md 2025.10.24)  24 OCT 2025 12:15
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**&prv_Block_20theory_20ch2.md /AUCTEXINPUT{ Block_20theory_20ch2.md.tex }
+(./Block_20theory_20ch2.md.tex (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count282
+\l__pdf_internal_box=\box54
+)
+No file Block_20theory_20ch2.md.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+(/home/galoistom/.emacs.d/elpa/auctex-14.1.0/latex/preview.sty
+Package: preview 2024/06/30 14.0.6 (AUCTeX/preview-latex)
+ (/usr/share/texmf-dist/tex/generic/luatex85/luatex85.sty
+Package: luatex85 2016/06/15 v1.4 pdftex aliases for luatex
+) (/home/galoistom/.emacs.d/elpa/auctex-14.1.0/latex/prtightpage.def
+\PreviewBorder=\dimen151
+) (/home/galoistom/.emacs.d/elpa/auctex-14.1.0/latex/prauctex.def
+No auxiliary output files.
+
+
+\hbadness=\count283
+\hfuzz=\dimen152
+(/home/galoistom/.emacs.d/elpa/auctex-14.1.0/latex/prauctex.cfg)) (/home/galoistom/.emacs.d/elpa/auctex-14.1.0/latex/prfootnotes.def)
+\pr@snippet=\count284
+\pr@box=\box55
+\pr@output=\toks24
+
+Preview: Fontsize 10pt
+Preview: PDFoutput 1
+) (/usr/share/texmf-dist/tex/latex/tikz-cd/tikz-cd.sty
+Package: tikz-cd 2021/05/04 v1.0 Commutative diagrams with TikZ
+ (/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks25
+\pgfutil@tempdima=\dimen153
+\pgfutil@tempdimb=\dimen154
+) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box56
+) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/share/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks26
+) (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+ (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+ (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count285
+\scratchdimen=\dimen155
+\scratchbox=\box57
+\nofMPsegments=\count286
+\nofMParguments=\count287
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count288
+\MPscratchDim=\dimen156
+\MPnumerator=\count289
+\makeMPintoPDFobject=\count290
+\everyMPtoPDFconversion=\toks28
+))) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+\Gin@req@height=\dimen157
+\Gin@req@width=\dimen158
+) (/usr/share/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks29
+\pgfkeys@temptoks=\toks30
+ (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks31
+))
+\pgf@x=\dimen159
+\pgf@y=\dimen160
+\pgf@xa=\dimen161
+\pgf@ya=\dimen162
+\pgf@xb=\dimen163
+\pgf@yb=\dimen164
+\pgf@xc=\dimen165
+\pgf@yc=\dimen166
+\pgf@xd=\dimen167
+\pgf@yd=\dimen168
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count291
+\c@pgf@countb=\count292
+\c@pgf@countc=\count293
+\c@pgf@countd=\count294
+\t@pgf@toka=\toks32
+\t@pgf@tokb=\toks33
+\t@pgf@tokc=\toks34
+\pgf@sys@id@count=\count295
+ (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+))) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count296
+\pgfsyssoftpath@bigbuffer@items=\count297
+) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+ (/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen169
+\pgfmath@count=\count298
+\pgfmath@box=\box58
+\pgfmath@toks=\toks35
+\pgfmath@stack@operand=\toks36
+\pgfmath@stack@operation=\toks37
+) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count299
+)) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen170
+\pgf@picmaxx=\dimen171
+\pgf@picminy=\dimen172
+\pgf@picmaxy=\dimen173
+\pgf@pathminx=\dimen174
+\pgf@pathmaxx=\dimen175
+\pgf@pathminy=\dimen176
+\pgf@pathmaxy=\dimen177
+\pgf@xx=\dimen178
+\pgf@xy=\dimen179
+\pgf@yx=\dimen180
+\pgf@yy=\dimen181
+\pgf@zx=\dimen182
+\pgf@zy=\dimen183
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen184
+\pgf@path@lasty=\dimen185
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen186
+\pgf@shorten@start@additional=\dimen187
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box59
+\pgf@hbox=\box60
+\pgf@layerbox@main=\box61
+\pgf@picture@serial@count=\count300
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen188
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen189
+\pgf@pt@y=\dimen190
+\pgf@pt@temp=\dimen191
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen192
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen193
+\pgf@sys@shading@range@num=\count301
+\pgf@shadingcount=\count302
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box62
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box63
+) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen194
+\pgf@nodesepend=\dimen195
+) (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/share/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen196
+\pgffor@skip=\dimen197
+\pgffor@stack=\toks38
+\pgffor@toks=\toks39
+)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count303
+\pgfplotmarksize=\dimen198
+)
+\tikz@lastx=\dimen199
+\tikz@lasty=\dimen256
+\tikz@lastxsaved=\dimen257
+\tikz@lastysaved=\dimen258
+\tikz@lastmovetox=\dimen259
+\tikz@lastmovetoy=\dimen260
+\tikzleveldistance=\dimen261
+\tikzsiblingdistance=\dimen262
+\tikz@figbox=\box64
+\tikz@figbox@bg=\box65
+\tikz@tempbox=\box66
+\tikz@tempbox@bg=\box67
+\tikztreelevel=\count304
+\tikznumberofchildren=\count305
+\tikznumberofcurrentchild=\count306
+\tikz@fig@count=\count307
+ (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count308
+\pgfmatrixcurrentcolumn=\count309
+\pgf@matrix@numberofcolumns=\count310
+)
+\tikz@expandcount=\count311
+ (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (/usr/share/texmf-dist/tex/generic/tikz-cd/tikzlibrarycd.code.tex (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarymatrix.code.tex
+File: tikzlibrarymatrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryquotes.code.tex
+File: tikzlibraryquotes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowinset=\dimen263
+\pgfarrowlength=\dimen264
+\pgfarrowwidth=\dimen265
+\pgfarrowlinewidth=\dimen266
+)))
+./Block_20theory_20ch2.md.tex:6: Preview: Snippet 1 started.
+<-><->
+      
+l.6 $
+     G$
+Not a real error.
+
+Preview: Tightpage -32891 -32891 32891 32891
+./Block_20theory_20ch2.md.tex:6: Preview: Snippet 1 ended.(447828+0x515276).
+<-><->
+      
+l.6 $G$
+       
+Not a real error.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+./Block_20theory_20ch2.md.tex:7: Preview: Snippet 2 started.
+<-><->
+      
+l.7 $
+     H$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:7: Preview: Snippet 2 ended.(447828+0x598014).
+<-><->
+      
+l.7 $H$
+       
+Not a real error.
+
+[2]
+./Block_20theory_20ch2.md.tex:8: Preview: Snippet 3 started.
+<-><->
+      
+l.8 $
+     G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:8: Preview: Snippet 3 ended.(447828+0x515276).
+<-><->
+      
+l.8 $G$
+       
+Not a real error.
+
+[3]
+./Block_20theory_20ch2.md.tex:9: Preview: Snippet 4 started.
+<-><->
+      
+l.9 $
+     Res_H^G:Mod(k[G]) \rightarrow Mod(k[H])$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:9: Preview: Snippet 4 ended.(551306+180508x9494245).
+<-><->
+      
+l.9 $Res_H^G:Mod(k[G]) \rightarrow Mod(k[H])$
+                                             
+Not a real error.
+
+[4]
+./Block_20theory_20ch2.md.tex:10: Preview: Snippet 5 started.
+<-><->
+      
+l.10 $
+      k[G]$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:10: Preview: Snippet 5 ended.(491520+163840x1241180).
+<-><->
+      
+l.10 $k[G]$
+           
+Not a real error.
+
+[5]
+./Block_20theory_20ch2.md.tex:11: Preview: Snippet 6 started.
+<-><->
+      
+l.11 $
+      \phi:U \rightarrow U'$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:11: Preview: Snippet 6 ended.(492688+127431x3177749).
+<-><->
+      
+l.11 $\phi:U \rightarrow U'$
+                            
+Not a real error.
+
+[6]
+./Block_20theory_20ch2.md.tex:12: Preview: Snippet 7 started.
+<-><->
+      
+l.12 $
+      \phi$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:12: Preview: Snippet 7 ended.(455111+127431x390486).
+<-><->
+      
+l.12 $\phi$
+           
+Not a real error.
+
+[7]
+./Block_20theory_20ch2.md.tex:13: Preview: Snippet 8 started.
+<-><->
+      
+l.13 $
+      k[H]$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:13: Preview: Snippet 8 ended.(491520+163840x1323918).
+<-><->
+      
+l.13 $k[H]$
+           
+Not a real error.
+
+[8]
+./Block_20theory_20ch2.md.tex:14: Preview: Snippet 9 started.
+<-><->
+      
+l.14 $
+      Ind_H^G:Mod(k[H]) \rightarrow Mod(k[G])$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:14: Preview: Snippet 9 ended.(551306+180508x9453209).
+<-><->
+      
+l.14 $Ind_H^G:Mod(k[H]) \rightarrow Mod(k[G])$
+                                              
+Not a real error.
+
+[9]
+./Block_20theory_20ch2.md.tex:15: Preview: Snippet 10 started.
+<-><->
+      
+l.15 $
+      k[H]$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:15: Preview: Snippet 10 ended.(491520+163840x1323918).
+<-><->
+      
+l.15 $k[H]$
+           
+Not a real error.
+
+[10]
+./Block_20theory_20ch2.md.tex:16: Preview: Snippet 11 started.
+<-><->
+      
+l.16 $
+      V$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:16: Preview: Snippet 11 ended.(447828+0x527929).
+<-><->
+      
+l.16 $V$
+        
+Not a real error.
+
+[11]
+./Block_20theory_20ch2.md.tex:17: Preview: Snippet 12 started.
+<-><->
+      
+l.17 $
+      k[G]$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:17: Preview: Snippet 12 ended.(491520+163840x1241180).
+<-><->
+      
+l.17 $k[G]$
+           
+Not a real error.
+
+[12]
+./Block_20theory_20ch2.md.tex:18: Preview: Snippet 13 started.
+<-><->
+      
+l.18 $
+      Ind_H^G(V)=k[G] \otimes_{k[H]}V$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:18: Preview: Snippet 13 ended.(551306+233018x7136108).
+<-><->
+      
+l.18 $Ind_H^G(V)=k[G] \otimes_{k[H]}V$
+                                      
+Not a real error.
+
+[13]
+./Block_20theory_20ch2.md.tex:19: Preview: Snippet 14 started.
+<-><->
+      
+l.19 $
+      k[H]$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:19: Preview: Snippet 14 ended.(491520+163840x1323918).
+<-><->
+      
+l.19 $k[H]$
+           
+Not a real error.
+
+[14]
+./Block_20theory_20ch2.md.tex:20: Preview: Snippet 15 started.
+<-><->
+      
+l.20 $
+      \phi:V \rightarrow V'$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:20: Preview: Snippet 15 ended.(492688+127431x3195775).
+<-><->
+      
+l.20 $\phi:V \rightarrow V'$
+                            
+Not a real error.
+
+[15]
+./Block_20theory_20ch2.md.tex:21: Preview: Snippet 16 started.
+<-><->
+      
+l.21 $
+      k[G]$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:21: Preview: Snippet 16 ended.(491520+163840x1241180).
+<-><->
+      
+l.21 $k[G]$
+           
+Not a real error.
+
+[16]
+./Block_20theory_20ch2.md.tex:22: Preview: Snippet 17 started.
+<-><->
+      
+l.22 $
+      id_{k[G]} \otimes \psi:k[G] \otimes_{k[H]}V \rightarrow k[G] \otimes_{...
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:22: Preview: Snippet 17 ended.(492688+233018x11902096).
+<-><->
+      
+l.22 ...k[H]}V \rightarrow k[G] \otimes_{k[H]} V'$
+                                                  
+Not a real error.
+
+[17]
+./Block_20theory_20ch2.md.tex:23: Preview: Snippet 18 started.
+<-><->
+      
+l.23 $
+      G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:23: Preview: Snippet 18 ended.(447828+0x515276).
+<-><->
+      
+l.23 $G$
+        
+Not a real error.
+
+[18]
+./Block_20theory_20ch2.md.tex:24: Preview: Snippet 19 started.
+<-><->
+      
+l.24 $
+      H,L$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:24: Preview: Snippet 19 ended.(447828+127431x1298884).
+<-><->
+      
+l.24 $H,L$
+          
+Not a real error.
+
+[19]
+./Block_20theory_20ch2.md.tex:25: Preview: Snippet 20 started.
+<-><->
+      
+l.25 $
+      G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:25: Preview: Snippet 20 ended.(447828+0x515276).
+<-><->
+      
+l.25 $G$
+        
+Not a real error.
+
+[20]
+./Block_20theory_20ch2.md.tex:26: Preview: Snippet 21 started.
+<-><->
+      
+l.26 $
+      L \leq H \leq G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:26: Preview: Snippet 21 ended.(447828+89110x3306912).
+<-><->
+      
+l.26 $L \leq H \leq G$
+                      
+Not a real error.
+
+[21]
+./Block_20theory_20ch2.md.tex:27: Preview: Snippet 22 started.
+<-><->
+      
+l.27 $
+      k[G]$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:27: Preview: Snippet 22 ended.(491520+163840x1241180).
+<-><->
+      
+l.27 $k[G]$
+           
+Not a real error.
+
+[22]
+./Block_20theory_20ch2.md.tex:28: Preview: Snippet 23 started.
+<-><->
+      
+l.28 $
+      k[G]$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:28: Preview: Snippet 23 ended.(491520+163840x1241180).
+<-><->
+      
+l.28 $k[G]$
+           
+Not a real error.
+
+[23]
+./Block_20theory_20ch2.md.tex:29: Preview: Snippet 24 started.
+<-><->
+      
+l.29 $
+      V$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:29: Preview: Snippet 24 ended.(447828+0x527929).
+<-><->
+      
+l.29 $V$
+        
+Not a real error.
+
+[24]
+./Block_20theory_20ch2.md.tex:30: Preview: Snippet 25 started.
+<-><->
+      
+l.30 $
+      Res_L^{G}(V) \simeq Res_{L}^{H}(Res_H^G(V))$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:30: Preview: Snippet 25 ended.(551306+180508x8238854).
+<-><->
+      
+l.30 $Res_L^{G}(V) \simeq Res_{L}^{H}(Res_H^G(V))$
+                                                  
+Not a real error.
+
+[25]
+./Block_20theory_20ch2.md.tex:31: Preview: Snippet 26 started.
+<-><->
+      
+l.31 $
+      Ind$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:31: Preview: Snippet 26 ended.(455111+0x1073988).
+<-><->
+      
+l.31 $Ind$
+          
+Not a real error.
+
+[26]
+./Block_20theory_20ch2.md.tex:32: Preview: Snippet 27 started.
+<-><->
+      
+l.32 $
+      G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:32: Preview: Snippet 27 ended.(447828+0x515276).
+<-><->
+      
+l.32 $G$
+        
+Not a real error.
+
+[27]
+./Block_20theory_20ch2.md.tex:33: Preview: Snippet 28 started.
+<-><->
+      
+l.33 $
+      H$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:33: Preview: Snippet 28 ended.(447828+0x598014).
+<-><->
+      
+l.33 $H$
+        
+Not a real error.
+
+[28]
+./Block_20theory_20ch2.md.tex:34: Preview: Snippet 29 started.
+<-><->
+      
+l.34 $
+      G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:34: Preview: Snippet 29 ended.(447828+0x515276).
+<-><->
+      
+l.34 $G$
+        
+Not a real error.
+
+[29]
+./Block_20theory_20ch2.md.tex:35: Preview: Snippet 30 started.
+<-><->
+      
+l.35 $
+      Ind_H^G:Mod(k[H]) \rightarrow Mod(k[G])$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:35: Preview: Snippet 30 ended.(551306+180508x9453209).
+<-><->
+      
+l.35 $Ind_H^G:Mod(k[H]) \rightarrow Mod(k[G])$
+                                              
+Not a real error.
+
+[30]
+./Block_20theory_20ch2.md.tex:36: Preview: Snippet 31 started.
+<-><->
+      
+l.36 $
+      Res_H^G:Mod(k[G]) \rightarrow Mod(k[H])$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:36: Preview: Snippet 31 ended.(551306+180508x9494245).
+<-><->
+      
+l.36 $Res_H^G:Mod(k[G]) \rightarrow Mod(k[H])$
+                                              
+Not a real error.
+
+[31]
+./Block_20theory_20ch2.md.tex:37: Preview: Snippet 32 started.
+<-><->
+      
+l.37 $
+      k[G]$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:37: Preview: Snippet 32 ended.(491520+163840x1241180).
+<-><->
+      
+l.37 $k[G]$
+           
+Not a real error.
+
+[32]
+./Block_20theory_20ch2.md.tex:38: Preview: Snippet 33 started.
+<-><->
+      
+l.38 $
+      U \stackrel{\phi}{\longrightarrow} V \stackrel{\psi}{\longrightarrow} W$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:38: Preview: Snippet 33 ended.(786567+0x4596705).
+<-><->
+      
+l.38 ...row} V \stackrel{\psi}{\longrightarrow} W$
+                                                  
+Not a real error.
+
+[33]
+./Block_20theory_20ch2.md.tex:39: Preview: Snippet 34 started.
+<-><->
+      
+l.39 $
+      Im(\phi)=ker(\psi)$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:39: Preview: Snippet 34 ended.(491520+163840x4629923).
+<-><->
+      
+l.39 $Im(\phi)=ker(\psi)$
+                         
+Not a real error.
+
+[34]
+./Block_20theory_20ch2.md.tex:40: Preview: Snippet 35 started.
+<-><->
+      
+l.40 $
+      Res_H^G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:40: Preview: Snippet 35 ended.(551306+180508x1612097).
+<-><->
+      
+l.40 $Res_H^G$
+              
+Not a real error.
+
+[35]
+./Block_20theory_20ch2.md.tex:41: Preview: Snippet 36 started.
+<-><->
+      
+l.41 $
+      k[H] \otimes_{k[H]} -$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:41: Preview: Snippet 36 ended.(491520+233018x3718121).
+<-><->
+      
+l.41 $k[H] \otimes_{k[H]} -$
+                            
+Not a real error.
+
+[36]
+./Block_20theory_20ch2.md.tex:42: Preview: Snippet 37 started.
+<-><->
+      
+l.42 $
+      k[G]=\bigoplus_{x \in G/H}xk[H]$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:42: Preview: Snippet 37 ended.(491524+311299x6474834).
+<-><->
+      
+l.42 $k[G]=\bigoplus_{x \in G/H}xk[H]$
+                                      
+Not a real error.
+
+[37]
+./Block_20theory_20ch2.md.tex:43: Preview: Snippet 38 started.
+<-><->
+      
+l.43 $
+      Ind$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:43: Preview: Snippet 38 ended.(455111+0x1073988).
+<-><->
+      
+l.43 $Ind$
+          
+Not a real error.
+
+[38]
+./Block_20theory_20ch2.md.tex:44: Preview: Snippet 39 started.
+<-><->
+      
+l.44 $
+      Res$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:44: Preview: Snippet 39 ended.(447828+0x1115024).
+<-><->
+      
+l.44 $Res$
+          
+Not a real error.
+
+[39]
+./Block_20theory_20ch2.md.tex:45: Preview: Snippet 40 started.
+<-><->
+      
+l.45 $
+      B \leq A$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:45: Preview: Snippet 40 ended.(447828+89110x1895304).
+<-><->
+      
+l.45 $B \leq A$
+               
+Not a real error.
+
+[40]
+./Block_20theory_20ch2.md.tex:46: Preview: Snippet 41 started.
+<-><->
+      
+l.46 $
+      B \stackrel{\alpha}{\longrightarrow} A$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:46: Preview: Snippet 41 ended.(634560+0x2441441).
+<-><->
+      
+l.46 $B \stackrel{\alpha}{\longrightarrow} A$
+                                             
+Not a real error.
+
+[41]
+./Block_20theory_20ch2.md.tex:47: Preview: Snippet 42 started.
+<-><->
+      
+l.47 $
+      Res_\alpha:Mod(A) \rightarrow Mod(B)$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:47: Preview: Snippet 42 ended.(491520+163840x7827046).
+<-><->
+      
+l.47 $Res_\alpha:Mod(A) \rightarrow Mod(B)$
+                                           
+Not a real error.
+
+[42]
+./Block_20theory_20ch2.md.tex:48: Preview: Snippet 43 started.
+<-><->
+      
+l.48 $
+      \alpha(b)$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:48: Preview: Snippet 43 ended.(491520+163840x1212645).
+<-><->
+      
+l.48 $\alpha(b)$
+                
+Not a real error.
+
+[43]
+./Block_20theory_20ch2.md.tex:49: Preview: Snippet 44 started.
+<-><->
+      
+l.49 $
+      Ind_\alpha:Mod(B) \rightarrow Mod(A)$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:49: Preview: Snippet 44 ended.(491520+163840x7786010).
+<-><->
+      
+l.49 $Ind_\alpha:Mod(B) \rightarrow Mod(A)$
+                                           
+Not a real error.
+
+[44]
+./Block_20theory_20ch2.md.tex:50: Preview: Snippet 45 started.
+<-><->
+      
+l.50 $
+      A_\alpha \otimes -$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:50: Preview: Snippet 45 ended.(447828+98303x2175711).
+<-><->
+      
+l.50 $A_\alpha \otimes -$
+                         
+Not a real error.
+
+[45]
+./Block_20theory_20ch2.md.tex:51: Preview: Snippet 46 started.
+<-><->
+      
+l.51 $
+      \alpha \in Z^2(G;k^\times)$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:51: Preview: Snippet 46 ended.(533465+163840x4131357).
+<-><->
+      
+l.51 $\alpha \in Z^2(G;k^\times)$
+                                 
+Not a real error.
+
+[46]
+./Block_20theory_20ch2.md.tex:52: Preview: Snippet 47 started.
+<-><->
+      
+l.52 $
+      G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:52: Preview: Snippet 47 ended.(447828+0x515276).
+<-><->
+      
+l.52 $G$
+        
+Not a real error.
+
+[47]
+./Block_20theory_20ch2.md.tex:53: Preview: Snippet 48 started.
+<-><->
+      
+l.53 $
+      H$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:53: Preview: Snippet 48 ended.(447828+0x598014).
+<-><->
+      
+l.53 $H$
+        
+Not a real error.
+
+[48]
+./Block_20theory_20ch2.md.tex:54: Preview: Snippet 49 started.
+<-><->
+      
+l.54 $
+      V$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:54: Preview: Snippet 49 ended.(447828+0x527929).
+<-><->
+      
+l.54 $V$
+        
+Not a real error.
+
+[49]
+./Block_20theory_20ch2.md.tex:55: Preview: Snippet 50 started.
+<-><->
+      
+l.55 $
+      k[H]$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:55: Preview: Snippet 50 ended.(491520+163840x1323918).
+<-><->
+      
+l.55 $k[H]$
+           
+Not a real error.
+
+[50]
+./Block_20theory_20ch2.md.tex:56: Preview: Snippet 51 started.
+<-><->
+      
+l.56 $
+      k[G]$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:56: Preview: Snippet 51 ended.(491520+163840x1241180).
+<-><->
+      
+l.56 $k[G]$
+           
+Not a real error.
+
+[51]
+./Block_20theory_20ch2.md.tex:57: Preview: Snippet 52 started.
+<-><->
+      
+l.57 $
+      Ten_H^G(V)$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:57: Preview: Snippet 52 ended.(551306+180508x2707250).
+<-><->
+      
+l.57 $Ten_H^G(V)$
+                 
+Not a real error.
+
+[52]
+./Block_20theory_20ch2.md.tex:58: Preview: Snippet 53 started.
+<-><->
+      
+l.58 $
+      n=|G:H|$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:58: Preview: Snippet 53 ended.(491520+163840x3290681).
+<-><->
+      
+l.58 $n=|G:H|$
+              
+Not a real error.
+
+[53]
+./Block_20theory_20ch2.md.tex:59: Preview: Snippet 54 started.
+<-><->
+      
+l.59 $
+      \{x_i|1\leq i \leq n\}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:59: Preview: Snippet 54 ended.(491520+163840x4124594).
+<-><->
+      
+l.59 $\{x_i|1\leq i \leq n\}$
+                             
+Not a real error.
+
+[54]
+./Block_20theory_20ch2.md.tex:60: Preview: Snippet 55 started.
+<-><->
+      
+l.60 $
+      G/H$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:60: Preview: Snippet 55 ended.(491520+163840x1440971).
+<-><->
+      
+l.60 $G/H$
+          
+Not a real error.
+
+[55]
+./Block_20theory_20ch2.md.tex:61: Preview: Snippet 56 started.
+<-><->
+      
+l.61 $
+      G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:61: Preview: Snippet 56 ended.(447828+0x515276).
+<-><->
+      
+l.61 $G$
+        
+Not a real error.
+
+[56]
+./Block_20theory_20ch2.md.tex:62: Preview: Snippet 57 started.
+<-><->
+      
+l.62 $
+      Ten_H^G(V)=\bigotimes_{i=1}^n(x_i \otimes V)$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:62: Preview: Snippet 57 ended.(551306+196611x7622368).
+<-><->
+      
+l.62 ..._H^G(V)=\bigotimes_{i=1}^n(x_i \otimes V)$
+                                                  
+Not a real error.
+
+[57]
+./Block_20theory_20ch2.md.tex:63: Preview: Snippet 58 started.
+<-><->
+      
+l.63 $
+      k$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:63: Preview: Snippet 58 ended.(455111+0x361814).
+<-><->
+      
+l.63 $k$
+        
+Not a real error.
+
+[58]
+./Block_20theory_20ch2.md.tex:64: Preview: Snippet 59 started.
+<-><->
+      
+l.64 $
+      x_i \otimes V$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:64: Preview: Snippet 59 ended.(447828+98303x1921663).
+<-><->
+      
+l.64 $x_i \otimes V$
+                    
+Not a real error.
+
+[59]
+./Block_20theory_20ch2.md.tex:65: Preview: Snippet 60 started.
+<-><->
+      
+l.65 $
+      k[G] \otimes_{k[H]}V$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:65: Preview: Snippet 60 ended.(491520+233018x3653586).
+<-><->
+      
+l.65 $k[G] \otimes_{k[H]}V$
+                           
+Not a real error.
+
+[60]
+./Block_20theory_20ch2.md.tex:66: Preview: Snippet 61 started.
+<-><->
+      
+l.66 $
+      G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:66: Preview: Snippet 61 ended.(447828+0x515276).
+<-><->
+      
+l.66 $G$
+        
+Not a real error.
+
+[61]
+./Block_20theory_20ch2.md.tex:67: Preview: Snippet 62 started.
+<-><->
+      
+l.67 $
+      x \in G,\ \pi \in S_n$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:67: Preview: Snippet 62 ended.(447828+127431x4157160).
+<-><->
+      
+l.67 $x \in G,\ \pi \in S_n$
+                            
+Not a real error.
+
+[62]
+./Block_20theory_20ch2.md.tex:68: Preview: Snippet 63 started.
+<-><->
+      
+l.68 $
+      y_i \in H$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:68: Preview: Snippet 63 ended.(447828+127431x1938501).
+<-><->
+      
+l.68 $y_i \in H$
+                
+Not a real error.
+
+[63]
+./Block_20theory_20ch2.md.tex:69: Preview: Snippet 64 started.
+<-><->
+      
+l.69 $
+      xx_i=x_{\pi^{-1}(i)}y_i$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:69: Preview: Snippet 64 ended.(282168+238480x4316645).
+<-><->
+      
+l.69 $xx_i=x_{\pi^{-1}(i)}y_i$
+                              
+Not a real error.
+
+[64]
+./Block_20theory_20ch2.md.tex:70: Preview: Snippet 65 started.
+<-><->
+      
+l.70 $
+      v_i \in V$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:70: Preview: Snippet 65 ended.(447828+98303x1864773).
+<-><->
+      
+l.70 $v_i \in V$
+                
+Not a real error.
+
+[65]
+./Block_20theory_20ch2.md.tex:71: Preview: Snippet 66 started.
+<-><->
+      
+l.71 $
+      1 \leq i \leq n$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:71: Preview: Snippet 66 ended.(432226+89110x2694443).
+<-><->
+      
+l.71 $1 \leq i \leq n$
+                      
+Not a real error.
+
+[66]
+./Block_20theory_20ch2.md.tex:72: Preview: Snippet 67 started.
+<-><->
+      
+l.72 $
+      x \cdot (\bigotimes_{i=1}^n(x_i \otimes v_i))=\otimes_{i=1}^n(x_i \oti...
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:72: Preview: Snippet 67 ended.(527024+233018x12115978).
+<-><->
+      
+l.72 ...{i=1}^n(x_i \otimes y_{\pi(i)}v_{\pi(i)})$
+                                                  
+Not a real error.
+
+[67]
+./Block_20theory_20ch2.md.tex:73: Preview: Snippet 68 started.
+<-><->
+      
+l.73 $
+      G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:73: Preview: Snippet 68 ended.(447828+0x515276).
+<-><->
+      
+l.73 $G$
+        
+Not a real error.
+
+[68]
+./Block_20theory_20ch2.md.tex:74: Preview: Snippet 69 started.
+<-><->
+      
+l.74 $
+      H^n \rtimes S_n$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:74: Undefined control sequence.
+l.74 $H^n \rtimes
+                  S_n$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Block_20theory_20ch2.md.tex:74: Preview: Snippet 69 ended.(447828+98303x1713345).
+<-><->
+      
+l.74 $H^n \rtimes S_n$
+                      
+Not a real error.
+
+[69]
+./Block_20theory_20ch2.md.tex:75: Preview: Snippet 70 started.
+<-><->
+      
+l.75 $
+      Ten_H^G(V)\simeq Res_G^{H^n \rtimes S_n}(V^{\otimes n})$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:75: Undefined control sequence.
+l.75 $Ten_H^G(V)\simeq Res_G^{H^n \rtimes
+                                          S_n}(V^{\otimes n})$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Block_20theory_20ch2.md.tex:75: Preview: Snippet 70 ended.(630128+192599x7961730).
+<-><->
+      
+l.75 ...eq Res_G^{H^n \rtimes S_n}(V^{\otimes n})$
+                                                  
+Not a real error.
+
+[70]
+./Block_20theory_20ch2.md.tex:76: Preview: Snippet 71 started.
+<-><->
+      
+l.76 $
+      G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:76: Preview: Snippet 71 ended.(447828+0x515276).
+<-><->
+      
+l.76 $G$
+        
+Not a real error.
+
+[71]
+./Block_20theory_20ch2.md.tex:77: Preview: Snippet 72 started.
+<-><->
+      
+l.77 $
+      H,L$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:77: Preview: Snippet 72 ended.(447828+127431x1298884).
+<-><->
+      
+l.77 $H,L$
+          
+Not a real error.
+
+[72]
+./Block_20theory_20ch2.md.tex:78: Preview: Snippet 73 started.
+<-><->
+      
+l.78 $
+      G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:78: Preview: Snippet 73 ended.(447828+0x515276).
+<-><->
+      
+l.78 $G$
+        
+Not a real error.
+
+[73]
+./Block_20theory_20ch2.md.tex:79: Preview: Snippet 74 started.
+<-><->
+      
+l.79 $
+      V,V'$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:79: Preview: Snippet 74 ended.(492688+127431x1421765).
+<-><->
+      
+l.79 $V,V'$
+           
+Not a real error.
+
+[74]
+./Block_20theory_20ch2.md.tex:80: Preview: Snippet 75 started.
+<-><->
+      
+l.80 $
+      k[H]$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:80: Preview: Snippet 75 ended.(491520+163840x1323918).
+<-><->
+      
+l.80 $k[H]$
+           
+Not a real error.
+
+[75]
+./Block_20theory_20ch2.md.tex:81: Preview: Snippet 76 started.
+<-><->
+      
+l.81 $
+      W$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:81: Preview: Snippet 76 ended.(447828+0x709974).
+<-><->
+      
+l.81 $W$
+        
+Not a real error.
+
+[76]
+./Block_20theory_20ch2.md.tex:82: Preview: Snippet 77 started.
+<-><->
+      
+l.82 $
+      k[L]$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:82: Preview: Snippet 77 ended.(491520+163840x1171914).
+<-><->
+      
+l.82 $k[L]$
+           
+Not a real error.
+
+[77]
+./Block_20theory_20ch2.md.tex:83: Preview: Snippet 78 started.
+<-><->
+      
+l.83 $
+      L \leq H$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:83: Preview: Snippet 78 ended.(447828+89110x1917830).
+<-><->
+      
+l.83 $L \leq H$
+               
+Not a real error.
+
+[78]
+./Block_20theory_20ch2.md.tex:84: Preview: Snippet 79 started.
+<-><->
+      
+l.84 $
+      Ten^G_L(W) \simeq Ten_H^G(Ten_L^H(W))$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:84: Preview: Snippet 79 ended.(551306+180508x8775438).
+<-><->
+      
+l.84 $Ten^G_L(W) \simeq Ten_H^G(Ten_L^H(W))$
+                                            
+Not a real error.
+
+[79]
+./Block_20theory_20ch2.md.tex:85: Preview: Snippet 80 started.
+<-><->
+      
+l.85 $
+      Ten_H^G(V \otimes_k V'\simeq Ten_H^G(V) \otimes_k Ten_H^G(V')$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:85: Preview: Snippet 80 ended.(551306+180508x11883228).
+<-><->
+      
+l.85 ...V'\simeq Ten_H^G(V) \otimes_k Ten_H^G(V')$
+                                                  
+Not a real error.
+
+[80]
+./Block_20theory_20ch2.md.tex:86: Preview: Snippet 81 started.
+<-><->
+      
+l.86 $
+      G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:86: Preview: Snippet 81 ended.(447828+0x515276).
+<-><->
+      
+l.86 $G$
+        
+Not a real error.
+
+[81]
+./Block_20theory_20ch2.md.tex:87: Preview: Snippet 82 started.
+<-><->
+      
+l.87 $
+      H$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:87: Preview: Snippet 82 ended.(447828+0x598014).
+<-><->
+      
+l.87 $H$
+        
+Not a real error.
+
+[82]
+./Block_20theory_20ch2.md.tex:88: Preview: Snippet 83 started.
+<-><->
+      
+l.88 $
+      G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:88: Preview: Snippet 83 ended.(447828+0x515276).
+<-><->
+      
+l.88 $G$
+        
+Not a real error.
+
+[83]
+./Block_20theory_20ch2.md.tex:89: Preview: Snippet 84 started.
+<-><->
+      
+l.89 $
+      U$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:89: Preview: Snippet 84 ended.(447828+0x518916).
+<-><->
+      
+l.89 $U$
+        
+Not a real error.
+
+[84]
+./Block_20theory_20ch2.md.tex:90: Preview: Snippet 85 started.
+<-><->
+      
+l.90 $
+      k[G]$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:90: Preview: Snippet 85 ended.(491520+163840x1241180).
+<-><->
+      
+l.90 $k[G]$
+           
+Not a real error.
+
+[85]
+./Block_20theory_20ch2.md.tex:91: Preview: Snippet 86 started.
+<-><->
+      
+l.91 $
+      V$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:91: Preview: Snippet 86 ended.(447828+0x527929).
+<-><->
+      
+l.91 $V$
+        
+Not a real error.
+
+[86]
+./Block_20theory_20ch2.md.tex:92: Preview: Snippet 87 started.
+<-><->
+      
+l.92 $
+      k[H]$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:92: Preview: Snippet 87 ended.(491520+163840x1323918).
+<-><->
+      
+l.92 $k[H]$
+           
+Not a real error.
+
+[87]
+./Block_20theory_20ch2.md.tex:93: Preview: Snippet 88 started.
+<-><->
+      
+l.93 $
+      $
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:96: Preview: Snippet 88 ended.(2031635+0x22609920).
+<-><->
+      
+l.96 $$
+       
+Not a real error.
+
+[88]
+./Block_20theory_20ch2.md.tex:97: Preview: Snippet 89 started.
+<-><->
+      
+l.97 $
+      $
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:102: Preview: Snippet 89 ended.(2031635+0x22609920).
+<-><->
+      
+l.102 $$
+        
+Not a real error.
+
+[89]
+./Block_20theory_20ch2.md.tex:103: Preview: Snippet 90 started.
+<-><->
+      
+l.103 $
+       \psi \in Hom_{k[H]}(V,Res_H^G(U))$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:103: Preview: Snippet 90 ended.(551306+233018x7686417).
+<-><->
+      
+l.103 $\psi \in Hom_{k[H]}(V,Res_H^G(U))$
+                                         
+Not a real error.
+
+[90]
+./Block_20theory_20ch2.md.tex:104: Preview: Snippet 91 started.
+<-><->
+      
+l.104 $
+       \phi$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:104: Preview: Snippet 91 ended.(455111+127431x390486).
+<-><->
+      
+l.104 $\phi$
+            
+Not a real error.
+
+[91]
+./Block_20theory_20ch2.md.tex:105: Preview: Snippet 92 started.
+<-><->
+      
+l.105 $
+       \phi(x \otimes v) = x\psi (v)$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:105: Preview: Snippet 92 ended.(491520+163840x4966617).
+<-><->
+      
+l.105 $\phi(x \otimes v) = x\psi (v)$
+                                     
+Not a real error.
+
+[92]
+./Block_20theory_20ch2.md.tex:106: Preview: Snippet 93 started.
+<-><->
+      
+l.106 $
+       x \in G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:106: Preview: Snippet 93 ended.(447828+25623x1690820).
+<-><->
+      
+l.106 $x \in G$
+               
+Not a real error.
+
+[93]
+./Block_20theory_20ch2.md.tex:107: Preview: Snippet 94 started.
+<-><->
+      
+l.107 $
+       v \in V$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:107: Preview: Snippet 94 ended.(447828+25623x1670098).
+<-><->
+      
+l.107 $v \in V$
+               
+Not a real error.
+
+[94]
+./Block_20theory_20ch2.md.tex:108: Preview: Snippet 95 started.
+<-><->
+      
+l.108 $
+       G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:108: Preview: Snippet 95 ended.(447828+0x515276).
+<-><->
+      
+l.108 $G$
+         
+Not a real error.
+
+[95]
+./Block_20theory_20ch2.md.tex:109: Preview: Snippet 96 started.
+<-><->
+      
+l.109 $
+       H$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:109: Preview: Snippet 96 ended.(447828+0x598014).
+<-><->
+      
+l.109 $H$
+         
+Not a real error.
+
+[96]
+./Block_20theory_20ch2.md.tex:110: Preview: Snippet 97 started.
+<-><->
+      
+l.110 $
+       G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:110: Preview: Snippet 97 ended.(447828+0x515276).
+<-><->
+      
+l.110 $G$
+         
+Not a real error.
+
+[97]
+./Block_20theory_20ch2.md.tex:111: Preview: Snippet 98 started.
+<-><->
+      
+l.111 $
+       U$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:111: Preview: Snippet 98 ended.(447828+0x518916).
+<-><->
+      
+l.111 $U$
+         
+Not a real error.
+
+[98]
+./Block_20theory_20ch2.md.tex:112: Preview: Snippet 99 started.
+<-><->
+      
+l.112 $
+       k[G]$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:112: Preview: Snippet 99 ended.(491520+163840x1241180).
+<-><->
+      
+l.112 $k[G]$
+            
+Not a real error.
+
+[99]
+./Block_20theory_20ch2.md.tex:113: Preview: Snippet 100 started.
+<-><->
+      
+l.113 $
+       V$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:113: Preview: Snippet 100 ended.(447828+0x527929).
+<-><->
+      
+l.113 $V$
+         
+Not a real error.
+
+[100]
+./Block_20theory_20ch2.md.tex:114: Preview: Snippet 101 started.
+<-><->
+      
+l.114 $
+       k[H]$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:114: Preview: Snippet 101 ended.(491520+163840x1323918).
+<-><->
+      
+l.114 $k[H]$
+            
+Not a real error.
+
+[101]
+./Block_20theory_20ch2.md.tex:115: Preview: Snippet 102 started.
+<-><->
+      
+l.115 $
+       k[G]$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:115: Preview: Snippet 102 ended.(491520+163840x1241180).
+<-><->
+      
+l.115 $k[G]$
+            
+Not a real error.
+
+[102]
+./Block_20theory_20ch2.md.tex:116: Preview: Snippet 103 started.
+<-><->
+      
+l.116 $
+       $
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:120: Preview: Snippet 103 ended.(2031635+0x22609920).
+<-><->
+      
+l.120 $$
+        
+Not a real error.
+
+[103]
+./Block_20theory_20ch2.md.tex:121: Preview: Snippet 104 started.
+<-><->
+      
+l.121 $
+       u \in U$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:121: Preview: Snippet 104 ended.(447828+25623x1695070).
+<-><->
+      
+l.121 $u \in U$
+               
+Not a real error.
+
+[104]
+./Block_20theory_20ch2.md.tex:122: Preview: Snippet 105 started.
+<-><->
+      
+l.122 $
+       v \in V$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:122: Preview: Snippet 105 ended.(447828+25623x1670098).
+<-><->
+      
+l.122 $v \in V$
+               
+Not a real error.
+
+[105]
+./Block_20theory_20ch2.md.tex:123: Preview: Snippet 106 started.
+<-><->
+      
+l.123 $
+       A$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:123: Preview: Snippet 106 ended.(447828+0x491521).
+<-><->
+      
+l.123 $A$
+         
+Not a real error.
+
+[106]
+./Block_20theory_20ch2.md.tex:124: Preview: Snippet 107 started.
+<-><->
+      
+l.124 $
+       B$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:124: Preview: Snippet 107 ended.(447828+0x529977).
+<-><->
+      
+l.124 $B$
+         
+Not a real error.
+
+[107]
+./Block_20theory_20ch2.md.tex:125: Preview: Snippet 108 started.
+<-><->
+      
+l.125 $
+       A$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:125: Preview: Snippet 108 ended.(447828+0x491521).
+<-><->
+      
+l.125 $A$
+         
+Not a real error.
+
+[108]
+./Block_20theory_20ch2.md.tex:126: Preview: Snippet 109 started.
+<-><->
+      
+l.126 $
+       A$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:126: Preview: Snippet 109 ended.(447828+0x491521).
+<-><->
+      
+l.126 $A$
+         
+Not a real error.
+
+[109]
+./Block_20theory_20ch2.md.tex:127: Preview: Snippet 110 started.
+<-><->
+      
+l.127 $
+       U$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:127: Preview: Snippet 110 ended.(447828+0x518916).
+<-><->
+      
+l.127 $U$
+         
+Not a real error.
+
+[110]
+./Block_20theory_20ch2.md.tex:128: Preview: Snippet 111 started.
+<-><->
+      
+l.128 $
+       B$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:128: Preview: Snippet 111 ended.(447828+0x529977).
+<-><->
+      
+l.128 $B$
+         
+Not a real error.
+
+[111]
+./Block_20theory_20ch2.md.tex:129: Preview: Snippet 112 started.
+<-><->
+      
+l.129 $
+       V$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:129: Preview: Snippet 112 ended.(447828+0x527929).
+<-><->
+      
+l.129 $V$
+         
+Not a real error.
+
+[112]
+./Block_20theory_20ch2.md.tex:130: Preview: Snippet 113 started.
+<-><->
+      
+l.130 $
+       $
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:134: Undefined control sequence.
+l.134 ...imes v \mapsto a \psi(v)) &\leftarrowtail
+                                                   \psi
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Block_20theory_20ch2.md.tex:136: Preview: Snippet 113 ended.(2896681+0x22609920).
+<-><->
+      
+l.136 $$
+        
+Not a real error.
+
+[113]
+./Block_20theory_20ch2.md.tex:137: Preview: Snippet 114 started.
+<-><->
+      
+l.137 $
+       M \otimes_B-:Mod(B) \rightarrow Mod(A)$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:137: Preview: Snippet 114 ended.(491520+163840x8807590).
+<-><->
+      
+l.137 $M \otimes_B-:Mod(B) \rightarrow Mod(A)$
+                                              
+Not a real error.
+
+[114]
+./Block_20theory_20ch2.md.tex:138: Preview: Snippet 115 started.
+<-><->
+      
+l.138 $
+       Hom_A(M,-):Mod(A) \rightarrow Mod(B)$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:138: Preview: Snippet 115 ended.(491520+163840x10238095).
+<-><->
+      
+l.138 $Hom_A(M,-):Mod(A) \rightarrow Mod(B)$
+                                            
+Not a real error.
+
+[115]
+./Block_20theory_20ch2.md.tex:139: Preview: Snippet 116 started.
+<-><->
+      
+l.139 $
+       B$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:139: Preview: Snippet 116 ended.(447828+0x529977).
+<-><->
+      
+l.139 $B$
+         
+Not a real error.
+
+[116]
+./Block_20theory_20ch2.md.tex:140: Preview: Snippet 117 started.
+<-><->
+      
+l.140 $
+       A$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:140: Preview: Snippet 117 ended.(447828+0x491521).
+<-><->
+      
+l.140 $A$
+         
+Not a real error.
+
+[117]
+./Block_20theory_20ch2.md.tex:141: Preview: Snippet 118 started.
+<-><->
+      
+l.141 $
+       M=A$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:141: Preview: Snippet 118 ended.(447828+0x2072569).
+<-><->
+      
+l.141 $M=A$
+           
+Not a real error.
+
+[118]
+./Block_20theory_20ch2.md.tex:142: Preview: Snippet 119 started.
+<-><->
+      
+l.142 $
+       A,B$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:142: Preview: Snippet 119 ended.(447828+127431x1312767).
+<-><->
+      
+l.142 $A,B$
+           
+Not a real error.
+
+[119]
+./Block_20theory_20ch2.md.tex:143: Preview: Snippet 120 started.
+<-><->
+      
+l.143 $
+       M \otimes_B -$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:143: Preview: Snippet 120 ended.(447828+98303x2469042).
+<-><->
+      
+l.143 $M \otimes_B -$
+                     
+Not a real error.
+
+[120]
+./Block_20theory_20ch2.md.tex:144: Preview: Snippet 121 started.
+<-><->
+      
+l.144 $
+       Ind_B^A$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:144: Preview: Snippet 121 ended.(551306+180508x1525072).
+<-><->
+      
+l.144 $Ind_B^A$
+               
+Not a real error.
+
+[121]
+./Block_20theory_20ch2.md.tex:145: Preview: Snippet 122 started.
+<-><->
+      
+l.145 $
+       Hom_A(M,-)$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:145: Preview: Snippet 122 ended.(491520+163840x3899547).
+<-><->
+      
+l.145 $Hom_A(M,-)$
+                  
+Not a real error.
+
+[122]
+./Block_20theory_20ch2.md.tex:146: Preview: Snippet 123 started.
+<-><->
+      
+l.146 $
+       Res_B^A$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:146: Preview: Snippet 123 ended.(551306+180508x1566108).
+<-><->
+      
+l.146 $Res_B^A$
+               
+Not a real error.
+
+[123]
+./Block_20theory_20ch2.md.tex:147: Preview: Snippet 124 started.
+<-><->
+      
+l.147 $
+       A,B$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:147: Preview: Snippet 124 ended.(447828+127431x1312767).
+<-><->
+      
+l.147 $A,B$
+           
+Not a real error.
+
+[124]
+./Block_20theory_20ch2.md.tex:148: Preview: Snippet 125 started.
+<-><->
+      
+l.148 $
+       M$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:148: Preview: Snippet 125 ended.(447828+0x707242).
+<-><->
+      
+l.148 $M$
+         
+Not a real error.
+
+[125]
+./Block_20theory_20ch2.md.tex:149: Preview: Snippet 126 started.
+<-><->
+      
+l.149 $
+       A-B$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:149: Preview: Snippet 126 ended.(447828+54613x1822488).
+<-><->
+      
+l.149 $A-B$
+           
+Not a real error.
+
+[126]
+./Block_20theory_20ch2.md.tex:150: Preview: Snippet 127 started.
+<-><->
+      
+l.150 $
+       A$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:150: Preview: Snippet 127 ended.(447828+0x491521).
+<-><->
+      
+l.150 $A$
+         
+Not a real error.
+
+[127]
+./Block_20theory_20ch2.md.tex:151: Preview: Snippet 128 started.
+<-><->
+      
+l.151 $
+       U$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:151: Preview: Snippet 128 ended.(447828+0x518916).
+<-><->
+      
+l.151 $U$
+         
+Not a real error.
+
+[128]
+./Block_20theory_20ch2.md.tex:152: Preview: Snippet 129 started.
+<-><->
+      
+l.152 $
+       B$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:152: Preview: Snippet 129 ended.(447828+0x529977).
+<-><->
+      
+l.152 $B$
+         
+Not a real error.
+
+[129]
+./Block_20theory_20ch2.md.tex:153: Preview: Snippet 130 started.
+<-><->
+      
+l.153 $
+       V$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:153: Preview: Snippet 130 ended.(447828+0x527929).
+<-><->
+      
+l.153 $V$
+         
+Not a real error.
+
+[130]
+./Block_20theory_20ch2.md.tex:154: Preview: Snippet 131 started.
+<-><->
+      
+l.154 $
+       k$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:154: Preview: Snippet 131 ended.(455111+0x361814).
+<-><->
+      
+l.154 $k$
+         
+Not a real error.
+
+[131]
+./Block_20theory_20ch2.md.tex:155: Preview: Snippet 132 started.
+<-><->
+      
+l.155 $
+       $
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:159: Undefined control sequence.
+l.159 ...imes v \mapsto \psi(v)(m) &\leftarrowtail
+                                                   \psi
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Block_20theory_20ch2.md.tex:161: Preview: Snippet 132 ended.(2896681+0x22609920).
+<-><->
+      
+l.161 $$
+        
+Not a real error.
+
+[132]
+./Block_20theory_20ch2.md.tex:162: Preview: Snippet 133 started.
+<-><->
+      
+l.162 $
+       A,B,C$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:162: Preview: Snippet 133 ended.(447828+127431x2119312).
+<-><->
+      
+l.162 $A,B,C$
+             
+Not a real error.
+
+[133]
+./Block_20theory_20ch2.md.tex:163: Preview: Snippet 134 started.
+<-><->
+      
+l.163 $
+       M$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:163: Preview: Snippet 134 ended.(447828+0x707242).
+<-><->
+      
+l.163 $M$
+         
+Not a real error.
+
+[134]
+./Block_20theory_20ch2.md.tex:164: Preview: Snippet 135 started.
+<-><->
+      
+l.164 $
+       A-B$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:164: Preview: Snippet 135 ended.(447828+54613x1822488).
+<-><->
+      
+l.164 $A-B$
+           
+Not a real error.
+
+[135]
+./Block_20theory_20ch2.md.tex:165: Preview: Snippet 136 started.
+<-><->
+      
+l.165 $
+       U$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:165: Preview: Snippet 136 ended.(447828+0x518916).
+<-><->
+      
+l.165 $U$
+         
+Not a real error.
+
+[136]
+./Block_20theory_20ch2.md.tex:166: Preview: Snippet 137 started.
+<-><->
+      
+l.166 $
+       A-C$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:166: Preview: Snippet 137 ended.(447828+54613x1807787).
+<-><->
+      
+l.166 $A-C$
+           
+Not a real error.
+
+[137]
+./Block_20theory_20ch2.md.tex:167: Preview: Snippet 138 started.
+<-><->
+      
+l.167 $
+       V$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:167: Preview: Snippet 138 ended.(447828+0x527929).
+<-><->
+      
+l.167 $V$
+         
+Not a real error.
+
+[138]
+./Block_20theory_20ch2.md.tex:168: Preview: Snippet 139 started.
+<-><->
+      
+l.168 $
+       B-C$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:168: Preview: Snippet 139 ended.(447828+54613x1846243).
+<-><->
+      
+l.168 $B-C$
+           
+Not a real error.
+
+[139]
+./Block_20theory_20ch2.md.tex:169: Preview: Snippet 140 started.
+<-><->
+      
+l.169 $
+       k$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:169: Preview: Snippet 140 ended.(455111+0x361814).
+<-><->
+      
+l.169 $k$
+         
+Not a real error.
+
+[140]
+./Block_20theory_20ch2.md.tex:170: Preview: Snippet 141 started.
+<-><->
+      
+l.170 $
+       $Hom_{A \otimes_k C^{op}}(M \otimes_B V, U) \simeq Hom_{B \otimes_k C...
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:170: Preview: Snippet 141 ended.(954276+0x22609920).
+<-><->
+      
+l.170 ... Hom_{B \otimes_k C^{op}}(V,Hom_A(M,U))$$
+                                                  
+Not a real error.
+
+[141]
+./Block_20theory_20ch2.md.tex:171: Preview: Snippet 142 started.
+<-><->
+      
+l.171 $
+       \mathcal{C},\mathcal{D}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:171: Preview: Snippet 142 ended.(447828+127431x1198311).
+<-><->
+      
+l.171 $\mathcal{C},\mathcal{D}$
+                               
+Not a real error.
+
+[142]
+./Block_20theory_20ch2.md.tex:172: Preview: Snippet 143 started.
+<-><->
+      
+l.172 $
+       \mathcal{F}: \mathcal{C} \rightarrow \mathcal{D}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:172: Preview: Snippet 143 ended.(447828+0x3008727).
+<-><->
+      
+l.172 ...{F}: \mathcal{C} \rightarrow \mathcal{D}$
+                                                  
+Not a real error.
+
+[143]
+./Block_20theory_20ch2.md.tex:173: Preview: Snippet 144 started.
+<-><->
+      
+l.173 $
+       \mathcal{G}: \mathcal{D} \rightarrow \mathcal{C}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:173: Preview: Snippet 144 ended.(447828+63716x2901324).
+<-><->
+      
+l.173 ...{G}: \mathcal{D} \rightarrow \mathcal{C}$
+                                                  
+Not a real error.
+
+[144]
+./Block_20theory_20ch2.md.tex:174: Preview: Snippet 145 started.
+<-><->
+      
+l.174 $
+       \mathcal{G}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:174: Preview: Snippet 145 ended.(447828+63716x428716).
+<-><->
+      
+l.174 $\mathcal{G}$
+                   
+Not a real error.
+
+[145]
+./Block_20theory_20ch2.md.tex:175: Preview: Snippet 146 started.
+<-><->
+      
+l.175 $
+       \mathcal{F}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:175: Preview: Snippet 146 ended.(447828+0x536119).
+<-><->
+      
+l.175 $\mathcal{F}$
+                   
+Not a real error.
+
+[146]
+./Block_20theory_20ch2.md.tex:176: Preview: Snippet 147 started.
+<-><->
+      
+l.176 $
+       \mathcal{F}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:176: Preview: Snippet 147 ended.(447828+0x536119).
+<-><->
+      
+l.176 $\mathcal{F}$
+                   
+Not a real error.
+
+[147]
+./Block_20theory_20ch2.md.tex:177: Preview: Snippet 148 started.
+<-><->
+      
+l.177 $
+       \mathcal{G}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:177: Preview: Snippet 148 ended.(447828+63716x428716).
+<-><->
+      
+l.177 $\mathcal{G}$
+                   
+Not a real error.
+
+[148]
+./Block_20theory_20ch2.md.tex:178: Preview: Snippet 149 started.
+<-><->
+      
+l.178 $
+       Hom_\mathcal{C}(\mathcal{G}(-),-) \simeq Hom_{\mathcal{D}}(-,\mathcal...
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:178: Preview: Snippet 149 ended.(491520+163840x10276284).
+<-><->
+      
+l.178 ...imeq Hom_{\mathcal{D}}(-,\mathcal{F}(-))$
+                                                  
+Not a real error.
+
+[149]
+./Block_20theory_20ch2.md.tex:179: Preview: Snippet 150 started.
+<-><->
+      
+l.179 $
+       \mathcal{G}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:179: Preview: Snippet 150 ended.(447828+63716x428716).
+<-><->
+      
+l.179 $\mathcal{G}$
+                   
+Not a real error.
+
+[150]
+./Block_20theory_20ch2.md.tex:180: Preview: Snippet 151 started.
+<-><->
+      
+l.180 $
+       \mathcal{F}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:180: Preview: Snippet 151 ended.(447828+0x536119).
+<-><->
+      
+l.180 $\mathcal{F}$
+                   
+Not a real error.
+
+[151]
+./Block_20theory_20ch2.md.tex:181: Preview: Snippet 152 started.
+<-><->
+      
+l.181 $
+       \mathcal{F}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:181: Preview: Snippet 152 ended.(447828+0x536119).
+<-><->
+      
+l.181 $\mathcal{F}$
+                   
+Not a real error.
+
+[152]
+./Block_20theory_20ch2.md.tex:182: Preview: Snippet 153 started.
+<-><->
+      
+l.182 $
+       \mathcal{G}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:182: Preview: Snippet 153 ended.(447828+63716x428716).
+<-><->
+      
+l.182 $\mathcal{G}$
+                   
+Not a real error.
+
+[153]
+./Block_20theory_20ch2.md.tex:183: Preview: Snippet 154 started.
+<-><->
+      
+l.183 $
+       \mathcal{C},\mathcal{D}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:183: Preview: Snippet 154 ended.(447828+127431x1198311).
+<-><->
+      
+l.183 $\mathcal{C},\mathcal{D}$
+                               
+Not a real error.
+
+[154]
+./Block_20theory_20ch2.md.tex:184: Preview: Snippet 155 started.
+<-><->
+      
+l.184 $
+       \mathcal{F} :\mathcal{C} \rightarrow \mathcal{D}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:184: Preview: Snippet 155 ended.(447828+0x3008727).
+<-><->
+      
+l.184 ...{F} :\mathcal{C} \rightarrow \mathcal{D}$
+                                                  
+Not a real error.
+
+[155]
+./Block_20theory_20ch2.md.tex:185: Preview: Snippet 156 started.
+<-><->
+      
+l.185 $
+       \mathcal{G}: \mathcal{D} \rightarrow \mathcal{C}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:185: Preview: Snippet 156 ended.(447828+63716x2901324).
+<-><->
+      
+l.185 ...{G}: \mathcal{D} \rightarrow \mathcal{C}$
+                                                  
+Not a real error.
+
+[156]
+./Block_20theory_20ch2.md.tex:186: Preview: Snippet 157 started.
+<-><->
+      
+l.186 $
+       \Phi: Hom_{\mathcal{C}}(\mathcal{G}(-),-) \simeq Hom_{\mathcal{D}}(-,...
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:186: Preview: Snippet 157 ended.(491520+163840x11295725).
+<-><->
+      
+l.186 ...imeq Hom_{\mathcal{D}}(-,\mathcal{F}(-))$
+                                                  
+Not a real error.
+
+[157]
+./Block_20theory_20ch2.md.tex:187: Preview: Snippet 158 started.
+<-><->
+      
+l.187 $
+       f$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:187: Preview: Snippet 158 ended.(455111+127431x391398).
+<-><->
+      
+l.187 $f$
+         
+Not a real error.
+
+[158]
+./Block_20theory_20ch2.md.tex:188: Preview: Snippet 159 started.
+<-><->
+      
+l.188 $
+       g$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:188: Preview: Snippet 159 ended.(282168+127431x336099).
+<-><->
+      
+l.188 $g$
+         
+Not a real error.
+
+[159]
+./Block_20theory_20ch2.md.tex:189: Preview: Snippet 160 started.
+<-><->
+      
+l.189 $
+       \Phi$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:189: Preview: Snippet 160 ended.(447828+0x473316).
+<-><->
+      
+l.189 $\Phi$
+            
+Not a real error.
+
+[160]
+./Block_20theory_20ch2.md.tex:190: Preview: Snippet 161 started.
+<-><->
+      
+l.190 $
+       (\mathcal{F}g)\circ (f\mathcal{F})= id_{\mathcal{F}}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:190: Preview: Snippet 161 ended.(491520+163840x5333251).
+<-><->
+      
+l.190 ...g)\circ (f\mathcal{F})= id_{\mathcal{F}}$
+                                                  
+Not a real error.
+
+[161]
+./Block_20theory_20ch2.md.tex:191: Preview: Snippet 162 started.
+<-><->
+      
+l.191 $
+       (g \mathcal{G})\circ (\mathcal{G} f)=id_{\mathcal{G}}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:191: Preview: Snippet 162 ended.(491520+163840x5038565).
+<-><->
+      
+l.191 ...})\circ (\mathcal{G} f)=id_{\mathcal{G}}$
+                                                  
+Not a real error.
+
+[162]
+./Block_20theory_20ch2.md.tex:192: Preview: Snippet 163 started.
+<-><->
+      
+l.192 $
+       f:id_{\mathcal{D}} \rightarrow \mathcal{F} \circ \mathcal{G}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:192: Preview: Snippet 163 ended.(455111+127431x4562543).
+<-><->
+      
+l.192 ...rightarrow \mathcal{F} \circ \mathcal{G}$
+                                                  
+Not a real error.
+
+[163]
+./Block_20theory_20ch2.md.tex:193: Preview: Snippet 164 started.
+<-><->
+      
+l.193 $
+       g:id_{\mathcal{C}}:\mathcal{G}\circ \mathcal{F} \rightarrow id_{\math...
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:193: Preview: Snippet 164 ended.(455111+127431x5845722).
+<-><->
+      
+l.193 ...\mathcal{F} \rightarrow id_{\mathcal{C}}$
+                                                  
+Not a real error.
+
+[164]
+./Block_20theory_20ch2.md.tex:194: Preview: Snippet 165 started.
+<-><->
+      
+l.194 $
+       (\mathcal{F}g)\circ (f\mathcal{F})= id_{\mathcal{F}}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:194: Preview: Snippet 165 ended.(491520+163840x5333251).
+<-><->
+      
+l.194 ...g)\circ (f\mathcal{F})= id_{\mathcal{F}}$
+                                                  
+Not a real error.
+
+[165]
+./Block_20theory_20ch2.md.tex:195: Preview: Snippet 166 started.
+<-><->
+      
+l.195 $
+       (g \mathcal{G})\circ (\mathcal{G} f)=id_{\mathcal{G}}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:195: Preview: Snippet 166 ended.(491520+163840x5038565).
+<-><->
+      
+l.195 ...})\circ (\mathcal{G} f)=id_{\mathcal{G}}$
+                                                  
+Not a real error.
+
+[166]
+./Block_20theory_20ch2.md.tex:196: Preview: Snippet 167 started.
+<-><->
+      
+l.196 $
+       \Phi: Hom_{\mathcal{C}}(\mathcal{G}(-),-) \simeq Hom_{\mathcal{D}}(-,...
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:196: Preview: Snippet 167 ended.(491520+163840x11295725).
+<-><->
+      
+l.196 ...imeq Hom_{\mathcal{D}}(-,\mathcal{F}(-))$
+                                                  
+Not a real error.
+
+[167]
+./Block_20theory_20ch2.md.tex:197: Preview: Snippet 168 started.
+<-><->
+      
+l.197 $
+       f$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:197: Preview: Snippet 168 ended.(455111+127431x391398).
+<-><->
+      
+l.197 $f$
+         
+Not a real error.
+
+[168]
+./Block_20theory_20ch2.md.tex:198: Preview: Snippet 169 started.
+<-><->
+      
+l.198 $
+       \Phi$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:198: Preview: Snippet 169 ended.(447828+0x473316).
+<-><->
+      
+l.198 $\Phi$
+            
+Not a real error.
+
+[169]
+./Block_20theory_20ch2.md.tex:199: Preview: Snippet 170 started.
+<-><->
+      
+l.199 $
+       g$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:199: Preview: Snippet 170 ended.(282168+127431x336099).
+<-><->
+      
+l.199 $g$
+         
+Not a real error.
+
+[170]
+./Block_20theory_20ch2.md.tex:200: Preview: Snippet 171 started.
+<-><->
+      
+l.200 $
+       \Phi$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:200: Preview: Snippet 171 ended.(447828+0x473316).
+<-><->
+      
+l.200 $\Phi$
+            
+Not a real error.
+
+[171]
+./Block_20theory_20ch2.md.tex:201: Preview: Snippet 172 started.
+<-><->
+      
+l.201 $
+       \Phi: Hom_{\mathcal{C}}(\mathcal{G}(-),-) \simeq Hom_{\mathcal{D}}(-,...
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:201: Preview: Snippet 172 ended.(491520+163840x11295725).
+<-><->
+      
+l.201 ...imeq Hom_{\mathcal{D}}(-,\mathcal{F}(-))$
+                                                  
+Not a real error.
+
+[172]
+./Block_20theory_20ch2.md.tex:202: Preview: Snippet 173 started.
+<-><->
+      
+l.202 $
+       f$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:202: Preview: Snippet 173 ended.(455111+127431x391398).
+<-><->
+      
+l.202 $f$
+         
+Not a real error.
+
+[173]
+./Block_20theory_20ch2.md.tex:203: Preview: Snippet 174 started.
+<-><->
+      
+l.203 $
+       g$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:203: Preview: Snippet 174 ended.(282168+127431x336099).
+<-><->
+      
+l.203 $g$
+         
+Not a real error.
+
+[174]
+./Block_20theory_20ch2.md.tex:204: Preview: Snippet 175 started.
+<-><->
+      
+l.204 $
+       \Phi(V,U)(\phi) = \mathcal{F}(\phi) \circ f(V)$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:204: Preview: Snippet 175 ended.(491520+163840x7470276).
+<-><->
+      
+l.204 ...,U)(\phi) = \mathcal{F}(\phi) \circ f(V)$
+                                                  
+Not a real error.
+
+[175]
+./Block_20theory_20ch2.md.tex:205: Preview: Snippet 176 started.
+<-><->
+      
+l.205 $
+       U$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:205: Preview: Snippet 176 ended.(447828+0x518916).
+<-><->
+      
+l.205 $U$
+         
+Not a real error.
+
+[176]
+./Block_20theory_20ch2.md.tex:206: Preview: Snippet 177 started.
+<-><->
+      
+l.206 $
+       \mathcal{C}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:206: Preview: Snippet 177 ended.(447828+0x383297).
+<-><->
+      
+l.206 $\mathcal{C}$
+                   
+Not a real error.
+
+[177]
+./Block_20theory_20ch2.md.tex:207: Preview: Snippet 178 started.
+<-><->
+      
+l.207 $
+       V$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:207: Preview: Snippet 178 ended.(447828+0x527929).
+<-><->
+      
+l.207 $V$
+         
+Not a real error.
+
+[178]
+./Block_20theory_20ch2.md.tex:208: Preview: Snippet 179 started.
+<-><->
+      
+l.208 $
+       \mathcal{D}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:208: Preview: Snippet 179 ended.(447828+0x523745).
+<-><->
+      
+l.208 $\mathcal{D}$
+                   
+Not a real error.
+
+[179]
+./Block_20theory_20ch2.md.tex:209: Preview: Snippet 180 started.
+<-><->
+      
+l.209 $
+       \psi:\mathcal{G}(V) \rightarrow U$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:209: Preview: Snippet 180 ended.(491520+163840x4001262).
+<-><->
+      
+l.209 $\psi:\mathcal{G}(V) \rightarrow U$
+                                         
+Not a real error.
+
+[180]
+./Block_20theory_20ch2.md.tex:210: Preview: Snippet 181 started.
+<-><->
+      
+l.210 $
+       \mathcal{C}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:210: Preview: Snippet 181 ended.(447828+0x383297).
+<-><->
+      
+l.210 $\mathcal{C}$
+                   
+Not a real error.
+
+[181]
+./Block_20theory_20ch2.md.tex:211: Preview: Snippet 182 started.
+<-><->
+      
+l.211 $
+       \Phi(V,U)^{-1}(\psi)=g(U)\circ \mathcal{G}(\psi)$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:211: Preview: Snippet 182 ended.(533465+163840x8122011).
+<-><->
+      
+l.211 ...)^{-1}(\psi)=g(U)\circ \mathcal{G}(\psi)$
+                                                  
+Not a real error.
+
+[182]
+./Block_20theory_20ch2.md.tex:212: Preview: Snippet 183 started.
+<-><->
+      
+l.212 $
+       \psi:V \rightarrow \mathcal{F}(U)$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:212: Preview: Snippet 183 ended.(491520+163840x4108665).
+<-><->
+      
+l.212 $\psi:V \rightarrow \mathcal{F}(U)$
+                                         
+Not a real error.
+
+[183]
+./Block_20theory_20ch2.md.tex:213: Preview: Snippet 184 started.
+<-><->
+      
+l.213 $
+       \mathcal{D}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:213: Preview: Snippet 184 ended.(447828+0x523745).
+<-><->
+      
+l.213 $\mathcal{D}$
+                   
+Not a real error.
+
+[184]
+./Block_20theory_20ch2.md.tex:214: Preview: Snippet 185 started.
+<-><->
+      
+l.214 $
+       \phi=g(U)\circ \mathcal{G}(\mathcal{F}(\phi)\circ f(V))$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:214: Preview: Snippet 185 ended.(491520+163840x7670749).
+<-><->
+      
+l.214 ...\mathcal{G}(\mathcal{F}(\phi)\circ f(V))$
+                                                  
+Not a real error.
+
+[185]
+./Block_20theory_20ch2.md.tex:215: Preview: Snippet 186 started.
+<-><->
+      
+l.215 $
+       \psi=\mathcal{F}(g(U) \circ \mathcal{G}) \circ f(V)$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:215: Preview: Snippet 186 ended.(491520+163840x6830460).
+<-><->
+      
+l.215 ...al{F}(g(U) \circ \mathcal{G}) \circ f(V)$
+                                                  
+Not a real error.
+
+[186]
+./Block_20theory_20ch2.md.tex:216: Preview: Snippet 187 started.
+<-><->
+      
+l.216 $
+       \mathcal{C}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:216: Preview: Snippet 187 ended.(447828+0x383297).
+<-><->
+      
+l.216 $\mathcal{C}$
+                   
+Not a real error.
+
+[187]
+./Block_20theory_20ch2.md.tex:217: Preview: Snippet 188 started.
+<-><->
+      
+l.217 $
+       \mathcal{D}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:217: Preview: Snippet 188 ended.(447828+0x523745).
+<-><->
+      
+l.217 $\mathcal{D}$
+                   
+Not a real error.
+
+[188]
+./Block_20theory_20ch2.md.tex:218: Preview: Snippet 189 started.
+<-><->
+      
+l.218 $
+       \mathcal{F}:\mathcal{C} \rightarrow \mathcal{D}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:218: Preview: Snippet 189 ended.(447828+0x3008727).
+<-><->
+      
+l.218 ...l{F}:\mathcal{C} \rightarrow \mathcal{D}$
+                                                  
+Not a real error.
+
+[189]
+./Block_20theory_20ch2.md.tex:219: Preview: Snippet 190 started.
+<-><->
+      
+l.219 $
+       \mathcal{G}:\mathcal{D} \rightarrow \mathcal{C}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:219: Preview: Snippet 190 ended.(447828+63716x2901324).
+<-><->
+      
+l.219 ...l{G}:\mathcal{D} \rightarrow \mathcal{C}$
+                                                  
+Not a real error.
+
+[190]
+./Block_20theory_20ch2.md.tex:220: Preview: Snippet 191 started.
+<-><->
+      
+l.220 $
+       \mathcal{G}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:220: Preview: Snippet 191 ended.(447828+63716x428716).
+<-><->
+      
+l.220 $\mathcal{G}$
+                   
+Not a real error.
+
+[191]
+./Block_20theory_20ch2.md.tex:221: Preview: Snippet 192 started.
+<-><->
+      
+l.221 $
+       \mathcal{F}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:221: Preview: Snippet 192 ended.(447828+0x536119).
+<-><->
+      
+l.221 $\mathcal{F}$
+                   
+Not a real error.
+
+[192]
+./Block_20theory_20ch2.md.tex:222: Preview: Snippet 193 started.
+<-><->
+      
+l.222 $
+       \mathcal{G}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:222: Preview: Snippet 193 ended.(447828+63716x428716).
+<-><->
+      
+l.222 $\mathcal{G}$
+                   
+Not a real error.
+
+[193]
+./Block_20theory_20ch2.md.tex:223: Preview: Snippet 194 started.
+<-><->
+      
+l.223 $
+       \mathcal{F}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:223: Preview: Snippet 194 ended.(447828+0x536119).
+<-><->
+      
+l.223 $\mathcal{F}$
+                   
+Not a real error.
+
+[194]
+./Block_20theory_20ch2.md.tex:224: Preview: Snippet 195 started.
+<-><->
+      
+l.224 $
+       \mathcal{F}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:224: Preview: Snippet 195 ended.(447828+0x536119).
+<-><->
+      
+l.224 $\mathcal{F}$
+                   
+Not a real error.
+
+[195]
+./Block_20theory_20ch2.md.tex:225: Preview: Snippet 196 started.
+<-><->
+      
+l.225 $
+       \mathcal{G}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:225: Preview: Snippet 196 ended.(447828+63716x428716).
+<-><->
+      
+l.225 $\mathcal{G}$
+                   
+Not a real error.
+
+[196]
+./Block_20theory_20ch2.md.tex:226: Preview: Snippet 197 started.
+<-><->
+      
+l.226 $
+       \mathcal{G}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:226: Preview: Snippet 197 ended.(447828+63716x428716).
+<-><->
+      
+l.226 $\mathcal{G}$
+                   
+Not a real error.
+
+[197]
+./Block_20theory_20ch2.md.tex:227: Preview: Snippet 198 started.
+<-><->
+      
+l.227 $
+       \mathcal{F}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:227: Preview: Snippet 198 ended.(447828+0x536119).
+<-><->
+      
+l.227 $\mathcal{F}$
+                   
+Not a real error.
+
+[198]
+./Block_20theory_20ch2.md.tex:228: Preview: Snippet 199 started.
+<-><->
+      
+l.228 $
+       Ind_L^G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:228: Preview: Snippet 199 ended.(551306+180508x1514782).
+<-><->
+      
+l.228 $Ind_L^G$
+               
+Not a real error.
+
+[199]
+./Block_20theory_20ch2.md.tex:229: Preview: Snippet 200 started.
+<-><->
+      
+l.229 $
+       L$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:229: Preview: Snippet 200 ended.(447828+0x446010).
+<-><->
+      
+l.229 $L$
+         
+Not a real error.
+
+[200]
+./Block_20theory_20ch2.md.tex:230: Preview: Snippet 201 started.
+<-><->
+      
+l.230 $
+       G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:230: Preview: Snippet 201 ended.(447828+0x515276).
+<-><->
+      
+l.230 $G$
+         
+Not a real error.
+
+[201]
+./Block_20theory_20ch2.md.tex:231: Preview: Snippet 202 started.
+<-><->
+      
+l.231 $
+       Res_H^G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:231: Preview: Snippet 202 ended.(551306+180508x1612097).
+<-><->
+      
+l.231 $Res_H^G$
+               
+Not a real error.
+
+[202]
+./Block_20theory_20ch2.md.tex:232: Preview: Snippet 203 started.
+<-><->
+      
+l.232 $
+       H$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:232: Preview: Snippet 203 ended.(447828+0x598014).
+<-><->
+      
+l.232 $H$
+         
+Not a real error.
+
+[203]
+./Block_20theory_20ch2.md.tex:233: Preview: Snippet 204 started.
+<-><->
+      
+l.233 $
+       G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:233: Preview: Snippet 204 ended.(447828+0x515276).
+<-><->
+      
+l.233 $G$
+         
+Not a real error.
+
+[204]
+./Block_20theory_20ch2.md.tex:234: Preview: Snippet 205 started.
+<-><->
+      
+l.234 $
+       G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:234: Preview: Snippet 205 ended.(447828+0x515276).
+<-><->
+      
+l.234 $G$
+         
+Not a real error.
+
+[205]
+./Block_20theory_20ch2.md.tex:235: Preview: Snippet 206 started.
+<-><->
+      
+l.235 $
+       H,L$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:235: Preview: Snippet 206 ended.(447828+127431x1298884).
+<-><->
+      
+l.235 $H,L$
+           
+Not a real error.
+
+[206]
+./Block_20theory_20ch2.md.tex:236: Preview: Snippet 207 started.
+<-><->
+      
+l.236 $
+       G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:236: Preview: Snippet 207 ended.(447828+0x515276).
+<-><->
+      
+l.236 $G$
+         
+Not a real error.
+
+[207]
+./Block_20theory_20ch2.md.tex:237: Preview: Snippet 208 started.
+<-><->
+      
+l.237 $
+       k[G]=\bigoplus_{x\in [H\backslash G / L]} k[HxL]$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:237: Preview: Snippet 208 ended.(491524+311299x7845634).
+<-><->
+      
+l.237 ...goplus_{x\in [H\backslash G / L]} k[HxL]$
+                                                  
+Not a real error.
+
+[208]
+./Block_20theory_20ch2.md.tex:238: Preview: Snippet 209 started.
+<-><->
+      
+l.238 $
+       k[HxL]$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:238: Preview: Snippet 209 ended.(491520+163840x2144484).
+<-><->
+      
+l.238 $k[HxL]$
+              
+Not a real error.
+
+[209]
+./Block_20theory_20ch2.md.tex:239: Preview: Snippet 210 started.
+<-><->
+      
+l.239 $
+       k[H]-k[L]$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:239: Preview: Snippet 210 ended.(491520+163840x3296822).
+<-><->
+      
+l.239 $k[H]-k[L]$
+                 
+Not a real error.
+
+[210]
+./Block_20theory_20ch2.md.tex:240: Preview: Snippet 211 started.
+<-><->
+      
+l.240 $
+       x \in G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:240: Preview: Snippet 211 ended.(447828+25623x1690820).
+<-><->
+      
+l.240 $x \in G$
+               
+Not a real error.
+
+[211]
+./Block_20theory_20ch2.md.tex:241: Preview: Snippet 212 started.
+<-><->
+      
+l.241 $
+       k[H]-k[L]$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:241: Preview: Snippet 212 ended.(491520+163840x3296822).
+<-><->
+      
+l.241 $k[H]-k[L]$
+                 
+Not a real error.
+
+[212]
+./Block_20theory_20ch2.md.tex:242: Preview: Snippet 213 started.
+<-><->
+      
+l.242 $
+       k[HxL] \simeq k[H]\otimes_{k[H \,\cap \,^xL]}k[xL]$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:242: Preview: Snippet 213 ended.(491520+233018x8957055).
+<-><->
+      
+l.242 ...meq k[H]\otimes_{k[H \,\cap \,^xL]}k[xL]$
+                                                  
+Not a real error.
+
+[213]
+./Block_20theory_20ch2.md.tex:243: Preview: Snippet 214 started.
+<-><->
+      
+l.243 $
+       yxz$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:243: Preview: Snippet 214 ended.(282168+127431x1052978).
+<-><->
+      
+l.243 $yxz$
+           
+Not a real error.
+
+[214]
+./Block_20theory_20ch2.md.tex:244: Preview: Snippet 215 started.
+<-><->
+      
+l.244 $
+       y \otimes xz$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:244: Preview: Snippet 215 ended.(382293+127431x1853968).
+<-><->
+      
+l.244 $y \otimes xz$
+                    
+Not a real error.
+
+[215]
+./Block_20theory_20ch2.md.tex:245: Preview: Snippet 216 started.
+<-><->
+      
+l.245 $
+       y \in H$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:245: Preview: Snippet 216 ended.(447828+127431x1743826).
+<-><->
+      
+l.245 $y \in H$
+               
+Not a real error.
+
+[216]
+./Block_20theory_20ch2.md.tex:246: Preview: Snippet 217 started.
+<-><->
+      
+l.246 $
+       z \in L$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:246: Preview: Snippet 217 ended.(447828+25623x1580596).
+<-><->
+      
+l.246 $z \in L$
+               
+Not a real error.
+
+[217]
+./Block_20theory_20ch2.md.tex:247: Preview: Snippet 218 started.
+<-><->
+      
+l.247 $
+       B$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:247: Preview: Snippet 218 ended.(447828+0x529977).
+<-><->
+      
+l.247 $B$
+         
+Not a real error.
+
+[218]
+./Block_20theory_20ch2.md.tex:248: Preview: Snippet 219 started.
+<-><->
+      
+l.248 $
+       W$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:248: Preview: Snippet 219 ended.(447828+0x709974).
+<-><->
+      
+l.248 $W$
+         
+Not a real error.
+
+[219]
+./Block_20theory_20ch2.md.tex:249: Preview: Snippet 220 started.
+<-><->
+      
+l.249 $
+       k[L]-B$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:249: Preview: Snippet 220 ended.(491520+163840x2502881).
+<-><->
+      
+l.249 $k[L]-B$
+              
+Not a real error.
+
+[220]
+./Block_20theory_20ch2.md.tex:250: Preview: Snippet 221 started.
+<-><->
+      
+l.250 $
+       k[L]-B$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:250: Preview: Snippet 221 ended.(491520+163840x2502881).
+<-><->
+      
+l.250 $k[L]-B$
+              
+Not a real error.
+
+[221]
+./Block_20theory_20ch2.md.tex:251: Preview: Snippet 222 started.
+<-><->
+      
+l.251 $
+       k[H]-B$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:251: Preview: Snippet 222 ended.(491520+163840x2654885).
+<-><->
+      
+l.251 $k[H]-B$
+              
+Not a real error.
+
+[222]
+./Block_20theory_20ch2.md.tex:252: Preview: Snippet 223 started.
+<-><->
+      
+l.252 $
+       $Res_H^G Ind_L^G(W) \simeq \bigoplus_{x \in [H\backslash G / L]} Ind_...
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:252: Preview: Snippet 223 ended.(1780398+0x22609920).
+<-><->
+      
+l.252 ...,^xL}^H Res_{H\, \cap \,^xL}^{^xL}(^xW)$$
+                                                  
+Not a real error.
+
+[223]
+./Block_20theory_20ch2.md.tex:253: Preview: Snippet 224 started.
+<-><->
+      
+l.253 $
+       G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:253: Preview: Snippet 224 ended.(447828+0x515276).
+<-><->
+      
+l.253 $G$
+         
+Not a real error.
+
+[224]
+./Block_20theory_20ch2.md.tex:254: Preview: Snippet 225 started.
+<-><->
+      
+l.254 $
+       H-L$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:254: Preview: Snippet 225 ended.(447828+54613x1845014).
+<-><->
+      
+l.254 $H-L$
+           
+Not a real error.
+
+[225]
+./Block_20theory_20ch2.md.tex:255: Preview: Snippet 226 started.
+<-><->
+      
+l.255 $
+       yxz$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:255: Preview: Snippet 226 ended.(282168+127431x1052978).
+<-><->
+      
+l.255 $yxz$
+           
+Not a real error.
+
+[226]
+./Block_20theory_20ch2.md.tex:256: Preview: Snippet 227 started.
+<-><->
+      
+l.256 $
+       y \otimes xz$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:256: Preview: Snippet 227 ended.(382293+127431x1853968).
+<-><->
+      
+l.256 $y \otimes xz$
+                    
+Not a real error.
+
+[227]
+./Block_20theory_20ch2.md.tex:257: Preview: Snippet 228 started.
+<-><->
+      
+l.257 $
+       y,y' \in H$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:257: Preview: Snippet 228 ended.(492688+127431x2563784).
+<-><->
+      
+l.257 $y,y' \in H$
+                  
+Not a real error.
+
+[228]
+./Block_20theory_20ch2.md.tex:258: Preview: Snippet 229 started.
+<-><->
+      
+l.258 $
+       z,z' \in L$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:258: Preview: Snippet 229 ended.(492688+127431x2389328).
+<-><->
+      
+l.258 $z,z' \in L$
+                  
+Not a real error.
+
+[229]
+./Block_20theory_20ch2.md.tex:259: Preview: Snippet 230 started.
+<-><->
+      
+l.259 $
+       yxz=y'xz'$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:259: Preview: Snippet 230 ended.(492688+127431x3347492).
+<-><->
+      
+l.259 $yxz=y'xz'$
+                 
+Not a real error.
+
+[230]
+./Block_20theory_20ch2.md.tex:260: Preview: Snippet 231 started.
+<-><->
+      
+l.260 $
+       y \otimes xz= y' \otimes xz'$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:260: Preview: Snippet 231 ended.(492688+127431x4949472).
+<-><->
+      
+l.260 $y \otimes xz= y' \otimes xz'$
+                                    
+Not a real error.
+
+[231]
+./Block_20theory_20ch2.md.tex:261: Preview: Snippet 232 started.
+<-><->
+      
+l.261 $
+       y^{-1}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:261: Preview: Snippet 232 ended.(533465+127431x1048428).
+<-><->
+      
+l.261 $y^{-1}$
+              
+Not a real error.
+
+[232]
+./Block_20theory_20ch2.md.tex:262: Preview: Snippet 233 started.
+<-><->
+      
+l.262 $
+       (xz')^{-1}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:262: Preview: Snippet 233 ended.(533465+163840x2105349).
+<-><->
+      
+l.262 $(xz')^{-1}$
+                  
+Not a real error.
+
+[233]
+./Block_20theory_20ch2.md.tex:263: Preview: Snippet 234 started.
+<-><->
+      
+l.263 $
+       y^{-1}y'=xz(z')^{-1}x^{-1} \in H\, \cap \,^x L$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:263: Preview: Snippet 234 ended.(533465+163840x9089618).
+<-><->
+      
+l.263 ...y'=xz(z')^{-1}x^{-1} \in H\, \cap \,^x L$
+                                                  
+Not a real error.
+
+[234]
+./Block_20theory_20ch2.md.tex:264: Preview: Snippet 235 started.
+<-><->
+      
+l.264 $
+       w=y^{-1}y'$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:264: Preview: Snippet 235 ended.(533465+127431x2937741).
+<-><->
+      
+l.264 $w=y^{-1}y'$
+                  
+Not a real error.
+
+[235]
+./Block_20theory_20ch2.md.tex:265: Preview: Snippet 236 started.
+<-><->
+      
+l.265 $
+       k(H\, \cap \,^xL)$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:265: Preview: Snippet 236 ended.(491520+163840x3192140).
+<-><->
+      
+l.265 $k(H\, \cap \,^xL)$
+                         
+Not a real error.
+
+[236]
+./Block_20theory_20ch2.md.tex:266: Preview: Snippet 237 started.
+<-><->
+      
+l.266 $
+       y \otimes xz= y' \otimes xz'$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:266: Preview: Snippet 237 ended.(492688+127431x4949472).
+<-><->
+      
+l.266 $y \otimes xz= y' \otimes xz'$
+                                    
+Not a real error.
+
+[237]
+./Block_20theory_20ch2.md.tex:267: Preview: Snippet 238 started.
+<-><->
+      
+l.267 $
+       - \otimes_{k[L]} W$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:267: Preview: Snippet 238 ended.(447828+233018x2999412).
+<-><->
+      
+l.267 $- \otimes_{k[L]} W$
+                          
+Not a real error.
+
+[238]
+./Block_20theory_20ch2.md.tex:268: Preview: Snippet 239 started.
+<-><->
+      
+l.268 $
+       V$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:268: Preview: Snippet 239 ended.(447828+0x527929).
+<-><->
+      
+l.268 $V$
+         
+Not a real error.
+
+[239]
+./Block_20theory_20ch2.md.tex:269: Preview: Snippet 240 started.
+<-><->
+      
+l.269 $
+       Res_{H}^G(Ind_H^G(V))$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:269: Preview: Snippet 240 ended.(551306+180508x4730539).
+<-><->
+      
+l.269 $Res_{H}^G(Ind_H^G(V))$
+                             
+Not a real error.
+
+[240]
+./Block_20theory_20ch2.md.tex:270: Preview: Snippet 241 started.
+<-><->
+      
+l.270 $
+       RHS = (k[H] \otimes_{k[H]} V) \oplus (k[G\backslash H] \otimes_{k[H]}...
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:270: Preview: Snippet 241 ended.(491520+233018x12550174).
+<-><->
+      
+l.270 ...plus (k[G\backslash H] \otimes_{k[H]} V)$
+                                                  
+Not a real error.
+
+[241]
+./Block_20theory_20ch2.md.tex:271: Preview: Snippet 242 started.
+<-><->
+      
+l.271 $
+       Res_{N}^G(Ind_H^G(V)) = \bigoplus_{x \in [G/N]} \,^xV$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:271: Preview: Snippet 242 ended.(551306+311299x9501345).
+<-><->
+      
+l.271 ..._H^G(V)) = \bigoplus_{x \in [G/N]} \,^xV$
+                                                  
+Not a real error.
+
+[242]
+./Block_20theory_20ch2.md.tex:272: Preview: Snippet 243 started.
+<-><->
+      
+l.272 $
+       N \triangleleft G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:272: Preview: Snippet 243 ended.(447828+0x1732235).
+<-><->
+      
+l.272 $N \triangleleft G$
+                         
+Not a real error.
+
+[243]
+./Block_20theory_20ch2.md.tex:273: Preview: Snippet 244 started.
+<-><->
+      
+l.273 $
+       G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:273: Preview: Snippet 244 ended.(447828+0x515276).
+<-><->
+      
+l.273 $G$
+         
+Not a real error.
+
+[244]
+./Block_20theory_20ch2.md.tex:274: Preview: Snippet 245 started.
+<-><->
+      
+l.274 $
+       G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:274: Preview: Snippet 245 ended.(447828+0x515276).
+<-><->
+      
+l.274 $G$
+         
+Not a real error.
+
+[245]
+./Block_20theory_20ch2.md.tex:275: Preview: Snippet 246 started.
+<-><->
+      
+l.275 $
+       H$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:275: Preview: Snippet 246 ended.(447828+0x598014).
+<-><->
+      
+l.275 $H$
+         
+Not a real error.
+
+[246]
+./Block_20theory_20ch2.md.tex:276: Preview: Snippet 247 started.
+<-><->
+      
+l.276 $
+       G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:276: Preview: Snippet 247 ended.(447828+0x515276).
+<-><->
+      
+l.276 $G$
+         
+Not a real error.
+
+[247]
+./Block_20theory_20ch2.md.tex:277: Preview: Snippet 248 started.
+<-><->
+      
+l.277 $
+       k[G]$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:277: Preview: Snippet 248 ended.(491520+163840x1241180).
+<-><->
+      
+l.277 $k[G]$
+            
+Not a real error.
+
+[248]
+./Block_20theory_20ch2.md.tex:278: Preview: Snippet 249 started.
+<-><->
+      
+l.278 $
+       U$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:278: Preview: Snippet 249 ended.(447828+0x518916).
+<-><->
+      
+l.278 $U$
+         
+Not a real error.
+
+[249]
+./Block_20theory_20ch2.md.tex:279: Preview: Snippet 250 started.
+<-><->
+      
+l.279 $
+       k[H]$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:279: Preview: Snippet 250 ended.(491520+163840x1323918).
+<-><->
+      
+l.279 $k[H]$
+            
+Not a real error.
+
+[250]
+./Block_20theory_20ch2.md.tex:280: Preview: Snippet 251 started.
+<-><->
+      
+l.280 $
+       V$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:280: Preview: Snippet 251 ended.(447828+0x527929).
+<-><->
+      
+l.280 $V$
+         
+Not a real error.
+
+[251]
+./Block_20theory_20ch2.md.tex:281: Preview: Snippet 252 started.
+<-><->
+      
+l.281 $
+       k[G]$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:281: Preview: Snippet 252 ended.(491520+163840x1241180).
+<-><->
+      
+l.281 $k[G]$
+            
+Not a real error.
+
+[252]
+./Block_20theory_20ch2.md.tex:282: Preview: Snippet 253 started.
+<-><->
+      
+l.282 $
+       $Ind_H^G(V) \otimes_k U \simeq Ind_H^G(V \otimes_k Res_H^G(U))$$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:282: Preview: Snippet 253 ended.(950272+0x22609920).
+<-><->
+      
+l.282 ... \simeq Ind_H^G(V \otimes_k Res_H^G(U))$$
+                                                  
+Not a real error.
+
+[253]
+./Block_20theory_20ch2.md.tex:283: Preview: Snippet 254 started.
+<-><->
+      
+l.283 $
+       (x \otimes v) \otimes u$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:283: Preview: Snippet 254 ended.(491520+163840x3202609).
+<-><->
+      
+l.283 $(x \otimes v) \otimes u$
+                               
+Not a real error.
+
+[254]
+./Block_20theory_20ch2.md.tex:284: Preview: Snippet 255 started.
+<-><->
+      
+l.284 $
+       x \otimes (v \otimes(x^{-1}u))$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:284: Preview: Snippet 255 ended.(533465+163840x4790495).
+<-><->
+      
+l.284 $x \otimes (v \otimes(x^{-1}u))$
+                                      
+Not a real error.
+
+[255]
+./Block_20theory_20ch2.md.tex:285: Preview: Snippet 256 started.
+<-><->
+      
+l.285 $
+       x \in G, u \in U, v \in V$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:285: Preview: Snippet 256 ended.(447828+127431x5565707).
+<-><->
+      
+l.285 $x \in G, u \in U, v \in V$
+                                 
+Not a real error.
+
+[256]
+./Block_20theory_20ch2.md.tex:286: Preview: Snippet 257 started.
+<-><->
+      
+l.286 $
+       G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:286: Preview: Snippet 257 ended.(447828+0x515276).
+<-><->
+      
+l.286 $G$
+         
+Not a real error.
+
+[257]
+./Block_20theory_20ch2.md.tex:287: Preview: Snippet 258 started.
+<-><->
+      
+l.287 $
+       N$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:287: Preview: Snippet 258 ended.(447828+0x598014).
+<-><->
+      
+l.287 $N$
+         
+Not a real error.
+
+[258]
+./Block_20theory_20ch2.md.tex:288: Preview: Snippet 259 started.
+<-><->
+      
+l.288 $
+       G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:288: Preview: Snippet 259 ended.(447828+0x515276).
+<-><->
+      
+l.288 $G$
+         
+Not a real error.
+
+[259]
+./Block_20theory_20ch2.md.tex:289: Preview: Snippet 260 started.
+<-><->
+      
+l.289 $
+       k$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:289: Preview: Snippet 260 ended.(455111+0x361814).
+<-><->
+      
+l.289 $k$
+         
+Not a real error.
+
+[260]
+./Block_20theory_20ch2.md.tex:290: Preview: Snippet 261 started.
+<-><->
+      
+l.290 $
+       G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:290: Preview: Snippet 261 ended.(447828+0x515276).
+<-><->
+      
+l.290 $G$
+         
+Not a real error.
+
+[261]
+./Block_20theory_20ch2.md.tex:291: Preview: Snippet 262 started.
+<-><->
+      
+l.291 $
+       N$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:291: Preview: Snippet 262 ended.(447828+0x598014).
+<-><->
+      
+l.291 $N$
+         
+Not a real error.
+
+[262]
+./Block_20theory_20ch2.md.tex:292: Preview: Snippet 263 started.
+<-><->
+      
+l.292 $
+       |G:N|$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:292: Preview: Snippet 263 ended.(491520+163840x2023505).
+<-><->
+      
+l.292 $|G:N|$
+             
+Not a real error.
+
+[263]
+./Block_20theory_20ch2.md.tex:293: Preview: Snippet 264 started.
+<-><->
+      
+l.293 $
+       k$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:293: Preview: Snippet 264 ended.(455111+0x361814).
+<-><->
+      
+l.293 $k$
+         
+Not a real error.
+
+[264]
+./Block_20theory_20ch2.md.tex:294: Preview: Snippet 265 started.
+<-><->
+      
+l.294 $
+       S$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:294: Preview: Snippet 265 ended.(447828+0x439636).
+<-><->
+      
+l.294 $S$
+         
+Not a real error.
+
+[265]
+./Block_20theory_20ch2.md.tex:295: Preview: Snippet 266 started.
+<-><->
+      
+l.295 $
+       k[N]$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:295: Preview: Snippet 266 ended.(491520+163840x1323918).
+<-><->
+      
+l.295 $k[N]$
+            
+Not a real error.
+
+[266]
+./Block_20theory_20ch2.md.tex:296: Preview: Snippet 267 started.
+<-><->
+      
+l.296 $
+       Ind_N^G(S)$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:296: Preview: Snippet 267 ended.(551306+180508x2520423).
+<-><->
+      
+l.296 $Ind_N^G(S)$
+                  
+Not a real error.
+
+[267]
+./Block_20theory_20ch2.md.tex:297: Preview: Snippet 268 started.
+<-><->
+      
+l.297 $
+       S\, \not\simeq \,^xS$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:297: Preview: Snippet 268 ended.(455111+127430x2301482).
+<-><->
+      
+l.297 $S\, \not\simeq \,^xS$
+                            
+Not a real error.
+
+[268]
+./Block_20theory_20ch2.md.tex:298: Preview: Snippet 269 started.
+<-><->
+      
+l.298 $
+       x\in G\backslash N$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:298: Preview: Snippet 269 ended.(491520+163840x2616515).
+<-><->
+      
+l.298 $x\in G\backslash N$
+                          
+Not a real error.
+
+[269]
+./Block_20theory_20ch2.md.tex:299: Preview: Snippet 270 started.
+<-><->
+      
+l.299 $
+       ^xS$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:299: Preview: Snippet 270 ended.(447828+0x769592).
+<-><->
+      
+l.299 $^xS$
+           
+Not a real error.
+
+[270]
+./Block_20theory_20ch2.md.tex:300: Preview: Snippet 271 started.
+<-><->
+      
+l.300 $
+       k[N]$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:300: Preview: Snippet 271 ended.(491520+163840x1323918).
+<-><->
+      
+l.300 $k[N]$
+            
+Not a real error.
+
+[271]
+./Block_20theory_20ch2.md.tex:301: Preview: Snippet 272 started.
+<-><->
+      
+l.301 $
+       x \in G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:301: Preview: Snippet 272 ended.(447828+25623x1690820).
+<-><->
+      
+l.301 $x \in G$
+               
+Not a real error.
+
+[272]
+./Block_20theory_20ch2.md.tex:302: Preview: Snippet 273 started.
+<-><->
+      
+l.302 $
+       Res_N^GInd_N^G(S) = \bigoplus_{x \in [G/N]}\,^xS$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:302: Preview: Snippet 273 ended.(551306+311299x8815033).
+<-><->
+      
+l.302 ...nd_N^G(S) = \bigoplus_{x \in [G/N]}\,^xS$
+                                                  
+Not a real error.
+
+[273]
+./Block_20theory_20ch2.md.tex:303: Preview: Snippet 274 started.
+<-><->
+      
+l.303 $
+       |G:N|$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:303: Preview: Snippet 274 ended.(491520+163840x2023505).
+<-><->
+      
+l.303 $|G:N|$
+             
+Not a real error.
+
+[274]
+./Block_20theory_20ch2.md.tex:304: Preview: Snippet 275 started.
+<-><->
+      
+l.304 $
+       k$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:304: Preview: Snippet 275 ended.(455111+0x361814).
+<-><->
+      
+l.304 $k$
+         
+Not a real error.
+
+[275]
+./Block_20theory_20ch2.md.tex:305: Preview: Snippet 276 started.
+<-><->
+      
+l.305 $
+       Ind_N^G(S)$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:305: Preview: Snippet 276 ended.(551306+180508x2520423).
+<-><->
+      
+l.305 $Ind_N^G(S)$
+                  
+Not a real error.
+
+[276]
+./Block_20theory_20ch2.md.tex:306: Preview: Snippet 277 started.
+<-><->
+      
+l.306 $
+       k$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:306: Preview: Snippet 277 ended.(455111+0x361814).
+<-><->
+      
+l.306 $k$
+         
+Not a real error.
+
+[277]
+./Block_20theory_20ch2.md.tex:307: Preview: Snippet 278 started.
+<-><->
+      
+l.307 $
+       G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:307: Preview: Snippet 278 ended.(447828+0x515276).
+<-><->
+      
+l.307 $G$
+         
+Not a real error.
+
+[278]
+./Block_20theory_20ch2.md.tex:308: Preview: Snippet 279 started.
+<-><->
+      
+l.308 $
+       Ind_N^G(S)$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:308: Preview: Snippet 279 ended.(551306+180508x2520423).
+<-><->
+      
+l.308 $Ind_N^G(S)$
+                  
+Not a real error.
+
+[279]
+./Block_20theory_20ch2.md.tex:309: Preview: Snippet 280 started.
+<-><->
+      
+l.309 $
+       End_{k[G]}(Ind_N^G(S))$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:309: Preview: Snippet 280 ended.(551306+233018x5313389).
+<-><->
+      
+l.309 $End_{k[G]}(Ind_N^G(S))$
+                              
+Not a real error.
+
+[280]
+./Block_20theory_20ch2.md.tex:310: Preview: Snippet 281 started.
+<-><->
+      
+l.310 $
+       k$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:310: Preview: Snippet 281 ended.(455111+0x361814).
+<-><->
+      
+l.310 $k$
+         
+Not a real error.
+
+[281]
+./Block_20theory_20ch2.md.tex:311: Preview: Snippet 282 started.
+<-><->
+      
+l.311 $
+       $End_{k[G]}(Ind_N^G(S)) = Hom_{k[G]}(Ind_N^G(S),Ind_N^G(S)) \simeq Ho...
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:311: Preview: Snippet 282 ended.(2435758+0x22609920).
+<-><->
+      
+l.311 ...goplus_{x \in [G/N]}Hom_{k[N]}(S,\,^xS)$$
+                                                  
+Not a real error.
+
+[282]
+./Block_20theory_20ch2.md.tex:312: Preview: Snippet 283 started.
+<-><->
+      
+l.312 $
+       S\, \not\simeq \,^xS$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:312: Preview: Snippet 283 ended.(455111+127430x2301482).
+<-><->
+      
+l.312 $S\, \not\simeq \,^xS$
+                            
+Not a real error.
+
+[283]
+./Block_20theory_20ch2.md.tex:313: Preview: Snippet 284 started.
+<-><->
+      
+l.313 $
+       x \in G \backslash N$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:313: Preview: Snippet 284 ended.(491520+163840x2616515).
+<-><->
+      
+l.313 $x \in G \backslash N$
+                            
+Not a real error.
+
+[284]
+./Block_20theory_20ch2.md.tex:314: Preview: Snippet 285 started.
+<-><->
+      
+l.314 $
+       G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:314: Preview: Snippet 285 ended.(447828+0x515276).
+<-><->
+      
+l.314 $G$
+         
+Not a real error.
+
+[285]
+./Block_20theory_20ch2.md.tex:315: Preview: Snippet 286 started.
+<-><->
+      
+l.315 $
+       U$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:315: Preview: Snippet 286 ended.(447828+0x518916).
+<-><->
+      
+l.315 $U$
+         
+Not a real error.
+
+[286]
+./Block_20theory_20ch2.md.tex:316: Preview: Snippet 287 started.
+<-><->
+      
+l.316 $
+       k[G]$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:316: Preview: Snippet 287 ended.(491520+163840x1241180).
+<-><->
+      
+l.316 $k[G]$
+            
+Not a real error.
+
+[287]
+./Block_20theory_20ch2.md.tex:317: Preview: Snippet 288 started.
+<-><->
+      
+l.317 $
+       H$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:317: Preview: Snippet 288 ended.(447828+0x598014).
+<-><->
+      
+l.317 $H$
+         
+Not a real error.
+
+[288]
+./Block_20theory_20ch2.md.tex:318: Preview: Snippet 289 started.
+<-><->
+      
+l.318 $
+       G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:318: Preview: Snippet 289 ended.(447828+0x515276).
+<-><->
+      
+l.318 $G$
+         
+Not a real error.
+
+[289]
+./Block_20theory_20ch2.md.tex:319: Preview: Snippet 290 started.
+<-><->
+      
+l.319 $
+       U^H = \{u \in U : yu=u,\ \forall y \in  H\}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:319: Preview: Snippet 290 ended.(551306+163840x9372899).
+<-><->
+      
+l.319 ... = \{u \in U : yu=u,\ \forall y \in  H\}$
+                                                  
+Not a real error.
+
+[290]
+./Block_20theory_20ch2.md.tex:320: Preview: Snippet 291 started.
+<-><->
+      
+l.320 $
+       U^H$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:320: Preview: Snippet 291 ended.(551306+0x1015989).
+<-><->
+      
+l.320 $U^H$
+           
+Not a real error.
+
+[291]
+./Block_20theory_20ch2.md.tex:321: Preview: Snippet 292 started.
+<-><->
+      
+l.321 $
+       H$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:321: Preview: Snippet 292 ended.(447828+0x598014).
+<-><->
+      
+l.321 $H$
+         
+Not a real error.
+
+[292]
+./Block_20theory_20ch2.md.tex:322: Preview: Snippet 293 started.
+<-><->
+      
+l.322 $
+       U$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:322: Preview: Snippet 293 ended.(447828+0x518916).
+<-><->
+      
+l.322 $U$
+         
+Not a real error.
+
+[293]
+./Block_20theory_20ch2.md.tex:323: Preview: Snippet 294 started.
+<-><->
+      
+l.323 $
+       H$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:323: Preview: Snippet 294 ended.(447828+0x598014).
+<-><->
+      
+l.323 $H$
+         
+Not a real error.
+
+[294]
+./Block_20theory_20ch2.md.tex:324: Preview: Snippet 295 started.
+<-><->
+      
+l.324 $
+       G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:324: Preview: Snippet 295 ended.(447828+0x515276).
+<-><->
+      
+l.324 $G$
+         
+Not a real error.
+
+[295]
+./Block_20theory_20ch2.md.tex:325: Preview: Snippet 296 started.
+<-><->
+      
+l.325 $
+       Tr_H^G: U^H \rightarrow U^G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:325: Preview: Snippet 296 ended.(551306+180508x4808008).
+<-><->
+      
+l.325 $Tr_H^G: U^H \rightarrow U^G$
+                                   
+Not a real error.
+
+[296]
+./Block_20theory_20ch2.md.tex:326: Preview: Snippet 297 started.
+<-><->
+      
+l.326 $
+       Tr_H^G(u) = \sum_{x \in [G/H]}xu$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:326: Preview: Snippet 297 ended.(551306+311299x6696862).
+<-><->
+      
+l.326 $Tr_H^G(u) = \sum_{x \in [G/H]}xu$
+                                        
+Not a real error.
+
+[297]
+./Block_20theory_20ch2.md.tex:327: Preview: Snippet 298 started.
+<-><->
+      
+l.327 $
+       u \in U$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:327: Preview: Snippet 298 ended.(447828+25623x1695070).
+<-><->
+      
+l.327 $u \in U$
+               
+Not a real error.
+
+[298]
+./Block_20theory_20ch2.md.tex:328: Preview: Snippet 299 started.
+<-><->
+      
+l.328 $
+       U_H^G = Im(Tr_H^G)$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:328: Preview: Snippet 299 ended.(551306+180508x4524912).
+<-><->
+      
+l.328 $U_H^G = Im(Tr_H^G)$
+                          
+Not a real error.
+
+[299]
+./Block_20theory_20ch2.md.tex:329: Preview: Snippet 300 started.
+<-><->
+      
+l.329 $
+       Tr_H^G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:329: Preview: Snippet 300 ended.(551306+180508x1266743).
+<-><->
+      
+l.329 $Tr_H^G$
+              
+Not a real error.
+
+[300]
+./Block_20theory_20ch2.md.tex:330: Preview: Snippet 301 started.
+<-><->
+      
+l.330 $
+       H$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:330: Preview: Snippet 301 ended.(447828+0x598014).
+<-><->
+      
+l.330 $H$
+         
+Not a real error.
+
+[301]
+./Block_20theory_20ch2.md.tex:331: Preview: Snippet 302 started.
+<-><->
+      
+l.331 $
+       G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:331: Preview: Snippet 302 ended.(447828+0x515276).
+<-><->
+      
+l.331 $G$
+         
+Not a real error.
+
+[302]
+./Block_20theory_20ch2.md.tex:332: Preview: Snippet 303 started.
+<-><->
+      
+l.332 $
+       U$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:332: Preview: Snippet 303 ended.(447828+0x518916).
+<-><->
+      
+l.332 $U$
+         
+Not a real error.
+
+[303]
+./Block_20theory_20ch2.md.tex:333: Preview: Snippet 304 started.
+<-><->
+      
+l.333 $
+       M$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:333: Preview: Snippet 304 ended.(447828+0x707242).
+<-><->
+      
+l.333 $M$
+         
+Not a real error.
+
+[304]
+./Block_20theory_20ch2.md.tex:334: Preview: Snippet 305 started.
+<-><->
+      
+l.334 $
+       k[G]$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:334: Preview: Snippet 305 ended.(491520+163840x1241180).
+<-><->
+      
+l.334 $k[G]$
+            
+Not a real error.
+
+[305]
+./Block_20theory_20ch2.md.tex:335: Preview: Snippet 306 started.
+<-><->
+      
+l.335 $
+       G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:335: Preview: Snippet 306 ended.(447828+0x515276).
+<-><->
+      
+l.335 $G$
+         
+Not a real error.
+
+[306]
+./Block_20theory_20ch2.md.tex:336: Preview: Snippet 307 started.
+<-><->
+      
+l.336 $
+       M$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:336: Preview: Snippet 307 ended.(447828+0x707242).
+<-><->
+      
+l.336 $M$
+         
+Not a real error.
+
+[307]
+./Block_20theory_20ch2.md.tex:337: Preview: Snippet 308 started.
+<-><->
+      
+l.337 $
+       N_{G}(H)$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:337: Preview: Snippet 308 ended.(491520+163840x2075097).
+<-><->
+      
+l.337 $N_{G}(H)$
+                
+Not a real error.
+
+[308]
+./Block_20theory_20ch2.md.tex:338: Preview: Snippet 309 started.
+<-><->
+      
+l.338 $
+       M^{H}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:338: Preview: Snippet 309 ended.(551306+0x1204315).
+<-><->
+      
+l.338 $M^{H}$
+             
+Not a real error.
+
+[309]
+./Block_20theory_20ch2.md.tex:339: Preview: Snippet 310 started.
+<-><->
+      
+l.339 $
+       M^H$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:339: Preview: Snippet 310 ended.(551306+0x1204315).
+<-><->
+      
+l.339 $M^H$
+           
+Not a real error.
+
+[310]
+./Block_20theory_20ch2.md.tex:340: Preview: Snippet 311 started.
+<-><->
+      
+l.340 $
+       k[N_{G}(H)]$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:340: Preview: Snippet 311 ended.(491520+163840x2801001).
+<-><->
+      
+l.340 $k[N_{G}(H)]$
+                   
+Not a real error.
+
+[311]
+./Block_20theory_20ch2.md.tex:341: Preview: Snippet 312 started.
+<-><->
+      
+l.341 $
+       k[N_{G}(H)]/H$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:341: Preview: Snippet 312 ended.(491520+163840x3726696).
+<-><->
+      
+l.341 $k[N_{G}(H)]/H$
+                     
+Not a real error.
+
+[312]
+./Block_20theory_20ch2.md.tex:342: Preview: Snippet 313 started.
+<-><->
+      
+l.342 $
+       M$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:342: Preview: Snippet 313 ended.(447828+0x707242).
+<-><->
+      
+l.342 $M$
+         
+Not a real error.
+
+[313]
+./Block_20theory_20ch2.md.tex:343: Preview: Snippet 314 started.
+<-><->
+      
+l.343 $
+       M^H$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:343: Preview: Snippet 314 ended.(551306+0x1204315).
+<-><->
+      
+l.343 $M^H$
+           
+Not a real error.
+
+[314]
+./Block_20theory_20ch2.md.tex:344: Preview: Snippet 315 started.
+<-><->
+      
+l.344 $
+       Mod(k[G])$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:344: Preview: Snippet 315 ended.(491520+163840x3116922).
+<-><->
+      
+l.344 $Mod(k[G])$
+                 
+Not a real error.
+
+[315]
+./Block_20theory_20ch2.md.tex:345: Preview: Snippet 316 started.
+<-><->
+      
+l.345 $
+       Mod(k[N_{G}(H)]/H)$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:345: Preview: Snippet 316 ended.(491520+163840x5602438).
+<-><->
+      
+l.345 $Mod(k[N_{G}(H)]/H)$
+                          
+Not a real error.
+
+[316]
+./Block_20theory_20ch2.md.tex:346: Preview: Snippet 317 started.
+<-><->
+      
+l.346 $
+       Hom_{k[H]}(k,M) \simeq M^H$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:346: Preview: Snippet 317 ended.(551306+233018x6522756).
+<-><->
+      
+l.346 $Hom_{k[H]}(k,M) \simeq M^H$
+                                  
+Not a real error.
+
+[317]
+./Block_20theory_20ch2.md.tex:347: Preview: Snippet 318 started.
+<-><->
+      
+l.347 $
+       \phi \mapsto \phi(1_{k})$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:347: Preview: Snippet 318 ended.(491520+163840x2960268).
+<-><->
+      
+l.347 $\phi \mapsto \phi(1_{k})$
+                                
+Not a real error.
+
+[318]
+./Block_20theory_20ch2.md.tex:348: Preview: Snippet 319 started.
+<-><->
+      
+l.348 $
+       M \rightarrow M^H$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:348: Preview: Snippet 319 ended.(551306+0x2930998).
+<-><->
+      
+l.348 $M \rightarrow M^H$
+                         
+Not a real error.
+
+[319]
+./Block_20theory_20ch2.md.tex:349: Preview: Snippet 320 started.
+<-><->
+      
+l.349 $
+       Hom_{k[H]}(k,-)$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:349: Preview: Snippet 320 ended.(491520+233018x4247119).
+<-><->
+      
+l.349 $Hom_{k[H]}(k,-)$
+                       
+Not a real error.
+
+[320]
+./Block_20theory_20ch2.md.tex:350: Preview: Snippet 321 started.
+<-><->
+      
+l.350 $
+       Tr_{H}^G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:350: Preview: Snippet 321 ended.(551306+180508x1266743).
+<-><->
+      
+l.350 $Tr_{H}^G$
+                
+Not a real error.
+
+[321]
+./Block_20theory_20ch2.md.tex:351: Preview: Snippet 322 started.
+<-><->
+      
+l.351 $
+       G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:351: Preview: Snippet 322 ended.(447828+0x515276).
+<-><->
+      
+l.351 $G$
+         
+Not a real error.
+
+[322]
+./Block_20theory_20ch2.md.tex:352: Preview: Snippet 323 started.
+<-><->
+      
+l.352 $
+       H$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:352: Preview: Snippet 323 ended.(447828+0x598014).
+<-><->
+      
+l.352 $H$
+         
+Not a real error.
+
+[323]
+./Block_20theory_20ch2.md.tex:353: Preview: Snippet 324 started.
+<-><->
+      
+l.353 $
+       G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:353: Preview: Snippet 324 ended.(447828+0x515276).
+<-><->
+      
+l.353 $G$
+         
+Not a real error.
+
+[324]
+./Block_20theory_20ch2.md.tex:354: Preview: Snippet 325 started.
+<-><->
+      
+l.354 $
+       V$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:354: Preview: Snippet 325 ended.(447828+0x527929).
+<-><->
+      
+l.354 $V$
+         
+Not a real error.
+
+[325]
+./Block_20theory_20ch2.md.tex:355: Preview: Snippet 326 started.
+<-><->
+      
+l.355 $
+       k[H]$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:355: Preview: Snippet 326 ended.(491520+163840x1323918).
+<-><->
+      
+l.355 $k[H]$
+            
+Not a real error.
+
+[326]
+./Block_20theory_20ch2.md.tex:356: Preview: Snippet 327 started.
+<-><->
+      
+l.356 $
+       U = Ind_{H}^G(V)$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:356: Preview: Snippet 327 ended.(551306+180508x4001438).
+<-><->
+      
+l.356 $U = Ind_{H}^G(V)$
+                        
+Not a real error.
+
+[327]
+./Block_20theory_20ch2.md.tex:357: Preview: Snippet 328 started.
+<-><->
+      
+l.357 $
+       V^H \simeq U^G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:357: Preview: Snippet 328 ended.(551306+0x2858518).
+<-><->
+      
+l.357 $V^H \simeq U^G$
+                      
+Not a real error.
+
+[328]
+./Block_20theory_20ch2.md.tex:358: Preview: Snippet 329 started.
+<-><->
+      
+l.358 $
+       v \in V^H$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:358: Preview: Snippet 329 ended.(551306+25623x2167171).
+<-><->
+      
+l.358 $v \in V^H$
+                 
+Not a real error.
+
+[329]
+./Block_20theory_20ch2.md.tex:359: Preview: Snippet 330 started.
+<-><->
+      
+l.359 $
+       \sum_{x \in [G/H]} x \otimes v$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:359: Preview: Snippet 330 ended.(491524+311299x4438426).
+<-><->
+      
+l.359 $\sum_{x \in [G/H]} x \otimes v$
+                                      
+Not a real error.
+
+[330]
+./Block_20theory_20ch2.md.tex:360: Preview: Snippet 331 started.
+<-><->
+      
+l.360 $
+       U^G = U^{G}_{H}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:360: Preview: Snippet 331 ended.(551306+180508x2793226).
+<-><->
+      
+l.360 $U^G = U^{G}_{H}$
+                       
+Not a real error.
+
+[331]
+./Block_20theory_20ch2.md.tex:361: Preview: Snippet 332 started.
+<-><->
+      
+l.361 $
+       V^{H}\simeq Hom_{k[H]}(k,V) \simeq Hom_{k[G]}(k,Ind^{G}_{H}(V)) \sime...
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:361: Preview: Snippet 332 ended.(551306+233018x17760808).
+<-><->
+      
+l.361 ...^{G}_{H}(V)) \simeq (Ind^{G}_{H}(V))^{G}$
+                                                  
+Not a real error.
+
+[332]
+./Block_20theory_20ch2.md.tex:362: Preview: Snippet 333 started.
+<-><->
+      
+l.362 $
+       G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:362: Preview: Snippet 333 ended.(447828+0x515276).
+<-><->
+      
+l.362 $G$
+         
+Not a real error.
+
+[333]
+./Block_20theory_20ch2.md.tex:363: Preview: Snippet 334 started.
+<-><->
+      
+l.363 $
+       A$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:363: Preview: Snippet 334 ended.(447828+0x491521).
+<-><->
+      
+l.363 $A$
+         
+Not a real error.
+
+[334]
+./Block_20theory_20ch2.md.tex:364: Preview: Snippet 335 started.
+<-><->
+      
+l.364 $
+       G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:364: Preview: Snippet 335 ended.(447828+0x515276).
+<-><->
+      
+l.364 $G$
+         
+Not a real error.
+
+[335]
+./Block_20theory_20ch2.md.tex:365: Preview: Snippet 336 started.
+<-><->
+      
+l.365 $
+       k$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:365: Preview: Snippet 336 ended.(455111+0x361814).
+<-><->
+      
+l.365 $k$
+         
+Not a real error.
+
+[336]
+./Block_20theory_20ch2.md.tex:366: Preview: Snippet 337 started.
+<-><->
+      
+l.366 $
+       H$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:366: Preview: Snippet 337 ended.(447828+0x598014).
+<-><->
+      
+l.366 $H$
+         
+Not a real error.
+
+[337]
+./Block_20theory_20ch2.md.tex:367: Preview: Snippet 338 started.
+<-><->
+      
+l.367 $
+       G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:367: Preview: Snippet 338 ended.(447828+0x515276).
+<-><->
+      
+l.367 $G$
+         
+Not a real error.
+
+[338]
+./Block_20theory_20ch2.md.tex:368: Preview: Snippet 339 started.
+<-><->
+      
+l.368 $
+       a \in A^{H}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:368: Preview: Snippet 339 ended.(551306+25623x2135998).
+<-><->
+      
+l.368 $a \in A^{H}$
+                   
+Not a real error.
+
+[339]
+./Block_20theory_20ch2.md.tex:369: Preview: Snippet 340 started.
+<-><->
+      
+l.369 $
+       b \in A^{G}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:369: Preview: Snippet 340 ended.(551306+25623x2014561).
+<-><->
+      
+l.369 $b \in A^{G}$
+                   
+Not a real error.
+
+[340]
+./Block_20theory_20ch2.md.tex:370: Preview: Snippet 341 started.
+<-><->
+      
+l.370 $
+       \mathrm{Tr}_{H}^{G}(a)b= \mathrm{Tr}_{H}^{G}(ab)$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:370: Preview: Snippet 341 ended.(599291+163840x5493522).
+<-><->
+      
+l.370 ...Tr}_{H}^{G}(a)b= \mathrm{Tr}_{H}^{G}(ab)$
+                                                  
+Not a real error.
+
+[341]
+./Block_20theory_20ch2.md.tex:371: Preview: Snippet 342 started.
+<-><->
+      
+l.371 $
+       b\mathrm{Tr}_{H}^{G}(a)= \mathrm{Tr}_{H}^{G}(ba)$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:371: Preview: Snippet 342 ended.(599291+163840x5493522).
+<-><->
+      
+l.371 ...{Tr}_{H}^{G}(a)= \mathrm{Tr}_{H}^{G}(ba)$
+                                                  
+Not a real error.
+
+[342]
+./Block_20theory_20ch2.md.tex:372: Preview: Snippet 343 started.
+<-><->
+      
+l.372 $
+       A_{H}^{G}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:372: Preview: Snippet 343 ended.(551306+180508x988594).
+<-><->
+      
+l.372 $A_{H}^{G}$
+                 
+Not a real error.
+
+[343]
+./Block_20theory_20ch2.md.tex:373: Preview: Snippet 344 started.
+<-><->
+      
+l.373 $
+       A^{G}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:373: Preview: Snippet 344 ended.(551306+0x932315).
+<-><->
+      
+l.373 $A^{G}$
+             
+Not a real error.
+
+[344]
+./Block_20theory_20ch2.md.tex:374: Preview: Snippet 345 started.
+<-><->
+      
+l.374 $
+       \mathrm{Tr}_{H}^{G}(a)b = \sum_{x \in [G / H]}(^{x}a)b$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:374: Preview: Snippet 345 ended.(599291+311299x7463495).
+<-><->
+      
+l.374 ...}^{G}(a)b = \sum_{x \in [G / H]}(^{x}a)b$
+                                                  
+Not a real error.
+
+[345]
+./Block_20theory_20ch2.md.tex:375: Preview: Snippet 346 started.
+<-><->
+      
+l.375 $
+       b$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:375: Preview: Snippet 346 ended.(455111+0x281258).
+<-><->
+      
+l.375 $b$
+         
+Not a real error.
+
+[346]
+./Block_20theory_20ch2.md.tex:376: Preview: Snippet 347 started.
+<-><->
+      
+l.376 $
+       G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:376: Preview: Snippet 347 ended.(447828+0x515276).
+<-><->
+      
+l.376 $G$
+         
+Not a real error.
+
+[347]
+./Block_20theory_20ch2.md.tex:377: Preview: Snippet 348 started.
+<-><->
+      
+l.377 $
+       $
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:378: Preview: Snippet 348 ended.(1780398+0x22609920).
+<-><->
+      
+l.378 .../ H]}{^{x}(ab)} =  \mathrm{Tr}_{H}^{G}.$$
+                                                  
+Not a real error.
+
+[348]
+./Block_20theory_20ch2.md.tex:379: Preview: Snippet 349 started.
+<-><->
+      
+l.379 $
+       G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:379: Preview: Snippet 349 ended.(447828+0x515276).
+<-><->
+      
+l.379 $G$
+         
+Not a real error.
+
+[349]
+./Block_20theory_20ch2.md.tex:380: Preview: Snippet 350 started.
+<-><->
+      
+l.380 $
+       H$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:380: Preview: Snippet 350 ended.(447828+0x598014).
+<-><->
+      
+l.380 $H$
+         
+Not a real error.
+
+[350]
+./Block_20theory_20ch2.md.tex:381: Preview: Snippet 351 started.
+<-><->
+      
+l.381 $
+       G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:381: Preview: Snippet 351 ended.(447828+0x515276).
+<-><->
+      
+l.381 $G$
+         
+Not a real error.
+
+[351]
+./Block_20theory_20ch2.md.tex:382: Preview: Snippet 352 started.
+<-><->
+      
+l.382 $
+       U$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:382: Preview: Snippet 352 ended.(447828+0x518916).
+<-><->
+      
+l.382 $U$
+         
+Not a real error.
+
+[352]
+./Block_20theory_20ch2.md.tex:383: Preview: Snippet 353 started.
+<-><->
+      
+l.383 $
+       k[G]$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:383: Preview: Snippet 353 ended.(491520+163840x1241180).
+<-><->
+      
+l.383 $k[G]$
+            
+Not a real error.
+
+[353]
+./Block_20theory_20ch2.md.tex:384: Preview: Snippet 354 started.
+<-><->
+      
+l.384 $
+       k[G]$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:384: Preview: Snippet 354 ended.(491520+163840x1241180).
+<-><->
+      
+l.384 $k[G]$
+            
+Not a real error.
+
+[354]
+./Block_20theory_20ch2.md.tex:385: Preview: Snippet 355 started.
+<-><->
+      
+l.385 $
+       U$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:385: Preview: Snippet 355 ended.(447828+0x518916).
+<-><->
+      
+l.385 $U$
+         
+Not a real error.
+
+[355]
+./Block_20theory_20ch2.md.tex:386: Preview: Snippet 356 started.
+<-><->
+      
+l.386 $
+       H$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:386: Preview: Snippet 356 ended.(447828+0x598014).
+<-><->
+      
+l.386 $H$
+         
+Not a real error.
+
+[356]
+./Block_20theory_20ch2.md.tex:387: Preview: Snippet 357 started.
+<-><->
+      
+l.387 $
+       k[H]$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:387: Preview: Snippet 357 ended.(491520+163840x1323918).
+<-><->
+      
+l.387 $k[H]$
+            
+Not a real error.
+
+[357]
+./Block_20theory_20ch2.md.tex:388: Preview: Snippet 358 started.
+<-><->
+      
+l.388 $
+       k[H]$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:388: Preview: Snippet 358 ended.(491520+163840x1323918).
+<-><->
+      
+l.388 $k[H]$
+            
+Not a real error.
+
+[358]
+./Block_20theory_20ch2.md.tex:389: Preview: Snippet 359 started.
+<-><->
+      
+l.389 $
+       V$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:389: Preview: Snippet 359 ended.(447828+0x527929).
+<-><->
+      
+l.389 $V$
+         
+Not a real error.
+
+[359]
+./Block_20theory_20ch2.md.tex:390: Preview: Snippet 360 started.
+<-><->
+      
+l.390 $
+       U$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:390: Preview: Snippet 360 ended.(447828+0x518916).
+<-><->
+      
+l.390 $U$
+         
+Not a real error.
+
+[360]
+./Block_20theory_20ch2.md.tex:391: Preview: Snippet 361 started.
+<-><->
+      
+l.391 $
+       Ind_{H}^{G}(V)$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:391: Preview: Snippet 361 ended.(551306+180508x2608716).
+<-><->
+      
+l.391 $Ind_{H}^{G}(V)$
+                      
+Not a real error.
+
+[361]
+./Block_20theory_20ch2.md.tex:392: Preview: Snippet 362 started.
+<-><->
+      
+l.392 $
+       G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:392: Preview: Snippet 362 ended.(447828+0x515276).
+<-><->
+      
+l.392 $G$
+         
+Not a real error.
+
+[362]
+./Block_20theory_20ch2.md.tex:393: Preview: Snippet 363 started.
+<-><->
+      
+l.393 $
+       H$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:393: Preview: Snippet 363 ended.(447828+0x598014).
+<-><->
+      
+l.393 $H$
+         
+Not a real error.
+
+[363]
+./Block_20theory_20ch2.md.tex:394: Preview: Snippet 364 started.
+<-><->
+      
+l.394 $
+       G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:394: Preview: Snippet 364 ended.(447828+0x515276).
+<-><->
+      
+l.394 $G$
+         
+Not a real error.
+
+[364]
+./Block_20theory_20ch2.md.tex:395: Preview: Snippet 365 started.
+<-><->
+      
+l.395 $
+       B$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:395: Preview: Snippet 365 ended.(447828+0x529977).
+<-><->
+      
+l.395 $B$
+         
+Not a real error.
+
+[365]
+./Block_20theory_20ch2.md.tex:396: Preview: Snippet 366 started.
+<-><->
+      
+l.396 $
+       U$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:396: Preview: Snippet 366 ended.(447828+0x518916).
+<-><->
+      
+l.396 $U$
+         
+Not a real error.
+
+[366]
+./Block_20theory_20ch2.md.tex:397: Preview: Snippet 367 started.
+<-><->
+      
+l.397 $
+       k[G]-B$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:397: Preview: Snippet 367 ended.(491520+163840x2572147).
+<-><->
+      
+l.397 $k[G]-B$
+              
+Not a real error.
+
+[367]
+./Block_20theory_20ch2.md.tex:398: Preview: Snippet 368 started.
+<-><->
+      
+l.398 $
+       k[G]-B$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:398: Preview: Snippet 368 ended.(491520+163840x2572147).
+<-><->
+      
+l.398 $k[G]-B$
+              
+Not a real error.
+
+[368]
+./Block_20theory_20ch2.md.tex:399: Preview: Snippet 369 started.
+<-><->
+      
+l.399 $
+       U$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:399: Preview: Snippet 369 ended.(447828+0x518916).
+<-><->
+      
+l.399 $U$
+         
+Not a real error.
+
+[369]
+./Block_20theory_20ch2.md.tex:400: Preview: Snippet 370 started.
+<-><->
+      
+l.400 $
+       H$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:400: Preview: Snippet 370 ended.(447828+0x598014).
+<-><->
+      
+l.400 $H$
+         
+Not a real error.
+
+[370]
+./Block_20theory_20ch2.md.tex:401: Preview: Snippet 371 started.
+<-><->
+      
+l.401 $
+       U$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:401: Preview: Snippet 371 ended.(447828+0x518916).
+<-><->
+      
+l.401 $U$
+         
+Not a real error.
+
+[371]
+./Block_20theory_20ch2.md.tex:402: Preview: Snippet 372 started.
+<-><->
+      
+l.402 $
+       k[G]-B$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:402: Preview: Snippet 372 ended.(491520+163840x2572147).
+<-><->
+      
+l.402 $k[G]-B$
+              
+Not a real error.
+
+[372]
+./Block_20theory_20ch2.md.tex:403: Preview: Snippet 373 started.
+<-><->
+      
+l.403 $
+       Ind_{H}^{G}(Res_{H}^{G}(U))$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:403: Preview: Snippet 373 ended.(551306+180508x4721526).
+<-><->
+      
+l.403 $Ind_{H}^{G}(Res_{H}^{G}(U))$
+                                   
+Not a real error.
+
+[373]
+./Block_20theory_20ch2.md.tex:404: Preview: Snippet 374 started.
+<-><->
+      
+l.404 $
+       Ind_{H}^{G}(Res_{H}^{G}(U)) \to U$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:404: Preview: Snippet 374 ended.(551306+180508x6259883).
+<-><->
+      
+l.404 $Ind_{H}^{G}(Res_{H}^{G}(U)) \to U$
+                                         
+Not a real error.
+
+[374]
+./Block_20theory_20ch2.md.tex:405: Preview: Snippet 375 started.
+<-><->
+      
+l.405 $
+       k[G]-B$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:405: Preview: Snippet 375 ended.(491520+163840x2572147).
+<-><->
+      
+l.405 $k[G]-B$
+              
+Not a real error.
+
+[375]
+./Block_20theory_20ch2.md.tex:406: Preview: Snippet 376 started.
+<-><->
+      
+l.406 $
+       x \otimes u$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:406: Preview: Snippet 376 ended.(382293+54613x1550712).
+<-><->
+      
+l.406 $x \otimes u$
+                   
+Not a real error.
+
+[376]
+./Block_20theory_20ch2.md.tex:407: Preview: Snippet 377 started.
+<-><->
+      
+l.407 $
+       xu$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:407: Preview: Snippet 377 ended.(282168+0x749722).
+<-><->
+      
+l.407 $xu$
+          
+Not a real error.
+
+[377]
+./Block_20theory_20ch2.md.tex:408: Preview: Snippet 378 started.
+<-><->
+      
+l.408 $
+       x \in G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:408: Preview: Snippet 378 ended.(447828+25623x1690820).
+<-><->
+      
+l.408 $x \in G$
+               
+Not a real error.
+
+[378]
+./Block_20theory_20ch2.md.tex:409: Preview: Snippet 379 started.
+<-><->
+      
+l.409 $
+       u \in U$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:409: Preview: Snippet 379 ended.(447828+25623x1695070).
+<-><->
+      
+l.409 $u \in U$
+               
+Not a real error.
+
+[379]
+./Block_20theory_20ch2.md.tex:410: Preview: Snippet 380 started.
+<-><->
+      
+l.410 $
+       k[G]-B$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:410: Preview: Snippet 380 ended.(491520+163840x2572147).
+<-><->
+      
+l.410 $k[G]-B$
+              
+Not a real error.
+
+[380]
+./Block_20theory_20ch2.md.tex:411: Preview: Snippet 381 started.
+<-><->
+      
+l.411 $
+       M$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:411: Preview: Snippet 381 ended.(447828+0x707242).
+<-><->
+      
+l.411 $M$
+         
+Not a real error.
+
+[381]
+./Block_20theory_20ch2.md.tex:412: Preview: Snippet 382 started.
+<-><->
+      
+l.412 $
+       k[H]-B$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:412: Preview: Snippet 382 ended.(491520+163840x2654885).
+<-><->
+      
+l.412 $k[H]-B$
+              
+Not a real error.
+
+[382]
+./Block_20theory_20ch2.md.tex:413: Preview: Snippet 383 started.
+<-><->
+      
+l.413 $
+       \pi :M \rightarrow U$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:413: Preview: Snippet 383 ended.(447828+0x3188810).
+<-><->
+      
+l.413 $\pi :M \rightarrow U$
+                            
+Not a real error.
+
+[383]
+./Block_20theory_20ch2.md.tex:414: Preview: Snippet 384 started.
+<-><->
+      
+l.414 $
+       \pi$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:414: Preview: Snippet 384 ended.(282168+0x397086).
+<-><->
+      
+l.414 $\pi$
+           
+Not a real error.
+
+[384]
+./Block_20theory_20ch2.md.tex:415: Preview: Snippet 385 started.
+<-><->
+      
+l.415 $
+       k[H]-B$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:415: Preview: Snippet 385 ended.(491520+163840x2654885).
+<-><->
+      
+l.415 $k[H]-B$
+              
+Not a real error.
+
+[385]
+./Block_20theory_20ch2.md.tex:416: Preview: Snippet 386 started.
+<-><->
+      
+l.416 $
+       \pi$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:416: Preview: Snippet 386 ended.(282168+0x397086).
+<-><->
+      
+l.416 $\pi$
+           
+Not a real error.
+
+[386]
+./Block_20theory_20ch2.md.tex:417: Preview: Snippet 387 started.
+<-><->
+      
+l.417 $
+       k[G]-B$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:417: Preview: Snippet 387 ended.(491520+163840x2572147).
+<-><->
+      
+l.417 $k[G]-B$
+              
+Not a real error.
+
+[387]
+./Block_20theory_20ch2.md.tex:418: Preview: Snippet 388 started.
+<-><->
+      
+l.418 $
+       Id_{U} = \mathrm{Tr}_{H}^{G}(\phi)$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:418: Preview: Snippet 388 ended.(599291+163840x4066067).
+<-><->
+      
+l.418 $Id_{U} = \mathrm{Tr}_{H}^{G}(\phi)$
+                                          
+Not a real error.
+
+[388]
+./Block_20theory_20ch2.md.tex:419: Preview: Snippet 389 started.
+<-><->
+      
+l.419 $
+       k[H]-B$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:419: Preview: Snippet 389 ended.(491520+163840x2654885).
+<-><->
+      
+l.419 $k[H]-B$
+              
+Not a real error.
+
+[389]
+./Block_20theory_20ch2.md.tex:420: Preview: Snippet 390 started.
+<-><->
+      
+l.420 $
+       U$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:420: Preview: Snippet 390 ended.(447828+0x518916).
+<-><->
+      
+l.420 $U$
+         
+Not a real error.
+
+[390]
+./Block_20theory_20ch2.md.tex:421: Preview: Snippet 391 started.
+<-><->
+      
+l.421 $
+       U$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:421: Preview: Snippet 391 ended.(447828+0x518916).
+<-><->
+      
+l.421 $U$
+         
+Not a real error.
+
+[391]
+./Block_20theory_20ch2.md.tex:422: Preview: Snippet 392 started.
+<-><->
+      
+l.422 $
+       U$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:422: Preview: Snippet 392 ended.(447828+0x518916).
+<-><->
+      
+l.422 $U$
+         
+Not a real error.
+
+[392]
+./Block_20theory_20ch2.md.tex:423: Preview: Snippet 393 started.
+<-><->
+      
+l.423 $
+       \phi \in (End_{B^{op}}(U))^{H}= End_{{k[H] \otimes_{k} B^{op}}}(U)$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:423: Preview: Snippet 393 ended.(551306+233018x11301298).
+<-><->
+      
+l.423 ...^{H}= End_{{k[H] \otimes_{k} B^{op}}}(U)$
+                                                  
+Not a real error.
+
+[393]
+./Block_20theory_20ch2.md.tex:424: Preview: Snippet 394 started.
+<-><->
+      
+l.424 $
+       Id_{U} = Tr_{H}^{G}(\phi)$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:424: Preview: Snippet 394 ended.(551306+180508x4160352).
+<-><->
+      
+l.424 $Id_{U} = Tr_{H}^{G}(\phi)$
+                                 
+Not a real error.
+
+[394]
+./Block_20theory_20ch2.md.tex:425: Preview: Snippet 395 started.
+<-><->
+      
+l.425 $
+       \sum_{y \in [G / H]} y \phi (y^{-1}u)=u$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:425: Preview: Snippet 395 ended.(533465+311299x6824360).
+<-><->
+      
+l.425 $\sum_{y \in [G / H]} y \phi (y^{-1}u)=u$
+                                               
+Not a real error.
+
+[395]
+./Block_20theory_20ch2.md.tex:426: Preview: Snippet 396 started.
+<-><->
+      
+l.426 $
+       u$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:426: Preview: Snippet 396 ended.(282168+0x375166).
+<-><->
+      
+l.426 $u$
+         
+Not a real error.
+
+[396]
+./Block_20theory_20ch2.md.tex:427: Preview: Snippet 397 started.
+<-><->
+      
+l.427 $
+       \mu := u \mapsto \sum_{y \in [G / H]} y \otimes \phi(y^{-1}u)$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:427: Preview: Snippet 397 ended.(533465+311299x9221722).
+<-><->
+      
+l.427 ..._{y \in [G / H]} y \otimes \phi(y^{-1}u)$
+                                                  
+Not a real error.
+
+[397]
+./Block_20theory_20ch2.md.tex:428: Preview: Snippet 398 started.
+<-><->
+      
+l.428 $
+       \mu$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:428: Preview: Snippet 398 ended.(282168+127431x394886).
+<-><->
+      
+l.428 $\mu$
+           
+Not a real error.
+
+[398]
+./Block_20theory_20ch2.md.tex:429: Preview: Snippet 399 started.
+<-><->
+      
+l.429 $
+       \pi$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:429: Preview: Snippet 399 ended.(282168+0x397086).
+<-><->
+      
+l.429 $\pi$
+           
+Not a real error.
+
+[399]
+./Block_20theory_20ch2.md.tex:430: Preview: Snippet 400 started.
+<-><->
+      
+l.430 $
+       \pi \circ \mu (u) = \pi(\sum_{y \in [G / H]}y\otimes \phi(y^{-1}u)) =...
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:430: Preview: Snippet 400 ended.(533465+311299x18951961).
+<-><->
+      
+l.430 ...\in [G / H]} y \otimes \phi(y^{-1}u) = u$
+                                                  
+Not a real error.
+
+[400]
+./Block_20theory_20ch2.md.tex:431: Preview: Snippet 401 started.
+<-><->
+      
+l.431 $
+       U \simeq \mu(U)$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:431: Preview: Snippet 401 ended.(491520+163840x2816250).
+<-><->
+      
+l.431 $U \simeq \mu(U)$
+                       
+Not a real error.
+
+[401]
+./Block_20theory_20ch2.md.tex:432: Preview: Snippet 402 started.
+<-><->
+      
+l.432 $
+       k[G] \otimes_{k[H]} U = Ind_{H}^{G} Res_{H}^{G}(U) = \mu(U) \oplus ke...
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:432: Preview: Snippet 402 ended.(551306+233018x13716158).
+<-><->
+      
+l.432 ... Res_{H}^{G}(U) = \mu(U) \oplus ker(\pi)$
+                                                  
+Not a real error.
+
+[402]
+./Block_20theory_20ch2.md.tex:433: Preview: Snippet 403 started.
+<-><->
+      
+l.433 $
+       \tau$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:433: Preview: Snippet 403 ended.(282168+0x360676).
+<-><->
+      
+l.433 $\tau$
+            
+Not a real error.
+
+[403]
+./Block_20theory_20ch2.md.tex:434: Preview: Snippet 404 started.
+<-><->
+      
+l.434 $
+       \pi \circ \tau = id$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:434: Preview: Snippet 404 ended.(455111+0x2817399).
+<-><->
+      
+l.434 $\pi \circ \tau = id$
+                           
+Not a real error.
+
+[404]
+./Block_20theory_20ch2.md.tex:435: Preview: Snippet 405 started.
+<-><->
+      
+l.435 $
+       \eta: k[G]\otimes_{k[H]} U \rightarrow M$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:435: Preview: Snippet 405 ended.(491520+233018x6266300).
+<-><->
+      
+l.435 $\eta: k[G]\otimes_{k[H]} U \rightarrow M$
+                                                
+Not a real error.
+
+[405]
+./Block_20theory_20ch2.md.tex:436: Preview: Snippet 406 started.
+<-><->
+      
+l.436 $
+       \eta(x\otimes u) = x \tau(u)$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:436: Preview: Snippet 406 ended.(491520+163840x4903287).
+<-><->
+      
+l.436 $\eta(x\otimes u) = x \tau(u)$
+                                    
+Not a real error.
+
+[406]
+./Block_20theory_20ch2.md.tex:437: Preview: Snippet 407 started.
+<-><->
+      
+l.437 $
+       \eta \circ \sigma$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:437: Preview: Snippet 407 ended.(291271+127431x1365858).
+<-><->
+      
+l.437 $\eta \circ \sigma$
+                         
+Not a real error.
+
+[407]
+./Block_20theory_20ch2.md.tex:438: Preview: Snippet 408 started.
+<-><->
+      
+l.438 $
+       \pi$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:438: Preview: Snippet 408 ended.(282168+0x397086).
+<-><->
+      
+l.438 $\pi$
+           
+Not a real error.
+
+[408]
+./Block_20theory_20ch2.md.tex:439: Preview: Snippet 409 started.
+<-><->
+      
+l.439 $
+       (\pi \circ \eta)(x \circ u) = \pi(x \tau(u)) = x\pi(\tau(u)) = xu$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:439: Preview: Snippet 409 ended.(491520+163840x12178081).
+<-><->
+      
+l.439 ...u) = \pi(x \tau(u)) = x\pi(\tau(u)) = xu$
+                                                  
+Not a real error.
+
+[409]
+./Block_20theory_20ch2.md.tex:440: Preview: Snippet 410 started.
+<-><->
+      
+l.440 $
+       \pi \circ \eta$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:440: Preview: Snippet 410 ended.(291271+127431x1364950).
+<-><->
+      
+l.440 $\pi \circ \eta$
+                      
+Not a real error.
+
+[410]
+./Block_20theory_20ch2.md.tex:441: Preview: Snippet 411 started.
+<-><->
+      
+l.441 $
+       k[G] \otimes_{k[H]} U \rightarrow U$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:441: Preview: Snippet 411 ended.(491520+233018x5182930).
+<-><->
+      
+l.441 $k[G] \otimes_{k[H]} U \rightarrow U$
+                                           
+Not a real error.
+
+[411]
+./Block_20theory_20ch2.md.tex:442: Preview: Snippet 412 started.
+<-><->
+      
+l.442 $
+       \sigma$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:442: Preview: Snippet 412 ended.(282168+0x397994).
+<-><->
+      
+l.442 $\sigma$
+              
+Not a real error.
+
+[412]
+./Block_20theory_20ch2.md.tex:443: Preview: Snippet 413 started.
+<-><->
+      
+l.443 $
+       \pi \circ \eta \circ \sigma = id$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:443: Preview: Snippet 413 ended.(455111+127431x3822581).
+<-><->
+      
+l.443 $\pi \circ \eta \circ \sigma = id$
+                                        
+Not a real error.
+
+[413]
+./Block_20theory_20ch2.md.tex:444: Preview: Snippet 414 started.
+<-><->
+      
+l.444 $
+       \eta \circ \sigma$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:444: Preview: Snippet 414 ended.(291271+127431x1365858).
+<-><->
+      
+l.444 $\eta \circ \sigma$
+                         
+Not a real error.
+
+[414]
+./Block_20theory_20ch2.md.tex:445: Preview: Snippet 415 started.
+<-><->
+      
+l.445 $
+       \pi$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:445: Preview: Snippet 415 ended.(282168+0x397086).
+<-><->
+      
+l.445 $\pi$
+           
+Not a real error.
+
+[415]
+./Block_20theory_20ch2.md.tex:446: Preview: Snippet 416 started.
+<-><->
+      
+l.446 $
+       k[G]\otimes_{k[H]}U \rightarrow U$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:446: Preview: Snippet 416 ended.(491520+233018x5182930).
+<-><->
+      
+l.446 $k[G]\otimes_{k[H]}U \rightarrow U$
+                                         
+Not a real error.
+
+[416]
+./Block_20theory_20ch2.md.tex:447: Preview: Snippet 417 started.
+<-><->
+      
+l.447 $
+       k[H]-B$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:447: Preview: Snippet 417 ended.(491520+163840x2654885).
+<-><->
+      
+l.447 $k[H]-B$
+              
+Not a real error.
+
+[417]
+./Block_20theory_20ch2.md.tex:448: Preview: Snippet 418 started.
+<-><->
+      
+l.448 $
+       u \mapsto 1\otimes u$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:448: Preview: Snippet 418 ended.(422343+54613x2898444).
+<-><->
+      
+l.448 $u \mapsto 1\otimes u$
+                            
+Not a real error.
+
+[418]
+./Block_20theory_20ch2.md.tex:449: Preview: Snippet 419 started.
+<-><->
+      
+l.449 $
+       Ind_{H}^{G} Res_{H}^{G}(U) \rightarrow U$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:449: Preview: Snippet 419 ended.(551306+180508x5750157).
+<-><->
+      
+l.449 $Ind_{H}^{G} Res_{H}^{G}(U) \rightarrow U$
+                                                
+Not a real error.
+
+[419]
+./Block_20theory_20ch2.md.tex:450: Preview: Snippet 420 started.
+<-><->
+      
+l.450 $
+       V$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:450: Preview: Snippet 420 ended.(447828+0x527929).
+<-><->
+      
+l.450 $V$
+         
+Not a real error.
+
+[420]
+./Block_20theory_20ch2.md.tex:451: Preview: Snippet 421 started.
+<-><->
+      
+l.451 $
+       k[H]-B$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:451: Preview: Snippet 421 ended.(491520+163840x2654885).
+<-><->
+      
+l.451 $k[H]-B$
+              
+Not a real error.
+
+[421]
+./Block_20theory_20ch2.md.tex:452: Preview: Snippet 422 started.
+<-><->
+      
+l.452 $
+       W = Ind_{H}^{G}(V) = k[G] \otimes_{k[H]} V$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:452: Preview: Snippet 422 ended.(551306+233018x8719888).
+<-><->
+      
+l.452 $W = Ind_{H}^{G}(V) = k[G] \otimes_{k[H]} V$
+                                                  
+Not a real error.
+
+[422]
+./Block_20theory_20ch2.md.tex:453: Preview: Snippet 423 started.
+<-><->
+      
+l.453 $
+       \tau \in End_{k[H] \otimes_{k} B^{op}} (W)$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:453: Preview: Snippet 423 ended.(491520+233018x6340739).
+<-><->
+      
+l.453 $\tau \in End_{k[H] \otimes_{k} B^{op}} (W)$
+                                                  
+Not a real error.
+
+[423]
+./Block_20theory_20ch2.md.tex:454: Preview: Snippet 424 started.
+<-><->
+      
+l.454 $
+       \tau(x \otimes v) = x \otimes v$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:454: Preview: Snippet 424 ended.(491520+163840x4777662).
+<-><->
+      
+l.454 $\tau(x \otimes v) = x \otimes v$
+                                       
+Not a real error.
+
+[424]
+./Block_20theory_20ch2.md.tex:455: Preview: Snippet 425 started.
+<-><->
+      
+l.455 $
+       x \in H$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:455: Preview: Snippet 425 ended.(447828+25623x1773558).
+<-><->
+      
+l.455 $x \in H$
+               
+Not a real error.
+
+[425]
+./Block_20theory_20ch2.md.tex:456: Preview: Snippet 426 started.
+<-><->
+      
+l.456 $
+       \tau(x \otimes v) =0$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:456: Preview: Snippet 426 ended.(491520+163840x3588616).
+<-><->
+      
+l.456 $\tau(x \otimes v) =0$
+                            
+Not a real error.
+
+[426]
+./Block_20theory_20ch2.md.tex:457: Preview: Snippet 427 started.
+<-><->
+      
+l.457 $
+       x \in G \backslash H$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:457: Preview: Snippet 427 ended.(491520+163840x2616515).
+<-><->
+      
+l.457 $x \in G \backslash H$
+                            
+Not a real error.
+
+[427]
+./Block_20theory_20ch2.md.tex:458: Preview: Snippet 428 started.
+<-><->
+      
+l.458 $
+       v$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:458: Preview: Snippet 428 ended.(282168+0x341181).
+<-><->
+      
+l.458 $v$
+         
+Not a real error.
+
+[428]
+./Block_20theory_20ch2.md.tex:459: Preview: Snippet 429 started.
+<-><->
+      
+l.459 $
+       V$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:459: Preview: Snippet 429 ended.(447828+0x527929).
+<-><->
+      
+l.459 $V$
+         
+Not a real error.
+
+[429]
+./Block_20theory_20ch2.md.tex:460: Preview: Snippet 430 started.
+<-><->
+      
+l.460 $
+       \tau$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:460: Preview: Snippet 430 ended.(282168+0x360676).
+<-><->
+      
+l.460 $\tau$
+            
+Not a real error.
+
+[430]
+./Block_20theory_20ch2.md.tex:461: Preview: Snippet 431 started.
+<-><->
+      
+l.461 $
+       k[G] \otimes_{k[H]} V = (k[H] \otimes_{k[H]} V) \oplus (k[G \backslas...
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:461: Preview: Snippet 431 ended.(491520+233018x14663439).
+<-><->
+      
+l.461 ...lus (k[G \backslash H] \otimes_{k[H]} V)$
+                                                  
+Not a real error.
+
+[431]
+./Block_20theory_20ch2.md.tex:462: Preview: Snippet 432 started.
+<-><->
+      
+l.462 $
+       k[H] \otimes_{k[H]} V \simeq V$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:462: Preview: Snippet 432 ended.(491520+233018x5138059).
+<-><->
+      
+l.462 $k[H] \otimes_{k[H]} V \simeq V$
+                                      
+Not a real error.
+
+[432]
+./Block_20theory_20ch2.md.tex:463: Preview: Snippet 433 started.
+<-><->
+      
+l.463 $
+       Tr_{H}^{G}(\tau)(x \otimes v) = \sum_{y \in [G / H]} y\tau(y^{-1}x\ot...
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:463: Preview: Snippet 433 ended.(551306+311299x11724543).
+<-><->
+      
+l.463 ..._{y \in [G / H]} y\tau(y^{-1}x\otimes v)$
+                                                  
+Not a real error.
+
+[433]
+./Block_20theory_20ch2.md.tex:464: Preview: Snippet 434 started.
+<-><->
+      
+l.464 $
+       y^{-1}x \in H$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:464: Preview: Snippet 434 ended.(533465+127431x2821986).
+<-><->
+      
+l.464 $y^{-1}x \in H$
+                     
+Not a real error.
+
+[434]
+./Block_20theory_20ch2.md.tex:465: Preview: Snippet 435 started.
+<-><->
+      
+l.465 $
+       y(y^{-1}x \otimes v) = x \otimes v$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:465: Preview: Snippet 435 ended.(533465+163840x5810238).
+<-><->
+      
+l.465 $y(y^{-1}x \otimes v) = x \otimes v$
+                                          
+Not a real error.
+
+[435]
+./Block_20theory_20ch2.md.tex:466: Preview: Snippet 436 started.
+<-><->
+      
+l.466 $
+       \tau$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:466: Preview: Snippet 436 ended.(282168+0x360676).
+<-><->
+      
+l.466 $\tau$
+            
+Not a real error.
+
+[436]
+./Block_20theory_20ch2.md.tex:467: Preview: Snippet 437 started.
+<-><->
+      
+l.467 $
+       Tr_{H}^{G}(\tau) = Id_{W}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:467: Preview: Snippet 437 ended.(551306+180508x4287766).
+<-><->
+      
+l.467 $Tr_{H}^{G}(\tau) = Id_{W}$
+                                 
+Not a real error.
+
+[437]
+./Block_20theory_20ch2.md.tex:468: Preview: Snippet 438 started.
+<-><->
+      
+l.468 $
+       U$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:468: Preview: Snippet 438 ended.(447828+0x518916).
+<-><->
+      
+l.468 $U$
+         
+Not a real error.
+
+[438]
+./Block_20theory_20ch2.md.tex:469: Preview: Snippet 439 started.
+<-><->
+      
+l.469 $
+       W$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:469: Preview: Snippet 439 ended.(447828+0x709974).
+<-><->
+      
+l.469 $W$
+         
+Not a real error.
+
+[439]
+./Block_20theory_20ch2.md.tex:470: Preview: Snippet 440 started.
+<-><->
+      
+l.470 $
+       l:U \rightarrow W$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:470: Preview: Snippet 440 ended.(455111+0x3002898).
+<-><->
+      
+l.470 $l:U \rightarrow W$
+                         
+Not a real error.
+
+[440]
+./Block_20theory_20ch2.md.tex:471: Preview: Snippet 441 started.
+<-><->
+      
+l.471 $
+       \pi: W \rightarrow U$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:471: Preview: Snippet 441 ended.(447828+0x3191542).
+<-><->
+      
+l.471 $\pi: W \rightarrow U$
+                            
+Not a real error.
+
+[441]
+./Block_20theory_20ch2.md.tex:472: Preview: Snippet 442 started.
+<-><->
+      
+l.472 $
+       \pi \circ l = Id_{U}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:472: Preview: Snippet 442 ended.(455111+98303x3217870).
+<-><->
+      
+l.472 $\pi \circ l = Id_{U}$
+                            
+Not a real error.
+
+[442]
+./Block_20theory_20ch2.md.tex:473: Preview: Snippet 443 started.
+<-><->
+      
+l.473 $
+       Id_{U} = \pi \circ Id_{W} \circ l = \pi \circ Tr_{H}^{G}(\tau) \circ ...
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:473: Preview: Snippet 443 ended.(551306+180508x14822368).
+<-><->
+      
+l.473 ...c l = Tr_{H}^{G}(\pi \circ \tau \circ l)$
+                                                  
+Not a real error.
+
+[443]
+./Block_20theory_20ch2.md.tex:474: Preview: Snippet 444 started.
+<-><->
+      
+l.474 $
+       \pi$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:474: Preview: Snippet 444 ended.(282168+0x397086).
+<-><->
+      
+l.474 $\pi$
+           
+Not a real error.
+
+[444]
+./Block_20theory_20ch2.md.tex:475: Preview: Snippet 445 started.
+<-><->
+      
+l.475 $
+       \tau$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:475: Preview: Snippet 445 ended.(282168+0x360676).
+<-><->
+      
+l.475 $\tau$
+            
+Not a real error.
+
+[445]
+./Block_20theory_20ch2.md.tex:476: Preview: Snippet 446 started.
+<-><->
+      
+l.476 $
+       G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:476: Preview: Snippet 446 ended.(447828+0x515276).
+<-><->
+      
+l.476 $G$
+         
+Not a real error.
+
+[446]
+./Block_20theory_20ch2.md.tex:477: Preview: Snippet 447 started.
+<-><->
+      
+l.477 $
+       B = k$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:477: Preview: Snippet 447 ended.(455111+0x1765597).
+<-><->
+      
+l.477 $B = k$
+             
+Not a real error.
+
+[447]
+./Block_20theory_20ch2.md.tex:478: Preview: Snippet 448 started.
+<-><->
+      
+l.478 $
+       B=k$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:478: Preview: Snippet 448 ended.(455111+0x1765597).
+<-><->
+      
+l.478 $B=k$
+           
+Not a real error.
+
+[448]
+./Block_20theory_20ch2.md.tex:479: Preview: Snippet 449 started.
+<-><->
+      
+l.479 $
+       G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:479: Preview: Snippet 449 ended.(447828+0x515276).
+<-><->
+      
+l.479 $G$
+         
+Not a real error.
+
+[449]
+./Block_20theory_20ch2.md.tex:480: Preview: Snippet 450 started.
+<-><->
+      
+l.480 $
+       H$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:480: Preview: Snippet 450 ended.(447828+0x598014).
+<-><->
+      
+l.480 $H$
+         
+Not a real error.
+
+[450]
+./Block_20theory_20ch2.md.tex:481: Preview: Snippet 451 started.
+<-><->
+      
+l.481 $
+       G$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:481: Preview: Snippet 451 ended.(447828+0x515276).
+<-><->
+      
+l.481 $G$
+         
+Not a real error.
+
+[451]
+./Block_20theory_20ch2.md.tex:482: Preview: Snippet 452 started.
+<-><->
+      
+l.482 $
+       |G:H|$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:482: Preview: Snippet 452 ended.(491520+163840x2023505).
+<-><->
+      
+l.482 $|G:H|$
+             
+Not a real error.
+
+[452]
+./Block_20theory_20ch2.md.tex:483: Preview: Snippet 453 started.
+<-><->
+      
+l.483 $
+       k$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:483: Preview: Snippet 453 ended.(455111+0x361814).
+<-><->
+      
+l.483 $k$
+         
+Not a real error.
+
+[453]
+./Block_20theory_20ch2.md.tex:484: Preview: Snippet 454 started.
+<-><->
+      
+l.484 $
+       k[G]$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:484: Preview: Snippet 454 ended.(491520+163840x1241180).
+<-><->
+      
+l.484 $k[G]$
+            
+Not a real error.
+
+[454]
+./Block_20theory_20ch2.md.tex:485: Preview: Snippet 455 started.
+<-><->
+      
+l.485 $
+       k[G]$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:485: Preview: Snippet 455 ended.(491520+163840x1241180).
+<-><->
+      
+l.485 $k[G]$
+            
+Not a real error.
+
+[455]
+./Block_20theory_20ch2.md.tex:486: Preview: Snippet 456 started.
+<-><->
+      
+l.486 $
+       H$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:486: Preview: Snippet 456 ended.(447828+0x598014).
+<-><->
+      
+l.486 $H$
+         
+Not a real error.
+
+[456]
+./Block_20theory_20ch2.md.tex:487: Preview: Snippet 457 started.
+<-><->
+      
+l.487 $
+       M$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:487: Preview: Snippet 457 ended.(447828+0x707242).
+<-><->
+      
+l.487 $M$
+         
+Not a real error.
+
+[457]
+./Block_20theory_20ch2.md.tex:488: Preview: Snippet 458 started.
+<-><->
+      
+l.488 $
+       k[G]$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:488: Preview: Snippet 458 ended.(491520+163840x1241180).
+<-><->
+      
+l.488 $k[G]$
+            
+Not a real error.
+
+[458]
+./Block_20theory_20ch2.md.tex:489: Preview: Snippet 459 started.
+<-><->
+      
+l.489 $
+       Res_{H}^{G}(M)$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:489: Preview: Snippet 459 ended.(551306+180508x2829065).
+<-><->
+      
+l.489 $Res_{H}^{G}(M)$
+                      
+Not a real error.
+
+[459]
+./Block_20theory_20ch2.md.tex:490: Preview: Snippet 460 started.
+<-><->
+      
+l.490 $
+       M$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:490: Preview: Snippet 460 ended.(447828+0x707242).
+<-><->
+      
+l.490 $M$
+         
+Not a real error.
+
+[460]
+./Block_20theory_20ch2.md.tex:491: Preview: Snippet 461 started.
+<-><->
+      
+l.491 $
+       |G:H|$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:491: Preview: Snippet 461 ended.(491520+163840x2023505).
+<-><->
+      
+l.491 $|G:H|$
+             
+Not a real error.
+
+[461]
+./Block_20theory_20ch2.md.tex:492: Preview: Snippet 462 started.
+<-><->
+      
+l.492 $
+       Id_{M} = Tr_{H}^{G}\left( \frac{1}{|G:H|} Id_{M} \right)$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:492: Preview: Snippet 462 ended.(753669+425990x7046529).
+<-><->
+      
+l.492 ...{G}\left( \frac{1}{|G:H|} Id_{M} \right)$
+                                                  
+Not a real error.
+
+[462]
+./Block_20theory_20ch2.md.tex:493: Preview: Snippet 463 started.
+<-><->
+      
+l.493 $
+       M$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:493: Preview: Snippet 463 ended.(447828+0x707242).
+<-><->
+      
+l.493 $M$
+         
+Not a real error.
+
+[463]
+./Block_20theory_20ch2.md.tex:494: Preview: Snippet 464 started.
+<-><->
+      
+l.494 $
+       Ind_{H}^{G}(Res_{H}^{G}(M))$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:494: Preview: Snippet 464 ended.(551306+180508x4909852).
+<-><->
+      
+l.494 $Ind_{H}^{G}(Res_{H}^{G}(M))$
+                                   
+Not a real error.
+
+[464]
+./Block_20theory_20ch2.md.tex:495: Preview: Snippet 465 started.
+<-><->
+      
+l.495 $
+       A,C$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:495: Preview: Snippet 465 ended.(447828+127431x1298066).
+<-><->
+      
+l.495 $A,C$
+           
+Not a real error.
+
+[465]
+./Block_20theory_20ch2.md.tex:496: Preview: Snippet 466 started.
+<-><->
+      
+l.496 $
+       B$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:496: Preview: Snippet 466 ended.(447828+0x529977).
+<-><->
+      
+l.496 $B$
+         
+Not a real error.
+
+[466]
+./Block_20theory_20ch2.md.tex:497: Preview: Snippet 467 started.
+<-><->
+      
+l.497 $
+       A$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:497: Preview: Snippet 467 ended.(447828+0x491521).
+<-><->
+      
+l.497 $A$
+         
+Not a real error.
+
+[467]
+./Block_20theory_20ch2.md.tex:498: Preview: Snippet 468 started.
+<-><->
+      
+l.498 $
+       M$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:498: Preview: Snippet 468 ended.(447828+0x707242).
+<-><->
+      
+l.498 $M$
+         
+Not a real error.
+
+[468]
+./Block_20theory_20ch2.md.tex:499: Preview: Snippet 469 started.
+<-><->
+      
+l.499 $
+       A-C$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:499: Preview: Snippet 469 ended.(447828+54613x1807787).
+<-><->
+      
+l.499 $A-C$
+           
+Not a real error.
+
+[469]
+./Block_20theory_20ch2.md.tex:500: Preview: Snippet 470 started.
+<-><->
+      
+l.500 $
+       B-C$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:500: Preview: Snippet 470 ended.(447828+54613x1846243).
+<-><->
+      
+l.500 $B-C$
+           
+Not a real error.
+
+[470]
+./Block_20theory_20ch2.md.tex:501: Preview: Snippet 471 started.
+<-><->
+      
+l.501 $
+       N$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:501: Preview: Snippet 471 ended.(447828+0x598014).
+<-><->
+      
+l.501 $N$
+         
+Not a real error.
+
+[471]
+./Block_20theory_20ch2.md.tex:502: Preview: Snippet 472 started.
+<-><->
+      
+l.502 $
+       M$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:502: Preview: Snippet 472 ended.(447828+0x707242).
+<-><->
+      
+l.502 $M$
+         
+Not a real error.
+
+[472]
+./Block_20theory_20ch2.md.tex:503: Preview: Snippet 473 started.
+<-><->
+      
+l.503 $
+       A-C$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:503: Preview: Snippet 473 ended.(447828+54613x1807787).
+<-><->
+      
+l.503 $A-C$
+           
+Not a real error.
+
+[473]
+./Block_20theory_20ch2.md.tex:504: Preview: Snippet 474 started.
+<-><->
+      
+l.504 $
+       A \otimes_{B} N$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:504: Preview: Snippet 474 ended.(447828+98303x2341609).
+<-><->
+      
+l.504 $A \otimes_{B} N$
+                       
+Not a real error.
+
+[474]
+./Block_20theory_20ch2.md.tex:505: Preview: Snippet 475 started.
+<-><->
+      
+l.505 $
+       A-C$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:505: Preview: Snippet 475 ended.(447828+54613x1807787).
+<-><->
+      
+l.505 $A-C$
+           
+Not a real error.
+
+[475]
+./Block_20theory_20ch2.md.tex:506: Preview: Snippet 476 started.
+<-><->
+      
+l.506 $
+       \mu:A \otimes_{B} M \rightarrow M$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:506: Preview: Snippet 476 ended.(447828+127431x5118531).
+<-><->
+      
+l.506 $\mu:A \otimes_{B} M \rightarrow M$
+                                         
+Not a real error.
+
+[476]
+./Block_20theory_20ch2.md.tex:507: Preview: Snippet 477 started.
+<-><->
+      
+l.507 $
+       a \otimes m$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:507: Preview: Snippet 477 ended.(382293+54613x1722821).
+<-><->
+      
+l.507 $a \otimes m$
+                   
+Not a real error.
+
+[477]
+./Block_20theory_20ch2.md.tex:508: Preview: Snippet 478 started.
+<-><->
+      
+l.508 $
+       am$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:508: Preview: Snippet 478 ended.(282168+0x921831).
+<-><->
+      
+l.508 $am$
+          
+Not a real error.
+
+[478]
+./Block_20theory_20ch2.md.tex:509: Preview: Snippet 479 started.
+<-><->
+      
+l.509 $
+       a \in A$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:509: Preview: Snippet 479 ended.(447828+25623x1638925).
+<-><->
+      
+l.509 $a \in A$
+               
+Not a real error.
+
+[479]
+./Block_20theory_20ch2.md.tex:510: Preview: Snippet 480 started.
+<-><->
+      
+l.510 $
+       m \in M$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:510: Preview: Snippet 480 ended.(447828+25623x2083645).
+<-><->
+      
+l.510 $m \in M$
+               
+Not a real error.
+
+[480]
+./Block_20theory_20ch2.md.tex:511: Preview: Snippet 481 started.
+<-><->
+      
+l.511 $
+       N = M$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:511: Preview: Snippet 481 ended.(447828+0x2179062).
+<-><->
+      
+l.511 $N = M$
+             
+Not a real error.
+
+[481]
+./Block_20theory_20ch2.md.tex:512: Preview: Snippet 482 started.
+<-><->
+      
+l.512 $
+       B-C$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:512: Preview: Snippet 482 ended.(447828+54613x1846243).
+<-><->
+      
+l.512 $B-C$
+           
+Not a real error.
+
+[482]
+./Block_20theory_20ch2.md.tex:513: Preview: Snippet 483 started.
+<-><->
+      
+l.513 $
+       N$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:513: Preview: Snippet 483 ended.(447828+0x598014).
+<-><->
+      
+l.513 $N$
+         
+Not a real error.
+
+[483]
+./Block_20theory_20ch2.md.tex:514: Preview: Snippet 484 started.
+<-><->
+      
+l.514 $
+       B-C$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:514: Preview: Snippet 484 ended.(447828+54613x1846243).
+<-><->
+      
+l.514 $B-C$
+           
+Not a real error.
+
+[484]
+./Block_20theory_20ch2.md.tex:515: Preview: Snippet 485 started.
+<-><->
+      
+l.515 $
+       A \otimes_{B} N = M \oplus M'$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:515: Preview: Snippet 485 ended.(492688+98303x5614754).
+<-><->
+      
+l.515 $A \otimes_{B} N = M \oplus M'$
+                                     
+Not a real error.
+
+[485]
+./Block_20theory_20ch2.md.tex:516: Preview: Snippet 486 started.
+<-><->
+      
+l.516 $
+       A-C$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:516: Preview: Snippet 486 ended.(447828+54613x1807787).
+<-><->
+      
+l.516 $A-C$
+           
+Not a real error.
+
+[486]
+./Block_20theory_20ch2.md.tex:517: Preview: Snippet 487 started.
+<-><->
+      
+l.517 $
+       M'$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:517: Preview: Snippet 487 ended.(492688+0x891107).
+<-><->
+      
+l.517 $M'$
+          
+Not a real error.
+
+[487]
+./Block_20theory_20ch2.md.tex:518: Preview: Snippet 488 started.
+<-><->
+      
+l.518 $
+       \beta: A \otimes_{B} N \rightarrow A \otimes_{B} M$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:518: Preview: Snippet 488 ended.(455111+127431x6763288).
+<-><->
+      
+l.518 ...otimes_{B} N \rightarrow A \otimes_{B} M$
+                                                  
+Not a real error.
+
+[488]
+./Block_20theory_20ch2.md.tex:519: Preview: Snippet 489 started.
+<-><->
+      
+l.519 $
+       \beta(m) = \begin{cases}1\otimes m &\text{if } m \in M \\ 0 &\text{if...
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:519: Preview: Snippet 489 ended.(1146889+819210x8014328).
+<-><->
+      
+l.519 ...in M \\ 0 &\text{if} m \in M'\end{cases}$
+                                                  
+Not a real error.
+
+[489{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
+./Block_20theory_20ch2.md.tex:520: Preview: Snippet 490 started.
+<-><->
+      
+l.520 $
+       \tau:A\otimes_{B}N \rightarrow M$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:520: Preview: Snippet 490 ended.(447828+98303x4975093).
+<-><->
+      
+l.520 $\tau:A\otimes_{B}N \rightarrow M$
+                                        
+Not a real error.
+
+[490]
+./Block_20theory_20ch2.md.tex:521: Preview: Snippet 491 started.
+<-><->
+      
+l.521 $
+       \mu \circ \beta = \tau$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:521: Preview: Snippet 491 ended.(455111+127431x2653589).
+<-><->
+      
+l.521 $\mu \circ \beta = \tau$
+                              
+Not a real error.
+
+[491]
+./Block_20theory_20ch2.md.tex:522: Preview: Snippet 492 started.
+<-><->
+      
+l.522 $
+       A-C$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:522: Preview: Snippet 492 ended.(447828+54613x1807787).
+<-><->
+      
+l.522 $A-C$
+           
+Not a real error.
+
+[492]
+./Block_20theory_20ch2.md.tex:523: Preview: Snippet 493 started.
+<-><->
+      
+l.523 $
+       \alpha:A\otimes_{B}N \rightarrow A \otimes_{B}M$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:523: Preview: Snippet 493 ended.(447828+98303x6779673).
+<-><->
+      
+l.523 ...A\otimes_{B}N \rightarrow A \otimes_{B}M$
+                                                  
+Not a real error.
+
+[493]
+./Block_20theory_20ch2.md.tex:524: Preview: Snippet 494 started.
+<-><->
+      
+l.524 $
+       \alpha(a \otimes n) = a\beta(1\otimes n)$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:524: Preview: Snippet 494 ended.(491520+163840x6129428).
+<-><->
+      
+l.524 $\alpha(a \otimes n) = a\beta(1\otimes n)$
+                                                
+Not a real error.
+
+[494]
+./Block_20theory_20ch2.md.tex:525: Preview: Snippet 495 started.
+<-><->
+      
+l.525 $
+       a \in A$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:525: Preview: Snippet 495 ended.(447828+25623x1638925).
+<-><->
+      
+l.525 $a \in A$
+               
+Not a real error.
+
+[495]
+./Block_20theory_20ch2.md.tex:526: Preview: Snippet 496 started.
+<-><->
+      
+l.526 $
+       n \in N$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:526: Preview: Snippet 496 ended.(447828+25623x1792372).
+<-><->
+      
+l.526 $n \in N$
+               
+Not a real error.
+
+[496]
+./Block_20theory_20ch2.md.tex:527: Preview: Snippet 497 started.
+<-><->
+      
+l.527 $
+       a \in A$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:527: Preview: Snippet 497 ended.(447828+25623x1638925).
+<-><->
+      
+l.527 $a \in A$
+               
+Not a real error.
+
+[497]
+./Block_20theory_20ch2.md.tex:528: Preview: Snippet 498 started.
+<-><->
+      
+l.528 $
+       m \in M$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:528: Preview: Snippet 498 ended.(447828+25623x2083645).
+<-><->
+      
+l.528 $m \in M$
+               
+Not a real error.
+
+[498]
+./Block_20theory_20ch2.md.tex:529: Preview: Snippet 499 started.
+<-><->
+      
+l.529 $
+       $(\mu \circ \alpha)(a \otimes n) = \mu(a\beta(1 \otimes n)) = a\tau(1...
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:529: Preview: Snippet 499 ended.(950272+0x22609920).
+<-><->
+      
+l.529 ...a\tau(1 \otimes n) = \tau(a \otimes  n)$$
+                                                  
+Not a real error.
+
+[499]
+./Block_20theory_20ch2.md.tex:530: Preview: Snippet 500 started.
+<-><->
+      
+l.530 $
+       \tau$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:530: Preview: Snippet 500 ended.(282168+0x360676).
+<-><->
+      
+l.530 $\tau$
+            
+Not a real error.
+
+[500]
+./Block_20theory_20ch2.md.tex:531: Preview: Snippet 501 started.
+<-><->
+      
+l.531 $
+       M$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:531: Preview: Snippet 501 ended.(447828+0x707242).
+<-><->
+      
+l.531 $M$
+         
+Not a real error.
+
+[501]
+./Block_20theory_20ch2.md.tex:532: Preview: Snippet 502 started.
+<-><->
+      
+l.532 $
+       \mu \circ \alpha|_{M} = Id_{M}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:532: Preview: Snippet 502 ended.(491520+163840x4335409).
+<-><->
+      
+l.532 $\mu \circ \alpha|_{M} = Id_{M}$
+                                      
+Not a real error.
+
+[502]
+./Block_20theory_20ch2.md.tex:533: Preview: Snippet 503 started.
+<-><->
+      
+l.533 $
+       A$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:533: Preview: Snippet 503 ended.(447828+0x491521).
+<-><->
+      
+l.533 $A$
+         
+Not a real error.
+
+[503]
+./Block_20theory_20ch2.md.tex:534: Preview: Snippet 504 started.
+<-><->
+      
+l.534 $
+       B$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:534: Preview: Snippet 504 ended.(447828+0x529977).
+<-><->
+      
+l.534 $B$
+         
+Not a real error.
+
+[504]
+./Block_20theory_20ch2.md.tex:535: Preview: Snippet 505 started.
+<-><->
+      
+l.535 $
+       A$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:535: Preview: Snippet 505 ended.(447828+0x491521).
+<-><->
+      
+l.535 $A$
+         
+Not a real error.
+
+[505]
+./Block_20theory_20ch2.md.tex:536: Preview: Snippet 506 started.
+<-><->
+      
+l.536 $
+       U$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:536: Preview: Snippet 506 ended.(447828+0x518916).
+<-><->
+      
+l.536 $U$
+         
+Not a real error.
+
+[506]
+./Block_20theory_20ch2.md.tex:537: Preview: Snippet 507 started.
+<-><->
+      
+l.537 $
+       B$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:537: Preview: Snippet 507 ended.(447828+0x529977).
+<-><->
+      
+l.537 $B$
+         
+Not a real error.
+
+[507]
+./Block_20theory_20ch2.md.tex:538: Preview: Snippet 508 started.
+<-><->
+      
+l.538 $
+       B$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:538: Preview: Snippet 508 ended.(447828+0x529977).
+<-><->
+      
+l.538 $B$
+         
+Not a real error.
+
+[508]
+./Block_20theory_20ch2.md.tex:539: Preview: Snippet 509 started.
+<-><->
+      
+l.539 $
+       V$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:539: Preview: Snippet 509 ended.(447828+0x527929).
+<-><->
+      
+l.539 $V$
+         
+Not a real error.
+
+[509]
+./Block_20theory_20ch2.md.tex:540: Preview: Snippet 510 started.
+<-><->
+      
+l.540 $
+       U$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:540: Preview: Snippet 510 ended.(447828+0x518916).
+<-><->
+      
+l.540 $U$
+         
+Not a real error.
+
+[510]
+./Block_20theory_20ch2.md.tex:541: Preview: Snippet 511 started.
+<-><->
+      
+l.541 $
+       A\otimes_{B}V$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:541: Preview: Snippet 511 ended.(447828+98303x2271524).
+<-><->
+      
+l.541 $A\otimes_{B}V$
+                     
+Not a real error.
+
+[511]
+./Block_20theory_20ch2.md.tex:542: Preview: Snippet 512 started.
+<-><->
+      
+l.542 $
+       U$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:542: Preview: Snippet 512 ended.(447828+0x518916).
+<-><->
+      
+l.542 $U$
+         
+Not a real error.
+
+[512]
+./Block_20theory_20ch2.md.tex:543: Preview: Snippet 513 started.
+<-><->
+      
+l.543 $
+       B$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:543: Preview: Snippet 513 ended.(447828+0x529977).
+<-><->
+      
+l.543 $B$
+         
+Not a real error.
+
+[513]
+./Block_20theory_20ch2.md.tex:544: Preview: Snippet 514 started.
+<-><->
+      
+l.544 $
+       B$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:544: Preview: Snippet 514 ended.(447828+0x529977).
+<-><->
+      
+l.544 $B$
+         
+Not a real error.
+
+[514]
+./Block_20theory_20ch2.md.tex:545: Preview: Snippet 515 started.
+<-><->
+      
+l.545 $
+       V$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:545: Preview: Snippet 515 ended.(447828+0x527929).
+<-><->
+      
+l.545 $V$
+         
+Not a real error.
+
+[515]
+./Block_20theory_20ch2.md.tex:546: Preview: Snippet 516 started.
+<-><->
+      
+l.546 $
+       U$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:546: Preview: Snippet 516 ended.(447828+0x518916).
+<-><->
+      
+l.546 $U$
+         
+Not a real error.
+
+[516]
+./Block_20theory_20ch2.md.tex:547: Preview: Snippet 517 started.
+<-><->
+      
+l.547 $
+       Hom_{B}(A,V)$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:547: Preview: Snippet 517 ended.(491520+163840x3762626).
+<-><->
+      
+l.547 $Hom_{B}(A,V)$
+                    
+Not a real error.
+
+[517]
+./Block_20theory_20ch2.md.tex:548: Preview: Snippet 518 started.
+<-><->
+      
+l.548 $
+       A$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:548: Preview: Snippet 518 ended.(447828+0x491521).
+<-><->
+      
+l.548 $A$
+         
+Not a real error.
+
+[518]
+./Block_20theory_20ch2.md.tex:549: Preview: Snippet 519 started.
+<-><->
+      
+l.549 $
+       (a \cdot \phi)(a') = \phi(a'a)$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:549: Preview: Snippet 519 ended.(492688+163840x5410659).
+<-><->
+      
+l.549 $(a \cdot \phi)(a') = \phi(a'a)$
+                                      
+Not a real error.
+
+[519]
+./Block_20theory_20ch2.md.tex:550: Preview: Snippet 520 started.
+<-><->
+      
+l.550 $
+       a,a' \in A$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:550: Preview: Snippet 520 ended.(492688+127431x2460475).
+<-><->
+      
+l.550 $a,a' \in A$
+                  
+Not a real error.
+
+[520]
+./Block_20theory_20ch2.md.tex:551: Preview: Snippet 521 started.
+<-><->
+      
+l.551 $
+       \phi \in Hom_{B}(A,V)$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:551: Preview: Snippet 521 ended.(491520+163840x4954100).
+<-><->
+      
+l.551 $\phi \in Hom_{B}(A,V)$
+                             
+Not a real error.
+
+[521]
+./Block_20theory_20ch2.md.tex:552: Preview: Snippet 522 started.
+<-><->
+      
+l.552 $
+       A$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:552: Preview: Snippet 522 ended.(447828+0x491521).
+<-><->
+      
+l.552 $A$
+         
+Not a real error.
+
+[522]
+./Block_20theory_20ch2.md.tex:553: Preview: Snippet 523 started.
+<-><->
+      
+l.553 $
+       B$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:553: Preview: Snippet 523 ended.(447828+0x529977).
+<-><->
+      
+l.553 $B$
+         
+Not a real error.
+
+[523]
+./Block_20theory_20ch2.md.tex:554: Preview: Snippet 524 started.
+<-><->
+      
+l.554 $
+       A$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:554: Preview: Snippet 524 ended.(447828+0x491521).
+<-><->
+      
+l.554 $A$
+         
+Not a real error.
+
+[524]
+./Block_20theory_20ch2.md.tex:555: Preview: Snippet 525 started.
+<-><->
+      
+l.555 $
+       U$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:555: Preview: Snippet 525 ended.(447828+0x518916).
+<-><->
+      
+l.555 $U$
+         
+Not a real error.
+
+[525]
+./Block_20theory_20ch2.md.tex:556: Preview: Snippet 526 started.
+<-><->
+      
+l.556 $
+       A$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:556: Preview: Snippet 526 ended.(447828+0x491521).
+<-><->
+      
+l.556 $A$
+         
+Not a real error.
+
+[526]
+./Block_20theory_20ch2.md.tex:557: Preview: Snippet 527 started.
+<-><->
+      
+l.557 $
+       U$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:557: Preview: Snippet 527 ended.(447828+0x518916).
+<-><->
+      
+l.557 $U$
+         
+Not a real error.
+
+[527]
+./Block_20theory_20ch2.md.tex:558: Preview: Snippet 528 started.
+<-><->
+      
+l.558 $
+       B$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:558: Preview: Snippet 528 ended.(447828+0x529977).
+<-><->
+      
+l.558 $B$
+         
+Not a real error.
+
+[528]
+./Block_20theory_20ch2.md.tex:559: Preview: Snippet 529 started.
+<-><->
+      
+l.559 $
+       A\otimes_{B}U \rightarrow U$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:559: Preview: Snippet 529 ended.(447828+98303x3800868).
+<-><->
+      
+l.559 $A\otimes_{B}U \rightarrow U$
+                                   
+Not a real error.
+
+[529]
+./Block_20theory_20ch2.md.tex:560: Preview: Snippet 530 started.
+<-><->
+      
+l.560 $
+       a \otimes u$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:560: Preview: Snippet 530 ended.(382293+54613x1522572).
+<-><->
+      
+l.560 $a \otimes u$
+                   
+Not a real error.
+
+[530]
+./Block_20theory_20ch2.md.tex:561: Preview: Snippet 531 started.
+<-><->
+      
+l.561 $
+       au$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:561: Preview: Snippet 531 ended.(282168+0x721582).
+<-><->
+      
+l.561 $au$
+          
+Not a real error.
+
+[531]
+./Block_20theory_20ch2.md.tex:562: Preview: Snippet 532 started.
+<-><->
+      
+l.562 $
+       A$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:562: Preview: Snippet 532 ended.(447828+0x491521).
+<-><->
+      
+l.562 $A$
+         
+Not a real error.
+
+[532]
+./Block_20theory_20ch2.md.tex:563: Preview: Snippet 533 started.
+<-><->
+      
+l.563 $
+       A$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:563: Preview: Snippet 533 ended.(447828+0x491521).
+<-><->
+      
+l.563 $A$
+         
+Not a real error.
+
+[533]
+./Block_20theory_20ch2.md.tex:564: Preview: Snippet 534 started.
+<-><->
+      
+l.564 $
+       U$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:564: Preview: Snippet 534 ended.(447828+0x518916).
+<-><->
+      
+l.564 $U$
+         
+Not a real error.
+
+[534]
+./Block_20theory_20ch2.md.tex:565: Preview: Snippet 535 started.
+<-><->
+      
+l.565 $
+       B$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:565: Preview: Snippet 535 ended.(447828+0x529977).
+<-><->
+      
+l.565 $B$
+         
+Not a real error.
+
+[535]
+./Block_20theory_20ch2.md.tex:566: Preview: Snippet 536 started.
+<-><->
+      
+l.566 $
+       A$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:566: Preview: Snippet 536 ended.(447828+0x491521).
+<-><->
+      
+l.566 $A$
+         
+Not a real error.
+
+[536]
+./Block_20theory_20ch2.md.tex:567: Preview: Snippet 537 started.
+<-><->
+      
+l.567 $
+       C=0$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:567: Preview: Snippet 537 ended.(447828+0x1716763).
+<-><->
+      
+l.567 $C=0$
+           
+Not a real error.
+
+[537]
+./Block_20theory_20ch2.md.tex:568: Preview: Snippet 538 started.
+<-><->
+      
+l.568 $
+       A \otimes_{B} U \rightarrow U$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:568: Preview: Snippet 538 ended.(447828+98303x3800868).
+<-><->
+      
+l.568 $A \otimes_{B} U \rightarrow U$
+                                     
+Not a real error.
+
+[538]
+./Block_20theory_20ch2.md.tex:569: Preview: Snippet 539 started.
+<-><->
+      
+l.569 $
+       B$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:569: Preview: Snippet 539 ended.(447828+0x529977).
+<-><->
+      
+l.569 $B$
+         
+Not a real error.
+
+[539]
+./Block_20theory_20ch2.md.tex:570: Preview: Snippet 540 started.
+<-><->
+      
+l.570 $
+       u \in U$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:570: Preview: Snippet 540 ended.(447828+25623x1695070).
+<-><->
+      
+l.570 $u \in U$
+               
+Not a real error.
+
+[540]
+./Block_20theory_20ch2.md.tex:571: Preview: Snippet 541 started.
+<-><->
+      
+l.571 $
+       1 \otimes u$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:571: Preview: Snippet 541 ended.(422343+54613x1503837).
+<-><->
+      
+l.571 $1 \otimes u$
+                   
+Not a real error.
+
+[541]
+./Block_20theory_20ch2.md.tex:572: Preview: Snippet 542 started.
+<-><->
+      
+l.572 $
+       \psi:W \rightarrow U$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:572: Preview: Snippet 542 ended.(455111+127431x3244865).
+<-><->
+      
+l.572 $\psi:W \rightarrow U$
+                            
+Not a real error.
+
+[542]
+./Block_20theory_20ch2.md.tex:573: Preview: Snippet 543 started.
+<-><->
+      
+l.573 $
+       A$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:573: Preview: Snippet 543 ended.(447828+0x491521).
+<-><->
+      
+l.573 $A$
+         
+Not a real error.
+
+[543]
+./Block_20theory_20ch2.md.tex:574: Preview: Snippet 544 started.
+<-><->
+      
+l.574 $
+       B$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:574: Preview: Snippet 544 ended.(447828+0x529977).
+<-><->
+      
+l.574 $B$
+         
+Not a real error.
+
+[544]
+./Block_20theory_20ch2.md.tex:575: Preview: Snippet 545 started.
+<-><->
+      
+l.575 $
+       \rho:U\rightarrow W$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:575: Preview: Snippet 545 ended.(447828+127431x3133287).
+<-><->
+      
+l.575 $\rho:U\rightarrow W$
+                           
+Not a real error.
+
+[545]
+./Block_20theory_20ch2.md.tex:576: Preview: Snippet 546 started.
+<-><->
+      
+l.576 $
+       \psi \circ \rho = Id_{U}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:576: Preview: Snippet 546 ended.(455111+127431x3401582).
+<-><->
+      
+l.576 $\psi \circ \rho = Id_{U}$
+                                
+Not a real error.
+
+[546]
+./Block_20theory_20ch2.md.tex:577: Preview: Snippet 547 started.
+<-><->
+      
+l.577 $
+       \pi:A\otimes_{B}U \rightarrow U$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:577: Preview: Snippet 547 ended.(447828+98303x4744079).
+<-><->
+      
+l.577 $\pi:A\otimes_{B}U \rightarrow U$
+                                       
+Not a real error.
+
+[547]
+./Block_20theory_20ch2.md.tex:578: Preview: Snippet 548 started.
+<-><->
+      
+l.578 $
+       A$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:578: Preview: Snippet 548 ended.(447828+0x491521).
+<-><->
+      
+l.578 $A$
+         
+Not a real error.
+
+[548]
+./Block_20theory_20ch2.md.tex:579: Preview: Snippet 549 started.
+<-><->
+      
+l.579 $
+       a\otimes u$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:579: Preview: Snippet 549 ended.(382293+54613x1522572).
+<-><->
+      
+l.579 $a\otimes u$
+                  
+Not a real error.
+
+[549]
+./Block_20theory_20ch2.md.tex:580: Preview: Snippet 550 started.
+<-><->
+      
+l.580 $
+       au$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:580: Preview: Snippet 550 ended.(282168+0x721582).
+<-><->
+      
+l.580 $au$
+          
+Not a real error.
+
+[550]
+./Block_20theory_20ch2.md.tex:581: Preview: Snippet 551 started.
+<-><->
+      
+l.581 $
+       \sigma:U\rightarrow A\otimes_{B}U$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:581: Preview: Snippet 551 ended.(447828+98303x4744987).
+<-><->
+      
+l.581 $\sigma:U\rightarrow A\otimes_{B}U$
+                                         
+Not a real error.
+
+[551]
+./Block_20theory_20ch2.md.tex:582: Preview: Snippet 552 started.
+<-><->
+      
+l.582 $
+       \pi \circ \sigma = id_{U}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:582: Preview: Snippet 552 ended.(455111+98303x3293690).
+<-><->
+      
+l.582 $\pi \circ \sigma = id_{U}$
+                                 
+Not a real error.
+
+[552]
+./Block_20theory_20ch2.md.tex:583: Preview: Snippet 553 started.
+<-><->
+      
+l.583 $
+       A$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:583: Preview: Snippet 553 ended.(447828+0x491521).
+<-><->
+      
+l.583 $A$
+         
+Not a real error.
+
+[553]
+./Block_20theory_20ch2.md.tex:584: Preview: Snippet 554 started.
+<-><->
+      
+l.584 $
+       \tau:A\otimes_{B}U \rightarrow W$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:584: Preview: Snippet 554 ended.(447828+98303x4898727).
+<-><->
+      
+l.584 $\tau:A\otimes_{B}U \rightarrow W$
+                                        
+Not a real error.
+
+[554]
+./Block_20theory_20ch2.md.tex:585: Preview: Snippet 555 started.
+<-><->
+      
+l.585 $
+       \tau(a\otimes u) = a\rho(u)$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:585: Preview: Snippet 555 ended.(491520+163840x4836919).
+<-><->
+      
+l.585 $\tau(a\otimes u) = a\rho(u)$
+                                   
+Not a real error.
+
+[555]
+./Block_20theory_20ch2.md.tex:586: Preview: Snippet 556 started.
+<-><->
+      
+l.586 $
+       \psi \circ \tau(a\otimes u) = \psi(a\rho(u))= a\psi(\rho(u)) = au = \...
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:586: Preview: Snippet 556 ended.(491520+163840x15169066).
+<-><->
+      
+l.586 ...)= a\psi(\rho(u)) = au = \pi(a\otimes u)$
+                                                  
+Not a real error.
+
+[556]
+./Block_20theory_20ch2.md.tex:587: Preview: Snippet 557 started.
+<-><->
+      
+l.587 $
+       \psi \circ \tau = \pi$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:587: Preview: Snippet 557 ended.(455111+127431x2700922).
+<-><->
+      
+l.587 $\psi \circ \tau = \pi$
+                             
+Not a real error.
+
+[557]
+./Block_20theory_20ch2.md.tex:588: Preview: Snippet 558 started.
+<-><->
+      
+l.588 $
+       \sigma$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:588: Preview: Snippet 558 ended.(282168+0x397994).
+<-><->
+      
+l.588 $\sigma$
+              
+Not a real error.
+
+[558]
+./Block_20theory_20ch2.md.tex:589: Preview: Snippet 559 started.
+<-><->
+      
+l.589 $
+       \psi \circ\tau \circ \sigma = \pi \circ \sigma = Id_{U}$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:589: Preview: Snippet 559 ended.(455111+127431x6728197).
+<-><->
+      
+l.589 ...\circ \sigma = \pi \circ \sigma = Id_{U}$
+                                                  
+Not a real error.
+
+[559]
+./Block_20theory_20ch2.md.tex:590: Preview: Snippet 560 started.
+<-><->
+      
+l.590 $
+       \tau \circ \sigma$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:590: Preview: Snippet 560 ended.(291271+0x1377615).
+<-><->
+      
+l.590 $\tau \circ \sigma$
+                         
+Not a real error.
+
+[560]
+./Block_20theory_20ch2.md.tex:591: Preview: Snippet 561 started.
+<-><->
+      
+l.591 $
+       \psi$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:591: Preview: Snippet 561 ended.(455111+127431x450409).
+<-><->
+      
+l.591 $\psi$
+            
+Not a real error.
+
+[561]
+./Block_20theory_20ch2.md.tex:592: Preview: Snippet 562 started.
+<-><->
+      
+l.592 $
+       A$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:592: Preview: Snippet 562 ended.(447828+0x491521).
+<-><->
+      
+l.592 $A$
+         
+Not a real error.
+
+[562]
+./Block_20theory_20ch2.md.tex:593: Preview: Snippet 563 started.
+<-><->
+      
+l.593 $
+       B$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:593: Preview: Snippet 563 ended.(447828+0x529977).
+<-><->
+      
+l.593 $B$
+         
+Not a real error.
+
+[563]
+./Block_20theory_20ch2.md.tex:594: Preview: Snippet 564 started.
+<-><->
+      
+l.594 $
+       A$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:594: Preview: Snippet 564 ended.(447828+0x491521).
+<-><->
+      
+l.594 $A$
+         
+Not a real error.
+
+[564]
+./Block_20theory_20ch2.md.tex:595: Preview: Snippet 565 started.
+<-><->
+      
+l.595 $
+       A$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:595: Preview: Snippet 565 ended.(447828+0x491521).
+<-><->
+      
+l.595 $A$
+         
+Not a real error.
+
+[565]
+./Block_20theory_20ch2.md.tex:596: Preview: Snippet 566 started.
+<-><->
+      
+l.596 $
+       B$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:596: Preview: Snippet 566 ended.(447828+0x529977).
+<-><->
+      
+l.596 $B$
+         
+Not a real error.
+
+[566]
+./Block_20theory_20ch2.md.tex:597: Preview: Snippet 567 started.
+<-><->
+      
+l.597 $
+       A$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:597: Preview: Snippet 567 ended.(447828+0x491521).
+<-><->
+      
+l.597 $A$
+         
+Not a real error.
+
+[567]
+./Block_20theory_20ch2.md.tex:598: Preview: Snippet 568 started.
+<-><->
+      
+l.598 $
+       A$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:598: Preview: Snippet 568 ended.(447828+0x491521).
+<-><->
+      
+l.598 $A$
+         
+Not a real error.
+
+[568]
+./Block_20theory_20ch2.md.tex:599: Preview: Snippet 569 started.
+<-><->
+      
+l.599 $
+       B$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:599: Preview: Snippet 569 ended.(447828+0x529977).
+<-><->
+      
+l.599 $B$
+         
+Not a real error.
+
+[569]
+./Block_20theory_20ch2.md.tex:600: Preview: Snippet 570 started.
+<-><->
+      
+l.600 $
+       A$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:600: Preview: Snippet 570 ended.(447828+0x491521).
+<-><->
+      
+l.600 $A$
+         
+Not a real error.
+
+[570]
+./Block_20theory_20ch2.md.tex:601: Preview: Snippet 571 started.
+<-><->
+      
+l.601 $
+       A \otimes_{B} A$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:601: Preview: Snippet 571 ended.(447828+98303x2235116).
+<-><->
+      
+l.601 $A \otimes_{B} A$
+                       
+Not a real error.
+
+[571]
+./Block_20theory_20ch2.md.tex:602: Preview: Snippet 572 started.
+<-><->
+      
+l.602 $
+       A-A$
+Not a real error.
+
+./Block_20theory_20ch2.md.tex:602: Preview: Snippet 572 ended.(447828+54613x1784032).
+<-><->
+      
+l.602 $A-A$
+           
+Not a real error.
+
+[572]
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 12563 strings out of 473834
+ 272764 string characters out of 5750486
+ 648245 words of memory out of 5000000
+ 36635 multiletter control sequences out of 15000+600000
+ 567598 words of font info for 54 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 125i,11n,127p,528b,178s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on Block_20theory_20ch2.md.pdf (572 pages, 240783 bytes).
+PDF statistics:
+ 1907 PDF objects out of 2073 (max. 8388607)
+ 1298 compressed objects within 13 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+

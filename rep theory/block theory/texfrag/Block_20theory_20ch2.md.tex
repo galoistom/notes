@@ -1,0 +1,606 @@
+\documentclass{article}
+\usepackage{amsmath,amsfonts}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\begin{document}
+$G$
+$H$
+$G$
+$Res_H^G:Mod(k[G]) \rightarrow Mod(k[H])$
+$k[G]$
+$\phi:U \rightarrow U'$
+$\phi$
+$k[H]$
+$Ind_H^G:Mod(k[H]) \rightarrow Mod(k[G])$
+$k[H]$
+$V$
+$k[G]$
+$Ind_H^G(V)=k[G] \otimes_{k[H]}V$
+$k[H]$
+$\phi:V \rightarrow V'$
+$k[G]$
+$id_{k[G]} \otimes \psi:k[G] \otimes_{k[H]}V \rightarrow k[G] \otimes_{k[H]} V'$
+$G$
+$H,L$
+$G$
+$L \leq H \leq G$
+$k[G]$
+$k[G]$
+$V$
+$Res_L^{G}(V) \simeq Res_{L}^{H}(Res_H^G(V))$
+$Ind$
+$G$
+$H$
+$G$
+$Ind_H^G:Mod(k[H]) \rightarrow Mod(k[G])$
+$Res_H^G:Mod(k[G]) \rightarrow Mod(k[H])$
+$k[G]$
+$U \stackrel{\phi}{\longrightarrow} V \stackrel{\psi}{\longrightarrow} W$
+$Im(\phi)=ker(\psi)$
+$Res_H^G$
+$k[H] \otimes_{k[H]} -$
+$k[G]=\bigoplus_{x \in G/H}xk[H]$
+$Ind$
+$Res$
+$B \leq A$
+$B \stackrel{\alpha}{\longrightarrow} A$
+$Res_\alpha:Mod(A) \rightarrow Mod(B)$
+$\alpha(b)$
+$Ind_\alpha:Mod(B) \rightarrow Mod(A)$
+$A_\alpha \otimes -$
+$\alpha \in Z^2(G;k^\times)$
+$G$
+$H$
+$V$
+$k[H]$
+$k[G]$
+$Ten_H^G(V)$
+$n=|G:H|$
+$\{x_i|1\leq i \leq n\}$
+$G/H$
+$G$
+$Ten_H^G(V)=\bigotimes_{i=1}^n(x_i \otimes V)$
+$k$
+$x_i \otimes V$
+$k[G] \otimes_{k[H]}V$
+$G$
+$x \in G,\ \pi \in S_n$
+$y_i \in H$
+$xx_i=x_{\pi^{-1}(i)}y_i$
+$v_i \in V$
+$1 \leq i \leq n$
+$x \cdot (\bigotimes_{i=1}^n(x_i \otimes v_i))=\otimes_{i=1}^n(x_i \otimes y_{\pi(i)}v_{\pi(i)})$
+$G$
+$H^n \rtimes S_n$
+$Ten_H^G(V)\simeq Res_G^{H^n \rtimes S_n}(V^{\otimes n})$
+$G$
+$H,L$
+$G$
+$V,V'$
+$k[H]$
+$W$
+$k[L]$
+$L \leq H$
+$Ten^G_L(W) \simeq Ten_H^G(Ten_L^H(W))$
+$Ten_H^G(V \otimes_k V'\simeq Ten_H^G(V) \otimes_k Ten_H^G(V')$
+$G$
+$H$
+$G$
+$U$
+$k[G]$
+$V$
+$k[H]$
+$$
+\begin{cases}Hom_{k[G]}(Ind_H^G(V), U) &\simeq Hom_{k[H]}(V,Res_H^G(N))\\
+\phi &\mapsto (v \mapsto \phi(1_G \otimes v))\end{cases}
+$$
+$$
+\begin{cases}
+Hom_{k[H]}(Res_H^G(V),U) \simeq Hom_{k[H]}(V,Res_H^G(U))\\
+\psi \mapsto (u \mapsto \sum_{x \in [G/H]}x \otimes \psi (x^{-1}u)).
+\end{cases}
+$$
+$\psi \in Hom_{k[H]}(V,Res_H^G(U))$
+$\phi$
+$\phi(x \otimes v) = x\psi (v)$
+$x \in G$
+$v \in V$
+$G$
+$H$
+$G$
+$U$
+$k[G]$
+$V$
+$k[H]$
+$k[G]$
+$$
+\begin{cases}U \otimes_k Ind_{H}^G(V) &\simeq Ind_H^G(Res_H^G(U) \otimes_kV)\\
+u \otimes (x \otimes v) &\mapsto x \otimes (x^{-1}u \otimes v)
+\end{cases}
+$$
+$u \in U$
+$v \in V$
+$A$
+$B$
+$A$
+$A$
+$U$
+$B$
+$V$
+$$
+\begin{cases}
+Hom_A(A \otimes_BV,U) &\simeq Hom_B(V,Res_B^A(U))\\
+\phi &\mapsto (v \mapsto \phi(1 \otimes v))\\
+(a \otimes v \mapsto a \psi(v)) &\leftarrowtail \psi
+\end{cases}
+$$
+$M \otimes_B-:Mod(B) \rightarrow Mod(A)$
+$Hom_A(M,-):Mod(A) \rightarrow Mod(B)$
+$B$
+$A$
+$M=A$
+$A,B$
+$M \otimes_B -$
+$Ind_B^A$
+$Hom_A(M,-)$
+$Res_B^A$
+$A,B$
+$M$
+$A-B$
+$A$
+$U$
+$B$
+$V$
+$k$
+$$
+\begin{cases}
+Hom_A(M\otimes_BV,U) &\simeq Hom_B(V,Hom(M,U))\\
+\phi &\mapsto (v\mapsto(m\mapsto \phi(m,\otimes v)))\\
+(m \otimes v \mapsto \psi(v)(m) &\leftarrowtail \psi
+\end{cases}
+$$
+$A,B,C$
+$M$
+$A-B$
+$U$
+$A-C$
+$V$
+$B-C$
+$k$
+$$Hom_{A \otimes_k C^{op}}(M \otimes_B V, U) \simeq Hom_{B \otimes_k C^{op}}(V,Hom_A(M,U))$$
+$\mathcal{C},\mathcal{D}$
+$\mathcal{F}: \mathcal{C} \rightarrow \mathcal{D}$
+$\mathcal{G}: \mathcal{D} \rightarrow \mathcal{C}$
+$\mathcal{G}$
+$\mathcal{F}$
+$\mathcal{F}$
+$\mathcal{G}$
+$Hom_\mathcal{C}(\mathcal{G}(-),-) \simeq Hom_{\mathcal{D}}(-,\mathcal{F}(-))$
+$\mathcal{G}$
+$\mathcal{F}$
+$\mathcal{F}$
+$\mathcal{G}$
+$\mathcal{C},\mathcal{D}$
+$\mathcal{F} :\mathcal{C} \rightarrow \mathcal{D}$
+$\mathcal{G}: \mathcal{D} \rightarrow \mathcal{C}$
+$\Phi: Hom_{\mathcal{C}}(\mathcal{G}(-),-) \simeq Hom_{\mathcal{D}}(-,\mathcal{F}(-))$
+$f$
+$g$
+$\Phi$
+$(\mathcal{F}g)\circ (f\mathcal{F})= id_{\mathcal{F}}$
+$(g \mathcal{G})\circ (\mathcal{G} f)=id_{\mathcal{G}}$
+$f:id_{\mathcal{D}} \rightarrow \mathcal{F} \circ \mathcal{G}$
+$g:id_{\mathcal{C}}:\mathcal{G}\circ \mathcal{F} \rightarrow id_{\mathcal{C}}$
+$(\mathcal{F}g)\circ (f\mathcal{F})= id_{\mathcal{F}}$
+$(g \mathcal{G})\circ (\mathcal{G} f)=id_{\mathcal{G}}$
+$\Phi: Hom_{\mathcal{C}}(\mathcal{G}(-),-) \simeq Hom_{\mathcal{D}}(-,\mathcal{F}(-))$
+$f$
+$\Phi$
+$g$
+$\Phi$
+$\Phi: Hom_{\mathcal{C}}(\mathcal{G}(-),-) \simeq Hom_{\mathcal{D}}(-,\mathcal{F}(-))$
+$f$
+$g$
+$\Phi(V,U)(\phi) = \mathcal{F}(\phi) \circ f(V)$
+$U$
+$\mathcal{C}$
+$V$
+$\mathcal{D}$
+$\psi:\mathcal{G}(V) \rightarrow U$
+$\mathcal{C}$
+$\Phi(V,U)^{-1}(\psi)=g(U)\circ \mathcal{G}(\psi)$
+$\psi:V \rightarrow \mathcal{F}(U)$
+$\mathcal{D}$
+$\phi=g(U)\circ \mathcal{G}(\mathcal{F}(\phi)\circ f(V))$
+$\psi=\mathcal{F}(g(U) \circ \mathcal{G}) \circ f(V)$
+$\mathcal{C}$
+$\mathcal{D}$
+$\mathcal{F}:\mathcal{C} \rightarrow \mathcal{D}$
+$\mathcal{G}:\mathcal{D} \rightarrow \mathcal{C}$
+$\mathcal{G}$
+$\mathcal{F}$
+$\mathcal{G}$
+$\mathcal{F}$
+$\mathcal{F}$
+$\mathcal{G}$
+$\mathcal{G}$
+$\mathcal{F}$
+$Ind_L^G$
+$L$
+$G$
+$Res_H^G$
+$H$
+$G$
+$G$
+$H,L$
+$G$
+$k[G]=\bigoplus_{x\in [H\backslash G / L]} k[HxL]$
+$k[HxL]$
+$k[H]-k[L]$
+$x \in G$
+$k[H]-k[L]$
+$k[HxL] \simeq k[H]\otimes_{k[H \,\cap \,^xL]}k[xL]$
+$yxz$
+$y \otimes xz$
+$y \in H$
+$z \in L$
+$B$
+$W$
+$k[L]-B$
+$k[L]-B$
+$k[H]-B$
+$$Res_H^G Ind_L^G(W) \simeq \bigoplus_{x \in [H\backslash G / L]} Ind_{H\,\cap\,^xL}^H Res_{H\, \cap \,^xL}^{^xL}(^xW)$$
+$G$
+$H-L$
+$yxz$
+$y \otimes xz$
+$y,y' \in H$
+$z,z' \in L$
+$yxz=y'xz'$
+$y \otimes xz= y' \otimes xz'$
+$y^{-1}$
+$(xz')^{-1}$
+$y^{-1}y'=xz(z')^{-1}x^{-1} \in H\, \cap \,^x L$
+$w=y^{-1}y'$
+$k(H\, \cap \,^xL)$
+$y \otimes xz= y' \otimes xz'$
+$- \otimes_{k[L]} W$
+$V$
+$Res_{H}^G(Ind_H^G(V))$
+$RHS = (k[H] \otimes_{k[H]} V) \oplus (k[G\backslash H] \otimes_{k[H]} V)$
+$Res_{N}^G(Ind_H^G(V)) = \bigoplus_{x \in [G/N]} \,^xV$
+$N \triangleleft G$
+$G$
+$G$
+$H$
+$G$
+$k[G]$
+$U$
+$k[H]$
+$V$
+$k[G]$
+$$Ind_H^G(V) \otimes_k U \simeq Ind_H^G(V \otimes_k Res_H^G(U))$$
+$(x \otimes v) \otimes u$
+$x \otimes (v \otimes(x^{-1}u))$
+$x \in G, u \in U, v \in V$
+$G$
+$N$
+$G$
+$k$
+$G$
+$N$
+$|G:N|$
+$k$
+$S$
+$k[N]$
+$Ind_N^G(S)$
+$S\, \not\simeq \,^xS$
+$x\in G\backslash N$
+$^xS$
+$k[N]$
+$x \in G$
+$Res_N^GInd_N^G(S) = \bigoplus_{x \in [G/N]}\,^xS$
+$|G:N|$
+$k$
+$Ind_N^G(S)$
+$k$
+$G$
+$Ind_N^G(S)$
+$End_{k[G]}(Ind_N^G(S))$
+$k$
+$$End_{k[G]}(Ind_N^G(S)) = Hom_{k[G]}(Ind_N^G(S),Ind_N^G(S)) \simeq Hom_{k[N]}(S, Res_N^GInd_N^G(S)) = \bigoplus_{x \in [G/N]}Hom_{k[N]}(S,\,^xS)$$
+$S\, \not\simeq \,^xS$
+$x \in G \backslash N$
+$G$
+$U$
+$k[G]$
+$H$
+$G$
+$U^H = \{u \in U : yu=u,\ \forall y \in  H\}$
+$U^H$
+$H$
+$U$
+$H$
+$G$
+$Tr_H^G: U^H \rightarrow U^G$
+$Tr_H^G(u) = \sum_{x \in [G/H]}xu$
+$u \in U$
+$U_H^G = Im(Tr_H^G)$
+$Tr_H^G$
+$H$
+$G$
+$U$
+$M$
+$k[G]$
+$G$
+$M$
+$N_{G}(H)$
+$M^{H}$
+$M^H$
+$k[N_{G}(H)]$
+$k[N_{G}(H)]/H$
+$M$
+$M^H$
+$Mod(k[G])$
+$Mod(k[N_{G}(H)]/H)$
+$Hom_{k[H]}(k,M) \simeq M^H$
+$\phi \mapsto \phi(1_{k})$
+$M \rightarrow M^H$
+$Hom_{k[H]}(k,-)$
+$Tr_{H}^G$
+$G$
+$H$
+$G$
+$V$
+$k[H]$
+$U = Ind_{H}^G(V)$
+$V^H \simeq U^G$
+$v \in V^H$
+$\sum_{x \in [G/H]} x \otimes v$
+$U^G = U^{G}_{H}$
+$V^{H}\simeq Hom_{k[H]}(k,V) \simeq Hom_{k[G]}(k,Ind^{G}_{H}(V)) \simeq (Ind^{G}_{H}(V))^{G}$
+$G$
+$A$
+$G$
+$k$
+$H$
+$G$
+$a \in A^{H}$
+$b \in A^{G}$
+$\mathrm{Tr}_{H}^{G}(a)b= \mathrm{Tr}_{H}^{G}(ab)$
+$b\mathrm{Tr}_{H}^{G}(a)= \mathrm{Tr}_{H}^{G}(ba)$
+$A_{H}^{G}$
+$A^{G}$
+$\mathrm{Tr}_{H}^{G}(a)b = \sum_{x \in [G / H]}(^{x}a)b$
+$b$
+$G$
+$$
+\sum_{x \in [G / H]} (^{x}a)(^{x}b) = \sum _{x \in [G / H]}{^{x}(ab)} =  \mathrm{Tr}_{H}^{G}.$$
+$G$
+$H$
+$G$
+$U$
+$k[G]$
+$k[G]$
+$U$
+$H$
+$k[H]$
+$k[H]$
+$V$
+$U$
+$Ind_{H}^{G}(V)$
+$G$
+$H$
+$G$
+$B$
+$U$
+$k[G]-B$
+$k[G]-B$
+$U$
+$H$
+$U$
+$k[G]-B$
+$Ind_{H}^{G}(Res_{H}^{G}(U))$
+$Ind_{H}^{G}(Res_{H}^{G}(U)) \to U$
+$k[G]-B$
+$x \otimes u$
+$xu$
+$x \in G$
+$u \in U$
+$k[G]-B$
+$M$
+$k[H]-B$
+$\pi :M \rightarrow U$
+$\pi$
+$k[H]-B$
+$\pi$
+$k[G]-B$
+$Id_{U} = \mathrm{Tr}_{H}^{G}(\phi)$
+$k[H]-B$
+$U$
+$U$
+$U$
+$\phi \in (End_{B^{op}}(U))^{H}= End_{{k[H] \otimes_{k} B^{op}}}(U)$
+$Id_{U} = Tr_{H}^{G}(\phi)$
+$\sum_{y \in [G / H]} y \phi (y^{-1}u)=u$
+$u$
+$\mu := u \mapsto \sum_{y \in [G / H]} y \otimes \phi(y^{-1}u)$
+$\mu$
+$\pi$
+$\pi \circ \mu (u) = \pi(\sum_{y \in [G / H]}y\otimes \phi(y^{-1}u)) = \sum_{y \in [G / H]} y \otimes \phi(y^{-1}u) = u$
+$U \simeq \mu(U)$
+$k[G] \otimes_{k[H]} U = Ind_{H}^{G} Res_{H}^{G}(U) = \mu(U) \oplus ker(\pi)$
+$\tau$
+$\pi \circ \tau = id$
+$\eta: k[G]\otimes_{k[H]} U \rightarrow M$
+$\eta(x\otimes u) = x \tau(u)$
+$\eta \circ \sigma$
+$\pi$
+$(\pi \circ \eta)(x \circ u) = \pi(x \tau(u)) = x\pi(\tau(u)) = xu$
+$\pi \circ \eta$
+$k[G] \otimes_{k[H]} U \rightarrow U$
+$\sigma$
+$\pi \circ \eta \circ \sigma = id$
+$\eta \circ \sigma$
+$\pi$
+$k[G]\otimes_{k[H]}U \rightarrow U$
+$k[H]-B$
+$u \mapsto 1\otimes u$
+$Ind_{H}^{G} Res_{H}^{G}(U) \rightarrow U$
+$V$
+$k[H]-B$
+$W = Ind_{H}^{G}(V) = k[G] \otimes_{k[H]} V$
+$\tau \in End_{k[H] \otimes_{k} B^{op}} (W)$
+$\tau(x \otimes v) = x \otimes v$
+$x \in H$
+$\tau(x \otimes v) =0$
+$x \in G \backslash H$
+$v$
+$V$
+$\tau$
+$k[G] \otimes_{k[H]} V = (k[H] \otimes_{k[H]} V) \oplus (k[G \backslash H] \otimes_{k[H]} V)$
+$k[H] \otimes_{k[H]} V \simeq V$
+$Tr_{H}^{G}(\tau)(x \otimes v) = \sum_{y \in [G / H]} y\tau(y^{-1}x\otimes v)$
+$y^{-1}x \in H$
+$y(y^{-1}x \otimes v) = x \otimes v$
+$\tau$
+$Tr_{H}^{G}(\tau) = Id_{W}$
+$U$
+$W$
+$l:U \rightarrow W$
+$\pi: W \rightarrow U$
+$\pi \circ l = Id_{U}$
+$Id_{U} = \pi \circ Id_{W} \circ l = \pi \circ Tr_{H}^{G}(\tau) \circ l = Tr_{H}^{G}(\pi \circ \tau \circ l)$
+$\pi$
+$\tau$
+$G$
+$B = k$
+$B=k$
+$G$
+$H$
+$G$
+$|G:H|$
+$k$
+$k[G]$
+$k[G]$
+$H$
+$M$
+$k[G]$
+$Res_{H}^{G}(M)$
+$M$
+$|G:H|$
+$Id_{M} = Tr_{H}^{G}\left( \frac{1}{|G:H|} Id_{M} \right)$
+$M$
+$Ind_{H}^{G}(Res_{H}^{G}(M))$
+$A,C$
+$B$
+$A$
+$M$
+$A-C$
+$B-C$
+$N$
+$M$
+$A-C$
+$A \otimes_{B} N$
+$A-C$
+$\mu:A \otimes_{B} M \rightarrow M$
+$a \otimes m$
+$am$
+$a \in A$
+$m \in M$
+$N = M$
+$B-C$
+$N$
+$B-C$
+$A \otimes_{B} N = M \oplus M'$
+$A-C$
+$M'$
+$\beta: A \otimes_{B} N \rightarrow A \otimes_{B} M$
+$\beta(m) = \begin{cases}1\otimes m &\text{if } m \in M \\ 0 &\text{if} m \in M'\end{cases}$
+$\tau:A\otimes_{B}N \rightarrow M$
+$\mu \circ \beta = \tau$
+$A-C$
+$\alpha:A\otimes_{B}N \rightarrow A \otimes_{B}M$
+$\alpha(a \otimes n) = a\beta(1\otimes n)$
+$a \in A$
+$n \in N$
+$a \in A$
+$m \in M$
+$$(\mu \circ \alpha)(a \otimes n) = \mu(a\beta(1 \otimes n)) = a\tau(1 \otimes n) = \tau(a \otimes  n)$$
+$\tau$
+$M$
+$\mu \circ \alpha|_{M} = Id_{M}$
+$A$
+$B$
+$A$
+$U$
+$B$
+$B$
+$V$
+$U$
+$A\otimes_{B}V$
+$U$
+$B$
+$B$
+$V$
+$U$
+$Hom_{B}(A,V)$
+$A$
+$(a \cdot \phi)(a') = \phi(a'a)$
+$a,a' \in A$
+$\phi \in Hom_{B}(A,V)$
+$A$
+$B$
+$A$
+$U$
+$A$
+$U$
+$B$
+$A\otimes_{B}U \rightarrow U$
+$a \otimes u$
+$au$
+$A$
+$A$
+$U$
+$B$
+$A$
+$C=0$
+$A \otimes_{B} U \rightarrow U$
+$B$
+$u \in U$
+$1 \otimes u$
+$\psi:W \rightarrow U$
+$A$
+$B$
+$\rho:U\rightarrow W$
+$\psi \circ \rho = Id_{U}$
+$\pi:A\otimes_{B}U \rightarrow U$
+$A$
+$a\otimes u$
+$au$
+$\sigma:U\rightarrow A\otimes_{B}U$
+$\pi \circ \sigma = id_{U}$
+$A$
+$\tau:A\otimes_{B}U \rightarrow W$
+$\tau(a\otimes u) = a\rho(u)$
+$\psi \circ \tau(a\otimes u) = \psi(a\rho(u))= a\psi(\rho(u)) = au = \pi(a\otimes u)$
+$\psi \circ \tau = \pi$
+$\sigma$
+$\psi \circ\tau \circ \sigma = \pi \circ \sigma = Id_{U}$
+$\tau \circ \sigma$
+$\psi$
+$A$
+$B$
+$A$
+$A$
+$B$
+$A$
+$A$
+$B$
+$A$
+$A \otimes_{B} A$
+$A-A$
+\end{document}
+%%Local Variables:
+%%TeX-master: t
+%%End:

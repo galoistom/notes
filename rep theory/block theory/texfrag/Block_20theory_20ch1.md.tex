@@ -669,7 +669,7 @@ $\pi \circ \phi=\psi$
 $Hom_A(P,_): Mod_A \rightarrow Mod_k$
 $A$
 $M$
-\begin{tikzcd}
+\begin{tikzcd}[color=white]
 &0 \arrow[r] &U \arrow[r] &P \arrow[r,"\pi"] &M \arrow[r] &0\\
 &0 \arrow[r] &V \arrow[r] &Q \arrow[r,"\tau"] &M \arrow[r] &0
 \end{tikzcd}
@@ -1235,90 +1235,69 @@ $E=End_{B \otimes D}(W)$
 $C_A(B) \simeq End_{B \otimes D}(V) \simeq M_m(E)$
 $E$
 $dim_k(B \otimes_k D)=dim_E(W)^2dim_k(E)$
-$dim_k(C_A(B))=m$
-$. Their product is euqal to $
-$. This shows that $
-$. Since $
-$, comparing the dimension we know that $
-$. If $
-$ is central simple, then $
-$ is simple. Thus the map $
-$ induced by multiplication in $
-$ is injective. But then this map is an isomorphism as both sides have the same dimension.
-
-**Definition**:
-A algebra $
-$ over a commutative ring $
-$ is called *seperable* if $
-$ is projective as an $
-$-module, or equivalently, as an A-A-bimodule.
-An easy example of this is $
-$ ,which is obviously seperable.
-
-**Proposition**:
-Let $
-$ be a finite-dimensional seperable algebra over a field $
-$. Then $
-$, or equivalently, every left or right $
-$-module is semisimple.
-*Proof*:
-Take $
-$ an $
-$-module then we know that $
-$ splits, tensored with $
-$, one know that $
-$ splits as well, thus $
-$ is a direct summand of $
-$. Note that $
-$ has a basis over $
-$, so $
-$ free $
-$-module, thus $
-$ is projective. Hence all right $
-$-module is projective, so $
-$ is semisimple.
-**Remark**: In the Maschke's theorem, we actually proof that $
-$ is not only semisimple, but seperable in the case of $
-$ exits in $
-$.
-
-**Propositon**:
-Let $
-$ be a field, $
-$ a finite-dimensional seperable $
-$-algebra, and $
-$ a finite-dimensional $
-$-algebra. Then $
-$.
-*Proof*:
-The key observation is $
-$ is a direct summand of $
-$ (where we WOLG assume that $
-$ is semisimple), and then $
-$ is a projective $
-$-module, so any $
-$-module is projective, hance $
-$.
-
-**Proposition**:
-Let $
-$ be a field extension, and let $
-$ be a k-algebra. Then $
-$ is seperable if and only if the $
-$-algebra $
-$ is seperable.
-*Proof*:
-One notice that $
-$. It follows immediately that if $
-$ is seperable, then so is $
-$. If $
-$ is seperable, then the canonical map $
-$ splits. Writhe the image of $
-$ under a section in the form $
-$
-, with $
-$ running over a $
-$-basis of $
+$dim_k(C_A(B))=m^2 dim_k(E)$
+$m^2 dim_k(W)^2=dim_k(V)^2=m^2dim_k(E)$
+$dim_k(A)=dim_k(B)dim_k(C_A(B))$
+$B \subseteq C_A(C_A(B))$
+$B=C_A(C_A(B))$
+$B$
+$B \otimes_k C_A(B)$
+$B \otimes_k C_A(B) \rightarrow A$
+$A$
+$A$
+$k$
+$A$
+$A \otimes_k A^{op}$
+$M_n(k)$
+$A$
+$k$
+$J(A)={0}$
+$A$
+$U$
+$A$
+$A \otimes_k A \rightarrow A$
+$- \otimes_A U$
+$A \otimes_k U \rightarrow U$
+$U$
+$A \otimes_k U$
+$U$
+$k$
+$A \otimes_k U$
+$A$
+$U$
+$A$
+$A$
+$k[G]$
+$|G|^{-1}$
+$k$
+$k$
+$A$
+$k$
+$B$
+$k$
+$J(A \otimes_k B) =A \otimes_k(J(B))$
+$A \otimes_k B$
+$(A \otimes_k B) \otimes_B (A \otimes_k B)$
+$B$
+$A \otimes_k B$
+$B$
+$A \otimes_k B$
+$J(A \otimes_k B)=\{0\}=A \otimes_k J(B)$
+$k'/k$
+$A$
+$A$
+$k'$
+$k' \otimes_k A$
+$(k' \otimes_k A) \otimes_{k'} (k' \otimes_k A) \simeq k' \otimes_k (A \otimes_k A)$
+$A$
+$k' \otimes A$
+$k' \otimes A$
+$k' \otimes_k (A \otimes_k A) \rightarrow k' \otimes_k A$
+$1_{k' \otimes A}$
+$\sum_\lambda \lambda \otimes z_{\lambda}$
+$\lambda \in k'$
+$k$
+$k'4$
 $1$
 $z_\lambda \in A \otimes_k A$
 $A \rightarrow A \otimes_k A$
@@ -1447,7 +1426,7 @@ $\delta_n(x_0) \in Im(\delta_n)$
 $d_n$
 $A$
 $k$
-\begin{tikzcd}
+\begin{tikzcd}[color=white]
 &X_1 \arrow[r,"f_1"] \arrow[d,"a_1"] &X_2 \arrow[r,"f_2"] \arrow[d,"a_2"] &X_3 \arrow[r,"f_3"] \arrow[d,"a_3"] &X_4 \arrow[r,"f_4"] \arrow[d,"a_4"]
 &X_5 \arrow[d,"a_5"]\\
 &Y_1 \arrow[r,"g_1"] &Y_2 \arrow[r,"g_2"] &Y_3 \arrow[r,"g_3"] &Y_4 \arrow[r,"g_4"] &Y_5
@@ -1515,7 +1494,7 @@ $f$
 $f$
 $X \simeq 0$
 $X$
-\begin{tikzcd}
+\begin{tikzcd}[color=white]
 &\cdots \arrow[r,"\delta_{n-1}"] &X_{n-1} \arrow[r,"\delta_{n}"] \arrow[rd,"h_{n-1}"] \arrow[d,"f_{n-1}"] &X_{n} \arrow[r,"\delta_{n+1}"] \arrow[rd,"h_{n}"] \arrow[d,"f_{n}"] &X_{n+1} \arrow[r,"\delta_{n+2}"] \arrow[rd,"h_{n+1}"] \arrow[d,"f_{n+1}"] &X_{n+2} \arrow[r,"\delta_{n+3}"] \arrow[d,"f_{n+2}"] &\cdots\\
 &\cdots \arrow[r,"\epsilon_{n-1}"] &Y_{n-1} \arrow[r,"\epsilon_{n}"] &Y_{n} \arrow[r,"\epsilon_{n+1}"] &Y_{n+1} \arrow[r,"\epsilon_{n+2}"] &Y_{n+2} \arrow[r,"\epsilon_{n+2}"] &\cdots
 \end{tikzcd}
@@ -1557,7 +1536,7 @@ $Y,I$
 $Hom_{Ch(\mathcal{C})}(Y,I) \rightarrow Hom_{Ch(\mathcal{C})}(X,I)$
 $f$
 $Hom_{K(\mathcal{C})}(Y,I) \simeq Hom_{K(\mathcal{C})}(X,I)$
-\begin{tikzcd}
+\begin{tikzcd}[color=white]
 &&X_{n} \arrow[rr,"\delta_n"] \arrow[dd,"f_n"] 
 &&X_{n-1} \arrow[rr,"\delta_{n-1}"] \arrow[dd,"f_{n-1}"] 
 &&X_{n-2} \arrow[dd,"f_{n-2}"]\\
