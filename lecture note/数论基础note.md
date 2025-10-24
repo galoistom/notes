@@ -282,3 +282,10 @@ And $\left( \frac{i}{\pi} \right)_{4}=i^{- \frac{a-1}{2}}$, $\left( \frac{1+i}{\
 >[!note] Main Theorem
 >let $n>0$, be a square free positive integer, $n\not\equiv3\pmod{4}$. Then there exists a monic irreducible polynomial $f_{n}(x)\in \mathbb{Z}[x]$ of degree $h(-4n)$ s.t. if an odd prime $p$ divides neither $n$ nor the discriminant of $f_{n}(x)$, then $\exists x,y \in \mathbb{Z}$, $p=x^{2}+ny^{2}$ $\Longleftrightarrow$ $\left( \frac{-n}{p} \right)=1$ and $f_{n}(x)\equiv0\pmod{p}$ has a solution. 
 >Further more, $f_{n}(x)$ may be chosen to be the minimal polynomial of a real algebraic integer $\alpha$ for which $L=K(\alpha)$ is the hilbert class field of $K=\mathbb{Q}(\sqrt{ -n })$. 
+
+$K$ a number field, $\mathbb{Q}\subset K$ $[K:\mathbb{Q}]=dim_{\mathbb{Q}}K<+\infty$. $O_{K}$ is the integer ring of $K$. 
+
+Fact:
+1. $O_{K}$ is a free $\mathbb{Z}$-module of rank $dim_{\mathbb{Q}}K$.
+2. $O_{K}$ is a subring of $K$, in fact, $K$ is the field of fraction of $O_{K}$. 
+3. If $a\subset O_{K}$, is a nonzero ideal, then $O_{K} / a$ is finite
