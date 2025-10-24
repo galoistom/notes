@@ -313,3 +313,6 @@ fact:
 3. $e_{\mathfrak{q}_{j} / \mathfrak{p}}=e_{j}$ be ramification index. 
 
 **Theorem**: $\sum_{j=1}^{g}e_{j}f_{j}=[L:K]$.
+
+**Theorem**: $K\subseteq L$ finite Galois enxtension $\mathfrak{p}\subseteq O_{K}$, nonzero prime ideal.
+1. Galois group $Gal(L / K)$ acts transitively on the primes of $L$ containing $\mathfrak{p}$. 
