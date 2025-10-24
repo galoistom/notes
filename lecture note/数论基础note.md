@@ -301,3 +301,4 @@ One notice that the residue field $O_{K} / \mathfrak{p}$ is a finite field.
 
 **Proposition**: let $\mathfrak{a}$ be a fractional ideal,
 1. $\mathfrak{a}$ is invertable, i.e. there exists a fractional ideal $\mathfrak{b}$ s.t. $\mathfrak{a}\cdot \mathfrak{b}=O_{K}$. 
+2. there are distinct nonzero prime ideals $\mathfrak{p}_{1}, \cdots,\mathfrak{p}_{r}$, and nonzero integers $\alpha_{1}, \cdots, \alpha_{r}$, s,t, $\mathfrak{a}=\mathfrak{p}_{1}^{\alpha_{1}}\cdots\mathfrak{p}_{r}^{d_{r}}$. 
