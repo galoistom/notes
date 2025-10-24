@@ -302,3 +302,7 @@ One notice that the residue field $O_{K} / \mathfrak{p}$ is a finite field.
 **Proposition**: let $\mathfrak{a}$ be a fractional ideal,
 1. $\mathfrak{a}$ is invertable, i.e. there exists a fractional ideal $\mathfrak{b}$ s.t. $\mathfrak{a}\cdot \mathfrak{b}=O_{K}$. 
 2. there are distinct nonzero prime ideals $\mathfrak{p}_{1}, \cdots,\mathfrak{p}_{r}$, and nonzero integers $\alpha_{1}, \cdots, \alpha_{r}$, s,t, $\mathfrak{a}=\mathfrak{p}_{1}^{\alpha_{1}}\cdots\mathfrak{p}_{r}^{d_{r}}$. 
+
+**Definition**: Let $I_{k}$ be the group of fractional ideals and $P_{K}$ be the subgroup of nonzero principle fractional ideals, and $CL_{K}=I_{K} / P_{K}$. One know that $CL_{K}$ is finite (c.f.[[Finiteness of class number]]). 
+
+Let $L|K$ be a finite extension. $O_{K}\subseteq O_{L}$. then $P\subseteq O_{K}$, nonzero prime ideal, $P\cdot O_{L}=\left\{  \sum_{k=1}^{m}x_{i}y_{i} :m\geq1, \ x_{i}in \right\}$
