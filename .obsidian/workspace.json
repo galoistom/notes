@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "26a122a79fe87647",
+            "id": "f4467d5ec5a91851",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -197,9 +197,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "26a122a79fe87647",
+  "active": "f4467d5ec5a91851",
   "lastOpenFiles": [
     "lecture note/数论基础note.md",
+    "commutative algebra/noetherian and artinian ring.md",
     "algebraic number theory/Dedekind domain.md",
     "Books/代数数论/Algebraic number theory (neukirch).pdf",
     "rep theory/lie group and their representation (reminder).md",
