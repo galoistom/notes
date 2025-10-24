@@ -313,5 +313,3 @@ fact:
 3. $e_{\mathfrak{q}_{j} / \mathfrak{p}}=e_{j}$ be ramification index. 
 
 **Theorem**: $\sum_{j=1}^{g}e_{j}f_{j}=[L:K]$.
-
-*Proof*: Notice that $O_{L} /\mathfrak{p}O_{K}\simeq \prod_{j=1}^{g}O_{L} /\mathfrak{q}_{j}^{e_{j}}$. And $\#O_{L} /q_{j}^{e_{j}}=\prod_{t=1}$
