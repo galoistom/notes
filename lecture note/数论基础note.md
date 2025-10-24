@@ -305,4 +305,13 @@ One notice that the residue field $O_{K} / \mathfrak{p}$ is a finite field.
 
 **Definition**: Let $I_{k}$ be the group of fractional ideals and $P_{K}$ be the subgroup of nonzero principle fractional ideals, and $CL_{K}=I_{K} / P_{K}$. One know that $CL_{K}$ is finite (c.f.[[Finiteness of class number]]). 
 
-Let $L|K$ be a finite extension. $O_{K}\subseteq O_{L}$. then $P\subseteq O_{K}$, nonzero prime ideal, $P\cdot O_{L}=\left\{  \sum_{k=1}^{m}x_{i}y_{i} :m\geq1, \ x_{i}in \right\}$
+Let $L|K$ be a finite extension. $O_{K}\subseteq O_{L}$. then $P\subseteq O_{K}$, nonzero prime ideal, $\mathfrak{p}\cdot O_{L}=\left\{  \sum_{k=1}^{m}x_{i}y_{i} :m\geq1, \ x_{i}\in \mathfrak{p}, y_{i}\in O_{L} \right\}$ be ideals of $O_{L}$, let it be $\mathfrak{q}_{1}^{e_{1}}\cdots \mathfrak{q}_{g}^{e_{g}}$. 
+
+fact:
+1. $\{ q_{i}:1\leq i\leq g \}=\{ \mathfrak{q} \subseteq O_{L}: prime,\ \mathfrak{q}\geq \mathfrak{p} \}$. 
+2. $O_{K} /\mathfrak{p} \hookrightarrow O_{L} /\mathfrak{q}_{j}$, finite extension, let it be $f_{\mathfrak{q}_{i} / \mathfrak{p}}=f_{j}$ 
+3. $e_{\mathfrak{q}_{j} / \mathfrak{p}}=e_{j}$ be ramification index. 
+
+**Theorem**: $\sum_{j=1}^{g}e_{j}f_{j}=[L:K]$.
+
+*Proof*: Notice that $O_{L} /\mathfrak{p}O_{K}\simeq \prod_{j=1}^{g}O_{L} /\mathfrak{q}_{j}^{e_{j}}$. And $\#O_{L} /q_{j}^{e_{j}}=\prod_{t=1}$
