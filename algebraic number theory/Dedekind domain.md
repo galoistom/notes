@@ -2,7 +2,7 @@
 >[!note] Definition
 >An integral domain $A$ is called a dedekin domain if:
 >1. $A$ is noetherain.(c.f.[[noetherian and artinian ring]])
->2. $A$ is integrally closed.
+>2. $A$ is integrally closed. (i.e. $\forall\alpha \in K=frac(A)$, if $\alpha$ is integral in $A$, then $2a$)
 >3. every nonzero prime ideal is maximal
 
 A useful way to check whether $A$ is a dedekin domain: 

@@ -200,6 +200,8 @@
   "active": "26a122a79fe87647",
   "lastOpenFiles": [
     "lecture note/数论基础note.md",
+    "algebraic number theory/Dedekind domain.md",
+    "Books/代数数论/Algebraic number theory (neukirch).pdf",
     "rep theory/lie group and their representation (reminder).md",
     "rep theory/lie algebra (based on gtm9).md",
     "Home.md",
@@ -226,7 +228,6 @@
     "homo algebra/texfrag/prv_Projective_20module_20and_20injective_20module.md.log",
     "homo algebra/texfrag/prv_Projective_20module_20and_20injective_20module.md.ini",
     "homo algebra/texfrag/Projective_20module_20and_20injective_20module.md.tex",
-    "Books/代数数论/Primes of the Form X2 + Ny2 Fermat, Class Field Theory, and Complex Multiplication, With Solutions (David A. Cox) (Z-Library).pdf",
     "lecture note/拓扑学note.md",
     "rep theory/Spectrum.md",
     "templet/tikz.md",
@@ -236,14 +237,12 @@
     "algebraic number theory/Minkowski Lattice Therorem.md",
     "algebraic number theory/Finiteness of class number.md",
     "algebraic number theory/Dirichlet Unit Theorem.md",
-    "algebraic number theory/Dedekind domain.md",
     "algebraic number theory/Absolute value.md",
     "homo algebra/Short exact sequence.md",
     "rep theory/Cohomology on groups.md",
     "homo algebra/Grothendieck group.md",
     "homo algebra/Projective module and injective module.md",
     "homo algebra/First extension group.md",
-    "rep theory/Property of the character table.md",
-    "物理.md"
+    "rep theory/Property of the character table.md"
   ]
 }

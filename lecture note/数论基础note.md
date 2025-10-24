@@ -288,4 +288,6 @@ $K$ a number field, $\mathbb{Q}\subset K$ $[K:\mathbb{Q}]=dim_{\mathbb{Q}}K<+\in
 Fact:
 1. $O_{K}$ is a free $\mathbb{Z}$-module of rank $dim_{\mathbb{Q}}K$.
 2. $O_{K}$ is a subring of $K$, in fact, $K$ is the field of fraction of $O_{K}$. 
-3. If $a\subset O_{K}$, is a nonzero ideal, then $O_{K} / a$ is finite
+3. If $\mathfrak{a}\subset O_{K}$, is a nonzero ideal, then $O_{K} / \mathfrak{a}$ is finite
+4. $O_{K}$ is a [[Dedekind domain]]. 
+5. Any nonzero ideal $\mathfrak{a}$ of $O_{K}$ can be written as a product $\mathfrak{a}=\mathfrak{p}_{1}^{\alpha_{1}}\cdots\mathfrak{p}_{r}^{\alpha ^{r}}$ where $\mathfrak{p}_{i}$ are distinct prime ideals of $O_{K}$. 
