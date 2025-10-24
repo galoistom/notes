@@ -290,13 +290,10 @@ Let $A$ be a k-algebra, and let $P$ be an A-module. The following are equivalent
 Let $A$ be a k-algebra, let $M$ be an A-module and let
 
 ```tikz
-\usepackage{tikz-cd}
-\begin{document}
 \begin{tikzcd}
 &0 \arrow[r] &U \arrow[r] &P \arrow[r,"\pi"] &M \arrow[r] &0\\
 &0 \arrow[r] &V \arrow[r] &Q \arrow[r,"\tau"] &M \arrow[r] &0
 \end{tikzcd}
-\end{document}
 ```
 
 be two exact sequences of A-modules in which $P,Q$ are projective, then $U \oplus Q \simeq V \oplus P$.
@@ -476,7 +473,7 @@ The above theorem does not hold for ring automorphism that does note preserve th
 **Theorem**:
 Let $A$ be a finite-dimensional central simple algebra over a field $k$ and let $B$ be a simple subalgebra of $A$. THen $C_A(B)$ is a simple subalgebra of $A$, we have $dim_k(A)=dim_k(B)dim_k(C_A(B))$ and $C_A(C_A(B))=B$. Moreover, if $B$ is central, then multiplication in $A$ induces an isomorphism of $k$-algebras $B \otimes_k C_A(B) \simeq A$.
 *Proof*:
-Let $V$ be the simple module of $A$ and set $D=End_A(V)$, then we know that there is an positive integer $n$ such that $A\simeq M_n(D^{op})\simeq V^n$. So $dim_k(V)=n\cdot dim_k(D)$, then consider $V$ as $A \otimes_k D$-modules which is still central simple, hence $A \otimes D \rightarrow End_k(V)$ is injective but both sides have dimension $n^2$, so it is an isomorphism. Taking the centralizer of $B$, then we got $C_A(B) \simeq End_{B \otimes D}(V)$. Since $D$ is central simple, the algebra $B \otimes D$ is simple. Thus, if we denote by $W$ a simple $B \otimes_k D$ is simpl then $Res_{B \otimes_k D}^{A \otimes_k D} \simeq W^m$ for some positive integer $m$. We know that $B \otimes_kD \simeq End_E(W)$ where $E=End_{B \otimes D}(W)$. It follows that $C_A(B) \simeq End_{B \otimes D}(V) \simeq M_m(E)$, and this is a simple algebra as $E$ is a division algebra. We have $dim_k(B \otimes_k D)=dim_E(W)^2dim_k(E)$ and $dim_k(C_A(B))=m$2dim_k(E)$. Their product is euqal to $m^2dim_k(W)^2=dim_k(V)^2=m^2dim_k(E)$. This shows that $dim_k(A)=dim_k(B)dim_k(C_A(B))$. Since $B \subseteq C_A(C_A(B))$, comparing the dimension we know that $B=C_A(C_A(B))$. If $B$ is central simple, then $B \otimes_k C_A(B)$ is simple. Thus the map $B \otimes_k C_A(B) \rightarrow A$ induced by multiplication in $A$ is injective. But then this map is an isomorphism as both sides have the same dimension.
+Let $V$ be the simple module of $A$ and set $D=End_A(V)$, then we know that there is an positive integer $n$ such that $A\simeq M_n(D^{op})\simeq V^n$. So $dim_k(V)=n\cdot dim_k(D)$, then consider $V$ as $A \otimes_k D$-modules which is still central simple, hence $A \otimes D \rightarrow End_k(V)$ is injective but both sides have dimension $n^2$, so it is an isomorphism. Taking the centralizer of $B$, then we got $C_A(B) \simeq End_{B \otimes D}(V)$. Since $D$ is central simple, the algebra $B \otimes D$ is simple. Thus, if we denote by $W$ a simple $B \otimes_k D$ is simpl then $Res_{B \otimes_k D}^{A \otimes_k D} \simeq W^m$ for some positive integer $m$. We know that $B \otimes_kD \simeq End_E(W)$ where $E=End_{B \otimes D}(W)$. It follows that $C_A(B) \simeq End_{B \otimes D}(V) \simeq M_m(E)$, and this is a simple algebra as $E$ is a division algebra. We have $dim_k(B \otimes_k D)=dim_E(W)^2dim_k(E)$ and $dim_k(C_A(B))=m^2dim_k(E)$. Their product is euqal to $m^2dim_k(W)^2=dim_k(V)^2=m^2dim_k(E)$. This shows that $dim_k(A)=dim_k(B)dim_k(C_A(B))$. Since $B \subseteq C_A(C_A(B))$, comparing the dimension we know that $B=C_A(C_A(B))$. If $B$ is central simple, then $B \otimes_k C_A(B)$ is simple. Thus the map $B \otimes_k C_A(B) \rightarrow A$ induced by multiplication in $A$ is injective. But then this map is an isomorphism as both sides have the same dimension.
 
 **Definition**:
 A algebra $A$ over a commutative ring $k$ is called *seperable* if $A$ is projective as an $A \otimes_k A^{op}$-module, or equivalently, as an A-A-bimodule.
@@ -535,16 +532,15 @@ Denote by $\delta,\epsilon,\zeta$ the differentials of $X,Y,Z$, respectively. We
 
 Here is a classical example:
 **Lemma**(5-Lemma):
+
 Let $A$ be a $k$-algebra and let
+
 ```tikz
-\usepackage{tikz-cd}
-\begin{document}
 \begin{tikzcd}
 &X_1 \arrow[r,"f_1"] \arrow[d,"a_1"] &X_2 \arrow[r,"f_2"] \arrow[d,"a_2"] &X_3 \arrow[r,"f_3"] \arrow[d,"a_3"] &X_4 \arrow[r,"f_4"] \arrow[d,"a_4"]
 &X_5 \arrow[d,"a_5"]\\
 &Y_1 \arrow[r,"g_1"] &Y_2 \arrow[r,"g_2"] &Y_3 \arrow[r,"g_3"] &Y_4 \arrow[r,"g_4"] &Y_5
 \end{tikzcd}
-\end{document}
 ```
 be a commutative diagram of $A$-modules with ecaxt rows. If $a_1,a_2,a_4,a_5$ are isomorphisms the $a_3$ is an isomorphism.
 
@@ -566,13 +562,10 @@ Let $\mathcal{C}$ bt a abelian category, and let $f,f':(X,\delta) \rightarrow (Y
 4. If $X \simeq 0$ then $X$ is acyclic.
 *Proof*:
 ```tikz
-\usepackage{tikz-cd}
-\begin{document}
 \begin{tikzcd}
 &\cdots \arrow[r,"\delta_{n-1}"] &X_{n-1} \arrow[r,"\delta_{n}"] \arrow[rd,"h_{n-1}"] \arrow[d,"f_{n-1}"] &X_{n} \arrow[r,"\delta_{n+1}"] \arrow[rd,"h_{n}"] \arrow[d,"f_{n}"] &X_{n+1} \arrow[r,"\delta_{n+2}"] \arrow[rd,"h_{n+1}"] \arrow[d,"f_{n+1}"] &X_{n+2} \arrow[r,"\delta_{n+3}"] \arrow[d,"f_{n+2}"] &\cdots\\
 &\cdots \arrow[r,"\epsilon_{n-1}"] &Y_{n-1} \arrow[r,"\epsilon_{n}"] &Y_{n} \arrow[r,"\epsilon_{n+1}"] &Y_{n+1} \arrow[r,"\epsilon_{n+2}"] &Y_{n+2} \arrow[r,"\epsilon_{n+2}"] &\cdots
 \end{tikzcd}
-\end{document}
 ```
 1. note that $\epsilon \circ(h \circ \delta+\epsilon \circ h)=\epsilon \circ h \circ \delta=(h\circ \delta + \epsilon \circ h) \circ \delta$, so the morphism is well defined. In fact, if $x \in ker(\delta)$, then $(h \circ \delta + \epsilon \circ h)(x)=\epsilon \circ h(x) \in im(\epsilon)$, so all $H(X)$ are send to $0$ in $H(Y)$.
 2. Note that if $f \sim f'$, then there is a $h$ such that $f-f'=h \circ \delta + \epsilon \circ h$, using the result of 1), one know that $f-f'$ is 0 morphism form $H(x) \rightarrow H(Y)$, hence $H(f)=H(f')$.
@@ -588,19 +581,17 @@ Let $A$ be a k-algebra, $V$ an A-module, and $(X,\delta)$ a complex of A-modules
 Let $\mathcal{C}$ be an abelian category, let $P$ be a complex of projective objects in $\mathcal{C}$, $I$ an porjective objects in $\mathcal{C}$ and let $0 \longrightarrow X \stackrel{f}{\longrightarrow} Y \stackrel{g}{\longrightarrow} Z \longrightarrow 0$ be a short ecaxt sequence of complexs over $\mathcal{C}$.
 1. Suppose that $X$ is acyalic and that one of $P,Y$ is bounded below. The map $Hom_{Ch(\mathcal{C})}(P,Y) \rightarrow Hom_{Ch(\mathcal{C})}(P,Z)$ given by composition with $g$ is surjective and induces an isomorphism $Hom_{K(\mathcal{C})}(P,Y) \simeq Hom_{K(\mathcal{C})}(P,Z)$.
 2. Suppose that $Z$ is acyclic and that one of $Y,I$ is bounded above. The map $Hom_{Ch(\mathcal{C})}(Y,I) \rightarrow Hom_{Ch(\mathcal{C})}(X,I)$ given by precomposition with $f$ is surjective and induces an isomorphism $Hom_{K(\mathcal{C})}(Y,I) \simeq Hom_{K(\mathcal{C})}(X,I)$.
+
 *Proof*:
+
 ```tikz
-\usepackage{tikz-cd}
-\begin{document}
 \begin{tikzcd}
 &&X_{n} \arrow[rr,"\delta_n"] \arrow[dd,"f_n"] 
 &&X_{n-1} \arrow[rr,"\delta_{n-1}"] \arrow[dd,"f_{n-1}"] 
 &&X_{n-2} \arrow[dd,"f_{n-2}"]\\
-
 &P_{n} \arrow[rr,"\pi_n"] \arrow[rd,"p_n"] \arrow[rddd,"q_n"] 
 &&P_{n-1} \arrow[rr,"\pi_{n-1}"] \arrow[rd,"p_{n-1}"] \arrow[rddd,"q_{n-1}"]
 &&P_{n-2} \arrow[rd,"p_{n-2}"] \arrow[rddd,"q_{n-2}"]\\
-
 &&Y_{n} \arrow[rr,"\epsilon_n"] \arrow[dd,"g_{n}"] 
 &&Y_{n-1} \arrow[rr,"\epsilon_{n-1}"] \arrow[dd,"g_{n-1}"] 
 &&Y_{n-2} \arrow[dd,"g_{n-2}"]\\
@@ -609,7 +600,6 @@ Let $\mathcal{C}$ be an abelian category, let $P$ be a complex of projective obj
 &&Z_{n-1} \arrow[rr,"\zeta_{n-1}"] 
 &&Z_{n-2} 
 \end{tikzcd}
-\end{document}
 ```
 Denote by $\delta,\epsilon,\zeta,\pi$ the differentials of $X,Y,Z,P$. Given any $q:P \rightarrow Z$, we construct a $p:P \rightarrow Y$ such that $q=g \circ p$. In fact, we have $P,Y$ is bounded below, so we can take $p_i=0$ for sufficently small $i$, and now we construct $p$ inductively. Since $P_n$ is projective and $g_n:Y_n \rightarrow Z_n$ is epimorphism, so there is a map $p'_n:P_n \rightarrow Y_n$ with $q_n=g_n \circ p'_n$. We hope to change $p'_n$ a little to fit the commutative condition. Note that $g_{n-1}(p_{n-1}\pi_{n}-\epsilon_{n}p_{n})=0$, so $Im(p_{n-1}\pi_n- \epsilon_np_n) \subset ker(g_{n-1})=Im(f_{n-1})$, so there is a $\sigma:P_n \rightarrow X_{n-1}$ such that $f_{n-1}\sigma=p_{n-1}\pi_n-\epsilon_{n}p_n$. Consider $\epsilon_{n-1}d_{n-1}\sigma=p_{n-2}\pi_{n-1}\pi_{n}-\epsilon_{n-1}\epsilon_{n}p_n=0$, we know that $f_{n-2}\delta_{n-1}\sigma=0$, hence $\delta_{n-1}\sigma=0$, so we can take a $\rho:P_n \rightarrow X_n$ such that $\delta_n\rho=\sigma$. Now we take $p_n=p'_n-f_n\rho$. It is easy to check that it satisfies the condition we need. 
 We only need the check that $p \sim 0$ iff $q \sim 0$. In fact, the => is clear. Conversely, observe first that since $g_{n+1}$ is an epimorphism, any morphism $P_n \rightarrow Z_{n+1}$ lifts to a morphism $P_n \rightarrow Y_{n+1}$, and thus any homotopy $P \rightarrow Z$ lifts to $P \rightarrow Y$. This means that if $q \sim 0$, then there is some chain map homotopy $p':P \rightarrow Y$ such that $p' \sim 0$ and $g \circ p'=q$, but $p'$ need not to be $p$. It suffices to show that $p-p' \sim 0$. Since $g \circ(p-p')=0$, we mat there for assume $q=0$. Then $g \circ p=q=0$, hence we hace a canonical monomorphism $Im(p) \subset ker(g)=Im(f)$. This implies that there is a chain map $u:P \rightarrow X$ such that $fu=p$. It suffices to show that $u \sim 0$. This is again done inductively. We may assume that we hace $u_i=\delta_{i+1}h_i+h_{i-1}\pi_i$ for all $i<n$. Then we have $\delta_n(u_n-h_{n-1}\pi_n)=0$, as $u$ is a chain map. Again, we get a canonical monomorphism $Im(u_n-h_{n-1}\pi_n) \subset ker(\delta_n)=Im(\delta_{n+1})$. Therefore, as $P_n$ is projective, there is $h_n:P_n \rightarrow X_{n+1}$ such that $\delta_{n+1}h_n=u_n-h_{n-1}\pi_n$ as required. This completes the proof of (1). And the proof of (2) is similar.
