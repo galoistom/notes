@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.10.19)  24 OCT 2025 13:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.10.19)  25 OCT 2025 11:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -112,7 +112,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) )
 Beginning to dump on file prv_Block_20theory_20ch1.md.fmt
- (preloaded format=prv_Block_20theory_20ch1.md 2025.10.24)
+ (preloaded format=prv_Block_20theory_20ch1.md 2025.10.25)
 26166 strings of total length 499514
 397238 memory locations dumped; current usage is 386&394608
 24367 multiletter control sequences
