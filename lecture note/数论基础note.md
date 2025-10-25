@@ -316,3 +316,9 @@ fact:
 
 **Theorem**: $K\subseteq L$ finite Galois enxtension $\mathfrak{p}\subseteq O_{K}$, nonzero prime ideal.
 1. Galois group $Gal(L / K)$ acts transitively on the primes of $L$ containing $\mathfrak{p}$. 
+2. $\forall j,j'$, $1\leq j,j'\leq g$, $e_{j}=e_{j'}$, $f_{j}=f_{j'}$, let it be $e,f$, then $efg=[L:K]$. 
+
+*Proof*:
+1. First show that $\mathfrak{q}'\subseteq\bigcup_{\sigma \in Gal(L / K)}\sigma \mathfrak{q}$. Let $x \in \mathfrak{q}'$, then $y:=\prod_{\sigma} \sigma x \in O_{L}\cap L=O_{K}$. Then $y \in O_{K}\cap \mathfrak{q}'=\mathfrak{p}\subseteq \mathfrak{q}$. Thus there is a $\sigma$ s.t. $\sigma ^{-1}x \in \mathfrak{q}$. Therefore $\mathfrak{q'}\subseteq \bigcup_{\sigma}\sigma \mathfrak{q}$. Second ehere is a $\sigma$ s.t. $\mathfrak{q'}\leq \sigma\mathfrak{q}$.
+
+**Definition**: $\mathfrak{p}$ is **ramifies** in $L$ if $e>1$, and **unraminfied** if not.
