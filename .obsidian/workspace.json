@@ -184,6 +184,8 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Home.md",
+    "homo algebra/First extension group.md",
     "lecture note/数论基础note.md",
     "Books/代数数论/Algebraic number theory (neukirch).pdf",
     "rep theory/block theory/#Block theory ch1.md#",
@@ -209,7 +211,6 @@
     "commutative algebra/noetherian and artinian ring.md",
     "rep theory/lie group and their representation (reminder).md",
     "rep theory/lie algebra (based on gtm9).md",
-    "Home.md",
     "rep theory/block theory/Block theory ch1.md",
     "rep theory/Burnside's theorem.md",
     "lecture note/高等代数2 note.md",
@@ -227,7 +228,6 @@
     "homo algebra/Short exact sequence.md",
     "rep theory/Cohomology on groups.md",
     "homo algebra/Grothendieck group.md",
-    "homo algebra/Projective module and injective module.md",
-    "homo algebra/First extension group.md"
+    "homo algebra/Projective module and injective module.md"
   ]
 }
