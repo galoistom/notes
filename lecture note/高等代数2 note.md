@@ -906,7 +906,7 @@ $dimV=n \in \mathbb{Z}_{\geq 1}$, $T \in End(V)$, $Char_T$ splits in $F[x]$, the
 **Remark**:
 there is $f,g \in F[x]$ suck that $F(T)=S$ and $g(T)=N$. Take $V=V_1 \oplus \cdots \oplus V_l$ as before and take $f \equiv \mu_i \pmod{(X-\mu_i)^n}$ if $F[X]$m then $f(T)|_{V_{j}}=\mu_i$ since $(T-\mu_j)^n|_{V_j}=0$, so $f(T)=S$, take $g=X-f$.
 
-# Tenser products
+# Tensor products
 **Idea**: Given a field $F$, $V,W$ a $F$-vector space. Want to form paired vectors $v \otimes w$ such that $V \times W \rightarrow$ some v.s. is bilinear.
 
 The constructiong is somehow canonical.
