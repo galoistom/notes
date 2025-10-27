@@ -104,7 +104,7 @@ We have $C_{2}$ \==> $C_{1}$ + serperable.
 **Theorem**:(lindelof) $T_{3}+C_{2} \implies T_{4}$. 
 
 We focous on 度量空间, in fact, $(X,d)$ satisfies $T_{i}$, i=1,2,3,4, and a serperable measurable space is $C_{2}$. 
-
+	
 **Urysohn's lemma**: If $X$ is normal, $A,B\subset X$ closed, $A\cap B=\varnothing$ then there is a $f:X\rightarrow[0,1]$ s.t. $f(A)=0$ and $f(B)=1$. 
 
 *Proof*: If $X$ is measurable space, $f(x):=\frac{d(x,A)}{d(x,A)+d(x,B)}$ then $f$ is continuous, so $f$ satisfies the condition. Now take $\mathbb{Q}_{0}=[0,1]\cap \mathbb{Q}$. $\mathbb{Q}_{0}$ countable, let it be $\{ r_{1}=1,r_{2}=0,\dots,r_{n},\dots \}$. For each $i$, we construct open set $U_{i}$ suc that if $r_{n}<r_{m}$ then $\overline{U_{n}}\subset \overline{U_{m}}$, and $A\subset U_{n}\subset B^{c}$. We construct using induction, $U_{1}=B^{c}$, then suppose $U_{1},\dots ,U_{n}$ is ready, take $r_{m}=\max\{ r_{l}:l\leq n,\,r_{l}<r_{n+1} \}$ and $r_{k}=\min\{ r_{l}:l\leq n,\,r_{l}>r_{n+1} \}$, both are nonempty, and are disjoint, so by $X$ normal, there is a openset $\overline{U_{m}}\subset U_{n+1}\subset \overline{U_{n+1}}\subset U_{n+1}^{c}\subset U_{k}$. Now define $f:X\rightarrow \mathbb{E}^{1}$ as $f(x)=\sup\{ 0,r_{n}\in \mathbb{Q}_{0}:x \not\in U_{n} \}=\inf\{ 1,r_{n}\in \mathbb{Q}_{0}: x \in U_{n} \}$. To check $f$ continuous, we randomly choose $(a,b)\in \mathbb{E}^{1}$, and a $x \in f^{-1}(a,b)$, we need to check that there is a $U_{x}\subset f^{-1}(a,b)$. 
