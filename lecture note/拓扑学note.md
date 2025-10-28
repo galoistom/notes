@@ -235,4 +235,6 @@ $x \in X$ is called 内点 iff $x$ has a neighbor homeomorphic to $\mathbb{E}^{n
 
 二维流形称为曲面. $S^{2},\ \mathbb{D}^{2},\ \mathbb{E},\ T^{2}$, Mobius 带, klein瓶. 事实上, 正6边形对边同向粘合也是一个环面, 而正八边形,正10边形的对边粘合会形成一个双环面. 
 
-**Theorem**: 任何闭曲面(紧致. 无边界) 都po n g p
+**Theorem**: 任何闭曲面(紧致. 无边界) 都同胚于$S^{2}$, $nT^{2}$, or $mP^{2}$ 这些曲面中任何两个都不同胚. 
+
+**Rado**: 任何闭曲面都从某个多边形两两配对来粘合边界得到.
