@@ -220,3 +220,11 @@ a map $X\rightarrow Y$ is **open(closed)** if it send open(closed) set to open(c
 let $P:X\rightarrow Y$ be a quotient morphism, $Z$ locally compact hausdoff space, then $P\times id:X\times Z\rightarrow Y\times Z$ is a quotient map. 
 
 *Proof*: $f:P\times id$ is obviously surjective and continuous. We ten proof that forall $W \subset Y\times Z$ if $f^{-1}(W)\subset X\times Z$ is open then $W$ is open. take $(y_{0},z)\in W$, we proof that it is 内点. In fact, take $x_{0}\in f^{-1}(y_{0})$, then there is a compact subset $B\subset Z$ containing $z$. 
+
+## Ther product of quotient map:
+**Whitehead**: $p:X\rightarrow Y$, $Z$ locally comapct, then $p\times\mathbb{1}:X\times Z\rightarrow Y\times Z$ is quotient map as well.
+
+# The classification of 曲面
+**Definition**: Hausdorff space is called a $n$ dimensional manifold (流形) if $\forall x \in X$, there is a neighbor that is homeomorphic to $\mathbb{E}^{n}$ or $\mathbb{E}_{+}^{n}=\{ (x_{1}, \cdots, x_{n}):x_{n}\geq0 \}$. We say $X$ is a $n$-manifold in short.
+
+$x \in X$ is called 内点 iff $x$ has a neighbor homeomorphic to $\mathbb{E}^{n}$. otherwise $x$ is 边界点 ($x$ should also have $\phi(x)=0$).  
