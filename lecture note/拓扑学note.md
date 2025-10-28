@@ -227,4 +227,7 @@ let $P:X\rightarrow Y$ be a quotient morphism, $Z$ locally compact hausdoff spac
 # The classification of 曲面
 **Definition**: Hausdorff space is called a $n$ dimensional manifold (流形) if $\forall x \in X$, there is a neighbor that is homeomorphic to $\mathbb{E}^{n}$ or $\mathbb{E}_{+}^{n}=\{ (x_{1}, \cdots, x_{n}):x_{n}\geq0 \}$. We say $X$ is a $n$-manifold in short.
 
-$x \in X$ is called 内点 iff $x$ has a neighbor homeomorphic to $\mathbb{E}^{n}$. otherwise $x$ is 边界点 ($x$ should also have $\phi(x)=0$).  
+$x \in X$ is called 内点 iff $x$ has a neighbor homeomorphic to $\mathbb{E}^{n}$. otherwise $x$ is 边界点 ($x$ should also have $\phi(x)=0$). 
+
+- we need to show $n\neq m$ then $\mathbb{E}^{n} \not\simeq E^{m}$. 
+- **We usually just consider comapct manifold or the inside of it**
