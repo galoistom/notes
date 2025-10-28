@@ -231,3 +231,6 @@ $x \in X$ is called 内点 iff $x$ has a neighbor homeomorphic to $\mathbb{E}^{n
 
 - we need to show $n\neq m$ then $\mathbb{E}^{n} \not\simeq E^{m}$. 
 - **We usually just consider comapct manifold or the inside of it**
+- **If $X$ is a $n$-manifold, then $\partial X\neq \varnothing$ and is $n-1$-manifold**
+
+二维流形称为曲面. $S^{2},\ \mathbb{D}^{2},\ \mathbb{E},\ T^{2}$, Mobius 带, klein瓶. 事实上, 正6边形对边同向粘合也是一个环面, 而正八边形,正10边形的
