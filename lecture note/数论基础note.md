@@ -355,4 +355,10 @@ $$
 3. If $\left( \frac{d_{K}}{p} \right)=-1$, then $p\mathcal{O}_{K}$ is a prime ideal of $\mathcal{O}_{K}$. 
 
 *Proof*: 
-1. If $p$ is a odd prime, then $p|N$, put $\mathfrak{p}=p\mathcal{O}_{K}+\sqrt{ N }\mathcal{O}_{K}$. Then $\mathfrak{p}^{2}=p\mathcal{O}_{K}$. 
+1. If $p$ is a odd prime, then $p|N$, put $\mathfrak{p}=p\mathcal{O}_{K}+\sqrt{ N }\mathcal{O}_{K}$. Then $\mathfrak{p}^{2}=p\mathcal{O}_{K}$. It $p=2$, $N\equiv2\pmod{4}$, put $\mathfrak{p}=2\mathcal{O}_{K}+\sqrt{ N }\mathcal{O}_{K}$. If $N\equiv3\pmod{4}$, then put $\mathfrak{p}=2\mathcal{O}_{K}+(1+\sqrt{ N })\mathcal{O}_{K}$.
+
+## Hilbert class field
+- **Finite prime**: A nonzero prime ideal of $\mathcal{O}_{K}$.
+- **Real infinite prime**: $\sigma:K \hookrightarrow\mathbb{R}$.
+- **Complex infinite prime**: $\sigma:K \hookrightarrow\mathbb{C}$, such that $\sigma(K)\not\subseteq \mathbb{R}$. 
+
