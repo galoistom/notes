@@ -331,3 +331,6 @@ Let $L / K$ be a Galois extension, $\mathfrak{p}\subset \mathcal{O}_{K}$ prime a
 3. $\#I_{\mathfrak{q}}=e_{\mathfrak{q}|\mathfrak{p}}$, $\#D_{\mathfrak{q}}=e_{\mathfrak{q}|\mathfrak{p}}\cdot f_{\mathfrak{q}|\mathfrak{p}}$. 
 
 **Proposition**: $K\subset L$, galois extension, $L=K(\alpha)$ for some $\alpha \in \mathcal{O}_{L}$, $f(x)=min_{K}\alpha$, $f(x)=\mathcal{O}_{K}[\alpha]$, $deg\,f=[L:K]$. Let $\mathfrak{p}$ be a prime of $K$ and $f(x)$ be seperable module $\mathfrak{p}$. 
+1. $\mathfrak{p}$ is unraminfied in $L$. 
+2. Let $f\equiv f_{1}\cdots f_{n}\pmod{\mathfrak{p}}$. $f_{i}\not\equiv f_{j}$, and irreducible. Put $\mathfrak{q}_{i}=\mathfrak{p}\mathcal{O}_{L}+f_{i}(\alpha)\mathcal{O}_{L}$. Then each $\mathfrak{q}_{i}$ is a prime of $L$, $q_{i}\neq \mathfrak{q}_{j}$, and $\mathfrak{p}\cdot \mathcal{O}_{L}=\mathfrak{q}_{1}\cdots\mathfrak{q}_{n}$. with $deg\,f_{i}=deg\,f_{j}$, and is equal to the extension degree.
+3. $\mathfrak{p}$ split completely in $L$ iff $f(x)\equiv0\pmod{\mathfrak{p}}$, has a solution in $\mathcal{O}_{K}$. 
