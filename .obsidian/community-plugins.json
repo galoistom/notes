@@ -1,5 +1,9 @@
 [
   "dataview",
   "obsidian-git",
-  "homepage"
+  "homepage",
+  "obsidian-latex-suite",
+  "my-tikz-render",
+  "various-complements",
+  "obsidian-vimrc-support"
 ]
