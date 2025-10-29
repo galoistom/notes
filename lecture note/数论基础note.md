@@ -334,3 +334,5 @@ Let $L / K$ be a Galois extension, $\mathfrak{p}\subset \mathcal{O}_{K}$ prime a
 1. $\mathfrak{p}$ is unraminfied in $L$. 
 2. Let $f\equiv f_{1}\cdots f_{n}\pmod{\mathfrak{p}}$. $f_{i}\not\equiv f_{j}$, and irreducible. Put $\mathfrak{q}_{i}=\mathfrak{p}\mathcal{O}_{L}+f_{i}(\alpha)\mathcal{O}_{L}$. Then each $\mathfrak{q}_{i}$ is a prime of $L$, $q_{i}\neq \mathfrak{q}_{j}$, and $\mathfrak{p}\cdot \mathcal{O}_{L}=\mathfrak{q}_{1}\cdots\mathfrak{q}_{n}$. with $deg\,f_{i}=deg\,f_{j}$, and is equal to the extension degree.
 3. $\mathfrak{p}$ split completely in $L$ iff $f(x)\equiv0\pmod{\mathfrak{p}}$, has a solution in $\mathcal{O}_{K}$. 
+
+*Proof*: In fact, 1 and 3 are direct consequence of 2. Consider $\mathcal{O}_{K}\subseteq \mathcal{O}_{K}[\alpha]\subseteq \mathcal{O}_{L}$, and put $\mathfrak{q}_{i}'=\mathfrak{p}\mathcal{O}_{K}[\alpha]+(f_{i}(x))$, then $\mathcal{O}_{K}[\alpha] / \mathfrak{q}_{i}'$ is a field and $\mathfrak{p}\cdot \mathcal{O}_{K}[\alpha]=\mathfrak{q}_{1}'\cdots\mathfrak{q}_{n}'$. $\prod_{i=1}^{n}\#(\mathcal{O}_{K}[\alpha] / \mathfrak{q}_{i}')=(\#\mathcal{O}_{K} / \mathfrak{p})^{deg\,f}$. Let $$
