@@ -372,4 +372,6 @@ We call $L$ the hilbert class field of $K$.
 
 **Lemma**: Let $K\subset L$ be a galois extension, and let $\mathfrak{p}\subset \mathcal{O}_{K}$ be a nonzero ideal, let $\mathfrak{q}\subset \mathcal{O}_{L}$ be a nonzero prime ideal containing $\mathfrak{p}$. Then there exists a unique $\sigma \in Gal(L|K)$ such that $\sigma(\alpha)\equiv\alpha ^{N(\mathfrak{p})}\pmod{\mathfrak{q}}$, for all $\alpha \in \mathcal{O}_{L}$ where $N(\mathfrak{p})=\#\mathcal{O}_{K}|\mathfrak{p}$. 
 
-*Proof*: $I_{\mathfrak{q}}\subset D_{\mathfrak{q}}\subset Gal(L )$
+*Proof*: $I_{\mathfrak{q}}\subset D_{\mathfrak{q}}\subset Gal(L / K)$ $\phi:D_{\mathfrak{q}} / I_{\mathfrak{q}}\simeq Gal\left((\mathcal{O}_{L} / \mathfrak{q}) / (\mathcal{O}_{K} / \mathfrak{p})\right)$, since $\mathfrak{p}$ is unraminfied in $L$, then $I_{\mathfrak{q}}=1$. $N(\mathfrak{p})=\#\mathcal{O}_{K} / \mathfrak{p}$, $x\mapsto x^{N(\mathfrak{p})}(x \in \mathcal{O} / \mathfrak{q})$ is a generated of the galois group. There exists a unique $\sigma \in D_{\mathfrak{q}}$ such that $\tilde{\sigma}=\{ x\mapsto x^{N(\mathfrak{p})}:x \in \mathcal{O} / \mathfrak{q} \}$.
+
+Write $\left( \frac{L / K}{\mathfrak{q}} \right)=\sigma$, and call the **Artin symbol of $\mathfrak{p}$**, $\left( \frac{L/K}{\mathfrak{q}} \right)\in Gal(L / K)$, and $\left( \frac{L / K}{\mathfrak{q}} \right)(\alpha)\equiv\alpha ^{N(\mathfrak{p})}\pmod{\mathfrak{q}}$ for all $\alpha$. 
