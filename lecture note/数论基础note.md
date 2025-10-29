@@ -362,3 +362,10 @@ $$
 - **Real infinite prime**: $\sigma:K \hookrightarrow\mathbb{R}$.
 - **Complex infinite prime**: $\sigma:K \hookrightarrow\mathbb{C}$, such that $\sigma(K)\not\subseteq \mathbb{R}$. 
 
+An infinite prime $\sigma$ of $K$ is said to be ramified if $\sigma$ is real but it has an extension to $L$ which is complex. 
+
+**Theorem**: Given a number field $K$, there exists a finite extension $L$ of $K$ such that 
+1. $L$ is an unraminfied abelian extension of $K$.
+2. Any unraminfied abelian extension of $K$ is contained in $L$. 
+
+We call $L$ the hilbert class field of $K$. 
