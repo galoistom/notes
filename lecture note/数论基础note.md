@@ -338,3 +338,21 @@ Let $L / K$ be a Galois extension, $\mathfrak{p}\subset \mathcal{O}_{K}$ prime a
 *Proof*: In fact, 1 and 3 are direct consequence of 2. Consider $\mathcal{O}_{K}\subseteq \mathcal{O}_{K}[\alpha]\subseteq \mathcal{O}_{L}$, and put $\mathfrak{q}_{i}'=\mathfrak{p}\mathcal{O}_{K}[\alpha]+(f_{i}(x))$, then $\mathcal{O}_{K}[\alpha] / \mathfrak{q}_{i}'$ is a field and $\mathfrak{p}\cdot \mathcal{O}_{K}[\alpha]=\mathfrak{q}_{1}'\cdots\mathfrak{q}_{n}'$. $\prod_{i=1}^{n}\#(\mathcal{O}_{K}[\alpha] / \mathfrak{q}_{i}')=(\#\mathcal{O}_{K} / \mathfrak{p})^{deg\,f}$. Let $\mathfrak{q}_{i}'\mathcal{O}_{L}=\prod_{j}\mathfrak{q}_{i,j}$, then $\prod_{i}\prod_{j}\mathcal{O}_{L} / \mathfrak{q}_{i,j}=\#(\mathcal{O}_{K} / \mathfrak{p})^{[L:K]}=\#(\mathcal{O}_{K} / \mathfrak{p})^{deg\,f}$. and we get $\forall i,S_{i}=1$ and $\mathcal{O}_{L} / \mathfrak{q}_{i,1}\simeq \mathcal{O}_{K} / \mathfrak{q}_{i}'$. Hence $\mathfrak{q}_{i,1}=\mathfrak{q}_{i}'\cdot \mathcal{O}_{L}=\mathfrak{p}\cdot \mathcal{O}_{L}+(f_{i}(\alpha))$. 
 
 For the special case of Quadraic fields, $N\neq0,1$ square free, put $K=\mathbb{Q}(\sqrt{ N })$, then the discriminant of $K=\begin{cases}N,\ &N\equiv1\pmod{4}\\4N,\ &N\equiv2,3\pmod{4}\end{cases}$. Then $d_{K}\equiv0,1\pmod{4}$, and $K=\mathbb{Q}(\sqrt{ d_{K} })$, $\mathcal{O}_{K}=\begin{cases}\mathbb{Z}\left[ \frac{1+\sqrt{ N }}{2} \right],\ &N\equiv1\pmod{4}\\\mathbb{Z}[\sqrt{ N }],\ &N\equiv2,3\pmod{4}\end{cases}=\mathbb{Z}\left[ \frac{d_{K}+\sqrt{ d_{K} }}{2} \right]$. 
+
+**Definition**: the Kroneaker symbol $\left( \frac{D}{2} \right)$ by
+$$
+\left( \frac{D}{2} \right)=
+\begin{cases}
+0, &D\equiv0\pmod{4} \\
+1, &D\equiv1\pmod{8} \\
+-1, &D\equiv5\pmod{8}
+\end{cases}
+$$
+
+**Proposition**: $K=\mathbb{Q}(\sqrt{ n })=\mathbb{Q}(\sqrt{ d_{K} })$
+1. If $\left( \frac{d_{K}}{P} \right)=0$, then $p\mathcal{O}_{K}=\mathfrak{p}^{2}$ for some prime ideal $\mathfrak{p}$ of $\mathcal{O}_{K}$.
+2. If $\left( \frac{d_{K}}{p} \right)=1$, then $p\mathcal{O}_{K}=\mathfrak{p}_{1}\mathfrak{p}_{2}$, for some prime ideal $\mathfrak{p}_{1}$, $\mathfrak{p}_{2}$ of $\mathcal{O}_{K}$, $\mathfrak{p}_{1}\neq \mathfrak{p}_{2}$. 
+3. If $\left( \frac{d_{K}}{p} \right)=-1$, then $p\mathcal{O}_{K}$ is a prime ideal of $\mathcal{O}_{K}$. 
+
+*Proof*: 
+1. If $p$ is a odd prime, then $p|N$, put $\mathfrak{p}=p\mathcal{O}_{K}+\sqrt{ N }\mathcal{O}_{K}$. Then $\mathfrak{p}^{2}=p\mathcal{O}_{K}$. 
