@@ -319,7 +319,7 @@ fact:
 2. $\forall j,j'$, $1\leq j,j'\leq g$, $e_{j}=e_{j'}$, $f_{j}=f_{j'}$, let it be $e,f$, then $efg=[L:K]$. 
 
 *Proof*:
-1. First show that $\mathfrak{q}'\subseteq\bigcup_{\sigma \in Gal(L / K)}\sigma \mathfrak{q}$. Let $x \in \mathfrak{q}'$, then $y:=\prod_{\sigma} \sigma x \in O_{L}\cap L=\mathcal{O}_{K}$. Then $y \in \mathcal{O}_{K}\cap \mathfrak{q}'=\mathfrak{p}\subseteq \mathfrak{q}$. Thus there is a $\sigma$ s.t. $\sigma ^{-1}x \in \mathfrak{q}$. Therefore $\mathfrak{q'}\subseteq \bigcup_{\sigma}\sigma \mathfrak{q}$. Second ehere is a $\sigma$ s.t. $\mathfrak{q'}\leq \sigma\mathfrak{q}$.
+1. First show that $\mathfrak{q}'\subseteq\bigcup_{\sigma \in Gal(L / K)}\sigma \mathfrak{q}$. Let $x \in \mathfrak{q}'$, then $y:=\prod_{\sigma} \sigma x \in O_{L}\cap L=\mathcal{O}_{K}$. Then $y \in \mathcal{O}_{K}\cap \mathfrak{q}'=\mathfrak{p}\subseteq \mathfrak{q}$. Thus there is a $\sigma$ s.t. $\sigma ^{-1}x \in \mathfrak{q}$. Therefore $\mathfrak{q'}\subseteq \bigcup_{\sigma}\sigma \mathfrak{q}$. Second there is a $\sigma$ s.t. $\mathfrak{q'}\leq \sigma\mathfrak{q}$.
 
 **Definition**: $\mathfrak{p}$ is **ramifies** in $L$ if $e>1$, and **unraminfied** if not.
 
@@ -327,4 +327,7 @@ Let $L / K$ be a Galois extension, $\mathfrak{p}\subset \mathcal{O}_{K}$ prime a
 
 **proposition**: There is a homomorphism $\phi:\sigma\mapsto \tilde{\sigma}$
 1. $ker\phi=I_{\mathfrak{q}}$.
-2. "$\phi:D_{\mathfrak{q}}$"
+2. "$\phi:D_{\mathfrak{q}}\rightarrow \tilde{G}$" is surjective.
+3. $\#I_{\mathfrak{q}}=e_{\mathfrak{q}|\mathfrak{p}}$, $\#D_{\mathfrak{q}}=e_{\mathfrak{q}|\mathfrak{p}}\cdot f_{\mathfrak{q}|\mathfrak{p}}$. 
+
+**Proposition**: $K\subset L$, galois extension, $L=K(\alpha)$ for some $\alpha \in \mathcal{O}_{L}$, $f(x)=min_{K}\alpha$, $f(x)=\mathcal{O}_{K}[\alpha]$, $deg\,f=[L:K]$. Let $\mathfrak{p}$ be a prime of $K$ and $f(x)$ be seperable module $\mathfrak{p}$. 
