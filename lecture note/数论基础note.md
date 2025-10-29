@@ -369,3 +369,7 @@ An infinite prime $\sigma$ of $K$ is said to be ramified if $\sigma$ is real but
 2. Any unraminfied abelian extension of $K$ is contained in $L$. 
 
 We call $L$ the hilbert class field of $K$. 
+
+**Lemma**: Let $K\subset L$ be a galois extension, and let $\mathfrak{p}\subset \mathcal{O}_{K}$ be a nonzero ideal, let $\mathfrak{q}\subset \mathcal{O}_{L}$ be a nonzero prime ideal containing $\mathfrak{p}$. Then there exists a unique $\sigma \in Gal(L|K)$ such that $\sigma(\alpha)\equiv\alpha ^{N(\mathfrak{p})}\pmod{\mathfrak{q}}$, for all $\alpha \in \mathcal{O}_{L}$ where $N(\mathfrak{p})=\#\mathcal{O}_{K}|\mathfrak{p}$. 
+
+*Proof*: $I_{\mathfrak{q}}\subset D_{\mathfrak{q}}\subset Gal(L )$
