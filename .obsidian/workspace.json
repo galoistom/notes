@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lecture note/数论基础note.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "数论基础note"
+              "title": "Home"
             }
           }
         ]
@@ -158,8 +158,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
         ],
@@ -178,11 +178,13 @@
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "homepage:Open homepage": false
     }
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "lecture note/数论基础note.md",
     "Books/分析/[Evans, Lawrence Craig] Partial Differential Equation.pdf",
     "Books/分析/defferential form and application.pdf",
     "Home.md",
@@ -192,7 +194,6 @@
     "algebraic number theory/Dirichlet Unit Theorem.md",
     "algebraic number theory/Dedekind domain.md",
     "homo algebra/First extension group.md",
-    "lecture note/数论基础note.md",
     "Books/代数数论/Algebraic number theory (neukirch).pdf",
     "rep theory/block theory/#Block theory ch1.md#",
     "rep theory/block theory/texfrag/Block_20theory_20ch1.md.prv/tmpXLM5l0/pr1-1.png",
@@ -203,7 +204,6 @@
     "rep theory/block theory/texfrag/prv_Block_20theory_20ch1.md.ini",
     "rep theory/block theory/texfrag/Block_20theory_20ch1.md.prv/tmpBvLQN2/pr1-1.png",
     "rep theory/block theory/texfrag/Block_20theory_20ch1.md.prv/tmpBvLQN2/preview.dsc",
-    "rep theory/block theory/texfrag/Block_20theory_20ch1.md.prv/tmpBvLQN2",
     "rep theory/block theory/texfrag/Block_20theory_20ch1.md.prv/tmpqPzsJX/pr1-1649.png",
     "rep theory/block theory/texfrag/Block_20theory_20ch1.md.prv/tmpqPzsJX/pr1-1648.png",
     "rep theory/block theory/texfrag/Block_20theory_20ch1.md.prv/tmpqPzsJX/pr1-1647.png",
