@@ -283,16 +283,16 @@ And $\left( \frac{i}{\pi} \right)_{4}=i^{- \frac{a-1}{2}}$, $\left( \frac{1+i}{\
 >let $n>0$, be a square free positive integer, $n\not\equiv3\pmod{4}$. Then there exists a monic irreducible polynomial $f_{n}(x)\in \mathbb{Z}[x]$ of degree $h(-4n)$ s.t. if an odd prime $p$ divides neither $n$ nor the discriminant of $f_{n}(x)$, then $\exists x,y \in \mathbb{Z}$, $p=x^{2}+ny^{2}$ $\Longleftrightarrow$ $\left( \frac{-n}{p} \right)=1$ and $f_{n}(x)\equiv0\pmod{p}$ has a solution. 
 >Further more, $f_{n}(x)$ may be chosen to be the minimal polynomial of a real algebraic integer $\alpha$ for which $L=K(\alpha)$ is the hilbert class field of $K=\mathbb{Q}(\sqrt{ -n })$. 
 
-$K$ a number field, $\mathbb{Q}\subset K$ $[K:\mathbb{Q}]=dim_{\mathbb{Q}}K<+\infty$. $O_{K}$ is the integer ring of $K$. 
+$K$ a number field, $\mathbb{Q}\subset K$ $[K:\mathbb{Q}]=dim_{\mathbb{Q}}K<+\infty$. $\mathcal{O}_{K}$ is the integer ring of $K$. 
 
 Fact:
-1. $O_{K}$ is a free $\mathbb{Z}$-module of rank $dim_{\mathbb{Q}}K$.
-2. $O_{K}$ is a subring of $K$, in fact, $K$ is the field of fraction of $O_{K}$. 
-3. If $\mathfrak{a}\subset O_{K}$, is a nonzero ideal, then $O_{K} / \mathfrak{a}$ is finite
-4. $O_{K}$ is a [[Dedekind domain]]. 
-5. Any nonzero ideal $\mathfrak{a}$ of $O_{K}$ can be written as a product $\mathfrak{a}=\mathfrak{p}_{1}^{\alpha_{1}}\cdots\mathfrak{p}_{r}^{\alpha ^{r}}$ where $\mathfrak{p}_{i}$ are distinct prime ideals of $O_{K}$. 
+1. $\mathcal{O}_{K}$ is a free $\mathbb{Z}$-module of rank $dim_{\mathbb{Q}}K$.
+2. $\mathcal{O}_{K}$ is a subring of $K$, in fact, $K$ is the field of fraction of $\mathcal{O}_{K}$. 
+3. If $\mathfrak{a}\subset \mathcal{O}_{K}$, is a nonzero ideal, then $\mathcal{O}_{K} / \mathfrak{a}$ is finite
+4. $\mathcal{O}_{K}$ is a [[Dedekind domain]]. 
+5. Any nonzero ideal $\mathfrak{a}$ of $\mathcal{O}_{K}$ can be written as a product $\mathfrak{a}=\mathfrak{p}_{1}^{\alpha_{1}}\cdots\mathfrak{p}_{r}^{\alpha ^{r}}$ where $\mathfrak{p}_{i}$ are distinct prime ideals of $\mathcal{O}_{K}$. 
 
-One notice that the residue field $O_{K} / \mathfrak{p}$ is a finite field. 
+One notice that the residue field $\mathcal{O}_{K} / \mathfrak{p}$ is a finite field. 
 
 **Definition**: $\mathfrak{a}\subset K$ is called **fraction ideal** if:
  1. $\mathfrak{a}$ is an additive subgroup.
@@ -300,25 +300,31 @@ One notice that the residue field $O_{K} / \mathfrak{p}$ is a finite field.
  3. As an $O_{k}$-module, $\mathfrak{a}$ is finitely generated. 
 
 **Proposition**: let $\mathfrak{a}$ be a fractional ideal,
-1. $\mathfrak{a}$ is invertable, i.e. there exists a fractional ideal $\mathfrak{b}$ s.t. $\mathfrak{a}\cdot \mathfrak{b}=O_{K}$. 
+1. $\mathfrak{a}$ is invertable, i.e. there exists a fractional ideal $\mathfrak{b}$ s.t. $\mathfrak{a}\cdot \mathfrak{b}=\mathcal{O}_{K}$. 
 2. there are distinct nonzero prime ideals $\mathfrak{p}_{1}, \cdots,\mathfrak{p}_{r}$, and nonzero integers $\alpha_{1}, \cdots, \alpha_{r}$, s,t, $\mathfrak{a}=\mathfrak{p}_{1}^{\alpha_{1}}\cdots\mathfrak{p}_{r}^{d_{r}}$. 
 
 **Definition**: Let $I_{k}$ be the group of fractional ideals and $P_{K}$ be the subgroup of nonzero principle fractional ideals, and $CL_{K}=I_{K} / P_{K}$. One know that $CL_{K}$ is finite (c.f.[[Finiteness of class number]]). 
 
-Let $L|K$ be a finite extension. $O_{K}\subseteq O_{L}$. then $P\subseteq O_{K}$, nonzero prime ideal, $\mathfrak{p}\cdot O_{L}=\left\{  \sum_{k=1}^{m}x_{i}y_{i} :m\geq1, \ x_{i}\in \mathfrak{p}, y_{i}\in O_{L} \right\}$ be ideals of $O_{L}$, let it be $\mathfrak{q}_{1}^{e_{1}}\cdots \mathfrak{q}_{g}^{e_{g}}$. 
+Let $L|K$ be a finite extension. $\mathcal{O}_{K}\subseteq O_{L}$. then $P\subseteq \mathcal{O}_{K}$, nonzero prime ideal, $\mathfrak{p}\cdot O_{L}=\left\{  \sum_{k=1}^{m}x_{i}y_{i} :m\geq1, \ x_{i}\in \mathfrak{p}, y_{i}\in O_{L} \right\}$ be ideals of $O_{L}$, let it be $\mathfrak{q}_{1}^{e_{1}}\cdots \mathfrak{q}_{g}^{e_{g}}$. 
 
 fact:
 1. $\{ q_{i}:1\leq i\leq g \}=\{ \mathfrak{q} \subseteq O_{L}: prime,\ \mathfrak{q}\geq \mathfrak{p} \}$. 
-2. $O_{K} /\mathfrak{p} \hookrightarrow O_{L} /\mathfrak{q}_{j}$, finite extension, let it be $f_{\mathfrak{q}_{i} / \mathfrak{p}}=f_{j}$ 
+2. $\mathcal{O}_{K} /\mathfrak{p} \hookrightarrow O_{L} /\mathfrak{q}_{j}$, finite extension, let it be $f_{\mathfrak{q}_{i} / \mathfrak{p}}=f_{j}$ 
 3. $e_{\mathfrak{q}_{j} / \mathfrak{p}}=e_{j}$ be ramification index. 
 
 **Theorem**: $\sum_{j=1}^{g}e_{j}f_{j}=[L:K]$.
 
-**Theorem**: $K\subseteq L$ finite Galois enxtension $\mathfrak{p}\subseteq O_{K}$, nonzero prime ideal.
+**Theorem**: $K\subseteq L$ finite Galois enxtension $\mathfrak{p}\subseteq \mathcal{O}_{K}$, nonzero prime ideal.
 1. Galois group $Gal(L / K)$ acts transitively on the primes of $L$ containing $\mathfrak{p}$. 
 2. $\forall j,j'$, $1\leq j,j'\leq g$, $e_{j}=e_{j'}$, $f_{j}=f_{j'}$, let it be $e,f$, then $efg=[L:K]$. 
 
 *Proof*:
-1. First show that $\mathfrak{q}'\subseteq\bigcup_{\sigma \in Gal(L / K)}\sigma \mathfrak{q}$. Let $x \in \mathfrak{q}'$, then $y:=\prod_{\sigma} \sigma x \in O_{L}\cap L=O_{K}$. Then $y \in O_{K}\cap \mathfrak{q}'=\mathfrak{p}\subseteq \mathfrak{q}$. Thus there is a $\sigma$ s.t. $\sigma ^{-1}x \in \mathfrak{q}$. Therefore $\mathfrak{q'}\subseteq \bigcup_{\sigma}\sigma \mathfrak{q}$. Second ehere is a $\sigma$ s.t. $\mathfrak{q'}\leq \sigma\mathfrak{q}$.
+1. First show that $\mathfrak{q}'\subseteq\bigcup_{\sigma \in Gal(L / K)}\sigma \mathfrak{q}$. Let $x \in \mathfrak{q}'$, then $y:=\prod_{\sigma} \sigma x \in O_{L}\cap L=\mathcal{O}_{K}$. Then $y \in \mathcal{O}_{K}\cap \mathfrak{q}'=\mathfrak{p}\subseteq \mathfrak{q}$. Thus there is a $\sigma$ s.t. $\sigma ^{-1}x \in \mathfrak{q}$. Therefore $\mathfrak{q'}\subseteq \bigcup_{\sigma}\sigma \mathfrak{q}$. Second ehere is a $\sigma$ s.t. $\mathfrak{q'}\leq \sigma\mathfrak{q}$.
 
 **Definition**: $\mathfrak{p}$ is **ramifies** in $L$ if $e>1$, and **unraminfied** if not.
+
+Let $L / K$ be a Galois extension, $\mathfrak{p}\subset \mathcal{O}_{K}$ prime and $\mathfrak{q}\subset \mathcal{O}_{L}$, with $\mathfrak{p}=\mathfrak{q}\cap \mathcal{O}_{K}$. The decomposition group $D_{\mathfrak{q}}=\{ \sigma \in Gal(L / K): \sigma(\mathfrak{q})=\mathfrak{q} \}$, mertia group $I_{\mathfrak{q}}=\{ \sigma \in D_{\mathfrak{q}}: \sigma \cdot\alpha\equiv\alpha \pmod{\mathfrak{q}},\ \forall\alpha \in \mathcal{O}_{L} \}$, $\tilde{G}=Gal((\mathcal{O}_{L} / \mathfrak{q}) / (\mathcal{O}_{K} / \mathfrak{p}) )$. 
+
+**proposition**: There is a homomorphism $\phi:\sigma\mapsto \tilde{\sigma}$
+1. $ker\phi=I_{\mathfrak{q}}$.
+2. "$\phi:D_{\mathfrak{q}}$"
