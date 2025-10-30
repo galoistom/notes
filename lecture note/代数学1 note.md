@@ -317,7 +317,7 @@ $G$ a $p$-group $\implies$ $Z(G)\neq\{ 1 \}$.
 
 *Proof*: 
 1. Clear.
-2. Connsider the conjugate action of $P$ on $H$. Count $\#H$ by orbits, repeat the proof of 1.
+2. Consider the conjugate action of $P$ on $H$. Count $\#H$ by orbits, repeat the proof of 1.
 3. If $Z(G)\not\subseteq H$, done as $Z(P)\subseteq N_{G}(H)$. If $Z(P)\subseteq H$, take quotient $\overline{H}=H / Z(P)$, $\overline{P} = P / Z(P)$. By induction, the result holds for $(\overline{H},\overline{P})$ then it holds for $(H,P)$. 
 
 In fact, if $H<P$ with index $p$, then $H\triangleleft P$. 
@@ -405,4 +405,5 @@ R / \prod_{i=1}^{r}I_{i} \simeq \prod_{i=1}^{r} R / I_{i}
 $$
 
 *Proof*: 
-One immediately know that $\prod_{i}R$
+1. One immediately know that there is a natural map $\phi :R / \bigcap_{i}I_{i}\rightarrow\prod_{i}R / I_{i}$. So we have to check in the case of pairwise coprime, $\bigcap_{i}I_{i}=\prod_{i}I_{i}$ and $\phi$ is surjective. In fact, using induction, we only have to check the case of $r=2$.
+2. Take $I,J$ coprime, then there is a $x \in I$ and $y \in J$, s.t. $x+y=1$, then consider the map $\phi$ that send $x\mapsto(0,1)$ and $y\mapsto(1,0)$. Then write $R=Rx+Ry$, so it is surjective. Now we only have to check $I\cap J=I\cdot J$, i.e. $I\cap J\subseteq I\cdot J$. Take $z \in I\cap J$, then $z=(x+y)z=xz+yz$, as $xz \in I\cdot J$ and $yz \in I\cdot J$, so we have $z \in I\cdot J$. 
