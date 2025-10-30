@@ -407,3 +407,7 @@ $$
 *Proof*: 
 1. One immediately know that there is a natural map $\phi :R / \bigcap_{i}I_{i}\rightarrow\prod_{i}R / I_{i}$. So we have to check in the case of pairwise coprime, $\bigcap_{i}I_{i}=\prod_{i}I_{i}$ and $\phi$ is surjective. In fact, using induction, we only have to check the case of $r=2$.
 2. Take $I,J$ coprime, then there is a $x \in I$ and $y \in J$, s.t. $x+y=1$, then consider the map $\phi$ that send $x\mapsto(0,1)$ and $y\mapsto(1,0)$. Then write $R=Rx+Ry$, so it is surjective. Now we only have to check $I\cap J=I\cdot J$, i.e. $I\cap J\subseteq I\cdot J$. Take $z \in I\cap J$, then $z=(x+y)z=xz+yz$, as $xz \in I\cdot J$ and $yz \in I\cdot J$, so we have $z \in I\cdot J$. 
+
+**Definition**: $R$ a rings
+1. A 2-sided ideal $I$ of $R$ is **maximal** if there is no ideal between $I$ and $R$.
+2. If $R$ is commutative, an ideal $I$ is **prime** if $ab \in$
