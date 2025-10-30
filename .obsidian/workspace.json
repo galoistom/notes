@@ -184,8 +184,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Zorn's lemma.md",
+    "rep theory/Spectrum.md",
     "lecture note/代数学1 note.md",
+    "Zorn's lemma.md",
     "Home.md",
     "lecture note/数论基础note.md",
     "Books/分析/[Evans, Lawrence Craig] Partial Differential Equation.pdf",
@@ -219,7 +220,6 @@
     "rep theory/block theory/Block theory ch1.md",
     "rep theory/Burnside's theorem.md",
     "lecture note/高等代数2 note.md",
-    "rep theory/Spectrum.md",
     "templet/tikz.md",
     "lecture note/representation note.md",
     "algebraic number theory/Newton polygon.md",

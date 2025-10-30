@@ -414,4 +414,7 @@ $$
 
 **Theorem**: $R$ ring, $I$ a nontrivial ideal, then it is contained in a maximal ideal (this depends on [[Zorn's lemma]]).
 
-*Proof*: just take $S=\{ J\subset R:I\subseteq J \}$, with natural partial order, then $S$ every chain $A$ has a upper bound $\bigcup_{J \in A}J$, 
+*Proof*: just take $S=\{ J\subset R:I\subseteq J \}$, with natural partial order, then $S$ every chain $A$ has a upper bound $\bigcup_{J \in A}J$, so the [[Zorn's lemma]] tells us that $S$ has a maxial element, hence $I$ is contained in a maximal ideal.
+
+**Proposition**: $R$ comm
+1. 
