@@ -312,7 +312,7 @@ fact:
 2. $\mathcal{O}_{K} /\mathfrak{p} \hookrightarrow O_{L} /\mathfrak{q}_{j}$, finite extension, let it be $f_{\mathfrak{q}_{i} / \mathfrak{p}}=f_{j}$ 
 3. $e_{\mathfrak{q}_{j} / \mathfrak{p}}=e_{j}$ be ramification index. 
 
-**Theorem**: $\sum_{j=1}^{g}e_{j}f_{j}=[L:K]$.
+**Theorem**: $\sum_{j=1}^{g}e_{j}f_{j}=[L:K]$.(use the fact that $\mathcal{O}_{L} / \mathfrak{p}\mathcal{O}_{L}\simeq \bigoplus_{i}\mathcal{O}_{L}/\mathfrak{q}_{i}^{e_{i}}$)
 
 **Theorem**: $K\subseteq L$ finite Galois enxtension $\mathfrak{p}\subseteq \mathcal{O}_{K}$, nonzero prime ideal.
 1. Galois group $Gal(L / K)$ acts transitively on the primes of $L$ containing $\mathfrak{p}$. 
