@@ -409,5 +409,7 @@ $$
 2. Take $I,J$ coprime, then there is a $x \in I$ and $y \in J$, s.t. $x+y=1$, then consider the map $\phi$ that send $x\mapsto(0,1)$ and $y\mapsto(1,0)$. Then write $R=Rx+Ry$, so it is surjective. Now we only have to check $I\cap J=I\cdot J$, i.e. $I\cap J\subseteq I\cdot J$. Take $z \in I\cap J$, then $z=(x+y)z=xz+yz$, as $xz \in I\cdot J$ and $yz \in I\cdot J$, so we have $z \in I\cdot J$. 
 
 **Definition**: $R$ a rings
-1. A 2-sided ideal $I$ of $R$ is **maximal** if there is no ideal between $I$ and $R$.
-2. If $R$ is commutative, an ideal $I$ is **prime** if $ab \in$
+1. A 2-sided ideal $I$ of $R$ is **maximal** if there is no ideal between $I$ and $R$. 
+2. If $R$ is commutative, an ideal $I$ is **prime** if $ab \in I$ $\implies$ $a\in I || b \in I$. Or $R / I$ is integal domain. In fact, $R \backslash I$ is closed under multiplication so the localization is possible.
+
+**Theorem**: $R$ ring, $I$ a nontrivial ideal, then it is contained in a maximal ideal \[under Zorn's lemma\]. 
