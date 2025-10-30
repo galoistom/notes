@@ -401,5 +401,8 @@ $$
 
 **General case**: Let $R$ be commutative ring, $I_{1}, \cdots,I_{r}$ be pairwise coprime ideals (i.e. $I_{i}+I_{j}=R$) then we have a ring isomorphism:
 $$
-R / \prod_{i=1}^{r}I_{i} \simeq \prod_{i=1}^{r} R / I_{}
+R / \prod_{i=1}^{r}I_{i} \simeq \prod_{i=1}^{r} R / I_{i}
 $$
+
+*Proof*: 
+One immediately know that $\prod_{i}R$
