@@ -1,0 +1,234 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "4509724f8bf84da7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7a7b303c61786dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "lecture note/高等代数2 note.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "高等代数2 note"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7cce33db84098b16",
+    "type": "split",
+    "children": [
+      {
+        "id": "d1803c97b69bd8a5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d3fc502f2d176c32",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "694ef00191ae70e9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "b3664dfa0e760c23",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "6218cae0885fd46c",
+    "type": "split",
+    "children": [
+      {
+        "id": "ef3086a3cd9ffaae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f7499c66dcca01c6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "rep theory/Brauer's Theorem.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Brauer's Theorem"
+            }
+          },
+          {
+            "id": "88621e014526d7ec",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "rep theory/Brauer's Theorem.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Brauer's Theorem"
+            }
+          },
+          {
+            "id": "087122be129c0ceb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "0a1cdf6e423b94a2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "rep theory/Brauer's Theorem.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Brauer's Theorem"
+            }
+          },
+          {
+            "id": "af8e6cd753171a2c",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false,
+      "homepage:Open homepage": false
+    }
+  },
+  "active": "e7a7b303c61786dc",
+  "lastOpenFiles": [
+    "Home.md",
+    "lecture note/高等代数2 note.md",
+    "lecture note/代数学1 note.md",
+    "algebraic number theory/Dedekind domain.md",
+    "lecture note/数论基础note.md",
+    "rep theory/Spectrum.md",
+    "Zorn's lemma.md",
+    "Books/分析/[Evans, Lawrence Craig] Partial Differential Equation.pdf",
+    "Books/分析/defferential form and application.pdf",
+    "lecture note/拓扑学note.md",
+    "algebraic number theory/Valuations.md",
+    "algebraic number theory/Dirichlet Unit Theorem.md",
+    "homo algebra/First extension group.md",
+    "Books/代数数论/Algebraic number theory (neukirch).pdf",
+    "rep theory/block theory/#Block theory ch1.md#",
+    "rep theory/block theory/texfrag/Block_20theory_20ch1.md.prv/tmpXLM5l0/pr1-1.png",
+    "rep theory/block theory/texfrag/Block_20theory_20ch1.md.prv/tmpXLM5l0/preview.dsc",
+    "rep theory/block theory/texfrag/Block_20theory_20ch1.md.prv/tmpXLM5l0",
+    "rep theory/block theory/texfrag/Block_20theory_20ch1.md.pdf",
+    "rep theory/block theory/texfrag/prv_Block_20theory_20ch1.md.fmt",
+    "rep theory/block theory/texfrag/prv_Block_20theory_20ch1.md.ini",
+    "rep theory/block theory/texfrag/Block_20theory_20ch1.md.prv/tmpBvLQN2/pr1-1.png",
+    "rep theory/block theory/texfrag/Block_20theory_20ch1.md.prv/tmpBvLQN2/preview.dsc",
+    "rep theory/block theory/texfrag/Block_20theory_20ch1.md.prv/tmpqPzsJX/pr1-1649.png",
+    "rep theory/block theory/texfrag/Block_20theory_20ch1.md.prv/tmpqPzsJX/pr1-1648.png",
+    "rep theory/block theory/texfrag/Block_20theory_20ch1.md.prv/tmpqPzsJX/pr1-1647.png",
+    "rep theory/block theory/texfrag/Block_20theory_20ch1.md.prv/tmpqPzsJX/pr1-1646.png",
+    "rep theory/block theory/texfrag/Block_20theory_20ch1.md.prv/tmpqPzsJX/pr1-1645.png",
+    "rep theory/block theory/texfrag/Block_20theory_20ch1.md.prv/tmpqPzsJX/pr1-1644.png",
+    "rep theory/block theory/texfrag/Block_20theory_20ch1.md.prv/tmpqPzsJX/pr1-1643.png",
+    "rep theory/block theory/texfrag/Block_20theory_20ch1.md.prv/tmpqPzsJX/pr1-1642.png",
+    "commutative algebra/noetherian and artinian ring.md",
+    "rep theory/lie group and their representation (reminder).md",
+    "rep theory/lie algebra (based on gtm9).md",
+    "rep theory/block theory/Block theory ch1.md",
+    "rep theory/Burnside's theorem.md",
+    "templet/tikz.md",
+    "lecture note/representation note.md",
+    "algebraic number theory/Newton polygon.md",
+    "algebraic number theory/Minkowski Lattice Therorem.md",
+    "algebraic number theory/Finiteness of class number.md",
+    "algebraic number theory/Absolute value.md",
+    "homo algebra/Short exact sequence.md",
+    "rep theory/Cohomology on groups.md",
+    "homo algebra/Grothendieck group.md",
+    "homo algebra/Projective module and injective module.md"
+  ]
+}
