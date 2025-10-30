@@ -412,4 +412,6 @@ $$
 1. A 2-sided ideal $I$ of $R$ is **maximal** if there is no ideal between $I$ and $R$. 
 2. If $R$ is commutative, an ideal $I$ is **prime** if $ab \in I$ $\implies$ $a\in I || b \in I$. Or $R / I$ is integal domain. In fact, $R \backslash I$ is closed under multiplication so the localization is possible.
 
-**Theorem**: $R$ ring, $I$ a nontrivial ideal, then it is contained in a maximal ideal \[under Zorn's lemma\]. 
+**Theorem**: $R$ ring, $I$ a nontrivial ideal, then it is contained in a maximal ideal (this depends on [[Zorn's lemma]]).
+
+*Proof*: just take $S=\{ J\subset R:I\subseteq J \}$, with natural partial order, then $S$ every chain $A$ has a upper bound $\bigcup_{J \in A}J$, 
