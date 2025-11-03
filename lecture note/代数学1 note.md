@@ -438,3 +438,4 @@ Consider $I=(p)$ be a prime ideal, if $I$ is not maximal, then there is a $I\sub
 **Definition**: A ring is a **Euclidian domain**, if there is a $N:R\rightarrow \mathbb{Z}_{\geq0}$ s.t. $N(0)=0$, and for all $a,b \in R$ $b\neq0$, there is a $q,r \in R$, with $a=bq+r$, and either $N(r)=0$ or $N(r)<N(b)$. (Not very useful). 
 
 One immediately know that $EUD\implies PID\implies UFD$
+
