@@ -422,5 +422,8 @@ $$
 3. Maximal ideal is prime.
 
 **Facts**: 
-1. $f:R\rightarrow S$ a ring homomorphism, let $J\subseteq S$. As a result, $f$ always induces $Spec(R)\rightarrow Spec(S)$, where $Spec$ is the [[Spectrum]] of the ring.
-2. 
+1. $f:R\rightarrow S$ a ring homomorphism, let $J\subseteq S$, then $I=f^{-1}(J)$ is also an ideal. As a result, $f$ always induces $Spec(R)\rightarrow Spec(S)$, where $Spec$ is the [[Spectrum]] of the ring.
+2. $f(I)$ is not necessarily an ideal, just as in topology.
+
+**Definition**:
+An ideal $I\subseteq R$ is called a **principle ideal** if $I=(a)$ for some $a \in R$. A ring $R$ is called a **principle ideal domain** (or PID in short) if all ideals of $R$ are principle.
