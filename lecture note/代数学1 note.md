@@ -433,7 +433,7 @@ An ideal $I\subseteq R$ is called a **principle ideal** if $I=(a)$ for some $a \
 *proof*:
 Consider $I=(p)$ be a prime ideal, if $I$ is not maximal, then there is a $I\subset J\subset R$, $J$ maximal, suppose $J=(m)$, then there is a $n \in R$ s.t. $p=mn$. Since $(p)$ prime, we know $m\in I$ or $n \in I$, hance $n \in I$. Let $n=kp$ for some $k \in R$, then $p=kmp$, so $km=1$, whence $J=(1)=R$ a contradiction.
 
-**Definition**: A ring is a **Unique factorization domain** (or UFD in short), if all $a \in R$ can be uniquely written in the form of $a=u\cdot p_{1}p_{2}\cdots p_{n}$ for some $u$ a unit and $p_{i}$ prime.
+**Definition**: A ring is a **Unique factorization domain** (or UFD in short), if all $a \in R$ can be uniquely written in the form of $a=u\cdot p_{1}p_{2}\cdots p_{n}$ for some $u$ a unit and $p_{i}$ prime (i.e. $(p_{i})$ is prime ideal, but not necessarily irreducible, which is ture in the case of PID).
 
 **Definition**: A ring is a **Euclidian domain**, if there is a $N:R\rightarrow \mathbb{Z}_{\geq0}$ s.t. $N(0)=0$, and for all $a,b \in R$ $b\neq0$, there is a $q,r \in R$, with $a=bq+r$, and either $N(r)=0$ or $N(r)<N(b)$. (Not very useful). 
 
