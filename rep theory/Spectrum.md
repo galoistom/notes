@@ -1,4 +1,4 @@
-Recall that $C$ a commutative ring, then the spectrum of $C$, denoted $Spec(C)$, is the set of prime ideals of $C$. 
+Recall that $C$ a commutative ring, then the spectrum of $C$, denoted $Spec(C)$, is the set of prime ideals of $C$. We can define the topology by defining all closed set to be $V_{I}=\{ \mathfrak{p}: I \subseteq \mathfrak{p} \}$. 
 
 Now let $Cl(G)$ be the set of conjugacy classes of $G$. Then one can identify $A^{Cl(G)}$ as the ring of class function. Then there are natural injection map $A\rightarrow A\otimes R(G)\rightarrow A^{Cl(G)}$, then we get 
 $$

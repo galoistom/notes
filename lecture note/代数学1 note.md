@@ -420,3 +420,7 @@ $$
 1. $I$ is maximal iff $R / I$ is a field.
 2. $I$ is prime iff $R / I$ is integal domain.
 3. Maximal ideal is prime.
+
+**Facts**: 
+1. $f:R\rightarrow S$ a ring homomorphism, let $J\subseteq S$. As a result, $f$ always induces $Spec(R)\rightarrow Spec(S)$, where $Spec$ is the [[Spectrum]] of the ring.
+2. 
