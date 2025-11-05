@@ -387,4 +387,8 @@ When $L / K$ abelian, the artin symbol $\left( \frac{L / K}{\mathfrak{q}} \right
 $$
 \left( \frac{L / K}{\cdot} \right): I_{K} \longrightarrow Gal(L /K) 
 $$
-is surjective, 2
+is surjective, and its kernel is exactly the subgroup $P_{K}$ of fractional ideals. Hence $C(\mathcal{O}_{K})\simeq Gal(L / K)$. 
+
+As a result $\mathfrak{p}$ split completely in $L$ iff $\mathfrak{p}$ is a principle ideal. 
+
+Let $K=\mathbb{Q}(\sqrt{ -n })$ be a imaaginary quadraic field, and $\mathbb{Q}\subseteq K\subseteq L\subseteq \mathbb{C}$, where $L /K$ is hilbert class field. Consider $\tau:\mathbb{C}\rightarrow \mathbb{C}$ complex conjgua
