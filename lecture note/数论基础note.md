@@ -379,4 +379,12 @@ Write $\left( \frac{L / K}{\mathfrak{q}} \right)=\sigma$, and call the **Artin s
 Let $\mathfrak{p}$ be an unraminfied ideal of $\mathcal{O}_{K}$, $\mathfrak{q}\subseteq \mathcal{O}_{L}$ s.t. $\mathfrak{q}\cap \mathcal{O}_{K}=\mathfrak{p}$. 
 1. $\left( \frac{L / K}{\sigma \mathfrak{q}} \right)=\sigma\left( \frac{L / K}{\mathfrak{q}} \right)\sigma ^{-1}$. 
 2. the order of $\left( \frac{L / K }{\mathfrak{q}} \right)=[\mathcal{O}_{L} / \mathfrak{q} : \mathcal{O}_{K} / \mathfrak{p}]=f$. 
-3. $\mathfrak{p}$ splite completely on $L$ iff $\left( \frac{L / K}{\mathfrak{q}} \right)$. 
+3. $\mathfrak{p}$ splite completely on $L$ iff $\left( \frac{L / K}{\mathfrak{q}} \right)=1$. 
+
+When $L / K$ abelian, the artin symbol $\left( \frac{L / K}{\mathfrak{q}} \right)$ depend only on $\mathfrak{p}$, so we will also denote it as $\left( \frac{L /K}{\mathfrak{p}} \right)$ by abuse of notion. 
+
+**Theorem**: $L / K$ hilbert class field, consider the artin map 
+$$
+\left( \frac{L / K}{\cdot} \right): I_{K} \longrightarrow Gal(L /K) 
+$$
+is surjective, 2
