@@ -397,6 +397,8 @@ Let $K=\mathbb{Q}(\sqrt{ -n })$ be a imaaginary quadraic field, and $\mathbb{Q}\
 
 *proof*: $\exists x,y \in \mathbb{Z}$ $p=x^{2}+ny^{2}$ $\Longleftrightarrow$ $p\cdot \mathcal{O}_{K}=\mathfrak{p}\overline{\mathfrak{p}}$ is a principle prime ideal, $\mathfrak{p}\neq \overline{\mathfrak{p}}$. The artin reciporcity theorem tells us that it is equivalent to $p\cdot \mathcal{O}_{L}=\mathfrak{p}\cdot \overline{\mathfrak{p}}$, where $\mathfrak{p}$ prime, hence $\mathfrak{p}$ split, so $p\mathbb{Z}$ splits completely in $L$. 
 
-**Proposition**: $K$ imaaginary quadraic field $L / K$ finite extension and $L / \mathbb{Q}$ Galois, then:
+**Proposition**: $K$ imaaginary quadraic field $L / K$ finite extension and $L / \mathbb{Q}$ Galoisa, $L$ is invariant under conjagutes of complex number, then:
 1. $\exists\alpha \in \mathcal{O}_{L}\cap \mathbb{R}$ s.t. $L=K(\alpha)$. 
-2. $f(x)=min_{K}(\alpha)$. 
+2. $f(x)=min_{K}(\alpha)$. If $p$ is a prime not dividing the discriminant of $f$, then $p$ splits completely in $L$ iff $\left( \frac{d_{K}}{p} \right)=1$ and $f(x)\equiv0\pmod{p}$ has an integer solution.
+
+*Proof*: $o(\tau)=2$, $\tau(L)=L$, $[L:L^{\tau}]=2$, and $L^{\tau}=L\cap \mathbb{R}$, hence $[L\cap \mathbb{R}:\mathbb{Q}]=\frac{1}{2}[L:\mathbb{Q}]=[L:K]$. Choose a generator $\alpha \in \mathcal{O}_{L}\cap \mathbb{R}$ of $L\cap \mathbb{R}$ over $\mathbb{Q}$. Then $deg(f)=[L:K]$, so $L=K(\alpha)$. 
