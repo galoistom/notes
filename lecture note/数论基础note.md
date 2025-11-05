@@ -391,4 +391,6 @@ is surjective, and its kernel is exactly the subgroup $P_{K}$ of fractional idea
 
 As a result $\mathfrak{p}$ split completely in $L$ iff $\mathfrak{p}$ is a principle ideal. 
 
-Let $K=\mathbb{Q}(\sqrt{ -n })$ be a imaaginary quadraic field, and $\mathbb{Q}\subseteq K\subseteq L\subseteq \mathbb{C}$, where $L /K$ is hilbert class field. Consider $\tau:\mathbb{C}\rightarrow \mathbb{C}$ complex conjagutes $(z\mapsto \overline{z})$. Then $\tau(L)=L$ and $L / \mathbb{Q}$ is galois. 
+Let $K=\mathbb{Q}(\sqrt{ -n })$ be a imaaginary quadraic field, and $\mathbb{Q}\subseteq K\subseteq L\subseteq \mathbb{C}$, where $L /K$ is hilbert class field. Consider $\tau:\mathbb{C}\rightarrow \mathbb{C}$ complex conjagutes $(z\mapsto \overline{z})$. Then $\tau(L)=L$ and $L / \mathbb{Q}$ is galois. In fact, $\tau\left( \frac{L / K}{\mathfrak{p}} \right)\tau ^{-1}=\left( \frac{L / K}{\tau(\mathfrak{p})} \right)$ for $\tau \in Gal(L / \mathbb{Q})$ (not just $Gal(L / K)$, but as it is the normal subgroup of $Gal(L / \mathbb{Q})$, so it is bascially the same). 
+
+**Theorem**: Let $p$ be a prime, $n\not\equiv0\pmod{p}$, then there is a $x,y \in \mathbb{Z}$ iff $p\mathbb{Z}$ split completely in $L$. 
