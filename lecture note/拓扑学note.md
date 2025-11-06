@@ -251,3 +251,5 @@ $x \in X$ is called 内点 iff $x$ has a neighbor homeomorphic to $\mathbb{E}^{n
 **Theorem**: 不存在算法, 判断任何两个有限表现群是否同构.
 
 **Definition**: 同伦等价意义不变, $f,g:X\rightarrow Y$ 称为同伦(homotopic)的, 若存在 $H:X\times[0,1]\rightarrow Y$ s.t. $H(x,0)=f(x),\ H(x,1)=g(x)$. 记为 $f\simeq g$, $H$ 为 $f,g$ 的同伦.
+
+**Proposition**: homotopic is a equivalent relation in $\mathfrak{C}(X,Y)=\{ f:X\rightarrow Y|f\ continuous \}$. 
