@@ -415,3 +415,5 @@ Let $K=\mathbb{Q}(\sqrt{ -n })$ be a imaginary quadraic field, and $\mathbb{Q}\s
 
 **Proposition**: (Eisenstein's criterion)
 $R$ integral domain, $\mathfrak{p}\subseteq R$ prime, $f(x)=x^{n}+a_{n-1}x^{n-1}+\cdots+a_{0} \in R[x]$, if $a_{0},\dots,a_{n-1}\in \mathfrak{p}$, $a_{0}\not\in \mathfrak{p}^{2}$, then $f$ is irreducible. 
+
+**Proposition**: $K$ a field, $G\subseteq K^{\times}$ a finite group, then $G$ is cyclic.
