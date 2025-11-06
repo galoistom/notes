@@ -412,3 +412,6 @@ Let $K=\mathbb{Q}(\sqrt{ -n })$ be a imaginary quadraic field, and $\mathbb{Q}\s
 *proof of B*: Just consider $R / \mathfrak{p}[x]$, which is an integal domain, so one of $\overline{f},\overline{g}$ must be 0.
 
 *Proof of A*: take $A=\frac{1}{a}A'$, $B=\frac{1}{b}B'$, then for all $p|ab$, $p|A'$ or $p|B'$, so $\frac{ab}{p}f=A_{1}B_{1}$, and use induction on $ab$. 
+
+**Proposition**: (Eisenstein's criterion)
+$R$ integral domain, $\mathfrak{p}\subseteq R$ prime, $f(x)=x^{n}+a_{n-1}x^{n-1}+\cdots+a_{0} \in R[x]$, if $a_{0},\dots,a_{n-1}\in \mathfrak{p}$, $a_{0}\not\in \mathfrak{p}^{2}$, then $f$ is irreducible. 
