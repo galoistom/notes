@@ -1,7 +1,7 @@
 ---
 updated_at: 2025-10-23T10:40:17.225+08:00
 ---
-#nt #algebra #lectureNote 
+	#nt #algebra #lectureNote 
 >[!note] Main problem
 >Find all prime of the form $x^{2}+ny^{2}$, i.e. find all $p=x^{2}+ny^{2}$
 
@@ -330,7 +330,7 @@ Let $L / K$ be a Galois extension, $\mathfrak{p}\subset \mathcal{O}_{K}$ prime a
 2. "$\phi:D_{\mathfrak{q}}\rightarrow \tilde{G}$" is surjective.
 3. $\#I_{\mathfrak{q}}=e_{\mathfrak{q}|\mathfrak{p}}$, $\#D_{\mathfrak{q}}=e_{\mathfrak{q}|\mathfrak{p}}\cdot f_{\mathfrak{q}|\mathfrak{p}}$. 
 
-**Proposition**: $K\subset L$, galois extension, $L=K(\alpha)$ for some $\alpha \in \mathcal{O}_{L}$, $f(x)=min_{K}\alpha$, $f(x)=\mathcal{O}_{K}[\alpha]$, $deg\,f=[L:K]$. Let $\mathfrak{p}$ be a prime of $K$ and $f(x)$ be seperable module $\mathfrak{p}$. 
+**Proposition**: $K\subset L$, galois extension, $L=K(\alpha)$ for some $\alpha \in \mathcal{O}_{L}$, $f(x)=min_{K}\alpha$, $f(x)\in\mathcal{O}_{K}[x]$, $deg\,f=[L:K]$. Let $\mathfrak{p}$ be a prime of $K$ and $f(x)$ be seperable module $\mathfrak{p}$. 
 1. $\mathfrak{p}$ is unraminfied in $L$. 
 2. Let $f\equiv f_{1}\cdots f_{n}\pmod{\mathfrak{p}}$. $f_{i}\not\equiv f_{j}$, and irreducible. Put $\mathfrak{q}_{i}=\mathfrak{p}\mathcal{O}_{L}+f_{i}(\alpha)\mathcal{O}_{L}$. Then each $\mathfrak{q}_{i}$ is a prime of $L$, $q_{i}\neq \mathfrak{q}_{j}$, and $\mathfrak{p}\cdot \mathcal{O}_{L}=\mathfrak{q}_{1}\cdots\mathfrak{q}_{n}$. with $deg\,f_{i}=deg\,f_{j}$, and is equal to the extension degree.
 3. $\mathfrak{p}$ split completely in $L$ iff $f(x)\equiv0\pmod{\mathfrak{p}}$, has a solution in $\mathcal{O}_{K}$. 
@@ -393,7 +393,7 @@ As a result $\mathfrak{p}$ split completely in $L$ iff $\mathfrak{p}$ is a princ
 
 Let $K=\mathbb{Q}(\sqrt{ -n })$ be a imaginary quadraic field, and $\mathbb{Q}\subseteq K\subseteq L\subseteq \mathbb{C}$, where $L /K$ is hilbert class field. Consider $\tau:\mathbb{C}\rightarrow \mathbb{C}$ complex conjagutes $(z\mapsto \overline{z})$. Then $\tau(L)=L$ and $L / \mathbb{Q}$ is galois. In fact, $\tau\left( \frac{L / K}{\mathfrak{p}} \right)\tau ^{-1}=\left( \frac{L / K}{\tau(\mathfrak{p})} \right)$ for $\tau \in Gal(L / \mathbb{Q})$ (not just $Gal(L / K)$, but as it is the normal subgroup of $Gal(L / \mathbb{Q})$, so it is bascially the same). 
 
-**Theorem**: Let $p$ be a prime, $n\not\equiv0\pmod{p}$, then there is a $x,y \in \mathbb{Z}$ iff $p\mathbb{Z}$ split completely in $L$. 
+**Theorem**: Let $p$ be a prime, $n\not\equiv0\pmod{p}$, then there is a $x,y \in \mathbb{Z}$ s.t. $p=x^{2}+ny^{2}$ iff $p\mathbb{Z}$ split completely in $L$. 
 
 *proof*: $\exists x,y \in \mathbb{Z}$ $p=x^{2}+ny^{2}$ $\Longleftrightarrow$ $p\cdot \mathcal{O}_{K}=\mathfrak{p}\overline{\mathfrak{p}}$ is a principle prime ideal, $\mathfrak{p}\neq \overline{\mathfrak{p}}$. The artin reciporcity theorem tells us that it is equivalent to $p\cdot \mathcal{O}_{L}=\mathfrak{p}\cdot \overline{\mathfrak{p}}$, where $\mathfrak{p}$ prime, hence $\mathfrak{p}$ split, so $p\mathbb{Z}$ splits completely in $L$. 
 
