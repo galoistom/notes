@@ -238,3 +238,16 @@ $x \in X$ is called 内点 iff $x$ has a neighbor homeomorphic to $\mathbb{E}^{n
 **Theorem**: 任何闭曲面(紧致. 无边界) 都同胚于$S^{2}$, $nT^{2}$, or $mP^{2}$ 这些曲面中任何两个都不同胚. 
 
 **Rado**: 任何闭曲面都从某个多边形两两配对来粘合边界得到.
+
+---
+拓扑学: 拓扑空间的分类
+1. 无重复的列出所有情形.
+2. 任何满足条件的空间, 要有办法确定是哪一个.
+
+判断空间是否同胚: 不变量
+1. 强大: 一定能判断出来
+2. 好算
+
+**Theorem**: 不存在算法, 判断任何两个有限表现群是否同构.
+
+**Definition**: 同伦等价意义不变, $f,g:X\rightarrow Y$ 称为同伦(homotopic)的, 若存在 $H:X\times[0,1]\rightarrow Y$ s.t. $H(x,0)=f(x),\ H(x,1)=g(x)$. 记为 $f\simeq g$, $H$ 为 $f,g$ 的同伦.
