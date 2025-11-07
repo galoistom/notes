@@ -403,17 +403,3 @@ Let $K=\mathbb{Q}(\sqrt{ -n })$ be a imaginary quadraic field, and $\mathbb{Q}\s
 
 *Proof*: $o(\tau)=2$, $\tau(L)=L$, $[L:L^{\tau}]=2$, and $L^{\tau}=L\cap \mathbb{R}$, hence $[L\cap \mathbb{R}:\mathbb{Q}]=\frac{1}{2}[L:\mathbb{Q}]=[L:K]$. Choose a generator $\alpha \in \mathcal{O}_{L}\cap \mathbb{R}$ of $L\cap \mathbb{R}$ over $\mathbb{Q}$. Then $deg(f)=[L:K]$, so $L=K(\alpha)$. Let $p$ be a prime dividing the discriminant of $f(x)$. This tells us that $f(x)$ is seperable module $p$. So $p\mathcal{O}_{K}=\mathfrak{p}\overline{\mathfrak{p}}$ iff $\left( \frac{d_{K}}{p} \right)=1$. We may assume that $p$ splits completely in $K$, so that $\mathbb{Z} / p\mathbb{Z}\simeq \mathcal{O}_{K} / \mathfrak{p}$. Since $f(x)$ is seperable over $\mathbb{Z} / p\mathbb{Z}$, it is seperable over $\mathcal{O}_{K} / \mathfrak{p}$, and then we have that $\mathfrak{p}$ splits completely in $L$ iff $f(x)\equiv0\pmod{p}$ in $\mathbb{Z}$. 
 
-**Theorem**: $R$ an integal domain, then $R$ is UFD iff $R[x]$ is a UFD.
-
-**Theorem **: $R$ a UFD, $K=Frac(R)$, assume $f(x)=A(x)B(x)$, with $A,B \in K[x]$, then there is a $r \in K^{\times}$ s.t. $rA,r^{-1}B\in R[x]$. 
-
-**Theorem B**: $R$ commutative, $\mathfrak{p}\subset R$ prime ideal, assume $\mathfrak{p}|(f(x)g(x))$, $f,g \in R[x]$, then $\mathfrak{p}|f$ or $\mathfrak{p}|g$. 
-
-*proof of B*: Just consider $R / \mathfrak{p}[x]$, which is an integal domain, so one of $\overline{f},\overline{g}$ must be 0.
-
-*Proof of A*: take $A=\frac{1}{a}A'$, $B=\frac{1}{b}B'$, then for all $p|ab$, $p|A'$ or $p|B'$, so $\frac{ab}{p}f=A_{1}B_{1}$, and use induction on $ab$. 
-
-**Proposition**: (Eisenstein's criterion)
-$R$ integral domain, $\mathfrak{p}\subseteq R$ prime, $f(x)=x^{n}+a_{n-1}x^{n-1}+\cdots+a_{0} \in R[x]$, if $a_{0},\dots,a_{n-1}\in \mathfrak{p}$, $a_{0}\not\in \mathfrak{p}^{2}$, then $f$ is irreducible. 
-
-**Proposition**: $K$ a field, $G\subseteq K^{\times}$ a finite group, then $G$ is cyclic.

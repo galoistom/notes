@@ -438,3 +438,18 @@ Consider $I=(p)$ be a prime ideal, if $I$ is not maximal, then there is a $I\sub
 **Definition**: A ring is a **Euclidian domain**, if there is a $N:R\rightarrow \mathbb{Z}_{\geq0}$ s.t. $N(0)=0$, and for all $a,b \in R$ $b\neq0$, there is a $q,r \in R$, with $a=bq+r$, and either $N(r)=0$ or $N(r)<N(b)$. (Not very useful). 
 
 One immediately know that (maybe not so immediately :( ) $EUD\implies PID\implies UFD$
+
+**Theorem**: $R$ an integal domain, then $R$ is UFD iff $R[x]$ is a UFD.
+
+**Theorem**: $R$ a UFD, $K=Frac(R)$, assume $f(x)=A(x)B(x)$, with $A,B \in K[x]$, then there is a $r \in K^{\times}$ s.t. $rA,r^{-1}B\in R[x]$. 
+
+**Theorem B**: $R$ commutative, $\mathfrak{p}\subset R$ prime ideal, assume $\mathfrak{p}|(f(x)g(x))$, $f,g \in R[x]$, then $\mathfrak{p}|f$ or $\mathfrak{p}|g$. 
+
+*proof of B*: Just consider $R / \mathfrak{p}[x]$, which is an integal domain, so one of $\overline{f},\overline{g}$ must be 0.
+
+*Proof of A*: take $A=\frac{1}{a}A'$, $B=\frac{1}{b}B'$, then for all $p|ab$, $p|A'$ or $p|B'$, so $\frac{ab}{p}f=A_{1}B_{1}$, and use induction on $ab$. 
+
+**Proposition**: (Eisenstein's criterion)
+$R$ integral domain, $\mathfrak{p}\subseteq R$ prime, $f(x)=x^{n}+a_{n-1}x^{n-1}+\cdots+a_{0} \in R[x]$, if $a_{0},\dots,a_{n-1}\in \mathfrak{p}$, $a_{0}\not\in \mathfrak{p}^{2}$, then $f$ is irreducible. 
+
+**Proposition**: $K$ a field, $G\subseteq K^{\times}$ a finite group, then $G$ is cyclic.
