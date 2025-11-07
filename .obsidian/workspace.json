@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lecture note/代数学1 note.md",
-                "mode": "source",
+                "file": "Home.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "代数学1 note"
+              "title": "Home"
             }
           }
         ]
@@ -183,8 +183,8 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "lecture note/数论基础note.md",
     "lecture note/代数学1 note.md",
+    "lecture note/数论基础note.md",
     "Home.md",
     "Books/代数数论/Primes of the Form X2 + Ny2 Fermat, Class Field Theory, and Complex Multiplication, With Solutions (David A. Cox) (Z-Library).pdf",
     "lecture note/拓扑学note.md",
