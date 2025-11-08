@@ -1,7 +1,7 @@
 ---
 updated_at: 2025-10-23T10:40:17.225+08:00
 ---
-	#nt #algebra #lectureNote 
+#nt #algebra #lectureNote 
 >[!note] Main problem
 >Find all prime of the form $x^{2}+ny^{2}$, i.e. find all $p=x^{2}+ny^{2}$
 
