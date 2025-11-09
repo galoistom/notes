@@ -302,7 +302,7 @@ $$
 
 **Definition**: $G$ a group, $G^{0}=G$, $G^{1}=[G,G]$, $G^{i+1}=[G,G^{i}]$. One immediately notice that $G=G^{0}\geq G^{1}\geq G^{2}\geq\cdots$, is called the **Central series** of $G$. One say that $G$ is nilpotent if $G^{n}=\{ 1 \}$ for some $n$. 
 
-**Definition**; $G$ group, $Z_{0}(G)=\{ 1 \}$, for $i\geq1$ , define $Z_{i+1}(G)$ to be the inverse image of $Z(G / Z_{i}(G))$ in $G$. The chain $\{ 1 \} = Z_{0}(G)\leq Z_{1}(G)\leq\cdots$ is called the **upper central series** of $G$.
+**Definition**: $G$ group, $Z_{0}(G)=\{ 1 \}$, for $i\geq1$ , define $Z_{i+1}(G)$ to be the inverse image of $Z(G / Z_{i}(G))$ in $G$. The chain $\{ 1 \} = Z_{0}(G)\leq Z_{1}(G)\leq\cdots$ is called the **upper central series** of $G$.
 
 ## Structure theorem of nilpotent groups
 **Proposition**: All $p$-groups are nilpotent
@@ -326,7 +326,7 @@ In fact, if $H<P$ with index $p$, then $H\triangleleft P$.
 1. $G$ is nilpotent.
 2. $\forall H<G$, $H<N_{G}(H)$. 
 3. All Sylow subgroups $P_{i}$ are normal.
-4. $G\simeq P_{1}\times\cdots P_{r}$. 
+4. $G\simeq P_{1}\times\cdots\times P_{r}$. 
 
 **Theorem**:(Schur-Zassenhaus)
 $G$ a finite group, $N\triangleleft G$ normal s.t. $gcd(\lvert G \rvert,\lvert G / N \rvert)=1$. $\pi:G\rightarrow G / N$ a quotient map.
