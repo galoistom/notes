@@ -255,3 +255,5 @@ $x \in X$ is called 内点 iff $x$ has a neighbor homeomorphic to $\mathbb{E}^{n
 **Proposition**: homotopic is a equivalent relation in $\mathfrak{C}(X,Y)=\{ f:X\rightarrow Y|f\ continuous \}$. 
 
 若 $f$ 同伦于常值映射, 则称 $f$ 是零伦的. 若 $Y \subseteq \mathbb{E}^{n}$ 凸, 则 $\forall f:X\rightarrow Y$ 零伦. 
+
+Let $A\subseteq X$, $f,g:X\rightarrow Y$ s.t. $f|_{A}=g|_{A}$, if there is $f$ to $g$ a homotopic $H$ s.t. $H(a,t)=f(a)=g(a)$, $\forall a \in A$, and $t \in[0,1]$, then we say that $f,g$ are relative homotopic to $A$, or $f\simeq_{H}g$ rel $A$. 
