@@ -410,3 +410,7 @@ Let $K=\mathbb{Q}(\sqrt{ -n })$ be a imaginary quadraic field, and $\mathbb{Q}\s
 **Example**: $n=-14$, $K=\mathbb{Q}(\sqrt{ -14 })$, $D=-56$, $f(x,y)=x^{2}+14y^{2}$, $\#C(d_{K})=h(-56)=4$, so $C(d_{K})=C_{4}$. And the hilbert class group is $L=K(\alpha)$, $\alpha=\sqrt{ 2\sqrt{ 2 }-1 }$, $f_{14}(x)=(x^{2}+1)^{2}-8$, with discriminant $f_{14}=\pm2^{a}7^{b}=-2^{14}7$.
 
 **Theorem**: $p\neq2,7$, odd prime $\exists x,y \in \mathbb{Z},\ p=x^{2}+14y^{2}$ <==> $\left( \frac{-14}{p} \right)=1$ and $(x^{2}+1)^{2}-8\equiv0\pmod{p}$ has an integer solution.
+
+**Lemma**: $K$ a quadraic field, with discriminant $d_{K}$, $K(\sqrt{ a })$ quadraic extension $a \in \mathbb{Z}$, square free. Then $K\subseteq K(\sqrt{ a })$ is unraminfied iff $a$ can be chosen as $a|d_{K}$ or $a\equiv1\pmod{4}$. 
+
+$k$
