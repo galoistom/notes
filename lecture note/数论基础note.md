@@ -420,3 +420,11 @@ $K\subseteq L$, $Gal(L / K)=C(d_{K})$, $K\subseteq E\subseteq L$, $Gal(L / E)=C(
 2. genus field of $K$ = $K(\sqrt{ p_{1}^{*} }, \cdots, \sqrt{ p_{r}^{*} })$. 
 3. number of genera of primitive positive definte forms of discriminant $d_{K}$ is $2^{\mu-1}$.
 4. principle genus consists of square of classes.
+
+# Orders in an imaginary quadraic field
+
+**Definition**: A subring $\mathcal{O}\subseteq K$ is called an order if $1 \in \mathcal{O}$, $\mathcal{O}$ a subring of $K$, and $\mathcal{O}$ is a finitely generated $\mathbb{Z}$-module with a basis of $K / \mathbb{Q}$. So we know that $\mathbb{Z}\subseteq \mathcal{O}\subseteq \mathcal{O}_{K}$. 
+
+**Lemma**: 
+1. $[\mathcal{O}_{K}:\mathcal{O}]=\# \mathcal{O}_{K} / \mathbb{Q}<+\infty$. 
+2. Write $f=\#\mathcal{O}_{K} / \mathbb{Q}$, then $\mathcal{O}=\mathbb{Z}+f\mathcal{O}_{K}=[1,fw_{K}]=\mathbb{Z}+w_{K}\cdot \mathbb{Z}$, where $w_{K}=\frac{d_{K}+\sqrt{ d_{K} }}{2}\in \mathcal{O}_{K}$. 
