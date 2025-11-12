@@ -406,3 +406,7 @@ Let $K=\mathbb{Q}(\sqrt{ -n })$ be a imaginary quadraic field, and $\mathbb{Q}\s
 **Theorem**: Let $K$ be a imaginary quadraic field of discriminant $d_{K}<0$, then:
 1. If $f(x,y)=ax^{2}+bxy+cy^{2}$ is a primitive positive definte quadraic form of discriminant $d_{K}$, then $[a,(-b+\sqrt{ d_{K} }) / 2]=\{ ma+n(-b+\sqrt{ d_{K} }) / 2:m,n \in \mathbb{Z} \}$. Is an ideal of $\mathcal{O}_{K}$. 
 2. The map sending $f(x,y)$ to $[a,(-b+\sqrt{ d_{K} }) / 2: m,n \in \mathbb{Z}]$ induces an isomorphism between the form class group $C(d_{K})$ and the ideal class group $C(\mathcal{O}_{K})$. Hence the order of $C(\mathcal{O}_{K})$ is the class number $h(\mathcal{O}_{K})$. 
+
+**Example**: $n=-14$, $K=\mathbb{Q}(\sqrt{ -14 })$, $D=-56$, $f(x,y)=x^{2}+14y^{2}$, $\#C(d_{K})=h(-56)=4$, so $C(d_{K})=C_{4}$. And the hilbert class group is $L=K(\alpha)$, $\alpha=\sqrt{ 2\sqrt{ 2 }-1 }$, $f_{14}(x)=(x^{2}+1)^{2}-8$, with discriminant $f_{14}=\pm2^{a}7^{b}=-2^{14}7$.
+
+**Theorem**: $p\neq2,7$, odd prime $\exists x,y \in \mathbb{Z},\ p=x^{2}+14y^{2}$ <==> $\left( \frac{-14}{p} \right)=1$ and $(x^{2}+1)^{2}-8\equiv0\pmod{p}$ has an integer solution.
