@@ -413,4 +413,10 @@ Let $K=\mathbb{Q}(\sqrt{ -n })$ be a imaginary quadraic field, and $\mathbb{Q}\s
 
 **Lemma**: $K$ a quadraic field, with discriminant $d_{K}$, $K(\sqrt{ a })$ quadraic extension $a \in \mathbb{Z}$, square free. Then $K\subseteq K(\sqrt{ a })$ is unraminfied iff $a$ can be chosen as $a|d_{K}$ or $a\equiv1\pmod{4}$. 
 
-$k$
+$K\subseteq L$, $Gal(L / K)=C(d_{K})$, $K\subseteq E\subseteq L$, $Gal(L / E)=C(d_{K})^{2}$, $Gal(E / K)=C(d_{K}) / C(d_{K})^{2}$. 
+
+**Theorem**: $K$ imaginary quadraic field, discriminant = $d_{K}$. $M$ be the number of prime factors of $d_{K}$, $p_{1}, \cdots,p_{r}$ be the prime factors of $d_{K}$. $M=\begin{cases}r,\ &d_{K}\equiv1\pmod{4}\\r+1,\ &d_{K}\equiv0\pmod{4}\end{cases}$.Set $p_{i}^{*}=(-1)^{\frac{p_{i}-1}{2}}p_{i}\equiv1\pmod{4}$. Then
+1. genus field of $K$ = maximal unraminfied extension of $K$ which is an abelian extension of $\mathbb{Q}$.
+2. genus field of $K$ = $K(\sqrt{ p_{1}^{*} }, \cdots, \sqrt{ p_{r}^{*} })$. 
+3. number of genera of primitive positive definte forms of discriminant $d_{K}$ is $2^{\mu-1}$.
+4. principle genus consists of square of classes.
