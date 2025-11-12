@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "Home"
             }
-          },
-          {
-            "id": "519c0faa614d3b31",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.10.3"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.3"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -195,7 +182,7 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "519c0faa614d3b31",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Home.md",
     "lecture note/代数学1 note.md",
