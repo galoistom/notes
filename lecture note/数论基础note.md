@@ -428,3 +428,9 @@ $K\subseteq L$, $Gal(L / K)=C(d_{K})$, $K\subseteq E\subseteq L$, $Gal(L / E)=C(
 **Lemma**: 
 1. $[\mathcal{O}_{K}:\mathcal{O}]=\# \mathcal{O}_{K} / \mathbb{Q}<+\infty$. 
 2. Write $f=\#\mathcal{O}_{K} / \mathbb{Q}$, then $\mathcal{O}=\mathbb{Z}+f\mathcal{O}_{K}=[1,fw_{K}]=\mathbb{Z}+w_{K}\cdot \mathbb{Z}$, where $w_{K}=\frac{d_{K}+\sqrt{ d_{K} }}{2}\in \mathcal{O}_{K}$. 
+
+*Proof*: 
+1. Choose a basis $\{ x_{1},x_{2} \}$ of $K /\mathbb{Q}$, may assume $x_{1},x_{2}\in \mathcal{O}$. $\mathcal{O}_{K}$ is a finitely generated $\mathbb{Z}$-module. Then $\exists n>1$, s.t. $\mathcal{O}_{K}\subseteq \frac{x_{1}}{n}\cdot\mathbb{Z}+\frac{x_{2}}{n}\cdot\mathbb{Z}$, so $\mathcal{O}_{K} / \mathcal{O}$ has at most $n^{2}$ element.
+2. It is easy that $\mathbb{Z}\oplus fw_{K}\cdot\mathbb{Z}\subseteq \mathcal{O}$, with $[\mathcal{O}_{K}:\mathbb{Z}\oplus fw_{K}\cdot \mathbb{Z}]=f$ , so it must be equal. 
+
+**Definition**: call $f=[ca]$
