@@ -269,7 +269,7 @@ One notice that $G / Z(G) \simeq Ad(G) \hookrightarrow Aut(G)$. Then we define $
 3. $G / G^{der}$ is **abelian**, denote it as $G^{ab}$.
 4. In fact, for all $A$ abelian, $G\rightarrow A$, then there is a unique $G^{ab}\rightarrow A$ such that $G\rightarrow G^{ab}\rightarrow A$ commute. (this is the so called "universal property"). 
 
-**Definition**: $G$ group, define $G^{(0)}=G$, $G^{(i+1)}=[G^{(i)},G^{(i)}]$. Then $G=G^{(0)}\geq G^{(1)}\geq G^{2}\geq\cdots$ is called the **derived seires** for $G$. 
+**Definition**: $G$ group, define $G^{(0)}=G$, $G^{(i+1)}=[G^{(i)},G^{(i)}]$. Then $G=G^{(0)}\geq G^{(1)}\geq G^{(2)}\geq\cdots$ is called the **derived seires** for $G$.
 
 **Example**: 
 $$
