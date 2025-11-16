@@ -198,6 +198,7 @@
   "active": "854df4881531ac0f",
   "lastOpenFiles": [
     "lecture note/数论基础note.md",
+    "Books/代数数论/Primes of the Form X2 + Ny2 Fermat, Class Field Theory, and Complex Multiplication, With Solutions (David A. Cox) (Z-Library).pdf",
     "Home.md",
     "lecture note/代数学1 note.md",
     "lecture note/拓扑学note.md",
@@ -206,7 +207,6 @@
     "Untitled.canvas",
     "Zorn's lemma.md",
     "rep theory/block theory/Block theory ch1.md",
-    "Books/代数数论/Primes of the Form X2 + Ny2 Fermat, Class Field Theory, and Complex Multiplication, With Solutions (David A. Cox) (Z-Library).pdf",
     "algebraic number theory/Dedekind domain.md",
     "rep theory/Spectrum.md",
     "rep theory/lie algebra (based on gtm9).md",
@@ -242,7 +242,6 @@
     "algebraic number theory/Minkowski Lattice Therorem.md",
     "algebraic number theory/Finiteness of class number.md",
     "algebraic number theory/Absolute value.md",
-    "homo algebra/Short exact sequence.md",
-    "rep theory/Cohomology on groups.md"
+    "homo algebra/Short exact sequence.md"
   ]
 }
