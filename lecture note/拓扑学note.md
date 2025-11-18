@@ -265,3 +265,8 @@ Now take $x_{o}\in X$, consider $\mathcal{L}=\{ \alpha:[0,1]\rightarrow X: \alph
 When $X$ is path connected, $\pi(X,x)$ does not depend on $x$, so we will write $\pi(X)$ in short. 
 
 How to compute $\pi$? **van-kampen** theorem
+
+**Theorem**: $\omega_{n}:[0,1]\rightarrow S^{1}$, $\omega_{n}(t)=e^{2\pi nti}$, then $\Phi:\mathbb{Z}\rightarrow \pi_{1}(S^{1},1)$ $\Phi(n)=\langle \omega_{n} \rangle$ is an isomorphism. 
+
+*Proof*: Consider $Y \stackrel{p}{\longrightarrow}X$, $A \stackrel{f}{\longrightarrow}X$ continuous, if there is a $\tilde{f}:A\rightarrow Y$, s.t. $f=p\circ \tilde{f}$, then we call $\tilde{f}$ be the **lift** of $f$. 
+1. Given an $\alpha:[0,1]\rightarrow S^{1}$, suppose $\alpha(0)=x_{0} \in S^{1}$, then forall $\tilde{x_{0}} \in p^{-1}(x_{0})$, there is a unique lift $\tilde{\alpha}: [0,1]\rightarrow \mathbb{E}^{1}$, s.t. $\tilde{\alpha}(0)=\tilde{x_{0}}$. 
