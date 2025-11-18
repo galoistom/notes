@@ -261,3 +261,5 @@ Let $A\subseteq X$, $f,g:X\rightarrow Y$ s.t. $f|_{A}=g|_{A}$, if there is $f$ t
 Now take $x_{o}\in X$, consider $\mathcal{L}=\{ \alpha:[0,1]\rightarrow X: \alpha(0)=\alpha(1)=x_{0} \}$, and $\pi(X)=\mathcal{L} / \sim$, one easily check that $\pi$ is well defined. We claime that there is a natural group structure on $\pi(X)$, the addition is obviously the composition of rutine. And the $1_{\pi}$ is the constant map, and inverse is obvious. Now consider $\pi(X,x_{0})$ as a functor $Top\rightarrow Group$. 
 
 **Theorem**: let $f:X\rightarrow Y$ be a 同胚, then the induced map $\pi(X,x_{0})\rightarrow \pi(Y,f(x_{0}))$ is isomorphism.
+
+When $X$ is path connected, $\pi(X,x)$ does not depend on $x$, so we will write $\pi(X)$ in short. 
