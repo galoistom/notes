@@ -272,4 +272,4 @@ How to compute $\pi$? **van-kampen** theorem
 1. Given an $\alpha:[0,1]\rightarrow S^{1}$, suppose $\alpha(0)=x_{0} \in S^{1}$, then forall $\tilde{x_{0}} \in p^{-1}(x_{0})$, there is a unique lift $\tilde{\alpha}: [0,1]\rightarrow \mathbb{E}^{1}$, s.t. $\tilde{\alpha}(0)=\tilde{x_{0}}$. 
 2. forall path based on $x_{0}$ homotopic $f_{t}:[0,1]\rightarrow S^{1}$ and $\tilde{x_{0}} \in p^{-1}(x_{0})$, then there is a unique homotopic based on $\tilde{x_{0}}$ $\tilde{f_{t}}:[0,1]\rightarrow \mathbb{E}^{1}$, s.t. $f_{t}=p\circ f_{t}$. 
 
-**Lemma**: Given $F:X\times[0,1]\rightarrow S^{1}$ and $\tilde{F_{0}}:X\rightarrow \mathbb{E}^{1}$ if $F(X,0)=p\circ\tilde{F_{0}}(X)$, then for all $x \in X$, there exi
+**Lemma**: Given $F:X\times[0,1]\rightarrow S^{1}$ and $\tilde{F_{0}}:X\rightarrow \mathbb{E}^{1}$ if $F(X,0)=p\circ\tilde{F_{0}}(X)$, then for all $x \in X$, there exists a unique morphism $\tilde{F}:X\times[0,1]\rightarrow \mathbb{E}^{1}$ s.t. $F=p\circ \tilde{F}$, whose restriction to $X\times \{ 0 \}$ is $\tilde{F_{0}}$. 
