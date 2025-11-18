@@ -263,3 +263,5 @@ Now take $x_{o}\in X$, consider $\mathcal{L}=\{ \alpha:[0,1]\rightarrow X: \alph
 **Theorem**: let $f:X\rightarrow Y$ be a 同胚, then the induced map $\pi(X,x_{0})\rightarrow \pi(Y,f(x_{0}))$ is isomorphism.
 
 When $X$ is path connected, $\pi(X,x)$ does not depend on $x$, so we will write $\pi(X)$ in short. 
+
+How to compute $\pi$? **van-kampen** theorem
