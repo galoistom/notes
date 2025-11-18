@@ -274,3 +274,5 @@ How to compute $\pi$? **van-kampen** theorem
 3. Consider the lift $\tilde{\omega_{n}}:[0,1]\rightarrow \mathbb{E}^{1}$, sending $\tilde{\omega_{n}}(t)=nt$ coinside with $\tilde{f}:[0,1]\rightarrow \mathbb{E}^{1}$. So we are able to check $\Phi$ is a bijective homomorphism.
 
 **Lemma**: Given $F:X\times[0,1]\rightarrow S^{1}$ and $\tilde{F_{0}}:X\rightarrow \mathbb{E}^{1}$ if $F(X,0)=p\circ\tilde{F_{0}}(X)$, then for all $x \in X$, there exists a unique morphism $\tilde{F}:X\times[0,1]\rightarrow \mathbb{E}^{1}$ s.t. $F=p\circ \tilde{F}$, whose restriction to $X\times \{ 0 \}$ is $\tilde{F_{0}}$. 
+
+**Proposition**: Let $X=U\cup V$, $U,V$ open and connected, if $U\cap V$ is path connected, then $\pi(X)\simeq \{ 1 \}$. 
