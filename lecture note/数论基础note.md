@@ -434,3 +434,9 @@ $K\subseteq L$, $Gal(L / K)=C(d_{K})$, $K\subseteq E\subseteq L$, $Gal(L / E)=C(
 2. It is easy that $\mathbb{Z}\oplus fw_{K}\cdot\mathbb{Z}\subseteq \mathcal{O}$, with $[\mathcal{O}_{K}:\mathbb{Z}\oplus fw_{K}\cdot \mathbb{Z}]=f$ , so it must be equal. 
 
 **Definition**: call $f=[\mathcal{O}_{K}:\mathcal{O}]$ be the conductor of $\mathcal{O}$, write $\mathcal{O}=\alpha \cdot\mathbb{Z}+\beta \cdot \mathbb{Z}$, and define the **discriminant** of $\mathcal{O}$ to be $D=\left(\det \begin{pmatrix}\alpha&\beta\\\alpha'&\beta'\end{pmatrix}\right)^{2}$, wherer $\alpha=1,\beta=f\cdot \frac{d_{K}+\sqrt{ d_{K} }}{2}$, so $D=f\cdot d_{K}^{2}$. 
+
+**Lemma**: $K=\mathbb{Q}(\tau)$ imaginary quadraic field, "$ax^{2}+bxy+cy^{2}$" = minimal polynomial of $\tau$, then $[1,\tau]=\mathbb{Z}\oplus \mathbb{Z}\tau$ is the proper fractional ideal of the order $[1,a\tau]$ of $K$. 
+
+*Proof*: 
+1. We only have to show that $[1,a\tau]$ is a subring of $\mathcal{O}_{K}$. Minimal polynomial of $a\tau$ is $x^{2}+bxy+ac$, then $a\tau \in \mathcal{O}_{K}$. 
+2. $a\tau \cdot 1=a\tau \in[1,\tau]$, 
