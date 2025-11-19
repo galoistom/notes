@@ -452,4 +452,4 @@ $\mathcal{O}\subseteq \mathcal{O}_{K}$, $f=\#\mathcal{O}_{K} / \mathcal{O}$ cand
 2. The map $ax^{2}+bxy+cy^{2}\mapsto\left[ a, \frac{-b+\sqrt{ D }}{2} \right]$ induces an isomorphism between "$C(D)$" and "$C(\mathcal{O})$". 
 3. A positive integer $m$ is represented by a form $f(x,y)$ iff $m=N(\mathfrak{a})$ of some proper ideal $\mathfrak{a}$ of $\mathcal{O}$. 
 
-**Remark**: $\mathcal{a}\subseteq \mathcal{O}$, proper 
+**Remark**: $\mathcal{a}\subseteq \mathcal{O}$, proper ideal, $\mathfrak{a}^{-1}=\frac{1}{N(\mathfrak{a})}\overline{\mathfrak{a}}$. Write $\mathfrak{a}=\alpha[1,\tau]$, $\mathcal{O}=[1,a\tau]$, $\overline{\mathfrak{a}}=\alpha'[1,\tau']$. Then $\mathfrak{a}\cdot \overline{\mathfrak{a}}=N(\alpha)\left[ 1,\tau,-\frac{b}{a}\tau, \frac{c}{a}  \right]= \frac{N(\alpha)}{a}\mathcal{O}$. 
