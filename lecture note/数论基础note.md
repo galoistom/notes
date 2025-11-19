@@ -447,4 +447,9 @@ $\mathcal{O}\subseteq \mathcal{O}_{K}$, $f=\#\mathcal{O}_{K} / \mathcal{O}$ cand
 
 **Theorem**: $K$ imaginary quadraic field $\mathcal{O}\subseteq \mathcal{O}_{K}$, order $f=\#(\mathcal{O}_{K} / \mathcal{O})$, $D=\text{discriminant of }\mathcal{O}=f^{2}d_{K}$. 
 
-*Proof*: If $f(x,y)=ax^{2}+bxy+cy^{2}$ is a primitive positive definte form of discriminant $D$, then $\left[ a, \frac{-b+\sqrt{ D }}{2} \right]$ is a proper ideal of $D$. $\mathcal{O}_{K}=\left[1, \frac{d_{K}+\sqrt{ d_{K} }}{2} \right]$, $\mathcal{O}=\left[ 1,f\cdot \frac{d_{K}+\sqrt{D}}{2} \right]$, so $2|b-f\cdot d_{K}$, $D=b^{2}-4ac=f^{2}d_{K}$. 
+*Proof*:
+1. If $f(x,y)=ax^{2}+bxy+cy^{2}$ is a primitive positive definte form of discriminant $D$, then $\left[ a, \frac{-b+\sqrt{ D }}{2} \right]$ is a proper ideal of $D$. $\mathcal{O}_{K}=\left[1, \frac{d_{K}+\sqrt{ d_{K} }}{2} \right]$, $\mathcal{O}=\left[ 1,f\cdot \frac{d_{K}+\sqrt{D}}{2} \right]$, so $2|b-f\cdot d_{K}$, $D=b^{2}-4ac=f^{2}d_{K}$. 
+2. The map $ax^{2}+bxy+cy^{2}\mapsto\left[ a, \frac{-b+\sqrt{ D }}{2} \right]$ induces an isomorphism between "$C(D)$" and "$C(\mathcal{O})$". 
+3. A positive integer $m$ is represented by a form $f(x,y)$ iff $m=N(\mathfrak{a})$ of some proper ideal $\mathfrak{a}$ of $\mathcal{O}$. 
+
+**Remark**: $\mathcal{a}\subseteq \mathcal{O}$, proper 
