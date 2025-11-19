@@ -453,3 +453,8 @@ $\mathcal{O}\subseteq \mathcal{O}_{K}$, $f=\#\mathcal{O}_{K} / \mathcal{O}$ cand
 3. A positive integer $m$ is represented by a form $f(x,y)$ iff $m=N(\mathfrak{a})$ of some proper ideal $\mathfrak{a}$ of $\mathcal{O}$. 
 
 **Remark**: $\mathcal{a}\subseteq \mathcal{O}$, proper ideal, $\mathfrak{a}^{-1}=\frac{1}{N(\mathfrak{a})}\overline{\mathfrak{a}}$. Write $\mathfrak{a}=\alpha[1,\tau]$, $\mathcal{O}=[1,a\tau]$, $\overline{\mathfrak{a}}=\alpha'[1,\tau']$. Then $\mathfrak{a}\cdot \overline{\mathfrak{a}}=N(\alpha)\left[ 1,\tau,-\frac{b}{a}\tau, \frac{c}{a}  \right]= \frac{N(\alpha)}{a}\mathcal{O}$. 
+
+**Lemma**:
+1. $N(\alpha \cdot \mathcal{O})=N(\alpha)$, $\alpha \in \mathcal{O}$, $\alpha \neq0$.
+2. $N(\mathfrak{a}\cdot \mathfrak{b})=N(\mathfrak{a})\cdot N(\mathfrak{b})$. 
+3. $\mathfrak{a}\cdot \overline{\mathfrak{a}}=N(\mathfrak{a})\cdot \mathcal{O}$. 
