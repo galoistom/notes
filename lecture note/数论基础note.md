@@ -443,4 +443,8 @@ $K\subseteq L$, $Gal(L / K)=C(d_{K})$, $K\subseteq E\subseteq L$, $Gal(L / E)=C(
 
 $I(\mathcal{O})\ \sim$ set of proper fractional ideals of $\mathcal{O}$, $P(\mathcal{O}) \ \sim$ set of principle fractional ideals of $\mathcal{O}$. Let the **Ideal class group** of $\mathcal{O}$ := $I(\mathcal{O}) / P(\mathcal{O})$, with multiplication $a*b=a\cdot b$. 
 
-$\mathcal{O}\subseteq \mathcal{O}_{K}$, $f+$
+$\mathcal{O}\subseteq \mathcal{O}_{K}$, $f=\#\mathcal{O}_{K} / \mathcal{O}$ canduction, then $f\mathcal{O}_{K}\subseteq \mathcal{O}\subseteq\mathcal{O}_{K}$. If $f>1$, then $f\mathcal{O}_{K}$ is an ideal of $\mathcal{O}$ not proper. 
+
+**Theorem**: $K$ imaginary quadraic field $\mathcal{O}\subseteq \mathcal{O}_{K}$, order $f=\#(\mathcal{O}_{K} / \mathcal{O})$, $D=\text{discriminant of }\mathcal{O}=f^{2}d_{K}$. 
+
+*Proof*: If $f(x,y)=ax^{2}+bxy+cy^{2}$ is a primitive positive definte form of discriminant $D$, then $\left[ a, \frac{-b+\sqrt{ D }}{2} \right]$ is a proper ideal of $D$. $\mathcal{O}_{K}=\left[ \frac{1,(d_{K}+\sqrt{ d_{K} })}{2} \right]$, $\mathcal{O}=$
