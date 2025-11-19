@@ -439,4 +439,4 @@ $K\subseteq L$, $Gal(L / K)=C(d_{K})$, $K\subseteq E\subseteq L$, $Gal(L / E)=C(
 
 *Proof*: 
 1. We only have to show that $[1,a\tau]$ is a subring of $\mathcal{O}_{K}$. Minimal polynomial of $a\tau$ is $x^{2}+bxy+ac$, then $a\tau \in \mathcal{O}_{K}$. 
-2. $a\tau \cdot 1=a\tau \in[1,\tau]$, 
+2. $a\tau \cdot 1=a\tau \in[1,\tau]$, $a\tau \cdot \tau=-b\tau+(-c) \in[1,\tau]$, thus $[1,\tau]$ is a fractional ideal of $[1,a\tau]$, hence $[1,a\tau]\cdot[1,\tau]\subseteq[1,\tau]$. It is suffices to show that $\{ x \in K:x[1,\tau]\subseteq[1,\tau] \}=[1,\tau]$.  In fact, we only have to check $\subseteq$. Suppose $x[1,\tau]\subseteq[1,\tau]$, then $x=m+n\tau$ as $x\cdot1 \in[1,\tau]$. Then $x\cdot \tau \in[1,\tau]$, hence $\frac{n}{a}b \in \mathbb{Z},\ \frac{n}{a}c \in \mathbb{Z}$ $\implies$ $\frac{n}{a} \in \mathbb{Z}$, so $x=m+\left( \frac{n}{a} \right)a\tau \in[1,\tau]$. 
