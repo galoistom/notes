@@ -283,4 +283,6 @@ How to compute $\pi$? **van-kampen** theorem
 
 In fact, for $f:X\rightarrow Y$ and $g:X\rightarrow Y$, if $f\simeq g$, then it induced homomorphism $f_{*}:\pi_{1}(X,x_{0})\rightarrow \pi_{2}(Y,y_{0})$, and $g_{*}:\pi_{1}(X,x_{0})\rightarrow \pi_{1}(Y,y_{0})$, and $\omega_{\#}:\pi_{1}(Y,y_{0})\rightarrow \pi_{1}(Y,y_{1})$, sending $\langle \alpha \rangle\mapsto \langle \omega\alpha \overline{\omega} \rangle$, there $\omega=H(x_{0},\cdot)$. Then we have $g_{*}=\omega_{\#}\circ f_{*}$. 
 
-**Definition**: $X,Y$ topological space, $f:X\rightarrow Y$, $g:Y\rightarrow X$, s.t. $f\circ g\simeq \mathbb{1}_{Y}$, $g\circ f\simeq \mathbb{1}_{X}$, then we say that $X,Y$ are **homotopy equivalent**. This is in fact an equivalence relation.
+**Definition**: $X,Y$ topological space, $f:X\rightarrow Y$, $g:Y\rightarrow X$, s.t. $f\circ g\simeq \mathbb{1}_{Y}$, $g\circ f\simeq \mathbb{1}_{X}$, then we say that $X,Y$ are **homotopy equivalent**. This is in fact an equivalence relation. It is a weaker equivalence relation to homeomorphic.
+
+**Definition**: If $X$ is homotopy equivalent to a single point, we say that $X$ is 可缩的.
