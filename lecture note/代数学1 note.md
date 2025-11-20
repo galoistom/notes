@@ -492,3 +492,13 @@ Consider all $\lambda(M)$ for all $\lambda \in Hom(N,R)$, then there must be a m
 
 Now with this theorem, we know that $M$ is finitely generated, so $R^{n}\rightarrow M$ is injective, hence $M\simeq R^{n} /N$, and use the above theorem.
 
+# Field Extension
+**Recall**: A **field** is a commutative ring in which every nonzero element is invertible.
+
+**Definition**: The **characteristic** of a field $K$, denoted by $char(K)$ is either the smallest positive integer $p$ s.t. $1+1+\cdots+1=0$ ($p$ copies) or $0$ if $p$ does not exist. 
+
+**Definition**: The **prime** field of a field $K$ is the smallest subfield of $F$, i.e. 
+1. $\mathbb{F}_{p}=\mathbb{Z} /p\mathbb{Z}$ if $char(K)=p\neq0$.
+2. $\mathbb{Q}$, if $char(K)=0$. 
+
+**Notation**: If $F\subseteq K$ a subfield, then also say $K$ is a field extension of $F$. Say $F$ is the a base field. Any field $E$ with $F\subseteq E\subseteq K$ is called an intermediate field
