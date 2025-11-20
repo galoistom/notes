@@ -286,3 +286,8 @@ In fact, for $f:X\rightarrow Y$ and $g:X\rightarrow Y$, if $f\simeq g$, then it 
 **Definition**: $X,Y$ topological space, $f:X\rightarrow Y$, $g:Y\rightarrow X$, s.t. $f\circ g\simeq \mathbb{1}_{Y}$, $g\circ f\simeq \mathbb{1}_{X}$, then we say that $X,Y$ are **homotopy equivalent**. This is in fact an equivalence relation. It is a weaker equivalence relation to homeomorphic.
 
 **Definition**: If $X$ is homotopy equivalent to a single point, we say that $X$ is 可缩的.
+
+**Definition**: 形变收缩 $A\subseteq X$.
+1. $r:X\rightarrow A$, s.t. $r|_{A}=\mathbb{1}_{A}$, 则$A$ 是$X$ 的收缩核.
+2. if there is a $H:X\times[0,1]\rightarrow X$ s.t. $H(x,0)=x$, and $H(a,1)=a$, $H(x,1) \in A$. 则 $H$ 是 $X$ 到 $A$ 的形变收缩. 
+3. if $H(a,t)=a$ forall $t$, 则称 $H$ 为强形变收缩. 
