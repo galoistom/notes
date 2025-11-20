@@ -488,3 +488,4 @@ The idea is as follow:
 2. there is a set of basis $\{ f_{1},f_{2}, \cdots,f_{n} \}$ of $N$, and there is $a_{1}|a_{2}|\cdots|a_{n} \in R-\{ 0 \}$, s.t. $a_{i}f_{i}$ form a basis of $M$. 
 
 *Proof*: 
+Consider all $\lambda(M)$ for all $\lambda \in Hom(N,R)$, then there must be a maximal element. Suppose it is $(d_{1}) \subseteq R$. If $d_{1}=0$, then $M=0$. Take $\lambda(x_{1})=d_{1}$, then 
