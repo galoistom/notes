@@ -501,4 +501,8 @@ Now with this theorem, we know that $M$ is finitely generated, so $R^{n}\rightar
 1. $\mathbb{F}_{p}=\mathbb{Z} /p\mathbb{Z}$ if $char(K)=p\neq0$.
 2. $\mathbb{Q}$, if $char(K)=0$. 
 
-**Notation**: If $F\subseteq K$ a subfield, then also say $K$ is a field extension of $F$. Say $F$ is the a base field. Any field $E$ with $F\subseteq E\subseteq K$ is called an intermediate field
+**Notation**: If $F\subseteq K$ a subfield, then also say $K$ is a field extension of $F$. Say $F$ is the a base field. Any field $E$ with $F\subseteq E\subseteq K$ is called an **intermediate field** (中间域). 
+
+**Definition**: the **Degree** of a field extension $F\subseteq K$ is $[K:F]=dim_{F}K$ (the dimestion of $K$ as $F$-vector space). 
+
+**Theorem**: $F\subseteq E\subseteq K$, then $[K:F]=[K:E]\cdot[E:F]$. 
