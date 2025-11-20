@@ -488,4 +488,4 @@ The idea is as follow:
 2. there is a set of basis $\{ f_{1},f_{2}, \cdots,f_{n} \}$ of $N$, and there is $a_{1}|a_{2}|\cdots|a_{n} \in R-\{ 0 \}$, s.t. $a_{i}f_{i}$ form a basis of $M$. 
 
 *Proof*: 
-Consider all $\lambda(M)$ for all $\lambda \in Hom(N,R)$, then there must be a maximal element. Suppose it is $(d_{1}) \subseteq R$. If $d_{1}=0$, then $M=0$. Take $\lambda(x_{1})=d_{1}$, then 
+Consider all $\lambda(M)$ for all $\lambda \in Hom(N,R)$, then there must be a maximal element. Suppose it is $(d_{1}) \subseteq R$. If $d_{1}=0$, then $M=0$. Take $\lambda(x_{1})=d_{1}$, then forall $\lambda' \in Hom(N,R)$ $d_{1}|\lambda'(x_{1})$, thus $x_{1}=f_{1}d_{1}$ for some $f_{1} \in E$. Now we have $Rf_{1}\oplus ker(\lambda)=N$, and $Rx_{1}\oplus ker(\lambda)\cap M=M$. And as we choose $(d_{1})$ to be biggest, we know that when we keep doing the same action and the following $(d_{i})$ must have $d_{1}|d_{i}$. 
