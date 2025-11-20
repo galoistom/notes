@@ -506,3 +506,7 @@ Now with this theorem, we know that $M$ is finitely generated, so $R^{n}\rightar
 **Definition**: the **Degree** of a field extension $F\subseteq K$ is $[K:F]=dim_{F}K$ (the dimestion of $K$ as $F$-vector space). 
 
 **Theorem**: $F\subseteq E\subseteq K$, then $[K:F]=[K:E]\cdot[E:F]$. 
+
+**Proposition**: $F,E$ fields, then any homomorphism $\phi:F\rightarrow E$ is injective. 
+
+Let $F$ be a field, $p(x)\in F[x]$, with degree $n$, then $K:=F[x] /(p(x))$, write $\theta=x+(p(x)) \in K$, then $K=F[\theta]$, and $p(\theta)=0$ in $K$. 
