@@ -276,3 +276,7 @@ How to compute $\pi$? **van-kampen** theorem
 **Lemma**: Given $F:X\times[0,1]\rightarrow S^{1}$ and $\tilde{F_{0}}:X\rightarrow \mathbb{E}^{1}$ if $F(X,0)=p\circ\tilde{F_{0}}(X)$, then for all $x \in X$, there exists a unique morphism $\tilde{F}:X\times[0,1]\rightarrow \mathbb{E}^{1}$ s.t. $F=p\circ \tilde{F}$, whose restriction to $X\times \{ 0 \}$ is $\tilde{F_{0}}$. 
 
 **Proposition**: Let $X=U\cup V$, $U,V$ open and connected, if $U\cap V$ is path connected, then $\pi(X)\simeq \{ 1 \}$. 
+
+**Theorem**: $X,Y$ path connected topological space, then $\pi_{1}(X\times Y)\simeq \pi_{1}(X)\times \pi_{1}(Y)$. 
+
+*Proof*: Consider the natural maping $\langle r \rangle\mapsto(\langle p_{1}\circ r \rangle, \langle p_{2}\circ r \rangle)$, its obviously a surjective homomorphism. Now we check that it is injective: For two $\langle r_{1} \rangle$ and $\langle r_{2} \rangle$ s.t. they all map to $(1,1)$, then there is $F(s,t)$ and $G(s,t)$ sending $p_{1}\circ r_{1}\rightarrow p_{1}\circ r_{2}$ and $p_{2}\circ r_{1}\rightarrow p_{2}\circ r_{2}$, and combine it to be $H(s,t)=(F(s,t),G(s,t))$, is a homotopic of $r_{1}\rightarrow r_{2}$. 
