@@ -481,4 +481,10 @@ We still have direct product and direct sum, $\prod_{i \in I}M_{i}$, and $\bigop
 The idea is as follow: 
 1. decompose $a_{i}$ into product of prime element of $R$. Apply chinese remainder theorem, $a=p_{1}^{e_{1}}\cdots p_{s}^{e_{s}}$, hence $R /(a)=\bigoplus_{j}R /(p_{i}^{e_{i}})$. So we reduce to the case of $a_{i}=p^{t}$, $t>0$, and $t_{i}<t_{i+1}$, $p$ prime. Then $M\simeq R^{\oplus r}\oplus R /(p^{t_{1}})\oplus\cdots\oplus R /(p^{t_{m}})\simeq R^{\oplus r'}\oplus R /(p^{t'_{1}})\oplus\cdots\oplus R /(p^{t'_{m}})$, and we have to proof that $r=r'$ and $t_{i}=t_{i}'$. 
 2. $k=R /(p)$ a field, $dim_{k}(M /pM)=r+\#\{ t_{1}, \cdots,t_{m} \}$. (Note that $M / pM$ is $R$-module, and if $b \in(p)$, then $bx=0$ forall $x \in M /pM$, so is also an $R /(p)$-module). Moreover, $dim_{k}(p^{t}M / p^{t+1}M)=r+\#\{ t_{i}:|t_{i}\geq t \}$. Thus we know that $r=r'$ and $t_{i}=t_{i}'$. 
-3. As to the existence. 
+3. As to the existence. We will proof another theorem
+
+**Theorem**: $R$ a PID, $N$ a free $R$-module of rank $n$, $M\subseteq N$, then 
+1. $M$ is free of rank $l\leq n$.
+2. there is a set of basis $\{ f_{1},f_{2}, \cdots,f_{n} \}$ of $N$, and there is $a_{1}|a_{2}|\cdots|a_{n} \in R-\{ 0 \}$, s.t. $a_{i}f_{i}$ form a basis of $M$. 
+
+*Proof*: 
