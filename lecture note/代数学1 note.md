@@ -477,3 +477,6 @@ We still have direct product and direct sum, $\prod_{i \in I}M_{i}$, and $\bigop
 **Theorem**: $R$ a PID, $M$ finitely generated $R$-module. Then $M\simeq R^{\oplus r}\oplus R / (a_{1})\oplus \cdots\oplus R / (a_{m})$, with $r\geq 0$, $a_{i} \in R$, $a_{i}|a_{i+1}$. Moreover, $r$ is unique and $a_{i}$ is unique up to associates. 
 
 *Proof of uniqueness*: Assmue $M\simeq R^{\oplus r}\oplus R / (a_{1})\oplus \cdots\oplus R /(a_{m})\simeq R^{\oplus r}\oplus R / (b_{1})\oplus \cdots\oplus R /(b_{m})$, need to proof $r=s,\ m=n,\ (a_{i})=(b_{i})$. Consider $dM=\{ dx:x \in M \}\subseteq M$, $R$-submodule. The first decompose gives $dM\simeq R^{\oplus r}\simeq R^{\oplus s}$. Then tensor with $F=Frac(R)$, we have $F^{\oplus r}\simeq F^{\oplus s}$, hence $r=s$. Now consider $M_{tor}$ as multiply it with $b_{i}$, so $(b_{i})\subseteq(a_{j})$ for some $j$. 
+
+The idea is as follow: 
+1. decompose $a_{i}$ into product of prime element of $R$. Apply chinese remainder theorem, $a=p_{1}^{e_{1}}\cdots p_{s}^{e_{s}}$, hence $R /(a)=\bigoplus_{j}R /(p_{i}^{e_{i}})$. So we reduce to the case of $a_{i}=p^{t}$, $t>0$, and $t_{i}<t_{i+1}$, $p$ prime. 
