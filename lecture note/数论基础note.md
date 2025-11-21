@@ -467,7 +467,7 @@ It follows that $\mathcal{O}$-ideals prime to $f$ lie naturally in $I(\mathcal{O
 
 **Proposition**: The inclution $I(\mathcal{O},f)\subset I(\mathcal{O})$ incuced an isomorphism $I(\mathcal{O},f) /P(\mathcal{O},f)\simeq I(\mathcal{O}) /P(\mathcal{O})=C(\mathcal{O})$. 
 
-*Proof*: We know that $I(\mathcal{O},f)\rightarrow C(\mathcal{O})$ is surjective, with kernel $I(\mathcal{O},f)\cap P(\mathcal{O})$, so we have to check that $P(\mathcal{O},f)=I(\mathcal{O},f)\cap P(\mathcal{O})$, infact, only 
+*Proof*: We know that $I(\mathcal{O},f)\rightarrow C(\mathcal{O})$ is surjective, with kernel $I(\mathcal{O},f)\cap P(\mathcal{O})$, so we have to check that $P(\mathcal{O},f)=I(\mathcal{O},f)\cap P(\mathcal{O})$, infact, only $I(\mathcal{O},f)\cap P(\mathcal{O})\subseteq P(\mathcal{O},f)$ is nontrivial. In this case, take $\alpha \mathcal{O}=\mathfrak{a}\mathfrak{b}^{-1}\in I(\mathcal{O},f)\cap P(\mathcal{O})$, take $m=N(\mathfrak{b})$, then $m\mathcal{O}=\mathfrak{b}\overline{\mathfrak{b}}$, so $m\alpha \mathcal{O}=\mathfrak{a}\overline{\mathfrak{b}}\subset \mathcal{O}$, hence $\alpha \mathcal{O}=m\alpha \mathcal{O}(m\mathcal{O})^{-1}\subset \mathcal{O}$. 
 
 **Proposition**: Let $\mathcal{O}$ be the order of conductor $f$ in an imaginary quadraic field $K$. Then:
 1. If $\mathfrak{a}$ is an $\mathcal{O}_{K}$-ideal prime to $f$, then $\mathfrak{a}\cap \mathcal{O}$ is an $\mathcal{O}$-ideal prime to $f$ of the same norm. 
