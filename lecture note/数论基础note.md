@@ -458,3 +458,11 @@ $\mathcal{O}\subseteq \mathcal{O}_{K}$, $f=\#\mathcal{O}_{K} / \mathcal{O}$ cand
 1. $N(\alpha \cdot \mathcal{O})=N(\alpha)$, $\alpha \in \mathcal{O}$, $\alpha \neq0$.
 2. $N(\mathfrak{a}\cdot \mathfrak{b})=N(\mathfrak{a})\cdot N(\mathfrak{b})$. 
 3. $\mathfrak{a}\cdot \overline{\mathfrak{a}}=N(\mathfrak{a})\cdot \mathcal{O}$. 
+
+**Lemma**: let $\mathcal{O}$ be an order of conductor $f$.
+1. An $\mathcal{O}$-ideal $\mathfrak{a}$ is prime to $f$ if and only if its norm $N(\mathfrak{a})$ is relatively prime to $f$. 
+2. Every $\mathcal{O}$-ideal prime to $f$ is proper.
+
+It follows that $\mathcal{O}$-ideals prime to $f$ lie naturally in $I(\mathcal{O})$ and are closed under multiplication. The subgroup of fractional ideals they generated are denoted as $I(\mathcal{O},f)\subset I(\mathcal{O})$. 
+
+**Proposition**: The inclution $I(\mathcal{O},f)\subset I(\mathcal{O})$ incuced an isomorphism $I(\mathcal{O},f) /P(\mathcal{O},f)\simeq I(\mathcal{O}) /P(\mathcal{O})=C(\mathcal{O})$. 
