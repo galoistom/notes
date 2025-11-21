@@ -473,3 +473,4 @@ It follows that $\mathcal{O}$-ideals prime to $f$ lie naturally in $I(\mathcal{O
 1. If $\mathfrak{a}$ is an $\mathcal{O}_{K}$-ideal prime to $f$, then $\mathfrak{a}\cap \mathcal{O}$ is an $\mathcal{O}$-ideal prime to $f$ of the same norm. 
 2. If $\mathfrak{a}$ is an $\mathcal{O}$-ideal prime to $f$, then $\mathfrak{a}\mathcal{O}_{K}$ is an $\mathcal{O}_{K}$-ideal prime to $f$ of the same norm.
 3. The map $\mathfrak{a}\mapsto \mathfrak{a}\cap \mathcal{O}$ induces an isomorphism $I_{K}(f)\stackrel{\sim}{\longrightarrow}I(\mathcal{O},f)$, and the invers of this map is given by $\mathfrak{a}\mapsto \mathfrak{a}\mathcal{O}_{K}$. 
+
