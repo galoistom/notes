@@ -466,3 +466,10 @@ $\mathcal{O}\subseteq \mathcal{O}_{K}$, $f=\#\mathcal{O}_{K} / \mathcal{O}$ cand
 It follows that $\mathcal{O}$-ideals prime to $f$ lie naturally in $I(\mathcal{O})$ and are closed under multiplication. The subgroup of fractional ideals they generated are denoted as $I(\mathcal{O},f)\subset I(\mathcal{O})$. 
 
 **Proposition**: The inclution $I(\mathcal{O},f)\subset I(\mathcal{O})$ incuced an isomorphism $I(\mathcal{O},f) /P(\mathcal{O},f)\simeq I(\mathcal{O}) /P(\mathcal{O})=C(\mathcal{O})$. 
+
+*Proof*: We know that $I(\mathcal{O},f)\rightarrow C(\mathcal{O})$ is surjective, with kernel $I(\mathcal{O},f)\cap P(\mathcal{O})$, so we have to check that $P(\mathcal{O},f)=I(\mathcal{O},f)\cap P(\mathcal{O})$, infact, only 
+
+**Proposition**: Let $\mathcal{O}$ be the order of conductor $f$ in an imaginary quadraic field $K$. Then:
+1. If $\mathfrak{a}$ is an $\mathcal{O}_{K}$-ideal prime to $f$, then $\mathfrak{a}\cap \mathcal{O}$ is an $\mathcal{O}$-ideal prime to $f$ of the same norm. 
+2. If $\mathfrak{a}$ is an $\mathcal{O}$-ideal prime to $f$, then $\mathfrak{a}\mathcal{O}_{K}$ is an $\mathcal{O}_{K}$-ideal prime to $f$ of the same norm.
+3. The map $\mathfrak{a}\mapsto \mathfrak{a}\cap \mathcal{O}$ induces an isomorphism $I_{K}(f)\stackrel{\sim}{\longrightarrow}I(\mathcal{O},f)$, and the invers of this map is given by $\mathfrak{a}\mapsto \mathfrak{a}\mathcal{O}_{K}$. 
