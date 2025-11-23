@@ -454,7 +454,7 @@ $\mathcal{O}\subseteq \mathcal{O}_{K}$, $f=\#\mathcal{O}_{K} / \mathcal{O}$ cand
 
 *Proof*: 
 1. Notice that if we take $\tau=\frac{-b+\sqrt{ D }}{2a}$, then $[a,a\tau]=a[\tau]$ is a proper ideal of $[1,a\tau]$, in this case, it is percisly $\mathcal{O}$.
-2. 
+2. Just consider the roots of $f,g$, $\tau,\tau'$, we show that $f,g$ are properly equivalent iff $\tau'=\frac{p\tau+q}{r\tau+s}$, for some $\begin{pmatrix}p&q\\r&s\end{pmatrix} \in SL(2,\mathbb{Z})$, which is equivalent to $[1,\tau]=\lambda[1,\tau']$. The first part is easy, just consider the $0=f(\tau,1)=(r\tau+s)^{2}g\left( \frac{p\tau+q}{r\tau+s},1 \right)$, so it must be a root of $g$, hence must be $\tau'$. And two forms having the same root ust be properly equivalent. The second equivalence is clear for $\implies$, and the other way around is 
 
 **Remark**: $\mathcal{a}\subseteq \mathcal{O}$, proper ideal, $\mathfrak{a}^{-1}=\frac{1}{N(\mathfrak{a})}\overline{\mathfrak{a}}$. Write $\mathfrak{a}=\alpha[1,\tau]$, $\mathcal{O}=[1,a\tau]$, $\overline{\mathfrak{a}}=\alpha'[1,\tau']$. Then $\mathfrak{a}\cdot \overline{\mathfrak{a}}=N(\alpha)\left[ 1,\tau,-\frac{b}{a}\tau, \frac{c}{a}  \right]= \frac{N(\alpha)}{a}\mathcal{O}$. 
 
