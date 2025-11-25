@@ -184,8 +184,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "rep theory/On more general fields.md",
+    "algebraic number theory/local reciprocity law.md",
     "Home.md",
+    "rep theory/On more general fields.md",
     "lecture note/数论基础note.md",
     "lecture note/代数学1 note.md",
     "commutative algebra/noetherian and artinian ring.md",
@@ -229,7 +230,6 @@
     "algebraic number theory/Newton polygon.md",
     "algebraic number theory/Minkowski Lattice Therorem.md",
     "algebraic number theory/Finiteness of class number.md",
-    "algebraic number theory/Absolute value.md",
-    "homo algebra/Short exact sequence.md"
+    "algebraic number theory/Absolute value.md"
   ]
 }
