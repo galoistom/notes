@@ -46,4 +46,6 @@ defined by the maps $Q\otimes Ind^{G}_{H},\ H \in T$, is surjective.
 The proof can be taken directly form the the [[Brauer's Theorem]]. 
 
 **Generalization of [[Brauer's Theorem]]**: One notice that the map $Ind:\bigoplus R_{K}(H)\rightarrow R_{K}(G)$ where $X$ is the family of elementary subgroups of $G$ is not surjective in general, but it is ture when we make $X$ a bit larger, letting it be $\Gamma_{K}$-elementary subgroups:
-	Let $p$ be a prime number. A subgroup $H$ of $G$ is said to be $\Gamma_{K}-p$-elementary if it is the semidirect product of a $p$-group $P$ and a cyclic group $C$ of order prime to $p$ s.t. For each $y \in P$, there is a $t \in \Gamma_{K}$ such that $yxy^{-1}=x^{t}$ for  
+	Let $p$ be a prime number. A subgroup $H$ of $G$ is said to be $\Gamma_{K}-p$-elementary if it is the semidirect product of a $p$-group $P$ and a cyclic group $C$ of order prime to $p$ s.t. For each $y \in P$, there is a $t \in \Gamma_{K}$ such that $yxy^{-1}=x^{t}$ for each $x \in C$. 
+
+Let $X_{K}$ to be the set of $\Gamma_{K}$-elementary subgroups, then we have $Ind:\bigoplus_{H \in X_{K}}R_{K}(H)\rightarrow R_{K}(G)$ is surjective. 
