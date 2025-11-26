@@ -508,3 +508,6 @@ $$
 1\longrightarrow(\mathbb{Z} / f\mathbb{Z})^{\times} \stackrel{\psi}{\longrightarrow} (\mathcal{O}_{K} / f\mathcal{O}_{K})^{\times} \stackrel{\phi}{\longrightarrow} I_{K}(f)\cap P_{K} / P_{K,\mathbb{Z}}(f) \longrightarrow1
 $$
    Therefore, $\#(I_{K} \cap P_{K} / P_{K,\mathbb{Z}}(f))=\frac{\#(\mathcal{O}_{K} / f\mathcal{O}_{K})^{\times}}{(\mathbb{Z} / f\mathbb{Z})^{\times}}=f\cdot \frac{\prod_{p|f}\left( 1- \frac{1}{p} \right)\left( 1-\left( \frac{d_{K}}{p} \right) \frac{1}{p}\right)}{\prod_{p|f} \left( 1-\frac{1}{p} \right)}$. 
+
+# Class field theory and Cebotarev density theorem
+Let $K$ be a number field.
