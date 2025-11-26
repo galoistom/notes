@@ -501,4 +501,4 @@ $$
 0\longrightarrow I_{K}(f)\cap P_{K} / P_{K,\mathbb{Z}}(f) \longrightarrow I_{K}(f) / P_{K,\mathbb{Z}}(f) \longrightarrow I_{K} / P_{K} \longrightarrow 0
 $$
 So $\frac{h(\mathcal{O})}{h(\mathcal{O}_{K})}=|I_{K}(f)\cap P_{K} / P_{K,\mathbb{Z}}(f)|$. So we now have to compute $I_{K}(f)\cap P_{K} / P_{K,\mathbb{Z}}(f)$. 
-2. Consider $\phi:(\mathcal{O}_{K})$
+2. Consider $\phi:(\mathcal{O}_{K} / f\mathcal{O}_{K})^{\times}\longrightarrow I_{K}(f)\cap P_{K} / P_{K,\mathbb{Z}}(f)$. sending $[\alpha]=\alpha+f\mathcal{O}_{K}\mapsto\alpha \mathcal{O}_{K}$. As $\alpha+f\mathcal{O}_{k} \in(\mathcal{O}_{K} / f\mathcal{O}_{K})^{\times}$, we know that $\alpha \mathcal{O}_{K}+f\cdot \mathcal{O}_{K}=\mathcal{O}_{K}$, hence it is indeed in $I_{K}(f)\cap P_{K}$. If $[\alpha]=[\alpha']$, then there is a $u \in \mathcal{O}_{K}$ s.t. $u\alpha\equiv u\alpha'\equiv1\pmod{f\mathcal{O}_{K}}$. Thus $u\mathcal{O}_{k}\cdot\alpha \mathcal{O}_{K}=u\alpha \mathcal{O}_{K}=u\alpha'\mathcal{O}_{K}$, hence it is well defined. 
