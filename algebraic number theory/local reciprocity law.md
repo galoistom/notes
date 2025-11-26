@@ -1,3 +1,4 @@
+#nt #algebra 
 >[!note] Theorem 
 >For every nonarchimedian local field $K$, there exists a unique homomorphism $\phi_{K}:K^{\times}\rightarrow Gal(K^{ab}/K)$, with the following properties:
 >1. for every prime element $\pi$ of $K$ and every finite unraminfied extension $L$ of $K$, $\phi_{K}(\pi)$ acts on $L$ as $Forb_{L/K}$;

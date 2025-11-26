@@ -519,4 +519,4 @@ Write $m=m_{0}\cdot m_{\infty}$, where $m_{0}=\prod_{p\ finite}p^{n_{p}}$ and $m
 
 A subgroup $H\subseteq I_{K}(m)$ is called a **conjaguence subgroup for $m$**, if $P_{K,1}(m)\subseteq H\subseteq I_{K}(m)$ and "$I_{K} / H$" is the **genrealized ideal class group**. And the class group and orders are just the special case of it. 
 
-Abelian extension $K\subseteq L$, modules $m$, $m$ is divisable by all ramified primes of $K\subseteq L$. Given any finite porimes $P$, relatively prime to $m$, we have Artin symbol $\left( \frac{L / K}{\mathfrak{p}} \right)\in Gal(L / K)$. By multiplicativity, get a homomorphism $\phi_{m}=\phi_{L / K,m}:I_{K}(m)\rightarrow Gal(L / K)$. Call the **Artin map**
+Abelian extension $K\subseteq L$, modules $m$, $m$ is divisable by all ramified primes of $K\subseteq L$. Given any finite porimes $P$, relatively prime to $m$, we have Artin symbol $\left( \frac{L / K}{\mathfrak{p}} \right)\in Gal(L / K)$. By multiplicativity, get a homomorphism $\phi_{m}=\phi_{L / K,m}:I_{K}(m)\rightarrow Gal(L / K)$. Call the **Artin map** for $K\subseteq L$ and $m$. 
