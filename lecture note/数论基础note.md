@@ -500,10 +500,11 @@ Where $\left( \frac{d_{K}}{2} \right)=\begin{cases}0\ &2|d_{K}\\1 \ &d_{K}\equiv
 $$
 0\longrightarrow I_{K}(f)\cap P_{K} / P_{K,\mathbb{Z}}(f) \longrightarrow I_{K}(f) / P_{K,\mathbb{Z}}(f) \longrightarrow I_{K} / P_{K} \longrightarrow 0
 $$
-So $\frac{h(\mathcal{O})}{h(\mathcal{O}_{K})}=|I_{K}(f)\cap P_{K} / P_{K,\mathbb{Z}}(f)|$. So we now have to compute $I_{K}(f)\cap P_{K} / P_{K,\mathbb{Z}}(f)$. 
+   So $\frac{h(\mathcal{O})}{h(\mathcal{O}_{K})}=|I_{K}(f)\cap P_{K} / P_{K,\mathbb{Z}}(f)|$. So we now have to compute $I_{K}(f)\cap P_{K} / P_{K,\mathbb{Z}}(f)$. 
 2. Consider $\phi:(\mathcal{O}_{K} / f\mathcal{O}_{K})^{\times}\longrightarrow I_{K}(f)\cap P_{K} / P_{K,\mathbb{Z}}(f)$. sending $[\alpha]=\alpha+f\mathcal{O}_{K}\mapsto\alpha \mathcal{O}_{K}$. As $\alpha+f\mathcal{O}_{k} \in(\mathcal{O}_{K} / f\mathcal{O}_{K})^{\times}$, we know that $\alpha \mathcal{O}_{K}+f\cdot \mathcal{O}_{K}=\mathcal{O}_{K}$, hence it is indeed in $I_{K}(f)\cap P_{K}$. If $[\alpha]=[\alpha']$, then there is a $u \in \mathcal{O}_{K}$ s.t. $u\alpha\equiv u\alpha'\equiv1\pmod{f\mathcal{O}_{K}}$. Thus $u\mathcal{O}_{k}\cdot\alpha \mathcal{O}_{K}=u\alpha \mathcal{O}_{K}=u\alpha'\mathcal{O}_{K}$, hence it is well defined. 
 3. The check that $\phi$ is surjective any element in $I_{K}(f)\cap P_{K}$ is of the forme $\alpha \cdot \mathcal{O}_{K}=\mathfrak{a}\mathfrak{b}^{-1}$, for some $\mathfrak{a},\mathfrak{b}\subseteq \mathcal{O}_{K}$, let $m=N(\mathfrak{b})=\#(\mathcal{O}_{K} / \mathfrak{b})$. Now $\mathfrak{a}\overline{\mathfrak{b}}=(m\alpha)\mathcal{O}_{K}$ with $N(m\alpha)=N(\mathfrak{a})N(\mathfrak{b})$ prime to $f$, then $m\alpha+f\mathcal{O}_{K}\in(O_{K} / f\mathcal{O}_{K})^{\times}$, and $\phi(m\alpha)=m\alpha \mathcal{O}_{K}=\alpha \mathcal{O}_{K}\cdot m\mathcal{O}_{K}=\alpha \mathcal{O}_{K}$ in $I_{K}(f)\cap P_{K} / P_{K,\mathbb{Z}}(f)$. Hence $\phi$ is surjective. 
 4. To determine $ker(\phi)$ when $\mathcal{O}_{K}^{\times}=\{ \pm1 \}$. We show that there is an exact sequence
 $$
-1\longrightarrow(\mathbb{Z} / f\mathbb{Z})^{\times} \st
+1\longrightarrow(\mathbb{Z} / f\mathbb{Z})^{\times} \stackrel{\psi}{\longrightarrow} (\mathcal{O}_{K} / f\mathcal{O}_{K})^{\times} \stackrel{\phi}{\longrightarrow} I_{K}(f)\cap P_{K} / P_{K,\mathbb{Z}}(f) \longrightarrow1
 $$
+   
