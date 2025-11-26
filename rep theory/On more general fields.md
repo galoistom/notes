@@ -49,3 +49,5 @@ The proof can be taken directly form the the [[Brauer's Theorem]].
 	Let $p$ be a prime number. A subgroup $H$ of $G$ is said to be $\Gamma_{K}-p$-elementary if it is the semidirect product of a $p$-group $P$ and a cyclic group $C$ of order prime to $p$ s.t. For each $y \in P$, there is a $t \in \Gamma_{K}$ such that $yxy^{-1}=x^{t}$ for each $x \in C$. 
 
 Let $X_{K}$ to be the set of $\Gamma_{K}$-elementary subgroups, then we have $Ind:\bigoplus_{H \in X_{K}}R_{K}(H)\rightarrow R_{K}(G)$ is surjective. 
+
+**Theorem**: let $g=p^{n}l$ be the order of $G$, where $(p,l)=1$. The constant function $l$ belong to the image $V_{K,p}$ of the map $Ind:\bigoplus_{H \in X_{K}(p)}R_{K}(H)\rightarrow R_{K}(G)$. 
