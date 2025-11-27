@@ -521,4 +521,4 @@ Let $F$ be a field, $p(x)\in F[x]$, with degree $n$, then $K:=F[x] /(p(x))$, wri
 
 **Definition**: In case $1$, we call $\alpha$ is **Transcendental** over $F$. In case 2, we call $\alpha$ is **algebric** over $F$. 
 
-**Definition**: $K /F$ field extension intermediate fields $K_{1},K_{2}$, the composite of $K_{1},K_{2}$ o
+**Definition**: $K /F$ field extension intermediate fields $K_{1},K_{2}$, the composite of $K_{1},K_{2}$ over $F$ is the smallest subfield of $K$ containing $K_{1},K_{2}$, denote it as $K_{1}K_{2}$. Then $[K_{1}K_{2}:K_{1}]\leq [K_{2}:F]$.k 
