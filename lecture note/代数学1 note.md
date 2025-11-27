@@ -534,4 +534,8 @@ Let $F$ be a field, $p(x)\in F[x]$, with degree $n$, then $K:=F[x] /(p(x))$, wri
 *proof*: $[F(\alpha_{1}, \cdots, \alpha_{n}):F]\leq[F(\alpha_{1}):F]\cdots[F(\alpha_{n}):F]$. 
 
 # Normal Extension
-**Definition**: 
+**Definition**: $F$ a field, $f(x)\in F[x]$ polynomial, $deg=n$, a field extension $K$ of $F$ is called a splitting field of $f(x)$ over $F$ if
+1. $f(x)$ split completely in $K[x]$, i.e. $f(x)=a\prod_{i}(x-\alpha_{i})$. 
+2. $K=F(\alpha_{1}, \cdots, \alpha_{n})$. 
+
+**Theorem**: The splitting field exists, and is unique up to isomorphismin the sen
