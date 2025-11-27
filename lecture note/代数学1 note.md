@@ -538,4 +538,8 @@ Let $F$ be a field, $p(x)\in F[x]$, with degree $n$, then $K:=F[x] /(p(x))$, wri
 1. $f(x)$ split completely in $K[x]$, i.e. $f(x)=a\prod_{i}(x-\alpha_{i})$. 
 2. $K=F(\alpha_{1}, \cdots, \alpha_{n})$. 
 
-**Theorem**: The splitting field exists, and is unique up to isomorphismin the sen
+**Theorem**: The splitting field exists, and is unique up to isomorphismin the sense that if $K_{1}$ and $K_{2}$ are splitting fields of $f$ over $F$, then $\exists$ isomorphism $\sigma :K_{1}\rightarrow K_{2}$ with $\sigma|_{F}=id_{F}$. 
+
+**Theorem**: $f(x) \in F[x]$ with degree $n\geq1$, $K / F$ splitting field of $f$ in $F$. Then $[K:F]\leq n!$. 
+
+**Definition**: An algebric extension $K /F$ is called **normal if $\forall f(x) \in F[x]$** irreducible polynomial that has a root in $K$, $f(x)$ split completely in $K$. 
