@@ -521,4 +521,8 @@ Let $F$ be a field, $p(x)\in F[x]$, with degree $n$, then $K:=F[x] /(p(x))$, wri
 
 **Definition**: In case $1$, we call $\alpha$ is **Transcendental** over $F$. In case 2, we call $\alpha$ is **algebric** over $F$. 
 
-**Definition**: $K /F$ field extension intermediate fields $K_{1},K_{2}$, the composite of $K_{1},K_{2}$ over $F$ is the smallest subfield of $K$ containing $K_{1},K_{2}$, denote it as $K_{1}K_{2}$. Then $[K_{1}K_{2}:K_{1}]\leq [K_{2}:F]$.k 
+**Definition**: $K /F$ field extension intermediate fields $K_{1},K_{2}$, the composite of $K_{1},K_{2}$ over $F$ is the smallest subfield of $K$ containing $K_{1},K_{2}$, denote it as $K_{1}K_{2}$. Then $[K_{1}K_{2}:K_{1}]\leq [K_{2}:F]$. 
+
+**Definition**: $K / F$ extension the **algebric** closure of $F$ in $K$ is the subfield of $K$ consisting of all elements of $K$ algebric over $F$. (For example, algebric closure of $\mathbb{Q}$ in $\mathbb{C}$, denoted by $\overline{\mathbb{Q}}$, is the set of all algebric numbers). 
+
+**Theorem**: $L / K$ is algebric, and $K / F$ is algebric, then $L / F$ is algebric.
