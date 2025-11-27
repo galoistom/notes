@@ -526,3 +526,12 @@ Let $F$ be a field, $p(x)\in F[x]$, with degree $n$, then $K:=F[x] /(p(x))$, wri
 **Definition**: $K / F$ extension the **algebric** closure of $F$ in $K$ is the subfield of $K$ consisting of all elements of $K$ algebric over $F$. (For example, algebric closure of $\mathbb{Q}$ in $\mathbb{C}$, denoted by $\overline{\mathbb{Q}}$, is the set of all algebric numbers). 
 
 **Theorem**: $L / K$ is algebric, and $K / F$ is algebric, then $L / F$ is algebric.
+
+**Theorem**: $K / F$ extension then TFAE:
+1. $K$ is finite extension of $F$
+2. $K$ is finitely generated and algebric over $F$. 
+
+*proof*: $[F(\alpha_{1}, \cdots, \alpha_{n}):F]\leq[F(\alpha_{1}):F]\cdots[F(\alpha_{n}):F]$. 
+
+# Normal Extension
+**Definition**: 
