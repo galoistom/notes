@@ -510,3 +510,5 @@ Now with this theorem, we know that $M$ is finitely generated, so $R^{n}\rightar
 **Proposition**: $F,E$ fields, then any homomorphism $\phi:F\rightarrow E$ is injective. 
 
 Let $F$ be a field, $p(x)\in F[x]$, with degree $n$, then $K:=F[x] /(p(x))$, write $\theta=x+(p(x)) \in K$, then $K=F[\theta]$, and $p(\theta)=0$ in $K$. 
+
+**Jordan form**: $A \in M_{n}(\mathbb{C})\implies$ $A$ is conjugate to a **Jordan form**. Consider $\mathbb{C}[t]$ acting on $\mathbb{C}^{n}$ by $p(t)\vec{v}=p(A)\vec{v}$, then $\mathbb{C}^{n}$ is a $\mathbb{C}[t]$-module, and use the structure theorem of finitely generated module of PID (c.f.[[高等代数2 note]]). 
