@@ -519,4 +519,6 @@ Let $F$ be a field, $p(x)\in F[x]$, with degree $n$, then $K:=F[x] /(p(x))$, wri
 1. either $\{ 1,\alpha,\alpha ^{2}, \cdots \}$ are linearly independent over $F$ (So $F(\alpha)\simeq F(x)$)
 2. or $\{ 1,\alpha,\alpha ^{2}, \cdots \}$ are linearly dependent over $F$, hence there is a unique monic polynomial $p_{\alpha} \in F[x]$, then $F(\alpha)\simeq F[x] /(p_{\alpha})$. And let $deg_{F}(\alpha)$. 
 
-**Definition**: In case $1$, we call $\alpha$ 
+**Definition**: In case $1$, we call $\alpha$ is **Transcendental** over $F$. In case 2, we call $\alpha$ is **algebric** over $F$. 
+
+**Definition**: $K /F$ field extension intermediate fields $K_{1},K_{2}$, the composite of $K_{1},K_{2}$ o
