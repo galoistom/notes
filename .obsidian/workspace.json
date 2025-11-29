@@ -172,6 +172,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -183,9 +184,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Home.md",
     "lecture note/代数学1 note.md",
     "rep theory/lie algebra (based on gtm9).md",
-    "Home.md",
     "lecture note/数论基础note.md",
     "rep theory/On more general fields.md",
     "algebraic number theory/local reciprocity law.md",
