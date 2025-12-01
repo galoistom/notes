@@ -575,5 +575,15 @@ $K / F$ **normal** if forall $g(x) \in F[x]$, if $g$ has a root in $K$, then $g(
 **Theorem**: $f(x)\in F[x]$, $deg\geq1$ then $f(x)$ has no repeated roots in its splitting field if $gcd(f(x),f'(x))=1$. 
 
 **Theorem**: $f(x) \in F[x]$ irreducible
-1. If $f$ has repeated roots, say $f$ is **inseparable**
-2. If $f$ has no repeated roots.
+1. If $f$ has repeated roots, say $f$ is **inseparable**.
+2. If $f$ has no repeated roots, say $f$ is **separable**.
+
+**Definition**: $K / F$ algebric extension
+1. Say $\alpha \in K$ is **separable** over $F$ if tis minimal polynomial is separable 
+2. Say $K$ is **separable** if all $\alpha \in K$ is separable. 
+
+**Theorem**: 
+1. If $\alpha$ **separable** over $F$, then $F(\alpha)$ is separable extension of $F$.
+2. $K / E$ is separable, $E / F$ is separable $\implies$ $K /F$ is separable.
+
+**Lemma**: $K=F(\alpha)$ finite extension
