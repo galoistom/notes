@@ -571,3 +571,5 @@ $K / F$ **normal** if forall $g(x) \in F[x]$, if $g$ has a root in $K$, then $g(
 **Theorem**: Normal extension exists and unique up to isomorphism. 
 
 **Definition**: $char(F)=p>0$. Define the frabinus endomophism of $F$ to be $\sigma =\sigma_{F}:F\rightarrow F$, $\sigma(x)=x^{p}$. We say that $F$ is **perfect** if $\sigma$ is an isomorphism (automorphism). 
+
+**Theorem**: $f(x)\in F[x]$, $deg\geq1$ then $f(x)$ has no repeated roots in its splitting field if $gcd(f(x),f'(x))=1$. 
