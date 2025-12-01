@@ -573,3 +573,7 @@ $K / F$ **normal** if forall $g(x) \in F[x]$, if $g$ has a root in $K$, then $g(
 **Definition**: $char(F)=p>0$. Define the frabinus endomophism of $F$ to be $\sigma =\sigma_{F}:F\rightarrow F$, $\sigma(x)=x^{p}$. We say that $F$ is **perfect** if $\sigma$ is an isomorphism (automorphism). 
 
 **Theorem**: $f(x)\in F[x]$, $deg\geq1$ then $f(x)$ has no repeated roots in its splitting field if $gcd(f(x),f'(x))=1$. 
+
+**Theorem**: $f(x) \in F[x]$ irreducible
+1. If $f$ has repeated roots, say $f$ is **inseparable**
+2. If $f$ has no repeated roots.
