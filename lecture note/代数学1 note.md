@@ -562,4 +562,4 @@ $K / F$ **normal** if forall $g(x) \in F[x]$, if $g$ has a root in $K$, then $g(
 
 *Proof*: 
 1. "$\implies$": Just consider $K=F(\alpha_{1}, \cdots, \alpha_{n})$, 
-2. "$\impliedby$": Assume $K$ is the splitting field of $f(x) \in F[x]$. Assume $g(x) \in F[x]$ has a root $\alpha \in K$, need to proof all roots of $g$ are in $K$. Write $f(x)=a(x-\beta_{1})\cdots(x-\beta_{n})$
+2. "$\impliedby$": Assume $K$ is the splitting field of $f(x) \in F[x]$. Assume $g(x) \in F[x]$ has a root $\alpha \in K$, need to proof all roots of $g$ are in $K$. Write $f(x)=a(x-\beta_{1})\cdots(x-\beta_{n})$. Then $\alpha=h(\beta_{1}, \cdots,\beta_{n})$ for polynomial $h(x_{1}, \cdots, x_{n}) \in F[x_{1}, \cdots,x_{n}]$. Consider $G(x)=\prod_{\sigma \in S_{n}}(x-h(\beta_{\sigma(1)}), \cdots, h(\beta_{\sigma(n)})) \in K[x]$. In fact, $G(x) \in F[x]$, then $g(x)$ be the minimal polynomial of $\alpha$, and $G(\alpha)=0$, hence $g(x)|G(x)$, so $g$ split. 
