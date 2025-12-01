@@ -553,3 +553,13 @@ $K / F$ **splitting field** of $f(x) \in F[X]$ if:
 $K / F$ **normal** if forall $g(x) \in F[x]$, if $g$ has a root in $K$, then $g(x)$ split in $K$. 
 
 **Lemma**: If $K / F$ with intermediate field $E,E'$ and $E,E'$ are splitting fields of some $f(x) \in F[x]$. Then $E=E'$ as subfields of $K$. 
+
+*proof*: Consider decomposition $f(x)=a\prod_{i=1}^{n}(x-x_{i})$ $a \in F$, $x_{i} \in E$ ($x_{i} \in E'$). 
+
+**Lemma**: $K / E /F$ If $E$ splitting field of some $f(x) \in F[x]$, then for any automorphism $\sigma:K\rightarrow K$ s.t. $\sigma|_{F}=id$, we have $\sigma(E)=E$. 
+
+**Theorem**: A finite extension $K / F$ is normal iff $K$ is the **splitting field** of some polynomial $f(x) \in F[x]$. 
+
+*Proof*: 
+1. "$\implies$": Just consider $K=F(\alpha_{1}, \cdots, \alpha_{n})$, 
+2. "$\impliedby$": Assume $K$ is the splitting field of $f(x) \in F[x]$. Assume $g(x) \in F[x]$ has a root $\alpha \in K$, need to proof all roots of $g$ are in $K$. Write $f(x)=a(x-\beta_{1})\cdots(x-\beta_{n})$
