@@ -293,3 +293,4 @@ In fact, for $f:X\rightarrow Y$ and $g:X\rightarrow Y$, if $f\simeq g$, then it 
 3. if $H(a,t)=a$ forall $t$, 则称 $H$ 为强形变收缩. 
 
 **Theorem**: (Van-Kampen's theorem) If $X=X_{1}\cup X_{2}$, and $X_{0}=X_{1}\cap X_{2}\neq \varnothing$ and path connected, then forall $x_{0}\in X_{0}$, $$\pi_{1}(X,x_{0})\simeq \pi_{1}(X_{1},x_{0})*\pi_{1}(X_{2},x_{0}) /[\{ (i_{1})_{\pi}(\alpha)(i_{2})_{\pi}(\alpha ^{-1}):\alpha \in \pi_{1}(X_{0},x_{0}) \}]$$
+
