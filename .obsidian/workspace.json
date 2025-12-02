@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lecture note/拓扑学note.md",
+                "file": "lecture note/representation note.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "拓扑学note"
+              "title": "representation note"
             }
           }
         ]
@@ -184,6 +184,7 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "rep theory/Schur's lemma.md",
     "Home.md",
     "lecture note/拓扑学note.md",
     "Books/代数数论/Primes of the Form X2 + Ny2 Fermat, Class Field Theory, and Complex Multiplication, With Solutions (David A. Cox) (Z-Library).pdf",
