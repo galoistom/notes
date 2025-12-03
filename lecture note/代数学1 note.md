@@ -544,7 +544,7 @@ Let $F$ be a field, $p(x)\in F[x]$, with degree $n$, then $K:=F[x] /(p(x))$, wri
 
 **Definition**: An algebric extension $K /F$ is called **normal if $\forall f(x) \in F[x]$** irreducible polynomial that has a root in $K$, $f(x)$ split completely in $K$. 
 
-**Theorem**: $A$ fir ext $K / F$ is normal if and only if it is the splitting field of some polynomial $f(x) \in F[x]$. 
+**Theorem**: $A$ field extension $K / F$ is normal if and only if it is the splitting field of some polynomial $f(x) \in F[x]$. 
 
 $K / F$ **splitting field** of $f(x) \in F[X]$ if:
 1. $f(x)$ splits in $K$, i.e. $f(x)=a(x-x_{1})\cdots(x-x_{n})$ for $a \in F$ and $x_{i}\in K$. 
