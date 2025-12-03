@@ -530,3 +530,6 @@ $K\subseteq L$, abelian extension, $\mathfrak{m}$ modules of $K$ divisable by al
 
 Consiquently, there is an isomorphism $I_{K}(\mathfrak{m}) / P_{K,1}(\mathfrak{m}) \stackrel{\sim}{\longrightarrow}Gal(L / K)$.  
 
+**Canductor theorem**: $K\subset L$ abelian extension. There exists a modulus $f=f(L / K)$ s.t.
+1. A prime of $K$, ramifies in $L$ iff it divides $f$.
+2. let $\mathfrak{m}$ be a modulus of $K$ divisable by all primes of $K$ that ramify in $L$. Then $ker(\phi)$ is a congruences subgroup if and only if $f|\mathfrak{m}$. 
