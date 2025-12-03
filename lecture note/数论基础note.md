@@ -520,3 +520,12 @@ Write $\mathfrak{m}=\mathfrak{m}_{0}\cdot \mathfrak{m}_{\infty}$, where $\mathfr
 A subgroup $H\subseteq I_{K}(\mathfrak{m})$ is called a **conjaguence subgroup for $\mathfrak{m}$**, if $P_{K,1}(\mathfrak{m})\subseteq H\subseteq I_{K}(\mathfrak{m})$ and "$I_{K} / H$" is the **genrealized ideal class group**. And the class group and orders are just the special case of it. 
 
 Abelian extension $K\subseteq L$, modules $\mathfrak{m}$, $\mathfrak{m}$ is divisable by all ramified primes of $K\subseteq L$. Given any finite porimes $\mathfrak{p}$, relatively prime to $\mathfrak{m}$, we have Artin symbol $\left( \frac{L / K}{\mathfrak{p}} \right)\in Gal(L / K)$. By multiplicativity, get a homomorphism $\phi_{m}=\phi_{L / K,m}:I_{K}(\mathfrak{m})\rightarrow Gal(L / K)$. Call the **Artin map** for $K\subseteq L$ and $m$. 
+
+**Artin reaprocity theorem**: 
+$K\subseteq L$, abelian extension, $\mathfrak{m}$ modules of $K$ divisable by all primes of $K$ that ramifies in $L$. 
+
+**Theorem**: 
+1. Then Artin map $\phi_{m}$ is surjective.
+2. If that exponents of finite primes in $\mathfrak{m}$ are sufficicently large, then $ker(\phi_{\mathfrak{m}})$ is a congruence subgroup for $\mathfrak{m}$, i.e. $P_{K,1}(\mathfrak{m})\subseteq Ker(\phi_{m})\subseteq I_{K}(\mathfrak{m})$. 
+
+Consiquently, there is an isomorphism $$
