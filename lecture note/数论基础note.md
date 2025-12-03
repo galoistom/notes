@@ -528,4 +528,4 @@ $K\subseteq L$, abelian extension, $\mathfrak{m}$ modules of $K$ divisable by al
 1. Then Artin map $\phi_{m}$ is surjective.
 2. If that exponents of finite primes in $\mathfrak{m}$ are sufficicently large, then $ker(\phi_{\mathfrak{m}})$ is a congruence subgroup for $\mathfrak{m}$, i.e. $P_{K,1}(\mathfrak{m})\subseteq Ker(\phi_{m})\subseteq I_{K}(\mathfrak{m})$. 
 
-Consiquently, there is an isomorphism $$
+Consiquently, there is an isomorphism $I_{K}(\mathfrak{m}) / P_{K,1}(\mathfrak{m}) \stackrel{\sim}{\longrightarrow}Gal(L / K)$.  
