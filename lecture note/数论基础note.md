@@ -533,3 +533,5 @@ Consiquently, there is an isomorphism $I_{K}(\mathfrak{m}) / P_{K,1}(\mathfrak{m
 **Canductor theorem**: $K\subset L$ abelian extension. There exists a modulus $f=f(L / K)$ s.t.
 1. A prime of $K$, ramifies in $L$ iff it divides $f$.
 2. let $\mathfrak{m}$ be a modulus of $K$ divisable by all primes of $K$ that ramify in $L$. Then $ker(\phi)$ is a congruences subgroup if and only if $f|\mathfrak{m}$. 
+
+**Existence theorem**: $\mathfrak{m}$ modulus of $K$, $H$ congruences subgroup , $P_{K,l}(\mathfrak{m})\subseteq H\subseteq I_{K}(\mathfrak{m})$. Then there is a unique abelian extension $L / K$, all ramified primes of $L / K$, divides $\mathfrak{m}$ s.t. Artin map $\phi_{\mathfrak{m}}:I_{K}(\mathfrak{m})\rightarrow Gal(L / K)$ satisfies $Ker(\phi_{\mathfrak{m}})=H$. 
