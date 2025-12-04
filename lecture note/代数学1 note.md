@@ -607,3 +607,7 @@ If $F$ is a field of $p^{n}$ elements, then $F^{\times}$ is cyclic up to order $
 
 **Definition**: Denote by $\mathbb{F}_{p^{n}}$ a finite field of order $p^{n}$. 
 
+# Galois Theory
+**Definition**: An algebric extension $K$ of $F$ is Galois if it is separable and normal. If $K /F$ is finite, define the **Galois group** $Gal(K /F)=Aut_{F}(K)=Hom_{F}(K,K)$. 
+
+**Lemma**: If $K /F$ is galois, then $\#Gal()$
