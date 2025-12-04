@@ -605,4 +605,5 @@ $K / F$ **normal** if forall $g(x) \in F[x]$, if $g$ has a root in $K$, then $g(
 *Proof*: 
 If $F$ is a field of $p^{n}$ elements, then $F^{\times}$ is cyclic up to order $p^{n}-1$. Then $\alpha ^{p^{n}-1}-1=0$, hence $\alpha ^{p^{n}}-\alpha=0$ for all $\alpha \in F$. Then every root of $f(x)=x^{p^{n}}-x$ splits completely in $F$. By $f'(x)=-1$ coprime to $f$, we know that $f$ is separable $\implies$ $f$ has $p^{n}$ different roots in $F$, which are extactly elements of $F$. Hence $F$ is the splitting field of $f(x)$. Now we still need to prove: Any splitting field of $f(x)=x^{p^{n}}-x$ over $\mathbb{F}_{p}$ have $p^{n}$ elements. 
 
-**Definition**: Denote 
+**Definition**: Denote by $\mathbb{F}_{p^{n}}$ a finite field of order $p^{n}$. 
+
