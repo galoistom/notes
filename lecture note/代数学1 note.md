@@ -585,3 +585,4 @@ $K / F$ **normal** if forall $g(x) \in F[x]$, if $g$ has a root in $K$, then $g(
 **Theorem**: 
 1. If $\alpha$ **separable** over $F$, then $F(\alpha)$ is separable extension of $F$.
 2. $K / E$ is separable, $E / F$ is separable $\implies$ $K /F$ is separable.
+
