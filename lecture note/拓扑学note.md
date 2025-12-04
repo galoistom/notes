@@ -294,3 +294,6 @@ In fact, for $f:X\rightarrow Y$ and $g:X\rightarrow Y$, if $f\simeq g$, then it 
 
 **Theorem**: (Van-Kampen's theorem) If $X=X_{1}\cup X_{2}$, and $X_{0}=X_{1}\cap X_{2}\neq \varnothing$ and path connected, then forall $x_{0}\in X_{0}$, $$\pi_{1}(X,x_{0})\simeq \pi_{1}(X_{1},x_{0})*\pi_{1}(X_{2},x_{0}) /[\{ (i_{1})_{\pi}(\alpha)(i_{2})_{\pi}(\alpha ^{-1}):\alpha \in \pi_{1}(X_{0},x_{0}) \}]$$
 
+**Brouwer 不动点定理**: $f:\mathbb{D}^{n}\rightarrow\mathbb{D}^{2}$ continuous, then there is a $x \in\mathbb{D}^{n}$ s.t. $f(x)=x$ for $n=1,2$. 
+
+IN fact, we consider $\mathbb{D}^{n} \rightarrow \mathbb{S}^{n-1}$ with $g(x) = \frac{x-f(x)}{\lVert x-f(x) \rVert}$, and then it s restrictions on $S^{n-1}$ 零伦. On the other hand, if there is a $g_{0}(x)=-x$, then we have $\lVert f \rVert= 1+ \lVert x-f(x)\rVert>1$, so we can easily see that $G(x,t)= \frac{(1-t)g_{0}(x)+tx}{\lVert (1-t)g(x)+tx \rVert}$, gives a homeomorphism $g_{0}\sim \mathbb{1}$, hence $\mathbb{1}$
