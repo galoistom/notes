@@ -588,4 +588,9 @@ $K / F$ **normal** if forall $g(x) \in F[x]$, if $g$ has a root in $K$, then $g(
 
 **Theorem**: $K / F$ finite extension, $M / F$ normal, $K\subseteq M$. Then $Hom_{F}(K,M)\leq [K:F]$. Moreover, TFAE:
 1. $K=F(\alpha_{1},\cdots, \alpha_{n})$ with $\alpha_{i}$ separable over $F$. 
-2. 
+2. $\#Hom_{F}(K,M)=[K:F]$. 
+3. $K /F$ separable (any $\alpha \in K$ is separable over $F$). 
+
+*Proof*: we first reduce to the case of simple extension $K=F(\alpha)$. For $K=F(\alpha)$, denote by $\alpha_{1}, \cdots, \alpha_{m}$ distinct roots of minimal polynomial of $\alpha$ over $F$. Then $\sigma \in Hom_{F}(K,M)$ is determined by $\sigma(\alpha) \in \{ \alpha_{1}, \cdots,\alpha_{n} \}$, hence $\#Hom_{F}(K,M)\leq deg(min_{F}(\alpha))=[K:F]$. 
+
+**Definition**: $K /F$ finite extension, the separable closure of $F$ in $K$ is $K^{S}=\{ \alpha \in K: \alpha \text{ seperable} \}$
