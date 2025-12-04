@@ -586,3 +586,6 @@ $K / F$ **normal** if forall $g(x) \in F[x]$, if $g$ has a root in $K$, then $g(
 1. If $\alpha$ **separable** over $F$, then $F(\alpha)$ is separable extension of $F$.
 2. $K / E$ is separable, $E / F$ is separable $\implies$ $K /F$ is separable.
 
+**Theorem**: $K / F$ finite extension, $M / F$ normal, $K\subseteq M$. Then $Hom_{F}(K,M)\leq [K:F]$. Moreover, TFAE:
+1. $K=F(\alpha_{1},\cdots, \alpha_{n})$ with $\alpha_{i}$ separable over $F$. 
+2. 
