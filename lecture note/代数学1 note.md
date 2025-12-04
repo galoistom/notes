@@ -610,4 +610,9 @@ If $F$ is a field of $p^{n}$ elements, then $F^{\times}$ is cyclic up to order $
 # Galois Theory
 **Definition**: An algebric extension $K$ of $F$ is Galois if it is separable and normal. If $K /F$ is finite, define the **Galois group** $Gal(K /F)=Aut_{F}(K)=Hom_{F}(K,K)$. 
 
-**Lemma**: If $K /F$ is galois, then $\#Gal()$
+**Lemma**: If $K /F$ is galois, then $\#Gal(K /F)=[K:F]$. 
+
+**Notion**: $H\leq Gal(K /F)$ subgroup. Denote $K^{H}=\{ x \in K :\sigma(x)=x, \ \forall x \in H\}\subseteq K$. 
+
+**Theorem**(Galois theory): $K /F$ finite galois extension, with galois group $G$.
+1. Then there is a bijection {subgroup $H\leq G$} <--> {interrmediate fields $E$ of $K /F$}. In fact, the map is $H\mapsto K^{H}$, and $E\mapsto Gal(K /E)$. 
