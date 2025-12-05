@@ -552,3 +552,9 @@ $$
 \left( \frac{L /K}{\mathfrak{p}} \right)(\sqrt[n]{ \alpha }) = \left( \frac{\alpha}{\mathfrak{p}} \right)_{n} \sqrt[n]{ \alpha } 
 $$
 In fact, the equation is correct module $\mathfrak{q}$ for all $\mathfrak{q} \subseteq \mathcal{L}$, $\mathfrak{q}\cap \mathcal{O}_{K}=\mathfrak{p}$. Since $\alpha \not\in \mathfrak{p}$, and $n \not\in \mathfrak{p}$, we have that they must be equal. 
+
+**Theorem**: Let $K$ be a number field containing a primitive $n$th root of unity, and suppose that $\alpha,\beta \in \mathcal{O}_{K}$ are relatively prime to each other and to $n$. Then 
+$$
+\left( \frac{\alpha}{\beta} \right)_{n} \left( \frac{\beta}{\alpha} \right)_{n}^{-1} = \prod_{\mathfrak{p}|n_{\infty}} \left( \frac{\alpha,\beta}{\mathfrak{p}} \right)_{n}
+$$
+Where $\left( \frac{\alpha,\beta}{\mathfrak{p}} \right)_{n}$ is the $n$th power Hilbert symbol and $\infty$ is the product of the real infinite primes of $K$. 
