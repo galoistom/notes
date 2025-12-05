@@ -571,3 +571,4 @@ $$
 \zeta_{K}(s)=\sum_{\mathfrak{a}\subset \mathcal{O}_{K}}N(\mathfrak{a})^{-s} = \prod_{\mathfrak{p} \in \mathcal{P}_{K}}(1-N(\mathfrak{p})^{-s})^{-1}
 $$
 
+**Theorem**: Let $L$ be a Galois extension of $K$, and let $$
