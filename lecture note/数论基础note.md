@@ -542,3 +542,4 @@ $L / \mathbb{Q}$ an abelian extension, then there is a positive integer $n$ s.t.
 Take $\mathfrak{m}=1$, by extension theorem, there is a unique abelian extension $L / K$, unraminfied s.t. $C(\mathcal{O}_{K})=I_{K} / P_{K}=I_{K}(\mathfrak{m}) / P_{K,1}(\mathfrak{m})\stackrel{\sim}{\longrightarrow}Gal(L / K)$.  
 
 **Theorem**: $L$ is the maximal unraminfied extension of $K$. 
+
