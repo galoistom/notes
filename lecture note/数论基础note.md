@@ -558,3 +558,11 @@ $$
 \left( \frac{\alpha}{\beta} \right)_{n} \left( \frac{\beta}{\alpha} \right)_{n}^{-1} = \prod_{\mathfrak{p}|n_{\infty}} \left( \frac{\alpha,\beta}{\mathfrak{p}} \right)_{n}
 $$
 Where $\left( \frac{\alpha,\beta}{\mathfrak{p}} \right)_{n}$ is the $n$th power Hilbert symbol and $\infty$ is the product of the real infinite primes of $K$. 
+
+**The Cebotarev Density Theorem**
+
+$K$ number field, $\mathcal{P}_{K}$ the set of primes of $K$ Gien $\mathcal{S}\subseteq \mathcal{P}_{K}$, define the **Dirichlet density** of $\mathcal{S}$ to be 
+$$
+\delta(\mathcal{S})= \lim_{ s \to 1^{+} }  \frac{\sum_{\mathfrak{p} \in \mathcal{S}}N(\mathfrak{p})^{-s}}{-\log(s-1)}
+$$
+
