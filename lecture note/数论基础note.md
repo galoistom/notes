@@ -544,3 +544,5 @@ Take $\mathfrak{m}=1$, by extension theorem, there is a unique abelian extension
 **Theorem**: $L$ is the maximal unraminfied extension of $K$. 
 
 In fact, this gives a generalized verion of Hilbert class field. Given any modulus $\mathfrak{m}$, the existence theory tells us that there is a unique Abelian extension $K_{\mathfrak{m}}$ of $K$ s.t. $P_{K,1}(\mathfrak{m})=ker(\Phi_{K_{\mathfrak{m}} / K,\mathfrak{m}})$, then $K_{\mathfrak{m}}$ is called the ray class field for the modulus $\mathfrak{m}$, and when $\mathfrak{m}=1$, it reduce to the case of Hilbert class field. 
+
+**Theorem**: $K$ number field, $\mu_{n}=\{ 1, \zeta, \cdots, \zeta ^{n-1} \}$, $0\neq\alpha \in \mathcal{O}_{K}$, $L=K(\sqrt[n]{\alpha})$, $\mathfrak{m}$ modulus of $K$, any prime ideal of $\mathcal{O}_{K}$ containing $n\alpha$ divides $\mathfrak{m}$, and assume that $ker(\Phi)$
