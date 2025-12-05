@@ -545,4 +545,10 @@ Take $\mathfrak{m}=1$, by extension theorem, there is a unique abelian extension
 
 In fact, this gives a generalized verion of Hilbert class field. Given any modulus $\mathfrak{m}$, the existence theory tells us that there is a unique Abelian extension $K_{\mathfrak{m}}$ of $K$ s.t. $P_{K,1}(\mathfrak{m})=ker(\Phi_{K_{\mathfrak{m}} / K,\mathfrak{m}})$, then $K_{\mathfrak{m}}$ is called the ray class field for the modulus $\mathfrak{m}$, and when $\mathfrak{m}=1$, it reduce to the case of Hilbert class field. 
 
-**Theorem**: $K$ number field, $\mu_{n}=\{ 1, \zeta, \cdots, \zeta ^{n-1} \}$, $0\neq\alpha \in \mathcal{O}_{K}$, $L=K(\sqrt[n]{\alpha})$, $\mathfrak{m}$ modulus of $K$, any prime ideal of $\mathcal{O}_{K}$ containing $n\alpha$ divides $\mathfrak{m}$, and assume that $ker(\Phi)$
+**Theorem**: $K$ number field, $\mu_{n}=\{ 1, \zeta, \cdots, \zeta ^{n-1} \}$, $0\neq\alpha \in \mathcal{O}_{K}$, $L=K(\sqrt[n]{\alpha})$, $\mathfrak{m}$ modulus of $K$, any prime ideal of $\mathcal{O}_{K}$ containing $n\alpha$ divides $\mathfrak{m}$, and assume that $ker(\Phi_{L / K, \mathfrak{m}})$ is a congruences subgroup for $\mathfrak{m}$. Then the map $I_{K}(\mathfrak{m})\stackrel{\Phi_{L / K, \mathfrak{m}}}{\longrightarrow} Gal(L / K)\hookrightarrow \mu_{n}$, is just the map $\left( \frac{\alpha}{\cdot} \right)_{n}$, where $Gal(L /K) \hookrightarrow \mu_{n}$ is the natural injection. (As $K\subseteq L=K(\sqrt[n]{ \alpha })$ is galois, and $\sigma \in Gal(L /K)$ send $\sqrt[n]{ \alpha }$ to $\zeta \sqrt[n]{ \alpha }$ for some $\zeta \in \mu_{n}$). 
+
+*Proof*: It is sufficicent to show that 
+$$
+\left( \frac{L /K}{\mathfrak{p}} \right)(\sqrt[n]{ \alpha }) = \left( \frac{\alpha}{\mathfrak{p}} \right)_{n} \sqrt[n]{ \alpha } 
+$$
+In fact, the equation is correct module $\mathfrak{q}$ for all $\mathfrak{q} \subseteq \mathcal{L}$, $\mathfrak{q}\cap \mathcal{O}_{K}=\mathfrak{p}$.  
