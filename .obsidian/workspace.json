@@ -184,8 +184,10 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "lecture note/代数学1 note.md",
+    "algebraic number theory/Newton polygon.md",
+    "algebraic number theory/Valuations.md",
     "Home.md",
+    "lecture note/代数学1 note.md",
     "lecture note/拓扑学note.md",
     "lecture note/数论基础note.md",
     "lecture note/representation note.md",
@@ -206,7 +208,6 @@
     "rep theory/Spectrum.md",
     "Books/分析/[Evans, Lawrence Craig] Partial Differential Equation.pdf",
     "Books/分析/defferential form and application.pdf",
-    "algebraic number theory/Valuations.md",
     "algebraic number theory/Dirichlet Unit Theorem.md",
     "Books/代数数论/Algebraic number theory (neukirch).pdf",
     "rep theory/block theory/#Block theory ch1.md#",
@@ -228,7 +229,6 @@
     "rep theory/lie group and their representation (reminder).md",
     "rep theory/Burnside's theorem.md",
     "templet/tikz.md",
-    "algebraic number theory/Newton polygon.md",
     "algebraic number theory/Minkowski Lattice Therorem.md",
     "algebraic number theory/Finiteness of class number.md"
   ]
