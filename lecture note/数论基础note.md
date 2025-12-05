@@ -566,3 +566,8 @@ $$
 \delta(\mathcal{S})= \lim_{ s \to 1^{+} }  \frac{\sum_{\mathfrak{p} \in \mathcal{S}}N(\mathfrak{p})^{-s}}{-\log(s-1)}
 $$
 
+To learn more abot the density, we have to study the Dirichlet $\zeta$-function if $K$, which is defined by
+$$
+\zeta_{K}(s)=\sum_{\mathfrak{a}\subset \mathcal{O}_{K}}N(\mathfrak{a})^{-s} = \prod_{\mathfrak{p} \in \mathcal{P}_{K}}(1-N(\mathfrak{p})^{-s})^{-1}
+$$
+
