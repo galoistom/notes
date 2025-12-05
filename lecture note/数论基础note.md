@@ -551,4 +551,4 @@ In fact, this gives a generalized verion of Hilbert class field. Given any modul
 $$
 \left( \frac{L /K}{\mathfrak{p}} \right)(\sqrt[n]{ \alpha }) = \left( \frac{\alpha}{\mathfrak{p}} \right)_{n} \sqrt[n]{ \alpha } 
 $$
-In fact, the equation is correct module $\mathfrak{q}$ for all $\mathfrak{q} \subseteq \mathcal{L}$, $\mathfrak{q}\cap \mathcal{O}_{K}=\mathfrak{p}$.  
+In fact, the equation is correct module $\mathfrak{q}$ for all $\mathfrak{q} \subseteq \mathcal{L}$, $\mathfrak{q}\cap \mathcal{O}_{K}=\mathfrak{p}$. Since $\alpha \not\in \mathfrak{p}$, and $n \not\in \mathfrak{p}$, we have that they must be equal. 
