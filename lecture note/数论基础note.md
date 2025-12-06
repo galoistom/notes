@@ -571,4 +571,4 @@ $$
 \zeta_{K}(s)=\sum_{\mathfrak{a}\subset \mathcal{O}_{K}}N(\mathfrak{a})^{-s} = \prod_{\mathfrak{p} \in \mathcal{P}_{K}}(1-N(\mathfrak{p})^{-s})^{-1}
 $$
 
-**Theorem**: Let $L$ be a Galois extension of $K$, and let $$
+**Theorem**: Let $L$ be a Galois extension of $K$, and let $\langle \sigma \rangle$ be the conjugacy class of an element $\sigma \in Gal(L /K)$. Then the set $\mathcal{S}=\left\{  \mathfrak{p} \in \mathcal{P}_{K}: \mathfrak{p} \text{ is unraminfied in } L,\ \left( \frac{L /K}{\mathfrak{p}} \right)=\langle \sigma \rangle  \right\}$ has Dirichlet density $\delta(\mathcal{S})= \frac{\lvert \langle \sigma \rangle \rvert}{\lvert Gal(L /K) \rvert}= \frac{\lvert \langle \sigma \rangle \rvert}{[L:K]}$. 
