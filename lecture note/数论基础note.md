@@ -578,3 +578,11 @@ $K\subseteq L$, $S_{L / K}=\{ \mathfrak{p}\subseteq \mathcal{O}_{K}: \text{prime
 **Theorem**: $L\&M$ are galois extension of $K$. 
 1. $L\subseteq M \Longleftrightarrow S_{M /K}\subset S_{L /K}$. 
 2. $L=M \Longleftrightarrow S_{M /K}=S_{L /K}$. 
+
+*Proof*: 
+1. "=>" clear. On the other hand, Let $N$ be the minimal Galois extension containing both $L$ and $M$. Then $S_{N /K}=S_{M /K}\cap S_{L /K}=S_{M /K}$, hance $[M:K]=[N:K]$ so $M=N$. 
+2. Comes immediately from 1.
+
+**Proposition**: $L, M$ finite extension of $K$. 
+1. If $M$ is Galois over $K$, then $L\subseteq M \Longleftrightarrow S_{M /K}\subset S_{L /K}$. 
+2. If $L$ is Galois over $K$, then $L\subseteq M \Longleftrightarrow S_{M /K}\subset S_{L /K}$. 
