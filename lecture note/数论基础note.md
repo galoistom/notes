@@ -572,3 +572,9 @@ $$
 $$
 
 **Theorem**: Let $L$ be a Galois extension of $K$, and let $\langle \sigma \rangle$ be the conjugacy class of an element $\sigma \in Gal(L /K)$. Then the set $\mathcal{S}=\left\{  \mathfrak{p} \in \mathcal{P}_{K}: \mathfrak{p} \text{ is unraminfied in } L,\ \left( \frac{L /K}{\mathfrak{p}} \right)=\langle \sigma \rangle  \right\}$ has Dirichlet density $\delta(\mathcal{S})= \frac{\lvert \langle \sigma \rangle \rvert}{\lvert Gal(L /K) \rvert}= \frac{\lvert \langle \sigma \rangle \rvert}{[L:K]}$. 
+
+$K\subseteq L$, $S_{L / K}=\{ \mathfrak{p}\subseteq \mathcal{O}_{K}: \text{prime, split completely in } L \}$. Then density of $S_{L /K}= \frac{1}{[L:K]}$. 
+
+**Theorem**: $L\&M$ are galois extension of $K$. 
+1. $L\subseteq M \Longleftrightarrow S_{M /K}\subset S_{L /K}$. 
+2. $L=M \Longleftrightarrow S_{M /K}=S_{L /K}$. 
