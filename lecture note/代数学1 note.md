@@ -630,3 +630,4 @@ If $F$ is a field of $p^{n}$ elements, then $F^{\times}$ is cyclic up to order $
 1. the second one is clear, the group fixing $K^{H_{2}}$ must be a subgroup of $H_{2}$, and the fix field is obviously larger if the group is larger. 
 2. The third is a direct corollary of 1.
 3. As to the forth, $x \in K^{gHg^{-1}} \Longleftrightarrow ghg^{-1}(x)=x$, i.e. $g^{-1}(x)$ is fixed by $H$. 
+4. We need a lemma: $K /F$ galois, $f(x) \in F[x]$ irreducible polynomial with root $\alpha \in K$, Then all roots of $f$ are extactly $Gal(K /F)\alpha=\{ g(\alpha):g \in Gal(K /F) \}$. 
