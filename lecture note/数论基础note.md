@@ -586,3 +586,9 @@ $K\subseteq L$, $S_{L / K}=\{ \mathfrak{p}\subseteq \mathcal{O}_{K}: \text{prime
 **Proposition**: $L, M$ finite extension of $K$. 
 1. If $M$ is Galois over $K$, then $L\subseteq M \Longleftrightarrow S_{M /K}\subset S_{L /K}$. 
 2. If $L$ is Galois over $K$, then $L\subseteq M \Longleftrightarrow S_{M /K}\subset S_{L /K}$. 
+
+Let $K=\mathbb{Q}(\sqrt{ -n })$. $\mathcal{O}\subseteq \mathcal{O}_{K}$ order, $f=[\mathcal{O}_{K}:\mathcal{O}]$, $-4n=f^{2}d_{K}$, $C(\mathcal{O})\simeq I_{K}(f) / P_{K,\mathbb{Z}}(f)$, $P_{K,1}(f)\subseteq P_{K,\mathbb{Z}}\subseteq I_{K}(f)$, generalized (ideal) class group. By existence theorem, there is a unique $L /K$ corresponding to this data. Call $L$ the **ring class field** of the order $\mathcal{O}$. 
+
+1. $L /K$ is unraminfied for all primes of $K$ not dividing $f\mathcal{O}_{K}$.
+2. Artin map $\phi :C(\mathcal{O})=I_{K}(f) /P_{K,\mathbb{Z}}(f)\stackrel{\sim}{\longrightarrow}Gal(L /K)$.
+3. $[L:K]=\#Gal(L /K)=\#C(\mathcal{O})=h(\mathcal{O})=h(-4n)$. 
