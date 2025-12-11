@@ -616,3 +616,4 @@ If $F$ is a field of $p^{n}$ elements, then $F^{\times}$ is cyclic up to order $
 
 **Theorem**(Galois theory): $K /F$ finite galois extension, with galois group $G$.
 1. Then there is a bijection {subgroup $H\leq G$} <--> {interrmediate fields $E$ of $K /F$}. In fact, the map is $H\mapsto K^{H}$, and $E\mapsto Gal(K /E)$. 
+2. The correspond
