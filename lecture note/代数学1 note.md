@@ -624,4 +624,9 @@ If $F$ is a field of $p^{n}$ elements, then $F^{\times}$ is cyclic up to order $
 
 *Proof of 1*:
 1. We first proof that $\psi \circ\phi=id$ i.e. $Gal(K /K^{H})=H$. We know that $H$ acting on $K$ and fix $K^{H}$, so there is a natural injection $H \hookrightarrow Gal(K /K^{H})$, so it suffices to show that $\lvert Gal(K /K^{H}) \rvert \leq \lvert H \rvert$. or equaliently $[K:K^{H}]\leq \lvert H \rvert$. Since any finite separable extension is monogenic (simple) we have $K=K^{H}(\alpha)$ for some $\alpha \in K$. Consider the polynomial $f(x)=\prod_{\sigma \in H}(x-\sigma(\alpha)) \in K[x]$, we have $\sigma(f)=f$, so $f(x) \in K^{H}[x]$, hence $[K:K^{H}]\leq deg(f)=\lvert H \rvert$. 
-2. Now we have to proof that $\phi \circ\psi =id$ i.e. $K^{Gal(K /E)}=E$. Easy to see $E\subseteq K^{Gal(K /E)}$. Suffices to prove $[K:E]=[K:K^{Gal}]$
+2. Now we have to proof that $\phi \circ\psi =id$ i.e. $K^{Gal(K /E)}=E$. Easy to see $E\subseteq K^{Gal(K /E)}$. Suffices to prove $[K:E]=[K:K^{Gal(K /E)}]$. By first part we know that this is correct.
+
+*Proof* of the rest:
+1. the second one is clear, the group fixing $K^{H_{2}}$ must be a subgroup of $H_{2}$, and the fix field is obviously larger if the group is larger. 
+2. The third is a direct corollary of 1.
+3. As to the forth, $x \in K^{gHg^{-1}} \Longleftrightarrow ghg^{-1}(x)=(x)$, 
