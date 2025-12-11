@@ -616,4 +616,11 @@ If $F$ is a field of $p^{n}$ elements, then $F^{\times}$ is cyclic up to order $
 
 **Theorem**(Galois theory): $K /F$ finite galois extension, with galois group $G$.
 1. Then there is a bijection {subgroup $H\leq G$} <--> {interrmediate fields $E$ of $K /F$}. In fact, the map is $H\mapsto K^{H}$, and $E\mapsto Gal(K /E)$. 
-2. The correspond
+2. The correspondence is incusion-reversives, i.e. $H_{1}\subseteq H_{2}$ <==> $K^{H_{2}}\subseteq K^{H_{1}}$. 
+3. The correspondence turns degree of field extensions into indices of subgroups, namely, we have $\#H=[K:K^{H}]$ and $[G:H]=[K^{H}:F]$. 
+4. If $H \longleftrightarrow E$, then $gHg^{-1} \longleftrightarrow g(E)$. 
+5. $H\leq G$ is a normal subgroup iff $K^{H}$ is a normal extension of $F$. In this case, $Gal(K^{H} / F)\simeq G /H$. 
+6. If $H_{1},H_{2} \longleftrightarrow E_{1},E_{2}$, then $H_{1}\cap H_{2} \longleftrightarrow E_{1}E_{2}$ and $\langle H_{1}, H_{2} \rangle \longleftrightarrow E_{1}\cap E_{2}$. 
+
+*Proof of 1*:
+1. We first proof that $\psi \circ\phi=id$ i.e. $Gal(K /K^{H})=H$. We know that $H$ acting on $K$ and fix $K^{H}$, so there is a natural injection $H \hookrightarrow Gal(K /K^{H})$, so it suffices to show that $\lvert Gal(K /K^{H}) \rvert \leq \lvert H \rvert$. 
