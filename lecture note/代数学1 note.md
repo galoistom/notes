@@ -645,3 +645,8 @@ $K /F$ is a splitting field of some polynomial, so $KE /E$ is the splitting fiel
 2 quadratic; 3 cubic; 4 quadric;
 
 **Definition**: An extension $K /F$ is **cyclic** if $K /F$ is finite Galois and $Gal(K /F)$ is cyclic.
+
+**Proposition**: Assume
+1. $char(F)$ not divides $n$.
+2. $F$ contains all $n$-th root of unity. Then $K=F(\sqrt[n]{ a })$ is cyclic of degree $n$. 
+
