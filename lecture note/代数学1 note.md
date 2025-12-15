@@ -633,3 +633,5 @@ If $F$ is a field of $p^{n}$ elements, then $F^{\times}$ is cyclic up to order $
 4. We need a lemma: $K /F$ galois, $f(x) \in F[x]$ irreducible polynomial with root $\alpha \in K$, Then all roots of $f$ are extactly $Gal(K /F)\alpha=\{ g(\alpha):g \in Gal(K /F) \}$. 
 
 **Proposition**: $K /F$ Galois, $E /F$ any extension, then $KE /E$ is Galois, and $Gal(KE /E)\simeq Gal(K /K\cap E)$. 
+
+*Proof*: $K /F$ is a splitting field of some polynomial, so $KE /E$ is the splitting field of the same polynomial. Hence normal and Galois. Consider the map $\Phi:Gal(KE /E)\rightarrow Gal(K /K\cap E)$ with $\sigma\mapsto\sigma|_{K}$. To proof that $\Phi$ is surjective, 
