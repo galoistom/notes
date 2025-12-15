@@ -639,4 +639,4 @@ $K /F$ is a splitting field of some polynomial, so $KE /E$ is the splitting fiel
 
 **Definition**: $H$ abelian group, $L$ a field, a **character** $\chi$ of $H$ valued in $L$ is a group homomorphism $\chi:H\rightarrow L^{\times}$. 
 
-**Definition**: We say that character $\chi_{1}, \cdots,\chi_{n}$ are linearly independent over $L$ if they are linearly independent in the $L$-vector space $Maps(H,L)=\{ maps\ H\rightarrow L^{\times} \}$. 
+**Definition**: We say that character $\chi_{1}, \cdots,\chi_{n}$ are linearly independent over $L$ if they are linearly independent in the $L$-vector space $Maps(H,L)=\{ maps\ H\rightarrow L^{\times} \}$. In fact, if they are distinct, then they must be linearly independent.
