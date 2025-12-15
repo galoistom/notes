@@ -650,3 +650,7 @@ $K /F$ is a splitting field of some polynomial, so $KE /E$ is the splitting fiel
 1. $char(F)$ not divides $n$.
 2. $F$ contains all $n$-th root of unity. Then $K=F(\sqrt[n]{ a })$ is cyclic of degree $n$. 
 
+**Theorem**(kummer): $F$ a field.
+Assume $char(F)$ does not divides $n$ and $F$ contains all $n$-th root of unity. Then 
+1. $F(\sqrt[n]{ a }) /F$ cyclic of order dividing $n$.
+2. Any cyclic extension $K$ of $F$ of order $n$ is of the form $K=F(\sqrt[n]{ a }), a \in F^{\times}$. 
