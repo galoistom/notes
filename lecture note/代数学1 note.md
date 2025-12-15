@@ -637,3 +637,6 @@ If $F$ is a field of $p^{n}$ elements, then $F^{\times}$ is cyclic up to order $
 *Proof*: 
 $K /F$ is a splitting field of some polynomial, so $KE /E$ is the splitting field of the same polynomial. Hence normal and Galois. Consider the map $\Phi:Gal(KE /E)\rightarrow Gal(K /K\cap E)$ with $\sigma\mapsto\sigma|_{K}$. To proof that $\Phi$ is surjective, let $H=Im(\Phi)$, and consider $K^{H}$, we know that forall $\alpha \in K^{H}$, $\sigma(a)=\alpha$ for all $Gal(KE /E)$, so $\alpha \in E$. An we know that $K^{H}\subseteq K\cap E$ so they must be equal.
 
+**Definition**: $H$ abelian group, $L$ a field, a **character** $\chi$ of $H$ valued in $L$ is a group homomorphism $\chi:H\rightarrow L^{\times}$. 
+
+**Definition**: We say that character $\chi_{1}, \cdots,\chi_{n}$ are linearly independent over $L$ if they are linearly independent in the $L$-vector space $Maps(H,L)=\{ maps\ H\rightarrow L^{\times} \}$. 
