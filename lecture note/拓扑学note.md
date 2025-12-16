@@ -305,3 +305,5 @@ let $p:\mathbb{E}^{1}\rightarrow S^{1}$ $p(t)=e^{2\pi ti}$, then $Homeo_{p}(\mat
 同伦提升定理: $F:Y\times[0,1]\rightarrow X$ a homotopy and $\tilde{F}_{0}:Y\rightarrow \tilde{X}$, if $F(\,\cdot\ ,\ 0)$ coinside with $p\circ \tilde{F}_{0}$ then there is a unique homotopy $\tilde{F}: Y\times[0,1]\rightarrow \tilde{X}$ s.t. $F=p\circ \tilde{F}$ and $\tilde{F}_{0}=\tilde{F}|_{0}$.   
 
 **Proposition**: $p:(\tilde{X},\tilde{x}_{0}) \rightarrow (X,x_{0})$ be a covering, $X,\tilde{X}$ path connected, then forall $x \in X$, $|P^{-1}(x)|=|\pi_{1}(X,x_{0}) / Im(P_{*})|$.  
+
+**Proposition**: $\{ H_{\tilde{x}}: \tilde{x} \in p^{-1}(x_{0})\}$ form a conjugacy class of $\pi(X,x_{0})$. 
