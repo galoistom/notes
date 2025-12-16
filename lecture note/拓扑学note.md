@@ -297,3 +297,4 @@ In fact, for $f:X\rightarrow Y$ and $g:X\rightarrow Y$, if $f\simeq g$, then it 
 **Brouwer 不动点定理**: $f:\mathbb{D}^{n}\rightarrow\mathbb{D}^{2}$ continuous, then there is a $x \in\mathbb{D}^{n}$ s.t. $f(x)=x$ for $n=1,2$. 
 
 IN fact, we consider $\mathbb{D}^{n} \rightarrow \mathbb{S}^{n-1}$ with $g(x) = \frac{x-f(x)}{\lVert x-f(x) \rVert}$, and then it s restrictions on $S^{n-1}$ 零伦. On the other hand, if there is a $g_{0}(x)=-x$, then we have $\lVert f \rVert= 1+ \lVert x-f(x)\rVert>1$, so we can easily see that $G(x,t)= \frac{(1-t)g_{0}(x)+tx}{\lVert (1-t)g(x)+tx \rVert}$, gives a homeomorphism $g_{0}\sim \mathbb{1}$, hence $\mathbb{1}\sim0$. One easily see that this is in possible for $n=1,2$. 
+
