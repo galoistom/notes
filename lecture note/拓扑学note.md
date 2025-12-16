@@ -301,3 +301,5 @@ IN fact, we consider $\mathbb{D}^{n} \rightarrow \mathbb{S}^{n-1}$ with $g(x) = 
 let $p:\mathbb{E}^{1}\rightarrow S^{1}$ $p(t)=e^{2\pi ti}$, then $Homeo_{p}(\mathbb{E}^{1})=\{ h:p\circ h=p \}$ is equal to $Gal(\mathbb{E}^{1}\stackrel{p}{\rightarrow}S^{1})$. Let $G<\pi_{1}(S^{1})=\mathbb{Z}$, then there is a $p_{G}:X_{G}\rightarrow S^{1}$, $\pi_{G}:\mathbb{E}^{1}\rightarrow X_{G}$, then $Gal(\mathbb{E}^{1}\rightarrow X_{G})\simeq G$. 
 
 **Definition**: $X$ topological space, a covering space (复迭空间) contains a topological space $\tilde{X}$ and map $p:\tilde{X}\rightarrow X$ s.t. $\forall x \in X$ there is a open neighbor $V$ of $x \in X$ and $p^{-1}(V)$ has a decomposition $\{ V_{\alpha} \}$ s.t. $V_{\alpha}\cap V_{\beta}=\varnothing$ and every restriction $p|_{V_{\alpha}}$ is a homeomorphism $V_{\alpha}\rightarrow X$. then $p$ is 复迭映射 and $X$ is 底空间.
+
+同伦提升定理: $F:Y\times[0,1]\rightarrow X$ a homotopy and $\tilde{F}_{0}:Y\rightarrow \tilde{X}$, if $F(\,\cdot\ ,\ 0)$ coinside with $p\circ \tilde{F}_{0}$ then there is a unique homotopy $\tilde{F}: Y\times[0,1]\rightarrow \tilde{X}$ s.t. $F=p\circ \tilde{F}$ and $\tilde{F}_{0}=\tilde{F}|_{0}$.   
