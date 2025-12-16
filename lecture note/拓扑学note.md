@@ -298,4 +298,6 @@ In fact, for $f:X\rightarrow Y$ and $g:X\rightarrow Y$, if $f\simeq g$, then it 
 
 IN fact, we consider $\mathbb{D}^{n} \rightarrow \mathbb{S}^{n-1}$ with $g(x) = \frac{x-f(x)}{\lVert x-f(x) \rVert}$, and then it s restrictions on $S^{n-1}$ 零伦. On the other hand, if there is a $g_{0}(x)=-x$, then we have $\lVert f \rVert= 1+ \lVert x-f(x)\rVert>1$, so we can easily see that $G(x,t)= \frac{(1-t)g_{0}(x)+tx}{\lVert (1-t)g(x)+tx \rVert}$, gives a homeomorphism $g_{0}\sim \mathbb{1}$, hence $\mathbb{1}\sim0$. One easily see that this is in possible for $n=1,2$. 
 
-let $p:\mathbb{E}^{1}\rightarrow S^{1}$ $p(t)=e^{2\pi ti}$, then $Homeo_{p}(\mathbb{E}^{1})=\{ h:p\circ h=p \}$ is equal to $Gal(\mathbb{E}^{1}\stackrel{p}{\rightarrow}S^{1})$. 
+let $p:\mathbb{E}^{1}\rightarrow S^{1}$ $p(t)=e^{2\pi ti}$, then $Homeo_{p}(\mathbb{E}^{1})=\{ h:p\circ h=p \}$ is equal to $Gal(\mathbb{E}^{1}\stackrel{p}{\rightarrow}S^{1})$. Let $G<\pi_{1}(S^{1})=\mathbb{Z}$, then there is a $p_{G}:X_{G}\rightarrow S^{1}$, $\pi_{G}:\mathbb{E}^{1}\rightarrow X_{G}$, then $Gal(\mathbb{E}^{1}\rightarrow X_{G})\simeq G$. 
+
+**Definition**: $X$ topological space, a covering space (复迭空间)
