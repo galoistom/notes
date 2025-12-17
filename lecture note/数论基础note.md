@@ -592,3 +592,5 @@ Let $K=\mathbb{Q}(\sqrt{ -n })$. $\mathcal{O}\subseteq \mathcal{O}_{K}$ order, $
 1. $L /K$ is unraminfied for all primes of $K$ not dividing $f\mathcal{O}_{K}$.
 2. Artin map $\phi :C(\mathcal{O})=I_{K}(f) /P_{K,\mathbb{Z}}(f)\stackrel{\sim}{\longrightarrow}Gal(L /K)$.
 3. $[L:K]=\#Gal(L /K)=\#C(\mathcal{O})=h(\mathcal{O})=h(-4n)$. 
+
+**Theorem**: there is a $f_{n} \in \mathbb{Z}[x]$ monic with degree $h(-4n)$, let $p$ be an odd prime, not dividing $n$ and the discriminant of $f_{n}$, then there is $x,y \in \mathbb{Z}$ , $p=x^{2}+ny^{2}$ iff $\left( \frac{-n}{p} \right)=1$ and $f_{n}(x)\equiv0\pmod{p}$. In fact, choose $\alpha \in \mathcal{O}_{L}\cap \mathbb{R}$ generating $L /K$, we can take $f_{n}(x)=min_{\mathbb{Q}}\alpha$. 
