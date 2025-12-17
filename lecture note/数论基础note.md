@@ -594,3 +594,5 @@ Let $K=\mathbb{Q}(\sqrt{ -n })$. $\mathcal{O}\subseteq \mathcal{O}_{K}$ order, $
 3. $[L:K]=\#Gal(L /K)=\#C(\mathcal{O})=h(\mathcal{O})=h(-4n)$. 
 
 **Theorem**: there is a $f_{n} \in \mathbb{Z}[x]$ monic with degree $h(-4n)$, let $p$ be an odd prime, not dividing $n$ and the discriminant of $f_{n}$, then there is $x,y \in \mathbb{Z}$ , $p=x^{2}+ny^{2}$ iff $\left( \frac{-n}{p} \right)=1$ and $f_{n}(x)\equiv0\pmod{p}$. In fact, choose $\alpha \in \mathcal{O}_{L}\cap \mathbb{R}$ generating $L /K$, we can take $f_{n}(x)=min_{\mathbb{Q}}\alpha$. 
+
+**Lemma**: $L /\mathbb{Q}$ galois, and $Gal(L /\mathbb{Q})=Gal(L /K) \rtimes\langle \tau \rangle$, where $\tau$ is the complex conjugation and $\tau\sigma \tau ^{-1}=\sigma ^{-1}$. 

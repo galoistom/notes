@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "ff5a17613e8f4e45",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "eef0cad34e2b3c21",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -183,13 +183,13 @@
       "fuzzy-chinese-pinyin:FuzzySearch": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "eef0cad34e2b3c21",
   "lastOpenFiles": [
-    "Untitled.md",
+    "lecture note/代数学1 note.md",
     "lecture note/数论基础note.md",
+    "Untitled.md",
     "Home.md",
     "lecture note/拓扑学note.md",
-    "lecture note/代数学1 note.md",
     "lecture note/代数学2 note.md",
     "Books/lambda.pdf",
     "rep theory/lie algebra (based on gtm9).md",
