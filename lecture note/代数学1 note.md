@@ -655,3 +655,10 @@ Assume $char(F)$ does not divides $n$ and $F$ contains all $n$-th root of unity.
 1. $F(\sqrt[n]{ a }) /F$ cyclic of order dividing $n$.
 2. Any cyclic extension $K$ of $F$ of order $n$ is of the form $K=F(\sqrt[n]{ a }), a \in F^{\times}$. 
 
+**Definition**: 
+1. $K /F$ is **radical extension** if $K=F(\sqrt[n]{ a })$
+2. $K /F$ is **kummer extension** if $K=F(\sqrt[n]{ a })$ and $F$ contains all $n$-th root of unity. 
+
+**Definition**: Assume $F$ conains all $n$-th root of unity, then kummer extension of $F$ is equivalant to cyclic extension of $F$.
+
+**Definition**: $K /F$ is called syccessive radical extension if we have intermediate fields $F=K_{0}\subseteq K_{1}\subseteq \cdots\subseteq K_{n}=K$, s.t. $K_{i+1} /K_{i}$ i
