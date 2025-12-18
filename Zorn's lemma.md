@@ -10,4 +10,4 @@ It is equivalent to:
 2. (anti-symmetric) $y\leq x$ and $x\leq y$ $\implies$ $x=y$.
 3. (transitive) $x\leq y$, $y\leq z$ $\implies$ $x\leq z$.
 
-A chain is a subset $B\subseteq A$ s.t. $\forall x,y\in B$, $x\leq y$ or $y\leq x$.
+A chain is a subset $B \subseteq A$ s.t. $\forall x,y\in B$, $x\leq y$ or $y\leq x$.
