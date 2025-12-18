@@ -672,3 +672,5 @@ Assume $char(F)$ does not divides $n$ and $F$ contains all $n$-th root of unity.
 **Theorem**: An irreducible polynomialcan be solved by radicals iff the galois group of $f(x)$ is solvable. 
 
 Now recall $A_{n}$ and $S_{n}$ are not solvable when $n\geq5$. 
+
+Let $K=F(\alpha_{1})$, $K'=F(\alpha_{1}, \cdots,\alpha_{n})$, then $G$ acts on $\{ \alpha_{1}, \cdots, \alpha_{n} \}$ transitivly, inducing an injective map $G \hookrightarrow S_{n}$. 
