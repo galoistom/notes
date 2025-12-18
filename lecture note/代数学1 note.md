@@ -664,3 +664,5 @@ Assume $char(F)$ does not divides $n$ and $F$ contains all $n$-th root of unity.
 **Definition**: $K /F$ is called syccessive radical extension if we have intermediate fields $F=K_{0}\subseteq K_{1}\subseteq \cdots\subseteq K_{n}=K$, s.t. $K_{i+1} /K_{i}$ is radical extension. We define successive kummer extension similiarly.
 
 **Definition**: An element $\alpha$ in an algebric extension of $F$ **can be expressed by radicals** if $\alpha$ lies in a successive radical extension of $F$. An irreducible polynomial $f(x) \in F[x]$ can be solved by radicals if $\alpha=x+(f(x))$ in $F[x] /(f(x))$ can be expressed by radicals.
+
+**Proposition**: $K /F$ $\alpha \in K$, then $K$ can be expressed by radicals iff $\alpha$ is contained in a Galos successive radical extension.
