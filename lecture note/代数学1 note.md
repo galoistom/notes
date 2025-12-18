@@ -669,4 +669,4 @@ Assume $char(F)$ does not divides $n$ and $F$ contains all $n$-th root of unity.
 
 **Definition**: $f \in F[x]$ polynomial, the **galois group** of $F$ is the galois group of the splitting field of $f$.
 
-**Theorem**: An irreducible polynomialcan be solved by radicals iff the galois group of $f(x)$ is solvable.
+**Theorem**: An irreducible polynomialcan be solved by radicals iff the galois group of $f(x)$ is solvable. 
