@@ -307,3 +307,5 @@ let $p:\mathbb{E}^{1}\rightarrow S^{1}$ $p(t)=e^{2\pi ti}$, then $Homeo_{p}(\mat
 **Proposition**: $p:(\tilde{X},\tilde{x}_{0}) \rightarrow (X,x_{0})$ be a covering, $X,\tilde{X}$ path connected, then forall $x \in X$, $|P^{-1}(x)|=|\pi_{1}(X,x_{0}) / Im(P_{*})|$.  
 
 **Proposition**: $\{ H_{\tilde{x}}: \tilde{x} \in p^{-1}(x_{0})\}$ form a conjugacy class of $\pi(X,x_{0})$. 
+
+**Theorem**: Let $X$ be path connected and locally path connected space, $f:X\rightarrow B$ continuous, $x_{0} \in X$, $b_{0}=f(x_{0})$, $e_{0}=p^{-1}(b_{0})$. Then there is a pullback $\tilde{f}$ s.t. $\tilde{f}(x_{0})=e_{0} \Longleftrightarrow f_{\pi}(\pi_{i}(X,x_{0}))\subseteq H_{e_{0}}$. 
