@@ -667,6 +667,8 @@ Assume $char(F)$ does not divides $n$ and $F$ contains all $n$-th root of unity.
 
 **Proposition**: $K /F$ $\alpha \in K$, then $K$ can be expressed by radicals iff $\alpha$ is contained in a Galos successive radical extension.
 
-**Definition**: $f \in F[x]$ polynomial, the **galois group** of $F$ is the galois group of the splitting field of $f$.
+**Definition**: $f \in F[x]$ polynomial, the **galois group** of $F$ is the galois group of the splitting field of $f$. 
 
 **Theorem**: An irreducible polynomialcan be solved by radicals iff the galois group of $f(x)$ is solvable. 
+
+Now recall $A_{n}$ and $S_{n}$ are not solvable when $n\geq5$. 
