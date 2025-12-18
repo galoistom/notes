@@ -666,3 +666,7 @@ Assume $char(F)$ does not divides $n$ and $F$ contains all $n$-th root of unity.
 **Definition**: An element $\alpha$ in an algebric extension of $F$ **can be expressed by radicals** if $\alpha$ lies in a successive radical extension of $F$. An irreducible polynomial $f(x) \in F[x]$ can be solved by radicals if $\alpha=x+(f(x))$ in $F[x] /(f(x))$ can be expressed by radicals.
 
 **Proposition**: $K /F$ $\alpha \in K$, then $K$ can be expressed by radicals iff $\alpha$ is contained in a Galos successive radical extension.
+
+**Definition**: $f \in F[x]$ polynomial, the **galois group** of $F$ is the galois group of the splitting field of $f$.
+
+**Theorem**: An irreducible polynomialcan be solved by radicals iff the galois group of $f(x)$ is solvable.
