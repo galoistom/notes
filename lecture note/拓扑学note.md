@@ -309,3 +309,7 @@ let $p:\mathbb{E}^{1}\rightarrow S^{1}$ $p(t)=e^{2\pi ti}$, then $Homeo_{p}(\mat
 **Proposition**: $\{ H_{\tilde{x}}: \tilde{x} \in p^{-1}(x_{0})\}$ form a conjugacy class of $\pi(X,x_{0})$. 
 
 **Theorem**: Let $X$ be path connected and locally path connected space, $f:X\rightarrow B$ continuous, $x_{0} \in X$, $b_{0}=f(x_{0})$, $e_{0}=p^{-1}(b_{0})$. Then there is a pullback $\tilde{f}$ s.t. $\tilde{f}(x_{0})=e_{0} \Longleftrightarrow f_{\pi}(\pi_{i}(X,x_{0}))\subseteq H_{e_{0}}$. 
+
+**Theorem**: $X$ path connected, locally path connected and semisimiple path connected, then $X$ have a universal covering space $\tilde{X}$. 
+
+*Proof*: Consider $\tilde{X}=\{ r:[0,1]\rightarrow X:r(0)=x_{0} \}$. And $r_{1}\sim r_{2}$ iff $r_{1}(1)=r_{2}(1)$ and. 
