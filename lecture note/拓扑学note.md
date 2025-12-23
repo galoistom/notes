@@ -313,3 +313,5 @@ let $p:\mathbb{E}^{1}\rightarrow S^{1}$ $p(t)=e^{2\pi ti}$, then $Homeo_{p}(\mat
 **Theorem**: $X$ path connected, locally path connected and semisimiple path connected, then $X$ have a universal covering space $\tilde{X}$. 
 
 *Proof*: Consider $\tilde{X}=\{ r:[0,1]\rightarrow X:r(0)=x_{0} \}$. And $r_{1}\sim r_{2}$ iff $r_{1}(1)=r_{2}(1)$. 
+
+**Proposition**: As assume in the above theorem, then forall $G<\pi_{1}(X,x_{0})$, there is a path connected covering space $p:X_{G}\rightarrow X$ and $\tilde{x}_{0} \in p^{-1}(x_{0})$, s.t. $p_{*}(\pi_{1}(X_{G},\tilde{x}_{0}))=G$.  
