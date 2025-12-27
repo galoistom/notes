@@ -312,10 +312,13 @@ let $p:\mathbb{E}^{1}\rightarrow S^{1}$ $p(t)=e^{2\pi ti}$, then $Homeo_{p}(\mat
 
 **Theorem**: $X$ path connected, locally path connected and semisimiple path connected, then $X$ have a universal covering space $\tilde{X}$. 
 
-*Proof*: Consider $\tilde{X}=\{ r:[0,1]\rightarrow X:r(0)=x_{0} \}$. And $r_{1}\sim r_{2}$ iff $r_{1}(1)=r_{2}(1)$. 
+*Proof*: Consider $\tilde{X}=\{ r:[0,1]\rightarrow X:r(0)=x_{0} \}$. And $r_{1}\sim r_{2}$ iff $r_{1}(1)=r_{2}(1)$. With open basis $(\alpha,U)=\{\alpha\langle \omega \rangle: \omega(0)=\alpha(1)\}$. 
 
-**Proposition**: As assume in the above theorem, then forall $G<\pi_{1}(X,x_{0})$, there is a path connected covering space $p:X_{G}\rightarrow X$ and $\tilde{x}_{0} \in p^{-1}(x_{0})$, s.t. $p_{*}(\pi_{1}(X_{G},\tilde{x}_{0}))=G$.  
+**Proposition**: As assume in the above theorem, then forall $G<\pi_{1}(X,x_{0})$, there is a path connected covering space $p:X_{G}\rightarrow X$ and $\tilde{x}_{0} \in p^{-1}(x_{0})$, s.t. $p_{*}(\pi_{1}(X_{G},\tilde{x}_{0}))=G$. 
+
+*proof*: Consider $X_G=\{\gamma:[0,1]\rightarrow X| \gamma(0)=x_0\}/\sim$, where $\gemma_1\sim\gemma_2$ iff $\gemma_1(1)=\gemma_2(1)$ and $\langle \gamma_1,\overline{\gamma}_2 \rangle \in G$. With topology to be the quotient $\tilde{X}\rightarrow X_G$. 
 
 **Theorem**: $X$ path connected, locally path connected, locally semisimiple path connected, and take a base point $x_{0} \in X$, then the path connected covering space $p:(\tilde{X},\tilde{x}_{0})\rightarrow(X,x_{0})$ has a one to one map to subgroups of $\pi_{1}(X,x)$. (Just the map induced by $p$)
 
 **Definition**: Now we can define regular covering (正规复迭) is the ones that have $p_{*}(\pi_{1})$ a normal subgroup.
+

@@ -1,7 +1,3 @@
----
-updated_at: 2025-10-23T15:15:43.233+08:00
-edited_seconds: 140
----
 #algebra #lectureNote 
 
 why group/ring/fields?
@@ -669,8 +665,36 @@ Assume $char(F)$ does not divides $n$ and $F$ contains all $n$-th root of unity.
 
 **Definition**: $f \in F[x]$ polynomial, the **galois group** of $F$ is the galois group of the splitting field of $f$. 
 
-**Theorem**: An irreducible polynomialcan be solved by radicals iff the galois group of $f(x)$ is solvable. 
+**Theorem**: An irreducible polynomial can be solved by radicals iff the galois group of $f(x)$ is solvable. 
 
 Now recall $A_{n}$ and $S_{n}$ are not solvable when $n\geq5$. 
 
 Let $K=F(\alpha_{1})$, $K'=F(\alpha_{1}, \cdots,\alpha_{n})$, then $G$ acts on $\{ \alpha_{1}, \cdots, \alpha_{n} \}$ transitivly, inducing an injective map $G \hookrightarrow S_{n}$. 
+
+Recall $K /F$ separable of degree $n$, $M/K$ finite extension, $M/F$ Galois, with galois group $G$, $K'$ be the normal closure of $F$ in $M$, $K'=\prod_{\sigma \in G}\sigma(K)$, denote $H=Gal(M/K)$, then $Gal(M /K')=\bigcap_{\sigma \in G}Gal(M/\sigma(K))$, is a normal subgroup of $G$. 
+
+**Example**: Galois group of cubic polynomial: 
+$F$ a field, $f(x)\in F[x]$, $deg(f)=3$, consider $F'$ be the splitting field of $f$, then we may assume that $f(x)=x^{3}+ax+b$, with roots $\alpha,\beta,\theta$, so we have $G \hookrightarrow S_3$, with $|G|\geq 3$, so $G=S_3,A_3$. Consider the discriminant $D=(\alpha-\beta)^{2}(\beta-\theta)^{2}(\theta-\alpha)^{2}$, so we know that $G=S_3$ iff $\sqrt{D} \in F$. 
+
+# Algebric Closure
+**Definition**: An extension $K$ of $F$ is called an **algebric closure** of $F$ if 
+1. $K /F$ is algebric extension
+2. every polynomial $f \in F[x]$ splits completely in $K$. 
+
+Similiarly, an extension $K/F$ is called a **separable closure** of $F$ if 
+1. $K /F$ is separable algebric extension,
+2. every separable polynomial $f(x) \in F[x]$ splits completely in $K$. 
+
+**Definition**: A field $K$ is **algebrically closed** if every polynomial in $K[x]$ splits completely in $K$. 
+
+**Proposition**:
+1. An algebric closure of an algebrically closed field is itself. Same is true for separable field.
+2. If $K$ is algebric closure of $F$, then $K$ is algebrically closed.
+
+**Theorem**: 
+1. Any field $F$ is contained in an algebrically closed field $K$. 
+2. If $K /F$ is a field $K$ algebrically closed, then $F^{alg}:=\{x \in K: x \text{ algebric over } F\}$ is an algebrically closed field (separable resp.). 
+The algebric closure an separable closure of a field $F$ are unique up to isomorphisms. 
+
+# Infinity Galois extension
+$K=\bigcup_{i \in I}K_i$, with $K_i /F$ finite galois, let $Gal(K/F)=Aut_F(K)$, then we have $Gal(K/F)=\lim\limits_{\longleftarrow}Gal(K_i/F)$, with this, we can more or less focous on each finite galois extension $K_i/F$. In fact, each closed subgroup $H$ of $Gal(K/F)$ is uniquely asscoiate to one of the intermediate field $K/L/F$, which is the infinite version of Galois theory.
