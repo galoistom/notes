@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=prv__6570_8BBA_57FA_7840note.md 2025.10.24)  24 OCT 2025 12:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=prv__6570_8BBA_57FA_7840note.md 2025.12.29)  29 DEC 2025 22:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -293,15 +293,15 @@ File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
 <-><->
       
 l.6 $
-     f_{n}$
+     $
 Not a real error.
 
 Preview: Tightpage -32891 -32891 32891 32891
-./_6570_8BBA_57FA_7840note.md.tex:6: Preview: Snippet 1 ended.(455111+127431x677589).
+./_6570_8BBA_57FA_7840note.md.tex:10: Preview: Snippet 1 ended.(2896681+0x22609920).
 <-><->
       
-l.6 $f_{n}$
-           
+l.10 $$
+       
 Not a real error.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
@@ -311,18 +311,18 @@ L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 12555 strings out of 473834
- 272666 string characters out of 5750454
- 646257 words of memory out of 5000000
- 36630 multiletter control sequences out of 15000+600000
+ 12557 strings out of 473834
+ 272720 string characters out of 5750454
+ 648257 words of memory out of 5000000
+ 36632 multiletter control sequences out of 15000+600000
  566064 words of font info for 52 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 125i,4n,127p,536b,100s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb>
-Output written on _6570_8BBA_57FA_7840note.md.pdf (1 page, 17208 bytes).
+ 125i,8n,127p,536b,141s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on _6570_8BBA_57FA_7840note.md.pdf (1 page, 53501 bytes).
 PDF statistics:
- 21 PDF objects out of 1000 (max. 8388607)
- 13 compressed objects within 1 object stream
+ 41 PDF objects out of 1000 (max. 8388607)
+ 25 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

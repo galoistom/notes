@@ -1,6 +1,3 @@
----
-updated_at: 2025-10-23T10:40:17.225+08:00
----
 #nt #algebra #lectureNote 
 >[!note] Main problem
 >Find all prime of the form $x^{2}+ny^{2}$, i.e. find all $p=x^{2}+ny^{2}$
@@ -81,7 +78,7 @@ Suppose $s,r\in \mathbb{Z}$, with $gcd(s,r)=1$ and $f(s,r)=1$. Take $ps-qr=1$, a
 
 We consider some small cases:
 
-| $D$  |                                                                 |
+| $D$   |                                                                 |
 | ---- | --------------------------------------------------------------- |
 | -3   | $x^{2}+xy+y^2$                                                  |
 | -4   | $x^{2}+y^{2}$                                                   |
@@ -146,9 +143,9 @@ $$
 
 **Lemma**: $f(x,y)=ax^{2}+bxy+cy^{2}$, $g(x,y)=a'x^{2}+b'xy+c'y^{2}$ with discriminant $D$, $gcd\left( a,a', \frac{b+b'}{2} \right)=1$. Then there is a unique integerr $B\pmod{2aa'}$ such that 
 $$
-\begin{cases}B&\equiv b&\pmod{2a} \\
-B&\equiv b'&\pmod{2a'} \\
-B^{2}&\equiv D&\pmod{4aa'}\end{cases}
+\begin{cases}B &\equiv b \pmod{2a} \\
+B &\equiv b' \pmod{2a'} \\
+B^{2} &\equiv D \pmod{4aa'}\end{cases}
 $$
 
 *Proof*: Notice that $4aa'|(B-b)(B-b')$, so $\frac{1}{2} (b+b')B\equiv bb'+D\pmod{2aa'}$. One check the condition of above lemma, so $B$ exists. 
