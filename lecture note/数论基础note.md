@@ -158,9 +158,9 @@ Written formaly, let $f,g,F$ be quadraic form with discriminant $D$, then we cal
 
 We hope that the composition is unique (up to equivalence?). Unfortunately, this is not true in general. But if we ask $a_{1}b_{2}-a_{2}b_{1}=f(1,0)$ and $a_{1}c_{2}-a_{2}c_{1}=g(1,0)$, then we call $F$ is a **direct composition**, and its properly equivalent class is unique. 
 
-In fact, the direct composition defines a multiplication of the class of quadraic forms $[f]*[g]=[F]$, this meas that the choice of representatives does note matter, and in fact, this multiplication is transitive and abelian. So this forms a group $C(D)=ker(\chi) / H$. 
+In fact, the direct composition defines a multiplication of the class of quadraic forms $[f]*[g]=[F]$, this means that the choice of representatives does note matter, and in fact, this multiplication is transitive and abelian. So this forms a group $C(D)=ker(\chi) / H$. 
 
-**Definition**: Let **Principle form** be $x^{2}-\frac{D}{4}y^{2}$ for $4|D$, or $x^{2}+xy+\frac{1-D}{4}y^{2}$ for $D\equiv1\pmod{4}$. One notice that the dirichlet composition of  $ax^{2}+bxy+cy^{2}$ and $cx^{2}+bxy+ay^{2}$ are $acx^{2}+bxy+y^{2}$, which is properly equivalent too $x^{2}-bxt+acy^{2}$, hence properly equivalent to the principle form, so they are invers of each other in $C(D)$. 
+**Definition**: Let **principle form** be $x^{2}-\frac{D}{4}y^{2}$ for $4|D$, or $x^{2}+xy+\frac{1-D}{4}y^{2}$ for $D\equiv1\pmod{4}$. One notice that the dirichlet composition of  $ax^{2}+bxy+cy^{2}$ and $cx^{2}+bxy+ay^{2}$ are $acx^{2}+bxy+y^{2}$, which is properly equivalent too $x^{2}-bxt+acy^{2}$, hence properly equivalent to the principle form, so they are invers of each other in $C(D)$. 
 
 **lemma**: A reduced form $f(x,y)=ax^{2}+bxy+cy^{2}$ of discriminant $D$ has order $\leq2$ in $C(D)$ if and only if $b=0,a=b\text{ or } a=c$. 
 
@@ -440,7 +440,7 @@ $K\subseteq L$, $Gal(L / K)=C(d_{K})$, $K\subseteq E\subseteq L$, $Gal(L / E)=C(
 
 $I(\mathcal{O})\ \sim$ set of proper fractional ideals of $\mathcal{O}$, $P(\mathcal{O}) \ \sim$ set of principle fractional ideals of $\mathcal{O}$. Let the **Ideal class group** of $\mathcal{O}$ := $I(\mathcal{O}) / P(\mathcal{O})$, with multiplication $a*b=a\cdot b$. 
 
-$\mathcal{O}\subseteq \mathcal{O}_{K}$, $f=\#\mathcal{O}_{K} / \mathcal{O}$ canduction, then $f\mathcal{O}_{K}\subseteq \mathcal{O}\subseteq\mathcal{O}_{K}$. If $f>1$, then $f\mathcal{O}_{K}$ is an ideal of $\mathcal{O}$ not proper. 
+$\mathcal{O}\subseteq \mathcal{O}_{K}$, $f=\#\mathcal{O}_{K} / \mathcal{O}$ conduction, then $f\mathcal{O}_{K}\subseteq \mathcal{O}\subseteq\mathcal{O}_{K}$. If $f>1$, then $f\mathcal{O}_{K}$ is an ideal of $\mathcal{O}$ not proper. 
 
 **Theorem**: $K$ imaginary quadraic field $\mathcal{O}\subseteq \mathcal{O}_{K}$, order $f=\#(\mathcal{O}_{K} / \mathcal{O})$, $D=\text{discriminant of }\mathcal{O}=f^{2}d_{K}$. 
 
