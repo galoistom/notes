@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lecture note/代数学1 note.md",
+                "file": "lecture note/拓扑学note.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "代数学1 note"
+              "title": "拓扑学note"
             }
           }
         ]
@@ -185,10 +185,10 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "lecture note/代数学2 note.md",
     "Home.md",
-    "lecture note/数论基础note.md",
     "lecture note/代数学1 note.md",
+    "lecture note/代数学2 note.md",
+    "lecture note/数论基础note.md",
     "rep theory/Schur's lemma.md",
     "lecture note/拓扑学note.md",
     "lecture note/高等代数2 note.md",
