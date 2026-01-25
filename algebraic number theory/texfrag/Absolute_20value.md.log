@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=prv_Absolute_20value.md 2025.10.23)  23 OCT 2025 22:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=prv_Absolute_20value.md 2026.1.22)  22 JAN 2026 00:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -24,19 +24,19 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
-(/home/galoistom/.emacs.d/elpa/auctex-14.1.0/latex/preview.sty
+(/home/galoistom/.emacs.d/elpa/auctex-14.1.2/latex/preview.sty
 Package: preview 2024/06/30 14.0.6 (AUCTeX/preview-latex)
  (/usr/share/texmf-dist/tex/generic/luatex85/luatex85.sty
 Package: luatex85 2016/06/15 v1.4 pdftex aliases for luatex
-) (/home/galoistom/.emacs.d/elpa/auctex-14.1.0/latex/prtightpage.def
+) (/home/galoistom/.emacs.d/elpa/auctex-14.1.2/latex/prtightpage.def
 \PreviewBorder=\dimen151
-) (/home/galoistom/.emacs.d/elpa/auctex-14.1.0/latex/prauctex.def
+) (/home/galoistom/.emacs.d/elpa/auctex-14.1.2/latex/prauctex.def
 No auxiliary output files.
 
 
 \hbadness=\count283
 \hfuzz=\dimen152
-(/home/galoistom/.emacs.d/elpa/auctex-14.1.0/latex/prauctex.cfg)) (/home/galoistom/.emacs.d/elpa/auctex-14.1.0/latex/prfootnotes.def)
+(/home/galoistom/.emacs.d/elpa/auctex-14.1.2/latex/prauctex.cfg)) (/home/galoistom/.emacs.d/elpa/auctex-14.1.2/latex/prfootnotes.def)
 \pr@snippet=\count284
 \pr@box=\box55
 \pr@output=\toks24
@@ -4623,6 +4623,21 @@ l.293 $g$
 Not a real error.
 
 [288]
+./Absolute_20value.md.tex:294: Preview: Snippet 289 started.
+<-><->
+      
+l.294 $
+       \frac{1}{2}$
+Not a real error.
+
+./Absolute_20value.md.tex:294: Preview: Snippet 289 ended.(553676+225995x418521).
+<-><->
+      
+l.294 $\frac{1}{2}$
+                   
+Not a real error.
+
+[289]
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -4630,18 +4645,18 @@ L3 programming layer <2025-01-18>
  ) 
 Here is how much of TeX's memory you used:
  12576 strings out of 473834
- 272943 string characters out of 5750518
- 647233 words of memory out of 5000000
+ 272943 string characters out of 5750520
+ 647230 words of memory out of 5000000
  36642 multiletter control sequences out of 15000+600000
  568306 words of font info for 57 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  125i,5n,127p,520b,126s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/euler/eufm5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/euler/eufm7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/share/texm
 f-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on Absolute_20value.md.pdf (288 pages, 197959 bytes).
+Output written on Absolute_20value.md.pdf (289 pages, 198195 bytes).
 PDF statistics:
- 1017 PDF objects out of 1200 (max. 8388607)
- 688 compressed objects within 7 object streams
+ 1022 PDF objects out of 1200 (max. 8388607)
+ 692 compressed objects within 7 object streams
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
